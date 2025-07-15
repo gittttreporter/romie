@@ -12,6 +12,7 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
+      "@main/*": ["src/main/*"],
       "@/*": ["src/*"]
     },
     "types": ["vite/client"],

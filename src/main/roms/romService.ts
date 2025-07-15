@@ -13,7 +13,6 @@ type ImportResult = {
 export async function importRoms(): Promise<ImportResult> {
   const {filePaths} = await dialog.showOpenDialog({ properties: ['openFile', 'multiSelections'] });
   const fileTasks: Promise<RomMetadata>[] = []
-  const result: ImportResult = { imported: [], failed: [] };
 
   // Process all selected ROM files
   filePaths.forEach((filePath) => {
@@ -22,21 +21,19 @@ export async function importRoms(): Promise<ImportResult> {
 
   // Handle processing results
   const results = await Promise.allSettled(fileTasks)
+  const response: ImportResult = { imported: [], failed: [] };
   results.forEach((res) => {
     if (res.status === 'fulfilled') {
-      result.imported.push(res.value)
+      response.imported.push(res.value)
     } else {
-      result.failed.push({
+      response.failed.push({
         file: res.reason?.file || 'unknown',
         reason: res.reason?.reason || 'Unknown error',
       })
     }
   })
 
-  // Store valid ROM metadata
-  // insertRomMetadata(metadata)
-
-  return result;
+  return response;
 }
 
 // FUTURE SERVICES

@@ -1,7 +1,9 @@
 import { app, BrowserWindow, ipcMain, nativeTheme, dialog } from 'electron';
+import log from 'electron-log';
 import path from 'node:path';
 import started from 'electron-squirrel-startup';
 import { registerAllIpc } from '@main/ipc'
+import { loadDatabase } from '@main/roms/romDatabase'
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (started) {
@@ -34,6 +36,16 @@ const createWindow = () => {
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(() => {
+  log.info(`Romie ready to rip on ${process.platform} with chrome@${process.versions.chrome}`)
+  loadDatabase().catch(() => {
+    dialog.showMessageBox({
+      type: 'error',
+      title: 'Database Error',
+      message: 'Failed to load ROM database. Some features may not work correctly.',
+      buttons: ['OK']
+    });
+  })
+
   registerAllIpc();
   createWindow();
 
