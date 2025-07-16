@@ -41,6 +41,7 @@
     "crc-32": "^1.2.2",
     "electron-log": "^5.4.1",
     "electron-squirrel-startup": "^1.0.1",
+    "pinia": "^3.0.3",
     "uuid": "^11.1.0",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1"

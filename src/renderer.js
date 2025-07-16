@@ -5,34 +5,17 @@
  *
  * https://electronjs.org/docs/tutorial/process-model
  *
- * By default, Node.js integration in this file is disabled. When enabling Node.js integration
- * in a renderer process, please be aware of potential security implications. You can read
- * more about security risks here:
- *
- * https://electronjs.org/docs/tutorial/security
- *
- * To enable Node.js integration in this file, open up `main.js` and enable the `nodeIntegration`
- * flag:
- *
- * ```
- *  // Create the browser window.
- *  mainWindow = new BrowserWindow({
- *    width: 800,
- *    height: 600,
- *    webPreferences: {
- *      nodeIntegration: true
- *    }
- *  });
- * ```
  */
 
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router'
+import pinia from './stores'
 
 // import './styles/index.css';
 import './styles/reset.less'
 
-console.log('👋 This message is being logged by "renderer.js", included via Vite');
-
-createApp(App).use(router).mount('#app');
+const app = createApp(App)
+app.use(pinia)
+app.use(router)
+app.mount('#app');
