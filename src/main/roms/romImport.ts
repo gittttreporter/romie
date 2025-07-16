@@ -1,13 +1,13 @@
 import path from 'path';
-import log from 'electron-log';
+import log from 'electron-log/main';
 import fs from 'fs/promises';
 import { v4 as uuidv4 } from 'uuid';
 import { determineSystemFromExtension } from '@main/systems';
 import { extractRegionFromFilename, cleanDisplayName, generateLibretroHashes, copyRomToLibrary } from './romUtils';
 import { addRom } from './romDatabase';
-import type { RomMetadata } from './rom.types';
+import type { Rom } from '../../types/rom';
 
-export async function processRomFile(filePath: string): Promise<RomMetadata> {
+export async function processRomFile(filePath: string): Promise<Rom> {
   const filename = path.basename(filePath);
 
   try {
@@ -53,7 +53,7 @@ export async function processRomFile(filePath: string): Promise<RomMetadata> {
     log.debug(`ROM copied to: ${targetPath}`);
 
     // Create metadata object
-    const metadata: RomMetadata = {
+    const metadata: Rom = {
       id: uuidv4(),
       system,
       displayName,

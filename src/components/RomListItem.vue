@@ -24,7 +24,7 @@ const props = defineProps({
   name: String,
   console: String,
   region: String,
-  size: String,
+  size: Number,
   dateAdded: String // ISO string or raw Date-compatible value
 })
 

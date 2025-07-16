@@ -31,14 +31,13 @@
 </template>
 
 <script setup>
+import log from 'electron-log/renderer';
 
 async function handleImport() {
-  console.log('Import clicked')
-  // window.roms.import
-  // window.roms.list
+  log.info('Initiating rom import..')
 
-  const files = await window.rom.import()
-  console.log('files', files)
+  const result = await window.rom.import()
+  log.info('files', result)
 }
 </script>
 

@@ -2,8 +2,8 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { app } from 'electron';
-import log from 'electron-log';
-import type { RomDatabase, RomMetadata } from './rom.types';
+import log from 'electron-log/main';
+import type { RomDatabase, Rom } from '@/types/rom';
 
 const dbPath = path.join(app.getPath('userData'), 'roms.json');
 const tempPath = path.join(app.getPath('userData'), 'roms.json.tmp');
@@ -67,7 +67,7 @@ export async function saveDatabase(): Promise<void> {
   }
 }
 
-export async function addRom(rom: RomMetadata): Promise<void> {
+export async function addRom(rom: Rom): Promise<void> {
   if (!database) {
     log.error('Attempted to add ROM but no database is loaded');
     throw new Error('No database loaded');
@@ -87,4 +87,13 @@ export async function addRom(rom: RomMetadata): Promise<void> {
   log.info(`ROM added: ${rom.originalFilename}`);
 
   await saveDatabase();
+}
+
+export async function listRoms(): Promise<Rom[]> {
+    if (!database) {
+      log.error('Attempted to list ROMs but no database is loaded');
+      throw new Error('No database loaded');
+    }
+
+    return database.roms;
 }

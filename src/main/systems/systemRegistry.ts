@@ -1,4 +1,4 @@
-import type { SystemCode, SystemInfo } from "./system.types";
+import type { SystemCode, SystemInfo } from "../../types/system";
 
 export const SYSTEM_REGISTRY: Record<SystemCode, SystemInfo> = {
   // === NINTENDO CONSOLES ===

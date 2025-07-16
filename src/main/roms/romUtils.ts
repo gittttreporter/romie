@@ -4,7 +4,7 @@ import CRC32 from 'crc-32';
 import { app } from 'electron'
 import path from 'path'
 import type { PathLike } from 'fs';
-import type { RomRegion } from './rom.types';
+import type { RomRegion } from '../../types/rom';
 
 // Common region codes found in ROM filenames
 export const REGION_CODES: Record<string, RomRegion> = {

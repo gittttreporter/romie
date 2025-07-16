@@ -1,5 +1,5 @@
 import { app, BrowserWindow, ipcMain, nativeTheme, dialog } from 'electron';
-import log from 'electron-log';
+import log from 'electron-log/main';
 import path from 'node:path';
 import started from 'electron-squirrel-startup';
 import { registerAllIpc } from '@main/ipc'
@@ -36,6 +36,8 @@ const createWindow = () => {
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(() => {
+  // Initialize the logger for any renderer process
+  log.initialize();
   log.info(`Romie ready to rip on ${process.platform} with chrome@${process.versions.chrome}`)
   loadDatabase().catch(() => {
     dialog.showMessageBox({

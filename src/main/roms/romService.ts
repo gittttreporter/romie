@@ -1,18 +1,12 @@
 import { dialog } from 'electron'
 import { processRomFile } from './romImport';
-import { RomMetadata } from './rom.types';
+import type { Rom } from '@/types/rom';
+import type { RomImportResult } from '@/types/electron-api';
 
-type ImportResult = {
-  imported: RomMetadata[]; // maybe just RomMetadata[] instead?
-  failed: {
-    file: string;
-    reason: string;
-  }[]
-}
 
-export async function importRoms(): Promise<ImportResult> {
+export async function importRoms(): Promise<RomImportResult> {
   const {filePaths} = await dialog.showOpenDialog({ properties: ['openFile', 'multiSelections'] });
-  const fileTasks: Promise<RomMetadata>[] = []
+  const fileTasks: Promise<Rom>[] = []
 
   // Process all selected ROM files
   filePaths.forEach((filePath) => {
@@ -21,7 +15,7 @@ export async function importRoms(): Promise<ImportResult> {
 
   // Handle processing results
   const results = await Promise.allSettled(fileTasks)
-  const response: ImportResult = { imported: [], failed: [] };
+  const response: RomImportResult = { imported: [], failed: [] };
   results.forEach((res) => {
     if (res.status === 'fulfilled') {
       response.imported.push(res.value)
@@ -36,12 +30,13 @@ export async function importRoms(): Promise<ImportResult> {
   return response;
 }
 
+
 // FUTURE SERVICES
 //
-// export async function listRoms(): Promise<RomMetadata[]> { ... }
 
-// export async function getRom(id: string): Promise<RomMetadata | null> { ... }
+
+// export async function getRom(id: string): Promise<Rom | null> { ... }
 
 // export async function removeRom(id: string): Promise<boolean> { ... }
 
-// export async function updateRom(id: string, changes: Partial<RomMetadata>): Promise<RomMetadata> { ... }
+// export async function updateRom(id: string, changes: Partial<Rom>): Promise<Rom> { ... }

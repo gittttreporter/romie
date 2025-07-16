@@ -1,96 +1,39 @@
 <template>
-  <!-- <div class="empty-state">
-    <div class="emoji">🎮</div>
-    <h2>No ROMs yet</h2>
-    <p>Your library is empty. Start building your collection by importing your first ROM.</p>
-    <button class="primary-button" @click="triggerImport">
-      + Import ROMs
-    </button>
-  </div> -->
   <RomListItem
-    name="Metroid Fusion"
-    console="GBA"
-    region="USA"
-    size="3.2 MB"
-    dateAdded="2025-06-17T14:12:00Z"
+    v-for="rom in roms"
+    :key="rom.id"
+    :name="rom.displayName"
+    :console="rom.system"
+    :region="rom.region"
+    :size="rom.size"
+    :date-added="rom.importedAt"
   />
-
-  <RomListItem
-    name="Final Fantasy VI"
-    console="SNES"
-    region="JPN"
-    size="2.4 MB"
-    dateAdded="2025-06-15T10:05:00Z"
-  />
-
-  <RomListItem
-    name="Castlevania: Symphony of the Night"
-    console="PSX"
-    region="USA"
-    size="657 MB"
-    dateAdded="2025-06-14T21:37:00Z"
-  />
-
-  <RomListItem
-    name="Tetris"
-    console="GB"
-    region="EUR"
-    size="32 KB"
-    dateAdded="2025-06-13T08:17:00Z"
-  />
-
-  <RomListItem
-    name="Pokémon Red"
-    console="GB"
-    region="JPN"
-    size="512 KB"
-    dateAdded="2025-06-12T17:02:00Z"
-  />
-
-  <RomListItem
-    name="The Legend of Zelda: A Link to the Past"
-    console="SNES"
-    region="USA"
-    size="1.1 MB"
-    dateAdded="2025-06-11T12:45:00Z"
-  />
-
-  <RomListItem
-    name="Golden Sun"
-    console="GBA"
-    region="USA"
-    size="8.2 MB"
-    dateAdded="2025-06-10T09:30:00Z"
-  />
-
-  <RomListItem
-    name="Mother 3"
-    console="GBA"
-    region="JPN (fan translated)"
-    size="6.1 MB"
-    dateAdded="2025-06-09T13:20:00Z"
-  />
-
-  <RomListItem
-    name="Super Mario 64"
-    console="N64"
-    region="USA"
-    size="7.9 MB"
-    dateAdded="2025-06-08T16:20:00Z"
-  />
-
-  <RomListItem
-    name="Crash Bandicoot (Demo Disc)"
-    console="PSX"
-    region="PAL"
-    size="230 MB"
-    dateAdded="2025-06-07T18:45:00Z"
-  />
-
 </template>
 
 <script setup lang="ts">
-  import RomListItem from '@/components/RomListItem.vue'
+import { ref, onMounted } from 'vue'
+import log from 'electron-log/renderer';
+import RomListItem from '@/components/RomListItem.vue'
+
+import type { Ref } from 'vue'
+import type { Rom } from '@/types/rom' // Adjust path as needed
+
+const roms: Ref<Rom[]> = ref([])
+const loading: Ref<boolean> = ref(true)
+const error: Ref<Error | null> = ref(null)
+
+onMounted(async () => {
+  try {
+    log.info('Getting rom list..')
+    roms.value = await window.rom.list()
+    log.info(roms.value)
+  } catch (err) {
+    error.value = err instanceof Error ? err : new Error('Unknown error')
+    log.error('Failed to load ROMs:', err)
+  } finally {
+    loading.value = false
+  }
+})
 </script>
 
 <style scoped lang="less">

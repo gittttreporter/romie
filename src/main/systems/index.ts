@@ -1,5 +1,5 @@
 import { SYSTEM_REGISTRY } from "./systemRegistry";
-import type { SystemType, SystemCode, SystemInfo } from "./system.types";
+import type { SystemType, SystemCode, SystemInfo } from "../../types/system";
 
 
 // Helper functions
