@@ -236,3 +236,12 @@ function findRegionInText(text: string): RomRegion | 'Unknown' {
 export function isValidRegion(region: string): region is RomRegion | 'Unknown' {
   return Object.values(REGION_CODES).includes(region as RomRegion) || region === 'Unknown';
 }
+
+export async function fileExists (filePath: PathLike) {
+  try {
+    await fs.stat(filePath)
+    return true;
+  } catch (_) {
+    return false
+  }
+}

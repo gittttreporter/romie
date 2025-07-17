@@ -17,16 +17,20 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 
-const props = defineProps({
-  name: String,
-  console: String,
-  region: String,
-  size: Number,
-  dateAdded: String // ISO string or raw Date-compatible value
-})
+const props = defineProps<{
+  id: string
+  name: string
+  console: string
+  region: string
+  size: number
+  dateAdded: string // ISO string or raw Date-compatible value
+}>()
+const emit = defineEmits<{
+   (e: 'remove', id: string): void
+}>()
 
 const date = new Date(props.dateAdded)
 const now = new Date()
@@ -37,14 +41,15 @@ const formattedDate = date.toLocaleDateString(undefined, {
   ...(isSameYear ? {} : { year: 'numeric' }),
 })
 
-const hovered = ref(false)
+const hovered = ref<boolean>(false)
 
-function handleClick() {
+function handleClick(): void {
   console.log(`Open ROM: ${props.name}`)
 }
 
-function handleDelete() {
+function handleDelete(): void {
   console.log(`Delete ROM: ${props.name}`)
+  emit('remove', props.id)
 }
 </script>
 

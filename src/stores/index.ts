@@ -8,5 +8,5 @@ const pinia = createPinia()
 export default pinia
 
 // Re-export stores
-export { useRomsStore } from './roms'
+export { useRomStore } from './roms'
 export { useUIStore } from './ui'

@@ -1,39 +1,35 @@
 <template>
   <RomListItem
-    v-for="rom in roms"
+    v-for="rom in romStore.roms"
     :key="rom.id"
+    :id="rom.id"
     :name="rom.displayName"
     :console="rom.system"
     :region="rom.region"
     :size="rom.size"
     :date-added="rom.importedAt"
+    @remove="handleRemove"
   />
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
-import log from 'electron-log/renderer';
+import { onMounted } from 'vue'
+import { useRomStore } from '@/stores';
 import RomListItem from '@/components/RomListItem.vue'
 
-import type { Ref } from 'vue'
-import type { Rom } from '@/types/rom' // Adjust path as needed
+// Get the store
+const romStore = useRomStore()
 
-const roms: Ref<Rom[]> = ref([])
-const loading: Ref<boolean> = ref(true)
-const error: Ref<Error | null> = ref(null)
-
+// Load ROMs when component mounts
 onMounted(async () => {
-  try {
-    log.info('Getting rom list..')
-    roms.value = await window.rom.list()
-    log.info(roms.value)
-  } catch (err) {
-    error.value = err instanceof Error ? err : new Error('Unknown error')
-    log.error('Failed to load ROMs:', err)
-  } finally {
-    loading.value = false
-  }
+  await romStore.loadRoms()
 })
+
+// Methods
+//--------
+function handleRemove (id: string): void {
+  romStore.removeRom(id)
+}
 </script>
 
 <style scoped lang="less">

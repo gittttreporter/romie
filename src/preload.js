@@ -5,6 +5,7 @@ import { contextBridge, ipcRenderer } from 'electron'
 
 const romApi = {
   list: () => ipcRenderer.invoke('rom:list'),
+  remove: (id) => ipcRenderer.invoke('rom:remove', id),
   import: () => ipcRenderer.invoke('rom:import'),
 }
 

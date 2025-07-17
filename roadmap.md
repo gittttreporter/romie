@@ -1,15 +1,16 @@
 ## ✅ V1 MVP (Must Have to Launch)
 
-- [ ] Import single ROM files (e.g. `.gba`, `.sfc`, `.nes`)
-- [ ] Automatically organize ROMs into `/roms/<console>/` folders
-- [ ] Parse basic filename info (game name, region, version tags)
-- [ ] Generate clean display names for UI (remove brackets and region tags)
-- [ ] Store metadata to `roms.json`
-- [ ] ROM list view in the UI with region tag
 - [ ] Simple search box (filter by name)
-- [ ] Delete ROMs from the library
 - [ ] Detect duplicate ROMs (MD5 hash comparison with user confirmation)
 - [ ] Basic error handling (corrupted files, unsupported formats, disk space)
+- [ ] Basic app icon
+- [x] Automatically save ROM files into `<appdir>/roms/`
+- [x] Import single ROM files (e.g. `.gba`, `.sfc`, `.nes`)
+- [x] Parse basic filename info (game name, region, version tags)
+- [x] Generate clean display names for UI (remove brackets and region tags)
+- [x] Store metadata to `roms.json`
+- [x] ROM list view in the UI with region tag
+- [x] Delete ROMs from the library
 
 ---
 

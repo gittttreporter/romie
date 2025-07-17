@@ -11,10 +11,14 @@ if (started) {
 }
 
 const createWindow = () => {
-  // Create the browser window.
+  // Create the browser windhttps://open.spotify.com/track/0FJICaE2ni8vZyyD3vWZwGow.
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    // Remove the window frame
+    frame: 'false',
+    // Hide the title bar but keep traffic lights on MacOS
+    titleBarStyle: 'hidden',
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
     },

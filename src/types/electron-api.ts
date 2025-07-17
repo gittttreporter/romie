@@ -10,5 +10,6 @@ export type RomImportResult = {
 
 export interface RomApi {
   list(): Promise<Rom[]>
+  remove(id: string): Promise<void>
   import(): Promise<RomImportResult>
 }

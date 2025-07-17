@@ -30,14 +30,21 @@
   </aside>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import log from 'electron-log/renderer';
+import { useRomStore } from '@/stores';
+
+const romStore = useRomStore();
 
 async function handleImport() {
-  log.info('Initiating rom import..')
-
-  const result = await window.rom.import()
-  log.info('files', result)
+  try {
+    const result = await romStore.importRom()
+    // TODO: process and show errors in RomImportResult
+    log.info('files', result)
+  } catch (error) {
+    // TODO: Add UI for failure state.
+    log.error(error)
+  }
 }
 </script>
 
