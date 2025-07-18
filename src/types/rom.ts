@@ -43,7 +43,7 @@ export interface Rom {
 export interface RomDatabaseStats {
   totalRoms: number;
   totalSizeBytes: number;
-  systemCounts: Record<SystemCode, number> | {};
+  systemCounts: Partial<Record<SystemCode, number>>;
 }
 
 export interface RomDatabase {

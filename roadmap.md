@@ -1,29 +1,46 @@
-## ✅ V1 MVP (Must Have to Launch)
+# ROMie MVP
 
-- [ ] Simple search box (filter by name)
-- [ ] Detect duplicate ROMs (MD5 hash comparison with user confirmation)
-- [ ] Basic error handling (corrupted files, unsupported formats, disk space)
-- [ ] Basic app icon
-- [x] Automatically save ROM files into `<appdir>/roms/`
-- [x] Import single ROM files (e.g. `.gba`, `.sfc`, `.nes`)
-- [x] Parse basic filename info (game name, region, version tags)
-- [x] Generate clean display names for UI (remove brackets and region tags)
-- [x] Store metadata to `roms.json`
-- [x] ROM list view in the UI with region tag
-- [x] Delete ROMs from the library
+## 1. Import
+- [x] Drag‑&‑drop + file picker (single & multi‑select)
+- [x] Auto‑copy to `<appdir>/roms/` with unique filenames
+- [x] Parse & clean filenames (remove brackets, tags)
+- [ ] Duplicate detection (MD5): prompt “Keep both / skip / replace”
+- [ ] Error messaging for unsupported formats, corrupt files, low disk space
+
+## 2. Manage
+- [x] List view: clean display name + region badge
+- [ ] Search/filter bar: name search + platform dropdown
+- [ ] Library summary view: total count, total size, count by system
+- [ ] Delete ROM (with “Are you sure?”)
+- [x] Persistent JSON store (lowdb or election‑store)
+
+## 3. Sync
+- [ ] Onion OS SD‑card copy (core “sync” MVP)
+- [ ] Device profile system (map consoles → target folders)
+
+# Polish & Launch Essentials
+- [ ] Basic app icon + splash (macOS / Windows)
+- [ ] Sentry integration (error + performance breadcrumbs)
+- [ ] Simple landing page (GitHub repo link + “Download v1.0”)
+- [ ] README & “Getting Started” (screenshots, install steps)
 
 ---
 
 ## 💭 Future Ideas
 
 - [ ] Use libretro/libretro-database for game name normalization
+- [ ] Copy ROMS to SD card (Stock, DotUI, Allium)
+- [ ] Playlists: Optionally sync playlists to SD card instead of full library
+- [ ] Retroacheivements
+- [ ] Light/Dark mode
+- [ ] Add setting to set the rom storage directory
+- [ ] Add Pico8 suport
 - [ ] Import `.zip` files (extract and scan contents)
 - [ ] Multi-disc PS1 game support (`.bin`/`.cue` grouping)
 - [ ] Box art scraping and caching
 - [ ] Favorite/star ROMs
 - [ ] Tag ROMs (e.g. "Fan Translation", "Repro", etc.)
 - [ ] Auto-detect connected devices (e.g. Miyoo Mini+)
-- [ ] One-click sync to SD card / device folder
 - [ ] Process dump info tags ([!], [h], etc)
 - [ ] Settings panel (theme, sync preferences, storage path override)
 - [ ] Backup and restore your library

@@ -3,7 +3,6 @@ import log from 'electron-log/main';
 import path from 'node:path';
 import started from 'electron-squirrel-startup';
 import { registerAllIpc } from '@main/ipc'
-import { loadDatabase } from '@main/roms/romDatabase'
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (started) {
@@ -43,15 +42,6 @@ app.whenReady().then(() => {
   // Initialize the logger for any renderer process
   log.initialize();
   log.info(`Romie ready to rip on ${process.platform} with chrome@${process.versions.chrome}`)
-  loadDatabase().catch(() => {
-    dialog.showMessageBox({
-      type: 'error',
-      title: 'Database Error',
-      message: 'Failed to load ROM database. Some features may not work correctly.',
-      buttons: ['OK']
-    });
-  })
-
   registerAllIpc();
   createWindow();
 
