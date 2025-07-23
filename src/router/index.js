@@ -1,38 +1,66 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from "vue-router";
 
-import LibraryHomeView from '@/views/LibraryHomeView.vue'
-// import FavoritesView from '@/views/FavoritesView.vue'
-// import ConsoleView from '@/views/ConsoleView.vue'
-// import DeviceView from '@/views/DeviceView.vue'
+import LibraryView from "@/views/LibraryView.vue";
+import FavoritesView from "@/views/FavoritesView.vue";
+import RecentlyAddedView from "@/views/RecentlyAddedView.vue";
+import CollectionsView from "@/views/CollectionsView.vue";
+import CollectionDetailView from "@/views/CollectionDetailView.vue";
+import RomDetailView from "@/views/RomDetailView.vue";
+import RomImportView from "@/views/RomImportView.vue";
+import SettingsView from "@/views/SettingsView.vue";
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: LibraryHomeView,
+    path: "/",
+    redirect: "/library",
   },
   {
-    path: '/favorites',
-    name: 'favorites',
-    component: LibraryHomeView,
+    path: "/library",
+    name: "library",
+    component: LibraryView,
   },
   {
-    path: '/console/:console',
-    name: 'console',
-    component: LibraryHomeView,
+    path: "/import",
+    name: "import",
+    component: RomImportView,
+  },
+  {
+    path: "/favorites",
+    name: "favorites",
+    component: FavoritesView,
+  },
+  {
+    path: "/recent",
+    name: "recent",
+    component: RecentlyAddedView,
+  },
+  {
+    path: "/collections",
+    name: "collections",
+    component: CollectionsView,
+  },
+  {
+    path: "/collections/:collectionId",
+    name: "collection-detail",
+    component: CollectionDetailView,
     props: true,
   },
   {
-    path: '/device/:device',
-    name: 'device',
-    component: LibraryHomeView,
+    path: "/rom/:romId",
+    name: "rom-detail",
+    component: RomDetailView,
     props: true,
   },
-]
+  {
+    path: "/settings",
+    name: "settings",
+    component: SettingsView,
+  },
+];
 
 const router = createRouter({
   history: createWebHashHistory(),
   routes,
-})
+});
 
-export default router
+export default router;

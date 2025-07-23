@@ -15,6 +15,7 @@ import router from "./router";
 import pinia from "./stores";
 
 import "./styles/reset.less";
+import "primeicons/primeicons.css";
 
 const app = createApp(App);
 app.use(pinia);

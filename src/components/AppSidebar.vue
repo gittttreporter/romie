@@ -1,147 +1,253 @@
 <template>
-  <aside class="sidebar">
-    <div class="section actions">
-      <input
-        id="global-app-search"
-        type="text"
-        class="search-input"
-        placeholder="Search ROMs..."
-      />
-      <button class="import-button primary-button" @click="handleImport">+ Import ROMs</button>
+  <aside class="app-sidebar">
+    <div
+      class="app-sidebar__section"
+      v-for="section in sections"
+      :key="section.id"
+    >
+      <h4 v-if="section.title" class="app-sidebar__title">
+        {{ section.title }}
+      </h4>
+      <ul class="app-sidebar__items">
+        <!-- <li
+          @click="toggleMenu"
+          v-if="section.id === 'library'"
+          class="app-sidebar__item app-sidebar__item--profile"
+        >
+          <div class="app-sidebar__icon">
+            <i class="pi pi-user"></i>
+          </div>
+          <div class="app-sidebar__label">
+            Your Library
+            <i class="pi pi-angle-down app-sidebar__suffix-icon"></i>
+          </div>
+          <div class="app-sidebar__item-actions">
+            <Button
+              icon="pi pi-plus"
+              severity="secondary"
+              size="small"
+              :rounded="true"
+              @click.stop="handleImport"
+            />
+          </div>
+        </li> -->
+        <li v-for="item in section.items" :key="item.id">
+          <RouterLink
+            :to="{ name: item.route, params: item.params }"
+            class="app-sidebar__item"
+            active-class="app-sidebar__item--active"
+          >
+            <span class="app-sidebar__icon" v-if="item.icon">
+              <i :class="item.icon"></i>
+            </span>
+            <span class="app-sidebar__label">{{ item.label }}</span>
+            <Badge
+              v-if="item.count"
+              :value="item.count"
+              severity="secondary"
+              class="app-sidebar__count"
+            />
+          </RouterLink>
+        </li>
+      </ul>
     </div>
 
-    <div class="section">
-      <div class="title">Library</div>
-      <RouterLink class="item" to="/">Home</RouterLink>
-      <RouterLink class="item" to="/favorites">Favorites</RouterLink>
+    <div class="app-sidebar__footer">
+      <div class="app-sidebar__section">
+        <ul class="app-sidebar__items">
+          <li>
+            <RouterLink
+              :to="{ name: 'settings' }"
+              class="app-sidebar__item"
+              active-class="app-sidebar__item--active"
+            >
+              <span class="app-sidebar__icon">
+                <i class="pi pi-cog"></i>
+              </span>
+              <span class="app-sidebar__label">Settings</span>
+            </RouterLink>
+          </li>
+        </ul>
+      </div>
     </div>
-
-    <div class="section">
-      <div class="title">Consoles</div>
-      <RouterLink class="item" :to="{ name: 'console', params: { console: 'gba' } }">GBA</RouterLink>
-      <RouterLink class="item" :to="{ name: 'console', params: { console: 'snes' } }">SNES</RouterLink>
-      <RouterLink class="item" :to="{ name: 'console', params: { console: 'psx' } }">PSX</RouterLink>
-    </div>
-
-    <div class="section">
-      <div class="title">Devices</div>
-      <RouterLink class="item" :to="{ name: 'device', params: { device: 'miyoo' } }">Miyoo Mini+</RouterLink>
-    </div>
+    <!-- <Menu ref="menu" id="overlay_menu" :model="menuItems" :popup="true" /> -->
   </aside>
 </template>
 
 <script setup lang="ts">
-import log from 'electron-log/renderer';
-import { useRomStore } from '@/stores';
+import log from "electron-log";
+import { RouterLink } from "vue-router";
+import { computed, ref } from "vue";
+import Badge from "primevue/badge";
+import { useRomStore } from "@/stores";
 
 const romStore = useRomStore();
 
-async function handleImport() {
-  try {
-    const result = await romStore.importRom()
-    // TODO: process and show errors in RomImportResult
-    log.info('files', result)
-  } catch (error) {
-    // TODO: Add UI for failure state.
-    log.error(error)
-  }
-}
+const sections = computed(() => [
+  {
+    id: "library",
+    items: [
+      {
+        id: "import",
+        label: "Import",
+        icon: "pi pi-upload",
+        route: "import",
+      },
+      {
+        id: "all-roms",
+        label: "Library",
+        count: 23, // TODO: Implment counts from stats in db
+        icon: "pi pi-folder",
+        route: "library",
+      },
+      {
+        id: "recent",
+        label: "Recently Added",
+        count: 0,
+        icon: "pi pi-clock",
+        route: "recent",
+      },
+      {
+        id: "favorites",
+        label: "Favorites",
+        count: 0,
+        icon: "pi pi-heart",
+        route: "favorites",
+      },
+    ],
+  },
+  {
+    id: "collections",
+    title: "Collections",
+    items: [],
+  },
+]);
 </script>
 
 <style scoped lang="less">
-// TODO: Move this to main.less
-.primary-button {
-  display: inline-block;
-  width: 100%;
-  background-color: #ff2d55;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 0.5rem 0.75rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-  cursor: pointer;
-  text-align: center;
-  transition: background 0.2s ease, transform 0.1s ease;
+// Theme Variables (move to theme file later)
+@sidebar-width: 280px;
+@sidebar-bg: #ffffff;
+@sidebar-border: #e5e5e5;
+@sidebar-text-primary: #1d1d1f;
+@sidebar-text-secondary: #86868b;
+@sidebar-hover-bg: #f5f5f7;
+@sidebar-active-bg: #007aff;
+@sidebar-active-text: #ffffff;
+@primary-color: #007aff;
+@primary-color-text: #ffffff;
+@primary-color-hover: #0056cc;
 
-  &:hover {
-    background-color: #ff3a66;
-  }
+// Dark theme overrides
+@sidebar-bg-dark: #1e1e1e;
+@sidebar-border-dark: #2d2d2d;
+@sidebar-text-primary-dark: #ffffff;
+@sidebar-text-secondary-dark: #98989d;
+@sidebar-hover-bg-dark: #2c2c2e;
 
-  &:active {
-    transform: scale(0.98);
-  }
-
-  &:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px rgba(255, 45, 85, 0.4);
-  }
-
-  &:disabled {
-    background-color: #555;
-    cursor: not-allowed;
-    opacity: 0.7;
-  }
-}
-
-.sidebar {
-  width: 240px;
-  background: #1c1c1e;
-  padding: 1rem;
-  box-sizing: border-box;
+.app-sidebar {
+  width: @sidebar-width;
+  background: @sidebar-bg;
+  border-right: 1px solid @sidebar-border;
+  padding: 12px 0 0 0;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  overflow-y: auto;
 
-  .section {
-    margin-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
+  &__section {
+    margin-bottom: 16px;
   }
 
-  .title {
-    font-size: 0.75rem;
-    color: #888;
+  &__title {
+    font-size: 11px;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    margin-bottom: 0.5rem;
+    color: @sidebar-text-secondary;
+    margin: 0 16px 8px 16px;
+    padding: 0;
   }
 
-  .item {
-    padding: 0.5rem 0.75rem;
-    border-radius: 6px;
+  &__items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    padding: 6px 16px;
     cursor: pointer;
-    transition: background 0.2s ease;
-    font-size: 0.9rem;
-    color: #f2f2f2;
+    border-radius: 6px;
+    margin: 0 8px;
+    transition: all 0.15s ease;
+    font-size: 14px;
+    line-height: 1.4;
+    text-decoration: none;
+    color: inherit;
 
     &:hover {
-      background: rgba(255, 255, 255, 0.05);
+      background: @sidebar-hover-bg;
     }
 
-    &.router-link-active {
-      background: #3a3a3c;
-      color: white;
+    &--active {
+      background: @sidebar-active-bg;
+      color: @sidebar-active-text;
+
+      .app-sidebar__count,
+      .app-sidebar__icon {
+        opacity: 0.9;
+      }
     }
   }
 
-  .search-input {
-    width: 100%;
-    padding: 0.5rem 0.75rem;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-    font-size: 0.9rem;
-    background: #2c2c2e;
-    color: #f2f2f2;
-    margin-bottom: 12px;
+  &__icon {
+    margin-right: 8px;
+    opacity: 0.7;
+    font-size: 12px;
+  }
 
-    &::placeholder {
-      color: #888;
+  &__label {
+    flex: 1;
+    font-weight: 400;
+  }
+
+  &__count {
+    font-size: 11px;
+    opacity: 0.7;
+    font-weight: 500;
+    margin-left: auto;
+  }
+
+  &__header {
+    padding: 4px 16px;
+  }
+
+  &__footer {
+    margin-top: auto;
+  }
+
+  // Dark mode adjustments
+  @media (prefers-color-scheme: dark) {
+    background: @sidebar-bg-dark;
+    border-right-color: @sidebar-border-dark;
+
+    .app-sidebar__title {
+      color: @sidebar-text-secondary-dark;
     }
 
-    &:focus {
-      background: #3a3a3c;
+    .app-sidebar__item {
+      color: @sidebar-text-primary-dark;
+
+      &:hover {
+        background: @sidebar-hover-bg-dark;
+      }
+    }
+
+    .app-sidebar__footer {
+      border-top-color: @sidebar-border-dark;
     }
   }
 }
