@@ -12,53 +12,11 @@
 import { computed } from "vue";
 import type { SystemCode } from "@/types/system";
 
-// Abbreviation mapping table
-const SYSTEM_ABBREVIATIONS: Record<SystemCode, string> = {
-  nes: "NES",
-  snes: "SNES",
-  n64: "N64",
-  gb: "GB",
-  gbc: "GBC",
-  gba: "GBA",
-  genesis: "GEN",
-  sms: "SMS",
-  gg: "GG",
-  psx: "PSX",
-  atari2600: "2600",
-  arcade: "ARC",
-};
-
-// Human display name mapping (for accessibility/title)
-const SYSTEM_DISPLAY_NAMES: Record<SystemCode, string> = {
-  nes: "Nintendo Entertainment System",
-  snes: "Super Nintendo Entertainment System",
-  n64: "Nintendo 64",
-  gb: "Game Boy",
-  gbc: "Game Boy Color",
-  gba: "Game Boy Advance",
-  genesis: "Sega Genesis",
-  sms: "Sega Master System",
-  gg: "Game Gear",
-  psx: "Sony PlayStation",
-  atari2600: "Atari 2600",
-  arcade: "Arcade",
-};
-
-// System color mapping (customize as desired)
-const SYSTEM_COLORS: Record<SystemCode, string> = {
-  nes: "#364d30", // subtle olive/dark sage
-  snes: "#443966", // dusty indigo
-  n64: "#375366", // soft steel blue
-  gb: "#2c6153", // deep aqua
-  gbc: "#38705e", // teal-blue
-  gba: "#335966", // blue-gray
-  genesis: "#563342", // muted plum
-  sms: "#63503c", // soft brown
-  gg: "#61603c", // olive green
-  psx: "#373d66", // desaturated violet blue
-  atari2600: "#77572d", // low-key ochre
-  arcade: "#6a5a2e", // muted gold brown
-};
+import {
+  getSystemAbbreviation,
+  getSystemDisplayName,
+  getSystemColor,
+} from "@/utils/system.utils";
 
 const props = defineProps<{
   code: SystemCode;
@@ -67,15 +25,11 @@ const props = defineProps<{
 }>();
 
 // Use mapped abbreviation, else fall back to uppercase code
-const abbr = computed(
-  () => SYSTEM_ABBREVIATIONS[props.code] || props.code.toUpperCase(),
-);
-const systemDisplayName = computed(
-  () => SYSTEM_DISPLAY_NAMES[props.code] || props.code,
-);
+const abbr = computed(() => getSystemAbbreviation(props.code));
+const systemDisplayName = computed(() => getSystemDisplayName(props.code));
 
 const systemColorComputed = computed(
-  () => props.color || SYSTEM_COLORS[props.code] || "#bbb",
+  () => props.color || getSystemColor(props.code),
 );
 
 // Ensure decent readability for badge text

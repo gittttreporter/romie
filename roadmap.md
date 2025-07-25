@@ -9,7 +9,7 @@
 
 ## 2. Manage
 - [x] List view: clean display name + region badge
-- [ ] Search/filter bar: name search + platform dropdown
+- [x] Search/filter bar: name search + platform dropdown
 - [ ] Library summary view: total count, total size, count by system
 - [ ] Delete ROM (with “Are you sure?”)
 - [x] Persistent JSON store (lowdb or election‑store)
