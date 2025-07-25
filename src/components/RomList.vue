@@ -1,21 +1,15 @@
 <template>
   <div class="rom-list" :class="`rom-list--${compact ? 'compact' : 'normal'}`">
-    <VirtualScroller
-      :items="roms"
-      :itemSize="itemHeight"
-      class="rom-list__scroller"
-    >
-      <template v-slot:item="{ item: rom }">
-        <RomListItem
-          :id="rom.id"
-          :name="rom.displayName"
-          :system="rom.system"
-          :region="rom.region"
-          :size="rom.size"
-          :date-added="rom.importedAt"
-        />
-      </template>
-    </VirtualScroller>
+    <RomListItem
+      v-for="rom in roms"
+      :id="rom.id"
+      :name="rom.displayName"
+      :system="rom.system"
+      :region="rom.region"
+      :size="rom.size"
+      :date-added="rom.importedAt"
+      @click="selectRom(rom)"
+    />
   </div>
 </template>
 
@@ -41,14 +35,8 @@ function selectRom(rom: Rom) {
 <style lang="less">
 .rom-list {
   height: 100%; // Take full height of the content area
-  width: 100%;
-
-  &__scroller {
-    height: 100%; // VirtualScroller takes full height of rom-list
-    width: 100%;
-    overflow: auto;
-  }
-
+  overflow: auto;
+  padding: 12px 0;
   // Your existing BEM styles here...
   &--compact {
     // compact styles

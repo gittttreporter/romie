@@ -4,7 +4,7 @@
     <div class="app-layout__draggable-area"></div>
 
     <div class="app-layout__main">
-      <AppSidebar class="app-layout__main-sidebar"/>
+      <AppSidebar class="app-layout__main-sidebar" />
       <div class="app-layout__main-content">
         <slot />
       </div>
@@ -12,7 +12,7 @@
   </main>
 </template>
 <script setup lang="ts">
-import AppSidebar from '@/components/AppSidebar.vue'
+import AppSidebar from "@/components/AppSidebar.vue";
 </script>
 
 <style lang="less" scoped>
@@ -47,7 +47,6 @@ import AppSidebar from '@/components/AppSidebar.vue'
 
   &__main-content {
     flex: 1;
-    padding: 2rem;
     overflow-y: auto;
   }
 }

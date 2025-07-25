@@ -5,7 +5,11 @@
         <InputIcon>
           <i class="pi pi-search" />
         </InputIcon>
-        <InputText v-model="searchQuery" placeholder="Search in your library" />
+        <InputText
+          v-model="searchQuery"
+          size="small"
+          placeholder="Search in your library"
+        />
       </IconField>
     </div>
     <div class="library-view__content">
@@ -59,19 +63,19 @@ const filteredRoms = computed(() => {
 
 <style lang="less" scoped>
 .library-view {
-  height: 100vh; // Take full viewport height
+  height: 100vh;
   display: flex;
   flex-direction: column;
 
   &__header {
     padding: 16px;
     flex-shrink: 0;
-    z-index: 10; // Keep header above scrolling content
+    border-bottom: 1px solid black;
   }
 
   &__content {
-    flex: 1; // Take remaining space after header
-    min-height: 0; // Critical! Allows flex child to shrink below content size
+    flex: 1;
+    min-height: 0;
     overflow: hidden;
   }
 
