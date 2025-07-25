@@ -9,28 +9,6 @@
         {{ section.title }}
       </h4>
       <ul class="app-sidebar__items">
-        <!-- <li
-          @click="toggleMenu"
-          v-if="section.id === 'library'"
-          class="app-sidebar__item app-sidebar__item--profile"
-        >
-          <div class="app-sidebar__icon">
-            <i class="pi pi-user"></i>
-          </div>
-          <div class="app-sidebar__label">
-            Your Library
-            <i class="pi pi-angle-down app-sidebar__suffix-icon"></i>
-          </div>
-          <div class="app-sidebar__item-actions">
-            <Button
-              icon="pi pi-plus"
-              severity="secondary"
-              size="small"
-              :rounded="true"
-              @click.stop="handleImport"
-            />
-          </div>
-        </li> -->
         <li v-for="item in section.items" :key="item.id">
           <RouterLink
             :to="{ name: item.route, params: item.params }"
@@ -77,11 +55,15 @@
 <script setup lang="ts">
 import log from "electron-log";
 import { RouterLink } from "vue-router";
-import { computed, ref } from "vue";
+import { computed, ref, onMounted } from "vue";
 import Badge from "primevue/badge";
 import { useRomStore } from "@/stores";
 
 const romStore = useRomStore();
+
+onMounted(() => {
+  romStore.loadStats();
+});
 
 const sections = computed(() => [
   {
@@ -96,7 +78,7 @@ const sections = computed(() => [
       {
         id: "all-roms",
         label: "Library",
-        count: 23, // TODO: Implment counts from stats in db
+        count: romStore.stats.totalRoms,
         icon: "pi pi-folder",
         route: "library",
       },
@@ -126,7 +108,7 @@ const sections = computed(() => [
 
 <style scoped lang="less">
 // Theme Variables (move to theme file later)
-@sidebar-width: 280px;
+@sidebar-width: 200px;
 @sidebar-bg: #ffffff;
 @sidebar-border: #e5e5e5;
 @sidebar-text-primary: #1d1d1f;

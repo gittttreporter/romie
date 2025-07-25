@@ -28,6 +28,7 @@
 
 ## 💭 Future Ideas
 - [ ] Implement VirtualScroller for improved performance
+- [ ] AI boxart remixer
 - [ ] Use libretro/libretro-database for game name normalization
 - [ ] Copy ROMS to SD card (Stock, DotUI, Allium)
 - [ ] Playlists: Optionally sync playlists to SD card instead of full library

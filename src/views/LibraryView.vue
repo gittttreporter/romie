@@ -2,17 +2,19 @@
   <div class="library-view">
     <div class="library-view__header">
       <div class="library-view__header-actions">
+        <!-- TODO: Add this back once grid view is implemented
         <SelectButton
           v-model="listMode"
           :options="listModeOptions"
           optionValue="value"
           dataKey="value"
+          size="small"
           aria-labelledby="custom"
         >
           <template #option="slotProps">
             <i :class="slotProps.option.icon"></i>
           </template>
-        </SelectButton>
+        </SelectButton> -->
       </div>
       <IconField>
         <InputIcon>
@@ -177,14 +179,14 @@ function getUniqueRomValues<T extends keyof Rom>(field: T) {
   }
 
   &__filters {
-    padding: 10px 16px;
-    height: 30px;
+    padding: 4px 16px;
     flex-shrink: 0;
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 8px;
+    background-color: #1a1a1a;
   }
 
   &__content {

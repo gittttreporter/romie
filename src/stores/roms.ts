@@ -1,61 +1,79 @@
-import { defineStore } from 'pinia'
-import log from 'electron-log/renderer';
-import type { Rom } from '@/types/rom'
-import type { RomImportResult } from '@/types/electron-api'
+import { defineStore } from "pinia";
+import log from "electron-log/renderer";
+import type { Rom, RomDatabaseStats } from "@/types/rom";
+import type { RomImportResult } from "@/types/electron-api";
 
 interface RomState {
-  roms: Rom[]
-  loading: boolean
-  error: string | null
-  selectedRom: Rom | null
+  roms: Rom[];
+  stats: RomDatabaseStats;
+  loading: boolean;
+  error: string | null;
+  selectedRom: Rom | null;
 }
 
-export const useRomStore = defineStore('roms', {
+export const useRomStore = defineStore("roms", {
   state: (): RomState => ({
     roms: [],
+    stats: {
+      totalRoms: 0,
+      totalSizeBytes: 0,
+      systemCounts: {},
+    },
     loading: false,
     error: null,
-    selectedRom: null
+    selectedRom: null,
   }),
 
   getters: {
     romCount(): number {
-      return this.roms.length
-    }
+      return this.roms.length;
+    },
   },
 
   actions: {
+    async loadStats() {
+      log.info("Loading rom stats..");
+
+      try {
+        this.stats = await window.rom.stats();
+        log.info("Loaded rom stats");
+      } catch (error) {
+        log.error(error);
+      }
+    },
     async loadRoms() {
-      log.info('Loading rom data..')
+      log.info("Loading rom data..");
       this.loading = true;
 
       try {
-        this.roms = await window.rom.list()
+        this.roms = await window.rom.list();
       } catch (error) {
-        log.error(error)
+        log.error(error);
       } finally {
         this.loading = false;
       }
     },
     async removeRom(id: string) {
-      log.info(`Removing ${id}`)
+      log.info(`Removing ${id}`);
       this.loading = true;
 
       try {
-        await window.rom.remove(id)
-        this.loadRoms()
+        await window.rom.remove(id);
+        await this.loadRoms();
+        await this.loadStats();
       } catch (error) {
-        log.error(error)
+        log.error(error);
       } finally {
         this.loading = false;
       }
     },
     async importRom(): Promise<RomImportResult> {
-      log.info('Initiating rom import..')
+      log.info("Initiating rom import..");
       const importResults = await window.rom.import();
-      await this.loadRoms()
+      await this.loadRoms();
+      await this.loadStats();
 
       return importResults;
-    }
-  }
-})
+    },
+  },
+});
