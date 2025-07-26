@@ -31,7 +31,7 @@ const props = defineProps<{
   display: flex;
   gap: 8px;
   align-items: center;
-  padding: 4px 8px;
+  padding: 6px 8px;
   margin: 0 8px;
   border-radius: 4px;
   transition: background-color 0.2s ease-in-out;
@@ -52,7 +52,7 @@ const props = defineProps<{
   }
 
   &__name {
-    font-weight: bold;
+    font-weight: 500;
   }
 
   &__region {

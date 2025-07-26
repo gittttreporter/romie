@@ -1,24 +1,25 @@
 <template>
-  <div class="rom-list" :class="`rom-list--${compact ? 'compact' : 'normal'}`">
-    <RouterLink
-      v-for="rom in roms"
-      :key="rom.id"
-      :to="`/library/${rom.id}`"
-      custom
-      v-slot="{ navigate, isActive }"
-    >
-      <RomListItem
-        :id="rom.id"
-        :name="rom.displayName"
-        :system="rom.system"
-        :region="rom.region"
-        :size="rom.size"
-        :date-added="rom.importedAt"
-        :is-active="isActive"
-        @click="navigate"
-      />
-    </RouterLink>
-  </div>
+  <ul class="rom-list" :class="`rom-list--${compact ? 'compact' : 'normal'}`">
+    <li v-for="rom in roms" :key="rom.id" :tabindex="0">
+      <RouterLink
+        :key="rom.id"
+        :to="`/library/${rom.id}`"
+        custom
+        v-slot="{ navigate, isActive }"
+      >
+        <RomListItem
+          :id="rom.id"
+          :name="rom.displayName"
+          :system="rom.system"
+          :region="rom.region"
+          :size="rom.size"
+          :date-added="rom.importedAt"
+          :is-active="isActive"
+          @click="navigate"
+        />
+      </RouterLink>
+    </li>
+  </ul>
 </template>
 
 <script setup lang="ts">

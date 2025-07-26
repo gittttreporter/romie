@@ -4,39 +4,43 @@
       <template #title>{{ rom.displayName }}</template>
       <template #subtitle>{{ systemDisplayName }}</template>
       <template #content>
-        <ul class="rom-details__metadata">
-          <li
-            class="rom-details__metadata-item"
-            v-for="{ label, value } in romMetadata"
-          >
-            <span class="rom-details__metadata-label">{{ label }}:</span>
-            <span class="rom-details__metadata-value">{{ value }}</span>
-          </li>
-        </ul>
+        <div class="rom-details__content">
+          <ul class="rom-details__metadata">
+            <li
+              class="rom-details__metadata-item"
+              v-for="{ label, value } in romMetadata"
+            >
+              <span class="rom-details__metadata-label">{{ label }}:</span>
+              <span class="rom-details__metadata-value">{{ value }}</span>
+            </li>
+          </ul>
+          <div class="rom-details__tags">
+            <TagsEditor :tags="romTags || []" @update="handleTagUpdate" />
+          </div>
+        </div>
       </template>
     </Card>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed } from "vue";
+import { computed, ref } from "vue";
 import { useRoute } from "vue-router";
 import Card from "primevue/card";
-
 import { useRomStore } from "@/stores";
 import { getSystemDisplayName } from "@/utils/system.utils";
+import TagsEditor from "@/components/TagsEditor.vue";
 
-// Props from route params
 const route = useRoute();
 const romStore = useRomStore();
 
+const romTags = ref<string[]>([]);
+
 const romId = computed(() => route.params.id as string);
 const rom = computed(() => romStore.getRomById(romId.value));
-
 const systemDisplayName = computed(() =>
   rom.value ? getSystemDisplayName(rom.value.system) : null,
 );
-
 const romMetadata = computed(() =>
   rom.value
     ? [
@@ -47,6 +51,10 @@ const romMetadata = computed(() =>
       ]
     : [],
 );
+
+function handleTagUpdate(tags: string[]) {
+  romTags.value = tags;
+}
 
 // Helpers for formatting
 function formatSize(size: number): string {
@@ -98,6 +106,12 @@ function formatDatetime(ts: number): string {
 
   &__card {
     height: 100%;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
   }
 
   &__metadata {

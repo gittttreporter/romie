@@ -11,7 +11,7 @@
       <ul class="app-sidebar__items">
         <li v-for="item in section.items" :key="item.id">
           <RouterLink
-            :to="{ name: item.route, params: item.params }"
+            :to="{ name: item.route }"
             class="app-sidebar__item"
             active-class="app-sidebar__item--active"
           >
@@ -99,8 +99,8 @@ const sections = computed(() => [
     ],
   },
   {
-    id: "collections",
-    title: "Collections",
+    id: "tags",
+    title: "Tags",
     items: [],
   },
 ]);
