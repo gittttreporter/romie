@@ -24,7 +24,7 @@ import { useRoute } from "vue-router";
 import Card from "primevue/card";
 
 import { useRomStore } from "@/stores";
-import { getSystemDisplayName, getSystemColor } from "@/utils/system.utils";
+import { getSystemDisplayName } from "@/utils/system.utils";
 
 // Props from route params
 const route = useRoute();
@@ -32,9 +32,6 @@ const romStore = useRomStore();
 
 const romId = computed(() => route.params.id as string);
 const rom = computed(() => romStore.getRomById(romId.value));
-const systemColor = computed(() =>
-  rom.value ? getSystemColor(rom.value.system) : null,
-);
 
 const systemDisplayName = computed(() =>
   rom.value ? getSystemDisplayName(rom.value.system) : null,
@@ -58,10 +55,39 @@ function formatSize(size: number): string {
   return (size / (1024 * 1024)).toFixed(2) + " MB";
 }
 
-function formatDatetime(dt: string): string {
-  const d = new Date(dt);
-  if (isNaN(d.getTime())) return dt;
-  return d.toLocaleString();
+function formatDatetime(ts: number): string {
+  const d = new Date(ts);
+  if (isNaN(d.getTime())) return String(ts);
+
+  const now = new Date();
+  const diffMs = now.getTime() - ts;
+  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+
+  // Same week (within past 6 days, not today)
+  if (diffDays > 0 && diffDays < 7) {
+    return `${diffDays} day${diffDays > 1 ? "s" : ""} ago`;
+  }
+
+  // Today
+  if (
+    now.getFullYear() === d.getFullYear() &&
+    now.getMonth() === d.getMonth() &&
+    now.getDate() === d.getDate()
+  ) {
+    return "Today";
+  }
+
+  // This year
+  if (now.getFullYear() === d.getFullYear()) {
+    return d.toLocaleDateString(undefined, { month: "long", day: "numeric" }); // "January 5"
+  }
+
+  // Previous years
+  return d.toLocaleDateString(undefined, {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  }); // "Jan 5, 2024"
 }
 </script>
 

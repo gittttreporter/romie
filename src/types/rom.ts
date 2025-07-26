@@ -1,38 +1,37 @@
-import type { SystemCode } from "@/types/system"
+import type { SystemCode } from "@/types/system";
 
 export type RegionCode =
-  | 'USA'
-  | 'JPN'
-  | 'EUR'
-  | 'PAL'
-  | 'KOR'
-  | 'CHN'
-  | 'BRA'
-  | 'WORLD'
-  | 'OTHER'
+  | "USA"
+  | "JPN"
+  | "EUR"
+  | "PAL"
+  | "KOR"
+  | "CHN"
+  | "BRA"
+  | "WORLD"
+  | "OTHER";
 
 export type RomRegion =
-  | 'USA'
-  | 'Europe'
-  | 'Japan'
-  | 'World'
-  | 'Asia'
-  | 'Korea'
-  | 'China'
-  | 'Australia'
-  | 'Brazil'
-  | 'Canada'
-
+  | "USA"
+  | "Europe"
+  | "Japan"
+  | "World"
+  | "Asia"
+  | "Korea"
+  | "China"
+  | "Australia"
+  | "Brazil"
+  | "Canada";
 
 export interface Rom {
   id: string;
   system: SystemCode;
   displayName: string;
-  region: RomRegion | 'Unknown';
+  region: RomRegion | "Unknown";
   filename: string;
   originalFilename: string;
   size: number;
-  importedAt: string;
+  importedAt: number;
   crc32: string;
   md5: string;
   sha1: string;
@@ -47,9 +46,9 @@ export interface RomDatabaseStats {
 }
 
 export interface RomDatabase {
-  version: string
-  created: string
-  lastUpdated: string
-  stats: RomDatabaseStats
-  roms: Rom[]
+  version: string;
+  created: string;
+  lastUpdated: string;
+  stats: RomDatabaseStats;
+  roms: Rom[];
 }

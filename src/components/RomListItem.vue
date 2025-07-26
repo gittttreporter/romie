@@ -21,7 +21,7 @@ const props = defineProps<{
   system: SystemCode;
   region: string;
   size: number;
-  dateAdded: string; // ISO string or raw Date-compatible value
+  dateAdded: number; // ISO string or raw Date-compatible value
   isActive: boolean;
 }>();
 </script>
@@ -43,14 +43,6 @@ const props = defineProps<{
 
   &--active {
     background-color: #333;
-  }
-
-  &__system-icon {
-    flex-shrink: 0;
-    width: 12px;
-    height: 12px;
-    background-color: aquamarine;
-    border-radius: 2px;
   }
 
   &__content {

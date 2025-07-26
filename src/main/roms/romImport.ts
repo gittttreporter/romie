@@ -1,11 +1,16 @@
-import path from 'path';
-import log from 'electron-log/main';
-import fs from 'fs/promises';
-import { v4 as uuidv4 } from 'uuid';
-import { determineSystemFromExtension } from '@main/systems';
-import { extractRegionFromFilename, cleanDisplayName, generateLibretroHashes, copyRomToLibrary } from './romUtils';
-import { addRom } from './romDatabase';
-import type { Rom } from '../../types/rom';
+import path from "path";
+import log from "electron-log/main";
+import fs from "fs/promises";
+import { v4 as uuidv4 } from "uuid";
+import { determineSystemFromExtension } from "@main/systems";
+import {
+  extractRegionFromFilename,
+  cleanDisplayName,
+  generateLibretroHashes,
+  copyRomToLibrary,
+} from "./romUtils";
+import { addRom } from "./romDatabase";
+import type { Rom } from "../../types/rom";
 
 export async function processRomFile(filePath: string): Promise<Rom> {
   const filename = path.basename(filePath);
@@ -19,12 +24,12 @@ export async function processRomFile(filePath: string): Promise<Rom> {
     log.debug(`File extension: ${fileExtension}`);
 
     // Determine console from file extension
-    log.debug('Determining system from extension');
+    log.debug("Determining system from extension");
     const system = determineSystemFromExtension(fileExtension);
     log.debug(`Detected system: ${system}`);
 
     // Extract region tag from filename e.g. (USA), (JPN) fallback: "Unknown"
-    log.debug('Extracting region from filename');
+    log.debug("Extracting region from filename");
     const region = extractRegionFromFilename(originalFilename);
     log.debug(`Detected region: ${region}`);
 
@@ -33,12 +38,14 @@ export async function processRomFile(filePath: string): Promise<Rom> {
     log.debug(`Clean display name: ${displayName}`);
 
     // Generate hashes for deduplication and libretro lookups.
-    log.debug('Generating hashes for ROM file');
+    log.debug("Generating hashes for ROM file");
     const hashes = await generateLibretroHashes(filePath);
-    log.debug(`Generated hashes: MD5=${hashes.md5?.substring(0, 8)}..., SHA1=${hashes.sha1?.substring(0, 8)}...`);
+    log.debug(
+      `Generated hashes: MD5=${hashes.md5?.substring(0, 8)}..., SHA1=${hashes.sha1?.substring(0, 8)}...`,
+    );
 
     // Get file size
-    log.debug('Getting file statistics');
+    log.debug("Getting file statistics");
     const stats = await fs.stat(filePath);
     const size = stats.size;
     log.debug(`File size: ${(size / 1024 / 1024).toFixed(2)} MB`);
@@ -48,7 +55,7 @@ export async function processRomFile(filePath: string): Promise<Rom> {
     log.debug(`Target filename: ${savedFilename}`);
 
     // Copy file to target location
-    log.debug('Copying ROM to library');
+    log.debug("Copying ROM to library");
     const targetPath = await copyRomToLibrary(filePath, savedFilename);
     log.debug(`ROM copied to: ${targetPath}`);
 
@@ -61,14 +68,14 @@ export async function processRomFile(filePath: string): Promise<Rom> {
       filename: savedFilename,
       originalFilename,
       size,
-      importedAt: new Date().toISOString(),
+      importedAt: Date.now(),
       tags: [],
-      notes: '',
-      ...hashes
+      notes: "",
+      ...hashes,
     };
 
     // Update ROM database
-    await addRom(metadata)
+    await addRom(metadata);
 
     log.info(`Successfully processed ROM: ${displayName} (${system})`);
     return metadata;
@@ -78,7 +85,8 @@ export async function processRomFile(filePath: string): Promise<Rom> {
     // Create a meaningful error that can be caught by importRoms()
     const romError = new Error(`Failed to process ROM: ${filename}`);
     (romError as any).file = filePath;
-    (romError as any).reason = error instanceof Error ? error.message : 'Unknown error';
+    (romError as any).reason =
+      error instanceof Error ? error.message : "Unknown error";
     throw romError;
   }
 }
