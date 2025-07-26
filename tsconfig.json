@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "noEmit": true,              // 👈 Don't emit anything — Vite handles builds
-    "allowJs": true,             // ✅ Allow .js files
-    "checkJs": false,            // 🟡 Don't type check .js files (optional, but safer)
+    "noEmit": true,
+    "allowJs": true,
+    "checkJs": false,
     "jsx": "preserve",
     "target": "ESNext",
     "module": "ESNext",
@@ -15,17 +15,8 @@
       "@main/*": ["src/main/*"],
       "@/*": ["src/*"]
     },
-    "types": ["vite/client"],
-
+    "types": ["vite/client"]
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.js",         // ✅ Include .js
-    "src/**/*.d.ts",
-    "src/**/*.vue"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.d.ts", "src/**/*.vue"],
+  "exclude": ["node_modules", "dist"]
 }

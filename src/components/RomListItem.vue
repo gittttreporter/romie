@@ -1,5 +1,5 @@
 <template>
-  <div class="rom-list-item rom-list-item--compact">
+  <div class="rom-list-item" :class="{ 'rom-list-item--active': isActive }">
     <SystemBadge :code="system" />
     <div class="rom-list-item__content">
       <span class="rom-list-item__name">{{ name }}</span>
@@ -22,6 +22,7 @@ const props = defineProps<{
   region: string;
   size: number;
   dateAdded: string; // ISO string or raw Date-compatible value
+  isActive: boolean;
 }>();
 </script>
 
@@ -30,13 +31,18 @@ const props = defineProps<{
   display: flex;
   gap: 8px;
   align-items: center;
-  padding: 4px 16px;
+  padding: 4px 8px;
+  margin: 0 8px;
   border-radius: 4px;
   transition: background-color 0.2s ease-in-out;
 
   &:hover {
     cursor: pointer;
     background-color: #232323;
+  }
+
+  &--active {
+    background-color: #333;
   }
 
   &__system-icon {

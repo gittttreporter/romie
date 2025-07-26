@@ -25,9 +25,8 @@ export const useRomStore = defineStore("roms", {
   }),
 
   getters: {
-    romCount(): number {
-      return this.roms.length;
-    },
+    getRomById: (state) => (id: string) =>
+      state.roms.find((rom) => rom.id === id),
   },
 
   actions: {

@@ -55,8 +55,13 @@
       />
     </div>
     <div class="library-view__content">
-      <RomList v-if="!romStore.loading" :roms="filteredRoms" :compact="false" />
-      <div v-else class="library-view__loading">Loading...</div>
+      <RomList
+        class="library-view__content-list"
+        :loading="romStore.loading"
+        :roms="filteredRoms"
+        :compact="false"
+      />
+      <RouterView class="library-view__content-detail" />
     </div>
   </div>
 </template>
@@ -87,16 +92,15 @@ const filterBySystem = ref([]);
 const filterByRegion = ref([]);
 
 // Load ROMs when component mounts
-onMounted(async () => {
-  await romStore.loadRoms();
-  console.log(romStore.roms);
+onMounted(() => {
+  romStore.loadRoms();
 });
 
 const filterSystems = computed(() => {
   const systems = getUniqueRomValues("system");
 
   return systems
-    .filter(Boolean)
+    .filter((system) => !!system)
     .map((system) => ({
       value: system,
       label: getSystemDisplayName(system),
@@ -193,6 +197,11 @@ function getUniqueRomValues<T extends keyof Rom>(field: T) {
     flex: 1;
     min-height: 0;
     overflow: hidden;
+    display: flex;
+
+    &-list {
+      flex: 1;
+    }
   }
 
   &__loading {

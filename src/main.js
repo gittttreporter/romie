@@ -1,8 +1,8 @@
-import { app, BrowserWindow, ipcMain, nativeTheme, dialog } from 'electron';
-import log from 'electron-log/main';
-import path from 'node:path';
-import started from 'electron-squirrel-startup';
-import { registerAllIpc } from '@main/ipc'
+import { app, BrowserWindow, ipcMain, nativeTheme, dialog } from "electron";
+import log from "electron-log/main";
+import path from "node:path";
+import started from "electron-squirrel-startup";
+import { registerAllIpc } from "@main/ipc";
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (started) {
@@ -10,16 +10,15 @@ if (started) {
 }
 
 const createWindow = () => {
-  // Create the browser windhttps://open.spotify.com/track/0FJICaE2ni8vZyyD3vWZwGow.
   const mainWindow = new BrowserWindow({
-    width: 800,
+    width: 1000,
     height: 600,
     // Remove the window frame
-    frame: 'false',
+    frame: "false",
     // Hide the title bar but keep traffic lights on MacOS
-    titleBarStyle: 'hidden',
+    titleBarStyle: "hidden",
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js'),
+      preload: path.join(__dirname, "preload.js"),
     },
   });
 
@@ -27,13 +26,14 @@ const createWindow = () => {
   if (MAIN_WINDOW_VITE_DEV_SERVER_URL) {
     mainWindow.loadURL(MAIN_WINDOW_VITE_DEV_SERVER_URL);
   } else {
-    mainWindow.loadFile(path.join(__dirname, `../renderer/${MAIN_WINDOW_VITE_NAME}/index.html`));
+    mainWindow.loadFile(
+      path.join(__dirname, `../renderer/${MAIN_WINDOW_VITE_NAME}/index.html`),
+    );
   }
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
 };
-
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
@@ -41,13 +41,15 @@ const createWindow = () => {
 app.whenReady().then(() => {
   // Initialize the logger for any renderer process
   log.initialize();
-  log.info(`Romie ready to rip on ${process.platform} with chrome@${process.versions.chrome}`)
+  log.info(
+    `Romie ready to rip on ${process.platform} with chrome@${process.versions.chrome}`,
+  );
   registerAllIpc();
   createWindow();
 
   // On OS X it's common to re-create a window in the app when the
   // dock icon is clicked and there are no other windows open.
-  app.on('activate', () => {
+  app.on("activate", () => {
     if (BrowserWindow.getAllWindows().length === 0) {
       createWindow();
     }
@@ -57,8 +59,8 @@ app.whenReady().then(() => {
 // Quit when all windows are closed, except on macOS. There, it's common
 // for applications and their menu bar to stay active until the user quits
 // explicitly with Cmd + Q.
-app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') {
+app.on("window-all-closed", () => {
+  if (process.platform !== "darwin") {
     app.quit();
   }
 });

@@ -18,6 +18,14 @@ const routes = [
     path: "/library",
     name: "library",
     component: LibraryView,
+    children: [
+      {
+        path: ":id",
+        name: "rom-detail",
+        component: RomDetailView,
+        props: true,
+      },
+    ],
   },
   {
     path: "/import",
@@ -43,12 +51,6 @@ const routes = [
     path: "/collections/:collectionId",
     name: "collection-detail",
     component: CollectionDetailView,
-    props: true,
-  },
-  {
-    path: "/rom/:romId",
-    name: "rom-detail",
-    component: RomDetailView,
     props: true,
   },
   {
