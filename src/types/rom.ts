@@ -32,6 +32,7 @@ export interface Rom {
   originalFilename: string;
   size: number;
   importedAt: number;
+  lastUpdated: number;
   crc32: string;
   md5: string;
   sha1: string;
@@ -47,8 +48,8 @@ export interface RomDatabaseStats {
 
 export interface RomDatabase {
   version: string;
-  created: string;
-  lastUpdated: string;
+  created: number;
+  lastUpdated: number;
   stats: RomDatabaseStats;
   roms: Rom[];
 }

@@ -11,7 +11,7 @@
       <ul class="app-sidebar__items">
         <li v-for="item in section.items" :key="item.id">
           <RouterLink
-            :to="{ name: item.route }"
+            :to="item.route"
             class="app-sidebar__item"
             active-class="app-sidebar__item--active"
           >
@@ -55,17 +55,63 @@
 <script setup lang="ts">
 import log from "electron-log";
 import { RouterLink } from "vue-router";
-import { computed, ref, onMounted } from "vue";
+import { computed, ref, onMounted, ComputedRef } from "vue";
 import Badge from "primevue/badge";
 import { useRomStore } from "@/stores";
+import type { RouteLocationRaw } from "vue-router";
 
 const romStore = useRomStore();
+
+interface SidebarItem {
+  id: string;
+  label: string;
+  count?: number;
+  icon?: string;
+  route: RouteLocationRaw;
+}
+
+interface SidebarSection {
+  id: string;
+  title?: string;
+  items: SidebarItem[];
+}
 
 onMounted(() => {
   romStore.loadStats();
 });
 
-const sections = computed(() => [
+const tagsSection = computed((): SidebarSection => {
+  // Collect tag counts
+  const tagCounts: Record<string, number> = {};
+  romStore.roms.forEach((rom) => {
+    if (Array.isArray(rom.tags)) {
+      rom.tags.forEach((tag) => {
+        tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+      });
+    }
+  });
+  // Build tag list sorted alphabetically
+  const items = Object.keys(tagCounts)
+    .sort((a, b) => a.localeCompare(b))
+    .map((tag) => ({
+      id: `tag-${tag}`,
+      label: tag,
+      count: tagCounts[tag],
+      icon: "pi pi-tag",
+      route: {
+        name: "tag-detail",
+        params: { tag },
+      },
+    }));
+
+  return {
+    id: "tags",
+    title: "Tags",
+    items,
+  };
+});
+
+const sections = computed((): SidebarSection[] => [
   {
     id: "library",
     items: [
@@ -73,36 +119,40 @@ const sections = computed(() => [
         id: "import",
         label: "Import",
         icon: "pi pi-upload",
-        route: "import",
+        route: {
+          name: "import",
+        },
       },
       {
         id: "all-roms",
         label: "Library",
         count: romStore.stats.totalRoms,
         icon: "pi pi-folder",
-        route: "library",
+        route: {
+          name: "library",
+        },
       },
       {
         id: "recent",
         label: "Recently Added",
         count: 0,
         icon: "pi pi-clock",
-        route: "recent",
+        route: {
+          name: "recent",
+        },
       },
       {
         id: "favorites",
         label: "Favorites",
         count: 0,
         icon: "pi pi-heart",
-        route: "favorites",
+        route: {
+          name: "favorites",
+        },
       },
     ],
   },
-  {
-    id: "tags",
-    title: "Tags",
-    items: [],
-  },
+  tagsSection.value,
 ]);
 </script>
 

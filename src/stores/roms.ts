@@ -27,6 +27,18 @@ export const useRomStore = defineStore("roms", {
   getters: {
     getRomById: (state) => (id: string) =>
       state.roms.find((rom) => rom.id === id),
+    romsByTag(state): Record<string, Rom[]> {
+      const result: Record<string, Rom[]> = {};
+
+      state.roms.forEach((rom) => {
+        (rom.tags || []).forEach((tag) => {
+          result[tag] ??= [];
+          result[tag].push(rom);
+        });
+      });
+
+      return result;
+    },
   },
 
   actions: {
@@ -58,6 +70,20 @@ export const useRomStore = defineStore("roms", {
 
       try {
         await window.rom.remove(id);
+        await this.loadRoms();
+        await this.loadStats();
+      } catch (error) {
+        log.error(error);
+      } finally {
+        this.loading = false;
+      }
+    },
+    async updateRom(id: string, romUpdate: Partial<Rom>) {
+      log.info(`Updating ${id}`, romUpdate);
+      this.loading = true;
+
+      try {
+        await window.rom.update(id, romUpdate);
         await this.loadRoms();
         await this.loadStats();
       } catch (error) {

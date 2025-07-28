@@ -49,5 +49,6 @@ function selectRom(rom: Rom) {
   height: 100%; // Take full height of the content area
   overflow: auto;
   padding: 12px 0;
+  margin: 0;
 }
 </style>

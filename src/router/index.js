@@ -43,13 +43,13 @@ const routes = [
     component: RecentlyAddedView,
   },
   {
-    path: "/collections",
-    name: "collections",
+    path: "/tags",
+    name: "tag-list",
     component: CollectionsView,
   },
   {
-    path: "/collections/:collectionId",
-    name: "collection-detail",
+    path: "/tags/:tag",
+    name: "tag-detail",
     component: CollectionDetailView,
     props: true,
   },

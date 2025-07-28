@@ -15,7 +15,7 @@
             </li>
           </ul>
           <div class="rom-details__tags">
-            <TagsEditor :tags="romTags || []" @update="handleTagUpdate" />
+            <TagsEditor :tags="rom?.tags || []" @update="handleTagUpdate" />
           </div>
         </div>
       </template>
@@ -53,7 +53,7 @@ const romMetadata = computed(() =>
 );
 
 function handleTagUpdate(tags: string[]) {
-  romTags.value = tags;
+  romStore.updateRom(romId.value, { tags });
 }
 
 // Helpers for formatting

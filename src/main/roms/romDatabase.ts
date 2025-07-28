@@ -12,14 +12,25 @@ const baseDir = app.getPath("userData");
 const romDir = path.join(baseDir, "roms");
 const romDbPath = path.join(baseDir, "roms.json");
 
+const ROM_IMMUTABLE_FIELDS: (keyof Rom)[] = [
+  "id",
+  "originalFilename",
+  "importedAt",
+  "md5",
+  "sha1",
+  "crc32",
+];
+
 let database: Low<RomDatabase> | null = null;
 
 async function loadDatabase(): Promise<void> {
   log.info(`Loading ROM database from ${romDbPath}`);
+  const now = Date.now();
+
   database = await JSONFilePreset<RomDatabase>(romDbPath, {
     version: "1.0.0",
-    created: new Date().toISOString(),
-    lastUpdated: new Date().toISOString(),
+    created: now,
+    lastUpdated: now,
     stats: { totalRoms: 0, totalSizeBytes: 0, systemCounts: {} },
     roms: [],
   });
@@ -104,6 +115,29 @@ export async function removeRomById(id: string): Promise<void> {
   } catch (err: any) {
     log.warn(`Failed to delete ROM file (${storedFilePath}): ${err.message}`);
   }
+}
+
+export async function updateRom(
+  id: string,
+  romUpdate: Partial<Rom>,
+): Promise<void> {
+  log.debug(`Updating ROM: ${id}`);
+  const db = await ensureDatabase();
+  const romIdx = db.data.roms.findIndex((r) => r.id === id);
+  const now = Date.now();
+
+  if (romIdx === -1) throw new Error(`ROM with id ${id} not found`);
+  ROM_IMMUTABLE_FIELDS.forEach((key) => delete romUpdate[key]);
+
+  await db.update((data) => {
+    data.roms[romIdx] = {
+      ...data.roms[romIdx],
+      ...romUpdate,
+      lastUpdated: now,
+    };
+    data.stats = getDatabaseStats(data.roms);
+    data.lastUpdated = now;
+  });
 }
 
 export async function listRoms(): Promise<Rom[]> {

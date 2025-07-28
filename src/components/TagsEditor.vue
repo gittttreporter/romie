@@ -3,6 +3,7 @@
     <div v-if="tags.length > 0" class="tags-editor__tag-list">
       <Chip
         v-for="tag in tags"
+        :key="tag"
         :label="tag"
         :removable="true"
         @remove="handleTagRemoved(tag)"
@@ -68,7 +69,7 @@ const isAddingTag = ref(false);
 
 function showTagInput() {
   isAddingTag.value = true;
-  nextTick(() => console.log(tagInput.value.$el.focus()));
+  nextTick(() => tagInput.value.$el.focus());
 }
 
 function handleTagAdded() {
