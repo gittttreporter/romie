@@ -3,8 +3,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import LibraryView from "@/views/LibraryView.vue";
 import FavoritesView from "@/views/FavoritesView.vue";
 import RecentlyAddedView from "@/views/RecentlyAddedView.vue";
-import CollectionsView from "@/views/CollectionsView.vue";
-import CollectionDetailView from "@/views/CollectionDetailView.vue";
+import TagView from "@/views/TagView.vue";
 import RomDetailView from "@/views/RomDetailView.vue";
 import RomImportView from "@/views/RomImportView.vue";
 import SettingsView from "@/views/SettingsView.vue";
@@ -43,15 +42,18 @@ const routes = [
     component: RecentlyAddedView,
   },
   {
-    path: "/tags",
-    name: "tag-list",
-    component: CollectionsView,
-  },
-  {
     path: "/tags/:tag",
     name: "tag-detail",
-    component: CollectionDetailView,
+    component: TagView,
     props: true,
+    children: [
+      {
+        path: ":id",
+        name: "TagRomDetail",
+        component: RomDetailView,
+        props: true,
+      },
+    ],
   },
   {
     path: "/settings",

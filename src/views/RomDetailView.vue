@@ -102,6 +102,7 @@ function formatDatetime(ts: number): string {
 <style scoped lang="less">
 .rom-details {
   width: 350px;
+  height: 100%;
   padding: 16px;
 
   &__card {

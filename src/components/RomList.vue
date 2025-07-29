@@ -5,7 +5,7 @@
         :key="rom.id"
         :to="`/library/${rom.id}`"
         custom
-        v-slot="{ navigate, isActive }"
+        v-slot="{ isActive }"
       >
         <RomListItem
           :id="rom.id"
@@ -15,7 +15,7 @@
           :size="rom.size"
           :date-added="rom.importedAt"
           :is-active="isActive"
-          @click="navigate"
+          @click="emit('rom-selected', rom)"
         />
       </RouterLink>
     </li>
@@ -23,7 +23,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, computed } from "vue";
+import { defineProps, defineEmits, computed } from "vue";
 import { useRouter } from "vue-router";
 import VirtualScroller from "primevue/virtualscroller";
 import RomListItem from "./RomListItem.vue";
@@ -34,6 +34,9 @@ const router = useRouter();
 const props = defineProps<{
   roms: Rom[];
   compact: boolean;
+}>();
+const emit = defineEmits<{
+  (e: "rom-selected", rom: Rom): void;
 }>();
 
 const itemHeight = computed(() => (props.compact ? 40 : 72));
