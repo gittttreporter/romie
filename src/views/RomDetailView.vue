@@ -17,6 +17,19 @@
           <div class="rom-details__tags">
             <TagsEditor :tags="rom?.tags || []" @update="handleTagUpdate" />
           </div>
+          <div class="rom-details__actions">
+            <Button
+              severity="danger"
+              label="Delete"
+              icon="pi pi-trash"
+              size="small"
+              :rounded="true"
+              :fluid="true"
+              :disabled="updating"
+              :loading="deleting"
+              @click="handleDelete"
+            />
+          </div>
         </div>
       </template>
     </Card>
@@ -24,20 +37,22 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from "vue";
-import { useRoute } from "vue-router";
+import { computed, ref, defineProps } from "vue";
+import Button from "primevue/button";
 import Card from "primevue/card";
 import { useRomStore } from "@/stores";
 import { getSystemDisplayName } from "@/utils/system.utils";
 import TagsEditor from "@/components/TagsEditor.vue";
 
-const route = useRoute();
+const props = defineProps<{
+  romId: string;
+}>();
 const romStore = useRomStore();
 
-const romTags = ref<string[]>([]);
+const deleting = ref(false);
+const updating = ref(false);
 
-const romId = computed(() => route.params.id as string);
-const rom = computed(() => romStore.getRomById(romId.value));
+const rom = computed(() => romStore.getRomById(props.romId));
 const systemDisplayName = computed(() =>
   rom.value ? getSystemDisplayName(rom.value.system) : null,
 );
@@ -52,8 +67,28 @@ const romMetadata = computed(() =>
     : [],
 );
 
-function handleTagUpdate(tags: string[]) {
-  romStore.updateRom(romId.value, { tags });
+async function handleTagUpdate(tags: string[]) {
+  updating.value = true;
+
+  try {
+    await romStore.updateRom(props.romId, { tags });
+  } catch (error) {
+    console.error("Failed to update tags:", error);
+  } finally {
+    updating.value = false;
+  }
+}
+
+async function handleDelete() {
+  deleting.value = true;
+
+  try {
+    await romStore.removeRom(props.romId);
+  } catch (error) {
+    console.error("Failed to delete ROM:", error);
+  } finally {
+    deleting.value = false;
+  }
 }
 
 // Helpers for formatting
@@ -139,6 +174,10 @@ function formatDatetime(ts: number): string {
     &-value {
       font-size: 14px;
     }
+  }
+
+  &__actions {
+    margin-top: 16px;
   }
 }
 </style>

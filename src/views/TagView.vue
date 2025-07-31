@@ -5,39 +5,36 @@
         class="library-view__content-list"
         :loading="loading"
         :roms="filteredRoms"
+        :rom-selections="romSelections"
         :compact="false"
-        @rom-selected="handleRomSelection"
+        @rom-selected="romSelections = $event"
       />
     </template>
     <template #rom-details>
-      <RouterView />
+      <RomDetailView
+        v-if="romSelections.length === 1"
+        :rom-id="romSelections[0]"
+      />
+      <RomActionView
+        v-else-if="romSelections.length > 1"
+        :rom-selections="romSelections"
+        @delete="romSelections = []"
+      />
     </template>
   </RomListLayout>
 </template>
 
 <script setup lang="ts">
-import { defineProps } from "vue";
+import { defineProps, ref, computed } from "vue";
 import { useRouter } from "vue-router";
 import RomListLayout from "@/layouts/RomListLayout.vue";
+import RomDetailView from "@/views/RomDetailView.vue";
+import RomActionView from "@/views/RomActionView.vue";
 import RomList from "@/components/RomList.vue";
-
-import type { Rom } from "@/types/rom";
 
 const props = defineProps<{ tag: string }>();
 const router = useRouter();
-
-function handleRomSelection(rom: Rom) {
-  router.push({
-    name: "TagRomDetail",
-    params: {
-      id: rom.id,
-      tag: props.tag,
-    },
-  });
-}
+const romSelections = ref<string[]>([]);
 </script>
 
-<style scoped lang="less">
-.collection-detail-view {
-}
-</style>
+<style scoped lang="less"></style>

@@ -1,57 +1,100 @@
 <template>
   <ul class="rom-list" :class="`rom-list--${compact ? 'compact' : 'normal'}`">
     <li v-for="rom in roms" :key="rom.id" :tabindex="0">
-      <RouterLink
-        :key="rom.id"
-        :to="`/library/${rom.id}`"
-        custom
-        v-slot="{ isActive }"
-      >
-        <RomListItem
-          :id="rom.id"
-          :name="rom.displayName"
-          :system="rom.system"
-          :region="rom.region"
-          :size="rom.size"
-          :date-added="rom.importedAt"
-          :is-active="isActive"
-          @click="emit('rom-selected', rom)"
-        />
-      </RouterLink>
+      <RomListItem
+        :id="rom.id"
+        :name="rom.displayName"
+        :system="rom.system"
+        :region="rom.region"
+        :size="rom.size"
+        :date-added="rom.importedAt"
+        :is-active="romSelections.includes(rom.id)"
+        @click="handleRomClick($event, rom)"
+      />
     </li>
   </ul>
 </template>
 
 <script setup lang="ts">
 import { defineProps, defineEmits, computed } from "vue";
-import { useRouter } from "vue-router";
 import VirtualScroller from "primevue/virtualscroller";
 import RomListItem from "./RomListItem.vue";
 
 import type { Rom } from "@/types/rom";
 
-const router = useRouter();
 const props = defineProps<{
   roms: Rom[];
+  romSelections: string[];
   compact: boolean;
 }>();
 const emit = defineEmits<{
-  (e: "rom-selected", rom: Rom): void;
+  (e: "rom-selected", romSelections: string[]): void;
 }>();
 
 const itemHeight = computed(() => (props.compact ? 40 : 72));
 
-function selectRom(rom: Rom) {
-  console.log("Selected ROM:", rom.displayName);
-  router.push({ name: "rom-detail", params: { id: rom.id } });
+function toggleId(selections: string[], id: string): string[] {
+  const idx = selections.indexOf(id);
+  if (idx !== -1) {
+    // Remove selection
+    return [...selections.slice(0, idx), ...selections.slice(idx + 1)];
+  } else {
+    // Add
+    return [...selections, id];
+  }
+}
+
+function computeRangeSelection(
+  selections: string[],
+  roms: Rom[],
+  clickedId: string,
+): string[] {
+  if (selections.length === 0) {
+    return [clickedId];
+  }
+
+  const lastSelectedId = selections[selections.length - 1];
+  const romIds = roms.map((r) => r.id);
+  const startIdx = romIds.indexOf(lastSelectedId);
+  const endIdx = romIds.indexOf(clickedId);
+
+  if (startIdx !== -1 && endIdx !== -1) {
+    const [from, to] = [startIdx, endIdx].sort((a, b) => a - b);
+    return romIds.slice(from, to + 1);
+  }
+
+  return [clickedId];
+}
+
+function handleRomClick(event: MouseEvent, rom: Rom) {
+  const romId = rom.id;
+  const isToggle = event.ctrlKey || event.metaKey;
+  const isRange = event.shiftKey;
+
+  let newSelections: string[];
+
+  if (isToggle) {
+    newSelections = toggleId(props.romSelections, romId);
+  } else if (isRange) {
+    newSelections = computeRangeSelection(
+      props.romSelections,
+      props.roms,
+      romId,
+    );
+  } else {
+    newSelections = [romId];
+  }
+
+  emit("rom-selected", newSelections);
 }
 </script>
 
 <style lang="less">
 .rom-list {
-  height: 100%; // Take full height of the content area
+  height: 100%;
   overflow: auto;
   padding: 12px 0;
   margin: 0;
+  user-select: none;
 }
 </style>

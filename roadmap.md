@@ -11,7 +11,7 @@
 - [x] List view: clean display name + region badge
 - [x] Search/filter bar: name search + platform dropdown
 - [ ] Library summary view: total count, total size, count by system
-- [ ] Rom collections (tags)
+- [x] Rom collections (tags)
 - [ ] Delete ROM (with “Are you sure?”)
 - [x] Persistent JSON store (lowdb or election‑store)
 

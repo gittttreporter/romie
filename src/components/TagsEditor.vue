@@ -5,7 +5,7 @@
         v-for="tag in tags"
         :key="tag"
         :label="tag"
-        :removable="true"
+        :removable="!(disabled || loading)"
         @remove="handleTagRemoved(tag)"
       ></Chip>
     </div>
@@ -38,10 +38,12 @@
       <div v-else class="tags-editor_trigger">
         <Button
           label="Add tag"
-          icon="pi pi-hashtag"
+          icon="pi pi-plus"
           severity="secondary"
           size="small"
           :rounded="true"
+          :disabled="disabled"
+          :loading="loading"
           @click="showTagInput"
         />
       </div>
@@ -58,6 +60,8 @@ import { normalizeInput } from "@/utils/string.utils";
 
 const props = defineProps<{
   tags: string[];
+  disabled?: boolean;
+  loading?: boolean;
 }>();
 const emit = defineEmits<{
   (e: "update", tags: string[]): void;
