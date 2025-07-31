@@ -9,9 +9,11 @@
         <slot />
       </div>
     </div>
+    <Toast position="bottom-right" />
   </main>
 </template>
 <script setup lang="ts">
+import Toast from "primevue/toast";
 import AppSidebar from "@/components/AppSidebar.vue";
 </script>
 

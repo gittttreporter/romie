@@ -40,6 +40,7 @@
 import { computed, ref, defineProps } from "vue";
 import Button from "primevue/button";
 import Card from "primevue/card";
+import { useToast } from "primevue/usetoast";
 import { useRomStore } from "@/stores";
 import { getSystemDisplayName } from "@/utils/system.utils";
 import TagsEditor from "@/components/TagsEditor.vue";
@@ -48,6 +49,7 @@ const props = defineProps<{
   romId: string;
 }>();
 const romStore = useRomStore();
+const toast = useToast();
 
 const deleting = ref(false);
 const updating = ref(false);
@@ -80,12 +82,25 @@ async function handleTagUpdate(tags: string[]) {
 }
 
 async function handleDelete() {
+  const romName = rom.value?.displayName || "Unknown";
   deleting.value = true;
 
   try {
     await romStore.removeRom(props.romId);
+
+    toast.add({
+      severity: "success",
+      summary: "Delete Successful",
+      detail: `Deleted ${romName}`,
+      life: 3000,
+    });
   } catch (error) {
-    console.error("Failed to delete ROM:", error);
+    toast.add({
+      severity: "error",
+      summary: "Delete Failed",
+      detail: `Failed to delete ${romName}`,
+      life: 4000,
+    });
   } finally {
     deleting.value = false;
   }
