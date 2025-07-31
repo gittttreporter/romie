@@ -37,6 +37,7 @@ export interface Rom {
   md5: string;
   sha1: string;
   tags?: string[];
+  favorite?: boolean;
   notes?: string;
 }
 

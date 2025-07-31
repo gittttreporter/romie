@@ -1,7 +1,23 @@
 <template>
   <div v-if="rom" class="rom-details">
     <Card class="rom-details__card">
-      <template #title>{{ rom.displayName }}</template>
+      <template #title>
+        <div class="rom-details__title">
+          <span>{{ rom.displayName }}</span>
+          <div class="rom-details__title-actions">
+            <Button
+              severity="secondary"
+              variant="text"
+              rounded
+              aria-label="Favorite"
+              :disabled="deleting"
+              :loading="updating"
+              :icon="rom.favorite ? 'pi pi-heart-fill' : 'pi pi-heart'"
+              @click="handleFavorite"
+            />
+          </div>
+        </div>
+      </template>
       <template #subtitle>{{ systemDisplayName }}</template>
       <template #content>
         <div class="rom-details__content">
@@ -37,7 +53,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref, defineProps } from "vue";
+import { computed, ref, defineProps, defineEmits } from "vue";
 import Button from "primevue/button";
 import Card from "primevue/card";
 import { useToast } from "primevue/usetoast";
@@ -47,6 +63,10 @@ import TagsEditor from "@/components/TagsEditor.vue";
 
 const props = defineProps<{
   romId: string;
+}>();
+const emit = defineEmits<{
+  (e: "delete"): void;
+  (e: "favorite", favorite: boolean): void;
 }>();
 const romStore = useRomStore();
 const toast = useToast();
@@ -81,6 +101,21 @@ async function handleTagUpdate(tags: string[]) {
   }
 }
 
+async function handleFavorite() {
+  const favorite = !rom.value?.favorite;
+  updating.value = true;
+
+  try {
+    await romStore.updateRom(props.romId, { favorite });
+  } catch (error) {
+    console.error("Failed to update favorite:", error);
+  } finally {
+    updating.value = false;
+  }
+
+  emit("favorite", favorite);
+}
+
 async function handleDelete() {
   const romName = rom.value?.displayName || "Unknown";
   deleting.value = true;
@@ -104,6 +139,8 @@ async function handleDelete() {
   } finally {
     deleting.value = false;
   }
+
+  emit("delete");
 }
 
 // Helpers for formatting
@@ -157,6 +194,16 @@ function formatDatetime(ts: number): string {
 
   &__card {
     height: 100%;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-actions {
+      align-self: flex-start;
+    }
   }
 
   &__content {

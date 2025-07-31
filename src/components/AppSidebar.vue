@@ -133,18 +133,12 @@ const sections = computed((): SidebarSection[] => [
         },
       },
       {
-        id: "recent",
-        label: "Recently Added",
-        count: 0,
-        icon: "pi pi-clock",
-        route: {
-          name: "recent",
-        },
-      },
-      {
         id: "favorites",
         label: "Favorites",
-        count: 0,
+        count: romStore.roms.reduce(
+          (acc, rom) => acc + (rom.favorite ? 1 : 0),
+          0,
+        ),
         icon: "pi pi-heart",
         route: {
           name: "favorites",

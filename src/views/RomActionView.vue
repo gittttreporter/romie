@@ -1,7 +1,7 @@
 <template>
   <div class="rom-bulk-actions">
     <Card class="rom-bulk-actions__card">
-      <template #title>{{ romSelections.length }} roms selected</template>
+      <template #title>{{ romSelections.length }} games selected</template>
       <template #content>
         <div class="rom-bulk-actions__card-content">
           <TagsEditor

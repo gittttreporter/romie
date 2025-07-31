@@ -14,6 +14,7 @@
       <RomDetailView
         v-if="romSelections.length === 1"
         :rom-id="romSelections[0]"
+        @delete="romSelections = []"
       />
       <RomActionView
         v-else-if="romSelections.length > 1"

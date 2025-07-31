@@ -78,6 +78,7 @@ import RomList from "@/components/RomList.vue";
 import { getSystemDisplayName } from "@/utils/system.utils";
 
 import type { Rom } from "@/types/rom";
+import { i } from "vite/dist/node/types.d-aGj9QkWt";
 
 const props = defineProps<{
   mode: "all" | "tag" | "favorites" | "system";
@@ -103,6 +104,10 @@ onMounted(() => {
 const searchPlaceholder = computed(() => {
   if (props.mode === "tag" && props.tag) {
     return `Search in ${props.tag}`;
+  }
+
+  if (props.mode === "favorites") {
+    return `Search in your favorites`;
   }
 
   return `Search in your library`;
@@ -156,8 +161,15 @@ const filteredRoms = computed(() => {
     const hasQueryMatch = !query || displayName.toLowerCase().includes(query);
 
     const hasTagMatch = !filterTag || tags.includes(filterTag);
+    const hasFavoritesMatch = props.mode === "favorites" ? rom.favorite : true;
 
-    return hasSystemMatch && hasRegionMatch && hasQueryMatch && hasTagMatch;
+    return (
+      hasSystemMatch &&
+      hasRegionMatch &&
+      hasQueryMatch &&
+      hasTagMatch &&
+      hasFavoritesMatch
+    );
   });
 });
 
