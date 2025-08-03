@@ -1,4 +1,5 @@
 import type { SystemCode } from "@/types/system";
+import { $dt } from "@primeuix/themes";
 
 /**
  * Abbreviation mapping for each system, used for badges/tags.
@@ -53,6 +54,22 @@ const SYSTEM_COLORS: Record<SystemCode, string> = {
   atari2600: "#77572d", // low-key ochre
   arcade: "#6a5a2e", // muted gold brown
 };
+
+// TODO: See if we can use the color palette for system colors. I couldn't easily get $dt working though.
+// const SYSTEM_COLORS: Record<SystemCode, string> = {
+//   nes: $dt("emerald.400").value, // subtle olive/dark sage
+//   snes: $dt("red.400").value, // dusty indigo
+//   n64: $dt("orange.400").value, // soft steel blue
+//   gb: $dt("teal.400").value, // deep aqua
+//   gbc: $dt("sky.400").value, // teal-blue
+//   gba: $dt("indigo.400").value, // blue-gray
+//   genesis: $dt("purple.400").value, // muted plum
+//   sms: $dt("pink.400").value, // soft brown
+//   gg: $dt("rose.400").value, // olive green
+//   psx: $dt("slate.400").value, // desaturated violet blue
+//   atari2600: $dt("stone.400").value, // low-key ochre
+//   arcade: $dt("amber.400").value, // muted gold brown
+// };
 
 /**
  * Returns the human display name for a system code.

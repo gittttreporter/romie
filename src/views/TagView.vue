@@ -26,7 +26,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, computed } from "vue";
+import { defineProps, ref } from "vue";
 import { useRouter } from "vue-router";
 import RomListLayout from "@/layouts/RomListLayout.vue";
 import RomDetailView from "@/views/RomDetailView.vue";

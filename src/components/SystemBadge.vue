@@ -1,7 +1,9 @@
 <template>
   <span
     class="system-badge"
-    :style="{ backgroundColor: systemColorComputed, color: textColor }"
+    :style="{
+      backgroundColor: systemColorComputed,
+    }"
     :title="systemDisplayName"
   >
     {{ abbr }}

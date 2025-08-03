@@ -31,8 +31,7 @@ const props = defineProps<{
   display: flex;
   gap: 8px;
   align-items: center;
-  padding: 6px 8px;
-  margin: 0 8px;
+  padding: var(--p-list-padding);
   border-radius: var(--p-list-option-border-radius);
   transition: background-color 0.2s ease-in-out;
 

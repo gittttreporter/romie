@@ -39,6 +39,7 @@
         v-model="filterBySystem"
         :options="filterSystems"
         :filled="true"
+        :disabled="props.mode === 'system'"
         optionLabel="label"
         optionValue="value"
         placeholder="System"
@@ -78,10 +79,11 @@ import RomList from "@/components/RomList.vue";
 import { getSystemDisplayName } from "@/utils/system.utils";
 
 import type { Rom } from "@/types/rom";
-import { i } from "vite/dist/node/types.d-aGj9QkWt";
+import type { SystemCode } from "@/types/system";
 
 const props = defineProps<{
   mode: "all" | "tag" | "favorites" | "system";
+  system?: SystemCode;
   tag?: string;
 }>();
 
@@ -95,11 +97,6 @@ const listModeOptions = ref([
   { icon: "pi pi-list", value: "list" },
   { icon: "pi pi-th-large", value: "grid" },
 ]);
-
-// Load ROMs when component mounts
-onMounted(() => {
-  romStore.loadRoms();
-});
 
 const searchPlaceholder = computed(() => {
   if (props.mode === "tag" && props.tag) {
@@ -146,7 +143,8 @@ const sortedRoms = computed(() => {
 const filteredRoms = computed(() => {
   const query = searchQuery.value.toLowerCase().trim();
   const selectedRegions = filterByRegion.value;
-  const selectedSystems = filterBySystem.value;
+  const selectedSystems =
+    props.mode === "system" ? [props.system] : filterBySystem.value;
   const filterTag = props.mode === "tag" ? props.tag : null;
 
   return sortedRoms.value.filter((rom) => {

@@ -1,8 +1,8 @@
 <template>
-  <RomListLayout mode="favorites">
+  <RomListLayout :system="system" mode="system">
     <template #default="{ filteredRoms, loading }">
       <RomList
-        class="library-view__content-list"
+        class="system-view__content-list"
         :loading="loading"
         :roms="filteredRoms"
         :rom-selections="romSelections"
@@ -14,7 +14,6 @@
       <RomDetailView
         v-if="romSelections.length === 1"
         :rom-id="romSelections[0]"
-        @favorite="handleFavorite"
         @delete="romSelections = []"
       />
       <RomActionView
@@ -33,13 +32,10 @@ import RomDetailView from "@/views/RomDetailView.vue";
 import RomActionView from "@/views/RomActionView.vue";
 import RomList from "@/components/RomList.vue";
 
-const romSelections = ref<string[]>([]);
+import type { SystemCode } from "@/types/system";
 
-function handleFavorite(favorite: boolean) {
-  if (!favorite) {
-    romSelections.value = [];
-  }
-}
+const props = defineProps<{ system: SystemCode }>();
+const romSelections = ref<string[]>([]);
 </script>
 
-<style scoped lang="less"></style>
+<style lang="less" scoped></style>

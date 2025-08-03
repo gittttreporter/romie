@@ -84,7 +84,19 @@ import { computed, ref, onMounted, ComputedRef } from "vue";
 import Badge from "primevue/badge";
 import Tag from "primevue/tag";
 import { useRomStore } from "@/stores";
+import { getSystemDisplayName } from "@/utils/system.utils";
+
 import type { RouteLocationRaw } from "vue-router";
+import type { SystemCode } from "@/types/system";
+
+// prettier-ignore
+const SYSTEM_SORT_ORDER: SystemCode[] = [
+  'nes','snes','n64','gb','gbc','gba', // Nintendo
+  'sms','genesis','gg',                // Sega
+  'psx',                               // Sony
+  'atari2600',                         // Atari
+  'arcade'                             // Arcade
+];
 
 const romStore = useRomStore();
 
@@ -104,6 +116,33 @@ interface SidebarSection {
 
 onMounted(() => {
   romStore.loadStats();
+  romStore.loadRoms();
+});
+
+const systemsSection = computed((): SidebarSection => {
+  const systems = Object.entries(romStore.stats.systemCounts) as [
+    SystemCode,
+    number,
+  ][];
+  const items: SidebarItem[] = [];
+
+  systems.sort((a, b) => {
+    return SYSTEM_SORT_ORDER.indexOf(a[0]) - SYSTEM_SORT_ORDER.indexOf(b[0]);
+  });
+
+  systems.forEach(([system, count]) => {
+    items.push({
+      id: `system-${system}`,
+      label: getSystemDisplayName(system),
+      count,
+      route: {
+        name: "system-detail",
+        params: { system },
+      },
+    });
+  });
+
+  return { id: "systems", title: "Systems", items };
 });
 
 const tagsSection = computed((): SidebarSection => {
@@ -172,6 +211,7 @@ const sections = computed((): SidebarSection[] => [
       },
     ],
   },
+  systemsSection.value,
   tagsSection.value,
 ]);
 </script>
@@ -191,7 +231,7 @@ const sections = computed((): SidebarSection[] => [
   }
 
   &__title {
-    font-size: 0.75rem;
+    font-size: var(--font-size-xs);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;

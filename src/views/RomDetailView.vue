@@ -190,7 +190,7 @@ function formatDatetime(ts: number): string {
 .rom-details {
   width: 350px;
   height: 100%;
-  padding: 16px;
+  padding: 12px;
 
   &__card {
     height: 100%;
