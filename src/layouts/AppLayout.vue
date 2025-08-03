@@ -22,8 +22,8 @@ import AppSidebar from "@/components/AppSidebar.vue";
 
 .app-layout {
   height: 100vh;
-  background-color: #121212;
-  color: #f2f2f2;
+  /* background-color: #121212; */
+  /* color: #f2f2f2; */
   box-sizing: border-box;
 
   &__draggable-area {

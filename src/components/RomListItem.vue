@@ -33,16 +33,17 @@ const props = defineProps<{
   align-items: center;
   padding: 6px 8px;
   margin: 0 8px;
-  border-radius: 4px;
+  border-radius: var(--p-list-option-border-radius);
   transition: background-color 0.2s ease-in-out;
 
   &:hover {
     cursor: pointer;
-    background-color: #232323;
+    background-color: var(--p-list-option-focus-background);
   }
 
   &--active {
-    background-color: #333;
+    color: var(--p-list-option-selected-color);
+    background-color: var(--p-list-option-selected-background);
   }
 
   &__content {
@@ -57,8 +58,8 @@ const props = defineProps<{
 
   &__region {
     margin-left: 8px;
-    font-size: 14px;
-    opacity: 0.5; // TODO: Replace with secondarty color when implemented
+    font-size: var(--p-inputtext-sm-font-size);
+    color: var(--p-text-muted-color);
   }
 
   &__actions {

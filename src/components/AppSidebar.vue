@@ -151,30 +151,9 @@ const sections = computed((): SidebarSection[] => [
 </script>
 
 <style scoped lang="less">
-// Theme Variables (move to theme file later)
-@sidebar-width: 200px;
-@sidebar-bg: #ffffff;
-@sidebar-border: #e5e5e5;
-@sidebar-text-primary: #1d1d1f;
-@sidebar-text-secondary: #86868b;
-@sidebar-hover-bg: #f5f5f7;
-@sidebar-active-bg: #007aff;
-@sidebar-active-text: #ffffff;
-@primary-color: #007aff;
-@primary-color-text: #ffffff;
-@primary-color-hover: #0056cc;
-
-// Dark theme overrides
-@sidebar-bg-dark: #1e1e1e;
-@sidebar-border-dark: #2d2d2d;
-@sidebar-text-primary-dark: #ffffff;
-@sidebar-text-secondary-dark: #98989d;
-@sidebar-hover-bg-dark: #2c2c2e;
-
 .app-sidebar {
-  width: @sidebar-width;
-  background: @sidebar-bg;
-  border-right: 1px solid @sidebar-border;
+  width: 200px;
+  border-right: 1px solid var(--p-content-border-color);
   padding: 12px 0 0 0;
   height: 100vh;
   display: flex;
@@ -186,11 +165,11 @@ const sections = computed((): SidebarSection[] => [
   }
 
   &__title {
-    font-size: 11px;
+    font-size: 0.75rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: @sidebar-text-secondary;
+    color: var(--p-navigation-submenu-label-color);
     margin: 0 16px 8px 16px;
     padding: 0;
   }
@@ -214,18 +193,15 @@ const sections = computed((): SidebarSection[] => [
     text-decoration: none;
     color: inherit;
 
-    &:hover {
-      background: @sidebar-hover-bg;
+    &:hover,
+    &:focus {
+      background: var(--p-navigation-item-focus-background);
+      color: var(--p-navigation-item-focus-color); // If available
     }
 
     &--active {
-      background: @sidebar-active-bg;
-      color: @sidebar-active-text;
-
-      .app-sidebar__count,
-      .app-sidebar__icon {
-        opacity: 0.9;
-      }
+      background: var(--p-navigation-item-active-background);
+      color: var(--p-navigation-item-active-color);
     }
   }
 
@@ -233,6 +209,7 @@ const sections = computed((): SidebarSection[] => [
     margin-right: 8px;
     opacity: 0.7;
     font-size: 12px;
+    color: var(--p-text-muted-color);
   }
 
   &__label {
@@ -253,28 +230,6 @@ const sections = computed((): SidebarSection[] => [
 
   &__footer {
     margin-top: auto;
-  }
-
-  // Dark mode adjustments
-  @media (prefers-color-scheme: dark) {
-    background: @sidebar-bg-dark;
-    border-right-color: @sidebar-border-dark;
-
-    .app-sidebar__title {
-      color: @sidebar-text-secondary-dark;
-    }
-
-    .app-sidebar__item {
-      color: @sidebar-text-primary-dark;
-
-      &:hover {
-        background: @sidebar-hover-bg-dark;
-      }
-    }
-
-    .app-sidebar__footer {
-      border-top-color: @sidebar-border-dark;
-    }
   }
 }
 </style>

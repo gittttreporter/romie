@@ -196,7 +196,6 @@ function getUniqueRomValues<T extends keyof Rom>(field: T) {
 
   &__header {
     padding: 10px 16px;
-    border-bottom: 1px solid black;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -209,12 +208,10 @@ function getUniqueRomValues<T extends keyof Rom>(field: T) {
   &__filters {
     padding: 4px 16px;
     flex-shrink: 0;
-    border-bottom: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 8px;
-    background-color: #1a1a1a;
   }
 
   &__content {
@@ -234,7 +231,6 @@ function getUniqueRomValues<T extends keyof Rom>(field: T) {
     justify-content: center;
     height: 100%;
     font-size: 1.2rem;
-    color: var(--text-color-secondary);
   }
 }
 </style>
