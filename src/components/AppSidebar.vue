@@ -8,7 +8,32 @@
       <h4 v-if="section.title" class="app-sidebar__title">
         {{ section.title }}
       </h4>
-      <ul class="app-sidebar__items">
+      <ul
+        v-if="section.id === 'tags'"
+        class="app-sidebar__items app-sidebar__items--tags"
+      >
+        <li v-for="item in section.items">
+          <RouterLink
+            :to="item.route"
+            class="app-sidebar__item"
+            active-class="app-sidebar__item--active"
+            v-slot="{ isActive }"
+          >
+            <Tag
+              :severity="isActive ? 'contrast' : 'secondary'"
+              :key="item.id"
+              :value="item.label"
+            ></Tag>
+          </RouterLink>
+        </li>
+        <li
+          v-if="section.items.length === 0"
+          class="app-sidebar__item app-sidebar__item--empty"
+        >
+          No tags yet
+        </li>
+      </ul>
+      <ul v-else class="app-sidebar__items">
         <li v-for="item in section.items" :key="item.id">
           <RouterLink
             :to="item.route"
@@ -57,6 +82,7 @@ import log from "electron-log";
 import { RouterLink } from "vue-router";
 import { computed, ref, onMounted, ComputedRef } from "vue";
 import Badge from "primevue/badge";
+import Tag from "primevue/tag";
 import { useRomStore } from "@/stores";
 import type { RouteLocationRaw } from "vue-router";
 
@@ -152,7 +178,7 @@ const sections = computed((): SidebarSection[] => [
 
 <style scoped lang="less">
 .app-sidebar {
-  width: 200px;
+  width: 220px;
   border-right: 1px solid var(--p-content-border-color);
   padding: 12px 0 0 0;
   height: 100vh;
@@ -180,6 +206,23 @@ const sections = computed((): SidebarSection[] => [
     margin: 0;
   }
 
+  &__items--tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0 14px;
+
+    .app-sidebar__item {
+      padding: 0;
+      margin: 0;
+    }
+
+    .app-sidebar__item--empty {
+      font-size: var(--font-size-sm);
+      color: var(--p-text-muted-color);
+    }
+  }
+
   &__item {
     display: flex;
     align-items: center;
@@ -188,7 +231,6 @@ const sections = computed((): SidebarSection[] => [
     border-radius: 6px;
     margin: 0 8px;
     transition: all 0.15s ease;
-    font-size: 14px;
     line-height: 1.4;
     text-decoration: none;
     color: inherit;
