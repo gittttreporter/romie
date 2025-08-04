@@ -4,8 +4,8 @@
 - [x] Drag‑&‑drop + file picker (single & multi‑select)
 - [x] Auto‑copy to `<appdir>/roms/` with unique filenames
 - [x] Parse & clean filenames (remove brackets, tags)
-- [ ] Duplicate detection (MD5): prompt “Keep both / skip / replace”
-- [ ] Error messaging for unsupported formats, corrupt files, low disk space
+- [x] Duplicate detection (MD5): prompt “Keep both / skip / replace”
+- [x] Error messaging for unsupported formats, corrupt files, low disk space
 
 ## 2. Manage
 - [x] List view: clean display name + region badge
@@ -13,6 +13,7 @@
 - [ ] Library summary view: total count, total size, count by system
 - [x] Rom collections (tags)
 - [x] Rom favorites
+- [x] Roms by system
 - [x] Delete ROM (with “Are you sure?”)
 - [x] Persistent JSON store (lowdb or election‑store)
 

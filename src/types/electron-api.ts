@@ -1,6 +1,7 @@
 import type { Rom, RomDatabaseStats } from "./rom";
 
 export type RomImportResult = {
+  canceled: boolean;
   imported: Rom[];
   failed: {
     file: string;

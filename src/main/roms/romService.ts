@@ -1,42 +1,44 @@
-import { dialog } from 'electron'
-import { processRomFile } from './romImport';
-import type { Rom } from '@/types/rom';
-import type { RomImportResult } from '@/types/electron-api';
-
+import { dialog } from "electron";
+import { processRomFile } from "./romImport";
+import type { Rom } from "@/types/rom";
+import type { RomImportResult } from "@/types/electron-api";
 
 export async function importRoms(): Promise<RomImportResult> {
-  const {filePaths} = await dialog.showOpenDialog({ properties: ['openFile', 'multiSelections'] });
-  const fileTasks: Promise<Rom>[] = []
+  const { filePaths, canceled } = await dialog.showOpenDialog({
+    properties: ["openFile", "multiSelections"],
+  });
+  const response: RomImportResult = {
+    canceled: false,
+    imported: [],
+    failed: [],
+  };
+  const fileTasks: Promise<Rom>[] = [];
+
+  // Bail if the user canceled the file dialog
+  if (canceled) {
+    response.canceled = true;
+
+    return response;
+  }
 
   // Process all selected ROM files
   filePaths.forEach((filePath) => {
-    fileTasks.push(processRomFile(filePath))
-  })
+    fileTasks.push(processRomFile(filePath));
+  });
 
   // Handle processing results
-  const results = await Promise.allSettled(fileTasks)
-  const response: RomImportResult = { imported: [], failed: [] };
+  const results = await Promise.allSettled(fileTasks);
+
   results.forEach((res) => {
-    if (res.status === 'fulfilled') {
-      response.imported.push(res.value)
+    if (res.status === "fulfilled") {
+      response.imported.push(res.value);
     } else {
       response.failed.push({
-        file: res.reason?.file || 'unknown',
-        reason: res.reason?.reason || 'Unknown error',
-      })
+        file: res.reason?.file || "unknown",
+        reason: res.reason?.reason || "Unknown error",
+      });
     }
-  })
+  });
 
   return response;
 }
-
-
-// FUTURE SERVICES
-//
-
-
-// export async function getRom(id: string): Promise<Rom | null> { ... }
-
-// export async function removeRom(id: string): Promise<boolean> { ... }
-
-// export async function updateRom(id: string, changes: Partial<Rom>): Promise<Rom> { ... }
