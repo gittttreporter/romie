@@ -22,10 +22,16 @@
         <div class="setting-item">
           <div class="setting-info">
             <label class="setting-label">Auto-organize imports</label>
-            <p class="setting-description">Automatically organize ROMs by system</p>
+            <p class="setting-description">
+              Automatically organize ROMs by system
+            </p>
           </div>
           <div class="setting-control">
-            <input type="checkbox" v-model="autoOrganize" class="setting-checkbox" />
+            <input
+              type="checkbox"
+              v-model="autoOrganize"
+              class="setting-checkbox"
+            />
           </div>
         </div>
       </div>
@@ -85,34 +91,34 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from "vue";
 
 // Placeholder settings data
-const autoOrganize = ref(true)
-const selectedTheme = ref('system')
-const defaultProfile = ref('onion-os')
-const storageLocation = ref('')
+const autoOrganize = ref(true);
+const selectedTheme = ref("system");
+const defaultProfile = ref("onion-os");
+const storageLocation = ref("");
 
 // Placeholder methods
 const browseStorageLocation = () => {
   // TODO: Open file dialog to select storage location
-  console.log('Browse for storage location')
-}
+  console.log("Browse for storage location");
+};
 
 const checkForUpdates = () => {
   // TODO: Check for app updates
-  console.log('Checking for updates...')
-}
+  console.log("Checking for updates...");
+};
 
 const saveSettings = () => {
   // TODO: Save settings to store/config
-  console.log('Saving settings...')
-}
+  console.log("Saving settings...");
+};
 
 const resetSettings = () => {
   // TODO: Reset settings to defaults
-  console.log('Resetting settings...')
-}
+  console.log("Resetting settings...");
+};
 </script>
 
 <style scoped lang="less">
@@ -194,7 +200,8 @@ const resetSettings = () => {
   }
 }
 
-.browse-btn, .link-btn {
+.browse-btn,
+.link-btn {
   background: var(--surface-100, #f5f5f7);
   color: var(--text-color);
   border: 1px solid var(--surface-300, #d1d5db);

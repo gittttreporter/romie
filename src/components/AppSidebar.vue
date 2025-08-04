@@ -58,7 +58,7 @@
     <div class="app-sidebar__footer">
       <div class="app-sidebar__section">
         <ul class="app-sidebar__items">
-          <li>
+          <!-- <li>
             <RouterLink
               :to="{ name: 'settings' }"
               class="app-sidebar__item"
@@ -69,11 +69,10 @@
               </span>
               <span class="app-sidebar__label">Settings</span>
             </RouterLink>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
-    <!-- <Menu ref="menu" id="overlay_menu" :model="menuItems" :popup="true" /> -->
   </aside>
 </template>
 

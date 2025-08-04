@@ -10,7 +10,7 @@
 ## 2. Manage
 - [x] List view: clean display name + region badge
 - [x] Search/filter bar: name search + platform dropdown
-- [ ] Library summary view: total count, total size, count by system
+- [x] Library summary view: total count, total size, count by system
 - [x] Rom collections (tags)
 - [x] Rom favorites
 - [x] Roms by system

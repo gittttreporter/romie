@@ -10,3 +10,11 @@ export function normalizeInput(str: string) {
 
   return tag;
 }
+
+export function pluralize(
+  count: number,
+  singular: string,
+  plural: string | null = null,
+) {
+  return count === 1 ? singular : plural || singular + "s";
+}
