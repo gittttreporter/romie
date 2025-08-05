@@ -16,12 +16,15 @@
 - [x] Roms by system
 - [x] Delete ROM (with “Are you sure?”)
 - [x] Persistent JSON store (lowdb or election‑store)
+- [x] Bulk operations (mass delete, retag)
 
 ## 3. Sync
 - [ ] Onion OS SD‑card copy (core “sync” MVP)
 - [ ] Device profile system (map consoles → target folders)
 
 # Polish & Launch Essentials
+- [x] Light/Dark mode
+- [ ] Discord server
 - [ ] Basic app icon + splash (macOS / Windows)
 - [ ] Sentry integration (error + performance breadcrumbs)
 - [ ] Simple landing page (GitHub repo link + “Download v1.0”)
@@ -30,27 +33,22 @@
 ---
 
 ## 💭 Future Ideas
+- [ ] A minimalistic, neobrutalism theme
+- [ ] Automatic updates
 - [ ] Create system icons
 - [ ] Implement VirtualScroller for improved performance
 - [ ] AI boxart remixer
 - [ ] Use libretro/libretro-database for game name normalization
-- [ ] Copy ROMS to SD card (Stock, DotUI, Allium)
-- [ ] Playlists: Optionally sync playlists to SD card instead of full library
 - [ ] Retroacheivements
-- [ ] Light/Dark mode
 - [ ] Add setting to set the rom storage directory
 - [ ] Add Pico8 suport
 - [ ] Import `.zip` files (extract and scan contents)
 - [ ] Multi-disc PS1 game support (`.bin`/`.cue` grouping)
 - [ ] Box art scraping and caching
-- [ ] Favorite/star ROMs
-- [ ] Tag ROMs (e.g. "Fan Translation", "Repro", etc.)
 - [ ] Auto-detect connected devices (e.g. Miyoo Mini+)
 - [ ] Process dump info tags ([!], [h], etc)
 - [ ] Settings panel (theme, sync preferences, storage path override)
 - [ ] Backup and restore your library
-- [ ] Advanced filtering (by system, region, tags)
-- [ ] Bulk operations (mass delete, retag)
 
 ---
 
