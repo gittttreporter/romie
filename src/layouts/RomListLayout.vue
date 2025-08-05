@@ -33,6 +33,13 @@
         aria-label="Filters"
         @click="toggleFilters"
       />
+      <Button
+        icon="pi pi-discord"
+        size="small"
+        severity="secondary"
+        aria-label="Filters"
+        @click="openDiscordInvite"
+      />
     </div>
     <div v-if="showFilters" class="rom-list-layout__filters">
       <MultiSelect
@@ -177,6 +184,10 @@ function toggleFilters() {
     filterBySystem.value = [];
   }
   showFilters.value = !showFilters.value;
+}
+
+async function openDiscordInvite() {
+  window.util.openExternalLink("https://discord.gg/ZmhHgEfAsD");
 }
 
 function getUniqueRomValues<T extends keyof Rom>(field: T) {

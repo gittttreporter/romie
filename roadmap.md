@@ -33,6 +33,7 @@
 ---
 
 ## 💭 Future Ideas
+- [ ] Add grid list view
 - [ ] A minimalistic, neobrutalism theme
 - [ ] Automatic updates
 - [ ] Create system icons

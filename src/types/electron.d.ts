@@ -1,7 +1,10 @@
-import type { RomApi } from './electron-api'
+import type { RomApi } from "./electron-api";
 
 declare global {
   interface Window {
-    rom: RomApi
+    rom: RomApi;
+    util: {
+      openExternalLink(url: string): Promise<void>;
+    };
   }
 }

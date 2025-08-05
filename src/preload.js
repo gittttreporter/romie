@@ -2,7 +2,7 @@
 // https://www.electronjs.org/docs/latest/tutorial/process-model#preload-scripts
 
 import { updatePreset } from "@primeuix/themes";
-import { contextBridge, ipcRenderer } from "electron";
+import { contextBridge, ipcRenderer, shell } from "electron";
 
 const romApi = {
   list: () => ipcRenderer.invoke("rom:list"),
@@ -18,3 +18,7 @@ contextBridge.exposeInMainWorld("darkMode", {
 });
 
 contextBridge.exposeInMainWorld("rom", romApi);
+
+contextBridge.exposeInMainWorld("util", {
+  openExternalLink: (url) => ipcRenderer.invoke("util:openExternal", url),
+});
