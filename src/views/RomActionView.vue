@@ -28,7 +28,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineEmits, defineProps, computed, ref } from "vue";
+import { computed, ref } from "vue";
 import Card from "primevue/card";
 import Button from "primevue/button";
 import ConfirmPopup from "primevue/confirmpopup";

@@ -5,6 +5,8 @@ import FavoritesView from "@/views/FavoritesView.vue";
 import RecentlyAddedView from "@/views/RecentlyAddedView.vue";
 import TagView from "@/views/TagView.vue";
 import SystemView from "@/views/SystemView.vue";
+import DeviceAddView from "@/views/DeviceAddView.vue";
+import DeviceView from "@/views/DeviceView.vue";
 import RomDetailView from "@/views/RomDetailView.vue";
 import RomImportView from "@/views/RomImportView.vue";
 import SettingsView from "@/views/SettingsView.vue";
@@ -25,6 +27,11 @@ const routes = [
     component: RomImportView,
   },
   {
+    path: "/add-device",
+    name: "add-device",
+    component: DeviceAddView,
+  },
+  {
     path: "/favorites",
     name: "favorites",
     component: FavoritesView,
@@ -33,6 +40,12 @@ const routes = [
     path: "/tags/:tag",
     name: "tag-detail",
     component: TagView,
+    props: true,
+  },
+  {
+    path: "/devices/:deviceId",
+    name: "device-detail",
+    component: DeviceView,
     props: true,
   },
   {

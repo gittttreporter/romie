@@ -82,7 +82,7 @@ import { RouterLink } from "vue-router";
 import { computed, ref, onMounted, ComputedRef } from "vue";
 import Badge from "primevue/badge";
 import Tag from "primevue/tag";
-import { useRomStore } from "@/stores";
+import { useRomStore, useDeviceStore } from "@/stores";
 import { getSystemDisplayName } from "@/utils/system.utils";
 
 import type { RouteLocationRaw } from "vue-router";
@@ -98,6 +98,7 @@ const SYSTEM_SORT_ORDER: SystemCode[] = [
 ];
 
 const romStore = useRomStore();
+const deviceStore = useDeviceStore();
 
 interface SidebarItem {
   id: string;
@@ -116,6 +117,7 @@ interface SidebarSection {
 onMounted(() => {
   romStore.loadStats();
   romStore.loadRoms();
+  deviceStore.loadDevices();
 });
 
 const systemsSection = computed((): SidebarSection => {
@@ -175,44 +177,71 @@ const tagsSection = computed((): SidebarSection => {
   };
 });
 
-const sections = computed((): SidebarSection[] => [
-  {
-    id: "library",
-    items: [
-      {
-        id: "import",
-        label: "Import",
-        icon: "pi pi-upload",
-        route: {
-          name: "import",
+const devicesSection = computed((): SidebarSection => {
+  const items = deviceStore.devices.map((device) => ({
+    id: `device-${device.id}`,
+    label: device.name,
+    icon: "pi pi-tablet",
+    route: {
+      name: "device-detail",
+      params: { deviceId: device.id },
+    },
+  }));
+
+  return {
+    id: "devices",
+    title: "Devices",
+    items,
+  };
+});
+
+const sections = computed((): SidebarSection[] => {
+  const baseSections: SidebarSection[] = [
+    {
+      id: "library",
+      items: [
+        {
+          id: "import",
+          label: "Import",
+          icon: "pi pi-upload",
+          route: { name: "import" },
         },
-      },
-      {
-        id: "all-roms",
-        label: "Library",
-        count: romStore.stats.totalRoms,
-        icon: "pi pi-folder",
-        route: {
-          name: "library",
+        {
+          id: "add-device",
+          label: "Add device",
+          icon: "pi pi-plus",
+          route: { name: "add-device" },
         },
-      },
-      {
-        id: "favorites",
-        label: "Favorites",
-        count: romStore.roms.reduce(
-          (acc, rom) => acc + (rom.favorite ? 1 : 0),
-          0,
-        ),
-        icon: "pi pi-heart",
-        route: {
-          name: "favorites",
+        {
+          id: "all-roms",
+          label: "Library",
+          count: romStore.stats.totalRoms,
+          icon: "pi pi-folder",
+          route: { name: "library" },
         },
-      },
-    ],
-  },
-  systemsSection.value,
-  tagsSection.value,
-]);
+        {
+          id: "favorites",
+          label: "Favorites",
+          count: romStore.roms.reduce(
+            (acc, rom) => acc + (rom.favorite ? 1 : 0),
+            0,
+          ),
+          icon: "pi pi-heart",
+          route: { name: "favorites" },
+        },
+      ],
+    },
+  ];
+
+  if (devicesSection.value.items.length > 0) {
+    baseSections.push(devicesSection.value);
+  }
+
+  baseSections.push(systemsSection.value);
+  baseSections.push(tagsSection.value);
+
+  return baseSections;
+});
 </script>
 
 <style scoped lang="less">
@@ -237,6 +266,7 @@ const sections = computed((): SidebarSection[] => [
     color: var(--p-navigation-submenu-label-color);
     margin: 0 16px 8px 16px;
     padding: 0;
+    user-select: none;
   }
 
   &__items {

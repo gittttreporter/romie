@@ -52,7 +52,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineEmits, defineProps, ref, nextTick } from "vue";
+import { ref, nextTick } from "vue";
 import Button from "primevue/button";
 import Chip from "primevue/chip";
 import InputText from "primevue/inputtext";

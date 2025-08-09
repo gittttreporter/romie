@@ -1,12 +1,13 @@
-import { createPinia } from 'pinia'
+import { createPinia } from "pinia";
 // import { createPersistedState } from 'pinia-plugin-persistedstate'
 
-const pinia = createPinia()
+const pinia = createPinia();
 // TODO: Consider using persisted state
 // pinia.use(createPersistedState())
 
-export default pinia
+export default pinia;
 
 // Re-export stores
-export { useRomStore } from './roms'
-export { useUIStore } from './ui'
+export { useRomStore } from "./roms";
+export { useDeviceStore } from "./devices";
+export { useUIStore } from "./ui";

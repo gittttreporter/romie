@@ -53,7 +53,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref, defineProps, defineEmits } from "vue";
+import { computed, ref } from "vue";
 import Button from "primevue/button";
 import Card from "primevue/card";
 import { useToast } from "primevue/usetoast";

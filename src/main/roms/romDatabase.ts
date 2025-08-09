@@ -3,10 +3,12 @@ import path from "path";
 import { app } from "electron";
 import log from "electron-log/main";
 import { JSONFilePreset } from "lowdb/node";
+import { v4 as uuid } from "uuid";
 import { fileExists } from "./romUtils";
 
 import type { Low } from "lowdb";
 import type { Rom, RomDatabase, RomDatabaseStats } from "@/types/rom";
+import type { Device } from "@/types/device";
 
 const baseDir = app.getPath("userData");
 const romDir = path.join(baseDir, "roms");
@@ -22,19 +24,31 @@ const ROM_IMMUTABLE_FIELDS: (keyof Rom)[] = [
 ];
 
 let database: Low<RomDatabase> | null = null;
+let loadDatabasePromise: Promise<Low<RomDatabase>> | null = null;
 
 async function loadDatabase(): Promise<void> {
-  log.info(`Loading ROM database from ${romDbPath}`);
   const now = Date.now();
 
-  database = await JSONFilePreset<RomDatabase>(romDbPath, {
-    version: "1.0.0",
-    created: now,
-    lastUpdated: now,
-    stats: { totalRoms: 0, totalSizeBytes: 0, systemCounts: {} },
-    roms: [],
-  });
-  log.info("Database loaded successfully");
+  if (!loadDatabasePromise) {
+    log.info(`[ROM DB] Starting to load database from ${romDbPath}`);
+
+    // TODO: Update this to handle schema migration.
+    loadDatabasePromise = JSONFilePreset<RomDatabase>(romDbPath, {
+      version: "1.0.0",
+      created: now,
+      lastUpdated: now,
+      stats: { totalRoms: 0, totalSizeBytes: 0, systemCounts: {} },
+      roms: [],
+      devices: [],
+    });
+    database = await loadDatabasePromise;
+    loadDatabasePromise = null;
+    log.info(`[ROM DB] Database loaded successfully`);
+  } else {
+    log.debug(`[ROM DB] Load already in progress, awaiting existing operation`);
+    await loadDatabasePromise;
+    log.info(`[ROM DB] Load operation completed`);
+  }
 }
 
 async function ensureDatabase(): Promise<Low<RomDatabase>> {
@@ -150,4 +164,38 @@ export async function getRomStats(): Promise<RomDatabaseStats> {
   const db = await ensureDatabase();
 
   return db.data.stats;
+}
+
+// = DEVICES ==
+// TODO: This is starting to beyond roms so it should be refactored.
+export async function addDevice(candidate: Device): Promise<Device> {
+  const { name, profileId, deviceInfo } = candidate;
+  log.debug(`Adding device: ${name}`);
+  const db = await ensureDatabase();
+  const now = Date.now();
+
+  // Validate device info
+  if (!deviceInfo.mount) throw new Error("No mount path detected.");
+  if (!deviceInfo.size || deviceInfo.size <= 0)
+    throw new Error("Invalid device size.");
+  if (!profileId) throw new Error("Missing device profile.");
+
+  const device: Device = {
+    ...candidate,
+    id: uuid(),
+    addedAt: now,
+  };
+
+  await db.update((data) => {
+    data.devices.push(device);
+    data.lastUpdated = now;
+  });
+
+  return device;
+}
+
+export async function listDevices(): Promise<Device[]> {
+  const db = await ensureDatabase();
+
+  return structuredClone(db.data.devices);
 }

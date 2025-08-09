@@ -16,7 +16,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, defineEmits, computed } from "vue";
+import { computed } from "vue";
 import VirtualScroller from "primevue/virtualscroller";
 import RomListItem from "./RomListItem.vue";
 

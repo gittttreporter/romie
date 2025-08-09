@@ -1,4 +1,5 @@
 import type { Rom, RomDatabaseStats } from "./rom";
+import type { Device, StorageDevice } from "@/types/device";
 
 export type RomImportResult = {
   canceled: boolean;
@@ -15,4 +16,12 @@ export interface RomApi {
   update(id: string, romUpdate: Partial<Rom>): Promise<void>;
   import(): Promise<RomImportResult>;
   stats(): Promise<RomDatabaseStats>;
+}
+
+export interface DeviceApi {
+  list(): Promise<Device[]>;
+  listStorage(): Promise<StorageDevice[]>;
+  create(data: Device): Promise<Device>;
+  update(id: string, deviceUpdate: Partial<Device>): Promise<Device>;
+  remove(id: string): Promise<void>;
 }

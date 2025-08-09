@@ -74,7 +74,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, defineProps } from "vue";
+import { ref, computed, onMounted } from "vue";
 import Button from "primevue/button";
 import SelectButton from "primevue/selectbutton";
 import MultiSelect from "primevue/multiselect";

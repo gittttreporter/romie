@@ -12,12 +12,21 @@ const romApi = {
   stats: () => ipcRenderer.invoke("rom:stats"),
 };
 
+const deviceApi = {
+  list: () => ipcRenderer.invoke("device:list"),
+  listStorage: () => ipcRenderer.invoke("device:listStorage"),
+  create: (data) => ipcRenderer.invoke("device:create", data),
+  remove: (id) => ipcRenderer.invoke("device:remove", id),
+  update: (id, data) => ipcRenderer.invoke("device:update", id, data),
+};
+
 contextBridge.exposeInMainWorld("darkMode", {
   toggle: () => ipcRenderer.invoke("dark-mode:toggle"),
   system: () => ipcRenderer.invoke("dark-mode:system"),
 });
 
 contextBridge.exposeInMainWorld("rom", romApi);
+contextBridge.exposeInMainWorld("device", deviceApi);
 
 contextBridge.exposeInMainWorld("util", {
   openExternalLink: (url) => ipcRenderer.invoke("util:openExternal", url),
