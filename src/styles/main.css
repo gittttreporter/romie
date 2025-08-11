@@ -26,4 +26,8 @@ body {
   --font-size-10xl: 4.5rem; /* 72px */
   --font-size-11xl: 5rem; /* 80px */
   --font-size-12xl: 6rem; /* 96px */
+
+  --z-index-base: 0;
+  --z-index-draggable-area: 100;
+  --z-index-ui-elements: 200;
 }

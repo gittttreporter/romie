@@ -16,7 +16,7 @@
           </template>
         </SelectButton> -->
       </div>
-      <IconField>
+      <IconField class="rom-list-layout__header-item">
         <InputIcon>
           <i class="pi pi-search" />
         </InputIcon>
@@ -27,18 +27,12 @@
         />
       </IconField>
       <Button
+        class="rom-list-layout__header-item"
         :icon="`pi pi-filter${showFilters ? '-slash' : ''}`"
         size="small"
         severity="secondary"
         aria-label="Filters"
         @click="toggleFilters"
-      />
-      <Button
-        icon="pi pi-discord"
-        size="small"
-        severity="secondary"
-        aria-label="Filters"
-        @click="openDiscordInvite"
       />
     </div>
     <div v-if="showFilters" class="rom-list-layout__filters">
@@ -186,10 +180,6 @@ function toggleFilters() {
   showFilters.value = !showFilters.value;
 }
 
-async function openDiscordInvite() {
-  window.util.openExternalLink("https://discord.gg/ZmhHgEfAsD");
-}
-
 function getUniqueRomValues<T extends keyof Rom>(field: T) {
   return Array.from(
     new Set(romStore.roms.map((rom) => rom[field]).filter(Boolean)),
@@ -211,6 +201,12 @@ function getUniqueRomValues<T extends keyof Rom>(field: T) {
 
     &-actions {
       flex: 1;
+    }
+
+    /* Clickable header items need to be above the invisible drag region */
+    &-item {
+      z-index: var(--z-index-ui-elements);
+      -webkit-app-region: no-drag;
     }
   }
 

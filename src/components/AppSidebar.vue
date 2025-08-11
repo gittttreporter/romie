@@ -1,77 +1,70 @@
 <template>
   <aside class="app-sidebar">
-    <div
-      class="app-sidebar__section"
-      v-for="section in sections"
-      :key="section.id"
-    >
-      <h4 v-if="section.title" class="app-sidebar__title">
-        {{ section.title }}
-      </h4>
-      <ul
-        v-if="section.id === 'tags'"
-        class="app-sidebar__items app-sidebar__items--tags"
+    <div class="app-sidebar__header"></div>
+    <div class="app-sidebar__content">
+      <div
+        class="app-sidebar__section"
+        v-for="section in sections"
+        :key="section.id"
       >
-        <li v-for="item in section.items">
-          <RouterLink
-            :to="item.route"
-            class="app-sidebar__item"
-            active-class="app-sidebar__item--active"
-            v-slot="{ isActive }"
-          >
-            <Tag
-              :severity="isActive ? 'contrast' : 'secondary'"
-              :key="item.id"
-              :value="item.label"
-            ></Tag>
-          </RouterLink>
-        </li>
-        <li
-          v-if="section.items.length === 0"
-          class="app-sidebar__item app-sidebar__item--empty"
+        <h4 v-if="section.title" class="app-sidebar__title">
+          {{ section.title }}
+        </h4>
+        <ul
+          v-if="section.id === 'tags'"
+          class="app-sidebar__items app-sidebar__items--tags"
         >
-          No tags yet
-        </li>
-      </ul>
-      <ul v-else class="app-sidebar__items">
-        <li v-for="item in section.items" :key="item.id">
-          <RouterLink
-            :to="item.route"
-            class="app-sidebar__item"
-            active-class="app-sidebar__item--active"
-          >
-            <span class="app-sidebar__icon" v-if="item.icon">
-              <i :class="item.icon"></i>
-            </span>
-            <span class="app-sidebar__label">{{ item.label }}</span>
-            <Badge
-              v-if="item.count"
-              :value="item.count"
-              severity="secondary"
-              class="app-sidebar__count"
-            />
-          </RouterLink>
-        </li>
-      </ul>
-    </div>
-
-    <div class="app-sidebar__footer">
-      <div class="app-sidebar__section">
-        <ul class="app-sidebar__items">
-          <!-- <li>
+          <li v-for="item in section.items">
             <RouterLink
-              :to="{ name: 'settings' }"
+              :to="item.route"
+              class="app-sidebar__item"
+              active-class="app-sidebar__item--active"
+              v-slot="{ isActive }"
+            >
+              <Tag
+                :severity="isActive ? 'contrast' : 'secondary'"
+                :key="item.id"
+                :value="item.label"
+              ></Tag>
+            </RouterLink>
+          </li>
+          <li
+            v-if="section.items.length === 0"
+            class="app-sidebar__item app-sidebar__item--empty"
+          >
+            No tags yet
+          </li>
+        </ul>
+        <ul v-else class="app-sidebar__items">
+          <li v-for="item in section.items" :key="item.id">
+            <RouterLink
+              :to="item.route"
               class="app-sidebar__item"
               active-class="app-sidebar__item--active"
             >
-              <span class="app-sidebar__icon">
-                <i class="pi pi-cog"></i>
+              <span class="app-sidebar__icon" v-if="item.icon">
+                <i :class="item.icon"></i>
               </span>
-              <span class="app-sidebar__label">Settings</span>
+              <span class="app-sidebar__label">{{ item.label }}</span>
+              <Badge
+                v-if="item.count"
+                :value="item.count"
+                severity="secondary"
+                class="app-sidebar__count"
+              />
             </RouterLink>
-          </li> -->
+          </li>
         </ul>
       </div>
+    </div>
+    <div class="app-sidebar__footer">
+      <Button
+        icon="pi pi-discord"
+        size="small"
+        severity="secondary"
+        @click="openDiscordInvite"
+      />
+      <Button icon="pi pi-moon" size="small" severity="secondary" @click="" />
     </div>
   </aside>
 </template>
@@ -80,6 +73,7 @@
 import log from "electron-log";
 import { RouterLink } from "vue-router";
 import { computed, ref, onMounted, ComputedRef } from "vue";
+import Button from "primevue/button";
 import Badge from "primevue/badge";
 import Tag from "primevue/tag";
 import { useRomStore, useDeviceStore } from "@/stores";
@@ -242,17 +236,41 @@ const sections = computed((): SidebarSection[] => {
 
   return baseSections;
 });
+
+async function openDiscordInvite() {
+  window.util.openExternalLink("https://discord.gg/ZmhHgEfAsD");
+}
 </script>
 
 <style scoped lang="less">
 .app-sidebar {
   width: 220px;
   border-right: 1px solid var(--p-content-border-color);
-  padding: 12px 0 0 0;
+  /* padding: 12px 0 0 0; */
   height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
+  /* overflow-y: auto; */
+
+  &__header,
+  &__footer {
+    height: 30px;
+    flex: 0 0 auto;
+  }
+
+  &__footer {
+    display: flex;
+    height: 34px;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 14px;
+  }
+
+  &__content {
+    flex: 1 1 auto;
+    overflow-y: auto;
+  }
 
   &__section {
     margin-bottom: 16px;
@@ -333,14 +351,6 @@ const sections = computed((): SidebarSection[] => {
     opacity: 0.7;
     font-weight: 500;
     margin-left: auto;
-  }
-
-  &__header {
-    padding: 4px 16px;
-  }
-
-  &__footer {
-    margin-top: auto;
   }
 }
 </style>

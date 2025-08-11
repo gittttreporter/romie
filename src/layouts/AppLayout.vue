@@ -22,8 +22,6 @@ import AppSidebar from "@/components/AppSidebar.vue";
 
 .app-layout {
   height: 100vh;
-  /* background-color: #121212; */
-  /* color: #f2f2f2; */
   box-sizing: border-box;
 
   &__draggable-area {
@@ -33,7 +31,7 @@ import AppSidebar from "@/components/AppSidebar.vue";
     right: 0;
     height: @title-bar-height;
     -webkit-app-region: drag;
-    z-index: 1000;
+    z-index: var(--z-index-draggable-area);
     background: transparent;
   }
 
@@ -44,7 +42,7 @@ import AppSidebar from "@/components/AppSidebar.vue";
   }
 
   &__main-sidebar {
-    padding-top: 30px;
+    /* padding-top: 30px; */
   }
 
   &__main-content {
