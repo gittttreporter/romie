@@ -34,6 +34,13 @@ const createWindow = () => {
   if (process.env.NODE_ENV === "development") {
     mainWindow.webContents.openDevTools();
   }
+
+  // Notify the renderer process when the native theme changes.
+  nativeTheme.on("updated", () => {
+    const { shouldUseDarkColors } = nativeTheme;
+    log.debug(`Native theme updated: isDark=${shouldUseDarkColors}`);
+    mainWindow.webContents.send("dark-mode:change", shouldUseDarkColors);
+  });
 };
 
 // This method will be called when Electron has finished

@@ -65,13 +65,17 @@
         severity="secondary"
         @click="openDiscordInvite"
       />
-      <Button icon="pi pi-moon" size="small" severity="secondary" @click="" />
+      <Button
+        :icon="`pi pi-${isDark ? 'moon' : 'sun'}`"
+        size="small"
+        severity="secondary"
+        @click="handleDisplayModeToggle"
+      />
     </div>
   </aside>
 </template>
 
 <script setup lang="ts">
-import log from "electron-log";
 import { RouterLink } from "vue-router";
 import { computed, ref, onMounted, ComputedRef } from "vue";
 import Button from "primevue/button";
@@ -109,10 +113,18 @@ interface SidebarSection {
   items: SidebarItem[];
 }
 
-onMounted(() => {
+const isDark = ref(false);
+const isSystem = ref(false);
+
+window.darkMode.onChange((value) => {
+  isDark.value = value;
+});
+
+onMounted(async () => {
   romStore.loadStats();
   romStore.loadRoms();
   deviceStore.loadDevices();
+  isDark.value = await window.darkMode.value();
 });
 
 const systemsSection = computed((): SidebarSection => {
@@ -240,6 +252,10 @@ const sections = computed((): SidebarSection[] => {
 
 async function openDiscordInvite() {
   window.util.openExternalLink("https://discord.gg/ZmhHgEfAsD");
+}
+
+async function handleDisplayModeToggle() {
+  isDark.value = await window.darkMode.toggle();
 }
 </script>
 

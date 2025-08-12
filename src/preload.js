@@ -21,6 +21,10 @@ const deviceApi = {
 };
 
 contextBridge.exposeInMainWorld("darkMode", {
+  onChange: (callback) => {
+    ipcRenderer.on("dark-mode:change", (_event, value) => callback(value));
+  },
+  value: () => ipcRenderer.invoke("dark-mode:value"),
   toggle: () => ipcRenderer.invoke("dark-mode:toggle"),
   system: () => ipcRenderer.invoke("dark-mode:system"),
 });
