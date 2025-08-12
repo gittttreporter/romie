@@ -58,6 +58,7 @@
       </div>
     </div>
     <div class="app-sidebar__footer">
+      <div class="app-logo">ROMie</div>
       <Button
         icon="pi pi-discord"
         size="small"
@@ -254,17 +255,26 @@ async function openDiscordInvite() {
 
   &__header,
   &__footer {
-    height: 30px;
     flex: 0 0 auto;
+  }
+
+  &__header {
+    height: 30px;
   }
 
   &__footer {
     display: flex;
-    height: 34px;
+    height: 36px;
     gap: 4px;
     align-items: center;
     justify-content: flex-end;
     padding: 0 14px;
+
+    .app-logo {
+      font-family: var(--font-alt);
+      font-size: 2rem;
+      flex-grow: 1;
+    }
   }
 
   &__content {
