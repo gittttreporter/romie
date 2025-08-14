@@ -57,6 +57,7 @@
 ---
 
 ## ✏️ Scratchpad
+* Take a look at how https://muos.dev/web/syncthing does syncing for inspiration
 
 Device profiles will help with file copy:
 ```javascript

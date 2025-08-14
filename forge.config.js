@@ -4,12 +4,25 @@ const { FuseV1Options, FuseVersion } = require('@electron/fuses');
 module.exports = {
   packagerConfig: {
     asar: true,
+    name: "ROMie",
+    executableName: "romie",
+    // Add these for better Windows experience
+    win32metadata: {
+      CompanyName: "JZimz Labs",
+      FileDescription: "ROM Manager for Retro Handhelds",
+      ProductName: "ROMie",
+      InternalName: "romie"
+    }
   },
   rebuildConfig: {},
   makers: [
     {
       name: '@electron-forge/maker-squirrel',
-      config: {},
+      config: {
+        name: "romie",
+        authors: "JZimz Labs",
+        description: "ROM Manager for Retro Handhelds"
+      },
     },
     {
       name: '@electron-forge/maker-zip',
