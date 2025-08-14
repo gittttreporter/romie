@@ -15,6 +15,24 @@ export const useDeviceStore = defineStore("devices", {
   }),
 
   actions: {
+    async loadDeviceById(id: string): Promise<Device | null> {
+      const findDevice = (d: Device) => d.id === id;
+      const cachedDevice = this.devices.find(findDevice);
+      if (cachedDevice) return cachedDevice;
+
+      // TODO: Implement device specific loading logic. The total number of devices
+      // is limited so the impact of fetching everything to find one should be small.
+      try {
+        this.loading = true;
+        await this.loadDevices();
+
+        return this.devices.find(findDevice);
+      } catch (error) {
+        // todo
+      } finally {
+        this.loading = false;
+      }
+    },
     async loadDevices() {
       try {
         this.loading = true;

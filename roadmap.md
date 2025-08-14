@@ -24,7 +24,7 @@
 
 # Polish & Launch Essentials
 - [x] Light/Dark mode
-- [ ] Discord server
+- [x] Discord server
 - [ ] Basic app icon + splash (macOS / Windows)
 - [ ] Sentry integration (error + performance breadcrumbs)
 - [ ] Simple landing page (GitHub repo link + “Download v1.0”)
@@ -33,23 +33,26 @@
 ---
 
 ## 💭 Future Ideas
-- [ ] Add grid list view
-- [ ] A minimalistic, neobrutalism theme
-- [ ] Automatic updates
-- [ ] Create system icons
-- [ ] Implement VirtualScroller for improved performance
-- [ ] AI boxart remixer
+- [ ] Add ability to scan existing ROM libraries
+- [ ] Box art scraping
+- [ ] Multi-disc game support (`.bin`/`.cue` grouping)
+- [ ] Add Pico8 support
+- [ ] Add Retroacheivements into ROM details vue
 - [ ] Use libretro/libretro-database for game name normalization
-- [ ] Retroacheivements
-- [ ] Add setting to set the rom storage directory
-- [ ] Add Pico8 suport
+- [ ] Use AI to remix boxart into a custom style
+- [ ] Use AI to allow chatting about a game
+- [ ] Use AI to reccomend games you might like to add
+
+- [ ] Automatic updates
+- [ ] Add icons for system list
+- [ ] Add grid list view
 - [ ] Import `.zip` files (extract and scan contents)
-- [ ] Multi-disc PS1 game support (`.bin`/`.cue` grouping)
-- [ ] Box art scraping and caching
 - [ ] Auto-detect connected devices (e.g. Miyoo Mini+)
 - [ ] Process dump info tags ([!], [h], etc)
 - [ ] Settings panel (theme, sync preferences, storage path override)
 - [ ] Backup and restore your library
+- [ ] Implement VirtualScroller for improved performance
+- [ ] A minimalistic, neobrutalism theme
 
 ---
 
