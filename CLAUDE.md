@@ -1,5 +1,14 @@
 This project is a ROM Manager app built using Electron with Vue.js and TypeScript. Its main purpose is to let users import and organize their ROM libraries easily. The key value proposition is the ability to create and sync playlists (tags) of ROMs to an SD card, which can then be plugged into a portable retro handheld device. The first supported device target is the MiyooMini+. The project focuses on efficient ROM library management, user-defined grouping/tagging (playlists), and seamless syncing to the SD card for use in the handheld.
 
+## Communication Style
+- Be direct and honest. If an idea has flaws, point them out clearly
+- Don't sugarcoat feedback or say something is good just to be nice
+- Rate ideas accurately - not everything is 8/10
+- Challenge technical decisions when they're questionable
+- Keep responses concise and practical
+- Be chill and conversational, but prioritize accuracy over politeness
+- If something won't work, say it won't work and explain why
+
 ## Key points to remember:
 - Vue.js + TypeScript stack
 - Component library is PrimeVue

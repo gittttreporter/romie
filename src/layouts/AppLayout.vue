@@ -10,10 +10,12 @@
       </div>
     </div>
     <Toast position="bottom-right" />
+    <ConfirmDialog style="max-width: 400px" />
   </main>
 </template>
 <script setup lang="ts">
 import Toast from "primevue/toast";
+import ConfirmDialog from "primevue/confirmdialog";
 import AppSidebar from "@/components/AppSidebar.vue";
 </script>
 
@@ -39,10 +41,6 @@ import AppSidebar from "@/components/AppSidebar.vue";
     display: flex;
     height: 100vh;
     overflow: hidden;
-  }
-
-  &__main-sidebar {
-    /* padding-top: 30px; */
   }
 
   &__main-content {

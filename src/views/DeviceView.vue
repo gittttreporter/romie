@@ -41,7 +41,7 @@
       </Card>
 
       <!-- Tag Selection Section -->
-      <Card class="device-view__tag-card">
+      <Card v-if="syncPhase === 'idle'" class="device-view__tag-card">
         <template #title>Tags to Sync</template>
         <template #subtitle>
           Syncing copies your selected ROMs to the device. Existing ROMs and
@@ -126,6 +126,60 @@
           </div>
         </template>
       </Card>
+
+      <!-- Sync Progress Section -->
+      <Card v-else class="device-view__sync-card">
+        <template #title>Syncing...</template>
+        <template #subtitle>
+          Syncing {{ totalSelectedRoms }} ROMs ({{
+            formatFileSize(totalSelectedSize)
+          }}) should take approximately {{ estimatedSyncTime }}
+        </template>
+        <template #content>
+          <div class="sync-progress">
+            <div class="progress-bar">
+              <div class="progress-bar__header">
+                <div class="progress-bar__header-title">
+                  <span v-if="syncPhase === 'preparing'">
+                    Preparing for sync...
+                  </span>
+                  <span v-else>Copying: {{ currentFile }}</span>
+                </div>
+                <div class="progress-bar__header-action">
+                  <i v-if="syncError" class="pi pi-times error"></i>
+                  <i v-else-if="syncSuccess" class="pi pi-check success"></i>
+                  <Button
+                    v-else
+                    icon="pi pi-times"
+                    severity="secondary"
+                    variant="text"
+                    rounded
+                    aria-label="Cancel"
+                    @click="cancelSync"
+                  />
+                </div>
+              </div>
+              <ProgressBar
+                :mode="
+                  syncPhase === 'preparing' ? 'indeterminate' : 'determinate'
+                "
+                :value="progressPercent"
+              ></ProgressBar>
+              <div class="progress-bar__footer">
+                <div v-if="syncError" class="error">
+                  {{ syncError }}
+                </div>
+                <div v-else-if="syncPhase === 'preparing'">
+                  Preparing files...
+                </div>
+                <div v-else-if="syncPhase === 'syncing'">
+                  {{ filesProcessed }} of {{ totalFiles }} files
+                </div>
+              </div>
+            </div>
+          </div>
+        </template>
+      </Card>
     </div>
   </PageLayout>
 </template>
@@ -139,6 +193,8 @@ import Tag from "primevue/tag";
 import MultiSelect from "primevue/multiselect";
 import Checkbox from "primevue/checkbox";
 import Button from "primevue/button";
+import ProgressBar from "primevue/progressbar";
+import { useConfirm } from "primevue/useconfirm";
 import { useDeviceStore } from "@/stores";
 
 import { Device } from "@/types/device";
@@ -171,17 +227,18 @@ const props = defineProps<{
   deviceId: string;
 }>();
 
+const confirm = useConfirm();
 const deviceStore = useDeviceStore();
 const device = ref<Device | null>(null);
 
 // Stubbed data
 const selectedTags = ref<Tag[]>([]);
 const availableTags = ref<Tag[]>([
-  { id: "1", name: "Favorites", romCount: 25, totalSize: 1024 * 1024 * 512 }, // 512MB
-  { id: "2", name: "Platformers", romCount: 43, totalSize: 1024 * 1024 * 1024 }, // 1GB
-  { id: "3", name: "RPGs", romCount: 18, totalSize: 1024 * 1024 * 1024 * 2.5 }, // 2.5GB
-  { id: "4", name: "Arcade", romCount: 67, totalSize: 1024 * 1024 * 800 }, // 800MB
-  { id: "5", name: "Puzzle", romCount: 31, totalSize: 1024 * 1024 * 256 }, // 256MB
+  { id: "1", name: "Favorites", romCount: 8, totalSize: 1024 * 1024 * 512 }, // 512MB
+  { id: "2", name: "Platformers", romCount: 12, totalSize: 1024 * 1024 * 1024 }, // 1GB
+  { id: "3", name: "RPGs", romCount: 6, totalSize: 1024 * 1024 * 1024 * 2.5 }, // 2.5GB
+  { id: "4", name: "Arcade", romCount: 15, totalSize: 1024 * 1024 * 800 }, // 800MB
+  { id: "5", name: "Puzzle", romCount: 5, totalSize: 1024 * 1024 * 256 }, // 256MB
 ]);
 
 const selectedCopyProfile = ref<CopyProfile>({
@@ -201,7 +258,18 @@ const syncOptions = ref<SyncOptions>({
   verifyFiles: true,
 });
 
-const syncInProgress = ref(false);
+const syncInProgress = ref(false); // TODO: Revert, only used while working on sync UI
+const syncPhase = ref<
+  "idle" | "preparing" | "syncing" | "verifying" | "cancelled" | "done"
+>("idle");
+const syncError = ref("");
+const syncSuccess = ref(false);
+
+// Mock progress data
+const currentFile = ref("");
+const filesProcessed = ref(0);
+const totalFiles = ref(0);
+const progressPercent = ref(0);
 
 // Computed properties
 const totalSelectedRoms = computed(() => {
@@ -224,7 +292,7 @@ const canStartSync = computed(() => {
   return (
     sdCardStatus.value.connected &&
     selectedTags.value.length > 0 &&
-    !syncInProgress.value
+    syncPhase.value === "idle"
   );
 });
 
@@ -238,10 +306,75 @@ const formatFileSize = (bytes: number): string => {
   return `${(bytes / Math.pow(k, i)).toFixed(1)} ${sizes[i]}`;
 };
 
+// TODO: Implement actual sync logic
 const startSync = () => {
-  syncInProgress.value = true;
-  // TODO: Implement actual sync logic
-  console.log("Starting sync with options:", syncOptions.value);
+  syncPhase.value = "preparing";
+
+  // Set up mock data
+  totalFiles.value = totalSelectedRoms.value;
+  filesProcessed.value = 0;
+  progressPercent.value = 0;
+  currentFile.value = "";
+
+  setTimeout(() => {
+    syncPhase.value = "syncing";
+    startMockProgress();
+  }, 2000);
+};
+
+// Mock progress simulation
+const mockFiles = [
+  "Super Mario Bros.nes",
+  "Metal Slug X.bin",
+  "Sonic the Hedgehog.md",
+  "Street Fighter II.sfc",
+  "Crash Bandicoot.bin",
+  "Final Fantasy VII.bin",
+  "Pokemon Red.gb",
+  "Legend of Zelda.nes",
+  "Metroid.nes",
+  "Contra.nes",
+];
+
+const startMockProgress = () => {
+  const interval = setInterval(() => {
+    if (syncPhase.value !== "syncing") {
+      clearInterval(interval);
+      return;
+    }
+
+    filesProcessed.value++;
+    progressPercent.value = Math.round(
+      (filesProcessed.value / totalFiles.value) * 100,
+    );
+    currentFile.value = mockFiles[filesProcessed.value % mockFiles.length];
+
+    if (filesProcessed.value >= totalFiles.value) {
+      clearInterval(interval);
+      syncPhase.value = "done";
+      syncSuccess.value = true;
+    }
+  }, 800); // Update every 800ms for demo
+};
+
+const cancelSync = () => {
+  confirm.require({
+    header: "Cancel sync?",
+    message:
+      "Files already copied will remain on your device, but the sync won't complete. You'll need to start over to sync the remaining ROMs.",
+    rejectProps: {
+      label: "Keep syncing",
+      severity: "secondary",
+      outlined: true,
+    },
+    acceptProps: {
+      label: "Cancel sync",
+      severity: "danger",
+    },
+    accept: () => {
+      syncPhase.value = "idle";
+    },
+  });
 };
 
 onMounted(async () => {
@@ -252,6 +385,13 @@ onMounted(async () => {
 
 <style lang="less" scoped>
 .device-view {
+  .error {
+    color: var(--p-red-500);
+  }
+  .success {
+    color: var(--p-green-500);
+  }
+
   &__content {
     max-width: 48rem;
   }
@@ -326,26 +466,34 @@ onMounted(async () => {
   }
 }
 
-.tag-pill {
-  background: var(--surface-ground);
-  border: 1px solid var(--surface-border);
-  border-radius: 1rem;
-  padding: 0.75rem 1rem;
-  min-width: 0;
-  flex: 0 1 auto;
+.sync-progress {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-top: 1rem;
+}
 
-  &__name {
-    font-weight: 600;
-    font-size: 0.95rem;
-    color: var(--text-color);
-    line-height: 1.2;
+.progress-bar {
+  &__header {
+    display: flex;
+    align-items: center;
+
+    &-title {
+      flex: 1 0 auto;
+      // Match the height of the icon button so when we switch to an icon on
+      // error or success the sizing doesn't shift.
+      line-height: 35px;
+    }
+
+    &-info,
+    &-action {
+      flex: 0 0 auto;
+    }
   }
 
-  &__subtitle {
-    font-size: 0.8rem;
-    color: var(--text-color-secondary);
-    margin-top: 0.25rem;
-    line-height: 1.2;
+  &__footer {
+    margin-top: var(--space-4);
+    color: var(--p-text-muted-color);
   }
 }
 
@@ -403,10 +551,6 @@ onMounted(async () => {
     &__options {
       gap: 1rem;
     }
-  }
-
-  .tag-pill {
-    width: 100%;
   }
 }
 </style>
