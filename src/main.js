@@ -32,7 +32,19 @@ const createWindow = () => {
   }
 
   if (process.env.NODE_ENV === "development") {
-    mainWindow.webContents.openDevTools();
+    app.whenReady().then(async () => {
+      try {
+        const { default: installExtension, VUEJS_DEVTOOLS } = await import(
+          "electron-devtools-installer"
+        );
+        const { name } = await installExtension(VUEJS_DEVTOOLS);
+        log.debug(`Added Extension: ${name}`);
+      } catch (err) {
+        log.debug("An error occurred: ", err);
+      } finally {
+        mainWindow.webContents.openDevTools();
+      }
+    });
   }
 
   // Notify the renderer process when the native theme changes.
