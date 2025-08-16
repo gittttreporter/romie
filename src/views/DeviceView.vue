@@ -41,7 +41,7 @@
       </Card>
 
       <!-- Tag Selection Section -->
-      <Card v-if="syncPhase === 'idle'" class="device-view__tag-card">
+      <Card v-if="syncProgress.phase === 'idle'" class="device-view__tag-card">
         <template #title>Tags to Sync</template>
         <template #subtitle>
           Syncing copies your selected ROMs to the device. Existing ROMs and
@@ -53,14 +53,19 @@
               <MultiSelect
                 v-model="selectedTags"
                 :options="availableTags"
-                optionLabel="name"
+                optionLabel="tag"
                 placeholder="Choose tags to sync"
                 class="w-full"
                 :maxSelectedLabels="3"
               />
               <div class="tag-selection__pills">
-                <Chip v-for="tag in selectedTags" :key="tag.id" removable>
-                  {{ tag.name }}
+                <Chip
+                  v-for="{ tag } in selectedTags"
+                  :key="tag"
+                  removable
+                  @remove="unselectTag(tag)"
+                >
+                  {{ tag }}
                 </Chip>
               </div>
             </div>
@@ -140,14 +145,22 @@
             <div class="progress-bar">
               <div class="progress-bar__header">
                 <div class="progress-bar__header-title">
-                  <span v-if="syncPhase === 'preparing'">
+                  <span v-if="syncProgress.phase === 'preparing'">
                     Preparing for sync...
                   </span>
-                  <span v-else>Copying: {{ currentFile }}</span>
+                  <span v-else-if="syncProgress.phase === 'syncing'">
+                    Copying: {{ syncProgress.currentFile }}
+                  </span>
+                  <span v-else-if="syncProgress.phase === 'done'">
+                    Sync complete!
+                  </span>
                 </div>
                 <div class="progress-bar__header-action">
                   <i v-if="syncError" class="pi pi-times error"></i>
-                  <i v-else-if="syncSuccess" class="pi pi-check success"></i>
+                  <i
+                    v-else-if="syncProgress.phase === 'done'"
+                    class="pi pi-check success"
+                  ></i>
                   <Button
                     v-else
                     icon="pi pi-times"
@@ -161,19 +174,22 @@
               </div>
               <ProgressBar
                 :mode="
-                  syncPhase === 'preparing' ? 'indeterminate' : 'determinate'
+                  syncProgress.phase === 'preparing'
+                    ? 'indeterminate'
+                    : 'determinate'
                 "
-                :value="progressPercent"
+                :value="syncProgress.progressPercent"
               ></ProgressBar>
               <div class="progress-bar__footer">
                 <div v-if="syncError" class="error">
                   {{ syncError }}
                 </div>
-                <div v-else-if="syncPhase === 'preparing'">
+                <div v-else-if="syncProgress.phase === 'preparing'">
                   Preparing files...
                 </div>
-                <div v-else-if="syncPhase === 'syncing'">
-                  {{ filesProcessed }} of {{ totalFiles }} files
+                <div v-else-if="syncProgress.phase === 'syncing'">
+                  {{ syncProgress.filesProcessed }} of
+                  {{ syncProgress.totalFiles }} files
                 </div>
               </div>
             </div>
@@ -195,9 +211,11 @@ import Checkbox from "primevue/checkbox";
 import Button from "primevue/button";
 import ProgressBar from "primevue/progressbar";
 import { useConfirm } from "primevue/useconfirm";
-import { useDeviceStore } from "@/stores";
+import { useDeviceStore, useRomStore } from "@/stores";
 
 import { Device } from "@/types/device";
+import { TagStats } from "@/types/rom";
+import type { SyncOptions, SyncProgress } from "@/types/electron-api";
 
 interface Tag {
   id: string;
@@ -218,28 +236,17 @@ interface SdCardStatus {
   totalSpace: string;
 }
 
-interface SyncOptions {
-  cleanDestination: boolean;
-  verifyFiles: boolean;
-}
-
 const props = defineProps<{
   deviceId: string;
 }>();
 
 const confirm = useConfirm();
 const deviceStore = useDeviceStore();
+const romStore = useRomStore();
 const device = ref<Device | null>(null);
 
 // Stubbed data
-const selectedTags = ref<Tag[]>([]);
-const availableTags = ref<Tag[]>([
-  { id: "1", name: "Favorites", romCount: 8, totalSize: 1024 * 1024 * 512 }, // 512MB
-  { id: "2", name: "Platformers", romCount: 12, totalSize: 1024 * 1024 * 1024 }, // 1GB
-  { id: "3", name: "RPGs", romCount: 6, totalSize: 1024 * 1024 * 1024 * 2.5 }, // 2.5GB
-  { id: "4", name: "Arcade", romCount: 15, totalSize: 1024 * 1024 * 800 }, // 800MB
-  { id: "5", name: "Puzzle", romCount: 5, totalSize: 1024 * 1024 * 256 }, // 256MB
-]);
+const selectedTags = ref<TagStats[]>([]);
 
 const selectedCopyProfile = ref<CopyProfile>({
   id: "1",
@@ -259,25 +266,28 @@ const syncOptions = ref<SyncOptions>({
 });
 
 const syncInProgress = ref(false); // TODO: Revert, only used while working on sync UI
-const syncPhase = ref<
-  "idle" | "preparing" | "syncing" | "verifying" | "cancelled" | "done"
->("idle");
 const syncError = ref("");
 const syncSuccess = ref(false);
-
-// Mock progress data
-const currentFile = ref("");
-const filesProcessed = ref(0);
-const totalFiles = ref(0);
-const progressPercent = ref(0);
+const syncProgress = ref<SyncProgress>({
+  phase: "idle",
+  currentFile: "",
+  filesProcessed: 0,
+  totalFiles: 0,
+  progressPercent: 0,
+});
 
 // Computed properties
+const availableTags = computed((): TagStats[] => {
+  return Object.values(romStore.stats.tagStats);
+});
 const totalSelectedRoms = computed(() => {
   return selectedTags.value.reduce((total, tag) => total + tag.romCount, 0);
 });
-
 const totalSelectedSize = computed(() => {
-  return selectedTags.value.reduce((total, tag) => total + tag.totalSize, 0);
+  return selectedTags.value.reduce(
+    (total, tag) => total + tag.totalSizeBytes,
+    0,
+  );
 });
 
 const estimatedSyncTime = computed(() => {
@@ -292,72 +302,47 @@ const canStartSync = computed(() => {
   return (
     sdCardStatus.value.connected &&
     selectedTags.value.length > 0 &&
-    syncPhase.value === "idle"
+    syncProgress.value.phase === "idle"
   );
 });
 
 // Methods
 
-const formatFileSize = (bytes: number): string => {
+function formatFileSize(bytes: number): string {
   if (bytes === 0) return "0 B";
   const k = 1024;
   const sizes = ["B", "KB", "MB", "GB", "TB"];
   const i = Math.floor(Math.log(bytes) / Math.log(k));
   return `${(bytes / Math.pow(k, i)).toFixed(1)} ${sizes[i]}`;
-};
+}
 
-// TODO: Implement actual sync logic
-const startSync = () => {
-  syncPhase.value = "preparing";
+async function handleProgressUpdate(progress: SyncProgress) {
+  syncProgress.value = progress;
+  console.log("-->", JSON.stringify(progress));
+}
 
-  // Set up mock data
-  totalFiles.value = totalSelectedRoms.value;
-  filesProcessed.value = 0;
-  progressPercent.value = 0;
-  currentFile.value = "";
+async function startSync() {
+  syncProgress.value.phase = "preparing";
+  const unsubscribeSyncProgress = window.sync.onProgress(handleProgressUpdate);
+  const selectedTagIds = selectedTags.value.map(({ tag }) => tag);
 
-  setTimeout(() => {
-    syncPhase.value = "syncing";
-    startMockProgress();
-  }, 2000);
-};
+  try {
+    await window.sync.start(selectedTagIds, props.deviceId, {
+      cleanDestination: syncOptions.value.cleanDestination,
+      verifyFiles: syncOptions.value.verifyFiles,
+    });
+  } catch (err) {
+    // TODO: Update UI with error message
+  } finally {
+    unsubscribeSyncProgress();
+  }
+}
 
-// Mock progress simulation
-const mockFiles = [
-  "Super Mario Bros.nes",
-  "Metal Slug X.bin",
-  "Sonic the Hedgehog.md",
-  "Street Fighter II.sfc",
-  "Crash Bandicoot.bin",
-  "Final Fantasy VII.bin",
-  "Pokemon Red.gb",
-  "Legend of Zelda.nes",
-  "Metroid.nes",
-  "Contra.nes",
-];
+function unselectTag(tagId: string) {
+  selectedTags.value = selectedTags.value.filter(({ tag }) => tag !== tagId);
+}
 
-const startMockProgress = () => {
-  const interval = setInterval(() => {
-    if (syncPhase.value !== "syncing") {
-      clearInterval(interval);
-      return;
-    }
-
-    filesProcessed.value++;
-    progressPercent.value = Math.round(
-      (filesProcessed.value / totalFiles.value) * 100,
-    );
-    currentFile.value = mockFiles[filesProcessed.value % mockFiles.length];
-
-    if (filesProcessed.value >= totalFiles.value) {
-      clearInterval(interval);
-      syncPhase.value = "done";
-      syncSuccess.value = true;
-    }
-  }, 800); // Update every 800ms for demo
-};
-
-const cancelSync = () => {
+function cancelSync() {
   confirm.require({
     header: "Cancel sync?",
     message:
@@ -372,10 +357,10 @@ const cancelSync = () => {
       severity: "danger",
     },
     accept: () => {
-      syncPhase.value = "idle";
+      window.sync.cancel();
     },
   });
-};
+}
 
 onMounted(async () => {
   device.value = await deviceStore.loadDeviceById(props.deviceId);

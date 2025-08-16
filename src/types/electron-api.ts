@@ -32,7 +32,7 @@ export interface SyncOptions {
 }
 
 export interface SyncProgress {
-  phase: 'preparing' | 'syncing' | 'verifying' | 'done' | 'error';
+  phase: "idle" | "preparing" | "syncing" | "verifying" | "done" | "error";
   currentFile?: string;
   filesProcessed: number;
   totalFiles: number;
@@ -40,7 +40,11 @@ export interface SyncProgress {
 }
 
 export interface SyncApi {
-  start(tagIds: string[], deviceId: string, options: SyncOptions): Promise<void>;
+  start(
+    tagIds: string[],
+    deviceId: string,
+    options: SyncOptions,
+  ): Promise<void>;
   cancel(): Promise<void>;
   onProgress(callback: (progress: SyncProgress) => void): () => void;
 }

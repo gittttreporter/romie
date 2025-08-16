@@ -7,7 +7,7 @@ import { v4 as uuid } from "uuid";
 import { fileExists } from "./romUtils";
 
 import type { Low } from "lowdb";
-import type { Rom, RomDatabase, RomDatabaseStats } from "@/types/rom";
+import type { Rom, RomDatabase, RomDatabaseStats, TagStats } from "@/types/rom";
 import type { Device } from "@/types/device";
 
 const baseDir = app.getPath("userData");
@@ -37,7 +37,12 @@ async function loadDatabase(): Promise<void> {
       version: "1.0.0",
       created: now,
       lastUpdated: now,
-      stats: { totalRoms: 0, totalSizeBytes: 0, systemCounts: {} },
+      stats: {
+        totalRoms: 0,
+        totalSizeBytes: 0,
+        systemCounts: {},
+        tagStats: {},
+      },
       roms: [],
       devices: [],
     });
@@ -63,12 +68,33 @@ function getDatabaseStats(roms: Rom[]): RomDatabaseStats {
     totalRoms: 0,
     totalSizeBytes: 0,
     systemCounts: {},
+    tagStats: {},
   };
 
+  // Aggregate ROM stats
   roms.forEach((rom) => {
     stats.totalRoms++;
     stats.totalSizeBytes += rom.size;
     stats.systemCounts[rom.system] = (stats.systemCounts[rom.system] ?? 0) + 1;
+
+    // Aggregate tag stats
+    if (rom.tags?.length) {
+      rom.tags.forEach((tag) => {
+        // Since tags are provided by the user, include a prefix to prevent prototype pollution
+        // and reserved word conflicts
+        const safeKey = `tag:${tag}`;
+
+        if (!stats.tagStats[safeKey]) {
+          stats.tagStats[safeKey] = {
+            tag,
+            romCount: 0,
+            totalSizeBytes: 0,
+          };
+        }
+        stats.tagStats[safeKey].romCount++;
+        stats.tagStats[safeKey].totalSizeBytes += rom.size;
+      });
+    }
   });
 
   return stats;

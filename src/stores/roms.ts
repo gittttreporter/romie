@@ -18,6 +18,7 @@ export const useRomStore = defineStore("roms", {
       totalRoms: 0,
       totalSizeBytes: 0,
       systemCounts: {},
+      tagStats: {},
     },
     loading: false,
     error: null,
@@ -27,18 +28,6 @@ export const useRomStore = defineStore("roms", {
   getters: {
     getRomById: (state) => (id: string) =>
       state.roms.find((rom) => rom.id === id),
-    romsByTag(state): Record<string, Rom[]> {
-      const result: Record<string, Rom[]> = {};
-
-      state.roms.forEach((rom) => {
-        (rom.tags || []).forEach((tag) => {
-          result[tag] ??= [];
-          result[tag].push(rom);
-        });
-      });
-
-      return result;
-    },
   },
 
   actions: {

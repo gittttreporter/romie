@@ -42,10 +42,17 @@ export interface Rom {
   notes?: string;
 }
 
+export interface TagStats {
+  tag: string;
+  romCount: number;
+  totalSizeBytes: number;
+}
+
 export interface RomDatabaseStats {
   totalRoms: number;
   totalSizeBytes: number;
   systemCounts: Partial<Record<SystemCode, number>>;
+  tagStats: Record<string, TagStats>;
 }
 
 export interface RomDatabase {

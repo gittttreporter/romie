@@ -77,7 +77,7 @@
 
 <script setup lang="ts">
 import { RouterLink } from "vue-router";
-import { computed, ref, onMounted, ComputedRef } from "vue";
+import { computed, ref, onMounted, onBeforeUnmount } from "vue";
 import Button from "primevue/button";
 import Badge from "primevue/badge";
 import Tag from "primevue/tag";
@@ -114,9 +114,8 @@ interface SidebarSection {
 }
 
 const isDark = ref(false);
-const isSystem = ref(false);
 
-window.darkMode.onChange((value) => {
+const unsubscribeDarkMode = window.darkMode.onChange((value) => {
   isDark.value = value;
 });
 
@@ -125,6 +124,10 @@ onMounted(async () => {
   romStore.loadRoms();
   deviceStore.loadDevices();
   isDark.value = await window.darkMode.value();
+});
+
+onBeforeUnmount(() => {
+  unsubscribeDarkMode();
 });
 
 const systemsSection = computed((): SidebarSection => {
@@ -154,22 +157,15 @@ const systemsSection = computed((): SidebarSection => {
 });
 
 const tagsSection = computed((): SidebarSection => {
-  // Collect tag counts
-  const tagCounts: Record<string, number> = {};
-  romStore.roms.forEach((rom) => {
-    if (Array.isArray(rom.tags)) {
-      rom.tags.forEach((tag) => {
-        tagCounts[tag] = (tagCounts[tag] || 0) + 1;
-      });
-    }
-  });
+  const { tagStats } = romStore.stats;
+
   // Build tag list sorted alphabetically
-  const items = Object.keys(tagCounts)
-    .sort((a, b) => a.localeCompare(b))
-    .map((tag) => ({
+  const items = Object.values(tagStats)
+    .sort((a, b) => a.tag.localeCompare(b.tag))
+    .map(({ tag, romCount }) => ({
       id: `tag-${tag}`,
       label: tag,
-      count: tagCounts[tag],
+      count: romCount,
       icon: "pi pi-tag",
       route: {
         name: "tag-detail",
