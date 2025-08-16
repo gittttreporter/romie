@@ -25,3 +25,22 @@ export interface DeviceApi {
   update(id: string, deviceUpdate: Partial<Device>): Promise<Device>;
   remove(id: string): Promise<void>;
 }
+
+export interface SyncOptions {
+  cleanDestination: boolean;
+  verifyFiles: boolean;
+}
+
+export interface SyncProgress {
+  phase: 'preparing' | 'syncing' | 'verifying' | 'done' | 'error';
+  currentFile?: string;
+  filesProcessed: number;
+  totalFiles: number;
+  progressPercent: number;
+}
+
+export interface SyncApi {
+  start(tagIds: string[], deviceId: string, options: SyncOptions): Promise<void>;
+  cancel(): Promise<void>;
+  onProgress(callback: (progress: SyncProgress) => void): () => void;
+}

@@ -8,6 +8,7 @@ This project is a ROM Manager app built using Electron with Vue.js and TypeScrip
 - Keep responses concise and practical
 - Be chill and conversational, but prioritize accuracy over politeness
 - If something won't work, say it won't work and explain why
+- I'm new to typescript so explain in a little extra detail why typescript related decisions are made
 
 ## Key points to remember:
 - Vue.js + TypeScript stack
@@ -20,6 +21,10 @@ This project is a ROM Manager app built using Electron with Vue.js and TypeScrip
 ## Code style to follow:
 - Use less for styles with BEM (Block Element Modifier) style class names (e.g., .block__element--modifier)
 - Use REM values wherever relevant. The root font size is set to 14px.
+- Use TypeScript for type safety and better tooling.
+- Use Vue.js single file components (.vue files) with `<script setup lang="ts">` for TypeScript support
+- Use `defineProps` and `defineEmits` for component props and events
+- Use PrimeVue components for UI elements, following their design guidelines
 
 # PrimeVue CSS Variables Reference
 
