@@ -18,6 +18,7 @@ const ROM_IMMUTABLE_FIELDS: (keyof Rom)[] = [
   "id",
   "originalFilename",
   "importedAt",
+  "lastUpdated",
   "md5",
   "sha1",
   "crc32",

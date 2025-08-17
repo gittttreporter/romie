@@ -60,6 +60,7 @@ export async function processRomFile(filePath: string): Promise<Rom> {
     log.debug(`ROM copied to: ${targetPath}`);
 
     // Create metadata object
+    const now = Date.now();
     const metadata: Rom = {
       id: uuidv4(),
       system,
@@ -68,7 +69,8 @@ export async function processRomFile(filePath: string): Promise<Rom> {
       filename: savedFilename,
       originalFilename,
       size,
-      importedAt: Date.now(),
+      importedAt: now,
+      lastUpdated: now,
       tags: [],
       notes: "",
       ...hashes,

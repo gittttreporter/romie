@@ -41,7 +41,7 @@
       </Card>
 
       <!-- Tag Selection Section -->
-      <Card v-if="syncProgress.phase === 'idle'" class="device-view__tag-card">
+      <Card v-if="syncStatus.phase === 'idle'" class="device-view__tag-card">
         <template #title>Tags to Sync</template>
         <template #subtitle>
           Syncing copies your selected ROMs to the device. Existing ROMs and
@@ -76,7 +76,6 @@
                   label="Start Sync"
                   icon="pi pi-sync"
                   :disabled="!canStartSync"
-                  :loading="syncInProgress"
                   @click="startSync"
                   class="tag-selection__sync-button"
                 />
@@ -145,20 +144,34 @@
             <div class="progress-bar">
               <div class="progress-bar__header">
                 <div class="progress-bar__header-title">
-                  <span v-if="syncProgress.phase === 'preparing'">
+                  <span v-if="syncStatus.phase === 'preparing'">
                     Preparing for sync...
                   </span>
-                  <span v-else-if="syncProgress.phase === 'syncing'">
-                    Copying: {{ syncProgress.currentFile }}
+                  <span v-else-if="syncStatus.phase === 'copying'">
+                    Copying: {{ syncStatus.currentFile }}
                   </span>
-                  <span v-else-if="syncProgress.phase === 'done'">
+                  <span v-else-if="syncStatus.phase === 'error'">
+                    Oops, something went wrong
+                  </span>
+                  <span v-else-if="syncStatus.phase === 'done'">
                     Sync complete!
+                    <Button
+                      v-if="
+                        syncStatus.filesFailed.length > 0 ||
+                        syncStatus.filesSkipped.length > 0
+                      "
+                      :label="showSyncResults ? 'Hide results' : 'Show results'"
+                      severity="secondary"
+                      size="small"
+                      variant="text"
+                      @click="showSyncResults = !showSyncResults"
+                    />
                   </span>
                 </div>
                 <div class="progress-bar__header-action">
                   <i v-if="syncError" class="pi pi-times error"></i>
                   <i
-                    v-else-if="syncProgress.phase === 'done'"
+                    v-else-if="syncStatus.phase === 'done'"
                     class="pi pi-check success"
                   ></i>
                   <Button
@@ -174,24 +187,80 @@
               </div>
               <ProgressBar
                 :mode="
-                  syncProgress.phase === 'preparing'
+                  syncStatus.phase === 'preparing'
                     ? 'indeterminate'
                     : 'determinate'
                 "
-                :value="syncProgress.progressPercent"
+                :value="syncStatus.progressPercent"
               ></ProgressBar>
               <div class="progress-bar__footer">
                 <div v-if="syncError" class="error">
-                  {{ syncError }}
+                  Sync hit a snag. Don't worry, your ROMs are safe - give it
+                  another shot?
                 </div>
-                <div v-else-if="syncProgress.phase === 'preparing'">
+                <div v-else-if="syncStatus.phase === 'preparing'">
                   Preparing files...
                 </div>
-                <div v-else-if="syncProgress.phase === 'syncing'">
-                  {{ syncProgress.filesProcessed }} of
-                  {{ syncProgress.totalFiles }} files
+                <div v-else-if="syncStatus.phase === 'copying'">
+                  {{ syncStatus.filesProcessed }} of
+                  {{ syncStatus.totalFiles }} files
+                </div>
+                <div
+                  class="progress-bar__sync-results"
+                  v-else-if="syncStatus.phase === 'done'"
+                >
+                  <Message
+                    v-for="(message, index) in syncSummaryMessages"
+                    :key="index"
+                    :icon="message.icon"
+                    severity="secondary"
+                    size="small"
+                    variant="simple"
+                  >
+                    {{ message.text }}
+                  </Message>
                 </div>
               </div>
+            </div>
+          </div>
+        </template>
+      </Card>
+
+      <Card v-if="showSyncResults">
+        <template #title>Sync Results</template>
+        <template #subtitle
+          >Every single problem, because you asked for it.</template
+        >
+        <template #content>
+          <div class="sync-problems">
+            <!-- Failed files -->
+            <div
+              v-for="failure in syncStatus.filesFailed"
+              :key="failure.rom.id"
+              class="sync-problem"
+            >
+              <i
+                class="pi pi-times sync-problem__icon sync-problem__icon--error"
+              ></i>
+              <span class="sync-problem__name">{{
+                failure.rom.displayName
+              }}</span>
+              <span class="sync-problem__reason">{{
+                failure.error.message
+              }}</span>
+            </div>
+
+            <!-- Skipped files -->
+            <div
+              v-for="skip in syncStatus.filesSkipped"
+              :key="skip.rom.id"
+              class="sync-problem"
+            >
+              <i
+                class="pi pi-minus-circle sync-problem__icon sync-problem__icon--skip"
+              ></i>
+              <span class="sync-problem__name">{{ skip.rom.displayName }}</span>
+              <span class="sync-problem__reason">{{ skip.details }}</span>
             </div>
           </div>
         </template>
@@ -207,6 +276,7 @@ import Card from "primevue/card";
 import Chip from "primevue/chip";
 import Tag from "primevue/tag";
 import MultiSelect from "primevue/multiselect";
+import Message from "primevue/message";
 import Checkbox from "primevue/checkbox";
 import Button from "primevue/button";
 import ProgressBar from "primevue/progressbar";
@@ -215,7 +285,7 @@ import { useDeviceStore, useRomStore } from "@/stores";
 
 import { Device } from "@/types/device";
 import { TagStats } from "@/types/rom";
-import type { SyncOptions, SyncProgress } from "@/types/electron-api";
+import type { SyncOptions, SyncStatus } from "@/types/electron-api";
 
 interface Tag {
   id: string;
@@ -236,6 +306,11 @@ interface SdCardStatus {
   totalSpace: string;
 }
 
+interface SyncSummaryMessage {
+  icon?: string;
+  text: string;
+}
+
 const props = defineProps<{
   deviceId: string;
 }>();
@@ -244,8 +319,6 @@ const confirm = useConfirm();
 const deviceStore = useDeviceStore();
 const romStore = useRomStore();
 const device = ref<Device | null>(null);
-
-// Stubbed data
 const selectedTags = ref<TagStats[]>([]);
 
 const selectedCopyProfile = ref<CopyProfile>({
@@ -265,14 +338,14 @@ const syncOptions = ref<SyncOptions>({
   verifyFiles: true,
 });
 
-const syncInProgress = ref(false); // TODO: Revert, only used while working on sync UI
 const syncError = ref("");
-const syncSuccess = ref(false);
-const syncProgress = ref<SyncProgress>({
+const showSyncResults = ref(false);
+const syncStatus = ref<SyncStatus>({
   phase: "idle",
-  currentFile: "",
-  filesProcessed: 0,
   totalFiles: 0,
+  filesProcessed: 0,
+  filesFailed: [],
+  filesSkipped: [],
   progressPercent: 0,
 });
 
@@ -280,14 +353,18 @@ const syncProgress = ref<SyncProgress>({
 const availableTags = computed((): TagStats[] => {
   return Object.values(romStore.stats.tagStats);
 });
+const romsForSelectedTags = computed(() => {
+  return romStore.roms.filter((r) => {
+    return selectedTags.value.some(({ tag }) => {
+      return r.tags?.includes(tag);
+    });
+  });
+});
 const totalSelectedRoms = computed(() => {
-  return selectedTags.value.reduce((total, tag) => total + tag.romCount, 0);
+  return romsForSelectedTags.value.length;
 });
 const totalSelectedSize = computed(() => {
-  return selectedTags.value.reduce(
-    (total, tag) => total + tag.totalSizeBytes,
-    0,
-  );
+  return romsForSelectedTags.value.reduce((total, rom) => total + rom.size, 0);
 });
 
 const estimatedSyncTime = computed(() => {
@@ -302,8 +379,133 @@ const canStartSync = computed(() => {
   return (
     sdCardStatus.value.connected &&
     selectedTags.value.length > 0 &&
-    syncProgress.value.phase === "idle"
+    syncStatus.value.phase === "idle"
   );
+});
+
+const syncSummaryMessages = computed((): SyncSummaryMessage[] => {
+  const status = syncStatus.value;
+  const total = status.totalFiles;
+  const failed = status.filesFailed.length;
+
+  // Group skipped files by reason
+  const skippedByReason = status.filesSkipped.reduce(
+    (acc, skip) => {
+      acc[skip.reason] = (acc[skip.reason] || 0) + 1;
+      return acc;
+    },
+    {} as Record<string, number>,
+  );
+
+  const fileExists = skippedByReason.file_exists || 0;
+  const unsupportedSystem = skippedByReason.unsupported_system || 0;
+  const unsupportedFormat = skippedByReason.unsupported_format || 0;
+  const totalSkipped = fileExists + unsupportedSystem + unsupportedFormat;
+  const copied = total - totalSkipped - failed;
+
+  if (total === 0) {
+    return [
+      {
+        icon: "pi pi-info-circle",
+        text: "No files found matching your criteria",
+      },
+    ];
+  }
+
+  const messages: SyncSummaryMessage[] = [];
+
+  // All failed
+  if (failed === total) {
+    messages.push({
+      icon: "pi pi-times",
+      text: `All ${total} files failed to copy`,
+    });
+    messages.push({
+      text: "No files were copied",
+    });
+    return messages;
+  }
+
+  // All skipped (any reason)
+  if (totalSkipped === total) {
+    if (fileExists === total) {
+      messages.push({
+        icon: "pi pi-minus-circle",
+        text: `Skipped all ${total} files (already exist)`,
+      });
+    } else if (unsupportedSystem + unsupportedFormat === total) {
+      messages.push({
+        icon: "pi pi-exclamation-triangle",
+        text: `Skipped all ${total} files (unsupported)`,
+      });
+    } else {
+      messages.push({
+        icon: "pi pi-minus-circle",
+        text: `Skipped all ${total} files`,
+      });
+    }
+    messages.push({
+      text: "No new files to copy",
+    });
+    return messages;
+  }
+
+  // Show copied files if any
+  if (copied > 0) {
+    messages.push({
+      icon: "pi pi-check",
+      text: `Copied ${copied} files`,
+    });
+  }
+
+  // Show skipped files by reason
+  if (fileExists > 0) {
+    messages.push({
+      icon: "pi pi-minus-circle",
+      text: `Skipped ${fileExists} (already exist)`,
+    });
+  }
+
+  if (unsupportedSystem > 0) {
+    messages.push({
+      icon: "pi pi-exclamation-triangle",
+      text: `Skipped ${unsupportedSystem} (unsupported system)`,
+    });
+  }
+
+  if (unsupportedFormat > 0) {
+    messages.push({
+      icon: "pi pi-exclamation-triangle",
+      text: `Skipped ${unsupportedFormat} (unsupported extension)`,
+    });
+  }
+
+  // Show failed files if any
+  if (failed > 0) {
+    messages.push({
+      icon: "pi pi-times",
+      text: `${failed} failed to copy`,
+    });
+  }
+
+  // Add summary message for successful cases
+  if (failed === 0) {
+    if (totalSkipped === 0) {
+      messages.push({
+        text: "All files copied successfully",
+      });
+    } else if (fileExists > 0 && unsupportedSystem + unsupportedFormat === 0) {
+      messages.push({
+        text: "All files processed successfully",
+      });
+    } else if (unsupportedSystem + unsupportedFormat > 0) {
+      messages.push({
+        text: "Check device profile for unsupported files",
+      });
+    }
+  }
+
+  return messages;
 });
 
 // Methods
@@ -316,25 +518,25 @@ function formatFileSize(bytes: number): string {
   return `${(bytes / Math.pow(k, i)).toFixed(1)} ${sizes[i]}`;
 }
 
-async function handleProgressUpdate(progress: SyncProgress) {
-  syncProgress.value = progress;
-  console.log("-->", JSON.stringify(progress));
+async function handleProgressUpdate(progress: SyncStatus) {
+  syncStatus.value = progress;
 }
 
 async function startSync() {
-  syncProgress.value.phase = "preparing";
-  const unsubscribeSyncProgress = window.sync.onProgress(handleProgressUpdate);
+  syncStatus.value.phase = "preparing";
+  const unsubscribesyncStatus = window.sync.onProgress(handleProgressUpdate);
   const selectedTagIds = selectedTags.value.map(({ tag }) => tag);
 
   try {
-    await window.sync.start(selectedTagIds, props.deviceId, {
+    syncStatus.value = await window.sync.start(selectedTagIds, props.deviceId, {
       cleanDestination: syncOptions.value.cleanDestination,
       verifyFiles: syncOptions.value.verifyFiles,
     });
   } catch (err) {
-    // TODO: Update UI with error message
+    syncError.value = (err as Error).message || "An unknown error occurred";
+    syncStatus.value.phase = "error";
   } finally {
-    unsubscribeSyncProgress();
+    unsubscribesyncStatus();
   }
 }
 
@@ -480,6 +682,13 @@ onMounted(async () => {
     margin-top: var(--space-4);
     color: var(--p-text-muted-color);
   }
+
+  &__sync-results {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    margin-top: var(--space-4);
+  }
 }
 
 .device-status {
@@ -505,6 +714,41 @@ onMounted(async () => {
 
   &__value {
     font-weight: 500;
+  }
+}
+
+.sync-problems {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.sync-problem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  padding: var(--space-4);
+
+  &__icon {
+    flex-shrink: 0;
+
+    &--error {
+      color: var(--p-red-500);
+    }
+
+    &--skip {
+      color: var(--p-yellow-500);
+    }
+  }
+
+  &__name {
+    font-weight: 500;
+    min-width: 200px;
+  }
+
+  &__reason {
+    color: var(--p-text-muted-color);
+    font-size: var(--text-sm);
   }
 }
 
