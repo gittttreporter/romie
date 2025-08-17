@@ -1,5 +1,4 @@
-// import type { Systeminformation } from "systeminformation";
-
+import type { SystemCode } from "@/types/system";
 /**
  * Represents a storage device on the system (E.g. SD card, USB drive, etc).
  */
@@ -12,6 +11,15 @@ export interface StorageDevice {
   label: string;
   removable: boolean;
   protocol: string;
+}
+
+export interface ArtworkConfig {
+  enabled: boolean;
+  pathPattern: string; // "{romBasePath}/{folderName}/Imgs/"
+  supportedFormats: string[]; // [".png", ".jpg"]
+  maxWidth?: number;
+  maxHeight?: number;
+  namingConvention?: "rom_name" | "display_name";
 }
 
 /**
@@ -29,20 +37,24 @@ export interface Device {
   lastSyncedAt?: number;
 }
 
-/**
- * Represents a detected candidate device that may be chosen for ROM syncing.
- *
- * This is an ephemeral object closely related to `Systeminformation.BlockDevicesData` but
- * includes additional fields and warnings for device suitability.
- */
-export interface DeviceCandidate {
-  type: string;
-  fsType: string;
-  mount: string;
-  size: number;
-  uuid: string;
-  label: string;
-  removable: boolean;
-  protocol: string;
-  warnings: string[];
+export interface DeviceProfile {
+  id: string;
+  name: string;
+  romBasePath: string; // e.g., "/Roms/"
+  biosBasePath?: string; // e.g., "/BIOS/"
+  artworkConfig?: ArtworkConfig;
+  systemMappings: Record<SystemCode, DeviceSystemProfile>;
+}
+
+export interface DeviceSystemProfile {
+  folderName: string; // e.g., "FC" for NES, "GB" for Game Boy
+  supportedFormats: string[]; // e.g., [".nes", ".zip", ".7z"]
+  emulators?: string[]; // Available emulator cores
+  specialRequirements?: string; // e.g., "ROMs must contain headers"
+}
+
+export interface BiosFile {
+  filename: string; // e.g., "gba_bios.bin"
+  required: boolean; // true if required, false if optional
+  description?: string;
 }

@@ -55,6 +55,7 @@ import InputText from "primevue/inputtext";
 import Message from "primevue/message";
 import Select from "primevue/select";
 import { useDeviceStore } from "@/stores";
+import { getAllDeviceProfiles } from "@/utils/device-profiles";
 
 import type { Device, StorageDevice } from "@/types/device";
 
@@ -74,13 +75,10 @@ const deviceForm = ref({
   profileId: "",
 });
 
-const deviceProfileOptions = [
-  { value: "generic", name: "Generic Profile (Most Devices)" },
-  { value: "onion-mm+", name: "OnionOS (Miyoo Mini+)" },
-  { value: "allium-mm+", name: "Allium (Miyoo Mini+)" },
-  { value: "dotui-mm+", name: "DotUI (Miyoo Mini+)" },
-  { value: "stock-mm+", name: "Stock OS (Miyoo Mini+)" },
-];
+const deviceProfileOptions = getAllDeviceProfiles().map((profile) => ({
+  name: profile.name,
+  value: profile.id,
+}));
 
 function handleShow() {
   // Set default values for the form fields

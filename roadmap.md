@@ -36,7 +36,7 @@
 - [ ] Add ability to scan existing ROM libraries
 - [ ] Add sentry integration
 - [ ] Add issue tracker
-- [ ] Box art scraping
+- [ ] Box art scraping (see https://www.screenscraper.fr/)
 - [ ] Multi-disc game support (`.bin`/`.cue` grouping)
 - [ ] Add ko-fi button in sidebar footer
 
@@ -71,20 +71,9 @@
 
 ## ✏️ Scratchpad
 * Take a look at how https://muos.dev/web/syncthing does syncing for inspiration
-
-Device profiles will help with file copy:
-```javascript
-interface DeviceProfile {
-  name: string;
-  folderStructure: Record<ConsoleCode, string>;
-}
-
-const ONION_OS_PROFILE: DeviceProfile = {
-  name: 'Onion OS (Miyoo Mini Plus)',
-  folderStructure: {
-    gba: 'Roms/GBA',
-    snes: 'Roms/SFC', // Note: Uses SFC not SNES
-    // etc...
-  }
-}
-```
+* Profile backlog
+//   { value: "generic", name: "Generic Profile (Most Devices)" },
+//   { value: "onion-mm+", name: "OnionOS (Miyoo Mini+)" },
+//   { value: "allium-mm+", name: "Allium (Miyoo Mini+)" },
+//   { value: "dotui-mm+", name: "DotUI (Miyoo Mini+)" },
+//   { value: "stock-mm+", name: "Stock OS (Miyoo Mini+)" },
