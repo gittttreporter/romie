@@ -2,12 +2,12 @@
 // https://www.electronjs.org/docs/latest/tutorial/process-model#preload-scripts
 
 import { contextBridge, ipcRenderer } from "electron";
-import type { 
-  RomApi, 
-  DeviceApi, 
-  SyncApi, 
-  SyncOptions, 
-  SyncProgress 
+import type {
+  RomApi,
+  DeviceApi,
+  SyncApi,
+  SyncOptions,
+  SyncStatus,
 } from "@/types/electron-api";
 import type { Rom } from "@/types/rom";
 import type { Device } from "@/types/device";
@@ -15,7 +15,8 @@ import type { Device } from "@/types/device";
 const romApi: RomApi = {
   list: () => ipcRenderer.invoke("rom:list"),
   remove: (id: string) => ipcRenderer.invoke("rom:remove", id),
-  update: (id: string, data: Partial<Rom>) => ipcRenderer.invoke("rom:update", id, data),
+  update: (id: string, data: Partial<Rom>) =>
+    ipcRenderer.invoke("rom:update", id, data),
   import: () => ipcRenderer.invoke("rom:import"),
   stats: () => ipcRenderer.invoke("rom:stats"),
 };
@@ -25,17 +26,20 @@ const deviceApi: DeviceApi = {
   listStorage: () => ipcRenderer.invoke("device:listStorage"),
   create: (data: Device) => ipcRenderer.invoke("device:create", data),
   remove: (id: string) => ipcRenderer.invoke("device:remove", id),
-  update: (id: string, data: Partial<Device>) => ipcRenderer.invoke("device:update", id, data),
+  update: (id: string, data: Partial<Device>) =>
+    ipcRenderer.invoke("device:update", id, data),
+  checkDeviceMount: (deviceId: string) =>
+    ipcRenderer.invoke("device:checkDeviceMount", deviceId),
 };
 
 const syncApi: SyncApi = {
-  start: (tagIds: string[], deviceId: string, options: SyncOptions) => 
+  start: (tagIds: string[], deviceId: string, options: SyncOptions) =>
     ipcRenderer.invoke("sync:start", tagIds, deviceId, options),
   cancel: () => ipcRenderer.invoke("sync:cancel"),
-  onProgress: (callback: (progress: SyncProgress) => void) => {
-    const handler = (_: any, progress: SyncProgress) => callback(progress);
+  onProgress: (callback: (progress: SyncStatus) => void) => {
+    const handler = (_: any, progress: SyncStatus) => callback(progress);
     ipcRenderer.on("sync:progress", handler);
-    
+
     // Return cleanup function
     return () => {
       ipcRenderer.removeListener("sync:progress", handler);
@@ -58,7 +62,7 @@ const darkModeApi: DarkModeApi = {
   onChange: (callback: (value: boolean) => void) => {
     const handler = (_: any, value: boolean) => callback(value);
     ipcRenderer.on("dark-mode:change", handler);
-    
+
     // Return cleanup function
     return () => {
       ipcRenderer.removeListener("dark-mode:change", handler);
@@ -70,7 +74,8 @@ const darkModeApi: DarkModeApi = {
 };
 
 const utilApi: UtilApi = {
-  openExternalLink: (url: string) => ipcRenderer.invoke("util:openExternal", url),
+  openExternalLink: (url: string) =>
+    ipcRenderer.invoke("util:openExternal", url),
 };
 
 contextBridge.exposeInMainWorld("darkMode", darkModeApi);

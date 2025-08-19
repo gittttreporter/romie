@@ -19,12 +19,21 @@ export interface RomApi {
   stats(): Promise<RomDatabaseStats>;
 }
 
+export interface DeviceMountStatus {
+  accessible: boolean;
+  freeSpace?: string;
+  totalSpace?: string;
+  freeBytes?: number;
+  totalBytes?: number;
+}
+
 export interface DeviceApi {
   list(): Promise<Device[]>;
   listStorage(): Promise<StorageDevice[]>;
   create(data: Device): Promise<Device>;
   update(id: string, deviceUpdate: Partial<Device>): Promise<Device>;
   remove(id: string): Promise<void>;
+  checkDeviceMount(deviceId: string): Promise<DeviceMountStatus>;
 }
 
 export interface SyncOptions {

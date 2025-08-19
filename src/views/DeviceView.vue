@@ -10,9 +10,11 @@
           <div class="device-status">
             <div class="device-status__item">
               <i class="device-status__icon pi pi-microchip"></i>
-              <span class="device-status__label">MIYOOSD:</span>
+              <span class="device-status__label"
+                >{{ device?.deviceInfo?.label || "unknown" }}:</span
+              >
               <Tag
-                v-if="sdCardStatus.connected"
+                v-if="deviceStatus?.accessible"
                 icon="pi pi-check"
                 severity="success"
                 value="Connected"
@@ -27,13 +29,13 @@
             <div class="device-status__item">
               <i class="device-status__icon pi pi-cog"></i>
               <span class="device-status__label">Device Profile:</span>
-              <Tag :value="selectedCopyProfile.name" severity="secondary" />
+              <Tag :value="deviceProfile?.name" severity="secondary" />
             </div>
-            <div class="device-status__item" v-if="sdCardStatus.connected">
+            <div class="device-status__item" v-if="deviceStatus?.accessible">
               <i class="device-status__icon pi pi-database"></i>
               <span class="device-status__label">Available Space:</span>
               <span class="device-status__value">{{
-                sdCardStatus.freeSpace
+                deviceStatus?.freeSpace
               }}</span>
             </div>
           </div>
@@ -174,29 +176,11 @@ import { useDeviceStore, useRomStore } from "@/stores";
 import { useSyncLogic } from "@/composables/useSyncLogic";
 import SyncProgress from "@/components/device/SyncProgress.vue";
 import SyncResults from "@/components/device/SyncResults.vue";
+import { getDeviceProfile } from "@/utils/device-profiles";
 
 import { Device } from "@/types/device";
 import { TagStats } from "@/types/rom";
-import type { SyncOptions } from "@/types/electron-api";
-
-interface Tag {
-  id: string;
-  name: string;
-  romCount: number;
-  totalSize: number;
-}
-
-interface CopyProfile {
-  id: string;
-  name: string;
-  osType: string;
-}
-
-interface SdCardStatus {
-  connected: boolean;
-  freeSpace: string;
-  totalSpace: string;
-}
+import type { SyncOptions, DeviceMountStatus } from "@/types/electron-api";
 
 const props = defineProps<{
   deviceId: string;
@@ -205,19 +189,8 @@ const props = defineProps<{
 const deviceStore = useDeviceStore();
 const romStore = useRomStore();
 const device = ref<Device | null>(null);
+const deviceStatus = ref<DeviceMountStatus | null>(null);
 const selectedTags = ref<TagStats[]>([]);
-
-const selectedCopyProfile = ref<CopyProfile>({
-  id: "1",
-  name: "Onion OS (MiyooMini+)",
-  osType: "onion",
-});
-
-const sdCardStatus = ref<SdCardStatus>({
-  connected: true,
-  freeSpace: "28.4 GB",
-  totalSpace: "32 GB",
-});
 
 const syncOptions = ref<SyncOptions>({
   cleanDestination: false,
@@ -235,6 +208,9 @@ const {
 } = useSyncLogic(props.deviceId);
 
 // Computed properties
+const deviceProfile = computed(() => {
+  return getDeviceProfile(device.value?.profileId || "unknown");
+});
 const availableTags = computed((): TagStats[] => {
   return Object.values(romStore.stats.tagStats);
 });
@@ -262,7 +238,7 @@ const estimatedSyncTime = computed(() => {
 
 const canStartSync = computed(() => {
   return (
-    sdCardStatus.value.connected &&
+    deviceStatus.value?.accessible &&
     selectedTags.value.length > 0 &&
     syncStatus.value.phase === "idle"
   );
@@ -289,7 +265,7 @@ function unselectTag(tagId: string) {
 
 onMounted(async () => {
   device.value = await deviceStore.loadDeviceById(props.deviceId);
-  console.log(device.value);
+  deviceStatus.value = await window.device.checkDeviceMount(props.deviceId);
 });
 </script>
 
