@@ -132,139 +132,29 @@
       </Card>
 
       <!-- Sync Progress Section -->
-      <Card v-else class="device-view__sync-card">
-        <template #title>Syncing...</template>
+      <SyncProgress
+        v-if="syncStatus.phase !== 'idle'"
+        title="Syncing..."
+        :sync-status="syncStatus"
+        :sync-summary="syncSummaryMessages"
+        :sync-error="syncError"
+        :show-sync-results="showSyncResults"
+        @toggle-sync-results="showSyncResults = !showSyncResults"
+        @cancel-sync="cancelSync"
+      >
         <template #subtitle>
           Syncing {{ totalSelectedRoms }} ROMs ({{
             formatFileSize(totalSelectedSize)
           }}) should take approximately {{ estimatedSyncTime }}
         </template>
-        <template #content>
-          <div class="sync-progress">
-            <div class="progress-bar">
-              <div class="progress-bar__header">
-                <div class="progress-bar__header-title">
-                  <span v-if="syncStatus.phase === 'preparing'">
-                    Preparing for sync...
-                  </span>
-                  <span v-else-if="syncStatus.phase === 'copying'">
-                    Copying: {{ syncStatus.currentFile }}
-                  </span>
-                  <span v-else-if="syncStatus.phase === 'error'">
-                    Oops, something went wrong
-                  </span>
-                  <span v-else-if="syncStatus.phase === 'done'">
-                    Sync complete!
-                    <Button
-                      v-if="
-                        syncStatus.filesFailed.length > 0 ||
-                        syncStatus.filesSkipped.length > 0
-                      "
-                      :label="showSyncResults ? 'Hide results' : 'Show results'"
-                      severity="secondary"
-                      size="small"
-                      variant="text"
-                      @click="showSyncResults = !showSyncResults"
-                    />
-                  </span>
-                </div>
-                <div class="progress-bar__header-action">
-                  <i v-if="syncError" class="pi pi-times error"></i>
-                  <i
-                    v-else-if="syncStatus.phase === 'done'"
-                    class="pi pi-check success"
-                  ></i>
-                  <Button
-                    v-else
-                    icon="pi pi-times"
-                    severity="secondary"
-                    variant="text"
-                    rounded
-                    aria-label="Cancel"
-                    @click="cancelSync"
-                  />
-                </div>
-              </div>
-              <ProgressBar
-                :mode="
-                  syncStatus.phase === 'preparing'
-                    ? 'indeterminate'
-                    : 'determinate'
-                "
-                :value="syncStatus.progressPercent"
-              ></ProgressBar>
-              <div class="progress-bar__footer">
-                <div v-if="syncError" class="error">
-                  Sync hit a snag. Don't worry, your ROMs are safe - give it
-                  another shot?
-                </div>
-                <div v-else-if="syncStatus.phase === 'preparing'">
-                  Preparing files...
-                </div>
-                <div v-else-if="syncStatus.phase === 'copying'">
-                  {{ syncStatus.filesProcessed }} of
-                  {{ syncStatus.totalFiles }} files
-                </div>
-                <div
-                  class="progress-bar__sync-results"
-                  v-else-if="syncStatus.phase === 'done'"
-                >
-                  <Message
-                    v-for="(message, index) in syncSummaryMessages"
-                    :key="index"
-                    :icon="message.icon"
-                    severity="secondary"
-                    size="small"
-                    variant="simple"
-                  >
-                    {{ message.text }}
-                  </Message>
-                </div>
-              </div>
-            </div>
-          </div>
-        </template>
-      </Card>
+      </SyncProgress>
 
-      <Card v-if="showSyncResults">
-        <template #title>Sync Results</template>
-        <template #subtitle
-          >Every single problem, because you asked for it.</template
-        >
-        <template #content>
-          <div class="sync-problems">
-            <!-- Failed files -->
-            <div
-              v-for="failure in syncStatus.filesFailed"
-              :key="failure.rom.id"
-              class="sync-problem"
-            >
-              <i
-                class="pi pi-times sync-problem__icon sync-problem__icon--error"
-              ></i>
-              <span class="sync-problem__name">{{
-                failure.rom.displayName
-              }}</span>
-              <span class="sync-problem__reason">{{
-                failure.error.message
-              }}</span>
-            </div>
-
-            <!-- Skipped files -->
-            <div
-              v-for="skip in syncStatus.filesSkipped"
-              :key="skip.rom.id"
-              class="sync-problem"
-            >
-              <i
-                class="pi pi-minus-circle sync-problem__icon sync-problem__icon--skip"
-              ></i>
-              <span class="sync-problem__name">{{ skip.rom.displayName }}</span>
-              <span class="sync-problem__reason">{{ skip.details }}</span>
-            </div>
-          </div>
-        </template>
-      </Card>
+      <!-- Sync Results Section -->
+      <SyncResults
+        v-if="showSyncResults && syncStatus.phase === 'done'"
+        :files-failed="syncStatus.filesFailed"
+        :files-skipped="syncStatus.filesSkipped"
+      />
     </div>
   </PageLayout>
 </template>
@@ -280,12 +170,14 @@ import Message from "primevue/message";
 import Checkbox from "primevue/checkbox";
 import Button from "primevue/button";
 import ProgressBar from "primevue/progressbar";
-import { useConfirm } from "primevue/useconfirm";
 import { useDeviceStore, useRomStore } from "@/stores";
+import { useSyncLogic } from "@/composables/useSyncLogic";
+import SyncProgress from "@/components/device/SyncProgress.vue";
+import SyncResults from "@/components/device/SyncResults.vue";
 
 import { Device } from "@/types/device";
 import { TagStats } from "@/types/rom";
-import type { SyncOptions, SyncStatus } from "@/types/electron-api";
+import type { SyncOptions } from "@/types/electron-api";
 
 interface Tag {
   id: string;
@@ -306,16 +198,10 @@ interface SdCardStatus {
   totalSpace: string;
 }
 
-interface SyncSummaryMessage {
-  icon?: string;
-  text: string;
-}
-
 const props = defineProps<{
   deviceId: string;
 }>();
 
-const confirm = useConfirm();
 const deviceStore = useDeviceStore();
 const romStore = useRomStore();
 const device = ref<Device | null>(null);
@@ -338,16 +224,15 @@ const syncOptions = ref<SyncOptions>({
   verifyFiles: true,
 });
 
-const syncError = ref("");
-const showSyncResults = ref(false);
-const syncStatus = ref<SyncStatus>({
-  phase: "idle",
-  totalFiles: 0,
-  filesProcessed: 0,
-  filesFailed: [],
-  filesSkipped: [],
-  progressPercent: 0,
-});
+// Extract sync logic to composable
+const {
+  syncError,
+  syncStatus,
+  showSyncResults,
+  syncSummaryMessages,
+  startSync: syncLogicStartSync,
+  cancelSync,
+} = useSyncLogic(props.deviceId);
 
 // Computed properties
 const availableTags = computed((): TagStats[] => {
@@ -383,131 +268,6 @@ const canStartSync = computed(() => {
   );
 });
 
-const syncSummaryMessages = computed((): SyncSummaryMessage[] => {
-  const status = syncStatus.value;
-  const total = status.totalFiles;
-  const failed = status.filesFailed.length;
-
-  // Group skipped files by reason
-  const skippedByReason = status.filesSkipped.reduce(
-    (acc, skip) => {
-      acc[skip.reason] = (acc[skip.reason] || 0) + 1;
-      return acc;
-    },
-    {} as Record<string, number>,
-  );
-
-  const fileExists = skippedByReason.file_exists || 0;
-  const unsupportedSystem = skippedByReason.unsupported_system || 0;
-  const unsupportedFormat = skippedByReason.unsupported_format || 0;
-  const totalSkipped = fileExists + unsupportedSystem + unsupportedFormat;
-  const copied = total - totalSkipped - failed;
-
-  if (total === 0) {
-    return [
-      {
-        icon: "pi pi-info-circle",
-        text: "No files found matching your criteria",
-      },
-    ];
-  }
-
-  const messages: SyncSummaryMessage[] = [];
-
-  // All failed
-  if (failed === total) {
-    messages.push({
-      icon: "pi pi-times",
-      text: `All ${total} files failed to copy`,
-    });
-    messages.push({
-      text: "No files were copied",
-    });
-    return messages;
-  }
-
-  // All skipped (any reason)
-  if (totalSkipped === total) {
-    if (fileExists === total) {
-      messages.push({
-        icon: "pi pi-minus-circle",
-        text: `Skipped all ${total} files (already exist)`,
-      });
-    } else if (unsupportedSystem + unsupportedFormat === total) {
-      messages.push({
-        icon: "pi pi-exclamation-triangle",
-        text: `Skipped all ${total} files (unsupported)`,
-      });
-    } else {
-      messages.push({
-        icon: "pi pi-minus-circle",
-        text: `Skipped all ${total} files`,
-      });
-    }
-    messages.push({
-      text: "No new files to copy",
-    });
-    return messages;
-  }
-
-  // Show copied files if any
-  if (copied > 0) {
-    messages.push({
-      icon: "pi pi-check",
-      text: `Copied ${copied} files`,
-    });
-  }
-
-  // Show skipped files by reason
-  if (fileExists > 0) {
-    messages.push({
-      icon: "pi pi-minus-circle",
-      text: `Skipped ${fileExists} (already exist)`,
-    });
-  }
-
-  if (unsupportedSystem > 0) {
-    messages.push({
-      icon: "pi pi-exclamation-triangle",
-      text: `Skipped ${unsupportedSystem} (unsupported system)`,
-    });
-  }
-
-  if (unsupportedFormat > 0) {
-    messages.push({
-      icon: "pi pi-exclamation-triangle",
-      text: `Skipped ${unsupportedFormat} (unsupported extension)`,
-    });
-  }
-
-  // Show failed files if any
-  if (failed > 0) {
-    messages.push({
-      icon: "pi pi-times",
-      text: `${failed} failed to copy`,
-    });
-  }
-
-  // Add summary message for successful cases
-  if (failed === 0) {
-    if (totalSkipped === 0) {
-      messages.push({
-        text: "All files copied successfully",
-      });
-    } else if (fileExists > 0 && unsupportedSystem + unsupportedFormat === 0) {
-      messages.push({
-        text: "All files processed successfully",
-      });
-    } else if (unsupportedSystem + unsupportedFormat > 0) {
-      messages.push({
-        text: "Check device profile for unsupported files",
-      });
-    }
-  }
-
-  return messages;
-});
-
 // Methods
 
 function formatFileSize(bytes: number): string {
@@ -518,50 +278,13 @@ function formatFileSize(bytes: number): string {
   return `${(bytes / Math.pow(k, i)).toFixed(1)} ${sizes[i]}`;
 }
 
-async function handleProgressUpdate(progress: SyncStatus) {
-  syncStatus.value = progress;
-}
-
 async function startSync() {
-  syncStatus.value.phase = "preparing";
-  const unsubscribesyncStatus = window.sync.onProgress(handleProgressUpdate);
   const selectedTagIds = selectedTags.value.map(({ tag }) => tag);
-
-  try {
-    syncStatus.value = await window.sync.start(selectedTagIds, props.deviceId, {
-      cleanDestination: syncOptions.value.cleanDestination,
-      verifyFiles: syncOptions.value.verifyFiles,
-    });
-  } catch (err) {
-    syncError.value = (err as Error).message || "An unknown error occurred";
-    syncStatus.value.phase = "error";
-  } finally {
-    unsubscribesyncStatus();
-  }
+  await syncLogicStartSync(selectedTagIds, syncOptions.value);
 }
 
 function unselectTag(tagId: string) {
   selectedTags.value = selectedTags.value.filter(({ tag }) => tag !== tagId);
-}
-
-function cancelSync() {
-  confirm.require({
-    header: "Cancel sync?",
-    message:
-      "Files already copied will remain on your device, but the sync won't complete. You'll need to start over to sync the remaining ROMs.",
-    rejectProps: {
-      label: "Keep syncing",
-      severity: "secondary",
-      outlined: true,
-    },
-    acceptProps: {
-      label: "Cancel sync",
-      severity: "danger",
-    },
-    accept: () => {
-      window.sync.cancel();
-    },
-  });
 }
 
 onMounted(async () => {
@@ -653,44 +376,6 @@ onMounted(async () => {
   }
 }
 
-.sync-progress {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-4);
-  margin-top: 1rem;
-}
-
-.progress-bar {
-  &__header {
-    display: flex;
-    align-items: center;
-
-    &-title {
-      flex: 1 0 auto;
-      // Match the height of the icon button so when we switch to an icon on
-      // error or success the sizing doesn't shift.
-      line-height: 35px;
-    }
-
-    &-info,
-    &-action {
-      flex: 0 0 auto;
-    }
-  }
-
-  &__footer {
-    margin-top: var(--space-4);
-    color: var(--p-text-muted-color);
-  }
-
-  &__sync-results {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-4);
-    margin-top: var(--space-4);
-  }
-}
-
 .device-status {
   display: flex;
   flex-direction: column;
@@ -714,41 +399,6 @@ onMounted(async () => {
 
   &__value {
     font-weight: 500;
-  }
-}
-
-.sync-problems {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-4);
-}
-
-.sync-problem {
-  display: flex;
-  align-items: center;
-  gap: var(--space-6);
-  padding: var(--space-4);
-
-  &__icon {
-    flex-shrink: 0;
-
-    &--error {
-      color: var(--p-red-500);
-    }
-
-    &--skip {
-      color: var(--p-yellow-500);
-    }
-  }
-
-  &__name {
-    font-weight: 500;
-    min-width: 200px;
-  }
-
-  &__reason {
-    color: var(--p-text-muted-color);
-    font-size: var(--text-sm);
   }
 }
 
