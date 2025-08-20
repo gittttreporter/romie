@@ -26,12 +26,14 @@ export const useDeviceStore = defineStore("devices", {
         this.loading = true;
         await this.loadDevices();
 
-        return this.devices.find(findDevice);
+        return this.devices.find(findDevice) || null;
       } catch (error) {
         // todo
       } finally {
         this.loading = false;
       }
+
+      return null;
     },
     async loadDevices() {
       try {

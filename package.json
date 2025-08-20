@@ -1,8 +1,8 @@
 {
   "name": "romietron",
-  "productName": "romietron",
-  "version": "1.0.0",
-  "description": "My Electron application description",
+  "productName": "ROMie",
+  "version": "0.1.0",
+  "description": "ROM Manager for Retro Handhelds",
   "main": ".vite/build/main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -12,12 +12,19 @@
     "lint": "echo \"No linting configured\"",
     "test": "vitest"
   },
-  "keywords": [],
+  "keywords": [
+    "electron",
+    "rom",
+    "retro",
+    "gaming",
+    "miyoo",
+    "handheld"
+  ],
   "author": {
-    "name": "Jason Sims",
-    "email": "jasonsims87@gmail.com"
+    "name": "JZimz",
+    "email": "jzimz.tv@gmail.com"
   },
-  "license": "MIT",
+  "license": "UNLICENSED",
   "devDependencies": {
     "@electron-forge/cli": "^7.8.1",
     "@electron-forge/maker-deb": "^7.8.1",
