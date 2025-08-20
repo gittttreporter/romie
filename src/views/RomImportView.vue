@@ -78,7 +78,7 @@
 </template>
 
 <script setup lang="ts">
-import log from "electron-log";
+import log from "electron-log/renderer";
 import { ref, computed } from "vue";
 import Button from "primevue/button";
 import { useToast } from "primevue/usetoast";

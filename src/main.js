@@ -61,6 +61,8 @@ const createWindow = () => {
 app.whenReady().then(() => {
   // Initialize the logger for any renderer process
   log.initialize();
+  // Use debug level in production during alpha testing
+  log.transports.file.level = "debug";
   log.info(
     `Romie ready to rip on ${process.platform} with chrome@${process.versions.chrome}`,
   );

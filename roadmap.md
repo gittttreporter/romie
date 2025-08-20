@@ -22,13 +22,13 @@
 - [x] Bulk operations (mass delete, retag)
 
 ### Sync
-- [ ] Onion OS SD‑card copy (core “sync” MVP)
-- [ ] Device profile system (map consoles → target folders)
+- [x] Onion OS SD‑card copy (core “sync” MVP)
+- [x] Device profile system (map consoles → target folders)
 
 ### Polish & Launch Essentials
 - [x] Light/Dark mode
 - [x] Discord server
-- [ ] Basic app icon + splash (macOS / Windows)
+- [x] Basic app icon + splash (macOS / Windows)
 
 ## v0.2 - Beta (Target: 4-6 weeks post-alpha)
 **Goal:** Ready for wider testing, remove major friction
