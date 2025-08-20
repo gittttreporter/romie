@@ -83,7 +83,7 @@ const deviceProfileOptions = getAllDeviceProfiles().map((profile) => ({
 function handleShow() {
   // Set default values for the form fields
   deviceForm.value.name = props.storageDevice?.label || "";
-  deviceForm.value.profileId = "generic";
+  deviceForm.value.profileId = "onion-os";
 }
 
 function handleCancel() {

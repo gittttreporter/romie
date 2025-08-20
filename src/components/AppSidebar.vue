@@ -30,7 +30,7 @@
           </li>
           <li
             v-if="section.items.length === 0"
-            class="app-sidebar__item app-sidebar__item--empty"
+            class="app-sidebar__item--empty"
           >
             No tags yet
           </li>
@@ -260,8 +260,9 @@ const sections = computed((): SidebarSection[] => {
   if (devicesSection.value.items.length > 0) {
     baseSections.push(devicesSection.value);
   }
-
-  baseSections.push(systemsSection.value);
+  if (systemsSection.value.items.length > 0) {
+    baseSections.push(systemsSection.value);
+  }
   baseSections.push(tagsSection.value);
 
   return baseSections;
@@ -284,11 +285,9 @@ async function handleDisplayModeToggle() {
 .app-sidebar {
   width: 220px;
   border-right: 1px solid var(--p-content-border-color);
-  /* padding: 12px 0 0 0; */
   height: 100vh;
   display: flex;
   flex-direction: column;
-  /* overflow-y: auto; */
 
   &__header,
   &__footer {

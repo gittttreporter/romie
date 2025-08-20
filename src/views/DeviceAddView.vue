@@ -130,7 +130,6 @@ const cards = computed<CardData[]>(() => {
 });
 
 function formatBytes(n: number) {
-  console.log("formatting", n);
   if (!n) return "0 B";
   const units = ["B", "KB", "MB", "GB", "TB"];
   const i = Math.min(
