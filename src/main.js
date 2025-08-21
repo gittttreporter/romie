@@ -16,7 +16,9 @@ const createWindow = () => {
     // Remove the window frame
     frame: "false",
     // Hide the title bar but keep traffic lights on MacOS
-    titleBarStyle: "hidden",
+    titleBarStyle: process.platform === 'darwin' ? 'hidden' : 'default',
+    // Hide the menu bar in windows and linux
+    autoHideMenuBar: true, 
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
     },
