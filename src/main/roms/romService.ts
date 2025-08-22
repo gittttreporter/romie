@@ -10,7 +10,9 @@ export async function importRoms(): Promise<RomImportResult> {
     filters: [
       {
         name: "ROM Files",
-        extensions: getAllSupportedExtensions(),
+        extensions: getAllSupportedExtensions().map((ext) =>
+          ext.replace(/^\./, ""),
+        ),
       },
       {
         name: "All Files",
