@@ -16,8 +16,7 @@
           :loading="isLoading"
         />
         <div class="rom-import__supported-info">
-          <strong>Supported file extensions:</strong> .nes, .sfc, .gb, .gba,
-          .bin, .iso, .cue, .a26
+          <strong>Supported file extensions:</strong> {{ supportedExtensions }}
         </div>
       </div>
     </div>
@@ -83,6 +82,7 @@ import { ref, computed } from "vue";
 import Button from "primevue/button";
 import { useToast } from "primevue/usetoast";
 import { useRomStore } from "@/stores";
+import { getAllSupportedExtensions } from "@/utils/systems";
 
 import type { RomImportResult } from "@/types/electron-api";
 
@@ -96,6 +96,8 @@ const result = ref<{
   successes: number;
   total: number;
 } | null>(null);
+
+const supportedExtensions = getAllSupportedExtensions().join(", ");
 
 const buttonLabel = computed(() => {
   if (isLoading.value) return "Processing files...";

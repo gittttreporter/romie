@@ -1,27 +1,23 @@
 export type SystemCode =
   // Nintendo Consoles
-  | 'nes'
-  | 'snes'
-  | 'n64'
+  | "nes"
+  | "snes"
   // Nintendo Handhelds
-  | 'gb'
-  | 'gbc'
-  | 'gba'
+  | "gb"
+  | "gbc"
+  | "gba"
   // Sega Consoles
-  | 'genesis'
-  | 'sms'
-  | 'gg'
+  | "genesis"
+  | "sms"
+  | "gg"
   // Sony
-  | 'psx'
+  | "psx"
   // Atari
-  | 'atari2600'
+  | "atari2600"
   // Arcade
-  | 'arcade';
+  | "arcade";
 
-export type SystemType =
-  | 'console'
-  | 'handheld'
-  | 'arcade';
+export type SystemType = "console" | "handheld" | "arcade";
 
 export interface SystemInfo {
   code: SystemCode;

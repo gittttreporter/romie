@@ -1,4 +1,5 @@
 import { dialog } from "electron";
+import { getAllSupportedExtensions } from "@/utils/systems";
 import { processRomFile } from "./romImport";
 import type { Rom } from "@/types/rom";
 import type { RomImportResult } from "@/types/electron-api";
@@ -6,6 +7,16 @@ import type { RomImportResult } from "@/types/electron-api";
 export async function importRoms(): Promise<RomImportResult> {
   const { filePaths, canceled } = await dialog.showOpenDialog({
     properties: ["openFile", "multiSelections"],
+    filters: [
+      {
+        name: "ROM Files",
+        extensions: getAllSupportedExtensions(),
+      },
+      {
+        name: "All Files",
+        extensions: ["*"],
+      },
+    ],
   });
   const response: RomImportResult = {
     canceled: false,

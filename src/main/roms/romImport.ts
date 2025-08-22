@@ -2,7 +2,7 @@ import path from "path";
 import log from "electron-log/main";
 import fs from "fs/promises";
 import { v4 as uuidv4 } from "uuid";
-import { determineSystemFromExtension } from "@main/systems";
+import { determineSystemFromExtension } from "@/utils/systems";
 import {
   extractRegionFromFilename,
   cleanDisplayName,
