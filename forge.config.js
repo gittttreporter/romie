@@ -26,7 +26,7 @@ export default {
     {
       name: "@electron-forge/maker-squirrel",
       config: {
-        name: "romie",
+        name: "ROMie",
         authors: "JZimz Labs",
         description: "ROM Manager for Retro Handhelds",
       },
