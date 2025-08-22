@@ -13,27 +13,45 @@ export async function listDevices(): Promise<Device[]> {
 }
 
 export async function listStorage(): Promise<StorageDevice[]> {
+  log.debug("[STORAGE] Starting storage device enumeration");
+
   const [blockDevices, fileSystems] = await Promise.all([
     si.blockDevices(),
     si.fsSize(),
   ]);
+
+  log.debug(
+    `[STORAGE] Found ${blockDevices.length} block devices, ${fileSystems.length} filesystems`,
+  );
+
   const validDevices: StorageDevice[] = [];
 
   blockDevices.forEach((device) => {
-    const { removable, type } = device;
+    const deviceLabel = device.label || device.name || "Unnamed Device";
 
-    if (removable && type === "part") {
-      // Accurate size comes from the file system information
-      const fs = fileSystems.find(({ fs, size }) => fs === device.name);
+    if (device.removable) {
+      const fs = fileSystems.find(({ mount }) => mount === device.mount);
 
       if (fs) {
         validDevices.push({
           ...device,
+          label: device.label || "Unnamed Device",
           size: fs.size,
         });
+        log.debug(
+          `[STORAGE] Added removable device: ${deviceLabel} at ${device.mount}`,
+        );
+      } else {
+        log.warn(
+          `[STORAGE] Removable device ${deviceLabel} has no filesystem match (mount: ${device.mount})`,
+        );
       }
     }
   });
+
+  log.info(
+    `[STORAGE] Found ${validDevices.length} valid removable storage devices`,
+  );
 
   return validDevices;
 }
