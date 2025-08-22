@@ -39,7 +39,11 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
-          files: out/make/**/*
+          files: |
+            out/make/**/*.zip
+            out/make/**/*.exe
+            out/make/**/*.deb
+            out/make/**/*.rpm
           name: "ROMie v${{ steps.version.outputs.version }}"
           tag_name: "v${{ steps.version.outputs.version }}"
           prerelease: true
