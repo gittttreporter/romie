@@ -9,12 +9,12 @@ import type {
 } from "@/types/electron-api";
 import type { Device } from "@/types/device";
 import type { Rom } from "@/types/rom";
-import type { DeviceProfile } from "@/types/device";
+import type { DeviceProfile } from "@/packages/device-profiles";
 import fs from "fs/promises";
 import path from "path";
 import { listDevices } from "../roms/romDatabase";
 import { listRoms } from "../roms/romDatabase";
-import { getDeviceProfile } from "../../utils/device-profiles";
+import { getDeviceProfile } from "@/packages/device-profiles";
 import { calculateCRC32 } from "../roms/romUtils";
 
 type SyncNotifier = ReturnType<typeof createSyncNotifier>;

@@ -1,6 +1,6 @@
 <template>
   <Card class="sync-progress-card">
-    <template #title>Syncing...</template>
+    <template #title>{{ title }}</template>
     <template #subtitle>
       <slot name="subtitle" />
     </template>

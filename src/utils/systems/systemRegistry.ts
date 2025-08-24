@@ -26,7 +26,7 @@ export const SYSTEM_REGISTRY: Record<SystemCode, SystemInfo> = {
     code: "gb",
     displayName: "Game Boy",
     type: "handheld",
-    extensions: [".gb", ".gbc", ".dmg"],
+    extensions: [".gb", ".dmg"],
     requiresBios: false,
     manufacturer: "Nintendo",
     releaseYear: 1989,

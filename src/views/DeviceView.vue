@@ -136,7 +136,7 @@
       <!-- Sync Progress Section -->
       <SyncProgress
         v-if="syncStatus.phase !== 'idle'"
-        title="Syncing..."
+        :title="syncStatus.phase === 'done' ? '🎉' : 'Syncing...'"
         :sync-status="syncStatus"
         :sync-summary="syncSummaryMessages"
         :sync-error="syncError"
@@ -144,7 +144,7 @@
         @toggle-sync-results="showSyncResults = !showSyncResults"
         @cancel-sync="cancelSync"
       >
-        <template #subtitle>
+        <template v-if="syncStatus.phase !== 'done'" #subtitle>
           Syncing {{ totalSelectedRoms }} ROMs ({{
             formatFileSize(totalSelectedSize)
           }}) should take approximately {{ estimatedSyncTime }}
@@ -176,7 +176,7 @@ import { useDeviceStore, useRomStore } from "@/stores";
 import { useSyncLogic } from "@/composables/useSyncLogic";
 import SyncProgress from "@/components/device/SyncProgress.vue";
 import SyncResults from "@/components/device/SyncResults.vue";
-import { getDeviceProfile } from "@/utils/device-profiles";
+import { getDeviceProfile } from "@/packages/device-profiles";
 
 import { Device } from "@/types/device";
 import { TagStats } from "@/types/rom";
@@ -280,12 +280,9 @@ onMounted(async () => {
 
   &__content {
     max-width: 48rem;
-  }
-
-  &__status-card,
-  &__tag-card,
-  &__sync-card {
-    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
 

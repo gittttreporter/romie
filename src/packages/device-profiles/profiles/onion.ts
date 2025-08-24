@@ -1,8 +1,8 @@
-import type { DeviceProfile } from "@/types/device";
+import type { DeviceProfile } from "../types";
 
-const ONION_OS_PROFILE: DeviceProfile = {
+export const ONION_OS_PROFILE: DeviceProfile = {
   id: "onion-os",
-  name: "OnionOS (MiyooMini)",
+  name: "Onion",
   romBasePath: "/Roms/",
   biosBasePath: "/BIOS/",
   artworkConfig: {
@@ -20,10 +20,6 @@ const ONION_OS_PROFILE: DeviceProfile = {
     snes: {
       folderName: "SFC",
       supportedFormats: [".sfc", ".snes", ".zip", ".7z"],
-    },
-    n64: {
-      folderName: "N64",
-      supportedFormats: [".n64", ".v64", ".z64", ".zip", ".7z"],
     },
     gb: {
       folderName: "GB",
@@ -62,15 +58,4 @@ const ONION_OS_PROFILE: DeviceProfile = {
       supportedFormats: [".zip", ".7z"],
     },
   },
-};
-const profiles: Record<string, DeviceProfile> = {
-  "onion-os": ONION_OS_PROFILE,
-};
-
-export const getDeviceProfile = (id: string): DeviceProfile | null => {
-  return profiles[id] || null;
-};
-
-export const getAllDeviceProfiles = (): DeviceProfile[] => {
-  return Object.values(profiles);
 };

@@ -3,7 +3,7 @@ import { startSync } from './sync'
 import type { SyncOptions, SyncStatus } from '@/types/electron-api'
 import type { Device } from '@/types/device'
 import type { Rom } from '@/types/rom'
-import type { DeviceProfile } from '@/types/device'
+import type { DeviceProfile } from '@/packages/device-profiles'
 
 // Mock all external dependencies
 vi.mock('electron', () => ({
@@ -69,7 +69,7 @@ vi.mock('@/errors', () => ({
 import fs from 'fs/promises'
 import { BrowserWindow } from 'electron'
 import { listDevices, listRoms } from '../roms/romDatabase'
-import { getDeviceProfile } from '../../utils/device-profiles'
+import { getDeviceProfile } from '@/packages/device-profiles'
 import { calculateCRC32 } from '../roms/romUtils'
 
 // Test data

@@ -35,10 +35,10 @@
 
 - [ ] Add ability to scan existing ROM libraries
 - [ ] Add sentry integration
-- [ ] Add issue tracker
+- [x] Add issue tracker
 - [ ] Box art scraping (see https://www.screenscraper.fr/)
 - [ ] Multi-disc game support (`.bin`/`.cue` grouping)
-- [ ] Add ko-fi button in sidebar footer
+- [x] Add ko-fi button in sidebar footer
 
 ## v1.0 - Public Launch (Target: TBD after beta feedback)
 **Goal:** Polished product ready for general users
