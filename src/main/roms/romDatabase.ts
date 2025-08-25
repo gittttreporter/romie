@@ -56,7 +56,7 @@ async function loadDatabase(): Promise<void> {
         data.version = "2.0.0";
         data.lastUpdated = now;
         data.roms.forEach((rom) => {
-          rom.source = "import";
+          rom.source ??= "import";
           rom.lastUpdated = now;
         });
       });
