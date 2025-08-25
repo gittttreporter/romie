@@ -104,7 +104,8 @@
                       >Clean destination before sync</label
                     >
                     <small class="tag-selection__option-subtitle"
-                      >Removes everything in <code>/Roms/</code> before
+                      >Removes everything in
+                      <code>{{ deviceProfile?.romBasePath }}</code> before
                       syncing</small
                     >
                   </div>
