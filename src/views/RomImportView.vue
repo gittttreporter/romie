@@ -7,20 +7,37 @@
       </h1>
       <div class="rom-import__actions">
         <Button
+          class="rom-import__import-button"
           size="large"
           severity="secondary"
           icon="pi pi-file-import"
-          :disabled="isLoading"
-          :label="buttonLabel"
+          :label="importLabel"
+          :loading="processingState === 'importing'"
+          :disabled="isProcessing"
           @click="handleImport"
-          :loading="isLoading"
+        />
+        <Button
+          size="large"
+          severity="secondary"
+          icon="pi pi-search-plus"
+          :label="scanLabel"
+          :loading="processingState === 'scanning'"
+          :disabled="isProcessing"
+          @click="handleScan"
         />
         <div class="rom-import__supported-info">
           <strong>Supported file extensions:</strong> {{ supportedExtensions }}
         </div>
       </div>
     </div>
-    <div v-if="!isLoading && result" class="rom-import__results">
+    <div v-if="isProcessing" class="rom-import__progress">
+      <span v-if="currentFile">
+        <i class="pi pi-file"></i>
+        Processing {{ currentFile }}...
+      </span>
+      <span v-else>Preparing files...</span>
+    </div>
+    <div v-if="!isProcessing && result" class="rom-import__results">
       <div class="rom-import__results-summary">
         <h3 v-if="result.successes > 0" class="rom-import__result-header">
           <i class="pi pi-check-circle success-icon"></i>
@@ -88,7 +105,8 @@ import type { RomImportResult } from "@/types/electron-api";
 
 const romStore = useRomStore();
 const toast = useToast();
-const isLoading = ref(false);
+const processingState = ref<"idle" | "importing" | "scanning">("idle");
+const currentFile = ref("");
 
 const result = ref<{
   errors: string[];
@@ -99,29 +117,64 @@ const result = ref<{
 
 const supportedExtensions = getAllSupportedExtensions().join(", ");
 
-const buttonLabel = computed(() => {
-  if (isLoading.value) return "Processing files...";
+const isProcessing = computed(() => processingState.value !== "idle");
 
+const importLabel = computed(() => {
+  if (processingState.value === "importing") return "Processing files...";
   return "Import";
 });
 
+const scanLabel = computed(() => {
+  if (processingState.value === "scanning") return "Scanning directory...";
+  return "Scan folder";
+});
+
+function showGenericError(operation: string) {
+  toast.add({
+    severity: "error",
+    summary: "Sorry, something went wrong",
+    detail: `We couldn't complete the ${operation}. Please try again.`,
+    life: 4000,
+  });
+}
+
 async function handleImport() {
-  isLoading.value = true;
+  processingState.value = "importing";
   result.value = null;
+  currentFile.value = "";
+
+  const unsubscribeImportStatus = window.rom.onImportProgress((status) => {
+    currentFile.value = status.currentFile;
+  });
 
   try {
     const result = await romStore.importRom();
-
     processImportResult(result);
   } catch (error) {
-    toast.add({
-      severity: "error",
-      summary: "Sorry, something went wrong",
-      detail: "We couldn’t complete the import. Please try again.",
-      life: 4000,
-    });
+    showGenericError("import");
   } finally {
-    isLoading.value = false;
+    processingState.value = "idle";
+    unsubscribeImportStatus();
+  }
+}
+
+async function handleScan() {
+  processingState.value = "scanning";
+  result.value = null;
+  currentFile.value = "";
+
+  const unsubscribeImportStatus = window.rom.onImportProgress((status) => {
+    currentFile.value = status.currentFile;
+  });
+
+  try {
+    const result = await romStore.scanRomDir();
+    processImportResult(result);
+  } catch (error) {
+    showGenericError("scan");
+  } finally {
+    processingState.value = "idle";
+    unsubscribeImportStatus();
   }
 }
 
@@ -143,10 +196,14 @@ function processImportResult(importResult: RomImportResult) {
   });
 
   result.value = {
-    successes: importResult.imported.length,
+    successes: importResult.totalProcessed
+      ? importResult.totalProcessed - errors.length - warnings.length
+      : importResult.imported.length,
     errors,
     warnings,
-    total: importResult.imported.length + importResult.failed.length,
+    total: importResult.totalProcessed
+      ? importResult.totalProcessed
+      : importResult.imported.length + importResult.failed.length,
   };
 }
 </script>
@@ -168,6 +225,10 @@ function processImportResult(importResult: RomImportResult) {
     }
   }
 
+  &__import-button {
+    margin-right: 1rem;
+  }
+
   &__supported-info {
     color: var(--p-text-muted-color);
     font-size: var(--font-size-sm);
@@ -175,6 +236,7 @@ function processImportResult(importResult: RomImportResult) {
     margin-top: 6px;
   }
 
+  &__progress,
   &__results {
     margin-top: 2rem;
   }

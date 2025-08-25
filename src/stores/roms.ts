@@ -89,5 +89,13 @@ export const useRomStore = defineStore("roms", {
 
       return importResults;
     },
+    async scanRomDir(): Promise<RomImportResult> {
+      log.info("Initiating rom import..");
+      const scanResults = await window.rom.scan();
+      await this.loadRoms();
+      await this.loadStats();
+
+      return scanResults;
+    },
   },
 });

@@ -12,13 +12,10 @@
 
 <script setup lang="ts">
 import { computed } from "vue";
-import type { SystemCode } from "@/types/system";
+import { getSystemColor } from "@/utils/system.utils";
+import { getSystemAbbreviation, getSystemDisplayName } from "@/utils/systems";
 
-import {
-  getSystemAbbreviation,
-  getSystemDisplayName,
-  getSystemColor,
-} from "@/utils/system.utils";
+import type { SystemCode } from "@/types/system";
 
 const props = defineProps<{
   code: SystemCode;

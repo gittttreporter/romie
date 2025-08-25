@@ -33,9 +33,8 @@ async function loadDatabase(): Promise<void> {
   if (!loadDatabasePromise) {
     log.info(`[ROM DB] Starting to load database from ${romDbPath}`);
 
-    // TODO: Update this to handle schema migration.
     loadDatabasePromise = JSONFilePreset<RomDatabase>(romDbPath, {
-      version: "1.0.0",
+      version: "2.0.0",
       created: now,
       lastUpdated: now,
       stats: {
@@ -48,6 +47,20 @@ async function loadDatabase(): Promise<void> {
       devices: [],
     });
     database = await loadDatabasePromise;
+
+    // TODO: Implement better migration strategy
+    if (database.data.version === "1.0.0") {
+      log.info(`[ROM DB] Migrating database from version 1.0.0 to 2.0.0`);
+
+      await database.update((data) => {
+        data.version = "2.0.0";
+        data.lastUpdated = now;
+        data.roms.forEach((rom) => {
+          rom.source = "import";
+          rom.lastUpdated = now;
+        });
+      });
+    }
     loadDatabasePromise = null;
     log.info(`[ROM DB] Database loaded successfully`);
   } else {
@@ -108,6 +121,9 @@ export async function addRom(rom: Rom): Promise<void> {
   // Check for duplicates
   const existing = db.data.roms.find(({ md5 }) => md5 === rom.md5);
 
+  // TODO: Turn this into an upsert operation
+  // If not exists, add entry
+  // If exists, update entry
   if (existing) {
     log.warn(
       `Duplicate ROM rejected: ${rom.originalFilename} (matches ${existing.originalFilename})`,

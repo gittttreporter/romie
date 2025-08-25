@@ -9,14 +9,21 @@ export type RomImportResult = {
     file: string;
     reason: string;
   }[];
+  totalProcessed: number;
 };
+
+export interface ImportStatus {
+  currentFile: string;
+}
 
 export interface RomApi {
   list(): Promise<Rom[]>;
   remove(id: string): Promise<void>;
   update(id: string, romUpdate: Partial<Rom>): Promise<void>;
   import(): Promise<RomImportResult>;
+  scan(): Promise<RomImportResult>;
   stats(): Promise<RomDatabaseStats>;
+  onImportProgress(callback: (progress: ImportStatus) => void): () => void;
 }
 
 export interface DeviceMountStatus {

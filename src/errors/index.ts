@@ -7,3 +7,15 @@ export class SyncError extends Error {
     this.name = "SyncError";
   }
 }
+
+export class RomProcessingError extends Error {
+  constructor(
+    message: string,
+    public file: string,
+    public reason: string,
+    public cause?: Error,
+  ) {
+    super(message);
+    this.name = "RomProcessingError";
+  }
+}

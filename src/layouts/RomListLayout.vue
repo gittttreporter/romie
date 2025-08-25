@@ -77,7 +77,7 @@ import InputIcon from "primevue/inputicon";
 import InputText from "primevue/inputtext";
 import { useRomStore } from "@/stores";
 import RomList from "@/components/RomList.vue";
-import { getSystemDisplayName } from "@/utils/system.utils";
+import { getSystemDisplayName } from "@/utils/systems";
 
 import type { Rom } from "@/types/rom";
 import type { SystemCode } from "@/types/system";

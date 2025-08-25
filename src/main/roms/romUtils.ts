@@ -1,3 +1,4 @@
+import log from "electron-log/main";
 import crypto from "crypto";
 import fs from "fs/promises";
 import CRC32 from "crc-32";
@@ -161,15 +162,14 @@ export async function copyRomToLibrary(
   destFileName: string,
 ): Promise<PathLike> {
   const appDataDir = app.getPath("userData");
-  console.log("> ", appDataDir);
   const romsDir = path.join(appDataDir, "roms");
   const destPath = path.join(romsDir, destFileName);
-  console.log("> ", destPath);
+  log.debug(`[IMPORT] Copying to ${destPath}`);
 
   await fs.mkdir(romsDir, { recursive: true });
   await fs.copyFile(sourcePath, destPath);
 
-  return "destPath";
+  return destPath;
 }
 
 /**

@@ -60,7 +60,7 @@ export const KNULLI_PROFILE: DeviceProfile = {
     },
     atari2600: {
       folderName: "atari2600",
-      supportedFormats: [".a26", ".bin", ".zip", ".7z"],
+      supportedFormats: [".a26", ".zip", ".7z"],
     },
     lynx: {
       folderName: "lynx",
@@ -68,11 +68,11 @@ export const KNULLI_PROFILE: DeviceProfile = {
     },
     ngp: {
       folderName: "ngp",
-      supportedFormats: [".ngp", ".zip", ".7z"],
+      supportedFormats: [".ngp", ".ngc", ".zip", ".7z"],
     },
-    ngpc: {
-      folderName: "ngpc",
-      supportedFormats: [".ngc", ".ngp", ".zip", ".7z"],
+    vb: {
+      folderName: "virtualboy",
+      supportedFormats: [".vb", ".zip", ".7z"],
     },
     arcade: {
       folderName: "fbneo",

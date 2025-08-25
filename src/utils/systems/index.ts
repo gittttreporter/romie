@@ -1,14 +1,14 @@
 import { SYSTEM_REGISTRY } from "./systemRegistry";
 import type { SystemType, SystemCode, SystemInfo } from "@/types/system";
 
-// Helper functions
+const systems = Object.values(SYSTEM_REGISTRY);
+
 export function getSystemByExtension(
   extension: string,
 ): SystemInfo | undefined {
   const ext = extension.toLowerCase();
-  return Object.values(SYSTEM_REGISTRY).find((system) =>
-    system.extensions.includes(ext),
-  );
+
+  return systems.find((system) => system.extensions.includes(ext));
 }
 
 export function getSystemInfo(code: SystemCode): SystemInfo {
@@ -20,15 +20,11 @@ export function getSystemInfo(code: SystemCode): SystemInfo {
 }
 
 export function getAllSupportedExtensions(): string[] {
-  return Object.values(SYSTEM_REGISTRY)
-    .flatMap((system) => system.extensions)
-    .sort();
+  return systems.flatMap((system) => system.extensions).sort();
 }
 
 export function getSystemsByType(type: SystemType): SystemInfo[] {
-  return Object.values(SYSTEM_REGISTRY).filter(
-    (system) => system.type === type,
-  );
+  return systems.filter((system) => system.type === type);
 }
 
 export function determineSystemFromExtension(
@@ -38,5 +34,29 @@ export function determineSystemFromExtension(
   if (!system) {
     throw new Error(`Unsupported file extension: ${fileExtension}`);
   }
+
   return system.code;
+}
+
+/**
+ * Returns the human display name for a system code.
+ */
+export function getSystemDisplayName(code: SystemCode): string {
+  return SYSTEM_REGISTRY[code]?.displayName || code;
+}
+
+/**
+ * Returns the preferred badge abbreviation for a system code.
+ */
+export function getSystemAbbreviation(code: SystemCode): string {
+  switch (code) {
+    case "genesis":
+      return "GEN";
+    case "atari2600":
+      return "2600";
+    case "arcade":
+      return "ARC";
+    default:
+      return code.toUpperCase();
+  }
 }

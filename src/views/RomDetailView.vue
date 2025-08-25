@@ -58,7 +58,7 @@ import Button from "primevue/button";
 import Card from "primevue/card";
 import { useToast } from "primevue/usetoast";
 import { useRomStore } from "@/stores";
-import { getSystemDisplayName } from "@/utils/system.utils";
+import { getSystemDisplayName } from "@/utils/systems";
 import TagsEditor from "@/components/TagsEditor.vue";
 
 const props = defineProps<{

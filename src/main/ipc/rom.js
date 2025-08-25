@@ -1,5 +1,5 @@
 import { ipcMain } from "electron";
-import { importRoms } from "@main/roms/romService";
+import { importRoms, scanRomDirectory } from "@main/roms/romService";
 import {
   listRoms,
   removeRomById,
@@ -9,6 +9,7 @@ import {
 
 export function registerRomIpc() {
   ipcMain.handle("rom:import", importRoms);
+  ipcMain.handle("rom:scan", scanRomDirectory);
   ipcMain.handle("rom:list", listRoms);
   ipcMain.handle("rom:remove", (_, id) => removeRomById(id));
   ipcMain.handle("rom:update", (_, id, data) => updateRom(id, data));

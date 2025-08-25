@@ -1,10 +1,12 @@
 import type { SystemCode, SystemInfo } from "@/types/system";
 
-export const SYSTEM_REGISTRY: Record<SystemCode, SystemInfo> = {
+// Registry of systems ROMie supports.
+export const SYSTEM_REGISTRY: Partial<Record<SystemCode, SystemInfo>> = {
   // === NINTENDO CONSOLES ===
   nes: {
     code: "nes",
-    displayName: "Nintendo Entertainment System",
+    displayName: "NES",
+    fullName: "Nintendo Entertainment System",
     type: "console",
     extensions: [".nes"],
     requiresBios: false,
@@ -13,18 +15,40 @@ export const SYSTEM_REGISTRY: Record<SystemCode, SystemInfo> = {
   },
   snes: {
     code: "snes",
-    displayName: "Super Nintendo Entertainment System",
+    displayName: "SNES",
+    fullName: "Super Nintendo Entertainment System",
     type: "console",
     extensions: [".sfc", ".snes"],
     requiresBios: false,
     manufacturer: "Nintendo",
     releaseYear: 1990,
   },
+  n64: {
+    code: "n64",
+    displayName: "N64",
+    fullName: "Nintendo 64",
+    type: "console",
+    extensions: [".n64", ".v64", ".z64"],
+    requiresBios: false,
+    manufacturer: "Nintendo",
+    releaseYear: 1996,
+  },
 
   // === NINTENDO HANDHELDS ===
+  vb: {
+    code: "vb",
+    displayName: "Virtual Boy",
+    fullName: "Nintendo Virtual Boy",
+    type: "console",
+    extensions: [".vb"],
+    requiresBios: false,
+    manufacturer: "Nintendo",
+    releaseYear: 1995,
+  },
   gb: {
     code: "gb",
     displayName: "Game Boy",
+    fullName: "Nintendo Game Boy",
     type: "handheld",
     extensions: [".gb", ".dmg"],
     requiresBios: false,
@@ -34,6 +58,7 @@ export const SYSTEM_REGISTRY: Record<SystemCode, SystemInfo> = {
   gbc: {
     code: "gbc",
     displayName: "Game Boy Color",
+    fullName: "Nintendo Game Boy Color",
     type: "handheld",
     extensions: [".gbc", ".gb"],
     requiresBios: false,
@@ -43,18 +68,30 @@ export const SYSTEM_REGISTRY: Record<SystemCode, SystemInfo> = {
   gba: {
     code: "gba",
     displayName: "Game Boy Advance",
+    fullName: "Nintendo Game Boy Advance",
     type: "handheld",
-    extensions: [".gba", ".bin"],
+    extensions: [".gba"],
     requiresBios: true,
     biosFiles: ["gba_bios.bin"],
     manufacturer: "Nintendo",
     releaseYear: 2001,
   },
+  nds: {
+    code: "nds",
+    displayName: "Nintendo DS",
+    fullName: "Nintendo DS",
+    type: "handheld",
+    extensions: [".nds"],
+    requiresBios: false,
+    manufacturer: "Nintendo",
+    releaseYear: 2004,
+  },
 
   // === SEGA CONSOLES ===
   genesis: {
     code: "genesis",
-    displayName: "Sega Genesis",
+    displayName: "Genesis",
+    fullName: "Sega Genesis / Mega Drive",
     type: "console",
     extensions: [".md", ".gen", ".smd"],
     requiresBios: false,
@@ -63,7 +100,8 @@ export const SYSTEM_REGISTRY: Record<SystemCode, SystemInfo> = {
   },
   sms: {
     code: "sms",
-    displayName: "Sega Master System",
+    displayName: "Master System",
+    fullName: "Sega Master System",
     type: "console",
     extensions: [".sms"],
     requiresBios: false,
@@ -72,7 +110,8 @@ export const SYSTEM_REGISTRY: Record<SystemCode, SystemInfo> = {
   },
   gg: {
     code: "gg",
-    displayName: "Sega Game Gear",
+    displayName: "Game Gear",
+    fullName: "Sega Game Gear",
     type: "handheld",
     extensions: [".gg"],
     requiresBios: false,
@@ -81,32 +120,57 @@ export const SYSTEM_REGISTRY: Record<SystemCode, SystemInfo> = {
   },
 
   // === SONY ===
-  psx: {
-    code: "psx",
-    displayName: "Sony PlayStation",
-    type: "console",
-    extensions: [".iso", ".chd", ".pbp"],
-    requiresBios: true,
-    biosFiles: ["scph1001.bin", "scph7001.bin", "scph5501.bin"],
-    manufacturer: "Sony",
-    releaseYear: 1994,
-  },
+  // UNSUPPORTED - Requires special handling for multi-disc games and bin
+  // psx: {
+  //   code: "psx",
+  //   displayName: "Sony PlayStation",
+  //   type: "console",
+  //   extensions: [".iso", ".chd", ".pbp"],
+  //   requiresBios: true,
+  //   biosFiles: ["scph1001.bin", "scph7001.bin", "scph5501.bin"],
+  //   manufacturer: "Sony",
+  //   releaseYear: 1994,
+  // },
 
   // === ATARI ===
   atari2600: {
     code: "atari2600",
     displayName: "Atari 2600",
+    fullName: "Atari 2600",
     type: "console",
-    extensions: [".a26", ".bin"],
+    extensions: [".a26"],
     requiresBios: false,
     manufacturer: "Atari",
     releaseYear: 1977,
+  },
+  lynx: {
+    code: "lynx",
+    displayName: "Lynx",
+    fullName: "Atari Lynx",
+    type: "handheld",
+    extensions: [".lnx"],
+    requiresBios: false,
+    manufacturer: "Atari",
+    releaseYear: 1989,
+  },
+
+  // === SNK ===
+  ngp: {
+    code: "ngp",
+    displayName: "Neo Geo Pocket",
+    fullName: "SNK Neo Geo Pocket",
+    type: "handheld",
+    extensions: [".ngp", ".ngc"],
+    requiresBios: false,
+    manufacturer: "SNK",
+    releaseYear: 1998,
   },
 
   // === ARCADE ===
   arcade: {
     code: "arcade",
-    displayName: "Arcade (MAME)",
+    displayName: "Arcade",
+    fullName: "Arcade (MAME)",
     type: "arcade",
     extensions: [".zip"],
     requiresBios: false,

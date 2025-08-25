@@ -8,6 +8,7 @@ import type {
   SyncApi,
   SyncOptions,
   SyncStatus,
+  ImportStatus,
 } from "@/types/electron-api";
 import type { Rom } from "@/types/rom";
 import type { Device } from "@/types/device";
@@ -18,7 +19,17 @@ const romApi: RomApi = {
   update: (id: string, data: Partial<Rom>) =>
     ipcRenderer.invoke("rom:update", id, data),
   import: () => ipcRenderer.invoke("rom:import"),
+  scan: () => ipcRenderer.invoke("rom:scan"),
   stats: () => ipcRenderer.invoke("rom:stats"),
+  onImportProgress: (callback: (progress: ImportStatus) => void) => {
+    const handler = (_: any, progress: ImportStatus) => callback(progress);
+    ipcRenderer.on("rom:import-progress", handler);
+
+    // Return cleanup function
+    return () => {
+      ipcRenderer.removeListener("rom:import-progress", handler);
+    };
+  },
 };
 
 const deviceApi: DeviceApi = {

@@ -33,6 +33,10 @@ export const ONION_OS_PROFILE: DeviceProfile = {
       folderName: "GBA",
       supportedFormats: [".gba", ".bin", ".zip", ".7z"],
     },
+    nds: {
+      folderName: "NDS",
+      supportedFormats: [".nds", ".zip", ".7z", ".rar"],
+    },
     genesis: {
       folderName: "MD",
       supportedFormats: [".md", ".gen", ".smd", ".zip", ".7z"],
@@ -52,6 +56,18 @@ export const ONION_OS_PROFILE: DeviceProfile = {
     atari2600: {
       folderName: "ATARI",
       supportedFormats: [".a26", ".bin", ".zip", ".7z"],
+    },
+    lynx: {
+      folderName: "LYNX",
+      supportedFormats: [".lnx", ".zip", ".7z"],
+    },
+    ngp: {
+      folderName: "NGP",
+      supportedFormats: [".ngp", ".ngc", ".zip", ".7z"],
+    },
+    vb: {
+      folderName: "VB",
+      supportedFormats: [".vb", ".zip", ".7z"],
     },
     arcade: {
       folderName: "ARCADE",

@@ -3,6 +3,7 @@ import log from "electron-log/main";
 import fs from "fs/promises";
 import { v4 as uuidv4 } from "uuid";
 import { determineSystemFromExtension } from "@/utils/systems";
+import { RomProcessingError } from "@/errors";
 import {
   extractRegionFromFilename,
   cleanDisplayName,
@@ -12,16 +13,17 @@ import {
 import { addRom } from "./romDatabase";
 import type { Rom } from "../../types/rom";
 
-export async function processRomFile(filePath: string): Promise<Rom> {
-  const filename = path.basename(filePath);
+export async function processRomFile(
+  filePath: string,
+  source: "import" | "scan",
+): Promise<Rom> {
+  const logSource = source.toUpperCase();
+  const originalFilename = path.basename(filePath);
+  const fileExtension = path.extname(originalFilename);
+  log.debug(`File extension: ${fileExtension}`);
 
   try {
-    log.info(`Processing ROM file: ${filename}`);
-
-    // Get original filename + extension
-    const originalFilename = path.basename(filePath);
-    const fileExtension = path.extname(originalFilename);
-    log.debug(`File extension: ${fileExtension}`);
+    log.info(`[${logSource}] Processing ROM file: ${originalFilename}`);
 
     // Determine console from file extension
     log.debug("Determining system from extension");
@@ -29,35 +31,39 @@ export async function processRomFile(filePath: string): Promise<Rom> {
     log.debug(`Detected system: ${system}`);
 
     // Extract region tag from filename e.g. (USA), (JPN) fallback: "Unknown"
-    log.debug("Extracting region from filename");
+    log.debug(`[${logSource}] Extracting region from filename`);
     const region = extractRegionFromFilename(originalFilename);
-    log.debug(`Detected region: ${region}`);
+    log.debug(`[${logSource}] Detected region: ${region}`);
 
     // Create displayName by stripping: region tag, dump tags ([!], [v1.1]), punctuation
     const displayName = cleanDisplayName(originalFilename);
-    log.debug(`Clean display name: ${displayName}`);
+    log.debug(`[${logSource}] Clean display name: ${displayName}`);
 
     // Generate hashes for deduplication and libretro lookups.
-    log.debug("Generating hashes for ROM file");
+    log.debug(`[${logSource}] Generating hashes for ROM file`);
     const hashes = await generateLibretroHashes(filePath);
     log.debug(
-      `Generated hashes: MD5=${hashes.md5?.substring(0, 8)}..., SHA1=${hashes.sha1?.substring(0, 8)}...`,
+      `[${logSource}] Generated hashes: MD5=${hashes.md5?.substring(0, 8)}..., SHA1=${hashes.sha1?.substring(0, 8)}...`,
     );
 
     // Get file size
-    log.debug("Getting file statistics");
+    log.debug(`[${logSource}] Getting file statistics`);
     const stats = await fs.stat(filePath);
     const size = stats.size;
-    log.debug(`File size: ${(size / 1024 / 1024).toFixed(2)} MB`);
+    log.debug(
+      `[${logSource}] File size: ${(size / 1024 / 1024).toFixed(2)} MB`,
+    );
 
-    // Create filename for saving (with region)
-    const savedFilename = `${displayName} (${region})${fileExtension}`;
-    log.debug(`Target filename: ${savedFilename}`);
-
-    // Copy file to target location
-    log.debug("Copying ROM to library");
-    const targetPath = await copyRomToLibrary(filePath, savedFilename);
-    log.debug(`ROM copied to: ${targetPath}`);
+    // Copy to managed library if imported.
+    let savedLocation = filePath;
+    if (source === "import") {
+      // Copy file to target location
+      log.debug(`[${logSource}] Copying ROM to library`);
+      savedLocation = (
+        await copyRomToLibrary(filePath, originalFilename)
+      ).toString();
+      log.debug(`[${logSource}] ROM copied to: ${savedLocation}`);
+    }
 
     // Create metadata object
     const now = Date.now();
@@ -66,8 +72,10 @@ export async function processRomFile(filePath: string): Promise<Rom> {
       system,
       displayName,
       region,
-      filename: savedFilename,
-      originalFilename,
+      filename: originalFilename, // TODO: consider renaming to savedFilename
+      originalFilename, // TODO: consider if we need both filename and originalFilename
+      filePath: savedLocation,
+      source,
       size,
       importedAt: now,
       lastUpdated: now,
@@ -79,16 +87,23 @@ export async function processRomFile(filePath: string): Promise<Rom> {
     // Update ROM database
     await addRom(metadata);
 
-    log.info(`Successfully processed ROM: ${displayName} (${system})`);
+    log.info(
+      `[${logSource}] Successfully processed ROM: ${displayName} (${system})`,
+    );
     return metadata;
   } catch (error) {
-    log.error(`Failed to process ROM file: ${filename}`, error);
+    log.error(
+      `[${logSource}] Failed to process ROM file: ${originalFilename}`,
+      error,
+    );
 
-    // Create a meaningful error that can be caught by importRoms()
-    const romError = new Error(`Failed to process ROM: ${filename}`);
-    (romError as any).file = filePath;
-    (romError as any).reason =
-      error instanceof Error ? error.message : "Unknown error";
+    const romError = new RomProcessingError(
+      `Failed to process ROM: ${originalFilename}`,
+      filePath,
+      error instanceof Error ? error.message : "Unknown error",
+      error instanceof Error ? error : undefined,
+    );
+
     throw romError;
   }
 }

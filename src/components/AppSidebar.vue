@@ -103,18 +103,18 @@ import Button from "primevue/button";
 import Badge from "primevue/badge";
 import Tag from "primevue/tag";
 import { useRomStore, useDeviceStore } from "@/stores";
-import { getSystemDisplayName } from "@/utils/system.utils";
+import { getSystemDisplayName } from "@/utils/systems";
 
 import type { RouteLocationRaw } from "vue-router";
 import type { SystemCode } from "@/types/system";
 
 // prettier-ignore
 const SYSTEM_SORT_ORDER: SystemCode[] = [
-  'nes','snes','n64','gb','gbc','gba', // Nintendo
-  'sms','genesis','gg',                // Sega
-  'psx',                               // Sony
-  'atari2600',                         // Atari
-  'arcade'                             // Arcade
+  'nes','snes','n64','gb','gbc','gba', 'nds', // Nintendo
+  'sms','genesis','gg',                       // Sega
+  'psx',                                      // Sony
+  'atari2600',                                // Atari
+  'arcade'                                    // Arcade
 ];
 
 const romStore = useRomStore();

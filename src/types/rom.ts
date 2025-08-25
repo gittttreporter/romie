@@ -31,6 +31,8 @@ export interface Rom {
   region: RomRegion | "Unknown";
   filename: string;
   originalFilename: string;
+  filePath: string;
+  source: "import" | "scan";
   size: number;
   importedAt: number;
   lastUpdated: number;
