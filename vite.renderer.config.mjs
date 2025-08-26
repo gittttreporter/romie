@@ -20,7 +20,7 @@ export default defineConfig({
       org: "jzimz-labs",
       project: "romie",
       release: {
-        name: `romie@${process.env.npm_package_version}`,
+        name: `ROMie@${process.env.npm_package_version}`,
       },
     }),
   ],
