@@ -7,6 +7,15 @@
  *
  */
 
+import * as Sentry from "@sentry/electron/renderer";
+
+Sentry.init({
+  // Adds request headers and IP for users, for more info visit:
+  // https://docs.sentry.io/platforms/javascript/guides/electron/configuration/options/#sendDefaultPii
+  sendDefaultPii: true,
+  integrations: [],
+});
+
 import { createApp } from "vue";
 import PrimeVue from "primevue/config";
 import ConfirmationService from "primevue/confirmationservice";

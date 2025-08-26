@@ -2,7 +2,12 @@ import { app, BrowserWindow, ipcMain, nativeTheme, dialog } from "electron";
 import log from "electron-log/main";
 import path from "node:path";
 import started from "electron-squirrel-startup";
+import * as Sentry from "@sentry/electron/main";
 import { registerAllIpc } from "@main/ipc";
+
+Sentry.init({
+  dsn: "https://fc0b9d6fbe7a083656e37330fa41d02d@o4509907309035520.ingest.us.sentry.io/4509907312574464",
+});
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (started) {
@@ -16,9 +21,9 @@ const createWindow = () => {
     // Remove the window frame
     frame: "false",
     // Hide the title bar but keep traffic lights on MacOS
-    titleBarStyle: process.platform === 'darwin' ? 'hidden' : 'default',
+    titleBarStyle: process.platform === "darwin" ? "hidden" : "default",
     // Hide the menu bar in windows and linux
-    autoHideMenuBar: true, 
+    autoHideMenuBar: true,
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
     },
@@ -88,6 +93,3 @@ app.on("window-all-closed", () => {
     app.quit();
   }
 });
-
-// In this file you can include the rest of your app's specific main process
-// code. You can also put them in separate files and import them here.
