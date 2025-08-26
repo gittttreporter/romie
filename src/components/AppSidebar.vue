@@ -273,7 +273,6 @@ async function openDiscordInvite() {
 }
 
 async function openKofiLink() {
-  runBlamo();
   window.util.openExternalLink("https://ko-fi.com/jzimz");
 }
 

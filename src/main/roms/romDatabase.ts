@@ -141,7 +141,6 @@ export async function addRom(rom: Rom): Promise<void> {
 }
 
 export async function removeRomById(id: string): Promise<void> {
-  process.crash();
   log.debug(`Removing ROM: ${id}`);
   const db = await ensureDatabase();
   const romIdx = db.data.roms.findIndex((rom) => rom.id === id);
