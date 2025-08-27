@@ -7,11 +7,12 @@ import { registerAllIpc } from "@main/ipc";
 import { SENTRY_DSN, SENTRY_SAMPLE_RATE } from "./sentry.config";
 import { getInstanceId } from "./main/analytics";
 
-init({
-  dsn: SENTRY_DSN,
-  // integrations: [addTracingExtensions()],
-  tracesSampleRate: SENTRY_SAMPLE_RATE,
-});
+if (process.env.NODE_ENV !== "development") {
+  init({
+    dsn: SENTRY_DSN,
+    tracesSampleRate: SENTRY_SAMPLE_RATE,
+  });
+}
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (started) {

@@ -22,15 +22,17 @@ import { SENTRY_DSN, SENTRY_SAMPLE_RATE } from "./sentry.config";
 import "./styles/main.css";
 import "primeicons/primeicons.css";
 
-Sentry.init(
-  {
-    dsn: SENTRY_DSN,
-    sendDefaultPii: true,
-    integrations: [Sentry.browserTracingIntegration()],
-    tracesSampleRate: SENTRY_SAMPLE_RATE,
-  },
-  vueInit,
-);
+if (process.env.NODE_ENV !== "development") {
+  Sentry.init(
+    {
+      dsn: SENTRY_DSN,
+      sendDefaultPii: true,
+      integrations: [Sentry.browserTracingIntegration()],
+      tracesSampleRate: SENTRY_SAMPLE_RATE,
+    },
+    vueInit,
+  );
+}
 
 const app = createApp(App);
 

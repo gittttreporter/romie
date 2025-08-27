@@ -15,10 +15,12 @@ import type { Rom } from "@/types/rom";
 import type { Device } from "@/types/device";
 import { SENTRY_DSN } from "./sentry.config";
 
-init({
-  dsn: SENTRY_DSN,
-  sendDefaultPii: true,
-});
+if (process.env.NODE_ENV !== "development") {
+  init({
+    dsn: SENTRY_DSN,
+    sendDefaultPii: true,
+  });
+}
 
 const romApi: RomApi = {
   list: () => ipcRenderer.invoke("rom:list"),
