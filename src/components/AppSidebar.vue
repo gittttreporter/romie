@@ -310,6 +310,7 @@ async function handleDisplayModeToggle() {
       font-family: var(--font-alt);
       font-size: 2rem;
       flex-grow: 1;
+      user-select: none;
     }
   }
 
