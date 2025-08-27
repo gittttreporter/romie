@@ -273,8 +273,7 @@ async function openDiscordInvite() {
 }
 
 async function openKofiLink() {
-  throw new Error("Function not implemented.");
-  // window.util.openExternalLink("https://ko-fi.com/jzimz");
+  window.util.openExternalLink("https://ko-fi.com/jzimz");
 }
 
 async function handleDisplayModeToggle() {

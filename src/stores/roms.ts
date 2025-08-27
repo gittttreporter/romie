@@ -63,6 +63,7 @@ export const useRomStore = defineStore("roms", {
         await this.loadStats();
       } catch (error) {
         log.error(error);
+        throw error;
       } finally {
         this.loading = false;
       }
@@ -77,6 +78,7 @@ export const useRomStore = defineStore("roms", {
         await this.loadStats();
       } catch (error) {
         log.error(error);
+        throw error;
       } finally {
         this.loading = false;
       }
