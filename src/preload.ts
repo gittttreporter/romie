@@ -2,7 +2,7 @@
 // https://www.electronjs.org/docs/latest/tutorial/process-model#preload-scripts
 
 import { contextBridge, ipcRenderer } from "electron";
-import * as Sentry from "@sentry/electron/renderer";
+import { init } from "@sentry/electron/renderer";
 import type {
   RomApi,
   DeviceApi,
@@ -13,12 +13,11 @@ import type {
 } from "@/types/electron-api";
 import type { Rom } from "@/types/rom";
 import type { Device } from "@/types/device";
+import { SENTRY_DSN } from "./sentry.config";
 
-Sentry.init({
-  // Adds request headers and IP for users, for more info visit:
-  // https://docs.sentry.io/platforms/javascript/guides/electron/configuration/options/#sendDefaultPii
+init({
+  dsn: SENTRY_DSN,
   sendDefaultPii: true,
-  integrations: [],
 });
 
 const romApi: RomApi = {

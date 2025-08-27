@@ -1,5 +1,6 @@
 import { ipcMain, BrowserWindow, app } from "electron";
 import log from "electron-log/main";
+import * as Sentry from "@sentry/electron/main";
 import { SyncError } from "@/errors";
 import type {
   SyncOptions,
@@ -35,78 +36,125 @@ async function startSync(
   deviceId: string,
   options: SyncOptions,
 ): Promise<SyncStatus> {
-  syncCancelled = false;
-  const startTime = Date.now();
-  const syncStatus = createSyncNotifier();
+  return await Sentry.startSpan(
+    {
+      op: "sync.operation",
+      name: "Sync ROMs to Device",
+      attributes: {
+        "sync.tag_count": tagIds.length,
+        "sync.clean_destination": options.cleanDestination,
+        "sync.verify_files": options.verifyFiles,
+      },
+    },
+    async (span) => {
+      syncCancelled = false;
+      const startTime = Date.now();
+      const syncStatus = createSyncNotifier();
 
-  log.info(
-    `[SYNC] Starting sync operation for device ${deviceId} with tags: ${tagIds.join(", ")}`,
-  );
-  log.info(
-    `[SYNC] Sync options: cleanDestination=${options.cleanDestination}, verifyFiles=${options.verifyFiles}`,
-  );
+      log.info(
+        `[SYNC] Starting sync operation for device ${deviceId} with tags: ${tagIds.join(", ")}`,
+      );
+      log.info(
+        `[SYNC] Sync options: cleanDestination=${options.cleanDestination}, verifyFiles=${options.verifyFiles}`,
+      );
 
-  try {
-    // Step 1: Validation
-    syncStatus.setPhase("preparing").notify();
+      try {
+        // Step 1: Validation
+        syncStatus.setPhase("preparing").notify();
 
-    const device = await validateDevice(deviceId);
-    const profile = validateProfile(device.profileId);
+        const device = await Sentry.startSpan(
+          { op: "sync.validate", name: "Validate Device" },
+          () => validateDevice(deviceId)
+        );
+        const profile = validateProfile(device.profileId);
+        
+        span.setAttributes({
+          "device.profile_id": device.profileId,
+          "device.profile_name": profile.name,
+        });
 
-    // Step 2: Preparation
-    if (options.cleanDestination) {
-      await cleanDestination(device, profile);
-    }
+        // Step 2: Preparation
+        if (options.cleanDestination) {
+          await Sentry.startSpan(
+            { op: "sync.clean", name: "Clean Destination" },
+            () => cleanDestination(device, profile)
+          );
+        }
 
-    // Step 3: Get and filter ROMs
-    log.debug(`[SYNC] Loading ROM database`);
-    const allRoms = await listRoms();
-    const filteredRoms = filterRomsForSync(
-      allRoms,
-      tagIds,
-      profile,
-      syncStatus,
-    );
-    syncStatus.setTotal(filteredRoms.length).notify();
+        // Step 3: Get and filter ROMs
+        log.debug(`[SYNC] Loading ROM database`);
+        const allRoms = await listRoms();
+        const filteredRoms = filterRomsForSync(
+          allRoms,
+          tagIds,
+          profile,
+          syncStatus,
+        );
+        syncStatus.setTotal(filteredRoms.length).notify();
 
-    if (filteredRoms.length === 0) {
-      log.warn(`[SYNC] No ROMs found matching criteria`);
-      syncStatus.setPhase("done").setCurrentFile("").notify();
+        if (filteredRoms.length === 0) {
+          log.warn(`[SYNC] No ROMs found matching criteria`);
+          syncStatus.setPhase("done").setCurrentFile("").notify();
+          span.setAttributes({
+            "sync.roms_filtered": 0,
+            "sync.roms_total": allRoms.length,
+          });
+          return syncStatus.status;
+        }
+
+        span.setAttributes({
+          "sync.roms_filtered": filteredRoms.length,
+          "sync.roms_total": allRoms.length,
+        });
+
+        // Step 4: Copy ROMs
+        await Sentry.startSpan(
+          { op: "sync.copy", name: "Copy ROMs to Device" },
+          () => copyRoms(filteredRoms, device, profile, options, syncStatus)
+        );
+
+        // Complete
+        const duration = Date.now() - startTime;
+        span.setAttributes({
+          "sync.duration_ms": duration,
+          "sync.success": true,
+        });
+
+        log.info(
+          `[SYNC] Sync completed successfully in ${duration}ms: ${filteredRoms.length} ROMs synced`,
+        );
+
+        syncStatus.setPhase("done").setCurrentFile("").notify();
+      } catch (error) {
+        const duration = Date.now() - startTime;
+        span.setStatus({ code: 2, message: "Sync operation failed" });
+        span.recordException(error instanceof Error ? error : new Error(String(error)));
+        span.setAttributes({
+          "sync.duration_ms": duration,
+          "sync.success": false,
+        });
+        
+        const syncError =
+          error instanceof SyncError
+            ? error
+            : new SyncError(
+                `Sync failed: ${(error as Error).message}`,
+                error as Error,
+              );
+
+        log.error(`[SYNC] Sync failed after ${duration}ms: ${syncError.message}`);
+        if (syncError.cause) {
+          log.error(`[SYNC] Root cause:`, syncError.cause);
+        }
+
+        syncStatus.setError(syncError).setCurrentFile("").notify();
+
+        throw syncError;
+      }
 
       return syncStatus.status;
     }
-
-    // Step 4: Copy ROMs
-    await copyRoms(filteredRoms, device, profile, options, syncStatus);
-
-    // Complete
-    const duration = Date.now() - startTime;
-    log.info(
-      `[SYNC] Sync completed successfully in ${duration}ms: ${filteredRoms.length} ROMs synced`,
-    );
-
-    syncStatus.setPhase("done").setCurrentFile("").notify();
-  } catch (error) {
-    const duration = Date.now() - startTime;
-    const syncError =
-      error instanceof SyncError
-        ? error
-        : new SyncError(
-            `Sync failed: ${(error as Error).message}`,
-            error as Error,
-          );
-
-    log.error(`[SYNC] Sync failed after ${duration}ms: ${syncError.message}`);
-    if (syncError.cause) {
-      log.error(`[SYNC] Root cause:`, syncError.cause);
-    }
-
-    syncStatus.setError(syncError).setCurrentFile("").notify();
-
-    throw syncError;
-  }
-
-  return syncStatus.status;
+  );
 }
 
 function cancelSync() {

@@ -10,6 +10,13 @@ This project is a ROM Manager app built using Electron with Vue.js and TypeScrip
 - If something won't work, say it won't work and explain why
 - I'm new to typescript so explain in a little extra detail why typescript related decisions are made
 
+Write Github issues like you’re explaining the task to a teammate over coffee. Keep it casual but clear. Use:
+- One-liner summary of what needs to be done.
+- Why it matters in a sentence or two (the context).
+- Steps or hints if it’s not obvious.
+- Acceptance check in plain language (‘done when…’).
+- Avoid corporate buzzwords, long paragraphs, or repeating obvious details. Keep it short, human, and actionable.”
+
 ## Key points to remember:
 - Vue.js + TypeScript stack
 - Component library is PrimeVue

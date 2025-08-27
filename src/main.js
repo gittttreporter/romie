@@ -2,11 +2,15 @@ import { app, BrowserWindow, ipcMain, nativeTheme, dialog } from "electron";
 import log from "electron-log/main";
 import path from "node:path";
 import started from "electron-squirrel-startup";
-import * as Sentry from "@sentry/electron/main";
+import { init, setUser } from "@sentry/electron/main";
 import { registerAllIpc } from "@main/ipc";
+import { SENTRY_DSN, SENTRY_SAMPLE_RATE } from "./sentry.config";
+import { getInstanceId } from "./main/analytics";
 
-Sentry.init({
-  dsn: "https://fc0b9d6fbe7a083656e37330fa41d02d@o4509907309035520.ingest.us.sentry.io/4509907312574464",
+init({
+  dsn: SENTRY_DSN,
+  // integrations: [addTracingExtensions()],
+  tracesSampleRate: SENTRY_SAMPLE_RATE,
 });
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -65,7 +69,7 @@ const createWindow = () => {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
-app.whenReady().then(() => {
+app.whenReady().then(async () => {
   // Initialize the logger for any renderer process
   log.initialize();
   // Use debug level in production during alpha testing
@@ -73,6 +77,12 @@ app.whenReady().then(() => {
   log.info(
     `Romie ready to rip on ${process.platform} with chrome@${process.versions.chrome}`,
   );
+
+  // Set up anonymous user tracking for analytics
+  const instanceId = await getInstanceId();
+  setUser({ id: instanceId });
+  log.debug(`Analytics instance ID: ${instanceId}`);
+
   registerAllIpc();
   createWindow();
 

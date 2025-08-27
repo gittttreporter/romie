@@ -7,15 +7,8 @@
  *
  */
 
-import * as Sentry from "@sentry/electron/renderer";
-
-Sentry.init({
-  // Adds request headers and IP for users, for more info visit:
-  // https://docs.sentry.io/platforms/javascript/guides/electron/configuration/options/#sendDefaultPii
-  sendDefaultPii: true,
-  integrations: [],
-});
-
+import { init, browserTracingIntegration } from "@sentry/electron/renderer";
+import { init as vueInit } from "@sentry/vue";
 import { createApp } from "vue";
 import PrimeVue from "primevue/config";
 import ConfirmationService from "primevue/confirmationservice";
@@ -24,9 +17,20 @@ import Aura from "@primeuix/themes/aura";
 import App from "./App.vue";
 import router from "./router";
 import pinia from "./stores";
+import { SENTRY_DSN, SENTRY_SAMPLE_RATE } from "./sentry.config";
 
 import "./styles/main.css";
 import "primeicons/primeicons.css";
+
+init(
+  {
+    dsn: SENTRY_DSN,
+    sendDefaultPii: true,
+    integrations: [browserTracingIntegration()],
+    tracesSampleRate: SENTRY_SAMPLE_RATE,
+  },
+  vueInit,
+);
 
 const app = createApp(App);
 app.use(pinia);

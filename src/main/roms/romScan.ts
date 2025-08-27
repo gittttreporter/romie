@@ -2,6 +2,7 @@ import log from "electron-log/main";
 import { ipcMain, BrowserWindow } from "electron";
 import path from "path";
 import { readdir, stat } from "node:fs/promises";
+import * as Sentry from "@sentry/electron/main";
 import { processRomFile } from "./romImport";
 import { getAllSupportedExtensions } from "@/utils/systems";
 import { RomProcessingError } from "@/errors";
@@ -19,30 +20,53 @@ const SUPPORTED_EXTENSIONS = getAllSupportedExtensions();
 export async function processRomDirectory(
   dirPath: PathLike,
 ): Promise<ScanResult> {
-  const results: ScanResult = { processed: 0, errors: [], skipped: [] };
+  return await Sentry.startSpan(
+    {
+      op: "rom.scan",
+      name: "Scan ROM Directory",
+      attributes: {
+        "scan.directory": dirPath.toString(),
+      },
+    },
+    async (span) => {
+      const results: ScanResult = { processed: 0, errors: [], skipped: [] };
 
-  let files;
-  try {
-    files = await readdir(dirPath);
-  } catch (error) {
-    const dirError = new RomProcessingError(
-      `Failed to read directory`,
-      dirPath.toString(),
-      error instanceof Error ? error.message : "Unknown error",
-      error instanceof Error ? error : undefined,
-    );
-    results.errors.push(dirError);
-    return results;
-  }
+      let files;
+      try {
+        files = await readdir(dirPath);
+      } catch (error) {
+        span.setStatus({ code: 2, message: "Failed to read directory" });
+        span.recordException(error instanceof Error ? error : new Error(String(error)));
+        
+        const dirError = new RomProcessingError(
+          `Failed to read directory`,
+          dirPath.toString(),
+          error instanceof Error ? error.message : "Unknown error",
+          error instanceof Error ? error : undefined,
+        );
+        results.errors.push(dirError);
+        return results;
+      }
 
-  for (const file of files) {
-    const subResults = await processFile(dirPath, file);
+      span.setAttributes({
+        "scan.files_found": files.length,
+      });
 
-    results.processed += subResults.processed;
-    results.errors.push(...subResults.errors);
-  }
+      for (const file of files) {
+        const subResults = await processFile(dirPath, file);
 
-  return results;
+        results.processed += subResults.processed;
+        results.errors.push(...subResults.errors);
+      }
+
+      span.setAttributes({
+        "scan.files_processed": results.processed,
+        "scan.errors_count": results.errors.length,
+      });
+
+      return results;
+    }
+  );
 }
 
 //= Helpers ==

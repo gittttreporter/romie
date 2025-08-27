@@ -2,6 +2,7 @@ import path from "path";
 import log from "electron-log/main";
 import fs from "fs/promises";
 import { v4 as uuidv4 } from "uuid";
+import * as Sentry from "@sentry/electron/main";
 import { determineSystemFromExtension } from "@/utils/systems";
 import { RomProcessingError } from "@/errors";
 import {
@@ -17,12 +18,22 @@ export async function processRomFile(
   filePath: string,
   source: "import" | "scan",
 ): Promise<Rom> {
-  const logSource = source.toUpperCase();
-  const originalFilename = path.basename(filePath);
-  const fileExtension = path.extname(originalFilename);
-  log.debug(`File extension: ${fileExtension}`);
+  return await Sentry.startSpan(
+    {
+      op: "rom.process",
+      name: `Process ROM File - ${source}`,
+      attributes: {
+        "rom.source": source,
+        "rom.extension": path.extname(filePath).toLowerCase(),
+      },
+    },
+    async (span) => {
+      const logSource = source.toUpperCase();
+      const originalFilename = path.basename(filePath);
+      const fileExtension = path.extname(originalFilename);
+      log.debug(`File extension: ${fileExtension}`);
 
-  try {
+      try {
     log.info(`[${logSource}] Processing ROM file: ${originalFilename}`);
 
     // Determine console from file extension
@@ -41,7 +52,10 @@ export async function processRomFile(
 
     // Generate hashes for deduplication and libretro lookups.
     log.debug(`[${logSource}] Generating hashes for ROM file`);
-    const hashes = await generateLibretroHashes(filePath);
+    const hashes = await Sentry.startSpan(
+      { op: "rom.hash", name: "Generate ROM Hashes" },
+      () => generateLibretroHashes(filePath)
+    );
     log.debug(
       `[${logSource}] Generated hashes: MD5=${hashes.md5?.substring(0, 8)}..., SHA1=${hashes.sha1?.substring(0, 8)}...`,
     );
@@ -59,9 +73,10 @@ export async function processRomFile(
     if (source === "import") {
       // Copy file to target location
       log.debug(`[${logSource}] Copying ROM to library`);
-      savedLocation = (
-        await copyRomToLibrary(filePath, originalFilename)
-      ).toString();
+      savedLocation = await Sentry.startSpan(
+        { op: "rom.copy", name: "Copy ROM to Library" },
+        async () => (await copyRomToLibrary(filePath, originalFilename)).toString()
+      );
       log.debug(`[${logSource}] ROM copied to: ${savedLocation}`);
     }
 
@@ -85,25 +100,38 @@ export async function processRomFile(
     };
 
     // Update ROM database
-    await addRom(metadata);
+    await Sentry.startSpan(
+      { op: "rom.database", name: "Add ROM to Database" },
+      () => addRom(metadata)
+    );
+
+    span.setAttributes({
+      "rom.system": system,
+      "rom.size_mb": Math.round((size / 1024 / 1024) * 100) / 100,
+    });
 
     log.info(
       `[${logSource}] Successfully processed ROM: ${displayName} (${system})`,
     );
     return metadata;
-  } catch (error) {
-    log.error(
-      `[${logSource}] Failed to process ROM file: ${originalFilename}`,
-      error,
-    );
+      } catch (error) {
+        span.setStatus({ code: 2, message: "ROM processing failed" });
+        span.recordException(error instanceof Error ? error : new Error(String(error)));
+        
+        log.error(
+          `[${logSource}] Failed to process ROM file: ${originalFilename}`,
+          error,
+        );
 
-    const romError = new RomProcessingError(
-      `Failed to process ROM: ${originalFilename}`,
-      filePath,
-      error instanceof Error ? error.message : "Unknown error",
-      error instanceof Error ? error : undefined,
-    );
+        const romError = new RomProcessingError(
+          `Failed to process ROM: ${originalFilename}`,
+          filePath,
+          error instanceof Error ? error.message : "Unknown error",
+          error instanceof Error ? error : undefined,
+        );
 
-    throw romError;
-  }
+        throw romError;
+      }
+    }
+  );
 }
