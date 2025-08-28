@@ -61,9 +61,11 @@ const createWindow = () => {
 
   // Notify the renderer process when the native theme changes.
   nativeTheme.on("updated", () => {
-    const { shouldUseDarkColors } = nativeTheme;
-    log.debug(`Native theme updated: isDark=${shouldUseDarkColors}`);
-    mainWindow.webContents.send("dark-mode:change", shouldUseDarkColors);
+    if (mainWindow && !mainWindow.isDestroyed()) {
+      const { shouldUseDarkColors } = nativeTheme;
+      log.debug(`Native theme updated: isDark=${shouldUseDarkColors}`);
+      mainWindow.webContents.send("dark-mode:change", shouldUseDarkColors);
+    }
   });
 };
 
