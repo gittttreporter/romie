@@ -50,6 +50,7 @@
     "@sentry/vite-plugin": "^4.1.1",
     "@sentry/vue": "^9.46.0",
     "crc-32": "^1.2.2",
+    "dotenv": "^17.2.1",
     "electron-log": "^5.4.1",
     "electron-squirrel-startup": "^1.0.1",
     "lowdb": "^7.0.1",

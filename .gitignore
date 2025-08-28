@@ -1,3 +1,5 @@
+*.p12
+
 # Logs
 logs
 *.log

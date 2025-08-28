@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { FusesPlugin } from "@electron-forge/plugin-fuses";
 import { FuseV1Options, FuseVersion } from "@electron/fuses";
 
@@ -19,6 +20,12 @@ export default {
       FileDescription: "ROM Manager for Retro Handhelds",
       ProductName: "ROMie",
       InternalName: "romie",
+    },
+    osxSign: {},
+    osxNotarize: {
+      appleId: process.env.APPLE_ID,
+      appleIdPassword: process.env.APPLE_PASSWORD,
+      teamId: process.env.APPLE_TEAM_ID,
     },
   },
   rebuildConfig: {},
