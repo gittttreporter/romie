@@ -21,12 +21,17 @@ export default {
       ProductName: "ROMie",
       InternalName: "romie",
     },
-    osxSign: {},
-    osxNotarize: {
-      appleId: process.env.APPLE_ID,
-      appleIdPassword: process.env.APPLE_PASSWORD,
-      teamId: process.env.APPLE_TEAM_ID,
-    },
+    // Allow for unsigned builds
+    ...(process.env.SKIP_CODESIGN
+      ? {}
+      : {
+          osxSign: {},
+          osxNotarize: {
+            appleId: process.env.APPLE_ID,
+            appleIdPassword: process.env.APPLE_PASSWORD,
+            teamId: process.env.APPLE_TEAM_ID,
+          },
+        }),
   },
   rebuildConfig: {},
   makers: [
