@@ -9,11 +9,13 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  build-and-release:
     strategy:
       matrix:
         os: [macos-latest, windows-latest]
     runs-on: ${{ matrix.os }}
+    env:
+      SKIP_CODESIGN: 1
 
     steps:
       - name: Checkout code
@@ -52,3 +54,16 @@ jobs:
 
           # Always copy to latest during alpha phase
           aws s3 cp out/make/ s3://romie.jzimz.com/releases/latest/ --recursive --exclude "*" --include "*.zip" --include "*.exe"
+
+      - name: Create Sentry release
+        if: runner.os == 'macOS'
+        uses: getsentry/action-release@v3
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+          SENTRY_ORG: ${{ secrets.SENTRY_ORG }}
+          SENTRY_PROJECT: ${{ secrets.SENTRY_PROJECT }}
+        with:
+          environment: production
+          sourcemaps: .vite
+          url_prefix: "app:///src/"
+          version: "ROMie@${{ substring(github.ref_name, 1) }}"

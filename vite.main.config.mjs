@@ -1,4 +1,3 @@
-import { sentryVitePlugin } from "@sentry/vite-plugin";
 import { defineConfig } from "vite";
 import { fileURLToPath, URL } from "node:url";
 
@@ -10,18 +9,7 @@ export default defineConfig({
       "@main": fileURLToPath(new URL("./src/main", import.meta.url)),
     },
   },
-
   build: {
     sourcemap: true,
   },
-
-  plugins: [
-    sentryVitePlugin({
-      org: "jzimz-labs",
-      project: "romie",
-      release: {
-        name: `ROMie@${process.env.npm_package_version}`,
-      },
-    }),
-  ],
 });
