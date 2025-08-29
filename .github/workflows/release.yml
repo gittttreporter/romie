@@ -14,8 +14,6 @@ jobs:
       matrix:
         os: [macos-latest, windows-latest]
     runs-on: ${{ matrix.os }}
-    env:
-      SKIP_CODESIGN: 1
 
     steps:
       - name: Checkout code
