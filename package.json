@@ -1,7 +1,7 @@
 {
   "name": "romietron",
   "productName": "ROMie",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "ROM Manager for Retro Handhelds",
   "main": ".vite/build/main.js",
   "scripts": {
