@@ -1,0 +1,874 @@
+{
+  "games": [
+    {
+      "title": "~Homebrew~ Canabalt",
+      "id": 24634,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074527.png",
+      "numAchievements": 6,
+      "numLeaderboards": 1,
+      "points": 35,
+      "dateModified": "2023-07-01 14:48:26",
+      "forumTopicId": 21919,
+      "hashes": [
+        "82c999bc12e38600ad9e70508d2dab8c"
+      ]
+    },
+    {
+      "title": "~Homebrew~ Flappy Birds 2",
+      "id": 24633,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074506.png",
+      "numAchievements": 18,
+      "numLeaderboards": 9,
+      "points": 192,
+      "dateModified": "2023-06-13 22:57:58",
+      "forumTopicId": 21907,
+      "hashes": [
+        "312050bd0346e2bb54ec2308d7f281ef"
+      ]
+    },
+    {
+      "title": "~Homebrew~ Kaboom",
+      "id": 24631,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074508.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 21906,
+      "hashes": [
+        "8df1aef8d3c258f06e3d811b67a249ad"
+      ]
+    },
+    {
+      "title": "~Homebrew~ Tetris",
+      "id": 24632,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074531.png",
+      "numAchievements": 17,
+      "numLeaderboards": 0,
+      "points": 81,
+      "dateModified": "2025-05-26 14:11:43",
+      "forumTopicId": 21922,
+      "hashes": [
+        "0cbac5ace65a63613587152d2ef87311"
+      ]
+    },
+    {
+      "title": "~Z~ No Hash 21655",
+      "id": 21655,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": []
+    },
+    {
+      "title": "~Z~ No Hash 21657",
+      "id": 21657,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": []
+    },
+    {
+      "title": "Air-Sea Battle | Air-Sea Attack",
+      "id": 21620,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074565.png",
+      "numAchievements": 20,
+      "numLeaderboards": 0,
+      "points": 96,
+      "dateModified": "2023-07-05 15:12:54",
+      "forumTopicId": 21940,
+      "hashes": [
+        "62189ca0a1541840ab09c41210968bfb"
+      ]
+    },
+    {
+      "title": "Alien Invasion | Invaders",
+      "id": 21639,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "5864620260e0ee714e824b91a1ddc853"
+      ]
+    },
+    {
+      "title": "Backgammon",
+      "id": 21621,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a97bf77d95589fd45bad246f593a3216"
+      ]
+    },
+    {
+      "title": "Blackjack",
+      "id": 21622,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/075246.png",
+      "numAchievements": 11,
+      "numLeaderboards": 0,
+      "points": 86,
+      "dateModified": "2024-07-22 14:25:57",
+      "forumTopicId": 21920,
+      "hashes": [
+        "a298fdb9ada3e297c9454204c7622fb9"
+      ]
+    },
+    {
+      "title": "Bowling: Ninepins",
+      "id": 21623,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/076303.png",
+      "numAchievements": 6,
+      "numLeaderboards": 4,
+      "points": 15,
+      "dateModified": "2023-07-03 08:20:29",
+      "forumTopicId": 22388,
+      "hashes": [
+        "b9f0c9da87c892f06b5e552d5e2f536c"
+      ]
+    },
+    {
+      "title": "Boxing Match",
+      "id": 21624,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074493.png",
+      "numAchievements": 8,
+      "numLeaderboards": 1,
+      "points": 7,
+      "dateModified": "2023-07-01 17:02:54",
+      "forumTopicId": 21900,
+      "hashes": [
+        "c9ff3f14d11543551f79f2bd90f4a17d"
+      ]
+    },
+    {
+      "title": "Casino",
+      "id": 21626,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "485c7e91e79a88c76c3bea9df2e68c9b"
+      ]
+    },
+    {
+      "title": "Chess",
+      "id": 21627,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "c44b247e6c33ff3d5593e1112ca6c800"
+      ]
+    },
+    {
+      "title": "Chess II",
+      "id": 21628,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "1e2d754a6d78257715a458c03e437440"
+      ]
+    },
+    {
+      "title": "Circus",
+      "id": 21629,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074625.png",
+      "numAchievements": 12,
+      "numLeaderboards": 8,
+      "points": 88,
+      "dateModified": "2025-02-10 19:45:25",
+      "forumTopicId": 21916,
+      "hashes": [
+        "7f3916bb403c86b40f12847362ef3904"
+      ]
+    },
+    {
+      "title": "Cockpit",
+      "id": 21630,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/091588.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": "2024-06-16 01:32:38",
+      "forumTopicId": 25754,
+      "hashes": [
+        "d329379e2763121a83413f17b646901d"
+      ]
+    },
+    {
+      "title": "Come Come | Come-Frutas",
+      "id": 24635,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "dd262c3a2df1e273c012cd076ce7b8bf"
+      ]
+    },
+    {
+      "title": "Cowboy",
+      "id": 24636,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "07466555c7efef3253a4bf1ef3e32928"
+      ]
+    },
+    {
+      "title": "Crazy Crab",
+      "id": 22899,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074769.png",
+      "numAchievements": 16,
+      "numLeaderboards": 0,
+      "points": 80,
+      "dateModified": "2023-06-10 20:22:27",
+      "forumTopicId": 21918,
+      "hashes": [
+        "d6f58d9c6ac013e897337d9b2bc3be03"
+      ]
+    },
+    {
+      "title": "Draughts | Checkers",
+      "id": 21631,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074568.png",
+      "numAchievements": 12,
+      "numLeaderboards": 0,
+      "points": 80,
+      "dateModified": "2023-07-05 05:11:18",
+      "forumTopicId": 21932,
+      "hashes": [
+        "e3fc6069cfc0307e33fd1f506de1721f"
+      ]
+    },
+    {
+      "title": "Golf",
+      "id": 21634,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074617.png",
+      "numAchievements": 22,
+      "numLeaderboards": 1,
+      "points": 250,
+      "dateModified": "2024-06-11 00:02:13",
+      "forumTopicId": 21927,
+      "hashes": [
+        "4ff7209dd64f98e6adbbf94888871026"
+      ]
+    },
+    {
+      "title": "Grand Prix | Car Races | Road Race",
+      "id": 21625,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/070912.png",
+      "numAchievements": 8,
+      "numLeaderboards": 2,
+      "points": 31,
+      "dateModified": "2023-07-01 06:53:19",
+      "forumTopicId": 22004,
+      "hashes": [
+        "8676fd26de370e88a71368be41b6a0a0"
+      ]
+    },
+    {
+      "title": "Head On",
+      "id": 21635,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/107411.png",
+      "numAchievements": 10,
+      "numLeaderboards": 4,
+      "points": 58,
+      "dateModified": "2025-02-08 16:52:37",
+      "forumTopicId": 29651,
+      "hashes": [
+        "baf6abcbb508f187c5bd3293750021c7"
+      ]
+    },
+    {
+      "title": "Hippodrome | Horse Racing",
+      "id": 21636,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074595.png",
+      "numAchievements": 12,
+      "numLeaderboards": 8,
+      "points": 121,
+      "dateModified": "2023-08-03 14:45:01",
+      "forumTopicId": 21908,
+      "hashes": [
+        "bfbd5ee9d94d19e7919ade9325b186f4"
+      ]
+    },
+    {
+      "title": "Hunting | Shooting Gallery",
+      "id": 21637,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074614.png",
+      "numAchievements": 35,
+      "numLeaderboards": 0,
+      "points": 180,
+      "dateModified": "2024-11-21 12:53:22",
+      "forumTopicId": 21903,
+      "hashes": [
+        "cd6cf9b9e2819eac68ebd3bab7f662b1",
+        "e7caa127eb5f4f1ebaf0c1a221b8caf8"
+      ]
+    },
+    {
+      "title": "Hyperspace",
+      "id": 21638,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/070971.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "7f5f2b802bec9e34e5b672f5828987eb"
+      ]
+    },
+    {
+      "title": "Intelligence II",
+      "id": 21633,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074682.png",
+      "numAchievements": 10,
+      "numLeaderboards": 0,
+      "points": 48,
+      "dateModified": "2023-06-07 13:37:57",
+      "forumTopicId": 21942,
+      "hashes": [
+        "9f513213f1ee6c6867dcf959a6dc03c9"
+      ]
+    },
+    {
+      "title": "Labyrinth | Super Maze",
+      "id": 21640,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/112565.png",
+      "numAchievements": 25,
+      "numLeaderboards": 12,
+      "points": 80,
+      "dateModified": "2023-08-28 18:18:22",
+      "forumTopicId": 21958,
+      "hashes": [
+        "c303fe548504fb0029f764875a15ca99"
+      ]
+    },
+    {
+      "title": "Laser Attack",
+      "id": 21641,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074704.png",
+      "numAchievements": 7,
+      "numLeaderboards": 5,
+      "points": 54,
+      "dateModified": "2023-06-30 13:28:23",
+      "forumTopicId": 21949,
+      "hashes": [
+        "a930eab9460987887bf42d3183c95e52"
+      ]
+    },
+    {
+      "title": "Leapfrog",
+      "id": 24637,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074597.png",
+      "numAchievements": 7,
+      "numLeaderboards": 3,
+      "points": 55,
+      "dateModified": "2024-12-13 04:58:54",
+      "forumTopicId": 21917,
+      "hashes": [
+        "8629936b14899ae89d57bb648112a9f1"
+      ]
+    },
+    {
+      "title": "Mastermind | Codebreaker | Intelligence III",
+      "id": 21642,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/098712.png",
+      "numAchievements": 15,
+      "numLeaderboards": 12,
+      "points": 37,
+      "dateModified": "2024-06-22 04:00:59",
+      "forumTopicId": 21902,
+      "hashes": [
+        "455c82e043a886ee3f421ae117a4b266"
+      ]
+    },
+    {
+      "title": "Mathematics I",
+      "id": 21643,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 24807,
+      "hashes": [
+        "87f1a3463d91d74927195e9cd43c4631"
+      ]
+    },
+    {
+      "title": "Mathematics II",
+      "id": 21644,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074720.png",
+      "numAchievements": 24,
+      "numLeaderboards": 0,
+      "points": 71,
+      "dateModified": "2023-08-08 19:13:09",
+      "forumTopicId": 21923,
+      "hashes": [
+        "291e0cdd32528d2d34ae4dd145080d9e"
+      ]
+    },
+    {
+      "title": "Melody: Simon | Musical Games",
+      "id": 21645,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074490.png",
+      "numAchievements": 8,
+      "numLeaderboards": 2,
+      "points": 82,
+      "dateModified": "2024-04-07 21:53:07",
+      "forumTopicId": 21912,
+      "hashes": [
+        "4defcd82f76080b9b59ef71d80811777"
+      ]
+    },
+    {
+      "title": "Memory I: Flag Capture | Treasure Hunt",
+      "id": 21646,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074731.png",
+      "numAchievements": 9,
+      "numLeaderboards": 0,
+      "points": 55,
+      "dateModified": "2023-06-08 17:59:50",
+      "forumTopicId": 21979,
+      "hashes": [
+        "f57e7904203e509f54a008c8b363579d"
+      ]
+    },
+    {
+      "title": "Metropolis: Hangman",
+      "id": 21647,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a591afbf4eb4ac48bb913705e7dd0357"
+      ]
+    },
+    {
+      "title": "Monster Man | Spider's Web",
+      "id": 21648,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074854.png",
+      "numAchievements": 9,
+      "numLeaderboards": 2,
+      "points": 64,
+      "dateModified": "2023-06-11 11:39:36",
+      "forumTopicId": 21929,
+      "hashes": [
+        "5b1aa2c45e08cfe60ceb06e55854e7cf"
+      ]
+    },
+    {
+      "title": "Monster Munchers",
+      "id": 24638,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074601.png",
+      "numAchievements": 7,
+      "numLeaderboards": 0,
+      "points": 12,
+      "dateModified": "2023-06-05 20:59:16",
+      "forumTopicId": 21944,
+      "hashes": [
+        "dff0d751378612a78da0dfa015374664"
+      ]
+    },
+    {
+      "title": "Motocross | Dragster",
+      "id": 21649,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "5db7f6dbe12525f8371556522420b601"
+      ]
+    },
+    {
+      "title": "Munch & Crunch",
+      "id": 24639,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074709.png",
+      "numAchievements": 11,
+      "numLeaderboards": 4,
+      "points": 47,
+      "dateModified": "2023-09-29 01:53:32",
+      "forumTopicId": 21910,
+      "hashes": [
+        "266bd11247683b0ff4da015fb305b9c4",
+        "491c2c9faecbd6eee4f86e1971272936"
+      ]
+    },
+    {
+      "title": "Outer Space Combat | Space War | Space Attack",
+      "id": 21650,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074559.png",
+      "numAchievements": 9,
+      "numLeaderboards": 4,
+      "points": 38,
+      "dateModified": "2023-10-24 09:30:48",
+      "forumTopicId": 21936,
+      "hashes": [
+        "ec114ff131e5cf48ec3e15afa069e65a"
+      ]
+    },
+    {
+      "title": "Paddle Games | Olympics",
+      "id": 21651,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "bb930633d24019b7a25dc7fde0036db4"
+      ]
+    },
+    {
+      "title": "Pinball | Electronic Pinball | Flipper",
+      "id": 21652,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074718.png",
+      "numAchievements": 21,
+      "numLeaderboards": 8,
+      "points": 248,
+      "dateModified": "2025-05-23 22:47:27",
+      "forumTopicId": 21914,
+      "hashes": [
+        "095a5a904d18ec38e158b4b99c32ce11",
+        "475043174a72e31506c0591b7400e791"
+      ]
+    },
+    {
+      "title": "Planet Defender",
+      "id": 21653,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/075954.png",
+      "numAchievements": 23,
+      "numLeaderboards": 16,
+      "points": 102,
+      "dateModified": "2023-06-27 20:32:52",
+      "forumTopicId": 21909,
+      "hashes": [
+        "802550e1879d4c59876beb1742f9467f"
+      ]
+    },
+    {
+      "title": "Reversi | Capture",
+      "id": 21654,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074509.png",
+      "numAchievements": 10,
+      "numLeaderboards": 0,
+      "points": 57,
+      "dateModified": "2023-06-05 07:55:00",
+      "forumTopicId": 21905,
+      "hashes": [
+        "99a7dba888bf49be0694abb33ba67d76"
+      ]
+    },
+    {
+      "title": "Shoot Out",
+      "id": 21656,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "7a2a2622b952b0785e052e01fa6e0a2e"
+      ]
+    },
+    {
+      "title": "Soccer",
+      "id": 21658,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a34600ad9f10d2f094e10636e3cb7356"
+      ]
+    },
+    {
+      "title": "Solitaire",
+      "id": 21659,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074524.png",
+      "numAchievements": 6,
+      "numLeaderboards": 0,
+      "points": 26,
+      "dateModified": "2023-06-30 16:53:33",
+      "forumTopicId": 21911,
+      "hashes": [
+        "0b76cfa96c0b39f7493c1683f3b44f3b"
+      ]
+    },
+    {
+      "title": "Super Invaders",
+      "id": 21632,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "cc39997c77eb9c1c3c0007a15c05371a"
+      ]
+    },
+    {
+      "title": "Super Knockout",
+      "id": 24640,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074758.png",
+      "numAchievements": 32,
+      "numLeaderboards": 128,
+      "points": 160,
+      "dateModified": "2023-07-01 00:55:05",
+      "forumTopicId": 21904,
+      "hashes": [
+        "02f80a2595062bf81da2b6d97f314ac9"
+      ]
+    },
+    {
+      "title": "Super-Space",
+      "id": 21660,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074635.png",
+      "numAchievements": 26,
+      "numLeaderboards": 8,
+      "points": 190,
+      "dateModified": "2023-08-12 02:38:41",
+      "forumTopicId": 21924,
+      "hashes": [
+        "d26cbea2b3e9cdd124c0ceea57a4cb9c"
+      ]
+    },
+    {
+      "title": "Tank-Plane Battle | Combat",
+      "id": 21661,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "155ecfc3bd8bdf0b419626b8728d0e31",
+        "b87063b5be3c15fb2705a20e92a20388"
+      ]
+    },
+    {
+      "title": "Winter Sports",
+      "id": 21662,
+      "consoleId": 74,
+      "consoleName": "Interton VC 4000",
+      "imageIcon": "/Images/074516.png",
+      "numAchievements": 9,
+      "numLeaderboards": 6,
+      "points": 62,
+      "dateModified": "2025-03-15 13:07:24",
+      "forumTopicId": 21921,
+      "hashes": [
+        "855b92759ed3b60d113454037f62c588"
+      ]
+    }
+  ],
+  "hashMap": {
+    "82c999bc12e38600ad9e70508d2dab8c": 0,
+    "312050bd0346e2bb54ec2308d7f281ef": 1,
+    "8df1aef8d3c258f06e3d811b67a249ad": 2,
+    "0cbac5ace65a63613587152d2ef87311": 3,
+    "62189ca0a1541840ab09c41210968bfb": 6,
+    "5864620260e0ee714e824b91a1ddc853": 7,
+    "a97bf77d95589fd45bad246f593a3216": 8,
+    "a298fdb9ada3e297c9454204c7622fb9": 9,
+    "b9f0c9da87c892f06b5e552d5e2f536c": 10,
+    "c9ff3f14d11543551f79f2bd90f4a17d": 11,
+    "485c7e91e79a88c76c3bea9df2e68c9b": 12,
+    "c44b247e6c33ff3d5593e1112ca6c800": 13,
+    "1e2d754a6d78257715a458c03e437440": 14,
+    "7f3916bb403c86b40f12847362ef3904": 15,
+    "d329379e2763121a83413f17b646901d": 16,
+    "dd262c3a2df1e273c012cd076ce7b8bf": 17,
+    "07466555c7efef3253a4bf1ef3e32928": 18,
+    "d6f58d9c6ac013e897337d9b2bc3be03": 19,
+    "e3fc6069cfc0307e33fd1f506de1721f": 20,
+    "4ff7209dd64f98e6adbbf94888871026": 21,
+    "8676fd26de370e88a71368be41b6a0a0": 22,
+    "baf6abcbb508f187c5bd3293750021c7": 23,
+    "bfbd5ee9d94d19e7919ade9325b186f4": 24,
+    "cd6cf9b9e2819eac68ebd3bab7f662b1": 25,
+    "e7caa127eb5f4f1ebaf0c1a221b8caf8": 25,
+    "7f5f2b802bec9e34e5b672f5828987eb": 26,
+    "9f513213f1ee6c6867dcf959a6dc03c9": 27,
+    "c303fe548504fb0029f764875a15ca99": 28,
+    "a930eab9460987887bf42d3183c95e52": 29,
+    "8629936b14899ae89d57bb648112a9f1": 30,
+    "455c82e043a886ee3f421ae117a4b266": 31,
+    "87f1a3463d91d74927195e9cd43c4631": 32,
+    "291e0cdd32528d2d34ae4dd145080d9e": 33,
+    "4defcd82f76080b9b59ef71d80811777": 34,
+    "f57e7904203e509f54a008c8b363579d": 35,
+    "a591afbf4eb4ac48bb913705e7dd0357": 36,
+    "5b1aa2c45e08cfe60ceb06e55854e7cf": 37,
+    "dff0d751378612a78da0dfa015374664": 38,
+    "5db7f6dbe12525f8371556522420b601": 39,
+    "266bd11247683b0ff4da015fb305b9c4": 40,
+    "491c2c9faecbd6eee4f86e1971272936": 40,
+    "ec114ff131e5cf48ec3e15afa069e65a": 41,
+    "bb930633d24019b7a25dc7fde0036db4": 42,
+    "095a5a904d18ec38e158b4b99c32ce11": 43,
+    "475043174a72e31506c0591b7400e791": 43,
+    "802550e1879d4c59876beb1742f9467f": 44,
+    "99a7dba888bf49be0694abb33ba67d76": 45,
+    "7a2a2622b952b0785e052e01fa6e0a2e": 46,
+    "a34600ad9f10d2f094e10636e3cb7356": 47,
+    "0b76cfa96c0b39f7493c1683f3b44f3b": 48,
+    "cc39997c77eb9c1c3c0007a15c05371a": 49,
+    "02f80a2595062bf81da2b6d97f314ac9": 50,
+    "d26cbea2b3e9cdd124c0ceea57a4cb9c": 51,
+    "155ecfc3bd8bdf0b419626b8728d0e31": 52,
+    "b87063b5be3c15fb2705a20e92a20388": 52,
+    "855b92759ed3b60d113454037f62c588": 53
+  },
+  "systemId": 74,
+  "systemName": "Interton VC 4000"
+}

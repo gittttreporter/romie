@@ -1,0 +1,1311 @@
+{
+  "games": [
+    {
+      "title": "~Demo~ Zzyorxx II",
+      "id": 16925,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091867.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e419fed663afce4d8a228e6454dd51a8"
+      ]
+    },
+    {
+      "title": "~Homebrew~ ~Demo~ High Voltage C Maze | HVSC Maze | TRF Maze",
+      "id": 16893,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091859.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "9d23aa9568971bc05b9962a02c343749"
+      ]
+    },
+    {
+      "title": "~Homebrew~ ~Demo~ Osmozys",
+      "id": 20427,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/061888.png",
+      "numAchievements": 8,
+      "numLeaderboards": 6,
+      "points": 35,
+      "dateModified": "2022-09-21 23:21:01",
+      "forumTopicId": 18029,
+      "hashes": [
+        "985bd1236c3c416381240fb537e86536"
+      ]
+    },
+    {
+      "title": "~Homebrew~ Alice's Mom's Rescue!",
+      "id": 24630,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/074354.png",
+      "numAchievements": 54,
+      "numLeaderboards": 0,
+      "points": 246,
+      "dateModified": "2024-07-08 20:46:01",
+      "forumTopicId": 21874,
+      "hashes": [
+        "4d18fba4b15fda9e5ed96f4f18427a2d"
+      ]
+    },
+    {
+      "title": "~Homebrew~ Ants",
+      "id": 24179,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": []
+    },
+    {
+      "title": "~Homebrew~ Beebris",
+      "id": 14733,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/028313.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "c90b48d51cf9381ef00c24696bccc1de"
+      ]
+    },
+    {
+      "title": "~Homebrew~ Black Out!",
+      "id": 20634,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/081691.png",
+      "numAchievements": 9,
+      "numLeaderboards": 1,
+      "points": 40,
+      "dateModified": "2023-08-28 20:44:19",
+      "forumTopicId": 23115,
+      "hashes": [
+        "f3f81e5c5ab19410d683d11d1cbb85f2"
+      ]
+    },
+    {
+      "title": "~Homebrew~ Downfall",
+      "id": 22522,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/068114.png",
+      "numAchievements": 12,
+      "numLeaderboards": 1,
+      "points": 100,
+      "dateModified": "2023-02-21 15:23:00",
+      "forumTopicId": 20385,
+      "hashes": [
+        "4206ec6abeee07b9525fdda9925f3e55"
+      ]
+    },
+    {
+      "title": "~Homebrew~ Elansar",
+      "id": 24516,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091872.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "2037b547197dd17fe53dacb25f12f19b"
+      ]
+    },
+    {
+      "title": "~Homebrew~ Frog Feast",
+      "id": 16892,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/067994.png",
+      "numAchievements": 8,
+      "numLeaderboards": 1,
+      "points": 24,
+      "dateModified": "2023-08-15 16:59:43",
+      "forumTopicId": 20330,
+      "hashes": [
+        "54af14494cb3b9d584adcbd2d1a5216e"
+      ]
+    },
+    {
+      "title": "~Homebrew~ Orion_'s Jaguar Collection",
+      "id": 20426,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/061885.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 18031,
+      "hashes": [
+        "59e267f9a8946b6c61c133a9bda9d88a"
+      ]
+    },
+    {
+      "title": "~Homebrew~ Star Fighter",
+      "id": 27930,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091881.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a5767fc6c628759a5b6ba99874ff8bc4"
+      ]
+    },
+    {
+      "title": "~Prototype~ Barkley Shut Up and Jam!",
+      "id": 16876,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091885.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "7e06fe6e441707ebcdbd0de5ec068c6e"
+      ]
+    },
+    {
+      "title": "~Prototype~ Brett Hull NHL Hockey",
+      "id": 16878,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091641.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "4c32a7a55af8f6b24d570b6d2a83963b"
+      ]
+    },
+    {
+      "title": "~Prototype~ Native",
+      "id": 16899,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091889.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "39beed5413322f1487bafd4feb24aa49"
+      ]
+    },
+    {
+      "title": "~Prototype~ Plucky Duck in Hollywood Hijinks",
+      "id": 16902,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091890.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": "2023-09-11 13:34:50",
+      "forumTopicId": 23332,
+      "hashes": [
+        "138d08ea481f34e27bd0128cb996d9fe"
+      ]
+    },
+    {
+      "title": "~Prototype~ Slam Racer",
+      "id": 16907,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091894.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "0e71976a7cda7de311621df209deb4d5"
+      ]
+    },
+    {
+      "title": "~Prototype~ Tiny Toon Adventures",
+      "id": 16912,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/082438.png",
+      "numAchievements": 13,
+      "numLeaderboards": 0,
+      "points": 35,
+      "dateModified": "2023-09-14 14:26:21",
+      "forumTopicId": 23334,
+      "hashes": [
+        "322e89a674a188f8fddd313d6fe7bf80"
+      ]
+    },
+    {
+      "title": "~Prototype~ Virtual VCS",
+      "id": 16918,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091898.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "56049459c330c7557254747065377b10"
+      ]
+    },
+    {
+      "title": "~Unlicensed~ Switchblade",
+      "id": 16891,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091902.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": []
+    },
+    {
+      "title": "~Z~ No Hash 20349",
+      "id": 20349,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "1a31107343f0d802021736a15bd4d87a"
+      ]
+    },
+    {
+      "title": "~Z~ No Hash 27249",
+      "id": 27249,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": []
+    },
+    {
+      "title": "Aircars",
+      "id": 16873,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/071458.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "45e12558e1b9eda1b66b86f68f995f2a"
+      ]
+    },
+    {
+      "title": "Alien vs. Predator",
+      "id": 5221,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/102469.png",
+      "numAchievements": 30,
+      "numLeaderboards": 7,
+      "points": 292,
+      "dateModified": "2024-10-21 07:31:09",
+      "forumTopicId": 26316,
+      "hashes": [
+        "96bc77cfd1b2df85b5e6ae05594e74b0"
+      ]
+    },
+    {
+      "title": "Arena Football '95",
+      "id": 16874,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091626.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a73c0e4f3a0d3de6c40688ff66eb4b6e"
+      ]
+    },
+    {
+      "title": "Atari Karts",
+      "id": 4722,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/029842.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": "2020-05-22 06:22:34",
+      "forumTopicId": 9926,
+      "hashes": [
+        "cb492f093cd9e22a913d158741e8f00a"
+      ]
+    },
+    {
+      "title": "Attack of the Mutant Penguins",
+      "id": 16875,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091634.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "3ab524a6a18f79b5e7fd0bb189fe8170"
+      ]
+    },
+    {
+      "title": "Battle Sphere",
+      "id": 3156,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091904.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "984ed59d91435ec0d8193e168df31c10"
+      ]
+    },
+    {
+      "title": "Battle Sphere Gold",
+      "id": 16877,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091637.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "06f3a61fb712c581aee3599f3a61fa61"
+      ]
+    },
+    {
+      "title": "Breakout 2000",
+      "id": 7904,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/058501.png",
+      "numAchievements": 54,
+      "numLeaderboards": 0,
+      "points": 480,
+      "dateModified": "2022-05-29 02:32:19",
+      "forumTopicId": 16445,
+      "hashes": [
+        "73a03ac854e2e87ee7ca1c42ef64a301"
+      ]
+    },
+    {
+      "title": "Brutal Sports Football",
+      "id": 16879,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091646.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "ce6005897ff5e9aa4e992c76628b21c6"
+      ]
+    },
+    {
+      "title": "Bubsy in Fractured Furry Tales",
+      "id": 16880,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/040881.png",
+      "numAchievements": 22,
+      "numLeaderboards": 0,
+      "points": 255,
+      "dateModified": "2021-01-03 18:55:38",
+      "forumTopicId": 12072,
+      "hashes": [
+        "c3ad2c75c5339125661845720da3895d"
+      ]
+    },
+    {
+      "title": "Cannon Fodder",
+      "id": 16881,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091654.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "4aa320637ffc598d7d9db44085a88df2"
+      ]
+    },
+    {
+      "title": "Checkered Flag",
+      "id": 16882,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/071055.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "c77ba1af9705265d4c0070541a5c4787"
+      ]
+    },
+    {
+      "title": "Club Drive",
+      "id": 16883,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091660.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "403e9c8bf868213d1daae54f1be62cb2"
+      ]
+    },
+    {
+      "title": "Cybermorph",
+      "id": 9919,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091663.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "81dc55f1abaa89f4b3d510cb4c2e5fe8"
+      ]
+    },
+    {
+      "title": "Defender 2000",
+      "id": 16884,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091671.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "939f2446e70d8b26f17b21e065aa7a30"
+      ]
+    },
+    {
+      "title": "Doom",
+      "id": 16675,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/061442.png",
+      "numAchievements": 79,
+      "numLeaderboards": 0,
+      "points": 387,
+      "dateModified": "2023-08-12 03:24:14",
+      "forumTopicId": 18005,
+      "hashes": [
+        "3a5878ea3f391174becc37b037318804"
+      ]
+    },
+    {
+      "title": "Double Dragon V: The Shadow Falls",
+      "id": 16885,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091697.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "b50249bf2924af134b45f59218e9b5dd"
+      ]
+    },
+    {
+      "title": "Dragon: The Bruce Lee Story",
+      "id": 16886,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091699.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "ddb3eb3359adb163b771c62e62b6df9d"
+      ]
+    },
+    {
+      "title": "Evolution: Dino Dudes",
+      "id": 16887,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/071054.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "d934acb23e0d9ee46d2a050146b876b0"
+      ]
+    },
+    {
+      "title": "Fight for Life",
+      "id": 16889,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091710.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "2947e4e2009425a6ac8b26f14a8eea92"
+      ]
+    },
+    {
+      "title": "Flashback: The Quest for Identity",
+      "id": 16890,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091715.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "d46b75d5a28fda75bf2d6d79f12c9f27"
+      ]
+    },
+    {
+      "title": "FlipOut!",
+      "id": 19558,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/078792.png",
+      "numAchievements": 27,
+      "numLeaderboards": 0,
+      "points": 300,
+      "dateModified": "2023-07-24 06:27:20",
+      "forumTopicId": 16474,
+      "hashes": [
+        "c43b914dde64b514e137852f56b415b1"
+      ]
+    },
+    {
+      "title": "Head-On Soccer | Fever Pitch Soccer",
+      "id": 16888,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091707.png",
+      "numAchievements": 24,
+      "numLeaderboards": 9,
+      "points": 160,
+      "dateModified": "2024-09-25 06:43:53",
+      "forumTopicId": 28170,
+      "hashes": [
+        "86c5cb8ac559b4f3a1e9aa883b06f98c"
+      ]
+    },
+    {
+      "title": "Hover Strike",
+      "id": 16894,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091717.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "51d65ce8171daf0a255a30b44dac07cf"
+      ]
+    },
+    {
+      "title": "Hyper Force",
+      "id": 16895,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091723.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "21a2abca6e1b8c3fd6b9ab2cc155db42"
+      ]
+    },
+    {
+      "title": "I-War",
+      "id": 16898,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091725.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "5a66b96ede209f251b00e0e06723826c"
+      ]
+    },
+    {
+      "title": "Iron Soldier",
+      "id": 4547,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091740.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e9aac34f010aae4d0c781a34975d2aaf"
+      ]
+    },
+    {
+      "title": "Iron Soldier 2",
+      "id": 16897,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091738.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "35ef8cedbfab697e380170e438858d4c"
+      ]
+    },
+    {
+      "title": "Kasumi Ninja",
+      "id": 8150,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/044568.png",
+      "numAchievements": 28,
+      "numLeaderboards": 0,
+      "points": 146,
+      "dateModified": "2022-06-03 08:07:23",
+      "forumTopicId": 13082,
+      "hashes": [
+        "079b8059f4fc99a0e7a4c929c13f0f00"
+      ]
+    },
+    {
+      "title": "Missile Command 3D",
+      "id": 6765,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091749.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "3dd8ee48afb83629c87ec0b6de790c25"
+      ]
+    },
+    {
+      "title": "NBA Jam: Tournament Edition",
+      "id": 16065,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091752.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a302ef18eedcb6c07dd7ea139c849eb7"
+      ]
+    },
+    {
+      "title": "Phase Zero",
+      "id": 16900,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091757.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "5647d189d38b7115cba94d48f1f8d22e"
+      ]
+    },
+    {
+      "title": "Pinball Fantasies",
+      "id": 16678,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/059868.png",
+      "numAchievements": 40,
+      "numLeaderboards": 8,
+      "points": 440,
+      "dateModified": "2023-06-26 19:18:15",
+      "forumTopicId": 17242,
+      "hashes": [
+        "94583ce1270f05f13b32a9ff0e8909db"
+      ]
+    },
+    {
+      "title": "Pitfall: The Mayan Adventure",
+      "id": 16901,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091763.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 15723,
+      "hashes": [
+        "c8ad07df9fd386abadb2c0cac7381657"
+      ]
+    },
+    {
+      "title": "Power Drive Rally",
+      "id": 16903,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091767.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 28155,
+      "hashes": [
+        "98119ea7434fc21ea7b2462c5c602b50"
+      ]
+    },
+    {
+      "title": "Protector: Special Edition",
+      "id": 9063,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091770.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "3774ee26339adfc0bad07091d29c361b"
+      ]
+    },
+    {
+      "title": "Raiden",
+      "id": 16904,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/045166.png",
+      "numAchievements": 27,
+      "numLeaderboards": 3,
+      "points": 360,
+      "dateModified": "2022-04-03 09:14:01",
+      "forumTopicId": 13282,
+      "hashes": [
+        "126e966e6eab39f72a24a16cc75e5c7f"
+      ]
+    },
+    {
+      "title": "Rayman",
+      "id": 12684,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/089786.png",
+      "numAchievements": 53,
+      "numLeaderboards": 0,
+      "points": 348,
+      "dateModified": "2024-04-04 13:36:25",
+      "forumTopicId": 13746,
+      "hashes": [
+        "c0ebfa0c65145bc59ca3bad632d85a39"
+      ]
+    },
+    {
+      "title": "Ruiner Pinball",
+      "id": 16905,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091783.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "c162738bf2c602144d78987498c68a49"
+      ]
+    },
+    {
+      "title": "Sensible Soccer: International Edition",
+      "id": 16896,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091729.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "6344be281acb1c86819a310c6a147aa6"
+      ]
+    },
+    {
+      "title": "Skyhammer",
+      "id": 16906,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091788.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "04c85be97daf4308135d245e68d4774d"
+      ]
+    },
+    {
+      "title": "Soccer Kid",
+      "id": 16908,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091792.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "2d03f3e2b399d0ce0103830820e69524"
+      ]
+    },
+    {
+      "title": "Space War 2000",
+      "id": 16909,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091796.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "8045ac181d02e3fc92eae066607073f3"
+      ]
+    },
+    {
+      "title": "Super Burnout",
+      "id": 16910,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/076284.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "5f3a11bc3452fddf82c6548742467a35"
+      ]
+    },
+    {
+      "title": "Supercross 3D",
+      "id": 16911,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091913.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "5f4752e493bfc18ac8df1647bbc1fdbf"
+      ]
+    },
+    {
+      "title": "Syndicate",
+      "id": 16212,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091854.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "b81af314f10a547680e17d3797db0c81"
+      ]
+    },
+    {
+      "title": "Tempest 2000",
+      "id": 834,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/074775.png",
+      "numAchievements": 57,
+      "numLeaderboards": 3,
+      "points": 1300,
+      "dateModified": "2025-04-22 03:22:44",
+      "forumTopicId": 22010,
+      "hashes": [
+        "602bc9953d3737b1ba52b2a0d9932f7c"
+      ]
+    },
+    {
+      "title": "Theme Park",
+      "id": 16679,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091823.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "0d5f81f48dffa2b511460a9852aa3b4a"
+      ]
+    },
+    {
+      "title": "Total Carnage",
+      "id": 16913,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091812.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 21444,
+      "hashes": [
+        "5f14d7c3da4e0f26f736158ffb95ce05"
+      ]
+    },
+    {
+      "title": "Towers II: Plight of the Stargazer",
+      "id": 16533,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091815.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e630a0077066b1065aabe357d618629c"
+      ]
+    },
+    {
+      "title": "Trevor McFur in the Crescent Galaxy",
+      "id": 16914,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/113098.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 31086,
+      "hashes": [
+        "bafebcbf5a0973fcf5c130c56ffeabb2"
+      ]
+    },
+    {
+      "title": "Troy Aikman NFL Football",
+      "id": 16915,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091825.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "f5fcfb1b9a1e00bc5dcd6cc9fbe56577"
+      ]
+    },
+    {
+      "title": "Ultra Vortek",
+      "id": 16916,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/044599.png",
+      "numAchievements": 18,
+      "numLeaderboards": 0,
+      "points": 215,
+      "dateModified": "2021-06-02 17:32:54",
+      "forumTopicId": 13096,
+      "hashes": [
+        "5f2115d0bdcae4f3aa8e832f23f4ebdd"
+      ]
+    },
+    {
+      "title": "Val d'Isere Skiing and Snowboarding",
+      "id": 16917,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091831.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "1f1145e1042b8cc062c417798392d251"
+      ]
+    },
+    {
+      "title": "White Men Can't Jump",
+      "id": 16919,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/071053.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "22dd3645e3ea99f303694eb5f157ce06"
+      ]
+    },
+    {
+      "title": "Wolfenstein 3D",
+      "id": 16920,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091836.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 21817,
+      "hashes": [
+        "3584cb83461c8666a3f28ea0c431a3db"
+      ]
+    },
+    {
+      "title": "Worms",
+      "id": 16921,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091842.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "1a87f2f7a32d3e3a8e8d922a0c5aa6af"
+      ]
+    },
+    {
+      "title": "Zero 5",
+      "id": 16922,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091845.png",
+      "numAchievements": 31,
+      "numLeaderboards": 1,
+      "points": 435,
+      "dateModified": "2024-03-18 09:52:09",
+      "forumTopicId": 25789,
+      "hashes": [
+        "08b31fae8cbd44ac65d44baf1a0545a2"
+      ]
+    },
+    {
+      "title": "Zool 2",
+      "id": 16923,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/065361.png",
+      "numAchievements": 54,
+      "numLeaderboards": 7,
+      "points": 435,
+      "dateModified": "2025-02-07 15:14:07",
+      "forumTopicId": 19377,
+      "hashes": [
+        "780c0dd04407145b1c436adea406b5ac"
+      ]
+    },
+    {
+      "title": "Zoop",
+      "id": 16924,
+      "consoleId": 17,
+      "consoleName": "Atari Jaguar",
+      "imageIcon": "/Images/091850.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "014e52819fc3d8ecbd0a1e71b80feb42"
+      ]
+    }
+  ],
+  "hashMap": {
+    "e419fed663afce4d8a228e6454dd51a8": 0,
+    "9d23aa9568971bc05b9962a02c343749": 1,
+    "985bd1236c3c416381240fb537e86536": 2,
+    "4d18fba4b15fda9e5ed96f4f18427a2d": 3,
+    "c90b48d51cf9381ef00c24696bccc1de": 5,
+    "f3f81e5c5ab19410d683d11d1cbb85f2": 6,
+    "4206ec6abeee07b9525fdda9925f3e55": 7,
+    "2037b547197dd17fe53dacb25f12f19b": 8,
+    "54af14494cb3b9d584adcbd2d1a5216e": 9,
+    "59e267f9a8946b6c61c133a9bda9d88a": 10,
+    "a5767fc6c628759a5b6ba99874ff8bc4": 11,
+    "7e06fe6e441707ebcdbd0de5ec068c6e": 12,
+    "4c32a7a55af8f6b24d570b6d2a83963b": 13,
+    "39beed5413322f1487bafd4feb24aa49": 14,
+    "138d08ea481f34e27bd0128cb996d9fe": 15,
+    "0e71976a7cda7de311621df209deb4d5": 16,
+    "322e89a674a188f8fddd313d6fe7bf80": 17,
+    "56049459c330c7557254747065377b10": 18,
+    "1a31107343f0d802021736a15bd4d87a": 20,
+    "45e12558e1b9eda1b66b86f68f995f2a": 22,
+    "96bc77cfd1b2df85b5e6ae05594e74b0": 23,
+    "a73c0e4f3a0d3de6c40688ff66eb4b6e": 24,
+    "cb492f093cd9e22a913d158741e8f00a": 25,
+    "3ab524a6a18f79b5e7fd0bb189fe8170": 26,
+    "984ed59d91435ec0d8193e168df31c10": 27,
+    "06f3a61fb712c581aee3599f3a61fa61": 28,
+    "73a03ac854e2e87ee7ca1c42ef64a301": 29,
+    "ce6005897ff5e9aa4e992c76628b21c6": 30,
+    "c3ad2c75c5339125661845720da3895d": 31,
+    "4aa320637ffc598d7d9db44085a88df2": 32,
+    "c77ba1af9705265d4c0070541a5c4787": 33,
+    "403e9c8bf868213d1daae54f1be62cb2": 34,
+    "81dc55f1abaa89f4b3d510cb4c2e5fe8": 35,
+    "939f2446e70d8b26f17b21e065aa7a30": 36,
+    "3a5878ea3f391174becc37b037318804": 37,
+    "b50249bf2924af134b45f59218e9b5dd": 38,
+    "ddb3eb3359adb163b771c62e62b6df9d": 39,
+    "d934acb23e0d9ee46d2a050146b876b0": 40,
+    "2947e4e2009425a6ac8b26f14a8eea92": 41,
+    "d46b75d5a28fda75bf2d6d79f12c9f27": 42,
+    "c43b914dde64b514e137852f56b415b1": 43,
+    "86c5cb8ac559b4f3a1e9aa883b06f98c": 44,
+    "51d65ce8171daf0a255a30b44dac07cf": 45,
+    "21a2abca6e1b8c3fd6b9ab2cc155db42": 46,
+    "5a66b96ede209f251b00e0e06723826c": 47,
+    "e9aac34f010aae4d0c781a34975d2aaf": 48,
+    "35ef8cedbfab697e380170e438858d4c": 49,
+    "079b8059f4fc99a0e7a4c929c13f0f00": 50,
+    "3dd8ee48afb83629c87ec0b6de790c25": 51,
+    "a302ef18eedcb6c07dd7ea139c849eb7": 52,
+    "5647d189d38b7115cba94d48f1f8d22e": 53,
+    "94583ce1270f05f13b32a9ff0e8909db": 54,
+    "c8ad07df9fd386abadb2c0cac7381657": 55,
+    "98119ea7434fc21ea7b2462c5c602b50": 56,
+    "3774ee26339adfc0bad07091d29c361b": 57,
+    "126e966e6eab39f72a24a16cc75e5c7f": 58,
+    "c0ebfa0c65145bc59ca3bad632d85a39": 59,
+    "c162738bf2c602144d78987498c68a49": 60,
+    "6344be281acb1c86819a310c6a147aa6": 61,
+    "04c85be97daf4308135d245e68d4774d": 62,
+    "2d03f3e2b399d0ce0103830820e69524": 63,
+    "8045ac181d02e3fc92eae066607073f3": 64,
+    "5f3a11bc3452fddf82c6548742467a35": 65,
+    "5f4752e493bfc18ac8df1647bbc1fdbf": 66,
+    "b81af314f10a547680e17d3797db0c81": 67,
+    "602bc9953d3737b1ba52b2a0d9932f7c": 68,
+    "0d5f81f48dffa2b511460a9852aa3b4a": 69,
+    "5f14d7c3da4e0f26f736158ffb95ce05": 70,
+    "e630a0077066b1065aabe357d618629c": 71,
+    "bafebcbf5a0973fcf5c130c56ffeabb2": 72,
+    "f5fcfb1b9a1e00bc5dcd6cc9fbe56577": 73,
+    "5f2115d0bdcae4f3aa8e832f23f4ebdd": 74,
+    "1f1145e1042b8cc062c417798392d251": 75,
+    "22dd3645e3ea99f303694eb5f157ce06": 76,
+    "3584cb83461c8666a3f28ea0c431a3db": 77,
+    "1a87f2f7a32d3e3a8e8d922a0c5aa6af": 78,
+    "08b31fae8cbd44ac65d44baf1a0545a2": 79,
+    "780c0dd04407145b1c436adea406b5ac": 80,
+    "014e52819fc3d8ecbd0a1e71b80feb42": 81
+  },
+  "systemId": 17,
+  "systemName": "Atari Jaguar"
+}

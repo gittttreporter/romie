@@ -1,0 +1,4973 @@
+{
+  "games": [
+    {
+      "title": "~Homebrew~ BioFury",
+      "id": 32880,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "abf8d96b89fc3fcab07f8265c33b8eda"
+      ]
+    },
+    {
+      "title": "~Homebrew~ Bizarro Untergrund",
+      "id": 25394,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/080969.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "484d1f761aaa95d34df9d7beec789ae0"
+      ]
+    },
+    {
+      "title": "~Homebrew~ JinglesDefense",
+      "id": 32879,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "0001199f6dc7a7157748bfa335bfd749"
+      ]
+    },
+    {
+      "title": "~Homebrew~ Wreckman",
+      "id": 24160,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/072219.png",
+      "numAchievements": 15,
+      "numLeaderboards": 1,
+      "points": 150,
+      "dateModified": "2024-09-29 16:15:24",
+      "forumTopicId": 21428,
+      "hashes": [
+        "33031a9305cab3eb38af9f163fafe307"
+      ]
+    },
+    {
+      "title": "~Prototype~ Icebreaker II",
+      "id": 16605,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/037281.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 11505,
+      "hashes": [
+        "78ee30eeffb6594462708a3129e2fd56"
+      ]
+    },
+    {
+      "title": "~Prototype~ Shootout at Old Tucson",
+      "id": 21357,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "ce2a00ffbbe9752e1f2ff936077a63c4"
+      ]
+    },
+    {
+      "title": "~Z~ No Hash 16851",
+      "id": 16851,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": []
+    },
+    {
+      "title": "~Z~ Wolfenstein 3D [Subset - Can I play, Daddy?]",
+      "id": 23904,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/070727.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": "2023-04-02 00:19:06",
+      "forumTopicId": 21045,
+      "hashes": [
+        "5bd283fdae61fb87328aaa7c27e0d3d3"
+      ]
+    },
+    {
+      "title": "Advanced Dungeons & Dragons: DeathKeep",
+      "id": 16392,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 10983,
+      "hashes": [
+        "20a46b2653942daec41e3fd7b4857665"
+      ]
+    },
+    {
+      "title": "Advanced Dungeons & Dragons: Slayer",
+      "id": 16390,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 10982,
+      "hashes": [
+        "cf8ef83c655be5f1058d4ddbc968607f"
+      ]
+    },
+    {
+      "title": "AI Shougi",
+      "id": 21197,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "9e4ec950fc4ae953c51f092073450671"
+      ]
+    },
+    {
+      "title": "Alone in the Dark",
+      "id": 8368,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/049674.png",
+      "numAchievements": 52,
+      "numLeaderboards": 0,
+      "points": 392,
+      "dateModified": "2024-06-10 03:40:20",
+      "forumTopicId": 10915,
+      "hashes": [
+        "4d7f2e1b2e8b9d9d14f083fae44d9760"
+      ]
+    },
+    {
+      "title": "Alone in the Dark II",
+      "id": 7895,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/054278.png",
+      "numAchievements": 40,
+      "numLeaderboards": 0,
+      "points": 200,
+      "dateModified": "2022-03-18 05:04:33",
+      "forumTopicId": 15595,
+      "hashes": [
+        "2b8f6037654255aac56ff5c12c0b44e6"
+      ]
+    },
+    {
+      "title": "Anno Mitsumasa Pepperon-mura no Shiki",
+      "id": 21198,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "da7773ea9dc482d262ab15a3c96ae8d5"
+      ]
+    },
+    {
+      "title": "Aqua World: Umi Monogatari",
+      "id": 21199,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "0d3114e06066d9b41751bfe72afe1477"
+      ]
+    },
+    {
+      "title": "Armageddon",
+      "id": 32878,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "35c286ee7c2c103b598afc3ee191b65e"
+      ]
+    },
+    {
+      "title": "Bakushou!! All Yoshimoto Quiz-ou Kettei-sen",
+      "id": 21201,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "7f148b0582d290dc3a13d0dd0355a97c"
+      ]
+    },
+    {
+      "title": "Ballz: The Director's Cut",
+      "id": 16641,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "2054bf4d97a1a6f7db2c432658eaabf0"
+      ]
+    },
+    {
+      "title": "Battle Blues",
+      "id": 8276,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "554cb56d2231968d01e1cf022c90f2bc",
+        "a35136151904105798fcf620a22de3da"
+      ]
+    },
+    {
+      "title": "Battle Chess",
+      "id": 16674,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/046312.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": "2023-01-16 17:20:10",
+      "forumTopicId": 12489,
+      "hashes": [
+        "a4e7faa3f76cbbb053e8fc9e0116fdc3"
+      ]
+    },
+    {
+      "title": "Battle Pinball",
+      "id": 21200,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e3c1918141a8484b37c21321fa12fc03"
+      ]
+    },
+    {
+      "title": "BattleSport",
+      "id": 16809,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/070553.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "5b2f29b3789d5d7601712fac6cb88c04"
+      ]
+    },
+    {
+      "title": "BC Racers",
+      "id": 16687,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/088882.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "25fafab4899f915d3454218771ae7bee"
+      ]
+    },
+    {
+      "title": "Belzerion",
+      "id": 21202,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "2a6f6983228e4c997c18fdfff081fe6e"
+      ]
+    },
+    {
+      "title": "Blade Force",
+      "id": 16810,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "6b9b1a1c8724a04a80d7f3a58f8a24af"
+      ]
+    },
+    {
+      "title": "Blonde Justice",
+      "id": 16811,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/070554.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "22a0c9aeb60c52dd8beaf63d76dca267"
+      ]
+    },
+    {
+      "title": "Blue Forest Story: Kaze no Fuuin",
+      "id": 8278,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/071487.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "112a93e312bed12c32e233a9d88f47be"
+      ]
+    },
+    {
+      "title": "Bonogurashi",
+      "id": 21203,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a0d99f75d93efb648940733601127592"
+      ]
+    },
+    {
+      "title": "BrainDead 13",
+      "id": 16812,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "3598c1b655a4941a54e75754ea205db6",
+        "dd29c5dcd8e549ab0179c8a445820d17"
+      ]
+    },
+    {
+      "title": "Burning Soldier",
+      "id": 16813,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a5e1051021006582634f74ada633ad07"
+      ]
+    },
+    {
+      "title": "Bust-A-Move",
+      "id": 16642,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/045183.png",
+      "numAchievements": 0,
+      "numLeaderboards": 1,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 13289,
+      "hashes": [
+        "eaf126ac57d5cf5e83a8db06c9a3fdf8"
+      ]
+    },
+    {
+      "title": "Cannon Fodder",
+      "id": 2733,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "cbe947aedcd699d702efe5299ba41f10"
+      ]
+    },
+    {
+      "title": "Captain Quazar",
+      "id": 3956,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/070555.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 15593,
+      "hashes": [
+        "18556a2c765f27661dcfe2284fb05b0e"
+      ]
+    },
+    {
+      "title": "Carrier: Fortress at Sea",
+      "id": 16814,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/079931.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "f1bdb6ecdd64b40952316e5ca69e2add"
+      ]
+    },
+    {
+      "title": "Casper",
+      "id": 16815,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "b88f36135944c14f00d2c7680e12e973"
+      ]
+    },
+    {
+      "title": "Chiki Chiki Machine Mou Race 2: In Space",
+      "id": 21205,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "b6c2aae5547166265ec3f72141472b75"
+      ]
+    },
+    {
+      "title": "Chiki Chiki Machine Mou Race: Kenken to Black Maou no Ijiwaru Daisakusen",
+      "id": 21204,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "fecfc17bc9b6fdbdc9178afac7f30fec"
+      ]
+    },
+    {
+      "title": "Club 3DO - Station Invasion",
+      "id": 21206,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "0d99138f8c4cd6330be99cc90491aa8c"
+      ]
+    },
+    {
+      "title": "Corpse Killer",
+      "id": 16816,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/070556.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "f2b052859174ad98e18b3c3267a4a31a"
+      ]
+    },
+    {
+      "title": "Cowboy Casino",
+      "id": 16818,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e5397ad1abf40c39b8c5fad81d4c199b"
+      ]
+    },
+    {
+      "title": "Crash 'n Burn",
+      "id": 3946,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e318e62b60e8f7f30d7d1680288f0ead"
+      ]
+    },
+    {
+      "title": "Crayon Shin-chan: Puzzle Daimaou no Nazo",
+      "id": 21207,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "86e7e1bdfb4d443b86f42819892d97ea"
+      ]
+    },
+    {
+      "title": "Creature Shock",
+      "id": 16819,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/106223.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "3600ada88061b5db9945b11cfa498fcd",
+        "453175631eb3bb6e80045993f28e8e77"
+      ]
+    },
+    {
+      "title": "Crime Patrol",
+      "id": 16820,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/073305.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "7e628c8eb1e150cd637f150a5c3db994"
+      ]
+    },
+    {
+      "title": "Crime Patrol 2: Drug Wars",
+      "id": 16827,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/070557.png",
+      "numAchievements": 24,
+      "numLeaderboards": 15,
+      "points": 151,
+      "dateModified": "2024-08-03 19:55:38",
+      "forumTopicId": 23069,
+      "hashes": [
+        "bdbcafe60b41f0be7ec07cac9515cb38"
+      ]
+    },
+    {
+      "title": "CyberDillo",
+      "id": 21208,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e5d654bc8faaad903fa3dd53b2f60c31"
+      ]
+    },
+    {
+      "title": "Cyberia",
+      "id": 16821,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/038847.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "6f504d3860c4419c9ed1066497beac23"
+      ]
+    },
+    {
+      "title": "D | D no Shokutaku",
+      "id": 16709,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/043053.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 12731,
+      "hashes": [
+        "720147c1d3aa03c5fe3efecf77c372ab",
+        "b46eadddb8b8cc0fcda3f789a79752a4",
+        "c1e60bff0c9128b88026ddc8e7188be4"
+      ]
+    },
+    {
+      "title": "Decathlon",
+      "id": 21209,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a09735daa06608ce2ae360e0a3939c39"
+      ]
+    },
+    {
+      "title": "Defcon 5",
+      "id": 21210,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "3bc3a24d2e3e107367b0f4c3748a275e",
+        "e0e846ec636ede2091c94723b2210c6e"
+      ]
+    },
+    {
+      "title": "Demolition Man",
+      "id": 16823,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "39f2a07ef946fa65dc2d268f5ed0c39e"
+      ]
+    },
+    {
+      "title": "Dennis Miller: That's News to Me",
+      "id": 21348,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "f71c2f1c94139d45605576efbada8fda"
+      ]
+    },
+    {
+      "title": "Dennou Hyouryuu - Multimedia Cruising",
+      "id": 21211,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e1429b2f75b7dad216cdfcf1f1c94cb4"
+      ]
+    },
+    {
+      "title": "Digital Dreamware",
+      "id": 21212,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "19c2b01c86982446b543e6da8d128cf1"
+      ]
+    },
+    {
+      "title": "DinoPark Tycoon",
+      "id": 16824,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "cef99ae46d643523874112cbffc82fdc"
+      ]
+    },
+    {
+      "title": "Diving Spot Guide - Marine Tour",
+      "id": 21213,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "ca0ea2c47cdb09a718c762f010c8d6ae"
+      ]
+    },
+    {
+      "title": "Doctor Hauzer",
+      "id": 16480,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/066342.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 28694,
+      "hashes": [
+        "a410e2a915e386078db71bd49c7193bd",
+        "e436661fb50d7464767468e8920e1cad"
+      ]
+    },
+    {
+      "title": "Doom",
+      "id": 16617,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/087527.png",
+      "numAchievements": 88,
+      "numLeaderboards": 2,
+      "points": 565,
+      "dateModified": "2024-05-04 21:58:28",
+      "forumTopicId": 20474,
+      "hashes": [
+        "c93cbef8e885c2ec83bc1732890a0d1f"
+      ]
+    },
+    {
+      "title": "Dragon Lore - The Legend Begins",
+      "id": 16825,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "1dfdb88f38309cfd51f2636c131e7d39",
+        "206a807873a3bf26e828c20efcb9a5cd",
+        "86894ed6e6db21ace7b497499ff9d866"
+      ]
+    },
+    {
+      "title": "Dragon Tycoon Edge",
+      "id": 7600,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/059964.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "8dc45657c6d4d270b41dc86ea85adcbf"
+      ]
+    },
+    {
+      "title": "Dragon's Lair",
+      "id": 16826,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/054482.png",
+      "numAchievements": 27,
+      "numLeaderboards": 0,
+      "points": 194,
+      "dateModified": "2024-06-24 14:16:08",
+      "forumTopicId": 15637,
+      "hashes": [
+        "468d11b409bce3ff2facee054a8494ad"
+      ]
+    },
+    {
+      "title": "Emit Vol. 1 - Toki no Maigo",
+      "id": 21214,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a0b3ed1a9db36f560bf6086303d3483f"
+      ]
+    },
+    {
+      "title": "Emit Vol. 2 - Inochigake no Tabi",
+      "id": 21215,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "ca613820ac24780d53a0c7f7b3594cb5"
+      ]
+    },
+    {
+      "title": "Emit Vol. 3 - Watashi ni Sayonara o",
+      "id": 21216,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "9e07a22ad81845f43645947e97661e33"
+      ]
+    },
+    {
+      "title": "Endlessly",
+      "id": 16828,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "bf35b77e06121760e417d98f94a0c131"
+      ]
+    },
+    {
+      "title": "Escape from Monster Manor",
+      "id": 17743,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/044805.png",
+      "numAchievements": 15,
+      "numLeaderboards": 0,
+      "points": 200,
+      "dateModified": "2021-06-09 08:14:53",
+      "forumTopicId": 13161,
+      "hashes": [
+        "76d55d10938f936b9707d4578e8440a7"
+      ]
+    },
+    {
+      "title": "ESPN Baseball - Hitting",
+      "id": 21217,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "152b23863a2208cc7ee969444ced8838"
+      ]
+    },
+    {
+      "title": "ESPN Golf - Lower Your Score with Tom Kite - Shot Making",
+      "id": 21218,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "14c89e0aeff768342c7812007e3885cc",
+        "6f817d647344663e61aac19cce6125a9",
+        "9ed081e469e7f0a663cfc8a52d09bfab",
+        "a25d296097924600fc5f17a09f1a7f48"
+      ]
+    },
+    {
+      "title": "ESPN Let's Play Soccer with John Harkes and Mia Hamm",
+      "id": 21349,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e3805117d16b7a64ac1b904bc7ae0466"
+      ]
+    },
+    {
+      "title": "ESPN Let's Play Tennis with Tracy Austin",
+      "id": 21350,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "97be7b56c2ade877e4e69f677979015d"
+      ]
+    },
+    {
+      "title": "F1GP",
+      "id": 21219,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "ce1724424677566549adb0318c2af894"
+      ]
+    },
+    {
+      "title": "Family Feud",
+      "id": 21220,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "905b717693cd1f4f1a7233f0c9a65767"
+      ]
+    },
+    {
+      "title": "Fatty Bear's Birthday Surprise",
+      "id": 16411,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/063142.png",
+      "numAchievements": 26,
+      "numLeaderboards": 0,
+      "points": 68,
+      "dateModified": "2023-02-06 21:02:53",
+      "forumTopicId": 18421,
+      "hashes": [
+        "7a7a41a239fe4d026be6dfa761933fb5"
+      ]
+    },
+    {
+      "title": "Fatty Bear's Funpack",
+      "id": 16412,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/062555.png",
+      "numAchievements": 52,
+      "numLeaderboards": 0,
+      "points": 175,
+      "dateModified": "2024-10-09 20:33:12",
+      "forumTopicId": 11078,
+      "hashes": [
+        "f148536a4e707a4418aad19ba80a9515"
+      ]
+    },
+    {
+      "title": "FIFA International Soccer",
+      "id": 21221,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "897027e7c91b7f4d9140021d7708b6cd"
+      ]
+    },
+    {
+      "title": "Firewall",
+      "id": 21351,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "fc8dd61d8a1172cbf13299463d87597f"
+      ]
+    },
+    {
+      "title": "Flashback: The Quest for Identity",
+      "id": 16829,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e40df6e230f265dda93048eb560b010a"
+      ]
+    },
+    {
+      "title": "Flopon World",
+      "id": 20461,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "4da8782d54fb68b3011003007de609bc"
+      ]
+    },
+    {
+      "title": "Flying Nightmares",
+      "id": 16830,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/070558.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "5ef88e8c254845d86ef9551b08f593ea"
+      ]
+    },
+    {
+      "title": "Foes of Ali",
+      "id": 16831,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/043758.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "11c84e6f1ffbbefffe2469dc87ee8043"
+      ]
+    },
+    {
+      "title": "Fun 'n Games",
+      "id": 22189,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "f1429487d9c880346a04e4214e1ea410"
+      ]
+    },
+    {
+      "title": "Fun 'n Games - Soft no Omochabako",
+      "id": 21222,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "f20e7ca35bf55272d31eeb60efbff294"
+      ]
+    },
+    {
+      "title": "Gakkou no Kowai Uwasa - Hanako-san ga Kita!!",
+      "id": 21223,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "d0a861d1c53a167405b84260e850f50b"
+      ]
+    },
+    {
+      "title": "Game no Tatsujin",
+      "id": 21224,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "02497519aecb2103210f702bd77b64b1"
+      ]
+    },
+    {
+      "title": "Gateway to English - Eigo de Go!",
+      "id": 21352,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "c35368506268c0b09641a1c144078dd1"
+      ]
+    },
+    {
+      "title": "Gex",
+      "id": 1009,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/058493.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 11266,
+      "hashes": [
+        "f51d8d468bb19f621777fedd3e025365"
+      ]
+    },
+    {
+      "title": "Goal FH (Field Hunter)",
+      "id": 21225,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "391421cbe638d9f322424ae1ce75b8e4"
+      ]
+    },
+    {
+      "title": "Gridders",
+      "id": 21226,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "3e1fbc1a169d4219bfa6df68a35e9d3e"
+      ]
+    },
+    {
+      "title": "Grimm Meisaku Gekijou Vol. 1 - Bremen no Ongakutai",
+      "id": 21227,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "993535606ec6820534b82c00fbf083cc"
+      ]
+    },
+    {
+      "title": "Grimm Meisaku Gekijou Vol. 2 - Hansel to Gretel",
+      "id": 21228,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "c22d7e43295bd6ce25e907912a08d78a"
+      ]
+    },
+    {
+      "title": "Grimm Meisaku Gekijou Vol. 3 - Akazukin",
+      "id": 21229,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a3688fcd7431e84862ad1600a036a161"
+      ]
+    },
+    {
+      "title": "Guardian War",
+      "id": 6918,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "7f2d7acc7e0baac64d25c090513d9f98"
+      ]
+    },
+    {
+      "title": "Hell: A Cyberpunk Thriller",
+      "id": 1017,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/036407.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 11268,
+      "hashes": [
+        "08caedb4a8fba5f3584fcd45b5eb5189"
+      ]
+    },
+    {
+      "title": "Hello Kitty: Asobi no Omochabako",
+      "id": 21353,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/110745.png",
+      "numAchievements": 9,
+      "numLeaderboards": 0,
+      "points": 31,
+      "dateModified": "2025-04-22 16:32:49",
+      "forumTopicId": 30589,
+      "hashes": [
+        "89bda405b722c648e28576f4652011e9"
+      ]
+    },
+    {
+      "title": "Hirata Shougo Interactive Ehon - Aesop Monogatari Vol. 1",
+      "id": 21230,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e6f130be442dbbf2a590045febe51373"
+      ]
+    },
+    {
+      "title": "Hirata Shougo Interactive Ehon - Cinderella",
+      "id": 21231,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "efd177658ae5a66e1893a8753f6e72c5"
+      ]
+    },
+    {
+      "title": "Hirata Shougo Interactive Ehon - Ningyo-hime",
+      "id": 21232,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "fb2b26756a48af3c97a1ee80d110f27e"
+      ]
+    },
+    {
+      "title": "Hirata Shougo Interactive Ehon - Ookami to Shichihiki no Koyagi",
+      "id": 21233,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a2669554286da8cedd6dcf99fc01b481"
+      ]
+    },
+    {
+      "title": "Hirata Shougo Interactive Ehon - Sanbiki no Kobuta",
+      "id": 21234,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e3f3c08749243b95ca6f0c5e902dd021"
+      ]
+    },
+    {
+      "title": "Hirata Shougo Interactive Ehon - Shirayukihime",
+      "id": 21235,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "7ebd1d096af3897de1ba7b548f625f2e"
+      ]
+    },
+    {
+      "title": "Hitchcock ni Chousen | Alfred Hitchcock Presents",
+      "id": 20239,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/060370.png",
+      "numAchievements": 7,
+      "numLeaderboards": 0,
+      "points": 101,
+      "dateModified": "2022-07-25 12:06:13",
+      "forumTopicId": 17494,
+      "hashes": [
+        "d215521cc942a81b1439162469c53809"
+      ]
+    },
+    {
+      "title": "Icebreaker",
+      "id": 7116,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/037153.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 11463,
+      "hashes": [
+        "a8f57cc5a8e9b7e4a2700c2a650abad6"
+      ]
+    },
+    {
+      "title": "Ide Yousuke Meijin no Shin Jissen Mahjong",
+      "id": 21236,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "d3592091925d68070c42d9914f41ee4f"
+      ]
+    },
+    {
+      "title": "Idol Janshi Suchie-Pai Special",
+      "id": 21237,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "d0734c9aa0d6421875f15578a811716b"
+      ]
+    },
+    {
+      "title": "Idol Mahjong - Final Romance 2 - Hyper Edition",
+      "id": 21238,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "b64aaf596e7f1a39aa30622f9ecebe29"
+      ]
+    },
+    {
+      "title": "Igo Time Trial - Shikatsu Daihyakka",
+      "id": 21239,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "92cab6d11b866f08988845f144ee36b9"
+      ]
+    },
+    {
+      "title": "Igo Time Trial - Tsumego I",
+      "id": 21240,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "b9fbbc571ec544266d0e474999f3190b"
+      ]
+    },
+    {
+      "title": "Immercenary",
+      "id": 8812,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/053083.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 15880,
+      "hashes": [
+        "9c8328c8a696b41f9c93b94eff1d2fc8"
+      ]
+    },
+    {
+      "title": "Immortal Desire",
+      "id": 21241,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "ceef67751644f25514333eb3a642448b"
+      ]
+    },
+    {
+      "title": "Insector War",
+      "id": 21242,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "7442bdd088915a107c084241b66d11cc"
+      ]
+    },
+    {
+      "title": "Iron Angel of the Apocalypse - Tetsujin",
+      "id": 16833,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "1d61db10e929e9f1f96577cc8d7b5ef4",
+        "ea9d2657b9a0d6aacafb166d682f76f0"
+      ]
+    },
+    {
+      "title": "Iron Angel of the Apocalypse - The Return",
+      "id": 16834,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "0ee3428c2a8fa878676552c3cf8498c8"
+      ]
+    },
+    {
+      "title": "Ishida Yoshio Kudan no Igo Seiha",
+      "id": 21243,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "7ca52a101823a7f985282fef4d509961"
+      ]
+    },
+    {
+      "title": "J. B. Harold: Blue Chicago Blues",
+      "id": 21244,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "d68410a8dbd79070140a233bc4f7db8d",
+        "dddf84acedae002cdb1528bdfca759e6"
+      ]
+    },
+    {
+      "title": "J.League Virtual Stadium",
+      "id": 21254,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "b333b63a7d43d6e2b24a539f4febd235"
+      ]
+    },
+    {
+      "title": "J.League Virtual Stadium '95",
+      "id": 21253,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "23958244d3e9d1ab69467210d90e6379"
+      ]
+    },
+    {
+      "title": "Jammit",
+      "id": 21354,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "2a4bb1817dd39c91e226d389938b83c9"
+      ]
+    },
+    {
+      "title": "Jikki Pachi-Slot Simulator Vol. 1",
+      "id": 21255,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "6e6e672f807750bb01f9e43e0bd4170d"
+      ]
+    },
+    {
+      "title": "John Madden Football",
+      "id": 21256,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/088393.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "1e72c5238b4a003bca2b716858d4d330"
+      ]
+    },
+    {
+      "title": "Johnny Bazookatone",
+      "id": 16835,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 17140,
+      "hashes": [
+        "37217df7443365d2a96ce164f0363b93"
+      ]
+    },
+    {
+      "title": "Jurassic Park Interactive",
+      "id": 16640,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/039092.png",
+      "numAchievements": 30,
+      "numLeaderboards": 0,
+      "points": 295,
+      "dateModified": "2024-03-10 20:05:04",
+      "forumTopicId": 25727,
+      "hashes": [
+        "bbb1a1c3fc825365407dae73a65e2c61"
+      ]
+    },
+    {
+      "title": "Kakinoki Shougi",
+      "id": 21257,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "2384c2346cd2068af42a32a53e6c5c1c"
+      ]
+    },
+    {
+      "title": "Keiba Saishou no Housoku",
+      "id": 21258,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "84256c4e31a9a3c1c50a8e82a537e6a6"
+      ]
+    },
+    {
+      "title": "Kero Kero Keroppi to Origami no Tabibito",
+      "id": 21259,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "0117a4de97b06b8a6cb0727df403f62b"
+      ]
+    },
+    {
+      "title": "Killing Time",
+      "id": 3590,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/102511.png",
+      "numAchievements": 0,
+      "numLeaderboards": 1,
+      "points": 0,
+      "dateModified": "2025-03-25 00:31:13",
+      "forumTopicId": 28378,
+      "hashes": [
+        "9c1c18ca886e2f559f680d43c866d900"
+      ]
+    },
+    {
+      "title": "Kingdom: The Far Reaches",
+      "id": 8400,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/083874.png",
+      "numAchievements": 39,
+      "numLeaderboards": 0,
+      "points": 125,
+      "dateModified": "2025-02-08 06:29:15",
+      "forumTopicId": 23857,
+      "hashes": [
+        "32295bd44a4885b170d2073739d4fec2"
+      ]
+    },
+    {
+      "title": "Konpeki no Kantai",
+      "id": 21246,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/070859.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "0e8c475afe179dc72834c28ccfaf21e5",
+        "41977307099ca786eee786d66d18dac5"
+      ]
+    },
+    {
+      "title": "Kurokishi no Kamen",
+      "id": 5635,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "75cda125f544195b5a6a49d31216f57e"
+      ]
+    },
+    {
+      "title": "Kyuusei Senjutsu ni Yoru - Heisei Kaiun Koyomi",
+      "id": 21260,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "91340b9fd0a0eaca58e823be82ae33b6"
+      ]
+    },
+    {
+      "title": "Lemmings",
+      "id": 16672,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "ebd97876708df3d4d30d4ce5703c5a04"
+      ]
+    },
+    {
+      "title": "Let's Go Skiing",
+      "id": 21262,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "db9f5b47ffc3129b699e30a9f471d85b"
+      ]
+    },
+    {
+      "title": "Let's Play Beach Volleyball",
+      "id": 21263,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "6c373745defca24a04fe6b3066c80099"
+      ]
+    },
+    {
+      "title": "Lost Eden",
+      "id": 16391,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "ffcdae9fd53f70a7cd5f55a8233b001f"
+      ]
+    },
+    {
+      "title": "Love Bites",
+      "id": 21264,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "4c99bf2fd1a15ad24b8238fd292f0a93"
+      ]
+    },
+    {
+      "title": "Lucienne's Quest",
+      "id": 1014,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/066259.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 22735,
+      "hashes": [
+        "1638121b1e867d1408e8785fbf5b6619"
+      ]
+    },
+    {
+      "title": "Mad Dog II: The Lost Gold",
+      "id": 21265,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/105718.png",
+      "numAchievements": 18,
+      "numLeaderboards": 3,
+      "points": 126,
+      "dateModified": "2025-01-28 02:10:16",
+      "forumTopicId": 29073,
+      "hashes": [
+        "d2843fb9937587e9a0b77e067770b0ab"
+      ]
+    },
+    {
+      "title": "Mad Dog McCree",
+      "id": 21266,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/105719.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "239e6f49722645dbabe3506271a9d466"
+      ]
+    },
+    {
+      "title": "Mahjong Gokuu Tenjiku",
+      "id": 21267,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "bf3496c0783b40c88363cc29c4ffba6c"
+      ]
+    },
+    {
+      "title": "Mahjong-kyou Jidai - AV Gal Seifuku-hen",
+      "id": 21268,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "94938dd8e69c0772b15de791c8097f0f"
+      ]
+    },
+    {
+      "title": "Mahjong-kyou Jidai Cogal Houkago-hen",
+      "id": 21269,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "f11e3db0ab05818418ac9c797605982b"
+      ]
+    },
+    {
+      "title": "Makaroni Hourensou Interactive",
+      "id": 21270,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "0c70d990b8608d9a0fc89c3c6cdbe23c"
+      ]
+    },
+    {
+      "title": "Masters: Harukanaru Augusta 3",
+      "id": 21271,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a1524522ffd5d26b97d93c8b01337d93"
+      ]
+    },
+    {
+      "title": "Mathemagics - An Interactive Learning Cube",
+      "id": 21272,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "4218ba7fa13ea7e88a04a4fa2dddfd00"
+      ]
+    },
+    {
+      "title": "Mazer",
+      "id": 32877,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "379bb797d054c78115e3ba3a3839ac7e"
+      ]
+    },
+    {
+      "title": "MegaRace",
+      "id": 16837,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/106839.png",
+      "numAchievements": 60,
+      "numLeaderboards": 34,
+      "points": 420,
+      "dateModified": "2025-04-11 20:43:52",
+      "forumTopicId": 29510,
+      "hashes": [
+        "6adf88dffbb1e563aac10098f3bf5fa7"
+      ]
+    },
+    {
+      "title": "Microcosm",
+      "id": 16838,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "8b250c1c00d0ce9ab33ffdd0b5a01e62"
+      ]
+    },
+    {
+      "title": "Mind Teazzer",
+      "id": 16550,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/056991.png",
+      "numAchievements": 36,
+      "numLeaderboards": 0,
+      "points": 81,
+      "dateModified": "2022-06-04 00:20:34",
+      "forumTopicId": 16239,
+      "hashes": [
+        "2d13fca9767858fb7b93da2c74f525f9"
+      ]
+    },
+    {
+      "title": "Mirai Shounen Conan: Digital Library",
+      "id": 21273,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "5ade1690361443cca8ad98c361be2426"
+      ]
+    },
+    {
+      "title": "Monoshiri Jiyuugaku - Ogura Hyakunin Isshu-hen",
+      "id": 21274,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "f5304a62fa8e19104ddd3d51c2e69128"
+      ]
+    },
+    {
+      "title": "Montana Jones",
+      "id": 21275,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a892ca1e055657eddfe844be78091dbf"
+      ]
+    },
+    {
+      "title": "Moon Cradle - Igyou no Hanayome",
+      "id": 21276,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "09d2cd79c086f290a664b7f20445482e"
+      ]
+    },
+    {
+      "title": "Murphy da yo Zen'in Shuugou!!",
+      "id": 21277,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "24d1cd10110c22859c41defe71ae9970"
+      ]
+    },
+    {
+      "title": "Myst",
+      "id": 16839,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/040336.png",
+      "numAchievements": 80,
+      "numLeaderboards": 1,
+      "points": 225,
+      "dateModified": "2024-12-10 20:38:16",
+      "forumTopicId": 11885,
+      "hashes": [
+        "e3254945201de3d713abe8ba9338efae"
+      ]
+    },
+    {
+      "title": "N.O.B.: Neo Organic Bioform",
+      "id": 4730,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "adc987234ab21ba9fdc6bdab5272d21e"
+      ]
+    },
+    {
+      "title": "Naoko to Hide-bou: Kanji no Tensai 1",
+      "id": 21278,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "cfc572537b1204f0cb8cb49785c5fd39"
+      ]
+    },
+    {
+      "title": "Naoko to Hide-bou: Sansuu no Tensai 1",
+      "id": 21279,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "0698b22c02c1e058d0404cac436e4fda"
+      ]
+    },
+    {
+      "title": "Naoko to Hide-bou: Sansuu no Tensai 2",
+      "id": 21280,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "11e414a0dba65ae83a7966d44ba20c75"
+      ]
+    },
+    {
+      "title": "Nemurenu Yoru no Chiisana Ohanashi",
+      "id": 21281,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "961141ea5d4b2e42bbfe6b93b738efcf"
+      ]
+    },
+    {
+      "title": "NeuroDancer: Journey into the Neuronet!",
+      "id": 16840,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "09b315c96caad16ecac1cc331a780fe8"
+      ]
+    },
+    {
+      "title": "Nice Body - For Professional Use",
+      "id": 21282,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "f16f2bf1967fe051f9e66d19d17a8539"
+      ]
+    },
+    {
+      "title": "Night Trap",
+      "id": 16841,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/041156.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "591bc0a80e5ea62faed79425b7c68677",
+        "9f6913fabf0f15a9380f50db49062241"
+      ]
+    },
+    {
+      "title": "Nishimura Kyoutarou Travel Mystery: Akugyaku no Kisetsu",
+      "id": 21247,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "13edb3cae8436865abdac7cbbbbf58a5",
+        "1ed7f46ffc977e4c908763d9d05eedc3"
+      ]
+    },
+    {
+      "title": "Nobunaga no Yabou - Haouden",
+      "id": 21283,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "68dbd60ffb7712efc226a87f4167ca8b"
+      ]
+    },
+    {
+      "title": "Nontan to Issho: Hoshi no Okurimono",
+      "id": 21284,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "7b39dfde3655b875bf2a6fcae602e148"
+      ]
+    },
+    {
+      "title": "Nontan to Issho: Nohara de Asobo",
+      "id": 21285,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "deec683269c94d01b9b9c0d361f464da"
+      ]
+    },
+    {
+      "title": "Novastorm",
+      "id": 16842,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "d153494e0ada6a42e86762620a8055fe"
+      ]
+    },
+    {
+      "title": "Oceans Below",
+      "id": 21286,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a2f04bfc17a8712d33773f07ea9101e9"
+      ]
+    },
+    {
+      "title": "Off-World Interceptor",
+      "id": 16843,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/071030.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e591d6007a24bb365745d5b1fe317049"
+      ]
+    },
+    {
+      "title": "Ogura Hyakunin Isshu",
+      "id": 21287,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "04a5ea299c4cf64ff23d6378867e1169"
+      ]
+    },
+    {
+      "title": "Olympic Soccer",
+      "id": 21288,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "240a58eb1e0605f42b8b09c25d8e8b89"
+      ]
+    },
+    {
+      "title": "Olympic Summer Games",
+      "id": 21289,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "d040656307a31ae1f8aa983c7e04fe08"
+      ]
+    },
+    {
+      "title": "Onee-san to Issho! Janken Paradise",
+      "id": 20506,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/062146.png",
+      "numAchievements": 33,
+      "numLeaderboards": 0,
+      "points": 100,
+      "dateModified": "2022-09-28 05:38:51",
+      "forumTopicId": 18233,
+      "hashes": [
+        "d902e9258441bc01d81dc15f2a39d1d7"
+      ]
+    },
+    {
+      "title": "Onee-san to Issho! Kisekae Paradise",
+      "id": 20507,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/103716.png",
+      "numAchievements": 10,
+      "numLeaderboards": 0,
+      "points": 37,
+      "dateModified": "2024-11-01 08:31:17",
+      "forumTopicId": 28615,
+      "hashes": [
+        "c4cd53e4b988b699029ab11b27657c59"
+      ]
+    },
+    {
+      "title": "OnSide Soccer",
+      "id": 21290,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "47689ab15416eaeb92b83c1b21a93230"
+      ]
+    },
+    {
+      "title": "Oukoku no Grand Chef",
+      "id": 2711,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "c5843d6c9aa08fa1de1cd0709270758c"
+      ]
+    },
+    {
+      "title": "Out of this World",
+      "id": 17983,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/073873.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "de01c6183e1e5efb9d3082658d87f637"
+      ]
+    },
+    {
+      "title": "Oyaji Hunter Mahjong",
+      "id": 21291,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "6393ebd6b0b6a414d43f7fd19c884fde"
+      ]
+    },
+    {
+      "title": "Paddock Note '95",
+      "id": 21292,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "b39ee4748e77a4e52640050c4b7f472b",
+        "f5819371a074062577867cc4bf16b65a"
+      ]
+    },
+    {
+      "title": "PaTaank",
+      "id": 16688,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "5721593e8286ea57d8c212dd2c38b9e7"
+      ]
+    },
+    {
+      "title": "Pebble Beach Golf Links",
+      "id": 21293,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "4e68fac419bcd558bcb85dcf99863c71"
+      ]
+    },
+    {
+      "title": "Penthouse Interactive: Virtual Photo Shoot Vol. 1",
+      "id": 21294,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "98f181ec76abbb0092cebfcda5d0a79d"
+      ]
+    },
+    {
+      "title": "Peter Frankl - Puzzle no Tou",
+      "id": 21295,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "71fc8694f2973db9ba518b53a17f4f0e"
+      ]
+    },
+    {
+      "title": "PGA Tour 96",
+      "id": 21296,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e08844b390d504976b5d5901d692eb96"
+      ]
+    },
+    {
+      "title": "Phoenix 3",
+      "id": 16845,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "6f88ee1ff8285e0ad03d6d317f4fb35f"
+      ]
+    },
+    {
+      "title": "Plumbers Don't Wear Ties",
+      "id": 16397,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/063499.png",
+      "numAchievements": 10,
+      "numLeaderboards": 0,
+      "points": 21,
+      "dateModified": "2022-08-15 14:16:50",
+      "forumTopicId": 10993,
+      "hashes": [
+        "4570e692ac07d2242ab9141f1bb9000d"
+      ]
+    },
+    {
+      "title": "PO'ed",
+      "id": 16846,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "d928ec990056afbfaed349eb324d36db"
+      ]
+    },
+    {
+      "title": "Policenauts",
+      "id": 21249,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "334477cb341d28738ae9717c297dec67",
+        "d9afbffa196039e6606b0cdb8e51152f"
+      ]
+    },
+    {
+      "title": "Policenauts - Pilot Disk",
+      "id": 21297,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "6cee5687f301ae7e1b9d2121e9a7c8e6"
+      ]
+    },
+    {
+      "title": "Powerslide",
+      "id": 21298,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "6acf401db7a75f2b1c190cb951c13ac7"
+      ]
+    },
+    {
+      "title": "Pretty Soldier Sailor Moon S",
+      "id": 16406,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/068544.png",
+      "numAchievements": 73,
+      "numLeaderboards": 0,
+      "points": 430,
+      "dateModified": "2024-11-03 04:06:04",
+      "forumTopicId": 14934,
+      "hashes": [
+        "01293a81ca1a0ee3cda2d5f398e403e4"
+      ]
+    },
+    {
+      "title": "Primal Rage",
+      "id": 16847,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "3d3ffe950b4086e1824238eb850a8532"
+      ]
+    },
+    {
+      "title": "Princess Maker 2",
+      "id": 16848,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "0e0046eb06abf9384aaee844979a3481"
+      ]
+    },
+    {
+      "title": "Pro Stadium",
+      "id": 21299,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "537ec1f88282739b7be5401c5b6ade95"
+      ]
+    },
+    {
+      "title": "Pro Yakyuu Virtual Stadium - Professional Baseball",
+      "id": 21300,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "4da3ce4c2a47bcb8a1b7dcd149220f90"
+      ]
+    },
+    {
+      "title": "Psychic Detective",
+      "id": 16849,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "8329250750da9a13ba0dc34e558adf8f",
+        "bb0a79930df07580fabc07e3372971f8",
+        "dfc6a85a76c3c8ae4d9b06cd106f580a"
+      ]
+    },
+    {
+      "title": "Puppet Tale",
+      "id": 21301,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "c7c654ff0e58be1e53d38a5b8e8906cb"
+      ]
+    },
+    {
+      "title": "Putt-Putt Goes to the Moon",
+      "id": 16410,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/062562.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "43def02afa11f26ffea31c45307020be"
+      ]
+    },
+    {
+      "title": "Putt-Putt Joins the Parade",
+      "id": 16408,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/062557.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 31815,
+      "hashes": [
+        "999b527d58caefa2fd9a285b459ab30b"
+      ]
+    },
+    {
+      "title": "Putt-Putt's Funpack",
+      "id": 16409,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/062477.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "717b7b9724bdbf7ed993b6f09c70baa6"
+      ]
+    },
+    {
+      "title": "Pyramid Intruder",
+      "id": 21302,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "858bdced820af1d51c470b8564630858"
+      ]
+    },
+    {
+      "title": "Quarantine",
+      "id": 16850,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/070662.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "845eb55326ef0e4f6e0b531b01f92002"
+      ]
+    },
+    {
+      "title": "Quarterback Attack",
+      "id": 21355,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "c1576ad01e2de5c15d23b2b7cc3cd0e9"
+      ]
+    },
+    {
+      "title": "Real Pinball",
+      "id": 16643,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 11718,
+      "hashes": [
+        "bb294fe52e899d49c097d79a1613c67f"
+      ]
+    },
+    {
+      "title": "Return Fire",
+      "id": 966,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "d0fcd6e42a7b838f970fd84352a8a512"
+      ]
+    },
+    {
+      "title": "Rise of the Robots",
+      "id": 16852,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/103683.png",
+      "numAchievements": 18,
+      "numLeaderboards": 3,
+      "points": 185,
+      "dateModified": "2024-11-01 02:36:16",
+      "forumTopicId": 28598,
+      "hashes": [
+        "923d162e786de7c32c5e2496603914fb"
+      ]
+    },
+    {
+      "title": "Road & Track Presents: The Need for Speed",
+      "id": 1008,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/042844.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 15910,
+      "hashes": [
+        "1f7f88098b52fd76c5a9fe4d6c3a3171"
+      ]
+    },
+    {
+      "title": "Road Rash",
+      "id": 1007,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/075574.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "87597792197a51cfe6f644e468401a8c"
+      ]
+    },
+    {
+      "title": "Robinson's Requiem",
+      "id": 16853,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "6ca67b4c4cf9200489c8cd2a84918f02"
+      ]
+    },
+    {
+      "title": "Royal Pro Wrestling - Jikkyou Live!!",
+      "id": 21303,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "62a5b78ed923edca5e32d16d1666c103"
+      ]
+    },
+    {
+      "title": "Samurai Shodown",
+      "id": 1010,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/037005.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 12111,
+      "hashes": [
+        "4955279a4e0ca665d20b6e8067cd2a5a"
+      ]
+    },
+    {
+      "title": "Sangokushi IV",
+      "id": 20334,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "7f61f4355a4e238eb52dde3a36cfdfb7"
+      ]
+    },
+    {
+      "title": "Scramble Cobra",
+      "id": 20010,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "e490dc898e43ff425c6224809fbf0c6a"
+      ]
+    },
+    {
+      "title": "Seal of the Pharaoh",
+      "id": 7705,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/093518.png",
+      "numAchievements": 25,
+      "numLeaderboards": 0,
+      "points": 202,
+      "dateModified": "2024-11-24 20:15:12",
+      "forumTopicId": 25998,
+      "hashes": [
+        "cd54d1e1b8d680a9f1085b30ee992411"
+      ]
+    },
+    {
+      "title": "Secre Fuumin no Omochabako",
+      "id": 21304,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "316ee1b4ab387c29a099db7fc72692ca"
+      ]
+    },
+    {
+      "title": "Seimei Handan",
+      "id": 21305,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "b100acc253712bb81117506a4b53f9ea"
+      ]
+    },
+    {
+      "title": "Sento Monogatari - Sono I",
+      "id": 21306,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "750795053faa7a327aa80d1b2b281895"
+      ]
+    },
+    {
+      "title": "Sesame Street - Numbers",
+      "id": 21307,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "76c397ee5c1889967378a6ac3900b3d3"
+      ]
+    },
+    {
+      "title": "Sewer Shark",
+      "id": 21308,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "1dad8cf63438754683be79e727daf979"
+      ]
+    },
+    {
+      "title": "Sex",
+      "id": 17308,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "139c736133bdbfe94ec1e2e819cb0c2e"
+      ]
+    },
+    {
+      "title": "SHADOW: War of Succession",
+      "id": 16854,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/112751.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 11714,
+      "hashes": [
+        "5f2ea79f0b92380ed4f545f979e9c6b0"
+      ]
+    },
+    {
+      "title": "Shanghai: Triple-Threat",
+      "id": 16855,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "fc4349e54db092e8426b6b7033175e54"
+      ]
+    },
+    {
+      "title": "Shelley Duvall's It's a Bird's Life",
+      "id": 21309,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/079055.png",
+      "numAchievements": 6,
+      "numLeaderboards": 0,
+      "points": 13,
+      "dateModified": "2023-07-27 05:46:16",
+      "forumTopicId": 22733,
+      "hashes": [
+        "e1a98c71e85e3db717339b607739bac4"
+      ]
+    },
+    {
+      "title": "Shock Wave",
+      "id": 21248,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "8656bfbf6ab66a220667a2261a015a84",
+        "a8b0967797a257ddb82c40dfa5e54e82"
+      ]
+    },
+    {
+      "title": "Shock Wave - Operation JumpGate",
+      "id": 16856,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "52334d523e5cc8aca7b44631b5321d2c"
+      ]
+    },
+    {
+      "title": "Shockwave 2 - Beyond the Gate",
+      "id": 16857,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "06c7dbe178d18d8f7d256f93cc6c633c",
+        "d1601946da1b63ca55915a3f637a151d"
+      ]
+    },
+    {
+      "title": "Short Warp: Warp's Short Game Collection",
+      "id": 16644,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/039087.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "1f1d8afb200699947b68c5dc9b56f5a3"
+      ]
+    },
+    {
+      "title": "Sid Meier's C.P.U. Bach",
+      "id": 21310,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "9e8de0a1c46a33c7642583a6df3405a5"
+      ]
+    },
+    {
+      "title": "Slam 'n Jam '95",
+      "id": 21311,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "284c6dcc4efbec8e64ae569a96e84681"
+      ]
+    },
+    {
+      "title": "Slopestyle - An Interactive Learning Cube",
+      "id": 21312,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "9b5e2074b0e0e06ffc8648cb463f6c5e"
+      ]
+    },
+    {
+      "title": "Snow Job Starring Tracy Scoggins",
+      "id": 16858,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "83d386d38de9b16d1cbf81e79d848657",
+        "b5942954d6fdbe8ad313104ec446faba"
+      ]
+    },
+    {
+      "title": "Soccer Kid",
+      "id": 16859,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "b79873ed2deb0136207869a855a76d4d"
+      ]
+    },
+    {
+      "title": "Sotsugyou - Graduation - Final",
+      "id": 21313,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a428c2ba2829641a22f9221c3d369975"
+      ]
+    },
+    {
+      "title": "Sotsugyou II Special - Neo Generation",
+      "id": 21314,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "0381044fb468527124b955755f698b75"
+      ]
+    },
+    {
+      "title": "Space Ace",
+      "id": 16860,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "0cbcdab950904aadf58b595abeaa8964"
+      ]
+    },
+    {
+      "title": "Space Hulk: Vengeance of the Blood Angels",
+      "id": 16861,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "8babd549699c38d26d24a95e99e2a98e"
+      ]
+    },
+    {
+      "title": "Space Pirates",
+      "id": 16862,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 11723,
+      "hashes": [
+        "a4d30c98688ee34321f5b534e6a78f68"
+      ]
+    },
+    {
+      "title": "Space Shuttle",
+      "id": 21315,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "df170ac1b6b501047f880ab0fbdf2673"
+      ]
+    },
+    {
+      "title": "Star Control II",
+      "id": 2730,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/028392.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 9770,
+      "hashes": [
+        "1d5ce3b4d6e5bd1a92550a987847c5cf"
+      ]
+    },
+    {
+      "title": "Star Fighter",
+      "id": 16863,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/103937.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "5ebae1904d4dea62c2d8749b1e714789"
+      ]
+    },
+    {
+      "title": "Star Wars: Rebel Assault",
+      "id": 16864,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/112976.png",
+      "numAchievements": 52,
+      "numLeaderboards": 3,
+      "points": 500,
+      "dateModified": "2025-06-05 12:30:31",
+      "forumTopicId": 31059,
+      "hashes": [
+        "90e4b7dda0d2b9d5117086271bdfa5ff"
+      ]
+    },
+    {
+      "title": "Starblade",
+      "id": 16865,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/075910.png",
+      "numAchievements": 11,
+      "numLeaderboards": 1,
+      "points": 200,
+      "dateModified": "2023-10-28 15:55:57",
+      "forumTopicId": 22287,
+      "hashes": [
+        "15a0ecf45f13bcb56e5ece58e0085622"
+      ]
+    },
+    {
+      "title": "Stellar 7 - Draxon's Revenge",
+      "id": 16866,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "65cafcfcab789d9a4c3e344d00bf8af8"
+      ]
+    },
+    {
+      "title": "Step Aerobics",
+      "id": 21316,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "5f3a9fe0019b365c4933b9993bdf32dd"
+      ]
+    },
+    {
+      "title": "Strahl",
+      "id": 17739,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/072526.png",
+      "numAchievements": 21,
+      "numLeaderboards": 0,
+      "points": 136,
+      "dateModified": "2021-06-02 14:20:16",
+      "forumTopicId": 13157,
+      "hashes": [
+        "7df7061b2830e9d95e5f822a68cd2188"
+      ]
+    },
+    {
+      "title": "Striker - World Cup Special",
+      "id": 21317,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "d817ff2a32f2a8d9479ce9a3607e0703"
+      ]
+    },
+    {
+      "title": "Super Real Mahjong P.V",
+      "id": 21250,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "45f5c5eabc1d06bcbde7e075fb83a223",
+        "e4d9a9f8e5dd416b7809f82089bfda94"
+      ]
+    },
+    {
+      "title": "Super Street Fighter II Turbo",
+      "id": 16528,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/070133.png",
+      "numAchievements": 39,
+      "numLeaderboards": 2,
+      "points": 337,
+      "dateModified": "2022-02-26 19:40:01",
+      "forumTopicId": 11229,
+      "hashes": [
+        "c2a97a18e2db5297518bd25fdf047c85"
+      ]
+    },
+    {
+      "title": "Super Wing Commander",
+      "id": 16867,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "448f3725dcaeb87864d7874746d70036"
+      ]
+    },
+    {
+      "title": "SuperModels Go Wild",
+      "id": 21321,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a89fb27904f0910fb6e262cb43cda091"
+      ]
+    },
+    {
+      "title": "Supreme Warrior",
+      "id": 21251,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "1980ecfd27b5082ea1efa4163f3d0267",
+        "1b53fd555567e76ef21eb907143af7a3",
+        "ef370ebca02f745f73f283660613c333"
+      ]
+    },
+    {
+      "title": "Syndicate",
+      "id": 9210,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "1bc7dc7dc492d2a4f58ce5475a96dbd1"
+      ]
+    },
+    {
+      "title": "Taiketsu Rumiizu!",
+      "id": 21318,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "87d15520be01f11426cdfa7243eabe80"
+      ]
+    },
+    {
+      "title": "Tanjou - Debut - Pure",
+      "id": 21319,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "f94c8ac7698bfe19535149920e4f3b52"
+      ]
+    },
+    {
+      "title": "Tarot Uranai",
+      "id": 21320,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "ac9a5642cfd60c00e3a604a0e24edbd8"
+      ]
+    },
+    {
+      "title": "Terasawa Takeichi no Takeru",
+      "id": 21322,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "b8d0279ccf0c0a53b90d79ccc895cc7d"
+      ]
+    },
+    {
+      "title": "The Coven",
+      "id": 16817,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "39090a0d74dcb1908cc7ddcb92ebc458"
+      ]
+    },
+    {
+      "title": "The Daedalus Encounter",
+      "id": 16822,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "3722ea8a58f6ea6dba37a7ca32e391a2",
+        "6d122a0348f193cccd0d347c76b31e6d",
+        "91d411ef855eb52c3f452b693140b377",
+        "d276d08420ebdedb87acfe35bac20211"
+      ]
+    },
+    {
+      "title": "The Horde",
+      "id": 3936,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "402ed5f5256a282ada2f8906eaad2017"
+      ]
+    },
+    {
+      "title": "The Incredible Machine",
+      "id": 16832,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/059738.png",
+      "numAchievements": 35,
+      "numLeaderboards": 179,
+      "points": 225,
+      "dateModified": "2022-06-30 06:02:24",
+      "forumTopicId": 17180,
+      "hashes": [
+        "1a1438fb896409e1edff3d8c327debec"
+      ]
+    },
+    {
+      "title": "The Last Bounty Hunter",
+      "id": 21261,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "5c93da910f52fc01478c3c32637cfed8"
+      ]
+    },
+    {
+      "title": "The Life Stage: Virtual House",
+      "id": 21245,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "0a033a9cf998e95df5a4984c6c8351d7",
+        "a9cbe7e639e5cb675df35f51017a1a09",
+        "e9c9525ccf7e84401bb3c0fb16d543d7"
+      ]
+    },
+    {
+      "title": "The Lost Files of Sherlock Holmes",
+      "id": 16836,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "c6af8f8eb8b1f07f9eacac641677823d"
+      ]
+    },
+    {
+      "title": "The Perfect General",
+      "id": 16844,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "cebce4680187b8626a5d2de58ce167ed"
+      ]
+    },
+    {
+      "title": "The San Diego Zoo Presents... The Animals!",
+      "id": 21356,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "078fc78527e7f4086c1ed56cd459f52b"
+      ]
+    },
+    {
+      "title": "The Super Model: Gail McKenna",
+      "id": 21358,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "76c0325cf72776525c498591e968bf38"
+      ]
+    },
+    {
+      "title": "The Tower",
+      "id": 21329,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "958b35209620e3995dc9256e2228bb2d"
+      ]
+    },
+    {
+      "title": "The Yakyuuken Special: Kon'ya wa 8-kaisen!!",
+      "id": 20265,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/060686.png",
+      "numAchievements": 9,
+      "numLeaderboards": 0,
+      "points": 65,
+      "dateModified": "2022-08-03 22:01:34",
+      "forumTopicId": 17585,
+      "hashes": [
+        "cb4fa2a7d8b6c1750ef10cced6336885"
+      ]
+    },
+    {
+      "title": "Theatre Wars - Goraku no Dendou",
+      "id": 21323,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "f97e1b563f4396888de959850af40f9f"
+      ]
+    },
+    {
+      "title": "Theme Park",
+      "id": 8827,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "7abbf99548130a8e06583cfd0e30857e"
+      ]
+    },
+    {
+      "title": "Toki o Koeta Tegami",
+      "id": 21324,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "49c0a709f226edc345a916a99e722213"
+      ]
+    },
+    {
+      "title": "Tokimeki Mahjong Paradise Special - Koi no Tenpai Beat",
+      "id": 21325,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "f4d495a63794141e3ba97ec1343dc036"
+      ]
+    },
+    {
+      "title": "ToonTime ...in the Classroom",
+      "id": 21326,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "bd4bfd5f9675cbc5fa63fe68d88994bb"
+      ]
+    },
+    {
+      "title": "Total Eclipse",
+      "id": 1011,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "86086bf76e9f6d558c471f8acf1091f9"
+      ]
+    },
+    {
+      "title": "Totsugeki Karakuri! Megadas!!",
+      "id": 21327,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "b521b578f44635c529a1bd734c68faa8"
+      ]
+    },
+    {
+      "title": "Touhaiden Akagi",
+      "id": 21328,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "4c02d0d37b1d2ffd994ba45c21c186aa"
+      ]
+    },
+    {
+      "title": "Trip'd",
+      "id": 16508,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/036024.png",
+      "numAchievements": 38,
+      "numLeaderboards": 2,
+      "points": 575,
+      "dateModified": "2020-08-06 12:49:13",
+      "forumTopicId": 11153,
+      "hashes": [
+        "8657b3440b4c177edf2e6e9607b0c319"
+      ]
+    },
+    {
+      "title": "Twinkle Knights",
+      "id": 21330,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/075033.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "81940978ad83ec29ac3c38ea6583cdf2"
+      ]
+    },
+    {
+      "title": "Twisted: The Game Show",
+      "id": 16689,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "1dbf774058e6b25a70aad3ca6673a446"
+      ]
+    },
+    {
+      "title": "Uchuu Seibutsu Flopon-kun",
+      "id": 21331,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "7820e91d0a9715ed094a80e7e9d80e24"
+      ]
+    },
+    {
+      "title": "Ultraman Powered",
+      "id": 21332,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "49df8e73366932ddf8c5bff314d6c946"
+      ]
+    },
+    {
+      "title": "V Goal Soccer '96",
+      "id": 21333,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "eb53056b296639e46dcce66021a2f6b9"
+      ]
+    },
+    {
+      "title": "Virtual Cameraman Part 1: Naomi Sawada & Anna Juri",
+      "id": 21334,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "81e4b3439e622c803ab2366f29eaacb8"
+      ]
+    },
+    {
+      "title": "Virtual Cameraman Part 2: Natsumi Kawai & Kimi Tachihara",
+      "id": 21335,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "2ddc43c89df5db3154ba329f64867bd7"
+      ]
+    },
+    {
+      "title": "Virtual Cameraman Part 3: Yumika Sugimoto",
+      "id": 28567,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "7d8f668e45027f84e2d583151b932126"
+      ]
+    },
+    {
+      "title": "Virtual Cameraman Part 4: Shiori Fujitani",
+      "id": 28568,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "681c4d20841027543ae30e176bc3c40d"
+      ]
+    },
+    {
+      "title": "Virtual Cameraman Part 5: Yuri Andou",
+      "id": 28569,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "bae545fe1b587b5ccee9185405e6ca1d"
+      ]
+    },
+    {
+      "title": "Virtual Puppet Reika",
+      "id": 21336,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "34795c07ef0caca14030a6d6539987c2"
+      ]
+    },
+    {
+      "title": "Virtuoso",
+      "id": 16868,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/061909.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "c0ddd3c051fe8640fed290a676ca54ac"
+      ]
+    },
+    {
+      "title": "VR Stalker",
+      "id": 16869,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "600def0cd25d2687bf8a12c86ebeb434"
+      ]
+    },
+    {
+      "title": "Waialae Country Club",
+      "id": 21337,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "d119a30534bd0ec72ae0078b3bbd893b"
+      ]
+    },
+    {
+      "title": "Way of the Warrior",
+      "id": 16870,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/047305.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": 11724,
+      "hashes": [
+        "c4a4727d09c43c5be225bdbae7fb33b8"
+      ]
+    },
+    {
+      "title": "Who Shot Johnny Rock",
+      "id": 21359,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "523b1e084942aa890d1249740557012b"
+      ]
+    },
+    {
+      "title": "Wicked 18",
+      "id": 21338,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "95937f3e8856b4d12218be45bf68274f"
+      ]
+    },
+    {
+      "title": "Wing Commander III: Heart of the Tiger",
+      "id": 16871,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "184831b4e200aac53d9ae0631e937317",
+        "76119c5ea5947a137f7f6927bdc9e79c",
+        "86ea9d8b82deeb584be670511a011fbc",
+        "c823c3be40c4b7b77725a4e7e1f6166e"
+      ]
+    },
+    {
+      "title": "Winning Post",
+      "id": 21339,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "a728b2a42a1fb4d787e6e1474c235432"
+      ]
+    },
+    {
+      "title": "Wolfenstein 3D",
+      "id": 16872,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/052178.png",
+      "numAchievements": 336,
+      "numLeaderboards": 90,
+      "points": 2080,
+      "dateModified": "2025-01-10 12:57:35",
+      "forumTopicId": 12501,
+      "hashes": [
+        "71841df1c47503cce8a735dffd3898db"
+      ]
+    },
+    {
+      "title": "Woody Woodpecker and Friends: Volume One",
+      "id": 21340,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "b876e51a43d114a51df00afefb42f372"
+      ]
+    },
+    {
+      "title": "Woody Woodpecker and Friends: Volume Three",
+      "id": 21341,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "07f1a30d242396110c761a5eb10a2778"
+      ]
+    },
+    {
+      "title": "Woody Woodpecker and Friends: Volume Two",
+      "id": 21342,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "69f7f4fd45c6ef282dfd58cf13f8ff06"
+      ]
+    },
+    {
+      "title": "World Cup Golf - Hyatt Dorado Beach",
+      "id": 21343,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "043c90ffc60b607cfaf9616241cd1cc1"
+      ]
+    },
+    {
+      "title": "WorldCup Super Stadium",
+      "id": 21344,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "d7e8235f91ff3eca02a3fb3174ed06d1"
+      ]
+    },
+    {
+      "title": "Yamada Kamachi Bijutsukan - Kamachi's Museum",
+      "id": 21345,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "debdd4637dfa1a0c3cbe6f1b7265d1fd"
+      ]
+    },
+    {
+      "title": "Yamamura Misa Suspense - Kyoto Kurama Sansou Satsujin Jiken",
+      "id": 21252,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "67edf1abdfab2f2f12bdfc28b7a6dc00",
+        "c7c8f7046258e6526a157c4d99b9a814"
+      ]
+    },
+    {
+      "title": "Yu Yu Hakusho",
+      "id": 16407,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/067623.png",
+      "numAchievements": 23,
+      "numLeaderboards": 0,
+      "points": 340,
+      "dateModified": "2023-08-26 07:44:06",
+      "forumTopicId": 11168,
+      "hashes": [
+        "9a14a399c139faccfe4a356d5384d0a0"
+      ]
+    },
+    {
+      "title": "Yuujou Densetsu: The Doraemons",
+      "id": 21346,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "fc3d103f65e74383b07662c937dd35ea"
+      ]
+    },
+    {
+      "title": "Zhadnost - The People's Party",
+      "id": 21347,
+      "consoleId": 43,
+      "consoleName": "3DO Interactive Multiplayer",
+      "imageIcon": "/Images/000001.png",
+      "numAchievements": 0,
+      "numLeaderboards": 0,
+      "points": 0,
+      "dateModified": null,
+      "forumTopicId": null,
+      "hashes": [
+        "9278f036bed3ac35518f241d30c801b6"
+      ]
+    }
+  ],
+  "hashMap": {
+    "abf8d96b89fc3fcab07f8265c33b8eda": 0,
+    "484d1f761aaa95d34df9d7beec789ae0": 1,
+    "0001199f6dc7a7157748bfa335bfd749": 2,
+    "33031a9305cab3eb38af9f163fafe307": 3,
+    "78ee30eeffb6594462708a3129e2fd56": 4,
+    "ce2a00ffbbe9752e1f2ff936077a63c4": 5,
+    "5bd283fdae61fb87328aaa7c27e0d3d3": 7,
+    "20a46b2653942daec41e3fd7b4857665": 8,
+    "cf8ef83c655be5f1058d4ddbc968607f": 9,
+    "9e4ec950fc4ae953c51f092073450671": 10,
+    "4d7f2e1b2e8b9d9d14f083fae44d9760": 11,
+    "2b8f6037654255aac56ff5c12c0b44e6": 12,
+    "da7773ea9dc482d262ab15a3c96ae8d5": 13,
+    "0d3114e06066d9b41751bfe72afe1477": 14,
+    "35c286ee7c2c103b598afc3ee191b65e": 15,
+    "7f148b0582d290dc3a13d0dd0355a97c": 16,
+    "2054bf4d97a1a6f7db2c432658eaabf0": 17,
+    "554cb56d2231968d01e1cf022c90f2bc": 18,
+    "a35136151904105798fcf620a22de3da": 18,
+    "a4e7faa3f76cbbb053e8fc9e0116fdc3": 19,
+    "e3c1918141a8484b37c21321fa12fc03": 20,
+    "5b2f29b3789d5d7601712fac6cb88c04": 21,
+    "25fafab4899f915d3454218771ae7bee": 22,
+    "2a6f6983228e4c997c18fdfff081fe6e": 23,
+    "6b9b1a1c8724a04a80d7f3a58f8a24af": 24,
+    "22a0c9aeb60c52dd8beaf63d76dca267": 25,
+    "112a93e312bed12c32e233a9d88f47be": 26,
+    "a0d99f75d93efb648940733601127592": 27,
+    "3598c1b655a4941a54e75754ea205db6": 28,
+    "dd29c5dcd8e549ab0179c8a445820d17": 28,
+    "a5e1051021006582634f74ada633ad07": 29,
+    "eaf126ac57d5cf5e83a8db06c9a3fdf8": 30,
+    "cbe947aedcd699d702efe5299ba41f10": 31,
+    "18556a2c765f27661dcfe2284fb05b0e": 32,
+    "f1bdb6ecdd64b40952316e5ca69e2add": 33,
+    "b88f36135944c14f00d2c7680e12e973": 34,
+    "b6c2aae5547166265ec3f72141472b75": 35,
+    "fecfc17bc9b6fdbdc9178afac7f30fec": 36,
+    "0d99138f8c4cd6330be99cc90491aa8c": 37,
+    "f2b052859174ad98e18b3c3267a4a31a": 38,
+    "e5397ad1abf40c39b8c5fad81d4c199b": 39,
+    "e318e62b60e8f7f30d7d1680288f0ead": 40,
+    "86e7e1bdfb4d443b86f42819892d97ea": 41,
+    "3600ada88061b5db9945b11cfa498fcd": 42,
+    "453175631eb3bb6e80045993f28e8e77": 42,
+    "7e628c8eb1e150cd637f150a5c3db994": 43,
+    "bdbcafe60b41f0be7ec07cac9515cb38": 44,
+    "e5d654bc8faaad903fa3dd53b2f60c31": 45,
+    "6f504d3860c4419c9ed1066497beac23": 46,
+    "720147c1d3aa03c5fe3efecf77c372ab": 47,
+    "b46eadddb8b8cc0fcda3f789a79752a4": 47,
+    "c1e60bff0c9128b88026ddc8e7188be4": 47,
+    "a09735daa06608ce2ae360e0a3939c39": 48,
+    "3bc3a24d2e3e107367b0f4c3748a275e": 49,
+    "e0e846ec636ede2091c94723b2210c6e": 49,
+    "39f2a07ef946fa65dc2d268f5ed0c39e": 50,
+    "f71c2f1c94139d45605576efbada8fda": 51,
+    "e1429b2f75b7dad216cdfcf1f1c94cb4": 52,
+    "19c2b01c86982446b543e6da8d128cf1": 53,
+    "cef99ae46d643523874112cbffc82fdc": 54,
+    "ca0ea2c47cdb09a718c762f010c8d6ae": 55,
+    "a410e2a915e386078db71bd49c7193bd": 56,
+    "e436661fb50d7464767468e8920e1cad": 56,
+    "c93cbef8e885c2ec83bc1732890a0d1f": 57,
+    "1dfdb88f38309cfd51f2636c131e7d39": 58,
+    "206a807873a3bf26e828c20efcb9a5cd": 58,
+    "86894ed6e6db21ace7b497499ff9d866": 58,
+    "8dc45657c6d4d270b41dc86ea85adcbf": 59,
+    "468d11b409bce3ff2facee054a8494ad": 60,
+    "a0b3ed1a9db36f560bf6086303d3483f": 61,
+    "ca613820ac24780d53a0c7f7b3594cb5": 62,
+    "9e07a22ad81845f43645947e97661e33": 63,
+    "bf35b77e06121760e417d98f94a0c131": 64,
+    "76d55d10938f936b9707d4578e8440a7": 65,
+    "152b23863a2208cc7ee969444ced8838": 66,
+    "14c89e0aeff768342c7812007e3885cc": 67,
+    "6f817d647344663e61aac19cce6125a9": 67,
+    "9ed081e469e7f0a663cfc8a52d09bfab": 67,
+    "a25d296097924600fc5f17a09f1a7f48": 67,
+    "e3805117d16b7a64ac1b904bc7ae0466": 68,
+    "97be7b56c2ade877e4e69f677979015d": 69,
+    "ce1724424677566549adb0318c2af894": 70,
+    "905b717693cd1f4f1a7233f0c9a65767": 71,
+    "7a7a41a239fe4d026be6dfa761933fb5": 72,
+    "f148536a4e707a4418aad19ba80a9515": 73,
+    "897027e7c91b7f4d9140021d7708b6cd": 74,
+    "fc8dd61d8a1172cbf13299463d87597f": 75,
+    "e40df6e230f265dda93048eb560b010a": 76,
+    "4da8782d54fb68b3011003007de609bc": 77,
+    "5ef88e8c254845d86ef9551b08f593ea": 78,
+    "11c84e6f1ffbbefffe2469dc87ee8043": 79,
+    "f1429487d9c880346a04e4214e1ea410": 80,
+    "f20e7ca35bf55272d31eeb60efbff294": 81,
+    "d0a861d1c53a167405b84260e850f50b": 82,
+    "02497519aecb2103210f702bd77b64b1": 83,
+    "c35368506268c0b09641a1c144078dd1": 84,
+    "f51d8d468bb19f621777fedd3e025365": 85,
+    "391421cbe638d9f322424ae1ce75b8e4": 86,
+    "3e1fbc1a169d4219bfa6df68a35e9d3e": 87,
+    "993535606ec6820534b82c00fbf083cc": 88,
+    "c22d7e43295bd6ce25e907912a08d78a": 89,
+    "a3688fcd7431e84862ad1600a036a161": 90,
+    "7f2d7acc7e0baac64d25c090513d9f98": 91,
+    "08caedb4a8fba5f3584fcd45b5eb5189": 92,
+    "89bda405b722c648e28576f4652011e9": 93,
+    "e6f130be442dbbf2a590045febe51373": 94,
+    "efd177658ae5a66e1893a8753f6e72c5": 95,
+    "fb2b26756a48af3c97a1ee80d110f27e": 96,
+    "a2669554286da8cedd6dcf99fc01b481": 97,
+    "e3f3c08749243b95ca6f0c5e902dd021": 98,
+    "7ebd1d096af3897de1ba7b548f625f2e": 99,
+    "d215521cc942a81b1439162469c53809": 100,
+    "a8f57cc5a8e9b7e4a2700c2a650abad6": 101,
+    "d3592091925d68070c42d9914f41ee4f": 102,
+    "d0734c9aa0d6421875f15578a811716b": 103,
+    "b64aaf596e7f1a39aa30622f9ecebe29": 104,
+    "92cab6d11b866f08988845f144ee36b9": 105,
+    "b9fbbc571ec544266d0e474999f3190b": 106,
+    "9c8328c8a696b41f9c93b94eff1d2fc8": 107,
+    "ceef67751644f25514333eb3a642448b": 108,
+    "7442bdd088915a107c084241b66d11cc": 109,
+    "1d61db10e929e9f1f96577cc8d7b5ef4": 110,
+    "ea9d2657b9a0d6aacafb166d682f76f0": 110,
+    "0ee3428c2a8fa878676552c3cf8498c8": 111,
+    "7ca52a101823a7f985282fef4d509961": 112,
+    "d68410a8dbd79070140a233bc4f7db8d": 113,
+    "dddf84acedae002cdb1528bdfca759e6": 113,
+    "b333b63a7d43d6e2b24a539f4febd235": 114,
+    "23958244d3e9d1ab69467210d90e6379": 115,
+    "2a4bb1817dd39c91e226d389938b83c9": 116,
+    "6e6e672f807750bb01f9e43e0bd4170d": 117,
+    "1e72c5238b4a003bca2b716858d4d330": 118,
+    "37217df7443365d2a96ce164f0363b93": 119,
+    "bbb1a1c3fc825365407dae73a65e2c61": 120,
+    "2384c2346cd2068af42a32a53e6c5c1c": 121,
+    "84256c4e31a9a3c1c50a8e82a537e6a6": 122,
+    "0117a4de97b06b8a6cb0727df403f62b": 123,
+    "9c1c18ca886e2f559f680d43c866d900": 124,
+    "32295bd44a4885b170d2073739d4fec2": 125,
+    "0e8c475afe179dc72834c28ccfaf21e5": 126,
+    "41977307099ca786eee786d66d18dac5": 126,
+    "75cda125f544195b5a6a49d31216f57e": 127,
+    "91340b9fd0a0eaca58e823be82ae33b6": 128,
+    "ebd97876708df3d4d30d4ce5703c5a04": 129,
+    "db9f5b47ffc3129b699e30a9f471d85b": 130,
+    "6c373745defca24a04fe6b3066c80099": 131,
+    "ffcdae9fd53f70a7cd5f55a8233b001f": 132,
+    "4c99bf2fd1a15ad24b8238fd292f0a93": 133,
+    "1638121b1e867d1408e8785fbf5b6619": 134,
+    "d2843fb9937587e9a0b77e067770b0ab": 135,
+    "239e6f49722645dbabe3506271a9d466": 136,
+    "bf3496c0783b40c88363cc29c4ffba6c": 137,
+    "94938dd8e69c0772b15de791c8097f0f": 138,
+    "f11e3db0ab05818418ac9c797605982b": 139,
+    "0c70d990b8608d9a0fc89c3c6cdbe23c": 140,
+    "a1524522ffd5d26b97d93c8b01337d93": 141,
+    "4218ba7fa13ea7e88a04a4fa2dddfd00": 142,
+    "379bb797d054c78115e3ba3a3839ac7e": 143,
+    "6adf88dffbb1e563aac10098f3bf5fa7": 144,
+    "8b250c1c00d0ce9ab33ffdd0b5a01e62": 145,
+    "2d13fca9767858fb7b93da2c74f525f9": 146,
+    "5ade1690361443cca8ad98c361be2426": 147,
+    "f5304a62fa8e19104ddd3d51c2e69128": 148,
+    "a892ca1e055657eddfe844be78091dbf": 149,
+    "09d2cd79c086f290a664b7f20445482e": 150,
+    "24d1cd10110c22859c41defe71ae9970": 151,
+    "e3254945201de3d713abe8ba9338efae": 152,
+    "adc987234ab21ba9fdc6bdab5272d21e": 153,
+    "cfc572537b1204f0cb8cb49785c5fd39": 154,
+    "0698b22c02c1e058d0404cac436e4fda": 155,
+    "11e414a0dba65ae83a7966d44ba20c75": 156,
+    "961141ea5d4b2e42bbfe6b93b738efcf": 157,
+    "09b315c96caad16ecac1cc331a780fe8": 158,
+    "f16f2bf1967fe051f9e66d19d17a8539": 159,
+    "591bc0a80e5ea62faed79425b7c68677": 160,
+    "9f6913fabf0f15a9380f50db49062241": 160,
+    "13edb3cae8436865abdac7cbbbbf58a5": 161,
+    "1ed7f46ffc977e4c908763d9d05eedc3": 161,
+    "68dbd60ffb7712efc226a87f4167ca8b": 162,
+    "7b39dfde3655b875bf2a6fcae602e148": 163,
+    "deec683269c94d01b9b9c0d361f464da": 164,
+    "d153494e0ada6a42e86762620a8055fe": 165,
+    "a2f04bfc17a8712d33773f07ea9101e9": 166,
+    "e591d6007a24bb365745d5b1fe317049": 167,
+    "04a5ea299c4cf64ff23d6378867e1169": 168,
+    "240a58eb1e0605f42b8b09c25d8e8b89": 169,
+    "d040656307a31ae1f8aa983c7e04fe08": 170,
+    "d902e9258441bc01d81dc15f2a39d1d7": 171,
+    "c4cd53e4b988b699029ab11b27657c59": 172,
+    "47689ab15416eaeb92b83c1b21a93230": 173,
+    "c5843d6c9aa08fa1de1cd0709270758c": 174,
+    "de01c6183e1e5efb9d3082658d87f637": 175,
+    "6393ebd6b0b6a414d43f7fd19c884fde": 176,
+    "b39ee4748e77a4e52640050c4b7f472b": 177,
+    "f5819371a074062577867cc4bf16b65a": 177,
+    "5721593e8286ea57d8c212dd2c38b9e7": 178,
+    "4e68fac419bcd558bcb85dcf99863c71": 179,
+    "98f181ec76abbb0092cebfcda5d0a79d": 180,
+    "71fc8694f2973db9ba518b53a17f4f0e": 181,
+    "e08844b390d504976b5d5901d692eb96": 182,
+    "6f88ee1ff8285e0ad03d6d317f4fb35f": 183,
+    "4570e692ac07d2242ab9141f1bb9000d": 184,
+    "d928ec990056afbfaed349eb324d36db": 185,
+    "334477cb341d28738ae9717c297dec67": 186,
+    "d9afbffa196039e6606b0cdb8e51152f": 186,
+    "6cee5687f301ae7e1b9d2121e9a7c8e6": 187,
+    "6acf401db7a75f2b1c190cb951c13ac7": 188,
+    "01293a81ca1a0ee3cda2d5f398e403e4": 189,
+    "3d3ffe950b4086e1824238eb850a8532": 190,
+    "0e0046eb06abf9384aaee844979a3481": 191,
+    "537ec1f88282739b7be5401c5b6ade95": 192,
+    "4da3ce4c2a47bcb8a1b7dcd149220f90": 193,
+    "8329250750da9a13ba0dc34e558adf8f": 194,
+    "bb0a79930df07580fabc07e3372971f8": 194,
+    "dfc6a85a76c3c8ae4d9b06cd106f580a": 194,
+    "c7c654ff0e58be1e53d38a5b8e8906cb": 195,
+    "43def02afa11f26ffea31c45307020be": 196,
+    "999b527d58caefa2fd9a285b459ab30b": 197,
+    "717b7b9724bdbf7ed993b6f09c70baa6": 198,
+    "858bdced820af1d51c470b8564630858": 199,
+    "845eb55326ef0e4f6e0b531b01f92002": 200,
+    "c1576ad01e2de5c15d23b2b7cc3cd0e9": 201,
+    "bb294fe52e899d49c097d79a1613c67f": 202,
+    "d0fcd6e42a7b838f970fd84352a8a512": 203,
+    "923d162e786de7c32c5e2496603914fb": 204,
+    "1f7f88098b52fd76c5a9fe4d6c3a3171": 205,
+    "87597792197a51cfe6f644e468401a8c": 206,
+    "6ca67b4c4cf9200489c8cd2a84918f02": 207,
+    "62a5b78ed923edca5e32d16d1666c103": 208,
+    "4955279a4e0ca665d20b6e8067cd2a5a": 209,
+    "7f61f4355a4e238eb52dde3a36cfdfb7": 210,
+    "e490dc898e43ff425c6224809fbf0c6a": 211,
+    "cd54d1e1b8d680a9f1085b30ee992411": 212,
+    "316ee1b4ab387c29a099db7fc72692ca": 213,
+    "b100acc253712bb81117506a4b53f9ea": 214,
+    "750795053faa7a327aa80d1b2b281895": 215,
+    "76c397ee5c1889967378a6ac3900b3d3": 216,
+    "1dad8cf63438754683be79e727daf979": 217,
+    "139c736133bdbfe94ec1e2e819cb0c2e": 218,
+    "5f2ea79f0b92380ed4f545f979e9c6b0": 219,
+    "fc4349e54db092e8426b6b7033175e54": 220,
+    "e1a98c71e85e3db717339b607739bac4": 221,
+    "8656bfbf6ab66a220667a2261a015a84": 222,
+    "a8b0967797a257ddb82c40dfa5e54e82": 222,
+    "52334d523e5cc8aca7b44631b5321d2c": 223,
+    "06c7dbe178d18d8f7d256f93cc6c633c": 224,
+    "d1601946da1b63ca55915a3f637a151d": 224,
+    "1f1d8afb200699947b68c5dc9b56f5a3": 225,
+    "9e8de0a1c46a33c7642583a6df3405a5": 226,
+    "284c6dcc4efbec8e64ae569a96e84681": 227,
+    "9b5e2074b0e0e06ffc8648cb463f6c5e": 228,
+    "83d386d38de9b16d1cbf81e79d848657": 229,
+    "b5942954d6fdbe8ad313104ec446faba": 229,
+    "b79873ed2deb0136207869a855a76d4d": 230,
+    "a428c2ba2829641a22f9221c3d369975": 231,
+    "0381044fb468527124b955755f698b75": 232,
+    "0cbcdab950904aadf58b595abeaa8964": 233,
+    "8babd549699c38d26d24a95e99e2a98e": 234,
+    "a4d30c98688ee34321f5b534e6a78f68": 235,
+    "df170ac1b6b501047f880ab0fbdf2673": 236,
+    "1d5ce3b4d6e5bd1a92550a987847c5cf": 237,
+    "5ebae1904d4dea62c2d8749b1e714789": 238,
+    "90e4b7dda0d2b9d5117086271bdfa5ff": 239,
+    "15a0ecf45f13bcb56e5ece58e0085622": 240,
+    "65cafcfcab789d9a4c3e344d00bf8af8": 241,
+    "5f3a9fe0019b365c4933b9993bdf32dd": 242,
+    "7df7061b2830e9d95e5f822a68cd2188": 243,
+    "d817ff2a32f2a8d9479ce9a3607e0703": 244,
+    "45f5c5eabc1d06bcbde7e075fb83a223": 245,
+    "e4d9a9f8e5dd416b7809f82089bfda94": 245,
+    "c2a97a18e2db5297518bd25fdf047c85": 246,
+    "448f3725dcaeb87864d7874746d70036": 247,
+    "a89fb27904f0910fb6e262cb43cda091": 248,
+    "1980ecfd27b5082ea1efa4163f3d0267": 249,
+    "1b53fd555567e76ef21eb907143af7a3": 249,
+    "ef370ebca02f745f73f283660613c333": 249,
+    "1bc7dc7dc492d2a4f58ce5475a96dbd1": 250,
+    "87d15520be01f11426cdfa7243eabe80": 251,
+    "f94c8ac7698bfe19535149920e4f3b52": 252,
+    "ac9a5642cfd60c00e3a604a0e24edbd8": 253,
+    "b8d0279ccf0c0a53b90d79ccc895cc7d": 254,
+    "39090a0d74dcb1908cc7ddcb92ebc458": 255,
+    "3722ea8a58f6ea6dba37a7ca32e391a2": 256,
+    "6d122a0348f193cccd0d347c76b31e6d": 256,
+    "91d411ef855eb52c3f452b693140b377": 256,
+    "d276d08420ebdedb87acfe35bac20211": 256,
+    "402ed5f5256a282ada2f8906eaad2017": 257,
+    "1a1438fb896409e1edff3d8c327debec": 258,
+    "5c93da910f52fc01478c3c32637cfed8": 259,
+    "0a033a9cf998e95df5a4984c6c8351d7": 260,
+    "a9cbe7e639e5cb675df35f51017a1a09": 260,
+    "e9c9525ccf7e84401bb3c0fb16d543d7": 260,
+    "c6af8f8eb8b1f07f9eacac641677823d": 261,
+    "cebce4680187b8626a5d2de58ce167ed": 262,
+    "078fc78527e7f4086c1ed56cd459f52b": 263,
+    "76c0325cf72776525c498591e968bf38": 264,
+    "958b35209620e3995dc9256e2228bb2d": 265,
+    "cb4fa2a7d8b6c1750ef10cced6336885": 266,
+    "f97e1b563f4396888de959850af40f9f": 267,
+    "7abbf99548130a8e06583cfd0e30857e": 268,
+    "49c0a709f226edc345a916a99e722213": 269,
+    "f4d495a63794141e3ba97ec1343dc036": 270,
+    "bd4bfd5f9675cbc5fa63fe68d88994bb": 271,
+    "86086bf76e9f6d558c471f8acf1091f9": 272,
+    "b521b578f44635c529a1bd734c68faa8": 273,
+    "4c02d0d37b1d2ffd994ba45c21c186aa": 274,
+    "8657b3440b4c177edf2e6e9607b0c319": 275,
+    "81940978ad83ec29ac3c38ea6583cdf2": 276,
+    "1dbf774058e6b25a70aad3ca6673a446": 277,
+    "7820e91d0a9715ed094a80e7e9d80e24": 278,
+    "49df8e73366932ddf8c5bff314d6c946": 279,
+    "eb53056b296639e46dcce66021a2f6b9": 280,
+    "81e4b3439e622c803ab2366f29eaacb8": 281,
+    "2ddc43c89df5db3154ba329f64867bd7": 282,
+    "7d8f668e45027f84e2d583151b932126": 283,
+    "681c4d20841027543ae30e176bc3c40d": 284,
+    "bae545fe1b587b5ccee9185405e6ca1d": 285,
+    "34795c07ef0caca14030a6d6539987c2": 286,
+    "c0ddd3c051fe8640fed290a676ca54ac": 287,
+    "600def0cd25d2687bf8a12c86ebeb434": 288,
+    "d119a30534bd0ec72ae0078b3bbd893b": 289,
+    "c4a4727d09c43c5be225bdbae7fb33b8": 290,
+    "523b1e084942aa890d1249740557012b": 291,
+    "95937f3e8856b4d12218be45bf68274f": 292,
+    "184831b4e200aac53d9ae0631e937317": 293,
+    "76119c5ea5947a137f7f6927bdc9e79c": 293,
+    "86ea9d8b82deeb584be670511a011fbc": 293,
+    "c823c3be40c4b7b77725a4e7e1f6166e": 293,
+    "a728b2a42a1fb4d787e6e1474c235432": 294,
+    "71841df1c47503cce8a735dffd3898db": 295,
+    "b876e51a43d114a51df00afefb42f372": 296,
+    "07f1a30d242396110c761a5eb10a2778": 297,
+    "69f7f4fd45c6ef282dfd58cf13f8ff06": 298,
+    "043c90ffc60b607cfaf9616241cd1cc1": 299,
+    "d7e8235f91ff3eca02a3fb3174ed06d1": 300,
+    "debdd4637dfa1a0c3cbe6f1b7265d1fd": 301,
+    "67edf1abdfab2f2f12bdfc28b7a6dc00": 302,
+    "c7c8f7046258e6526a157c4d99b9a814": 302,
+    "9a14a399c139faccfe4a356d5384d0a0": 303,
+    "fc3d103f65e74383b07662c937dd35ea": 304,
+    "9278f036bed3ac35518f241d30c801b6": 305
+  },
+  "systemId": 43,
+  "systemName": "3DO Interactive Multiplayer"
+}
