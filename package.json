@@ -9,6 +9,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
+    "build:game-db": "tsx scripts/build-game-db",
     "lint": "echo \"No linting configured\"",
     "test": "vitest"
   },
@@ -39,6 +40,7 @@
     "electron": "37.2.1",
     "electron-devtools-installer": "^4.0.0",
     "less": "^4.3.0",
+    "tsx": "^4.20.5",
     "typescript": "^5.8.3",
     "vite": "^5.4.19",
     "vitest": "^3.2.4",
@@ -46,6 +48,7 @@
   },
   "dependencies": {
     "@primeuix/themes": "^1.2.1",
+    "@retroachievements/api": "^2.6.0",
     "@sentry/electron": "^6.11.0",
     "@sentry/vue": "^9.46.0",
     "crc-32": "^1.2.2",
