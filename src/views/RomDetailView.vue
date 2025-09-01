@@ -3,14 +3,7 @@
     <Card class="rom-details__card">
       <template #title>
         <div class="rom-details__title">
-          <span class="rom-details__title-text"
-            >{{ rom.displayName
-            }}<i
-              class="rom-details__verified pi pi-verified"
-              v-if="rom.verified"
-              v-tooltip="'Verified ROM file'"
-            ></i
-          ></span>
+          <span class="rom-details__title-text">{{ rom.displayName }}</span>
           <div class="rom-details__title-actions">
             <Button
               severity="secondary"
@@ -25,7 +18,20 @@
           </div>
         </div>
       </template>
-      <template #subtitle>{{ systemDisplayName }}</template>
+      <template #subtitle>
+        <div class="rom-details__subtitle">
+          <div class="rom-details__subtitle-text">{{ systemDisplayName }}</div>
+          <div class="rom-details__badges">
+            <Tag
+              v-if="rom.verified"
+              v-tooltip="'Verified ROM with RetroAchievements support'"
+              icon="pi pi-verified"
+              size="small"
+              value="Verified"
+            />
+          </div>
+        </div>
+      </template>
       <template #content>
         <div class="rom-details__content">
           <ul class="rom-details__metadata">
@@ -78,6 +84,7 @@
 import { computed, ref } from "vue";
 import Button from "primevue/button";
 import Card from "primevue/card";
+import Tag from "primevue/tag";
 import { useToast } from "primevue/usetoast";
 import { useRomStore } from "@/stores";
 import { getSystemDisplayName } from "@/utils/systems";
@@ -244,22 +251,23 @@ function formatDatetime(ts: number): string {
     }
   }
 
-  &__verified {
-    color: var(--primary-color);
-    margin-left: 8px;
+  &__subtitle {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
   }
 
   &__content {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-top: var(--space-6);
   }
 
   &__metadata {
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-top: 20px;
 
     &-item {
       display: flex;
