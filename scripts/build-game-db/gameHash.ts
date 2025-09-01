@@ -7,7 +7,8 @@ export function createGamesHashMap(games: GameList): GamesHashMap {
 
   games.forEach((game, gameIndex) => {
     game?.hashes?.forEach((hash) => {
-      hashMap[hash] = gameIndex;
+      // Force to lowercase for consistency since I've seen mixed case hashes in RA data.
+      hashMap[hash.toLowerCase()] = gameIndex;
     });
   });
 
