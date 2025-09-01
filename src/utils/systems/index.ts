@@ -1,6 +1,23 @@
 import { SYSTEM_REGISTRY } from "./systemRegistry";
 import type { SystemType, SystemCode, SystemInfo } from "@/types/system";
 
+const RA_SYSTEM_MAPPING: Record<number, SystemCode> = {
+  1: "genesis", // "Genesis/Mega Drive"
+  2: "n64", // "Nintendo 64"
+  3: "snes", // "SNES/Super Famicom"
+  4: "gb", // "Game Boy"
+  5: "gba", // "Game Boy Advance"
+  6: "gbc", // "Game Boy Color"
+  7: "nes", // "NES/Famicom"
+  11: "sms", // "Master System"
+  13: "lynx", // "Atari Lynx"
+  14: "ngp", // "Neo Geo Pocket"
+  15: "gg", // "Game Gear"
+  18: "nds", // "Nintendo DS"
+  25: "atari2600", // "Atari 2600"
+  27: "arcade", // "Arcade"
+  28: "vb", // "Virtual Boy"
+};
 const systems = Object.values(SYSTEM_REGISTRY);
 
 export function getSystemByExtension(
@@ -36,6 +53,12 @@ export function determineSystemFromExtension(
   }
 
   return system.code;
+}
+
+export function determineSystemFromRAConsoleId(
+  consoleId: number,
+): SystemCode | null {
+  return RA_SYSTEM_MAPPING[consoleId] || null;
 }
 
 /**

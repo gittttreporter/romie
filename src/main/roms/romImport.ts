@@ -3,7 +3,10 @@ import log from "electron-log/main";
 import fs from "fs/promises";
 import { v4 as uuidv4 } from "uuid";
 import * as Sentry from "@sentry/electron/main";
-import { determineSystemFromExtension } from "@/utils/systems";
+import {
+  determineSystemFromExtension,
+  determineSystemFromRAConsoleId,
+} from "@/utils/systems";
 import { RomProcessingError } from "@/errors";
 import {
   extractRegionFromFilename,
@@ -12,7 +15,10 @@ import {
   copyRomToLibrary,
 } from "./romUtils";
 import { addRom } from "./romDatabase";
-import type { Rom } from "../../types/rom";
+import { lookupRomByHash, unloadHashDatabase } from "./romLookup";
+
+import type { Rom } from "@/types/rom";
+import type { SystemCode } from "@/types/system";
 
 export async function processRomFile(
   filePath: string,
@@ -34,90 +40,120 @@ export async function processRomFile(
       log.debug(`File extension: ${fileExtension}`);
 
       try {
-    log.info(`[${logSource}] Processing ROM file: ${originalFilename}`);
+        log.info(`[${logSource}] Processing ROM file: ${originalFilename}`);
 
-    // Determine console from file extension
-    log.debug("Determining system from extension");
-    const system = determineSystemFromExtension(fileExtension);
-    log.debug(`Detected system: ${system}`);
+        // Determine console from checksum
+        // Generate hashes for deduplication and libretro lookups.
+        log.debug(`[${logSource}] Generating hashes for ROM file`);
+        const hashes = await Sentry.startSpan(
+          { op: "rom.hash", name: "Generate ROM Hashes" },
+          () => generateLibretroHashes(filePath),
+        );
+        log.debug(
+          `[${logSource}] Generated hashes: MD5=${hashes.md5?.substring(0, 8)}..., SHA1=${hashes.sha1?.substring(0, 8)}...`,
+        );
 
-    // Extract region tag from filename e.g. (USA), (JPN) fallback: "Unknown"
-    log.debug(`[${logSource}] Extracting region from filename`);
-    const region = extractRegionFromFilename(originalFilename);
-    log.debug(`[${logSource}] Detected region: ${region}`);
+        // Attempt to identify game and system from file hash.
+        // If no match by hash, fallback to extension-based detection and filename cleaning.
+        const game = await lookupRomByHash(hashes.md5);
+        let system: SystemCode;
+        let displayName: string;
+        let verified = false;
 
-    // Create displayName by stripping: region tag, dump tags ([!], [v1.1]), punctuation
-    const displayName = cleanDisplayName(originalFilename);
-    log.debug(`[${logSource}] Clean display name: ${displayName}`);
+        if (game) {
+          log.debug(
+            `[${logSource}] Found matching game in database: ${game.title} (${game.consoleName})`,
+          );
+          displayName = game.title;
+          system =
+            determineSystemFromRAConsoleId(game.consoleId) ||
+            determineSystemFromExtension(fileExtension);
+          verified = true;
+        } else {
+          log.warn(
+            `[${logSource}] No matching game found in database for hash.`,
+          );
 
-    // Generate hashes for deduplication and libretro lookups.
-    log.debug(`[${logSource}] Generating hashes for ROM file`);
-    const hashes = await Sentry.startSpan(
-      { op: "rom.hash", name: "Generate ROM Hashes" },
-      () => generateLibretroHashes(filePath)
-    );
-    log.debug(
-      `[${logSource}] Generated hashes: MD5=${hashes.md5?.substring(0, 8)}..., SHA1=${hashes.sha1?.substring(0, 8)}...`,
-    );
+          // Determine console from file extension
+          log.debug(`[${logSource}] Determining system from extension"`);
+          system = determineSystemFromExtension(fileExtension);
+          log.debug(`[${logSource}]Detected system: ${system}`);
 
-    // Get file size
-    log.debug(`[${logSource}] Getting file statistics`);
-    const stats = await fs.stat(filePath);
-    const size = stats.size;
-    log.debug(
-      `[${logSource}] File size: ${(size / 1024 / 1024).toFixed(2)} MB`,
-    );
+          // Create displayName by stripping: region tag, dump tags ([!], [v1.1]), punctuation
+          displayName = cleanDisplayName(originalFilename);
+          log.debug(`[${logSource}] Clean display name: ${displayName}`);
+        }
 
-    // Copy to managed library if imported.
-    let savedLocation = filePath;
-    if (source === "import") {
-      // Copy file to target location
-      log.debug(`[${logSource}] Copying ROM to library`);
-      savedLocation = await Sentry.startSpan(
-        { op: "rom.copy", name: "Copy ROM to Library" },
-        async () => (await copyRomToLibrary(filePath, originalFilename)).toString()
-      );
-      log.debug(`[${logSource}] ROM copied to: ${savedLocation}`);
-    }
+        // Extract region tag from filename e.g. (USA), (JPN) fallback: "Unknown"
+        log.debug(`[${logSource}] Extracting region from filename`);
+        const region = extractRegionFromFilename(originalFilename);
+        log.debug(`[${logSource}] Detected region: ${region}`);
 
-    // Create metadata object
-    const now = Date.now();
-    const metadata: Rom = {
-      id: uuidv4(),
-      system,
-      displayName,
-      region,
-      filename: originalFilename, // TODO: consider renaming to savedFilename
-      originalFilename, // TODO: consider if we need both filename and originalFilename
-      filePath: savedLocation,
-      source,
-      size,
-      importedAt: now,
-      lastUpdated: now,
-      tags: [],
-      notes: "",
-      ...hashes,
-    };
+        // Get file size
+        log.debug(`[${logSource}] Getting file statistics`);
+        const stats = await fs.stat(filePath);
+        const size = stats.size;
+        log.debug(
+          `[${logSource}] File size: ${(size / 1024 / 1024).toFixed(2)} MB`,
+        );
 
-    // Update ROM database
-    await Sentry.startSpan(
-      { op: "rom.database", name: "Add ROM to Database" },
-      () => addRom(metadata)
-    );
+        // Copy to managed library if imported.
+        let savedLocation = filePath;
+        if (source === "import") {
+          // Copy file to target location
+          log.debug(`[${logSource}] Copying ROM to library`);
+          savedLocation = await Sentry.startSpan(
+            { op: "rom.copy", name: "Copy ROM to Library" },
+            async () =>
+              (await copyRomToLibrary(filePath, originalFilename)).toString(),
+          );
+          log.debug(`[${logSource}] ROM copied to: ${savedLocation}`);
+        }
 
-    span.setAttributes({
-      "rom.system": system,
-      "rom.size_mb": Math.round((size / 1024 / 1024) * 100) / 100,
-    });
+        // Create metadata object
+        const now = Date.now();
+        const metadata: Rom = {
+          id: uuidv4(),
+          system,
+          displayName,
+          region,
+          filename: originalFilename, // TODO: consider renaming to savedFilename
+          originalFilename, // TODO: consider if we need both filename and originalFilename
+          filePath: savedLocation,
+          source,
+          size,
+          importedAt: now,
+          lastUpdated: now,
+          tags: [],
+          notes: "",
+          favorite: false,
+          verified,
+          ...hashes,
+        };
 
-    log.info(
-      `[${logSource}] Successfully processed ROM: ${displayName} (${system})`,
-    );
-    return metadata;
+        // Update ROM database
+        await Sentry.startSpan(
+          { op: "rom.database", name: "Add ROM to Database" },
+          () => addRom(metadata),
+        );
+
+        span.setAttributes({
+          "rom.system": system,
+          "rom.size_mb": Math.round((size / 1024 / 1024) * 100) / 100,
+        });
+
+        log.info(
+          `[${logSource}] Successfully processed ROM: ${displayName} (${system})`,
+        );
+        unloadHashDatabase();
+
+        return metadata;
       } catch (error) {
         span.setStatus({ code: 2, message: "ROM processing failed" });
-        span.recordException(error instanceof Error ? error : new Error(String(error)));
-        
+        span.recordException(
+          error instanceof Error ? error : new Error(String(error)),
+        );
+
         log.error(
           `[${logSource}] Failed to process ROM file: ${originalFilename}`,
           error,
@@ -132,6 +168,6 @@ export async function processRomFile(
 
         throw romError;
       }
-    }
+    },
   );
 }

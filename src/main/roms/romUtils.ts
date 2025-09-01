@@ -147,13 +147,11 @@ export async function generateLibretroHashes(filePath: string): Promise<{
     md5: crypto
       .createHash("md5")
       .update(fileBuffer)
-      .digest("hex")
-      .toUpperCase(),
+      .digest("hex"),
     sha1: crypto
       .createHash("sha1")
       .update(fileBuffer)
-      .digest("hex")
-      .toUpperCase(),
+      .digest("hex"),
   };
 }
 
