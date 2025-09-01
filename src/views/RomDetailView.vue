@@ -36,6 +36,21 @@
               <span class="rom-details__metadata-label">{{ label }}:</span>
               <span class="rom-details__metadata-value">{{ value }}</span>
             </li>
+            <li
+              class="rom-details__metadata-item rom-details__metadata-item--hash"
+            >
+              <span class="rom-details__metadata-label">MD5:</span>
+              <div class="rom-details__hash-container">
+                <code class="rom-details__hash-value">{{ rom.md5 }}</code>
+                <Button
+                  icon="pi pi-copy"
+                  size="small"
+                  severity="secondary"
+                  variant="text"
+                  @click="copyHashToClipboard"
+                />
+              </div>
+            </li>
           </ul>
           <div class="rom-details__tags">
             <TagsEditor :tags="rom?.tags || []" @update="handleTagUpdate" />
@@ -150,6 +165,22 @@ async function handleDelete() {
   emit("delete");
 }
 
+async function copyHashToClipboard() {
+  if (!rom.value?.md5) return;
+
+  try {
+    await navigator.clipboard.writeText(rom.value.md5);
+    toast.add({
+      severity: "success",
+      summary: "Copied!",
+      detail: "MD5 hash copied to clipboard",
+      life: 2000,
+    });
+  } catch (error) {
+    console.error("Failed to copy hash:", error);
+  }
+}
+
 // Helpers for formatting
 function formatSize(size: number): string {
   if (size < 1024) return size + " bytes";
@@ -248,6 +279,15 @@ function formatDatetime(ts: number): string {
     &-value {
       font-size: 14px;
     }
+  }
+
+  &__hash-value {
+    font-family: var(--font-mono);
+    font-size: var(--font-size-xs);
+    background: var(--p-badge-secondary-background);
+    padding: 4px 6px;
+    border-radius: 4px;
+    word-break: break-all;
   }
 
   &__actions {
