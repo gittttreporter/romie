@@ -93,10 +93,9 @@ function handleRomClick(event: MouseEvent, rom: Rom) {
 .rom-list {
   height: 100%;
   overflow: auto;
-  padding: 0;
-  margin: 0 8px;
+  padding: 0 8px;
+  margin: 0;
   user-select: none;
-
   display: flex;
   flex-direction: column;
   gap: var(--p-list-gap);

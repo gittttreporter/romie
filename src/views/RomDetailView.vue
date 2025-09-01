@@ -3,7 +3,14 @@
     <Card class="rom-details__card">
       <template #title>
         <div class="rom-details__title">
-          <span>{{ rom.displayName }}</span>
+          <span class="rom-details__title-text"
+            >{{ rom.displayName
+            }}<i
+              class="rom-details__verified pi pi-verified"
+              v-if="rom.verified"
+              v-tooltip="'Verified ROM file'"
+            ></i
+          ></span>
           <div class="rom-details__title-actions">
             <Button
               severity="secondary"
@@ -204,6 +211,11 @@ function formatDatetime(ts: number): string {
     &-actions {
       align-self: flex-start;
     }
+  }
+
+  &__verified {
+    color: var(--primary-color);
+    margin-left: 8px;
   }
 
   &__content {
