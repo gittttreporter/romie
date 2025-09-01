@@ -11,11 +11,12 @@
 import fs from "fs";
 import path from "path";
 import "dotenv/config";
+import { type GameList } from "@retroachievements/api";
 import { fetchSystems, fetchGamesForSystem } from "./gameFetch";
 import { createGamesHashMap } from "./gameHash";
 
 const { log } = console;
-const DATA_DIR = "src/data/games/hashes";
+const DATA_DIR = "src/data/ra";
 
 // Ensure data directory exists
 if (!fs.existsSync(DATA_DIR)) {
@@ -25,6 +26,7 @@ if (!fs.existsSync(DATA_DIR)) {
 async function buildGameDatabase() {
   log("[BUILD] Starting game hash database build...");
   const systems = await fetchSystems();
+  const games: GameList = [];
   log(`[BUILD] Found ${systems.length} system(s) to process}`);
 
   // Sequentially fetch game data for all systems. This is intentionally not parallel
@@ -34,17 +36,18 @@ async function buildGameDatabase() {
       `[${index + 1}/${systems.length}] Processing: ${system.name} (ID: ${system.id})`,
     );
     const gamesForSystem = await fetchGamesForSystem(system.id);
-    const hashMaps = createGamesHashMap(gamesForSystem);
-
-    hashMaps.forEach((map) => {
-      const hashFile = path.join(DATA_DIR, `game-hashes-${map.systemId}.json`);
-      fs.writeFileSync(hashFile, JSON.stringify(map, null, 2));
-
-      log(
-        `[WRITE] ${map.games.length} games, ${Object.keys(map.hashMap).length} hashes -> ${path.basename(hashFile)}`,
-      );
-    });
+    games.push(...gamesForSystem);
   }
+
+  // Create a single large hash map for all systems. For now, I'm not sharding by system
+  // to keep things simple. If memory usage becomes a concern, I'll revisit this.
+  log(`[BUILD] Creating hash map for ${games.length} total games...`);
+  const hashMap = createGamesHashMap(games);
+  const hashFile = path.join(DATA_DIR, `all-games.json`);
+  fs.writeFileSync(hashFile, JSON.stringify(hashMap, null, 2));
+  log(
+    `[WRITE] ${games.length} games, ${Object.values(hashMap.hashMap).length} hashes -> ${path.basename(hashFile)}`,
+  );
 }
 
 // Run the build process

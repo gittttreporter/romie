@@ -11,8 +11,8 @@ import {
 } from "@retroachievements/api";
 
 const { log } = console;
-const DATA_DIR = "src/data/games";
-const SYSTEMS_FILE = path.join(DATA_DIR, "systems.json");
+const DATA_DIR = "src/data/ra";
+const SYSTEMS_FILE = path.join(DATA_DIR, "all-systems.json");
 const { RA_USERNAME, RA_API_KEY } = process.env;
 
 // Rate limiting: RA doesn't publish exact limits, but we've hit 429 after ~30 systems.
