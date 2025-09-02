@@ -3,6 +3,8 @@ import type { Rom, RomDatabaseStats } from "./rom";
 import type { Device, StorageDevice } from "@/types/device";
 import { AppSettings, RetroAchievementsConfig } from "./settings";
 
+import type { UserProfile } from "@retroachievements/api";
+
 export type RomImportResult = {
   canceled: boolean;
   imported: Rom[];
@@ -53,6 +55,7 @@ export interface RetroAchievementsApi {
   setConfig(config: RetroAchievementsConfig): Promise<void>;
   getConfig(): Promise<RetroAchievementsConfig | null>;
   removeConfig(): Promise<void>;
+  getUserProfile(): Promise<UserProfile>;
 }
 
 export interface SyncOptions {

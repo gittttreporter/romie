@@ -9,7 +9,7 @@
       maxWidth: '1000px',
       maxHeight: '700px',
     }"
-    @show="loadSettings"
+    @show="handleShow"
   >
     <div class="settings-modal">
       <!-- Appearance Section -->
@@ -237,11 +237,7 @@ async function saveRaConfig() {
       username: raUsername.value,
       apiKey: raApiKey.value,
     });
-
-    connectionStatus.value = {
-      label: "Connected",
-      severity: "success",
-    };
+    testRaConnection();
 
     hasUnsavedChanges.value = false;
   } catch (error) {
@@ -255,6 +251,45 @@ async function saveRaConfig() {
     });
   } finally {
     saving.value = false;
+  }
+}
+
+async function testRaConnection() {
+  connectionStatus.value = {
+    label: "Checking authentication...",
+    severity: "secondary",
+  };
+
+  try {
+    const profile = await window.ra.getUserProfile();
+
+    if (profile) {
+      console.log(profile);
+      connectionStatus.value = {
+        label: "Connected",
+        severity: "success",
+      };
+    } else {
+      connectionStatus.value = {
+        label: "Invalid Credentials",
+        severity: "danger",
+      };
+    }
+  } catch (error) {
+    log.error("Failed to test RA connection:", error);
+    connectionStatus.value = {
+      label: "Connection Error",
+      severity: "danger",
+    };
+  }
+}
+
+async function handleShow() {
+  // Reload settings to ensure the latest values are displayed
+  await loadSettings();
+
+  if (raEnabled.value) {
+    testRaConnection();
   }
 }
 
