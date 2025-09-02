@@ -9,7 +9,6 @@ import DeviceAddView from "@/views/DeviceAddView.vue";
 import DeviceView from "@/views/DeviceView.vue";
 import RomDetailView from "@/views/RomDetailView.vue";
 import RomImportView from "@/views/RomImportView.vue";
-import SettingsView from "@/views/SettingsView.vue";
 
 const routes = [
   {
@@ -53,11 +52,6 @@ const routes = [
     name: "system-detail",
     component: SystemView,
     props: true,
-  },
-  {
-    path: "/settings",
-    name: "settings",
-    component: SettingsView,
   },
 ];
 

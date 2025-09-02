@@ -6,6 +6,8 @@ import { init } from "@sentry/electron/renderer";
 import type {
   RomApi,
   DeviceApi,
+  SettingsApi,
+  RetroAchievementsApi,
   SyncApi,
   SyncOptions,
   SyncStatus,
@@ -13,6 +15,7 @@ import type {
 } from "@/types/electron-api";
 import type { Rom } from "@/types/rom";
 import type { Device } from "@/types/device";
+import type { AppSettings, RetroAchievementsConfig } from "@/types/settings";
 import { SENTRY_DSN } from "./sentry.config";
 
 if (process.env.NODE_ENV !== "development") {
@@ -67,6 +70,19 @@ const syncApi: SyncApi = {
   },
 };
 
+const settingsApi: SettingsApi = {
+  get: () => ipcRenderer.invoke("settings:get"),
+  update: (data: Partial<AppSettings>) =>
+    ipcRenderer.invoke("settings:update", data),
+};
+
+const retroAchievementsApi: RetroAchievementsApi = {
+  setConfig: (config: RetroAchievementsConfig) =>
+    ipcRenderer.invoke("ra:setConfig", config),
+  getConfig: () => ipcRenderer.invoke("ra:getConfig"),
+  removeConfig: () => ipcRenderer.invoke("ra:removeConfig"),
+};
+
 interface DarkModeApi {
   onChange: (callback: (value: boolean) => void) => () => void;
   value: () => Promise<boolean>;
@@ -103,5 +119,7 @@ contextBridge.exposeInMainWorld("rom", romApi);
 contextBridge.exposeInMainWorld("device", deviceApi);
 contextBridge.exposeInMainWorld("sync", syncApi);
 contextBridge.exposeInMainWorld("util", utilApi);
+contextBridge.exposeInMainWorld("settings", settingsApi);
+contextBridge.exposeInMainWorld("ra", retroAchievementsApi);
 
 // Note: Global Window interface is declared in src/types/electron.d.ts

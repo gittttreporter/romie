@@ -34,6 +34,14 @@
         aria-label="Filters"
         @click="toggleFilters"
       />
+      <Button
+        class="rom-list-layout__header-item"
+        icon="pi pi-cog"
+        size="small"
+        severity="secondary"
+        aria-label="Filters"
+        @click="settingsModal.show()"
+      />
     </div>
     <div v-if="showFilters" class="rom-list-layout__filters">
       <Select
@@ -76,11 +84,13 @@
         <slot name="rom-details"></slot>
       </div>
     </div>
+    <AppSettingsModal ref="settingsModal" />
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from "vue";
+import { ref, computed, onMounted, defineAsyncComponent } from "vue";
+import Dialog from "primevue/dialog";
 import Button from "primevue/button";
 import SelectButton from "primevue/selectbutton";
 import Select from "primevue/select";
@@ -91,6 +101,7 @@ import InputText from "primevue/inputtext";
 import { useRomStore } from "@/stores";
 import RomList from "@/components/RomList.vue";
 import { getSystemDisplayName } from "@/utils/systems";
+import AppSettingsModal from "@/components/AppSettingsModal.vue";
 
 import type { Rom } from "@/types/rom";
 import type { SystemCode } from "@/types/system";
@@ -104,6 +115,7 @@ const props = defineProps<{
 const romStore = useRomStore();
 const searchQuery = ref("");
 const showFilters = ref(false);
+const settingsModal = ref();
 const filterBySystem = ref([]);
 const filterByRegion = ref([]);
 const filterByVerified = ref("");

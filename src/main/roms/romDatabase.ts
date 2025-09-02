@@ -10,6 +10,7 @@ import { fileExists } from "./romUtils";
 import type { Low } from "lowdb";
 import type { Rom, RomDatabase, RomDatabaseStats, TagStats } from "@/types/rom";
 import type { Device } from "@/types/device";
+import type { AppSettings, RetroAchievementsConfig } from "@/types/settings";
 
 const baseDir = app.getPath("userData");
 const romDir = path.join(baseDir, "roms");
@@ -41,7 +42,7 @@ async function loadDatabase(): Promise<void> {
         log.info(`[ROM DB] Starting to load database from ${romDbPath}`);
 
         loadDatabasePromise = JSONFilePreset<RomDatabase>(romDbPath, {
-          version: "2.0.0",
+          version: "3.0.0",
           created: now,
           lastUpdated: now,
           stats: {
@@ -52,6 +53,10 @@ async function loadDatabase(): Promise<void> {
           },
           roms: [],
           devices: [],
+          settings: {
+            theme: "system",
+          },
+          integrations: {},
         });
         database = await loadDatabasePromise;
 
@@ -76,17 +81,19 @@ async function loadDatabase(): Promise<void> {
                   rom.lastUpdated = now;
                 });
               });
-            }
+            },
           );
         }
         loadDatabasePromise = null;
         log.info(`[ROM DB] Database loaded successfully`);
       } else {
-        log.debug(`[ROM DB] Load already in progress, awaiting existing operation`);
+        log.debug(
+          `[ROM DB] Load already in progress, awaiting existing operation`,
+        );
         await loadDatabasePromise;
         log.info(`[ROM DB] Load operation completed`);
       }
-    }
+    },
   );
 }
 
@@ -160,7 +167,7 @@ export async function addRom(rom: Rom): Promise<void> {
         span.setAttributes({
           "rom.duplicate": true,
         });
-        
+
         log.warn(
           `Duplicate ROM rejected: ${rom.originalFilename} (matches ${existing.originalFilename})`,
         );
@@ -173,14 +180,14 @@ export async function addRom(rom: Rom): Promise<void> {
         data.roms.push(rom);
         data.stats = getDatabaseStats(data.roms);
       });
-      
+
       span.setAttributes({
         "rom.duplicate": false,
         "db.total_roms_after": db.data.roms.length,
       });
-      
+
       log.info(`ROM added: ${rom.originalFilename}`);
-    }
+    },
   );
 }
 
@@ -236,10 +243,15 @@ export async function removeRomById(id: string): Promise<void> {
         }
       } catch (err: any) {
         span.recordException(err);
-        span.setAttributes({ "file.deleted": false, "file.delete_error": true });
-        log.warn(`Failed to delete ROM file (${storedFilePath}): ${err.message}`);
+        span.setAttributes({
+          "file.deleted": false,
+          "file.delete_error": true,
+        });
+        log.warn(
+          `Failed to delete ROM file (${storedFilePath}): ${err.message}`,
+        );
       }
-    }
+    },
   );
 }
 
@@ -283,7 +295,7 @@ export async function updateRom(
         data.stats = getDatabaseStats(data.roms);
         data.lastUpdated = now;
       });
-    }
+    },
   );
 }
 
@@ -309,7 +321,10 @@ export async function addDevice(candidate: Device): Promise<Device> {
       attributes: {
         "device.profile_id": candidate.profileId,
         "device.has_mount": !!candidate.deviceInfo.mount,
-        "device.size_gb": candidate.deviceInfo.size ? Math.round((candidate.deviceInfo.size / 1024 / 1024 / 1024) * 100) / 100 : 0,
+        "device.size_gb": candidate.deviceInfo.size
+          ? Math.round((candidate.deviceInfo.size / 1024 / 1024 / 1024) * 100) /
+            100
+          : 0,
       },
     },
     async (span) => {
@@ -348,7 +363,7 @@ export async function addDevice(candidate: Device): Promise<Device> {
       });
 
       return device;
-    }
+    },
   );
 }
 
@@ -356,4 +371,71 @@ export async function listDevices(): Promise<Device[]> {
   const db = await ensureDatabase();
 
   return structuredClone(db.data.devices);
+}
+
+//= User settings =
+export async function getAppSettings() {
+  const db = await ensureDatabase();
+
+  return structuredClone(db.data.settings);
+}
+
+export async function updateAppSettings(settingsUpdate: Partial<AppSettings>) {
+  const db = await ensureDatabase();
+  const now = Date.now();
+
+  await db.update((data) => {
+    data.settings = {
+      ...data.settings,
+      ...settingsUpdate,
+    };
+    data.lastUpdated = now;
+  });
+}
+
+//= Integrations =
+
+export async function addRetroAchievementsConfig(
+  config: RetroAchievementsConfig,
+) {
+  const { username, apiKey } = config;
+
+  // Validate params
+  if (!username || !apiKey) {
+    throw new Error("Both username and API key are required");
+  }
+  // Validate api key format
+  if (!/^[a-zA-Z0-9]{32}$/.test(config.apiKey)) {
+    throw new Error("Invalid API key format");
+  }
+
+  // Store the api key in OS keychain
+  // TODO: Implement keychain storage
+
+  const db = await ensureDatabase();
+  const now = Date.now();
+
+  await db.update((data) => {
+    data.integrations.retroachievements = { username, apiKey };
+    data.lastUpdated = now;
+  });
+}
+
+export async function getRetoroAchievementsConfig(): Promise<RetroAchievementsConfig | null> {
+  const db = await ensureDatabase();
+  const { retroachievements } = db.data.integrations;
+
+  return retroachievements ? structuredClone(retroachievements) : null;
+}
+
+export async function removeRetroAchievementsConfig() {
+  const db = await ensureDatabase();
+  const now = Date.now();
+
+  await db.update((data) => {
+    if (data.integrations.retroachievements) {
+      delete data.integrations.retroachievements;
+    }
+    data.lastUpdated = now;
+  });
 }

@@ -1,5 +1,6 @@
 import type { SystemCode } from "@/types/system";
 import type { Device } from "@/types/device";
+import type { AppSettings, AppIntegrations } from "@/types/settings";
 
 export type RegionCode =
   | "USA"
@@ -65,4 +66,6 @@ export interface RomDatabase {
   stats: RomDatabaseStats;
   roms: Rom[];
   devices: Device[];
+  settings: AppSettings;
+  integrations: Partial<AppIntegrations>;
 }

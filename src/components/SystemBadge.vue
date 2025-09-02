@@ -49,6 +49,7 @@ const textColor = computed(() => getContrastYIQ(systemColorComputed.value));
 <style scoped lang="less">
 .system-badge {
   display: inline-block;
+  flex-shrink: 0;
   width: 3.6em; // Fits up to 4 letters e.g., "2600"
   min-width: 2.2em;
   font-size: 0.65em;

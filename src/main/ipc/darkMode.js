@@ -1,17 +1,8 @@
-import { ipcMain, nativeTheme } from "electron";
+import { ipcMain } from "electron";
+import { getCurrentTheme, toggleTheme, setSystemTheme } from "@main/themes";
 
 export function registerDarkModeIpc() {
-  ipcMain.handle("dark-mode:value", () => {
-    return nativeTheme.shouldUseDarkColors;
-  });
-  ipcMain.handle("dark-mode:toggle", () => {
-    nativeTheme.themeSource = nativeTheme.shouldUseDarkColors
-      ? "light"
-      : "dark";
-    return nativeTheme.shouldUseDarkColors;
-  });
-
-  ipcMain.handle("dark-mode:system", () => {
-    nativeTheme.themeSource = "system";
-  });
+  ipcMain.handle("dark-mode:value", getCurrentTheme);
+  ipcMain.handle("dark-mode:toggle", toggleTheme);
+  ipcMain.handle("dark-mode:system", setSystemTheme);
 }

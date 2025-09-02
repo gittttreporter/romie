@@ -6,6 +6,7 @@ import { init, setUser } from "@sentry/electron/main";
 import { registerAllIpc } from "@main/ipc";
 import { SENTRY_DSN, SENTRY_SAMPLE_RATE } from "./sentry.config";
 import { getInstanceId } from "./main/analytics";
+import { initializeTheme } from "./main/themes";
 
 if (process.env.NODE_ENV !== "development") {
   init({
@@ -23,6 +24,8 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 1000,
     height: 600,
+    minWidth: 900,
+    minHeight: 480,
     // Remove the window frame
     frame: "false",
     // Hide the title bar but keep traffic lights on MacOS
@@ -87,6 +90,10 @@ app.whenReady().then(async () => {
   log.debug(`Analytics instance ID: ${instanceId}`);
 
   registerAllIpc();
+
+  // Initialize theme from saved settings
+  await initializeTheme();
+
   createWindow();
 
   // On OS X it's common to re-create a window in the app when the

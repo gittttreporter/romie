@@ -1,6 +1,7 @@
 import { SyncError } from "@/errors";
 import type { Rom, RomDatabaseStats } from "./rom";
 import type { Device, StorageDevice } from "@/types/device";
+import { AppSettings, RetroAchievementsConfig } from "./settings";
 
 export type RomImportResult = {
   canceled: boolean;
@@ -41,6 +42,17 @@ export interface DeviceApi {
   update(id: string, deviceUpdate: Partial<Device>): Promise<Device>;
   remove(id: string): Promise<void>;
   checkDeviceMount(deviceId: string): Promise<DeviceMountStatus>;
+}
+
+export interface SettingsApi {
+  get(): Promise<AppSettings>;
+  update(settingsUpdate: Partial<AppSettings>): Promise<AppSettings>;
+}
+
+export interface RetroAchievementsApi {
+  setConfig(config: RetroAchievementsConfig): Promise<void>;
+  getConfig(): Promise<RetroAchievementsConfig | null>;
+  removeConfig(): Promise<void>;
 }
 
 export interface SyncOptions {
