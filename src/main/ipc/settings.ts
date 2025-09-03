@@ -6,7 +6,10 @@ import {
   getRetoroAchievementsConfig,
   removeRetroAchievementsConfig,
 } from "@main/roms/romDatabase";
-import { getUserProfile } from "@main/retroachievements";
+import {
+  getUserProfile,
+  getGameInfoAndUserProgress,
+} from "@main/retroachievements";
 import { AppSettings, RetroAchievementsConfig } from "@/types/settings";
 
 export function registerSettingsIpc() {
@@ -24,4 +27,7 @@ export function registerSettingsIpc() {
   ipcMain.handle("ra:getConfig", (_) => getRetoroAchievementsConfig());
   ipcMain.handle("ra:removeConfig", (_) => removeRetroAchievementsConfig());
   ipcMain.handle("ra:getUserProfile", () => getUserProfile());
+  ipcMain.handle("ra:getGameInfoAndUserProgress", (_, romHash: string) =>
+    getGameInfoAndUserProgress(romHash),
+  );
 }

@@ -15,11 +15,7 @@ import type {
 } from "@/types/electron-api";
 import type { Rom } from "@/types/rom";
 import type { Device } from "@/types/device";
-import type {
-  AppSettings,
-  RetroAchievementsConfig,
-  RetroAchievementsQuery,
-} from "@/types/settings";
+import type { AppSettings, RetroAchievementsConfig } from "@/types/settings";
 import { SENTRY_DSN } from "./sentry.config";
 
 if (process.env.NODE_ENV !== "development") {
@@ -86,6 +82,8 @@ const retroAchievementsApi: RetroAchievementsApi = {
   getConfig: () => ipcRenderer.invoke("ra:getConfig"),
   removeConfig: () => ipcRenderer.invoke("ra:removeConfig"),
   getUserProfile: () => ipcRenderer.invoke("ra:getUserProfile"),
+  getGameInfoAndUserProgress: (romHash: string) =>
+    ipcRenderer.invoke("ra:getGameInfoAndUserProgress", romHash),
 };
 
 interface DarkModeApi {

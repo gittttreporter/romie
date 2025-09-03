@@ -1,10 +1,13 @@
 import { defineStore } from "pinia";
 import log from "electron-log/renderer";
+import type { GameInfoAndUserProgress } from "@retroachievements/api";
 import type { Rom, RomDatabaseStats } from "@/types/rom";
 import type { RomImportResult } from "@/types/electron-api";
 
 interface RomState {
   roms: Rom[];
+  /* Extended metadata about the ROM pull from RA available for verified ROMs */
+  romMetadata: Record<string, GameInfoAndUserProgress | null>;
   stats: RomDatabaseStats;
   loading: boolean;
   error: string | null;
@@ -14,6 +17,7 @@ interface RomState {
 export const useRomStore = defineStore("roms", {
   state: (): RomState => ({
     roms: [],
+    romMetadata: {},
     stats: {
       totalRoms: 0,
       totalSizeBytes: 0,
@@ -51,6 +55,37 @@ export const useRomStore = defineStore("roms", {
         log.error(error);
       } finally {
         this.loading = false;
+      }
+    },
+    async loadMetadata(romId: string): Promise<GameInfoAndUserProgress | null> {
+      log.debug("Loading rom metadata..");
+
+      // TODO: Add cache invalidation strategy
+      if (this.romMetadata[romId] !== undefined) {
+        log.debug(`Rom metadata cache hit for ${romId}`);
+
+        return this.romMetadata[romId];
+      }
+
+      try {
+        const rom = this.getRomById(romId);
+        // Validate we have a verified ROM with a hash since these are the only ones
+        // that can be looked up on RA
+        if (!rom?.verified || !rom?.md5) {
+          log.warn(`Rom ${romId} not eligible for extended metadata`);
+          this.romMetadata[romId] = null;
+
+          return null;
+        }
+
+        const romMetadata = await window.ra.getGameInfoAndUserProgress(rom.md5);
+        this.romMetadata[romId] = romMetadata;
+        log.info("Loaded extended ROM metadata");
+
+        return romMetadata;
+      } catch (error) {
+        log.error(error);
+        throw error;
       }
     },
     async removeRom(id: string) {

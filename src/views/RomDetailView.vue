@@ -2,21 +2,13 @@
   <div v-if="rom" class="rom-details">
     <Card class="rom-details__card">
       <template #title>
-        <div class="rom-details__title">
-          <span class="rom-details__title-text">{{ rom.displayName }}</span>
-          <div class="rom-details__title-actions">
-            <Button
-              severity="secondary"
-              variant="text"
-              rounded
-              aria-label="Favorite"
-              :disabled="deleting"
-              :loading="updating"
-              :icon="rom.favorite ? 'pi pi-heart-fill' : 'pi pi-heart'"
-              @click="handleFavorite"
-            />
-          </div>
-        </div>
+        <RomTitle
+          :rom="rom"
+          :rom-metadata-extended="romMetadataExtended"
+          :disabled="deleting"
+          :updating="updating"
+          @favorite="handleFavorite"
+        />
       </template>
       <template #subtitle>
         <div class="rom-details__subtitle">
@@ -34,6 +26,13 @@
       </template>
       <template #content>
         <div class="rom-details__content">
+          <AchievementProgress
+            v-if="rom.verified"
+            :loading="loading"
+            :total="romMetadataExtended?.numAchievements"
+            :num-softcore="romMetadataExtended?.numAwardedToUser"
+            :num-hardcore="romMetadataExtended?.numAwardedToUserHardcore"
+          />
           <ul class="rom-details__metadata">
             <li
               class="rom-details__metadata-item"
@@ -81,14 +80,20 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, ref, watch } from "vue";
 import Button from "primevue/button";
 import Card from "primevue/card";
 import Tag from "primevue/tag";
+import Image from "primevue/image";
+import Skeleton from "primevue/skeleton";
 import { useToast } from "primevue/usetoast";
 import { useRomStore } from "@/stores";
 import { getSystemDisplayName } from "@/utils/systems";
 import TagsEditor from "@/components/TagsEditor.vue";
+import RomTitle from "@/components/RomTitle.vue";
+import AchievementProgress from "@/components/achievements/AchievementProgress.vue";
+
+import type { GameInfoAndUserProgress } from "@retroachievements/api";
 
 const props = defineProps<{
   romId: string;
@@ -102,6 +107,8 @@ const toast = useToast();
 
 const deleting = ref(false);
 const updating = ref(false);
+const loading = ref(false);
+const romMetadataExtended = ref<GameInfoAndUserProgress | null>(null);
 
 const rom = computed(() => romStore.getRomById(props.romId));
 const systemDisplayName = computed(() =>
@@ -118,6 +125,29 @@ const romMetadata = computed(() =>
     : [],
 );
 
+watch(
+  rom,
+  (newValue) => {
+    romMetadataExtended.value = null;
+
+    if (newValue?.verified) {
+      loadExtendedRomInfo(newValue.id);
+    }
+  },
+  { immediate: true },
+);
+
+async function loadExtendedRomInfo(romId: string) {
+  loading.value = true;
+  try {
+    romMetadataExtended.value = await romStore.loadMetadata(romId);
+  } catch (error) {
+    console.error("Failed to load extended ROM info:", error);
+  } finally {
+    loading.value = false;
+  }
+}
+
 async function handleTagUpdate(tags: string[]) {
   updating.value = true;
 
@@ -130,19 +160,18 @@ async function handleTagUpdate(tags: string[]) {
   }
 }
 
-async function handleFavorite() {
-  const favorite = !rom.value?.favorite;
+async function handleFavorite(value: boolean) {
   updating.value = true;
 
   try {
-    await romStore.updateRom(props.romId, { favorite });
+    await romStore.updateRom(props.romId, { favorite: value });
   } catch (error) {
     console.error("Failed to update favorite:", error);
   } finally {
     updating.value = false;
   }
 
-  emit("favorite", favorite);
+  emit("favorite", value);
 }
 
 async function handleDelete() {
@@ -241,20 +270,10 @@ function formatDatetime(ts: number): string {
     height: 100%;
   }
 
-  &__title {
+  &__subtitle {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    &-actions {
-      align-self: flex-start;
-    }
-  }
-
-  &__subtitle {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-2);
   }
 
   &__content {

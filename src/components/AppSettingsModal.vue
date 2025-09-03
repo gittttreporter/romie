@@ -264,7 +264,6 @@ async function testRaConnection() {
     const profile = await window.ra.getUserProfile();
 
     if (profile) {
-      console.log(profile);
       connectionStatus.value = {
         label: "Connected",
         severity: "success",

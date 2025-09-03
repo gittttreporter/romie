@@ -8,10 +8,13 @@ export async function initializeTheme(): Promise<void> {
     const settings = await getAppSettings();
     const theme = settings.theme || "system";
 
-    log.debug(`Initializing theme: ${theme}`);
+    log.debug(`[THEME] Initializing theme: ${theme}`);
     applyTheme(theme);
   } catch (error) {
-    log.warn("Failed to load theme settings, using system default:", error);
+    log.warn(
+      "[THEME] Failed to load theme settings, using system default:",
+      error,
+    );
     applyTheme("system");
   }
 }
