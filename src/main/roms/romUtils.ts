@@ -173,13 +173,14 @@ export async function copyRomToLibrary(
 }
 
 /**
- * CRC32 calculation using crc-32 library (libretro uses uppercase hex format)
+ * CRC32 calculation using crc-32 library
+ *
  * @param {Buffer} buffer - File buffer
- * @returns {string} CRC32 hash in uppercase hex
+ * @returns {string} CRC32 hash in hex
  */
 export function calculateCRC32(buffer: Buffer<ArrayBufferLike>): string {
   const crc = CRC32.buf(buffer);
-  return (crc >>> 0).toString(16).toUpperCase().padStart(8, "0");
+  return (crc >>> 0).toString(16).toLowerCase().padStart(8, "0");
 }
 
 /**

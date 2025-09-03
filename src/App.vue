@@ -4,6 +4,11 @@
   </AppLayout>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import AppLayout from "@/layouts/AppLayout.vue";
+import { useFeatureFlagStore } from "./stores";
+
+const ff = useFeatureFlagStore();
+
+ff.initialize();
 </script>

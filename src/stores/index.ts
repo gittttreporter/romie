@@ -11,3 +11,4 @@ export default pinia;
 export { useRomStore } from "./roms";
 export { useDeviceStore } from "./devices";
 export { useUIStore } from "./ui";
+export { useFeatureFlagStore } from "./featureFlags";

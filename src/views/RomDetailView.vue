@@ -7,6 +7,7 @@
           :rom-metadata-extended="romMetadataExtended"
           :disabled="deleting"
           :updating="updating"
+          :loading="loading"
           @favorite="handleFavorite"
         />
       </template>
@@ -27,7 +28,7 @@
       <template #content>
         <div class="rom-details__content">
           <AchievementProgress
-            v-if="rom.verified"
+            v-if="rom.verified && ff.retroAchievements"
             :loading="loading"
             :total="romMetadataExtended?.numAchievements"
             :num-softcore="romMetadataExtended?.numAwardedToUser"
@@ -87,7 +88,7 @@ import Tag from "primevue/tag";
 import Image from "primevue/image";
 import Skeleton from "primevue/skeleton";
 import { useToast } from "primevue/usetoast";
-import { useRomStore } from "@/stores";
+import { useRomStore, useFeatureFlagStore } from "@/stores";
 import { getSystemDisplayName } from "@/utils/systems";
 import TagsEditor from "@/components/TagsEditor.vue";
 import RomTitle from "@/components/RomTitle.vue";
@@ -103,6 +104,7 @@ const emit = defineEmits<{
   (e: "favorite", favorite: boolean): void;
 }>();
 const romStore = useRomStore();
+const ff = useFeatureFlagStore();
 const toast = useToast();
 
 const deleting = ref(false);
@@ -138,6 +140,8 @@ watch(
 );
 
 async function loadExtendedRomInfo(romId: string) {
+  if (!ff.retroAchievements) return;
+
   loading.value = true;
   try {
     romMetadataExtended.value = await romStore.loadMetadata(romId);

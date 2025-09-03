@@ -158,6 +158,7 @@ import Button from "primevue/button";
 import Tag from "primevue/tag";
 import Divider from "primevue/divider";
 import { useToast } from "primevue/usetoast";
+import { useFeatureFlagStore } from "@/stores";
 import type { AppTheme } from "@/types/settings";
 
 defineExpose({
@@ -170,6 +171,7 @@ defineExpose({
 });
 
 const toast = useToast();
+const ff = useFeatureFlagStore();
 const visible = ref(false);
 const saving = ref(false);
 
@@ -228,15 +230,15 @@ async function handleDarkModeChange() {
 
 async function saveRaConfig() {
   if (!raUsername.value || !raApiKey.value) return;
-
+  const raConfig = {
+    username: raUsername.value,
+    apiKey: raApiKey.value,
+  };
   saving.value = true;
 
   try {
-    // Save configuration first
-    await window.ra.setConfig({
-      username: raUsername.value,
-      apiKey: raApiKey.value,
-    });
+    await window.ra.setConfig(raConfig);
+    ff.setRetroAchievements(raConfig);
     testRaConnection();
 
     hasUnsavedChanges.value = false;
@@ -302,6 +304,7 @@ async function handleRaToggle() {
       raApiKey.value = "";
       connectionStatus.value = null;
       hasUnsavedChanges.value = false;
+      ff.setRetroAchievements(null);
     } catch (error) {
       console.error("Failed to remove RA configuration:", error);
     }
