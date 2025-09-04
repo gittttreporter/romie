@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
-import { app } from "electron";
+import { app, safeStorage } from "electron";
 import log from "electron-log/main";
 import * as Sentry from "@sentry/electron/main";
 import { JSONFilePreset } from "lowdb/node";
@@ -402,19 +402,35 @@ export async function addRetroAchievementsConfig(
   if (!username || !apiKey) {
     throw new Error("Both username and API key are required");
   }
-  // Validate api key format
-  if (!/^[a-zA-Z0-9]{32}$/.test(config.apiKey)) {
-    throw new Error("Invalid API key format");
+  // Validate api is not not obviously wrong
+  if (!apiKey.trim() || apiKey.includes(" ") || apiKey.length < 10) {
+    throw new Error("API key format appears invalid");
+  }
+  // Check if encryption is available on this system
+  if (!safeStorage.isEncryptionAvailable()) {
+    log.error("Secure storage not available on this system");
+    throw new Error(
+      "Secure storage is not available. Please ensure your system supports encryption.",
+    );
   }
 
-  // Store the api key in OS keychain
-  // TODO: Implement keychain storage
+  // Encrypt the API key before storing
+  let encryptedApiKey: Buffer;
+  try {
+    encryptedApiKey = safeStorage.encryptString(apiKey);
+  } catch (error) {
+    log.error("Failed to encrypt API key:", error);
+    throw new Error("Failed to encrypt API key for secure storage");
+  }
 
   const db = await ensureDatabase();
   const now = Date.now();
 
   await db.update((data) => {
-    data.integrations.retroachievements = { username, apiKey };
+    data.integrations.retroachievements = {
+      username,
+      apiKey: encryptedApiKey.toString("base64"),
+    };
     data.lastUpdated = now;
   });
 }
@@ -423,7 +439,24 @@ export async function getRetoroAchievementsConfig(): Promise<RetroAchievementsCo
   const db = await ensureDatabase();
   const { retroachievements } = db.data.integrations;
 
-  return retroachievements ? structuredClone(retroachievements) : null;
+  if (!retroachievements) {
+    return null;
+  }
+
+  // Decrypt the API key
+  let decryptedApiKey: string;
+  try {
+    const encryptedBuffer = Buffer.from(retroachievements.apiKey, "base64");
+    decryptedApiKey = safeStorage.decryptString(encryptedBuffer);
+  } catch (error) {
+    log.error("Failed to decrypt API key:", error);
+    throw new Error("Failed to decrypt stored API key");
+  }
+
+  return {
+    username: retroachievements.username,
+    apiKey: decryptedApiKey,
+  };
 }
 
 export async function removeRetroAchievementsConfig() {

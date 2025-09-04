@@ -57,7 +57,7 @@
             </div>
           </div>
 
-          <template v-if="raEnabled">
+          <template v-if="raEnabled && !ff.retroAchievements">
             <div class="setting-item">
               <div class="setting-item__info">
                 <label class="setting-item__label" for="ra-username"
@@ -103,31 +103,6 @@
             </div>
 
             <div class="setting-item">
-              <div class="setting-item__info">
-                <label class="setting-item__label">Connection Status</label>
-                <p class="setting-item__description">
-                  Status will be checked automatically when you save
-                </p>
-              </div>
-              <div class="setting-item__control">
-                <div class="connection-status">
-                  <Tag
-                    v-if="connectionStatus"
-                    :value="connectionStatus.label"
-                    :severity="connectionStatus.severity"
-                    size="small"
-                  />
-                  <span
-                    v-else-if="!raUsername || !raApiKey"
-                    class="connection-status__placeholder"
-                  >
-                    Enter credentials to test connection
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div class="setting-item">
               <div class="setting-item__info"></div>
               <div class="setting-item__control">
                 <Button
@@ -138,6 +113,37 @@
                   @click="saveRaConfig"
                 />
               </div>
+            </div>
+          </template>
+          <template v-else-if="raEnabled && ff.retroAchievements">
+            <div v-if="connectionStatus" class="setting-item">
+              <Message
+                v-if="connectionStatus.value"
+                :severity="connectionStatus.severity"
+                size="small"
+              >
+                <template #icon>
+                  <Avatar
+                    v-if="
+                      connectionStatus.value === 'connected' &&
+                      raProfile?.userPic
+                    "
+                    :image="`https://media.retroachievements.org${raProfile.userPic}`"
+                    shape="circle"
+                  />
+                  <i
+                    v-else
+                    :class="{
+                      'pi pi-spin pi-check':
+                        connectionStatus.value === 'connected',
+                      'pi pi-spin pi-spinner':
+                        connectionStatus.value === 'loading',
+                      'pi pi-times': connectionStatus.value === 'error',
+                    }"
+                  ></i>
+                </template>
+                <span>{{ connectionStatus.label }}</span>
+              </Message>
             </div>
           </template>
         </div>
@@ -157,9 +163,12 @@ import Password from "primevue/password";
 import Button from "primevue/button";
 import Tag from "primevue/tag";
 import Divider from "primevue/divider";
+import Message from "primevue/message";
+import Avatar from "primevue/avatar";
 import { useToast } from "primevue/usetoast";
 import { useFeatureFlagStore } from "@/stores";
 import type { AppTheme } from "@/types/settings";
+import type { UserProfile } from "@retroachievements/api";
 
 defineExpose({
   show() {
@@ -188,8 +197,11 @@ const raEnabled = ref(false);
 const hasUnsavedChanges = ref(false);
 const raUsername = ref("");
 const raApiKey = ref("");
+
+const raProfile = ref<UserProfile | null>(null);
 const connectionStatus = ref<{
   label: string;
+  value: "loading" | "connected" | "error" | "invalid";
   severity: "success" | "danger" | "warn" | "secondary";
 } | null>(null);
 
@@ -259,6 +271,7 @@ async function saveRaConfig() {
 async function testRaConnection() {
   connectionStatus.value = {
     label: "Checking authentication...",
+    value: "loading",
     severity: "secondary",
   };
 
@@ -267,19 +280,23 @@ async function testRaConnection() {
 
     if (profile) {
       connectionStatus.value = {
-        label: "Connected",
+        label: `Connected as ${profile.user}`,
+        value: "connected",
         severity: "success",
       };
+      raProfile.value = profile;
     } else {
       connectionStatus.value = {
-        label: "Invalid Credentials",
+        label: "Invalid credentials",
+        value: "invalid",
         severity: "danger",
       };
     }
   } catch (error) {
     log.error("Failed to test RA connection:", error);
     connectionStatus.value = {
-      label: "Connection Error",
+      label: "Connection error",
+      value: "error",
       severity: "danger",
     };
   }
