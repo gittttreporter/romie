@@ -1,5 +1,6 @@
 <template>
   <div class="page-layout">
+    <AppToolbar />
     <div class="page-layout__header">
       <h1>
         <slot name="title">
@@ -25,6 +26,7 @@
 </template>
 
 <script setup lang="ts">
+import AppToolbar from "@/components/AppToolbar.vue";
 const props = defineProps<{
   title?: string;
   subtitle?: string;
@@ -33,9 +35,13 @@ const props = defineProps<{
 
 <style scoped lang="less">
 .page-layout {
-  padding: 2rem 0;
+  padding-bottom: var(--space-16);
   height: 100%;
   overflow: auto;
+
+  h1 {
+    margin-top: 0;
+  }
 
   h1,
   h3 {

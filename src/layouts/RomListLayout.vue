@@ -1,8 +1,9 @@
 <template>
   <div class="rom-list-layout">
-    <div class="rom-list-layout__header">
-      <div class="rom-list-layout__header-actions">
-        <!-- TODO: Add this back once grid view is implemented
+    <AppToolbar>
+      <template #actions>
+        <div class="rom-list-layout__header-actions">
+          <!-- TODO: Add this back once grid view is implemented
         <SelectButton
           v-model="listMode"
           :options="listModeOptions"
@@ -15,34 +16,31 @@
             <i :class="slotProps.option.icon"></i>
           </template>
         </SelectButton> -->
-      </div>
-      <IconField class="rom-list-layout__header-item">
-        <InputIcon>
-          <i class="pi pi-search" />
-        </InputIcon>
-        <InputText
-          v-model="searchQuery"
-          size="small"
-          :placeholder="searchPlaceholder"
-        />
-      </IconField>
-      <Button
-        class="rom-list-layout__header-item"
-        :icon="`pi pi-filter${showFilters ? '-slash' : ''}`"
-        size="small"
-        severity="secondary"
-        aria-label="Filters"
-        @click="toggleFilters"
-      />
-      <Button
-        class="rom-list-layout__header-item"
-        icon="pi pi-cog"
-        size="small"
-        severity="secondary"
-        aria-label="Filters"
-        @click="settingsModal.show()"
-      />
-    </div>
+        </div>
+      </template>
+      <template #search>
+        <div class="rom-list-layout__search">
+          <IconField class="rom-list-layout__header-item">
+            <InputIcon>
+              <i class="pi pi-search" />
+            </InputIcon>
+            <InputText
+              v-model="searchQuery"
+              size="small"
+              :placeholder="searchPlaceholder"
+            />
+          </IconField>
+          <Button
+            class="rom-list-layout__header-item"
+            :icon="`pi pi-filter${showFilters ? '-slash' : ''}`"
+            size="small"
+            severity="secondary"
+            aria-label="Filters"
+            @click="toggleFilters"
+          />
+        </div>
+      </template>
+    </AppToolbar>
     <div v-if="showFilters" class="rom-list-layout__filters">
       <Select
         v-model="filterByVerified"
@@ -84,7 +82,6 @@
         <slot name="rom-details"></slot>
       </div>
     </div>
-    <AppSettingsModal ref="settingsModal" />
   </div>
 </template>
 
@@ -100,8 +97,8 @@ import InputIcon from "primevue/inputicon";
 import InputText from "primevue/inputtext";
 import { useRomStore } from "@/stores";
 import RomList from "@/components/RomList.vue";
+import AppToolbar from "@/components/AppToolbar.vue";
 import { getSystemDisplayName } from "@/utils/systems";
-import AppSettingsModal from "@/components/AppSettingsModal.vue";
 
 import type { Rom } from "@/types/rom";
 import type { SystemCode } from "@/types/system";
@@ -115,7 +112,6 @@ const props = defineProps<{
 const romStore = useRomStore();
 const searchQuery = ref("");
 const showFilters = ref(false);
-const settingsModal = ref();
 const filterBySystem = ref([]);
 const filterByRegion = ref([]);
 const filterByVerified = ref("");
@@ -226,21 +222,10 @@ function getUniqueRomValues<T extends keyof Rom>(field: T) {
   display: flex;
   flex-direction: column;
 
-  &__header {
-    padding: 10px 16px;
+  &__search {
     display: flex;
     align-items: center;
     gap: 8px;
-
-    &-actions {
-      flex: 1;
-    }
-
-    /* Clickable header items need to be above the invisible drag region */
-    &-item {
-      z-index: var(--z-index-ui-elements);
-      -webkit-app-region: no-drag;
-    }
   }
 
   &__filters {

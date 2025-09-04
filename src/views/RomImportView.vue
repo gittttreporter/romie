@@ -1,10 +1,10 @@
 <template>
-  <div class="rom-import">
-    <div class="rom-import__header">
-      <h1>
-        ROM Import
-        <span class="subtitle">Upload ROM files to your library</span>
-      </h1>
+  <PageLayout
+    class="rom-import"
+    title="ROM Import"
+    subtitle="Upload ROM files to your library"
+  >
+    <template #actions>
       <div class="rom-import__actions">
         <Button
           class="rom-import__import-button"
@@ -29,68 +29,74 @@
           <strong>Supported file extensions:</strong> {{ supportedExtensions }}
         </div>
       </div>
-    </div>
-    <div v-if="isProcessing" class="rom-import__progress">
-      <span v-if="currentFile">
-        <i class="pi pi-file"></i>
-        Processing {{ currentFile }}...
-      </span>
-      <span v-else>Preparing files...</span>
-    </div>
-    <div v-if="!isProcessing && result" class="rom-import__results">
-      <div class="rom-import__results-summary">
-        <h3 v-if="result.successes > 0" class="rom-import__result-header">
-          <i class="pi pi-check-circle success-icon"></i>
-          {{ result.successes }} out of {{ result.total }} ROM{{
-            result.successes === 1 ? "" : "s"
-          }}
-          were added successfully
-        </h3>
-        <h3 v-else class="rom-import__result-header">
-          <i class="pi pi-times error-icon"></i>
-          No ROMs were imported successfully
-        </h3>
-      </div>
+    </template>
 
-      <div
-        v-if="result.warnings.length > 0"
-        class="rom-import__results-summary"
-      >
-        <h3 class="rom-import__result-header">
-          <i class="pi pi-exclamation-triangle warning-icon"></i>
-          {{ result.warnings.length }}
-          {{ result.warnings.length === 1 ? "duplicate" : "duplicates" }}
-          ignored
-          <span class="subtitle"
-            >Duplicates detected by file content check (MD5 hash)</span
-          >
-        </h3>
-        <div class="rom-import__result-content">
-          <ul>
-            <li v-for="message in result.warnings" :key="message">
-              {{ message }}
-            </li>
-          </ul>
+    <div class="rom-import__content">
+      <div v-if="isProcessing" class="rom-import__progress">
+        <span v-if="currentFile">
+          <i class="pi pi-file"></i>
+          Processing {{ currentFile }}...
+        </span>
+        <span v-else>Preparing files...</span>
+      </div>
+      <div v-if="!isProcessing && result" class="rom-import__results">
+        <div class="rom-import__results-summary">
+          <h3 v-if="result.successes > 0" class="rom-import__result-header">
+            <i class="pi pi-check-circle success-icon"></i>
+            {{ result.successes }} out of {{ result.total }} ROM{{
+              result.successes === 1 ? "" : "s"
+            }}
+            were added successfully
+          </h3>
+          <h3 v-else class="rom-import__result-header">
+            <i class="pi pi-times error-icon"></i>
+            No ROMs were imported successfully
+          </h3>
+        </div>
+
+        <div
+          v-if="result.warnings.length > 0"
+          class="rom-import__results-summary"
+        >
+          <h3 class="rom-import__result-header">
+            <i class="pi pi-exclamation-triangle warning-icon"></i>
+            {{ result.warnings.length }}
+            {{ result.warnings.length === 1 ? "duplicate" : "duplicates" }}
+            ignored
+            <span class="subtitle"
+              >Duplicates detected by file content check (MD5 hash)</span
+            >
+          </h3>
+          <div class="rom-import__result-content">
+            <ul>
+              <li v-for="message in result.warnings" :key="message">
+                {{ message }}
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          v-if="result.errors.length > 0"
+          class="rom-import__results-summary"
+        >
+          <h3 class="rom-import__result-header">
+            <i class="pi pi-exclamation-circle error-icon"></i>
+            {{ result.errors.length }}
+            {{ result.errors.length === 1 ? "file" : "files" }} could not be
+            imported
+          </h3>
+          <div class="rom-import__result-content">
+            <ul>
+              <li v-for="message in result.errors" :key="message">
+                {{ message }}
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-
-      <div v-if="result.errors.length > 0" class="rom-import__results-summary">
-        <h3 class="rom-import__result-header">
-          <i class="pi pi-exclamation-circle error-icon"></i>
-          {{ result.errors.length }}
-          {{ result.errors.length === 1 ? "file" : "files" }} could not be
-          imported
-        </h3>
-        <div class="rom-import__result-content">
-          <ul>
-            <li v-for="message in result.errors" :key="message">
-              {{ message }}
-            </li>
-          </ul>
-        </div>
-      </div>
     </div>
-  </div>
+  </PageLayout>
 </template>
 
 <script setup lang="ts">
@@ -99,6 +105,7 @@ import { ref, computed } from "vue";
 import Button from "primevue/button";
 import { useToast } from "primevue/usetoast";
 import { useRomStore } from "@/stores";
+import PageLayout from "@/layouts/PageLayout.vue";
 import { getAllSupportedExtensions } from "@/utils/systems";
 
 import type { RomImportResult } from "@/types/electron-api";
@@ -210,23 +217,12 @@ function processImportResult(importResult: RomImportResult) {
 
 <style scoped lang="less">
 .rom-import {
-  padding: 2rem;
-  height: 100%;
-  overflow: auto;
-
-  h1,
-  h3 {
-    .subtitle {
-      display: block;
-      font-size: var(--font-size-md);
-      font-weight: 400;
-      color: var(--p-text-muted-color);
-      margin-top: 0.25em;
-    }
-  }
-
   &__import-button {
     margin-right: 1rem;
+  }
+
+  &__actions {
+    padding: 0 var(--space-16);
   }
 
   &__supported-info {
