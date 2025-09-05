@@ -43,24 +43,8 @@ jobs:
           p12-file-base64: ${{ secrets.APPLE_CERTIFICATE }}
           p12-password: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
 
-      - name: Build application
-        run: npm run make
-
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v4.3.1
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-1
-
-      - name: Upload to S3
-        shell: bash
-        run: |
-          find out/make/ -name "*.zip" -o -name "*.exe" | while read file; do
-            filename=$(basename "$file")
-            aws s3 cp "$file" "s3://romie.jzimz.com/releases/${{ env.RELEASE_VERSION }}/$filename"
-            aws s3 cp "$file" "s3://romie.jzimz.com/releases/latest/$filename"
-          done
+      - name: Build and publish application
+        run: npm run publish
 
       - name: Create Sentry release
         if: runner.os == 'macOS'
