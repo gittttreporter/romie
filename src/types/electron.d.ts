@@ -2,6 +2,9 @@ import type {
   RomApi,
   DeviceApi,
   SyncApi,
+  DarkModeApi,
+  UpdateApi,
+  UtilApi,
   SettingsApi,
   RetroAchievementsApi,
 } from "./electron-api";
@@ -13,14 +16,8 @@ declare global {
     sync: SyncApi;
     settings: SettingsApi;
     ra: RetroAchievementsApi;
-    darkMode: {
-      onChange(callback: (value: boolean) => void): () => void;
-      value(): Promise<boolean>;
-      toggle(): Promise<boolean>;
-      system(): Promise<void>;
-    };
-    util: {
-      openExternalLink(url: string): Promise<void>;
-    };
+    darkMode: DarkModeApi;
+    util: UtilApi;
+    update: UpdateApi;
   }
 }

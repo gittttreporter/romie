@@ -55,7 +55,8 @@ const librarySummary = computed(() => {
   &__summary {
     font-size: var(--font-size-sm);
     color: var(--p-text-muted-color);
-    padding: 4px 8px;
+    padding: var(--space-4) var(--space-10);
+    padding-top: var(--space-2);
   }
 }
 </style>

@@ -14,7 +14,7 @@ export function initializeUpdater(mainWindow: BrowserWindow): void {
     logger: log,
     onNotifyUser: ({ releaseName }) => {
       log.debug("Notifying user of update:", releaseName);
-      mainWindow?.webContents.send("update:ready", releaseName);
+      mainWindow.webContents.send("update:ready", releaseName);
     },
   });
 }

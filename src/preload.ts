@@ -8,6 +8,9 @@ import type {
   DeviceApi,
   SettingsApi,
   RetroAchievementsApi,
+  DarkModeApi,
+  UtilApi,
+  UpdateApi,
   SyncApi,
   SyncOptions,
   SyncStatus,
@@ -86,17 +89,6 @@ const retroAchievementsApi: RetroAchievementsApi = {
     ipcRenderer.invoke("ra:getGameInfoAndUserProgress", romHash),
 };
 
-interface DarkModeApi {
-  onChange: (callback: (value: boolean) => void) => () => void;
-  value: () => Promise<boolean>;
-  toggle: () => Promise<void>;
-  system: () => Promise<void>;
-}
-
-interface UtilApi {
-  openExternalLink: (url: string) => Promise<void>;
-}
-
 const darkModeApi: DarkModeApi = {
   onChange: (callback: (value: boolean) => void) => {
     const handler = (_: any, value: boolean) => callback(value);
@@ -117,11 +109,25 @@ const utilApi: UtilApi = {
     ipcRenderer.invoke("util:openExternal", url),
 };
 
+const updateApi: UpdateApi = {
+  onUpdateAvailable: (callback: (version: string) => void) => {
+    const handler = (_: any, version: string) => callback(version);
+    ipcRenderer.on("update:ready", handler);
+
+    // Return cleanup function
+    return () => {
+      ipcRenderer.removeListener("update:ready", handler);
+    };
+  },
+  quitAndInstall: () => ipcRenderer.invoke("update:quitAndInstall"),
+};
+
 contextBridge.exposeInMainWorld("darkMode", darkModeApi);
 contextBridge.exposeInMainWorld("rom", romApi);
 contextBridge.exposeInMainWorld("device", deviceApi);
 contextBridge.exposeInMainWorld("sync", syncApi);
 contextBridge.exposeInMainWorld("util", utilApi);
+contextBridge.exposeInMainWorld("update", updateApi);
 contextBridge.exposeInMainWorld("settings", settingsApi);
 contextBridge.exposeInMainWorld("ra", retroAchievementsApi);
 

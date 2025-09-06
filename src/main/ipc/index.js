@@ -1,4 +1,5 @@
 import { shell, ipcMain } from "electron";
+import { quitAndInstall } from "@main/updater";
 import { registerDarkModeIpc } from "./darkMode";
 import { registerRomIpc } from "./rom";
 import { registerDeviceIpc } from "./device";
@@ -14,4 +15,5 @@ export function registerAllIpc() {
 
   // General utilities
   ipcMain.handle("util:openExternal", (_, url) => shell.openExternal(url));
+  ipcMain.handle("update:quitAndInstall", () => quitAndInstall());
 }

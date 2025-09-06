@@ -105,6 +105,13 @@ export interface SyncSkipReason {
   details: string;
 }
 
+export interface DarkModeApi {
+  onChange: (callback: (value: boolean) => void) => () => void;
+  value: () => Promise<boolean>;
+  toggle: () => Promise<boolean>;
+  system: () => Promise<void>;
+}
+
 export interface SyncApi {
   start(
     tagIds: string[],
@@ -113,4 +120,13 @@ export interface SyncApi {
   ): Promise<SyncStatus>;
   cancel(): Promise<void>;
   onProgress(callback: (progress: SyncStatus) => void): () => void;
+}
+
+export interface UtilApi {
+  openExternalLink: (url: string) => Promise<void>;
+}
+
+export interface UpdateApi {
+  onUpdateAvailable(callback: (version: string) => void): () => void;
+  quitAndInstall(): Promise<void>;
 }

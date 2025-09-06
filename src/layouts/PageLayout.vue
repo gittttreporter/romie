@@ -45,7 +45,7 @@ const props = defineProps<{
 
   h1,
   h3 {
-    padding: 0 2rem;
+    padding: 0 var(--space-10);
 
     .subtitle {
       display: block;
@@ -62,7 +62,7 @@ const props = defineProps<{
   }
   &__messages,
   &__content {
-    padding: 0 2rem;
+    padding: 0 var(--space-10);
   }
 }
 </style>

@@ -222,7 +222,7 @@ function processImportResult(importResult: RomImportResult) {
   }
 
   &__actions {
-    padding: 0 var(--space-16);
+    padding: 0 var(--space-10);
   }
 
   &__supported-info {

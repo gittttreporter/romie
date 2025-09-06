@@ -198,8 +198,8 @@ function handleCreate(device: Device) {
   }
 
   &__sd-grid-actions {
-    padding: 0 1.286rem;
-    margin-bottom: 1rem;
+    padding: 0 8px;
+    margin-bottom: var(--space-8);
   }
 
   &__sd-card {
