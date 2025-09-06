@@ -5,9 +5,11 @@ import started from "electron-squirrel-startup";
 import { init, setUser } from "@sentry/electron/main";
 import { registerAllIpc } from "@main/ipc";
 import { SENTRY_DSN, SENTRY_SAMPLE_RATE } from "./sentry.config";
-import { getInstanceId } from "./main/analytics";
-import { initializeTheme } from "./main/themes";
+import { getInstanceId } from "@main/analytics";
+import { initializeTheme } from "@main/themes";
+import { initializeUpdater } from "@main/updater";
 
+// Initialize sentry for error tracking
 if (process.env.NODE_ENV !== "development") {
   init({
     dsn: SENTRY_DSN,
@@ -70,6 +72,9 @@ const createWindow = () => {
       mainWindow.webContents.send("dark-mode:change", shouldUseDarkColors);
     }
   });
+
+  // Initialize the auto-updater
+  initializeUpdater(mainWindow);
 };
 
 // This method will be called when Electron has finished
@@ -81,7 +86,7 @@ app.whenReady().then(async () => {
   // Use debug level in production during alpha testing
   log.transports.file.level = "debug";
   log.info(
-    `Romie ready to rip on ${process.platform} with chrome@${process.versions.chrome}`,
+    `Romie v${app.getVersion()} is ready to rip on ${process.platform} with chrome@${process.versions.chrome}`,
   );
 
   // Set up anonymous user tracking for analytics
