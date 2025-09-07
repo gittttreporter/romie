@@ -41,12 +41,10 @@ export default {
   makers: [
     {
       name: "@electron-forge/maker-squirrel",
-      config: {
+      config: (arch) => ({
         name: "ROMie",
         authors: "JZimz Labs",
         description: "ROM Manager for Retro Handhelds",
-      },
-      config: (arch) => ({
         // Builds the manifest file for Windows auto-updates
         remoteReleases: `${CDN_URL}/releases/win32/${arch}`,
       }),
