@@ -11,31 +11,47 @@
     </div>
     <div class="tags-editor__form">
       <div v-if="isAddingTag" class="tags-editor__input">
-        <InputText
-          ref="tagInput"
-          type="text"
+        <div class="tags-editor__input-row">
+          <AutoComplete
+            v-model="tagDraft"
+            ref="tagInput"
+            type="text"
+            size="small"
+            :invalid="!!tagError"
+            :multiple="false"
+            :suggestions="filteredTags"
+            :complete-on-focus="true"
+            :show-empty-message="false"
+            placeholder="Enter tag"
+            @complete="handleSearch"
+            @keydown.enter="handleTagAdded"
+          />
+
+          <Button
+            icon="pi pi-check"
+            text
+            size="small"
+            severity="success"
+            :disabled="!tagDraft.trim() || !!tagError"
+            @click="handleTagAdded"
+          />
+          <Button
+            icon="pi pi-times"
+            text
+            size="small"
+            severity="secondary"
+            @click="handleCancel"
+          />
+        </div>
+        <Message
+          v-if="tagError"
+          severity="error"
           size="small"
-          :maxlength="24"
-          :auto-focus="true"
-          v-model="tagDraft"
-          @keydown.enter="handleTagAdded"
-        />
-        <Button
-          icon="pi pi-check"
-          text
-          size="small"
-          severity="success"
-          @click="handleTagAdded"
-        />
-        <Button
-          icon="pi pi-times"
-          text
-          size="small"
-          severity="secondary"
-          @click="handleCancel"
-        />
+          variant="simple"
+          >{{ tagError }}</Message
+        >
       </div>
-      <div v-else class="tags-editor_trigger">
+      <div v-else class="tags-editor__trigger">
         <Button
           label="Add tag"
           icon="pi pi-plus"
@@ -52,11 +68,13 @@
 </template>
 
 <script setup lang="ts">
-import { ref, nextTick } from "vue";
+import { ref, nextTick, computed } from "vue";
+import AutoComplete from "primevue/autocomplete";
+import Message from "primevue/message";
 import Button from "primevue/button";
 import Chip from "primevue/chip";
-import InputText from "primevue/inputtext";
 import { normalizeInput } from "@/utils/string.utils";
+import { useRomStore } from "@/stores";
 
 const props = defineProps<{
   tags: string[];
@@ -67,23 +85,46 @@ const emit = defineEmits<{
   (e: "update", tags: string[]): void;
 }>();
 
+const romStore = useRomStore();
 const tagInput = ref();
 const tagDraft = ref("");
 const isAddingTag = ref(false);
+const filteredTags = ref<string[]>([]);
+
+const tagError = computed(() => {
+  if (tagDraft.value.length > 24) {
+    return "Max 24 characters";
+  }
+
+  return null;
+});
+const availableTags = computed(() => {
+  return Object.values(romStore.stats.tagStats).map(({ tag }) => tag);
+});
 
 function showTagInput() {
   isAddingTag.value = true;
-  nextTick(() => tagInput.value.$el.focus());
+  nextTick(() => tagInput.value.$el.querySelector("input").focus());
+}
+
+function handleSearch(event: { query: string }) {
+  const query = event.query.toLowerCase();
+
+  filteredTags.value = availableTags.value.filter(
+    (tag) => tag.toLowerCase().includes(query) && !props.tags.includes(tag),
+  );
 }
 
 function handleTagAdded() {
+  if (tagError.value) return;
+
   const newTag = normalizeInput(tagDraft.value);
   const exists = props.tags.some(
     (tag) => tag.toLowerCase() === newTag.toLowerCase(),
   );
 
   if (newTag !== "" && !exists) {
-    emit("update", [...props.tags, tagDraft.value]);
+    emit("update", [...props.tags, newTag]);
   }
 
   tagDraft.value = "";
@@ -98,7 +139,6 @@ function handleCancel() {
 function handleTagRemoved(tag: string) {
   const updatedTags = props.tags.filter((t) => t !== tag);
   emit("update", updatedTags);
-  console.log("Tag removed:", tag);
 }
 </script>
 
@@ -109,6 +149,11 @@ function handleTagRemoved(tag: string) {
     flex-wrap: wrap;
     gap: 8px;
     margin-bottom: 16px;
+  }
+  &__input {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
   }
 }
 </style>
