@@ -12,6 +12,8 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
+      "@romie/device-profiles": ["src/packages/device-profiles/src"],
+      "@romie/ra-hasher": ["src/packages/ra-hasher/src"],
       "@main/*": ["src/main/*"],
       "@/*": ["src/*"]
     },

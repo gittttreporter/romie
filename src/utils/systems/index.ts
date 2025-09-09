@@ -1,24 +1,38 @@
 import { SYSTEM_REGISTRY } from "./systemRegistry";
 import type { SystemType, SystemCode, SystemInfo } from "@/types/system";
 
-const RA_SYSTEM_MAPPING: Record<number, SystemCode> = {
-  1: "genesis", // "Genesis/Mega Drive"
-  2: "n64", // "Nintendo 64"
-  3: "snes", // "SNES/Super Famicom"
-  4: "gb", // "Game Boy"
-  5: "gba", // "Game Boy Advance"
-  6: "gbc", // "Game Boy Color"
-  7: "nes", // "NES/Famicom"
-  11: "sms", // "Master System"
-  13: "lynx", // "Atari Lynx"
-  14: "ngp", // "Neo Geo Pocket"
-  15: "gg", // "Game Gear"
-  18: "nds", // "Nintendo DS"
-  25: "atari2600", // "Atari 2600"
-  27: "arcade", // "Arcade"
-  28: "vb", // "Virtual Boy"
-};
+interface RASystemMapping {
+  consoleId: number; // RetroArch console ID
+  code: SystemCode; // Internal system code
+}
+
+const RA_SYSTEMS: RASystemMapping[] = [
+  { consoleId: 1, code: "genesis" },
+  { consoleId: 2, code: "n64" },
+  { consoleId: 3, code: "snes" },
+  { consoleId: 4, code: "gb" },
+  { consoleId: 5, code: "gba" },
+  { consoleId: 6, code: "gbc" },
+  { consoleId: 7, code: "nes" },
+  { consoleId: 11, code: "sms" },
+  { consoleId: 13, code: "lynx" },
+  { consoleId: 14, code: "ngp" },
+  { consoleId: 15, code: "gg" },
+  { consoleId: 18, code: "nds" },
+  { consoleId: 25, code: "atari2600" },
+  { consoleId: 27, code: "arcade" },
+  { consoleId: 28, code: "vb" },
+];
+
 const systems = Object.values(SYSTEM_REGISTRY);
+
+// Mapping of RetroArch Console IDs to internal system codes
+const RA_SYSTEM_MAPPING = Object.fromEntries(
+  RA_SYSTEMS.map((s) => [s.consoleId, s.code]),
+);
+const RA_CONSOLE_MAPPING = Object.fromEntries(
+  RA_SYSTEMS.map((s) => [s.code, s.consoleId]),
+);
 
 export function getSystemByExtension(
   extension: string,
@@ -26,6 +40,10 @@ export function getSystemByExtension(
   const ext = extension.toLowerCase();
 
   return systems.find((system) => system.extensions.includes(ext));
+}
+
+export function getConsoleIdForSystem(code: SystemCode): number | null {
+  return RA_CONSOLE_MAPPING[code] || null;
 }
 
 export function getSystemInfo(code: SystemCode): SystemInfo {

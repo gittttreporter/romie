@@ -1,6 +1,9 @@
+import fs from "fs/promises";
+import path from "path";
 import { ipcMain, BrowserWindow, app } from "electron";
 import log from "electron-log/main";
 import * as Sentry from "@sentry/electron/main";
+import { getDeviceProfile, type DeviceProfile } from "@romie/device-profiles";
 import { SyncError } from "@/errors";
 import type {
   SyncOptions,
@@ -8,15 +11,12 @@ import type {
   SyncSkipReason,
   SyncFailReason,
 } from "@/types/electron-api";
-import type { Device } from "@/types/device";
-import type { Rom } from "@/types/rom";
-import type { DeviceProfile } from "@/packages/device-profiles";
-import fs from "fs/promises";
-import path from "path";
 import { listDevices } from "../roms/romDatabase";
 import { listRoms } from "../roms/romDatabase";
-import { getDeviceProfile } from "@/packages/device-profiles";
 import { calculateCRC32 } from "../roms/romUtils";
+
+import type { Device } from "@/types/device";
+import type { Rom } from "@/types/rom";
 
 type SyncNotifier = ReturnType<typeof createSyncNotifier>;
 
@@ -64,10 +64,10 @@ async function startSync(
 
         const device = await Sentry.startSpan(
           { op: "sync.validate", name: "Validate Device" },
-          () => validateDevice(deviceId)
+          () => validateDevice(deviceId),
         );
         const profile = validateProfile(device.profileId);
-        
+
         span.setAttributes({
           "device.profile_id": device.profileId,
           "device.profile_name": profile.name,
@@ -77,7 +77,7 @@ async function startSync(
         if (options.cleanDestination) {
           await Sentry.startSpan(
             { op: "sync.clean", name: "Clean Destination" },
-            () => cleanDestination(device, profile)
+            () => cleanDestination(device, profile),
           );
         }
 
@@ -110,7 +110,7 @@ async function startSync(
         // Step 4: Copy ROMs
         await Sentry.startSpan(
           { op: "sync.copy", name: "Copy ROMs to Device" },
-          () => copyRoms(filteredRoms, device, profile, options, syncStatus)
+          () => copyRoms(filteredRoms, device, profile, options, syncStatus),
         );
 
         // Complete
@@ -128,12 +128,14 @@ async function startSync(
       } catch (error) {
         const duration = Date.now() - startTime;
         span.setStatus({ code: 2, message: "Sync operation failed" });
-        span.recordException(error instanceof Error ? error : new Error(String(error)));
+        span.recordException(
+          error instanceof Error ? error : new Error(String(error)),
+        );
         span.setAttributes({
           "sync.duration_ms": duration,
           "sync.success": false,
         });
-        
+
         const syncError =
           error instanceof SyncError
             ? error
@@ -142,7 +144,9 @@ async function startSync(
                 error as Error,
               );
 
-        log.error(`[SYNC] Sync failed after ${duration}ms: ${syncError.message}`);
+        log.error(
+          `[SYNC] Sync failed after ${duration}ms: ${syncError.message}`,
+        );
         if (syncError.cause) {
           log.error(`[SYNC] Root cause:`, syncError.cause);
         }
@@ -153,7 +157,7 @@ async function startSync(
       }
 
       return syncStatus.status;
-    }
+    },
   );
 }
 

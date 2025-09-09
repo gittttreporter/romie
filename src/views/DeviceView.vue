@@ -177,7 +177,7 @@ import { useDeviceStore, useRomStore } from "@/stores";
 import { useSyncLogic } from "@/composables/useSyncLogic";
 import SyncProgress from "@/components/device/SyncProgress.vue";
 import SyncResults from "@/components/device/SyncResults.vue";
-import { getDeviceProfile } from "@/packages/device-profiles";
+import { getDeviceProfile } from "@romie/device-profiles";
 
 import { Device } from "@/types/device";
 import { TagStats } from "@/types/rom";

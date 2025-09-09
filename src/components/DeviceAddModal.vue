@@ -54,8 +54,8 @@ import Button from "primevue/button";
 import InputText from "primevue/inputtext";
 import Message from "primevue/message";
 import Select from "primevue/select";
+import { getAllDeviceProfiles } from "@romie/device-profiles";
 import { useDeviceStore } from "@/stores";
-import { getAllDeviceProfiles } from "@/packages/device-profiles";
 
 import type { Device, StorageDevice } from "@/types/device";
 

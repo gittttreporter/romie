@@ -3,7 +3,9 @@ import log from "electron-log/main";
 import fs from "fs/promises";
 import { v4 as uuidv4 } from "uuid";
 import * as Sentry from "@sentry/electron/main";
+import { hash } from "@romie/ra-hasher";
 import {
+  getConsoleIdForSystem,
   determineSystemFromExtension,
   determineSystemFromRAConsoleId,
 } from "@/utils/systems";
@@ -42,12 +44,26 @@ export async function processRomFile(
       try {
         log.info(`[${logSource}] Processing ROM file: ${originalFilename}`);
 
-        // Determine console from checksum
-        // Generate hashes for deduplication and libretro lookups.
+        // Determine system information from extension
+        log.debug(`[${logSource}] Determining system from extension"`);
+        const system = determineSystemFromExtension(fileExtension);
+        const consoleId = getConsoleIdForSystem(system);
+        log.debug(
+          `[${logSource}] Detected system: ${system}, consoleId: ${consoleId}`,
+        );
+
+        // Generate ROM hashes for deduplication and RetroAchievements lookups.
         log.debug(`[${logSource}] Generating hashes for ROM file`);
         const hashes = await Sentry.startSpan(
           { op: "rom.hash", name: "Generate ROM Hashes" },
-          () => generateLibretroHashes(filePath),
+          async () => {
+            const ramd5 = consoleId
+              ? (await hash({ consoleId, path: filePath })).ramd5
+              : null;
+            const results = await generateLibretroHashes(filePath);
+
+            return { ...results, ramd5 };
+          },
         );
         log.debug(
           `[${logSource}] Generated hashes: MD5=${hashes.md5?.substring(0, 8)}..., SHA1=${hashes.sha1?.substring(0, 8)}...`,
@@ -55,8 +71,7 @@ export async function processRomFile(
 
         // Attempt to identify game and system from file hash.
         // If no match by hash, fallback to extension-based detection and filename cleaning.
-        const game = await lookupRomByHash(hashes.md5);
-        let system: SystemCode;
+        const game = hashes.ramd5 ? await lookupRomByHash(hashes.ramd5) : null;
         let displayName: string;
         let verified = false;
 
@@ -64,20 +79,13 @@ export async function processRomFile(
           log.debug(
             `[${logSource}] Found matching game in database: ${game.title} (${game.consoleName})`,
           );
+
           displayName = game.title;
-          system =
-            determineSystemFromRAConsoleId(game.consoleId) ||
-            determineSystemFromExtension(fileExtension);
           verified = true;
         } else {
           log.warn(
             `[${logSource}] No matching game found in database for hash.`,
           );
-
-          // Determine console from file extension
-          log.debug(`[${logSource}] Determining system from extension"`);
-          system = determineSystemFromExtension(fileExtension);
-          log.debug(`[${logSource}]Detected system: ${system}`);
 
           // Create displayName by stripping: region tag, dump tags ([!], [v1.1]), punctuation
           displayName = cleanDisplayName(originalFilename);

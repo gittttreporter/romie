@@ -71,14 +71,16 @@ export const useRomStore = defineStore("roms", {
         const rom = this.getRomById(romId);
         // Validate we have a verified ROM with a hash since these are the only ones
         // that can be looked up on RA
-        if (!rom?.verified || !rom?.md5) {
+        if (!rom?.verified || !rom?.ramd5) {
           log.warn(`Rom ${romId} not eligible for extended metadata`);
           this.romMetadata[romId] = null;
 
           return null;
         }
 
-        const romMetadata = await window.ra.getGameInfoAndUserProgress(rom.md5);
+        const romMetadata = await window.ra.getGameInfoAndUserProgress(
+          rom.ramd5,
+        );
         this.romMetadata[romId] = romMetadata;
         log.info("Loaded extended ROM metadata");
 

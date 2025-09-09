@@ -39,6 +39,7 @@ export interface Rom {
   lastUpdated: number;
   crc32: string;
   md5: string;
+  ramd5?: string;
   sha1: string;
   verified: boolean;
   tags?: string[];

@@ -43,6 +43,23 @@
               <span class="rom-details__metadata-value">{{ value }}</span>
             </li>
             <li
+              v-if="rom.ramd5"
+              class="rom-details__metadata-item rom-details__metadata-item--hash"
+            >
+              <span class="rom-details__metadata-label">Hash:</span>
+              <div class="rom-details__hash-container">
+                <code class="rom-details__hash-value">{{ rom.ramd5 }}</code>
+                <Button
+                  icon="pi pi-copy"
+                  size="small"
+                  severity="secondary"
+                  variant="text"
+                  @click="copyHashToClipboard(rom.ramd5)"
+                />
+              </div>
+            </li>
+            <li
+              v-else
               class="rom-details__metadata-item rom-details__metadata-item--hash"
             >
               <span class="rom-details__metadata-label">MD5:</span>
@@ -53,7 +70,7 @@
                   size="small"
                   severity="secondary"
                   variant="text"
-                  @click="copyHashToClipboard"
+                  @click="copyHashToClipboard(rom.md5)"
                 />
               </div>
             </li>
@@ -145,6 +162,7 @@ async function loadExtendedRomInfo(romId: string) {
   loading.value = true;
   try {
     romMetadataExtended.value = await romStore.loadMetadata(romId);
+    console.log(romMetadataExtended.value);
   } catch (error) {
     console.error("Failed to load extended ROM info:", error);
   } finally {
@@ -205,15 +223,15 @@ async function handleDelete() {
   emit("delete");
 }
 
-async function copyHashToClipboard() {
-  if (!rom.value?.md5) return;
+async function copyHashToClipboard(hash: string) {
+  if (!hash) return;
 
   try {
-    await navigator.clipboard.writeText(rom.value.md5);
+    await navigator.clipboard.writeText(hash);
     toast.add({
       severity: "success",
       summary: "Copied!",
-      detail: "MD5 hash copied to clipboard",
+      detail: "Hash copied to clipboard",
       life: 2000,
     });
   } catch (error) {
