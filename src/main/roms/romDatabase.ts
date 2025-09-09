@@ -26,7 +26,7 @@ const ROM_IMMUTABLE_FIELDS: (keyof Rom)[] = [
   "sha1",
   "crc32",
 ];
-const DB_VERSION = "3.0.0";
+const DB_VERSION = "4.0.0";
 
 let database: Low<RomDatabase> | null = null;
 let loadDatabasePromise: Promise<Low<RomDatabase>> | null = null;
@@ -70,17 +70,13 @@ async function loadDatabase(): Promise<void> {
 
         // TODO: Implement better migration strategy
         if (database.data.version !== DB_VERSION) {
-          log.info("[ROM DB] Starting database migration");
-
           await Sentry.startSpan(
             { op: "db.migrate", name: `Migrate Database to ${DB_VERSION}` },
             async () => {
-              await database!.update(async (data) => {
-                await ensureDatabaseSchema(data, DB_VERSION);
-              });
+              await ensureDatabaseSchema(database!.data);
+              await database!.write();
             },
           );
-          log.info("[ROM DB] Database migration completed");
         }
         loadDatabasePromise = null;
         log.info(`[ROM DB] Database loaded successfully`);

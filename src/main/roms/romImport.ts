@@ -7,7 +7,6 @@ import { hash } from "@romie/ra-hasher";
 import {
   getConsoleIdForSystem,
   determineSystemFromExtension,
-  determineSystemFromRAConsoleId,
 } from "@/utils/systems";
 import { RomProcessingError } from "@/errors";
 import {

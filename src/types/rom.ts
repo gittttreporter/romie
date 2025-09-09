@@ -39,7 +39,8 @@ export interface Rom {
   lastUpdated: number;
   crc32: string;
   md5: string;
-  ramd5?: string;
+  /* Custom hash for RetroAchievements lookup */
+  ramd5: string | null;
   sha1: string;
   verified: boolean;
   tags?: string[];
