@@ -6,14 +6,23 @@
 # See https://keats.github.io/tera/docs/#introduction
 body = """
 {% if version %}\
-    ## {{ version | trim_start_matches(pat="v") }} - {{ timestamp | date(format="%Y-%m-%d") }}\
+  ## {{ version | trim_start_matches(pat="v") }} - {{ timestamp | date(format="%Y-%m-%d") }}\
 {% else %}\
-    ## Unreleased\
+  ## Unreleased\
 {% endif %}\
+
+{% if tag_message -%}
+{{ tag_message }}
+
+{% endif -%}
+
 {% for group, commits in commits | group_by(attribute="group") %}
-    ### {{ group | upper_first }}
-    {% for commit in commits %}\
-        - {% if commit.breaking %}[**breaking**] {% endif %}{{ commit.message | upper_first }}
-    {% endfor %}\
-{% endfor %}\n
+  ### {{ group | striptags | trim }}
+  {% for commit in commits -%}
+  - **{{ commit.message | split(pat="\n") | first | trim }}**
+  {%- if commit.body %}
+    > {{ commit.body | trim | split(pat="\n\n") | first | replace(from="\n", to=" ") | trim }}
+  {%- endif %}
+  {% endfor -%}
+{% endfor -%}
 """
