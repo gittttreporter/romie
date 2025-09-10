@@ -34,6 +34,11 @@
             :num-softcore="romMetadataExtended?.numAwardedToUser"
             :num-hardcore="romMetadataExtended?.numAwardedToUserHardcore"
           />
+          <RecentAchievements
+            v-if="rom.verified && ff.retroAchievements"
+            :loading="loading"
+            :achievements="romMetadataExtended?.achievements"
+          />
           <ul class="rom-details__metadata">
             <li
               class="rom-details__metadata-item"
@@ -110,6 +115,7 @@ import { getSystemDisplayName } from "@/utils/systems";
 import TagsEditor from "@/components/TagsEditor.vue";
 import RomTitle from "@/components/RomTitle.vue";
 import AchievementProgress from "@/components/achievements/AchievementProgress.vue";
+import RecentAchievements from "@/components/achievements/RecentAchievements.vue";
 
 import type { GameInfoAndUserProgress } from "@retroachievements/api";
 
@@ -162,7 +168,6 @@ async function loadExtendedRomInfo(romId: string) {
   loading.value = true;
   try {
     romMetadataExtended.value = await romStore.loadMetadata(romId);
-    console.log(romMetadataExtended.value);
   } catch (error) {
     console.error("Failed to load extended ROM info:", error);
   } finally {
