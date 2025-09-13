@@ -300,7 +300,7 @@ async function readRomFromZip(zipPath: string): Promise<{
     let romFileName: string | null = null;
     let romBuffer: Buffer | null = null;
 
-    yauzl.open(zipPath, { lazyEntries: true }, async (err, zipfile) => {
+    yauzl.open(zipPath, { lazyEntries: true }, (err, zipfile) => {
       if (err) {
         log.error(`Failed to open zip file ${zipPath}:`, err);
 
@@ -317,7 +317,7 @@ async function readRomFromZip(zipPath: string): Promise<{
 
       zipfile.readEntry();
 
-      zipfile.on("entry", async (entry) => {
+      zipfile.on("entry", (entry) => {
         log.debug(`Processing zip entry: ${entry.fileName}`);
         // Directory file names end with '/' so skip them since we only care about files.
         if (/\/$/.test(entry.fileName)) {
