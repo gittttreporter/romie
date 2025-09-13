@@ -45,7 +45,12 @@ jobs:
           p12-file-base64: ${{ secrets.APPLE_CERTIFICATE }}
           p12-password: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
 
-      - name: Build and publish application
+      - name: Build and publish application (macOS)
+        if: runner.os == 'macOS'
+        run: npm run publish -- --arch=x64,arm64
+
+      - name: Build and publish application (Windows)
+        if: runner.os == 'Windows'
         run: npm run publish
 
       - name: Create Sentry release
