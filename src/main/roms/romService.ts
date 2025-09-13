@@ -38,7 +38,7 @@ export async function importRoms(): Promise<RomImportResult> {
 
   // Process all selected ROM files
   filePaths.forEach((filePath) => {
-    fileTasks.push(processRomFile(filePath, "import"));
+    // fileTasks.push(processRomFile(filePath, "import"));
   });
 
   // Handle processing results

@@ -37,11 +37,12 @@ export interface Rom {
   size: number;
   importedAt: number;
   lastUpdated: number;
-  crc32: string;
+  /** MD5 hash of ROM content */
   md5: string;
-  /* Custom hash for RetroAchievements lookup */
+  /** CRC32 of actual file on disk - fast integrity checking */
+  fileCrc32: string;
+  /** RetroAchievements hash - required for game identification */
   ramd5: string | null;
-  sha1: string;
   verified: boolean;
   tags?: string[];
   favorite?: boolean;

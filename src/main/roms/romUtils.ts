@@ -7,6 +7,11 @@ import path from "path";
 import type { PathLike } from "fs";
 import type { RomRegion } from "../../types/rom";
 
+interface HashInput {
+  filePath?: string;
+  buffer?: Buffer;
+}
+
 // Common region codes found in ROM filenames
 export const REGION_CODES: Record<string, RomRegion> = {
   // English/North America
@@ -130,25 +135,60 @@ export function cleanDisplayName(filename: string): string {
   return name;
 }
 
+export async function md5sum({ filePath, buffer }: HashInput): Promise<string> {
+  const fileBuffer = filePath ? await fs.readFile(filePath) : buffer;
+
+  if (!fileBuffer) {
+    throw new Error("Either path or buffer must be provided");
+  }
+
+  return crypto
+    .createHash("md5")
+    .update(fileBuffer)
+    .digest("hex")
+    .toLowerCase();
+}
+
+export async function crc32sum({
+  filePath,
+  buffer,
+}: HashInput): Promise<string> {
+  const fileBuffer = filePath ? await fs.readFile(filePath) : buffer;
+
+  if (!fileBuffer) {
+    throw new Error("Either path or buffer must be provided");
+  }
+
+  const crc = CRC32.buf(fileBuffer);
+
+  return (crc >>> 0).toString(16).toLowerCase().padStart(8, "0");
+}
+
 /**
  * Generates the three hash types required for libretro database lookups
- * @param {string} filePath - Path to the ROM file
+ *
  * @returns {Promise<Object>} Object containing CRC32, MD5, and SHA1 hashes
  */
-export async function generateLibretroHashes(filePath: string): Promise<{
+export async function generateLibretroHashes({
+  filePath,
+  buffer,
+}: HashInput): Promise<{
   crc32: string;
   md5: string;
   sha1: string;
 }> {
-  const fileBuffer = await fs.readFile(filePath);
+  const fileBuffer = filePath ? await fs.readFile(filePath) : buffer;
+
+  if (!fileBuffer) {
+    throw new Error("Either path or buffer must be provided");
+  }
+
+  const md5 = await md5sum({ buffer: fileBuffer });
+  const crc32 = await crc32sum({ buffer: fileBuffer });
 
   return {
-    crc32: calculateCRC32(fileBuffer),
-    md5: crypto
-      .createHash("md5")
-      .update(fileBuffer)
-      .digest("hex")
-      .toLowerCase(),
+    crc32,
+    md5,
     sha1: crypto
       .createHash("sha1")
       .update(fileBuffer)
@@ -161,7 +201,10 @@ export async function copyRomToLibrary(
   sourcePath: PathLike,
   destFileName: string,
 ): Promise<PathLike> {
-  const appDataDir = app.getPath("userData");
+  const appDataDir =
+    process.env.NODE_ENV === "development"
+      ? path.join(process.cwd(), ".romie")
+      : app.getPath("userData");
   const romsDir = path.join(appDataDir, "roms");
   const destPath = path.join(romsDir, destFileName);
   log.debug(`[IMPORT] Copying to ${destPath}`);
@@ -170,17 +213,6 @@ export async function copyRomToLibrary(
   await fs.copyFile(sourcePath, destPath);
 
   return destPath;
-}
-
-/**
- * CRC32 calculation using crc-32 library
- *
- * @param {Buffer} buffer - File buffer
- * @returns {string} CRC32 hash in hex
- */
-export function calculateCRC32(buffer: Buffer<ArrayBufferLike>): string {
-  const crc = CRC32.buf(buffer);
-  return (crc >>> 0).toString(16).toLowerCase().padStart(8, "0");
 }
 
 /**

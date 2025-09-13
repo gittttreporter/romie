@@ -43,9 +43,7 @@
         <div class="rom-import__results-summary">
           <h3 v-if="result.successes > 0" class="rom-import__result-header">
             <i class="pi pi-check-circle success-icon"></i>
-            {{ result.successes }} out of {{ result.total }} ROM{{
-              result.successes === 1 ? "" : "s"
-            }}
+            {{ result.successes }} ROM{{ result.successes === 1 ? "" : "s" }}
             were added successfully
           </h3>
           <h3 v-else class="rom-import__result-header">
@@ -63,9 +61,10 @@
             {{ result.warnings.length }}
             {{ result.warnings.length === 1 ? "duplicate" : "duplicates" }}
             ignored
-            <span class="subtitle"
-              >Duplicates detected by file content check (MD5 hash)</span
-            >
+            <!-- <div class="rom-import__result-header-text">Duplicates detected by filename check</div> -->
+            <div class="rom-import__result-header-subtitle">
+              Duplicates detected by file content check (MD5 hash)
+            </div>
           </h3>
           <div class="rom-import__result-content">
             <ul>
@@ -198,14 +197,12 @@ function processImportResult(importResult: RomImportResult) {
 
       warnings.push(fileName);
     } else {
-      errors.push(error.reason);
+      errors.push(`${error.file}: ${error.reason}`);
     }
   });
 
   result.value = {
-    successes: importResult.totalProcessed
-      ? importResult.totalProcessed - errors.length - warnings.length
-      : importResult.imported.length,
+    successes: importResult.totalProcessed,
     errors,
     warnings,
     total: importResult.totalProcessed
@@ -223,6 +220,14 @@ function processImportResult(importResult: RomImportResult) {
 
   &__actions {
     padding: 0 var(--space-10);
+  }
+
+  &__result-header {
+    &-subtitle {
+      margin-left: 22px;
+      font-size: var(--font-size-sm);
+      color: var(--p-text-muted-color);
+    }
   }
 
   &__supported-info {

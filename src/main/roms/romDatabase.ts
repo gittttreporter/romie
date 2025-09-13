@@ -13,7 +13,10 @@ import type { Rom, RomDatabase, RomDatabaseStats, TagStats } from "@/types/rom";
 import type { Device } from "@/types/device";
 import type { AppSettings, RetroAchievementsConfig } from "@/types/settings";
 
-const baseDir = app.getPath("userData");
+const baseDir =
+  process.env.NODE_ENV === "development"
+    ? path.join(process.cwd(), ".romie")
+    : app.getPath("userData");
 const romDir = path.join(baseDir, "roms");
 const romDbPath = path.join(baseDir, "roms.json");
 
@@ -23,8 +26,8 @@ const ROM_IMMUTABLE_FIELDS: (keyof Rom)[] = [
   "importedAt",
   "lastUpdated",
   "md5",
-  "sha1",
-  "crc32",
+  "ramd5",
+  "fileCrc32",
 ];
 const DB_VERSION = "4.0.0";
 
@@ -42,6 +45,7 @@ async function loadDatabase(): Promise<void> {
 
       if (!loadDatabasePromise) {
         log.info(`[ROM DB] Starting to load database from ${romDbPath}`);
+        await fs.mkdir(baseDir, { recursive: true });
 
         loadDatabasePromise = JSONFilePreset<RomDatabase>(romDbPath, {
           version: DB_VERSION,

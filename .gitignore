@@ -1,4 +1,5 @@
 *.p12
+.romie
 .vscode
 
 # Logs

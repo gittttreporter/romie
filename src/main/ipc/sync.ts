@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import { ipcMain, BrowserWindow, app } from "electron";
-import log from "electron-log/main";
+import logger from "electron-log/main";
 import * as Sentry from "@sentry/electron/main";
 import { getDeviceProfile, type DeviceProfile } from "@romie/device-profiles";
 import { SyncError } from "@/errors";
@@ -13,13 +13,14 @@ import type {
 } from "@/types/electron-api";
 import { listDevices } from "../roms/romDatabase";
 import { listRoms } from "../roms/romDatabase";
-import { calculateCRC32 } from "../roms/romUtils";
+import { crc32sum } from "../roms/romUtils";
 
 import type { Device } from "@/types/device";
 import type { Rom } from "@/types/rom";
 
 type SyncNotifier = ReturnType<typeof createSyncNotifier>;
 
+const log = logger.scope("sync");
 let syncCancelled = false;
 
 //=== PUBLIC API ===
@@ -52,10 +53,10 @@ async function startSync(
       const syncStatus = createSyncNotifier();
 
       log.info(
-        `[SYNC] Starting sync operation for device ${deviceId} with tags: ${tagIds.join(", ")}`,
+        `Starting sync operation for device ${deviceId} with tags: ${tagIds.join(", ")}`,
       );
       log.info(
-        `[SYNC] Sync options: cleanDestination=${options.cleanDestination}, verifyFiles=${options.verifyFiles}`,
+        `Sync options: cleanDestination=${options.cleanDestination}, verifyFiles=${options.verifyFiles}`,
       );
 
       try {
@@ -82,7 +83,7 @@ async function startSync(
         }
 
         // Step 3: Get and filter ROMs
-        log.debug(`[SYNC] Loading ROM database`);
+        log.debug(`Loading ROM database`);
         const allRoms = await listRoms();
         const filteredRoms = filterRomsForSync(
           allRoms,
@@ -93,7 +94,7 @@ async function startSync(
         syncStatus.setTotal(filteredRoms.length).notify();
 
         if (filteredRoms.length === 0) {
-          log.warn(`[SYNC] No ROMs found matching criteria`);
+          log.warn(`No ROMs found matching criteria`);
           syncStatus.setPhase("done").setCurrentFile("").notify();
           span.setAttributes({
             "sync.roms_filtered": 0,
@@ -121,7 +122,7 @@ async function startSync(
         });
 
         log.info(
-          `[SYNC] Sync completed successfully in ${duration}ms: ${filteredRoms.length} ROMs synced`,
+          `Sync completed successfully in ${duration}ms: ${filteredRoms.length} ROMs synced`,
         );
 
         syncStatus.setPhase("done").setCurrentFile("").notify();
@@ -144,11 +145,9 @@ async function startSync(
                 error as Error,
               );
 
-        log.error(
-          `[SYNC] Sync failed after ${duration}ms: ${syncError.message}`,
-        );
+        log.error(`Sync failed after ${duration}ms: ${syncError.message}`);
         if (syncError.cause) {
-          log.error(`[SYNC] Root cause:`, syncError.cause);
+          log.error(`Root cause:`, syncError.cause);
         }
 
         syncStatus.setError(syncError).setCurrentFile("").notify();
@@ -162,36 +161,34 @@ async function startSync(
 }
 
 function cancelSync() {
-  log.info(`[SYNC] Sync cancellation requested`);
+  log.info(`Sync cancellation requested`);
   syncCancelled = true;
 }
 
 //=== INTERNAL FUNCTIONS ===
 
 async function validateDevice(deviceId: string): Promise<Device> {
-  log.debug(`[SYNC] Validating device: ${deviceId}`);
+  log.debug(`Validating device: ${deviceId}`);
 
   const devices = await listDevices();
   const device = devices.find((d) => d.id === deviceId);
 
   if (!device) {
-    log.error(`[SYNC] Device not found: ${deviceId}`);
+    log.error(`Device not found: ${deviceId}`);
     throw new SyncError(`Device with id ${deviceId} not found`);
   }
 
   if (!device.deviceInfo.mount) {
-    log.error(`[SYNC] Device ${device.name} has no mount path`);
+    log.error(`Device ${device.name} has no mount path`);
     throw new SyncError(`Device ${device.name} has no mount path`);
   }
 
   // Check if mount path is accessible
   try {
     await fs.access(device.deviceInfo.mount);
-    log.info(
-      `[SYNC] Device validated: ${device.name} at ${device.deviceInfo.mount}`,
-    );
+    log.info(`Device validated: ${device.name} at ${device.deviceInfo.mount}`);
   } catch (error) {
-    log.error(`[SYNC] Mount path not accessible: ${device.deviceInfo.mount}`);
+    log.error(`Mount path not accessible: ${device.deviceInfo.mount}`);
     throw new SyncError(
       `Device mount path ${device.deviceInfo.mount} is not accessible`,
     );
@@ -201,16 +198,16 @@ async function validateDevice(deviceId: string): Promise<Device> {
 }
 
 function validateProfile(profileId: string): DeviceProfile {
-  log.debug(`[SYNC] Validating device profile: ${profileId}`);
+  log.debug(`Validating device profile: ${profileId}`);
 
   const profile = getDeviceProfile(profileId);
 
   if (!profile) {
-    log.error(`[SYNC] Device profile not found: ${profileId}`);
+    log.error(`Device profile not found: ${profileId}`);
     throw new SyncError(`Device profile ${profileId} not found`);
   }
 
-  log.info(`[SYNC] Using device profile: ${profile.name}`);
+  log.info(`Using device profile: ${profile.name}`);
   return profile;
 }
 
@@ -223,15 +220,13 @@ async function cleanDestination(
     profile.romBasePath,
   );
 
-  log.info(`[SYNC] Cleaning destination: ${destinationPath}`);
+  log.info(`Cleaning destination: ${destinationPath}`);
 
   try {
     await fs.rm(destinationPath, { recursive: true, force: true });
-    log.info(`[SYNC] Destination cleaned successfully`);
+    log.info(`Destination cleaned successfully`);
   } catch (error) {
-    log.error(
-      `[SYNC] Failed to clean destination: ${(error as Error).message}`,
-    );
+    log.error(`Failed to clean destination: ${(error as Error).message}`);
     throw new SyncError(
       `Failed to clean destination ${destinationPath}: ${(error as Error).message}`,
     );
@@ -244,9 +239,7 @@ function filterRomsForSync(
   profile: DeviceProfile,
   syncStatus: SyncNotifier,
 ): Rom[] {
-  log.debug(
-    `[SYNC] Filtering ${allRoms.length} ROMs for tags: ${tagIds.join(", ")}`,
-  );
+  log.debug(`Filtering ${allRoms.length} ROMs for tags: ${tagIds.join(", ")}`);
 
   const filteredRoms = allRoms.filter((rom) => {
     // Check if ROM has any of the target tags
@@ -257,9 +250,7 @@ function filterRomsForSync(
     // Check if system is supported by profile
     const systemMapping = profile.systemMappings[rom.system];
     if (!systemMapping) {
-      log.warn(
-        `[SYNC] Unsupported system ${rom.system} for ROM: ${rom.displayName}`,
-      );
+      log.warn(`Unsupported system ${rom.system} for ROM: ${rom.displayName}`);
       syncStatus
         .addSkipped({
           rom,
@@ -273,9 +264,7 @@ function filterRomsForSync(
     // Check if file extension is supported
     const extension = path.extname(rom.filename);
     if (!systemMapping.supportedFormats?.includes(extension)) {
-      log.warn(
-        `[SYNC] Unsupported format ${extension} for ROM: ${rom.displayName}`,
-      );
+      log.warn(`Unsupported format ${extension} for ROM: ${rom.displayName}`);
       syncStatus
         .addSkipped({
           rom,
@@ -289,7 +278,7 @@ function filterRomsForSync(
     return true;
   });
 
-  log.info(`[SYNC] Filtered to ${filteredRoms.length} ROMs for sync`);
+  log.info(`Filtered to ${filteredRoms.length} ROMs for sync`);
   return filteredRoms;
 }
 
@@ -300,18 +289,19 @@ async function copyRoms(
   options: SyncOptions,
   syncStatus: SyncNotifier,
 ): Promise<void> {
-  const baseDir = app.getPath("userData");
+  const baseDir =
+    process.env.NODE_ENV === "development"
+      ? path.join(process.cwd(), ".romie")
+      : app.getPath("userData");
   const romDir = path.join(baseDir, "roms");
   syncStatus.setPhase("copying").notify();
 
-  log.info(
-    `[SYNC] Starting copy of ${filteredRoms.length} ROMs to ${device.name}`,
-  );
+  log.info(`Starting copy of ${filteredRoms.length} ROMs to ${device.name}`);
 
   for (let i = 0; i < filteredRoms.length; i++) {
     // TODO: This singleton pattern needs to be removed if we ever support multiple syncs at once
     if (syncCancelled) {
-      log.warn(`[SYNC] Sync cancelled at ROM ${i + 1}/${filteredRoms.length}`);
+      log.warn(`Sync cancelled at ROM ${i + 1}/${filteredRoms.length}`);
       throw new SyncError("Sync was cancelled");
     }
 
@@ -331,7 +321,7 @@ async function copyRoms(
     );
 
     log.debug(
-      `[SYNC] Processing ROM ${i + 1}/${filteredRoms.length}: ${rom.displayName}`,
+      `Processing ROM ${i + 1}/${filteredRoms.length}: ${rom.displayName}`,
     );
 
     // Create destination directory if needed
@@ -341,7 +331,7 @@ async function copyRoms(
     // Skip if destination exists
     try {
       await fs.access(destinationPath);
-      log.debug(`[SYNC] Skipping existing file: ${rom.filename}`);
+      log.debug(`Skipping existing file: ${rom.filename}`);
       syncStatus
         .addSkipped({
           rom,
@@ -357,13 +347,11 @@ async function copyRoms(
 
     // Copy file
     try {
-      log.debug(`[SYNC] Copying: ${sourcePath} -> ${destinationPath}`);
+      log.debug(`Copying: ${sourcePath} -> ${destinationPath}`);
       await fs.copyFile(sourcePath, destinationPath);
-      log.debug(`[SYNC] Copy completed: ${rom.filename}`);
+      log.debug(`Copy completed: ${rom.filename}`);
     } catch (error) {
-      log.error(
-        `[SYNC] Copy failed for ${rom.filename}: ${(error as Error).message}`,
-      );
+      log.error(`Copy failed for ${rom.filename}: ${(error as Error).message}`);
       syncStatus
         .addFailed({
           rom,
@@ -379,22 +367,19 @@ async function copyRoms(
     // Verify checksum if requested
     if (options.verifyFiles) {
       try {
-        log.debug(`[SYNC] Verifying checksum for: ${rom.filename}`);
-        const destinationFileBuffer = await fs.readFile(destinationPath);
-        const copiedCrc32 = calculateCRC32(destinationFileBuffer);
+        log.debug(`Verifying checksum for: ${rom.filename}`);
+        const copiedCrc32 = await crc32sum({ filePath: destinationPath });
 
-        if (copiedCrc32 !== rom.crc32) {
-          log.error(
-            `[SYNC] Checksum mismatch for ${rom.filename}: expected ${rom.crc32}, got ${copiedCrc32}`,
-          );
+        if (copiedCrc32 !== rom.fileCrc32) {
+          log.error(`Checksum mismatch for ${rom.filename}`);
 
           // Delete the corrupted file
           try {
             await fs.unlink(destinationPath);
-            log.debug(`[SYNC] Deleted corrupted file: ${destinationPath}`);
+            log.debug(`Deleted corrupted file: ${destinationPath}`);
           } catch (deleteError) {
             log.warn(
-              `[SYNC] Failed to delete corrupted file: ${(deleteError as Error).message}`,
+              `Failed to delete corrupted file: ${(deleteError as Error).message}`,
             );
           }
 
@@ -410,19 +395,19 @@ async function copyRoms(
             .notify();
           continue;
         }
-        log.debug(`[SYNC] Checksum verified for: ${rom.filename}`);
+        log.debug(`Checksum verified for: ${rom.filename}`);
       } catch (error) {
         log.error(
-          `[SYNC] Verification failed for ${rom.filename}: ${(error as Error).message}`,
+          `Verification failed for ${rom.filename}: ${(error as Error).message}`,
         );
 
         // Delete the file since we can't verify it
         try {
           await fs.unlink(destinationPath);
-          log.debug(`[SYNC] Deleted unverifiable file: ${destinationPath}`);
+          log.debug(`Deleted unverifiable file: ${destinationPath}`);
         } catch (deleteError) {
           log.warn(
-            `[SYNC] Failed to delete unverifiable file: ${(deleteError as Error).message}`,
+            `Failed to delete unverifiable file: ${(deleteError as Error).message}`,
           );
         }
 
@@ -444,9 +429,7 @@ async function copyRoms(
     syncStatus.incrementProcessed().notify();
   }
 
-  log.info(
-    `[SYNC] Copy completed: ${filteredRoms.length} ROMs synced successfully`,
-  );
+  log.info(`Copy completed: ${filteredRoms.length} ROMs synced successfully`);
 }
 
 //- utilities
