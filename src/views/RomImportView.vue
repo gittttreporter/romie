@@ -2,20 +2,10 @@
   <PageLayout
     class="rom-import"
     title="ROM Import"
-    subtitle="Upload ROM files to your library"
+    subtitle="Add ROM files to your library"
   >
     <template #actions>
       <div class="rom-import__actions">
-        <Button
-          class="rom-import__import-button"
-          size="large"
-          severity="secondary"
-          icon="pi pi-file-import"
-          :label="importLabel"
-          :loading="processingState === 'importing'"
-          :disabled="isProcessing"
-          @click="handleImport"
-        />
         <Button
           size="large"
           severity="secondary"
@@ -111,7 +101,7 @@ import type { RomImportResult } from "@/types/electron-api";
 
 const romStore = useRomStore();
 const toast = useToast();
-const processingState = ref<"idle" | "importing" | "scanning">("idle");
+const processingState = ref<"idle" | "scanning">("idle");
 const currentFile = ref("");
 
 const result = ref<{
@@ -125,11 +115,6 @@ const supportedExtensions = getAllSupportedExtensions().join(", ");
 
 const isProcessing = computed(() => processingState.value !== "idle");
 
-const importLabel = computed(() => {
-  if (processingState.value === "importing") return "Processing files...";
-  return "Import";
-});
-
 const scanLabel = computed(() => {
   if (processingState.value === "scanning") return "Scanning directory...";
   return "Scan folder";
@@ -142,26 +127,6 @@ function showGenericError(operation: string) {
     detail: `We couldn't complete the ${operation}. Please try again.`,
     life: 4000,
   });
-}
-
-async function handleImport() {
-  processingState.value = "importing";
-  result.value = null;
-  currentFile.value = "";
-
-  const unsubscribeImportStatus = window.rom.onImportProgress((status) => {
-    currentFile.value = status.currentFile;
-  });
-
-  try {
-    const result = await romStore.importRom();
-    processImportResult(result);
-  } catch (error) {
-    showGenericError("import");
-  } finally {
-    processingState.value = "idle";
-    unsubscribeImportStatus();
-  }
 }
 
 async function handleScan() {
@@ -185,7 +150,7 @@ async function handleScan() {
 }
 
 function processImportResult(importResult: RomImportResult) {
-  log.info("files", importResult);
+  log.debug("Processing import result");
   if (importResult.canceled) return;
 
   const errors: string[] = [];
@@ -214,10 +179,6 @@ function processImportResult(importResult: RomImportResult) {
 
 <style scoped lang="less">
 .rom-import {
-  &__import-button {
-    margin-right: 1rem;
-  }
-
   &__actions {
     padding: 0 var(--space-10);
   }

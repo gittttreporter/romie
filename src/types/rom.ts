@@ -33,7 +33,7 @@ export interface Rom {
   filename: string;
   originalFilename: string;
   filePath: string;
-  source: "import" | "scan";
+
   size: number;
   importedAt: number;
   lastUpdated: number;
@@ -48,6 +48,8 @@ export interface Rom {
   favorite?: boolean;
   notes?: string;
 
+  /** @deprecated Unused import source field, will be removed in future version */
+  source?: "import" | "scan";
   /** @deprecated Unused hash field, will be removed in future version */
   crc32?: string;
   /** @deprecated Unused hash field, will be removed in future version */

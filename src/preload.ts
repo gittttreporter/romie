@@ -33,7 +33,6 @@ const romApi: RomApi = {
   remove: (id: string) => ipcRenderer.invoke("rom:remove", id),
   update: (id: string, data: Partial<Rom>) =>
     ipcRenderer.invoke("rom:update", id, data),
-  import: () => ipcRenderer.invoke("rom:import"),
   scan: () => ipcRenderer.invoke("rom:scan"),
   stats: () => ipcRenderer.invoke("rom:stats"),
   onImportProgress: (callback: (progress: ImportStatus) => void) => {

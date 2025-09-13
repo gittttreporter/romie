@@ -30,7 +30,7 @@ const ROM_IMMUTABLE_FIELDS: (keyof Rom)[] = [
   "ramd5",
   "fileCrc32",
 ];
-const DB_VERSION = "4.0.0";
+const DB_VERSION = "5.0.0";
 
 let database: Low<RomDatabase> | null = null;
 let loadDatabasePromise: Promise<Low<RomDatabase>> | null = null;
@@ -73,7 +73,6 @@ async function loadDatabase(): Promise<void> {
           "db.devices_count": database.data.devices.length,
         });
 
-        // TODO: Implement better migration strategy
         if (database.data.version !== DB_VERSION) {
           await Sentry.startSpan(
             { op: "db.migrate", name: `Migrate Database to ${DB_VERSION}` },
@@ -146,7 +145,6 @@ export async function addRom(rom: Rom): Promise<void> {
       attributes: {
         "rom.system": rom.system,
         "rom.size_mb": Math.round((rom.size / 1024 / 1024) * 100) / 100,
-        "rom.source": rom.source,
       },
     },
     async (span) => {
@@ -207,7 +205,6 @@ export async function removeRomById(id: string): Promise<void> {
       const rom = db.data.roms[romIdx];
       span.setAttributes({
         "rom.system": rom.system,
-        "rom.source": rom.source,
       });
 
       // Extract just the filename to prevent issues with filenames like "../../get/pwn3d/myrom.gg"
@@ -278,7 +275,6 @@ export async function updateRom(
       const rom = db.data.roms[romIdx];
       span.setAttributes({
         "rom.system": rom.system,
-        "rom.source": rom.source,
       });
 
       ROM_IMMUTABLE_FIELDS.forEach((key) => delete romUpdate[key]);

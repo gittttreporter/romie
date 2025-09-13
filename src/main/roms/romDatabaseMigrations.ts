@@ -1,6 +1,7 @@
 import logger from "electron-log/main";
 import { hash } from "@romie/ra-hasher";
 import { RomDatabase } from "@/types/rom";
+import { crc32sum } from "./romUtils";
 import { lookupRomByHash, unloadHashDatabase } from "./romLookup";
 import {
   determineSystemFromRAConsoleId,
@@ -18,6 +19,8 @@ export async function ensureDatabaseSchema(data: RomDatabase) {
       await migrateToVersion_3_0_0(data);
     case "3.0.0":
       await migrateToVersion_4_0_0(data);
+    case "4.0.0":
+      await migrateToVersion_5_0_0(data);
   }
 
   data.lastUpdated = Date.now();
@@ -96,11 +99,22 @@ async function migrateToVersion_4_0_0(data: RomDatabase) {
   unloadHashDatabase();
 }
 
-function migrateToVersion_5_0_0(data: RomDatabase) {
+async function migrateToVersion_5_0_0(data: RomDatabase) {
   log.info(`Migrating rom database from ${data.version} to version 5.0.0`);
   data.version = "5.0.0";
 
-  // Remove deprecated hash fields
+  for (const rom of data.roms) {
+    try {
+      // Add the new fileCrc32 field for file integrity checking
+      rom.fileCrc32 ??= await crc32sum({ filePath: rom.filePath });
+    } catch (error) {
+      log.error(`Error generating file CRC32 for ROM ${rom.id}: ${error}`);
+      rom.fileCrc32 = "00000000";
+    }
 
-  // Add fileCrc32 field for file integrity checking
+    // Remove deprecated fields
+    delete rom.source;
+    delete rom.crc32;
+    delete rom.sha1;
+  }
 }

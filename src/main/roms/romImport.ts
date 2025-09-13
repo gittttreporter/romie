@@ -13,7 +13,6 @@ import {
   extractRegionFromFilename,
   cleanDisplayName,
   md5sum,
-  copyRomToLibrary,
   crc32sum,
 } from "./romUtils";
 import { addRom } from "./romDatabase";
@@ -26,24 +25,21 @@ import type { Rom } from "@/types/rom";
  * @param filePath - Path to file (zip archive or individual ROM)
  * @param fileName - ROM filename (may differ from filePath basename if extracted from zip)
  * @param fileBuffer - ROM file data buffer
- * @param source - Import source type
  * @returns Promise that resolves to the created ROM metadata
  */
 export async function processRomFile(
   filePath: string,
   fileName: string,
   fileBuffer: Buffer,
-  source: "import" | "scan",
 ): Promise<Rom> {
-  const log = logger.scope(`rom-import:${source}`);
+  const log = logger.scope(`rom-process`);
   log.debug(`Starting ROM processing for file: ${filePath}`);
 
   return await Sentry.startSpan(
     {
       op: "rom.process",
-      name: `Process ROM File - ${source}`,
+      name: "Process ROM File",
       attributes: {
-        "rom.source": source,
         "rom.extension": path.extname(fileName).toLowerCase(),
       },
     },
@@ -120,19 +116,6 @@ export async function processRomFile(
         const size = stats.size;
         log.debug(`File size: ${(size / 1024 / 1024).toFixed(2)} MB`);
 
-        // Copy to managed library if imported.
-        let savedLocation = filePath;
-        if (source === "import") {
-          // Copy file to target location
-          log.debug(`Copying ROM to library`);
-          savedLocation = await Sentry.startSpan(
-            { op: "rom.copy", name: "Copy ROM to Library" },
-            async () =>
-              (await copyRomToLibrary(filePath, originalFilename)).toString(),
-          );
-          log.debug(`ROM copied to: ${savedLocation}`);
-        }
-
         // Create metadata object
         const now = Date.now();
         const metadata: Rom = {
@@ -142,8 +125,7 @@ export async function processRomFile(
           region,
           filename: originalFilename, // TODO: consider renaming to savedFilename
           originalFilename, // TODO: consider if we need both filename and originalFilename
-          filePath: savedLocation,
-          source,
+          filePath,
           size,
           importedAt: now,
           lastUpdated: now,

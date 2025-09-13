@@ -120,16 +120,8 @@ export const useRomStore = defineStore("roms", {
         this.loading = false;
       }
     },
-    async importRom(): Promise<RomImportResult> {
-      log.info("Initiating rom import..");
-      const importResults = await window.rom.import();
-      await this.loadRoms();
-      await this.loadStats();
-
-      return importResults;
-    },
     async scanRomDir(): Promise<RomImportResult> {
-      log.info("Initiating rom import..");
+      log.info("Initiating rom scan..");
       const scanResults = await window.rom.scan();
       await this.loadRoms();
       await this.loadStats();

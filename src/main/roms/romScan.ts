@@ -120,7 +120,7 @@ async function processFile(
 
       emitProgress({ currentFile: filename });
       const fileBuffer = await fs.readFile(fullPath);
-      await processRomFile(fullPath, filename, fileBuffer, "scan");
+      await processRomFile(fullPath, filename, fileBuffer);
 
       return { processed: 1, errors: [], skipped: [] };
     }
@@ -156,12 +156,7 @@ async function processSevenZipFile(archivePath: string): Promise<ScanResult> {
       return { processed: 0, errors: [], skipped: [archivePath] };
     }
 
-    await processRomFile(
-      archivePath,
-      romBuffer.fileName,
-      romBuffer.buffer,
-      "scan",
-    );
+    await processRomFile(archivePath, romBuffer.fileName, romBuffer.buffer);
 
     return { processed: 1, errors: [], skipped: [] };
   } catch (error) {
@@ -191,7 +186,7 @@ async function processZipFile(zipPath: string): Promise<ScanResult> {
       return { processed: 0, errors: [], skipped: [zipPath] };
     }
 
-    await processRomFile(zipPath, romBuffer.fileName, romBuffer.buffer, "scan");
+    await processRomFile(zipPath, romBuffer.fileName, romBuffer.buffer);
 
     return { processed: 1, errors: [], skipped: [] };
   } catch (error) {

@@ -197,24 +197,6 @@ export async function generateLibretroHashes({
   };
 }
 
-export async function copyRomToLibrary(
-  sourcePath: PathLike,
-  destFileName: string,
-): Promise<PathLike> {
-  const appDataDir =
-    process.env.NODE_ENV === "development"
-      ? path.join(process.cwd(), ".romie")
-      : app.getPath("userData");
-  const romsDir = path.join(appDataDir, "roms");
-  const destPath = path.join(romsDir, destFileName);
-  log.debug(`[IMPORT] Copying to ${destPath}`);
-
-  await fs.mkdir(romsDir, { recursive: true });
-  await fs.copyFile(sourcePath, destPath);
-
-  return destPath;
-}
-
 /**
  * Helper function to find region codes within a text string
  * Handles complex region strings like "USA, Europe" or "Rev 1"

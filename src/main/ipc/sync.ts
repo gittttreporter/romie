@@ -309,10 +309,7 @@ async function copyRoms(
     const systemMapping = profile.systemMappings[rom.system];
     syncStatus.setCurrentFile(rom.displayName).notify();
 
-    // TODO: Remove or update this after deciding if import will stick around. We should be able to
-    // rely on filePath alone but I didn't want to write a migration for something that may be removed.
-    const sourcePath =
-      rom.source === "import" ? path.join(romDir, rom.filename) : rom.filePath;
+    const sourcePath = rom.filePath;
     const destinationPath = path.join(
       device.deviceInfo.mount,
       profile.romBasePath,
