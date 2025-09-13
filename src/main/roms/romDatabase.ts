@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import { app, safeStorage } from "electron";
-import log from "electron-log/main";
+import logger from "electron-log/main";
 import * as Sentry from "@sentry/electron/main";
 import { JSONFilePreset } from "lowdb/node";
 import { v4 as uuid } from "uuid";
@@ -19,6 +19,7 @@ const baseDir =
     : app.getPath("userData");
 const romDir = path.join(baseDir, "roms");
 const romDbPath = path.join(baseDir, "roms.json");
+const log = logger.scope("rom-db");
 
 const ROM_IMMUTABLE_FIELDS: (keyof Rom)[] = [
   "id",
@@ -44,7 +45,7 @@ async function loadDatabase(): Promise<void> {
       const now = Date.now();
 
       if (!loadDatabasePromise) {
-        log.info(`[ROM DB] Starting to load database from ${romDbPath}`);
+        log.info(`Starting to load database from ${romDbPath}`);
         await fs.mkdir(baseDir, { recursive: true });
 
         loadDatabasePromise = JSONFilePreset<RomDatabase>(romDbPath, {
@@ -83,13 +84,11 @@ async function loadDatabase(): Promise<void> {
           );
         }
         loadDatabasePromise = null;
-        log.info(`[ROM DB] Database loaded successfully`);
+        log.info(`Database loaded successfully`);
       } else {
-        log.debug(
-          `[ROM DB] Load already in progress, awaiting existing operation`,
-        );
+        log.debug(`Load already in progress, awaiting existing operation`);
         await loadDatabasePromise;
-        log.info(`[ROM DB] Load operation completed`);
+        log.info(`Load operation completed`);
       }
     },
   );

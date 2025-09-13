@@ -35,7 +35,7 @@ export async function processRomFile(
   fileBuffer: Buffer,
   source: "import" | "scan",
 ): Promise<Rom> {
-  const log = logger.scope(source);
+  const log = logger.scope(`rom-import:${source}`);
   log.debug(`Starting ROM processing for file: ${filePath}`);
 
   return await Sentry.startSpan(

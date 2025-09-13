@@ -1,5 +1,5 @@
-import log from "electron-log/main";
-import { ipcMain, BrowserWindow } from "electron";
+import logger from "electron-log/main";
+import { app, BrowserWindow } from "electron";
 import yauzl from "yauzl";
 import path from "path";
 import fs from "fs/promises";
@@ -10,6 +10,8 @@ import { getAllSupportedExtensions } from "@/utils/systems";
 import { RomProcessingError } from "@/errors";
 import type { PathLike } from "node:fs";
 import type { ImportStatus } from "@/types/electron-api";
+import Seven from "node-7z";
+import { path7za } from "7zip-bin";
 
 interface ScanResult {
   processed: number;
@@ -18,6 +20,7 @@ interface ScanResult {
 }
 
 const SUPPORTED_EXTENSIONS = getAllSupportedExtensions();
+const log = logger.scope("rom-scan");
 
 export async function processRomDirectory(
   dirPath: PathLike,
@@ -31,6 +34,7 @@ export async function processRomDirectory(
       },
     },
     async (span) => {
+      log.debug(`Scanning for ROMs in ${dirPath}`);
       const results: ScanResult = { processed: 0, errors: [], skipped: [] };
 
       let files;
@@ -93,7 +97,12 @@ async function processFile(
     }
 
     if (fileStats.isFile()) {
-      if (path.extname(filename).toLowerCase() === ".zip") {
+      const ext = path.extname(filename).toLowerCase();
+      if (ext === ".7z") {
+        emitProgress({ currentFile: filename });
+        return await processSevenZipFile(fullPath);
+      }
+      if (ext === ".zip") {
         emitProgress({ currentFile: filename });
         const result = await processZipFile(fullPath);
 
@@ -136,6 +145,41 @@ async function processFile(
   }
 }
 
+async function processSevenZipFile(archivePath: string): Promise<ScanResult> {
+  log.debug(`Checking for ROMs in ${archivePath}`);
+
+  try {
+    const romBuffer = await readRomFromSevenZip(archivePath);
+
+    if (!romBuffer) {
+      log.warn(`No ROM files found in 7z: ${archivePath}`);
+      return { processed: 0, errors: [], skipped: [archivePath] };
+    }
+
+    await processRomFile(
+      archivePath,
+      romBuffer.fileName,
+      romBuffer.buffer,
+      "scan",
+    );
+
+    return { processed: 1, errors: [], skipped: [] };
+  } catch (error) {
+    log.error(`Error processing zip file ${archivePath}:`, error);
+    const sevenZipError =
+      error instanceof RomProcessingError
+        ? error
+        : new RomProcessingError(
+            `Failed to process 7z file`,
+            archivePath,
+            error instanceof Error ? error.message : "Unknown error",
+            error instanceof Error ? error : undefined,
+          );
+
+    return { processed: 0, errors: [sevenZipError], skipped: [] };
+  }
+}
+
 async function processZipFile(zipPath: string): Promise<ScanResult> {
   log.debug(`Checking for ROMs in ${zipPath}`);
 
@@ -164,6 +208,88 @@ async function processZipFile(zipPath: string): Promise<ScanResult> {
 
     return { processed: 0, errors: [zipError], skipped: [] };
   }
+}
+
+async function readRomFromSevenZip(archivePath: string): Promise<{
+  fileName: string;
+  buffer: Buffer;
+} | null> {
+  return new Promise((resolve, reject) => {
+    const extractDir = path.join(
+      app.getPath("temp"),
+      `rom-${Date.now().toString()}`,
+    );
+    const stream = Seven.extractFull(archivePath, extractDir, {
+      $bin: path7za,
+    });
+    const cleanTempDir = () =>
+      fs.rm(extractDir, { recursive: true, force: true }).catch(() => {});
+    const romFiles: string[] = [];
+
+    stream.on("data", ({ status, file }) => {
+      if (status === "extracted" && isRomFile(file)) {
+        log.debug(`Found 7z entry: ${file}`);
+        const fullPath = path.join(extractDir, file);
+
+        if (romFiles.length) {
+          // Already found a ROM, so this is a violation of the 1-ROM-per-zip rule.
+          reject(
+            new RomProcessingError(
+              `Multiple ROMs found in 7z file`,
+              archivePath,
+              `Found multiple ROM files in 7z file.`,
+            ),
+          );
+          stream.destroy();
+          return;
+        }
+
+        romFiles.push(fullPath);
+      }
+    });
+
+    stream.on("end", async () => {
+      const romFilePath = romFiles[0];
+
+      if (!romFilePath) {
+        resolve(null);
+        return;
+      }
+
+      try {
+        const romBuffer = await fs.readFile(romFilePath);
+        resolve({
+          fileName: path.basename(romFilePath),
+          buffer: romBuffer,
+        });
+      } catch (error) {
+        log.error(`Error reading extracted ROM from 7z:`, error);
+        reject(
+          new RomProcessingError(
+            `Failed to read extracted ROM from 7z`,
+            archivePath,
+            error instanceof Error ? error.message : "Unknown error",
+            error instanceof Error ? error : undefined,
+          ),
+        );
+      } finally {
+        cleanTempDir();
+      }
+    });
+
+    stream.on("error", (error) => {
+      log.error(`Error processing 7z file ${archivePath}:`, error);
+      cleanTempDir();
+      reject(
+        new RomProcessingError(
+          `Failed to process 7z file`,
+          archivePath,
+          error instanceof Error ? error.message : "Unknown error",
+          error instanceof Error ? error : undefined,
+        ),
+      );
+    });
+  });
 }
 
 /**

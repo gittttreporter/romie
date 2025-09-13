@@ -37,9 +37,9 @@ export interface Rom {
   size: number;
   importedAt: number;
   lastUpdated: number;
-  /** MD5 hash of ROM content */
+  /** MD5 hash of ROM content - primary deduplication method */
   md5: string;
-  /** CRC32 of actual file on disk - fast integrity checking */
+  /** CRC32 of actual file on disk - fast file integrity checking */
   fileCrc32: string;
   /** RetroAchievements hash - required for game identification */
   ramd5: string | null;
@@ -47,6 +47,11 @@ export interface Rom {
   tags?: string[];
   favorite?: boolean;
   notes?: string;
+
+  /** @deprecated Unused hash field, will be removed in future version */
+  crc32?: string;
+  /** @deprecated Unused hash field, will be removed in future version */
+  sha1?: string;
 }
 
 export interface TagStats {

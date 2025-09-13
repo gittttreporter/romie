@@ -46,9 +46,9 @@ async function migrateToVersion_3_0_0(data: RomDatabase) {
 
   for (const rom of data.roms) {
     // ROM hashes should be lowercase for consistency with RA data.
-    rom.crc32 = rom.crc32.toLowerCase();
+    rom.crc32 = rom?.crc32?.toLowerCase();
     rom.md5 = rom.md5.toLowerCase();
-    rom.sha1 = rom.sha1.toLowerCase();
+    rom.sha1 = rom?.sha1?.toLowerCase();
     // New field to mark RA verified ROMs. Default to false.
     rom.verified ??= false;
 
@@ -94,4 +94,13 @@ async function migrateToVersion_4_0_0(data: RomDatabase) {
   }
 
   unloadHashDatabase();
+}
+
+function migrateToVersion_5_0_0(data: RomDatabase) {
+  log.info(`Migrating rom database from ${data.version} to version 5.0.0`);
+  data.version = "5.0.0";
+
+  // Remove deprecated hash fields
+
+  // Add fileCrc32 field for file integrity checking
 }

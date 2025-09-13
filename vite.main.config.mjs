@@ -17,5 +17,8 @@ export default defineConfig({
   },
   build: {
     sourcemap: true,
+    rollupOptions: {
+      external: ["7zip-bin"],
+    },
   },
 });
