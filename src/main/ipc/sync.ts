@@ -289,11 +289,6 @@ async function copyRoms(
   options: SyncOptions,
   syncStatus: SyncNotifier,
 ): Promise<void> {
-  const baseDir =
-    process.env.NODE_ENV === "development"
-      ? path.join(process.cwd(), ".romie")
-      : app.getPath("userData");
-  const romDir = path.join(baseDir, "roms");
   syncStatus.setPhase("copying").notify();
 
   log.info(`Starting copy of ${filteredRoms.length} ROMs to ${device.name}`);
@@ -309,12 +304,16 @@ async function copyRoms(
     const systemMapping = profile.systemMappings[rom.system];
     syncStatus.setCurrentFile(rom.displayName).notify();
 
-    const sourcePath = rom.filePath;
+    const sourceFilename = path.basename(rom.filePath);
+    const destinationFilename = options.useCleanNames
+      ? `${rom.displayName}${path.extname(sourceFilename)}`
+      : sourceFilename;
+
     const destinationPath = path.join(
       device.deviceInfo.mount,
       profile.romBasePath,
       systemMapping.folderName,
-      rom.filename,
+      destinationFilename,
     );
 
     log.debug(
@@ -344,8 +343,8 @@ async function copyRoms(
 
     // Copy file
     try {
-      log.debug(`Copying: ${sourcePath} -> ${destinationPath}`);
-      await fs.copyFile(sourcePath, destinationPath);
+      log.debug(`Copying: ${rom.filePath} -> ${destinationPath}`);
+      await fs.copyFile(rom.filePath, destinationPath);
       log.debug(`Copy completed: ${rom.filename}`);
     } catch (error) {
       log.error(`Copy failed for ${rom.filename}: ${(error as Error).message}`);

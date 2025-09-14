@@ -112,6 +112,22 @@
                 </div>
                 <div class="tag-selection__option">
                   <Checkbox
+                    v-model="syncOptions.useCleanNames"
+                    inputId="clean-names"
+                    binary
+                  />
+                  <div class="tag-selection__option-content">
+                    <label for="clean-names" class="tag-selection__option-label"
+                      >Simplify filenames</label
+                    >
+                    <small class="tag-selection__option-subtitle"
+                      >Copies as "Super Metroid.sfc" instead of "Super Metroid
+                      (Japan, USA) (En,Ja).sfc"</small
+                    >
+                  </div>
+                </div>
+                <div class="tag-selection__option">
+                  <Checkbox
                     v-model="syncOptions.verifyFiles"
                     inputId="verify-files"
                     binary
@@ -196,6 +212,7 @@ const selectedTags = ref<TagStats[]>([]);
 const syncOptions = ref<SyncOptions>({
   cleanDestination: false,
   verifyFiles: true,
+  useCleanNames: true,
 });
 
 // Extract sync logic to composable

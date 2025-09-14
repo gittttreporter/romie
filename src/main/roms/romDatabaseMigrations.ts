@@ -1,3 +1,4 @@
+import path from "path";
 import logger from "electron-log/main";
 import { hash } from "@romie/ra-hasher";
 import { RomDatabase } from "@/types/rom";
@@ -107,12 +108,19 @@ async function migrateToVersion_5_0_0(data: RomDatabase) {
     try {
       // Add the new fileCrc32 field for file integrity checking
       rom.fileCrc32 ??= await crc32sum({ filePath: rom.filePath });
+      // Add the new romFilename field for clarity with archive formats
+      // (e.g. "Super Mario World.sfc" inside "Super Mario World.zip")
+      rom.romFilename ??= rom.originalFilename ?? rom.filename;
+      // Update filename field to represent actual file on disk. Previously this was just
+      // a duplicate of originalFilename.
+      rom.filename = path.basename(rom.filePath);
     } catch (error) {
       log.error(`Error generating file CRC32 for ROM ${rom.id}: ${error}`);
       rom.fileCrc32 = "00000000";
     }
 
     // Remove deprecated fields
+    delete rom.originalFilename;
     delete rom.source;
     delete rom.crc32;
     delete rom.sha1;

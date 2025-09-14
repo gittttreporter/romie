@@ -23,7 +23,10 @@ const log = logger.scope("rom-db");
 
 const ROM_IMMUTABLE_FIELDS: (keyof Rom)[] = [
   "id",
-  "originalFilename",
+  "filename",
+  "romFilename",
+  "filePath",
+  "size",
   "importedAt",
   "lastUpdated",
   "md5",
@@ -149,7 +152,7 @@ export async function addRom(rom: Rom): Promise<void> {
     },
     async (span) => {
       const db = await ensureDatabase();
-      log.debug(`Adding ROM: ${rom.originalFilename}`);
+      log.debug(`Adding ROM: ${rom.filename} (${rom.romFilename})`);
 
       // Check for duplicates
       const existing = db.data.roms.find(({ md5 }) => md5 === rom.md5);
@@ -164,10 +167,10 @@ export async function addRom(rom: Rom): Promise<void> {
         });
 
         log.warn(
-          `Duplicate ROM rejected: ${rom.originalFilename} (matches ${existing.originalFilename})`,
+          `Duplicate ROM rejected: ${rom.filename} (matches ${existing.filename})`,
         );
         throw new Error(
-          `ROM "${rom.originalFilename}" already exists (duplicate of "${existing.originalFilename}")`,
+          `ROM "${rom.filename}" already exists (duplicate of "${existing.filename}")`,
         );
       }
 
@@ -181,7 +184,7 @@ export async function addRom(rom: Rom): Promise<void> {
         "db.total_roms_after": db.data.roms.length,
       });
 
-      log.info(`ROM added: ${rom.originalFilename}`);
+      log.info(`ROM added: ${rom.filename} (${rom.romFilename})`);
     },
   );
 }
@@ -207,11 +210,6 @@ export async function removeRomById(id: string): Promise<void> {
         "rom.system": rom.system,
       });
 
-      // Extract just the filename to prevent issues with filenames like "../../get/pwn3d/myrom.gg"
-      const { originalFilename } = rom;
-      const filename = path.basename(originalFilename);
-      const storedFilePath = path.join(romDir, filename);
-
       // Remove the ROM database entry
       log.debug(`Removing ROM metadata: ${id}`);
       await db.update((data) => {
@@ -222,29 +220,6 @@ export async function removeRomById(id: string): Promise<void> {
       span.setAttributes({
         "db.total_roms_after": db.data.roms.length,
       });
-
-      // Remove the ROM file if we can.
-      // TODO: Clean up orphaned rom files during app start.
-      try {
-        log.debug(`Attempting to delete ROM file at ${storedFilePath}`);
-        if (await fileExists(storedFilePath)) {
-          await fs.unlink(storedFilePath);
-          span.setAttributes({ "file.deleted": true });
-          log.info(`ROM file deleted: ${storedFilePath}`);
-        } else {
-          span.setAttributes({ "file.deleted": false, "file.not_found": true });
-          log.warn(`ROM file not found for deletion: ${storedFilePath}`);
-        }
-      } catch (err: any) {
-        span.recordException(err);
-        span.setAttributes({
-          "file.deleted": false,
-          "file.delete_error": true,
-        });
-        log.warn(
-          `Failed to delete ROM file (${storedFilePath}): ${err.message}`,
-        );
-      }
     },
   );
 }

@@ -66,6 +66,7 @@ export interface RetroAchievementsApi {
 export interface SyncOptions {
   cleanDestination: boolean;
   verifyFiles: boolean;
+  useCleanNames: boolean;
 }
 
 /**

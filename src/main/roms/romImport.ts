@@ -33,6 +33,7 @@ export async function processRomFile(
   fileBuffer: Buffer,
 ): Promise<Rom> {
   const log = logger.scope(`rom-process`);
+  const fileExtension = path.extname(fileName);
   log.debug(`Starting ROM processing for file: ${filePath}`);
 
   return await Sentry.startSpan(
@@ -40,15 +41,14 @@ export async function processRomFile(
       op: "rom.process",
       name: "Process ROM File",
       attributes: {
-        "rom.extension": path.extname(fileName).toLowerCase(),
+        "rom.extension": fileExtension,
       },
     },
     async (span) => {
-      const originalFilename = fileName;
-      const fileExtension = path.extname(originalFilename);
+      const fileBaseName = path.basename(filePath);
 
       try {
-        log.info(`Processing ROM file: ${originalFilename}`);
+        log.info(`Processing ROM file: ${fileBaseName} (${fileName})`);
 
         // Determine system information from extension
         log.debug(`Determining system from extension ${fileExtension}`);
@@ -71,7 +71,7 @@ export async function processRomFile(
             // Generate MD5 hash of the ROM content for deduplication.
             const md5 = await md5sum({ buffer: fileBuffer });
             // Generate hash of the input file for integrity checks.
-            const fileCrc32 = await crc32sum({ buffer: fileBuffer });
+            const fileCrc32 = await crc32sum({ filePath });
 
             return { ramd5, md5, fileCrc32 };
           },
@@ -101,13 +101,13 @@ export async function processRomFile(
           log.warn(`No matching game found in database for hash.`);
 
           // Create displayName by stripping: region tag, dump tags ([!], [v1.1]), punctuation
-          displayName = cleanDisplayName(originalFilename);
+          displayName = cleanDisplayName(fileName);
           log.debug(`Clean display name: ${displayName}`);
         }
 
         // Extract region tag from filename e.g. (USA), (JPN) fallback: "Unknown"
         log.debug(`Extracting region from filename`);
-        const region = extractRegionFromFilename(originalFilename);
+        const region = extractRegionFromFilename(fileName);
         log.debug(`Detected region: ${region}`);
 
         // Get file size
@@ -123,8 +123,10 @@ export async function processRomFile(
           system,
           displayName,
           region,
-          filename: originalFilename, // TODO: consider renaming to savedFilename
-          originalFilename, // TODO: consider if we need both filename and originalFilename
+          // Actual file basename (e.g., "Super Metroid.zip")
+          filename: fileBaseName,
+          // ROM filename for system detection (e.g., "Super Metroid.sfc")
+          romFilename: fileName,
           filePath,
           size,
           importedAt: now,
@@ -156,10 +158,13 @@ export async function processRomFile(
           error instanceof Error ? error : new Error(String(error)),
         );
 
-        log.error(`Failed to process ROM file: ${originalFilename}`, error);
+        log.error(
+          `Failed to process ROM file: ${fileBaseName} (${fileName})`,
+          error,
+        );
 
         const romError = new RomProcessingError(
-          `Failed to process ROM: ${originalFilename}`,
+          `Failed to process ROM: ${fileBaseName} (${fileName})`,
           filePath,
           error instanceof Error ? error.message : "Unknown error",
           error instanceof Error ? error : undefined,

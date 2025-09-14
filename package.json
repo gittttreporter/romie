@@ -11,7 +11,7 @@
     "publish": "electron-forge publish",
     "postinstall": "node scripts/postinstall.mjs",
     "build:game-db": "tsx scripts/build-game-db",
-    "lint": "echo \"No linting configured\"",
+    "lint": "vue-tsc --noEmit",
     "test": "vitest"
   },
   "keywords": [

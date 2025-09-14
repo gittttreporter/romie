@@ -30,10 +30,12 @@ export interface Rom {
   system: SystemCode;
   displayName: string;
   region: RomRegion | "Unknown";
-  filename: string;
-  originalFilename: string;
+  /** Full path to actual file on disk */
   filePath: string;
-
+  /** Basename of actual file on disk (e.g., "Super Metroid.zip") */
+  filename: string;
+  /** ROM filename used for system detection (e.g., "Super Metroid.sfc") */
+  romFilename: string;
   size: number;
   importedAt: number;
   lastUpdated: number;
@@ -48,6 +50,8 @@ export interface Rom {
   favorite?: boolean;
   notes?: string;
 
+  /** @deprecated Use `filename` now, will be removed in future version */
+  originalFilename?: string;
   /** @deprecated Unused import source field, will be removed in future version */
   source?: "import" | "scan";
   /** @deprecated Unused hash field, will be removed in future version */

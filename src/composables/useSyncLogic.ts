@@ -160,6 +160,7 @@ export function useSyncLogic(deviceId: string) {
       syncStatus.value = await window.sync.start(selectedTagIds, deviceId, {
         cleanDestination: syncOptions.cleanDestination,
         verifyFiles: syncOptions.verifyFiles,
+        useCleanNames: syncOptions.useCleanNames,
       });
     } catch (err) {
       syncError.value = (err as Error).message || "An unknown error occurred";
