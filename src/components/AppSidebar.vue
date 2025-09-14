@@ -135,20 +135,20 @@ interface SidebarSection {
 }
 
 const isDark = ref(false);
-
-const unsubscribeDarkMode = window.darkMode.onChange((value) => {
-  isDark.value = value;
-});
+let unsubscribeDarkMode: (() => void) | null = null;
 
 onMounted(async () => {
   romStore.loadStats();
   romStore.loadRoms();
   deviceStore.loadDevices();
   isDark.value = await window.darkMode.value();
+  unsubscribeDarkMode = window.darkMode.onChange((value) => {
+    isDark.value = value;
+  });
 });
 
 onBeforeUnmount(() => {
-  unsubscribeDarkMode();
+  if (unsubscribeDarkMode) unsubscribeDarkMode();
 });
 
 const systemsSection = computed((): SidebarSection => {

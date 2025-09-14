@@ -37,20 +37,23 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onBeforeUnmount } from "vue";
+import { ref, onMounted, onBeforeUnmount } from "vue";
 import Button from "primevue/button";
 import Message from "primevue/message";
 import AppSettingsModal from "@/components/AppSettingsModal.vue";
 
 const settingsModal = ref();
 const updateAvailable = ref<string | null>(null);
+let unsubscribeUpdates: (() => void) | null = null;
 
-const unsubscribeUpdates = window.update.onUpdateAvailable((version) => {
-  updateAvailable.value = version;
+onMounted(() => {
+  unsubscribeUpdates = window.update.onUpdateAvailable((version) => {
+    updateAvailable.value = version;
+  });
 });
 
 onBeforeUnmount(() => {
-  unsubscribeUpdates();
+  if (unsubscribeUpdates) unsubscribeUpdates();
 });
 
 function handleUpdate() {
