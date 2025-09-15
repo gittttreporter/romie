@@ -36,6 +36,7 @@ export default {
             teamId: process.env.APPLE_TEAM_ID,
           },
         }),
+    extraResource: ["node_modules/7zip-bin"],
   },
   rebuildConfig: {},
   makers: [

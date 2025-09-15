@@ -3,15 +3,15 @@ import { app, BrowserWindow } from "electron";
 import yauzl from "yauzl";
 import path from "path";
 import fs from "fs/promises";
-import { readdir, stat } from "node:fs/promises";
 import * as Sentry from "@sentry/electron/main";
+import Seven from "node-7z";
 import { processRomFile } from "./romImport";
+import { get7zBinaryPath } from "./romUtils";
 import { getAllSupportedExtensions } from "@/utils/systems";
 import { RomProcessingError } from "@/errors";
+
 import type { PathLike } from "node:fs";
 import type { ImportStatus } from "@/types/electron-api";
-import Seven from "node-7z";
-import { path7za } from "7zip-bin";
 
 interface ScanResult {
   processed: number;
@@ -20,6 +20,7 @@ interface ScanResult {
 }
 
 const SUPPORTED_EXTENSIONS = getAllSupportedExtensions();
+const SEVEN_ZIP_PATH = get7zBinaryPath();
 const log = logger.scope("rom-scan");
 
 export async function processRomDirectory(
@@ -39,7 +40,7 @@ export async function processRomDirectory(
 
       let files;
       try {
-        files = await readdir(dirPath);
+        files = await fs.readdir(dirPath);
       } catch (error) {
         span.setStatus({ code: 2, message: "Failed to read directory" });
         span.recordException(
@@ -90,7 +91,7 @@ async function processFile(
       return { processed: 0, errors: [], skipped: [] };
     }
 
-    const fileStats = await stat(fullPath);
+    const fileStats = await fs.stat(fullPath);
 
     if (fileStats.isDirectory()) {
       return await processRomDirectory(fullPath);
@@ -215,7 +216,7 @@ async function readRomFromSevenZip(archivePath: string): Promise<{
       `rom-${Date.now().toString()}`,
     );
     const stream = Seven.extractFull(archivePath, extractDir, {
-      $bin: path7za,
+      $bin: SEVEN_ZIP_PATH,
     });
     const cleanTempDir = () =>
       fs.rm(extractDir, { recursive: true, force: true }).catch(() => {});

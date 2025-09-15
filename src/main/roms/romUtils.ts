@@ -286,3 +286,28 @@ export async function fileExists(filePath: PathLike) {
     return false;
   }
 }
+
+export function get7zBinaryPath(): string {
+  // Map Node.js platform names to the 7zip-bin directory names
+  const platformMap = {
+    darwin: "mac",
+    win32: "win",
+  } as Partial<Record<NodeJS.Platform, string>>;
+
+  const platform = platformMap[process.platform] || "linux";
+  const arch = process.arch;
+  const basePath = app.isPackaged
+    ? process.resourcesPath
+    : path.join(process.cwd(), "node_modules");
+  const binaryName = process.platform === "win32" ? "7za.exe" : "7za";
+  const binaryPath = path.join(
+    basePath,
+    "7zip-bin",
+    platform,
+    arch,
+    binaryName,
+  );
+
+  log.debug(`Using 7zip binary at: ${binaryPath}`);
+  return binaryPath;
+}
