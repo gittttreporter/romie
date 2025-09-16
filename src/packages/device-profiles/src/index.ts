@@ -1,6 +1,7 @@
 import type { DeviceProfile } from "./types";
 import { ONION_OS_PROFILE } from "./profiles/onion";
 import { KNULLI_PROFILE } from "./profiles/knulli";
+import { MUOS_PROFILE } from "./profiles/muos";
 
 // Export types
 export type { DeviceProfile, SystemMapping, ArtworkConfig } from "./types";
@@ -9,6 +10,7 @@ export type { DeviceProfile, SystemMapping, ArtworkConfig } from "./types";
 const profiles: Record<string, DeviceProfile> = {
   [ONION_OS_PROFILE.id]: ONION_OS_PROFILE,
   [KNULLI_PROFILE.id]: KNULLI_PROFILE,
+  [MUOS_PROFILE.id]: MUOS_PROFILE,
 };
 
 // API functions
