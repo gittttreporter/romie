@@ -22,6 +22,8 @@ export async function ensureDatabaseSchema(data: RomDatabase) {
       await migrateToVersion_4_0_0(data);
     case "4.0.0":
       await migrateToVersion_5_0_0(data);
+    case "5.0.0":
+      await migrateToVersion_6_0_0(data);
   }
 
   data.lastUpdated = Date.now();
@@ -125,4 +127,10 @@ async function migrateToVersion_5_0_0(data: RomDatabase) {
     delete rom.crc32;
     delete rom.sha1;
   }
+}
+
+async function migrateToVersion_6_0_0(data: RomDatabase) {
+  log.info(`Migrating rom database from ${data.version} to version 6.0.0`);
+  data.version = "6.0.0";
+  data.profiles ??= [];
 }

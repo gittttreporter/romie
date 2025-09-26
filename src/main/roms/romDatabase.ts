@@ -40,7 +40,7 @@ const ROM_IMMUTABLE_FIELDS: (keyof Rom)[] = [
   "ramd5",
   "fileCrc32",
 ];
-const DB_VERSION = "5.0.0";
+const DB_VERSION = "6.0.0";
 
 let database: Low<RomDatabase> | null = null;
 let loadDatabasePromise: Promise<Low<RomDatabase>> | null = null;

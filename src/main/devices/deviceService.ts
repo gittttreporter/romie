@@ -284,6 +284,7 @@ export async function uploadProfile(): Promise<
       message = error instanceof Error ? error.message : "Unknown error";
       userMessage = "An unexpected error occurred while uploading the profile.";
     }
+    log.error(userMessage, error);
 
     return { success: false, error: message, userMessage };
   }
