@@ -20,15 +20,49 @@
         <label for="deviceprofile">Device Profile</label>
         <Select
           v-model="deviceForm.profileId"
-          :options="deviceProfileOptions"
-          optionValue="value"
-          optionLabel="name"
+          v-bind="deviceProfileOptions"
+          option-value="value"
+          option-label="name"
           placeholder="Select a Device Profile"
         />
         <Message size="small" severity="secondary" variant="simple"
           >Device profiles optimize how ROMie syncs and organizes your games
           based on your handheld device's operating system.</Message
         >
+      </div>
+
+      <div class="device-add-form__custom-profile">
+        <div class="device-add-form__custom-profile-header">
+          <span class="device-add-form__custom-profile-title"
+            >Custom Profile</span
+          >
+          <Button
+            label="Download Template"
+            icon="pi pi-download"
+            severity="secondary"
+            size="small"
+            text
+            @click="handleTemplateDownload"
+          />
+        </div>
+        <p class="device-add-form__custom-profile-description">
+          Don't see your device OS? Create a custom profile by downloading our
+          template, modifying it for your device, and uploading it back.
+        </p>
+        <Message
+          v-if="profileMessage"
+          class="device-add-form__custom-profile-messages"
+          :severity="profileMessage.severity"
+          >{{ profileMessage.content }}</Message
+        >
+        <Button
+          :loading="savingProfile"
+          label="Upload Custom Profile"
+          icon="pi pi-upload"
+          severity="contrast"
+          outlined
+          @click="handleProfileUpload"
+        />
       </div>
     </div>
     <template #footer>
@@ -48,16 +82,23 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, computed, onMounted } from "vue";
 import Dialog from "primevue/dialog";
 import Button from "primevue/button";
 import InputText from "primevue/inputtext";
 import Message from "primevue/message";
 import Select from "primevue/select";
-import { getAllDeviceProfiles } from "@romie/device-profiles";
+import { cloneProfile } from "@romie/device-profiles";
 import { useDeviceStore } from "@/stores";
+import { downloadJson } from "@/utils/file.utils";
 
 import type { Device, StorageDevice } from "@/types/device";
+
+interface ProfileOption {
+  name: string;
+  value?: string;
+  items?: ProfileOption[];
+}
 
 const props = defineProps<{
   visible: boolean;
@@ -70,20 +111,93 @@ const emit = defineEmits<{
 const deviceStore = useDeviceStore();
 
 const saving = ref(false);
+const savingProfile = ref(false);
+const profileMessage = ref<{ severity: string; content: string } | null>(null);
 const deviceForm = ref({
   name: "",
   profileId: "",
 });
 
-const deviceProfileOptions = getAllDeviceProfiles().map((profile) => ({
-  name: profile.name,
-  value: profile.id,
-}));
+const deviceProfileOptions = computed(() => {
+  const builtInProfiles: ProfileOption[] = [];
+  const customProfiles: ProfileOption[] = [];
+
+  deviceStore.profiles.forEach((profile) => {
+    const option = {
+      name: profile.name,
+      isBuiltIn: profile.isBuiltIn,
+      value: profile.id,
+    };
+    if (profile.isBuiltIn) {
+      builtInProfiles.push(option);
+    } else {
+      customProfiles.push(option);
+    }
+  });
+
+  if (customProfiles.length === 0) {
+    return {
+      options: builtInProfiles,
+    };
+  }
+
+  return {
+    options: [
+      { name: "Standard Profiles", items: builtInProfiles },
+      { name: "Custom Profiles", items: customProfiles },
+    ],
+    optionGroupLabel: "name",
+    optionGroupChildren: "items",
+  };
+});
+
+onMounted(() => {
+  deviceStore.loadDeviceProfiles();
+});
 
 function handleShow() {
   // Set default values for the form fields
   deviceForm.value.name = props.storageDevice?.label || "";
   deviceForm.value.profileId = "onion-os";
+}
+
+function handleTemplateDownload() {
+  const template = cloneProfile("knulli", "Custom Profile");
+
+  downloadJson(template, "custom-device-profile.json");
+}
+
+async function handleProfileUpload() {
+  savingProfile.value = true;
+  profileMessage.value = null;
+
+  try {
+    const result = await window.device.uploadProfile();
+
+    if (!result.success) {
+      profileMessage.value = {
+        severity: "error",
+        content: result.userMessage || "Failed to upload profile.",
+      };
+      return;
+    }
+    // If the request was successful but no data was returned then the user canceled the file dialog.
+    if (!result.data) return;
+
+    await deviceStore.loadDeviceProfiles();
+    deviceForm.value.profileId = result.data.id;
+    profileMessage.value = {
+      severity: "success",
+      content: `Profile "${result.data.name}" uploaded successfully!`,
+    };
+  } catch (error) {
+    profileMessage.value = {
+      severity: "error",
+      content: "Failed to upload profile.",
+    };
+  } finally {
+    savingProfile.value = false;
+  }
 }
 
 function handleCancel() {
@@ -125,6 +239,43 @@ async function handleSubmit() {
     display: flex;
     flex-direction: column;
     gap: 2px;
+  }
+
+  &__custom-profile {
+    padding: 1rem;
+    border: 1px solid var(--p-content-border-color);
+    border-radius: var(--p-content-border-radius);
+    background: var(--p-surface-50);
+    margin-top: 0.5rem;
+
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    &-title {
+      font-weight: 600;
+      color: var(--p-text-color);
+    }
+
+    &-description {
+      color: var(--p-text-muted-color);
+      font-size: 0.875rem;
+      margin: 0 0 1rem 0;
+      line-height: 1.4;
+    }
+
+    &-messages {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .device-add-form__custom-profile {
+    background: var(--p-surface-800);
   }
 }
 

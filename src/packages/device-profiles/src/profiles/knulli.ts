@@ -5,6 +5,8 @@ export const KNULLI_PROFILE: DeviceProfile = {
   name: "KNULLI",
   romBasePath: "/roms/",
   biosBasePath: "/bios/",
+  isBuiltIn: true,
+  version: 1,
   systemMappings: {
     nes: {
       folderName: "nes",
@@ -49,14 +51,6 @@ export const KNULLI_PROFILE: DeviceProfile = {
     psx: {
       folderName: "psx",
       supportedFormats: [".cue", ".iso", ".chd", ".pbp", ".zip", ".7z"],
-    },
-    dreamcast: {
-      folderName: "dreamcast",
-      supportedFormats: [".cdi", ".chd", ".gdi"],
-    },
-    saturn: {
-      folderName: "saturn",
-      supportedFormats: [".cue", ".iso", ".chd"],
     },
     atari2600: {
       folderName: "atari2600",

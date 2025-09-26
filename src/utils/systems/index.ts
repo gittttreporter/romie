@@ -1,5 +1,10 @@
 import { SYSTEM_REGISTRY } from "./systemRegistry";
-import type { SystemType, SystemCode, SystemInfo } from "@/types/system";
+import {
+  SYSTEM_CODES,
+  type SystemType,
+  type SystemCode,
+  type SystemInfo,
+} from "@/types/system";
 
 interface RASystemMapping {
   consoleId: number; // RetroArch console ID
@@ -33,6 +38,10 @@ const RA_SYSTEM_MAPPING = Object.fromEntries(
 const RA_CONSOLE_MAPPING = Object.fromEntries(
   RA_SYSTEMS.map((s) => [s.code, s.consoleId]),
 );
+
+export function isSystemCode(code: SystemCode): code is SystemCode {
+  return SYSTEM_CODES.includes(code);
+}
 
 export function getSystemByExtension(
   extension: string,

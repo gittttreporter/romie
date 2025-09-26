@@ -5,6 +5,8 @@ export const MUOS_PROFILE: DeviceProfile = {
   name: "muOS",
   romBasePath: "/ROMS/",
   biosBasePath: "/MUOS/bios/",
+  isBuiltIn: true,
+  version: 1,
   artworkConfig: {
     enabled: true,
     pathPattern: "/MUOS/info/catalogue/{folderName}/box/",

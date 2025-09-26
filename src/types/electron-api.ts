@@ -1,4 +1,5 @@
 import { SyncError } from "@/errors";
+import type { DeviceProfile } from "@romie/device-profiles";
 import type { Rom, RomDatabaseStats } from "./rom";
 import type { Device, StorageDevice } from "@/types/device";
 import { AppSettings, RetroAchievementsConfig } from "./settings";
@@ -7,6 +8,17 @@ import type {
   UserProfile,
   GameInfoAndUserProgress,
 } from "@retroachievements/api";
+
+export type ApiResult<T> =
+  | {
+      success: true;
+      data: T;
+    }
+  | {
+      success: false;
+      error: string;
+      userMessage?: string;
+    };
 
 export type RomImportResult = {
   canceled: boolean;
@@ -42,10 +54,12 @@ export interface DeviceMountStatus {
 export interface DeviceApi {
   list(): Promise<Device[]>;
   listStorage(): Promise<StorageDevice[]>;
+  listProfiles(): Promise<DeviceProfile[]>;
   create(data: Device): Promise<Device>;
   update(id: string, deviceUpdate: Partial<Device>): Promise<Device>;
   remove(id: string): Promise<void>;
   checkDeviceMount(deviceId: string): Promise<DeviceMountStatus>;
+  uploadProfile(): Promise<ApiResult<DeviceProfile>>;
 }
 
 export interface SettingsApi {
@@ -101,7 +115,11 @@ export interface SyncFailReason {
 }
 export interface SyncSkipReason {
   rom: Rom;
-  reason: "unsupported_system" | "unsupported_format" | "file_exists";
+  reason:
+    | "unsupported_system"
+    | "unsupported_format"
+    | "file_exists"
+    | "missing_system_mapping";
   details: string;
 }
 

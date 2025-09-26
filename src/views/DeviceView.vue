@@ -29,7 +29,37 @@
             <div class="device-status__item">
               <i class="device-status__icon pi pi-cog"></i>
               <span class="device-status__label">Device Profile:</span>
-              <Tag :value="deviceProfile?.name" severity="secondary" />
+              <div class="device-view__profile">
+                <Tag
+                  :value="deviceProfile?.name"
+                  @click="op.toggle($event)"
+                  severity="secondary"
+                />
+                <Popover ref="op">
+                  <div v-if="deviceProfile" class="device-profile-summary">
+                    <div class="device-profile-summary__base-path">
+                      <strong>Base Directory:</strong>
+                      {{ deviceProfile.romBasePath }}
+                    </div>
+                    <div class="device-profile-summary__mappings">
+                      <strong>System folder mappings:</strong>
+                      <div
+                        v-for="mapping in deviceProfileMappings"
+                        :key="mapping.code"
+                        class="device-profile-summary__mapping"
+                      >
+                        <span class="device-profile-summary__system">{{
+                          mapping.displayName
+                        }}</span>
+                        →
+                        <code class="device-profile-summary__folder">{{
+                          mapping.folderName
+                        }}</code>
+                      </div>
+                    </div>
+                  </div>
+                </Popover>
+              </div>
             </div>
             <div class="device-status__item" v-if="deviceStatus?.accessible">
               <i class="device-status__icon pi pi-database"></i>
@@ -179,12 +209,13 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, computed } from "vue";
+import { ref, onMounted, computed, watchEffect } from "vue";
 import PageLayout from "@/layouts/PageLayout.vue";
 import Card from "primevue/card";
 import Chip from "primevue/chip";
 import Tag from "primevue/tag";
 import MultiSelect from "primevue/multiselect";
+import Popover from "primevue/popover";
 import Message from "primevue/message";
 import Checkbox from "primevue/checkbox";
 import Button from "primevue/button";
@@ -193,16 +224,20 @@ import { useDeviceStore, useRomStore } from "@/stores";
 import { useSyncLogic } from "@/composables/useSyncLogic";
 import SyncProgress from "@/components/device/SyncProgress.vue";
 import SyncResults from "@/components/device/SyncResults.vue";
-import { getDeviceProfile } from "@romie/device-profiles";
+
+import { getSystemDisplayName } from "@/utils/systems";
 
 import { Device } from "@/types/device";
 import { TagStats } from "@/types/rom";
 import type { SyncOptions, DeviceMountStatus } from "@/types/electron-api";
+import type { SystemCode } from "@/types/system";
+import type { DeviceSystemProfile } from "@romie/device-profiles";
 
 const props = defineProps<{
   deviceId: string;
 }>();
 
+const op = ref();
 const deviceStore = useDeviceStore();
 const romStore = useRomStore();
 const device = ref<Device | null>(null);
@@ -225,9 +260,32 @@ const {
   cancelSync,
 } = useSyncLogic(props.deviceId);
 
+watchEffect(async () => {
+  device.value = await deviceStore.loadDeviceById(props.deviceId);
+  deviceStatus.value = await window.device.checkDeviceMount(props.deviceId);
+  deviceStore.loadDeviceProfiles();
+});
+
 // Computed properties
 const deviceProfile = computed(() => {
-  return getDeviceProfile(device.value?.profileId || "unknown");
+  const profile = deviceStore.profiles.find(
+    ({ id }) => id === device.value?.profileId,
+  );
+
+  return profile || null;
+});
+const deviceProfileMappings = computed(() => {
+  if (!deviceProfile.value) return [];
+
+  return Object.entries(deviceProfile.value.systemMappings).map((entry) => {
+    const [code, mapping] = entry as [SystemCode, DeviceSystemProfile];
+
+    return {
+      code,
+      folderName: mapping.folderName,
+      displayName: getSystemDisplayName(code),
+    };
+  });
 });
 const availableTags = computed((): TagStats[] => {
   return Object.values(romStore.stats.tagStats);
@@ -280,11 +338,6 @@ async function startSync() {
 function unselectTag(tagId: string) {
   selectedTags.value = selectedTags.value.filter(({ tag }) => tag !== tagId);
 }
-
-onMounted(async () => {
-  device.value = await deviceStore.loadDeviceById(props.deviceId);
-  deviceStatus.value = await window.device.checkDeviceMount(props.deviceId);
-});
 </script>
 
 <style lang="less" scoped>
@@ -301,6 +354,9 @@ onMounted(async () => {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+  }
+  &__profile {
+    cursor: pointer;
   }
 }
 
@@ -393,6 +449,53 @@ onMounted(async () => {
   }
 }
 
+.device-profile-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 300px;
+  max-width: 450px;
+  max-height: calc(100vh - 275px);
+  overflow-y: auto;
+
+  &__base-path {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--p-content-border-color);
+  }
+
+  &__mappings {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__mapping {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+  }
+
+  &__system {
+    font-weight: 500;
+    min-width: 120px;
+  }
+
+  &__folder {
+    background: var(--p-surface-100);
+    padding: 0.125rem 0.375rem;
+    border-radius: var(--p-border-radius-sm);
+    font-size: 0.8rem;
+    color: var(--p-text-color);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .device-profile-summary__folder {
+    background: var(--p-surface-800);
+  }
+}
+
 @media (max-width: 768px) {
   .device-status {
     gap: 0.75rem;
@@ -420,6 +523,15 @@ onMounted(async () => {
 
     &__options {
       gap: 1rem;
+    }
+  }
+
+  .device-profile-summary {
+    min-width: 250px;
+    max-width: 300px;
+
+    &__system {
+      min-width: 100px;
     }
   }
 }

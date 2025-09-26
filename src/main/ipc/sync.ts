@@ -3,7 +3,6 @@ import path from "path";
 import { ipcMain, BrowserWindow, app } from "electron";
 import logger from "electron-log/main";
 import * as Sentry from "@sentry/electron/main";
-import { getDeviceProfile, type DeviceProfile } from "@romie/device-profiles";
 import { SyncError } from "@/errors";
 import type {
   SyncOptions,
@@ -11,10 +10,11 @@ import type {
   SyncSkipReason,
   SyncFailReason,
 } from "@/types/electron-api";
-import { listDevices } from "../roms/romDatabase";
+import { listDevices, getDeviceProfile } from "../roms/romDatabase";
 import { listRoms } from "../roms/romDatabase";
 import { crc32sum } from "../roms/romUtils";
 
+import type { DeviceProfile } from "@romie/device-profiles";
 import type { Device } from "@/types/device";
 import type { Rom } from "@/types/rom";
 
@@ -67,7 +67,7 @@ async function startSync(
           { op: "sync.validate", name: "Validate Device" },
           () => validateDevice(deviceId),
         );
-        const profile = validateProfile(device.profileId);
+        const profile = await validateProfile(device.profileId);
 
         span.setAttributes({
           "device.profile_id": device.profileId,
@@ -197,10 +197,10 @@ async function validateDevice(deviceId: string): Promise<Device> {
   return device;
 }
 
-function validateProfile(profileId: string): DeviceProfile {
+async function validateProfile(profileId: string): Promise<DeviceProfile> {
   log.debug(`Validating device profile: ${profileId}`);
 
-  const profile = getDeviceProfile(profileId);
+  const profile = await getDeviceProfile(profileId);
 
   if (!profile) {
     log.error(`Device profile not found: ${profileId}`);
@@ -302,6 +302,18 @@ async function copyRoms(
 
     const rom = filteredRoms[i];
     const systemMapping = profile.systemMappings[rom.system];
+    if (!systemMapping) {
+      syncStatus
+        .addSkipped({
+          rom,
+          reason: "missing_system_mapping",
+          details: `No system mapping for ${rom.system} in profile ${profile.name}`,
+        })
+        .incrementProcessed()
+        .notify();
+      continue;
+    }
+
     syncStatus.setCurrentFile(rom.displayName).notify();
 
     const sourceFilename = path.basename(rom.filePath);

@@ -5,11 +5,19 @@ import logger from "electron-log/main";
 import * as Sentry from "@sentry/electron/main";
 import { JSONFilePreset } from "lowdb/node";
 import { v4 as uuid } from "uuid";
-import { fileExists } from "./romUtils";
 import { ensureDatabaseSchema } from "./romDatabaseMigrations";
+import { isSystemCode } from "@/utils/systems";
+import { SYSTEM_CODES } from "@/types/system";
+import {
+  getAllDeviceProfiles,
+  type DeviceProfile,
+  type DeviceProfileDraft,
+} from "@romie/device-profiles";
+import { AppError } from "@/errors";
 
 import type { Low } from "lowdb";
 import type { Rom, RomDatabase, RomDatabaseStats, TagStats } from "@/types/rom";
+import type { SystemCode } from "@/types/system";
 import type { Device } from "@/types/device";
 import type { AppSettings, RetroAchievementsConfig } from "@/types/settings";
 
@@ -17,7 +25,6 @@ const baseDir =
   process.env.NODE_ENV === "development"
     ? path.join(process.cwd(), ".romie")
     : app.getPath("userData");
-const romDir = path.join(baseDir, "roms");
 const romDbPath = path.join(baseDir, "roms.json");
 const log = logger.scope("rom-db");
 
@@ -63,6 +70,7 @@ async function loadDatabase(): Promise<void> {
           },
           roms: [],
           devices: [],
+          profiles: [],
           settings: {
             theme: "system",
           },
@@ -333,6 +341,92 @@ export async function addDevice(candidate: Device): Promise<Device> {
       return device;
     },
   );
+}
+
+export async function listDeviceProfiles(): Promise<DeviceProfile[]> {
+  const db = await ensureDatabase();
+  const customProfiles = structuredClone(db.data.profiles);
+  const builtInProfiles = getAllDeviceProfiles();
+
+  return [...builtInProfiles, ...customProfiles].sort((a, b) =>
+    a.name.localeCompare(b.name),
+  );
+}
+
+export async function getDeviceProfile(
+  id: string,
+): Promise<DeviceProfile | null> {
+  log.debug(`Getting device profile: ${id}`);
+
+  const profiles = await listDeviceProfiles();
+
+  return profiles.find((profile) => profile.id === id) || null;
+}
+
+export async function addDeviceProfile(
+  candidate: DeviceProfileDraft,
+): Promise<DeviceProfile> {
+  const db = await ensureDatabase();
+  const now = Date.now();
+  log.debug(`Adding device profile: ${candidate.name}`);
+
+  // Validate custom device profile.
+  //
+  // Required: name, romBasePath, systemMappings
+  if (!candidate.name || !candidate.romBasePath || !candidate.systemMappings) {
+    throw AppError.simple("Profile name and ROM base path are required");
+  }
+  // System systemMappings must have at least one entry
+  // and each entry must have folderName and supportedFormats
+  // and the key should be a valid system code
+  if (Object.keys(candidate.systemMappings).length === 0) {
+    throw AppError.simple("At least one system mapping is required");
+  }
+  // Each entry must use a valid system code and include a folderName and at least one
+  // supported file extension.
+  Object.entries(candidate.systemMappings).forEach(([key, systemMapping]) => {
+    const systemCode = key as SystemCode;
+
+    if (!isSystemCode(systemCode)) {
+      const validCodes = SYSTEM_CODES.join(", ");
+      throw AppError.simple(
+        `Invalid system code: "${systemCode}". Valid codes are: ${validCodes}`,
+      );
+    }
+    if (!systemMapping.folderName) {
+      throw AppError.simple(`Missing folderName for system: ${systemCode}`);
+    }
+    if (!systemMapping.supportedFormats?.length) {
+      throw AppError.simple(
+        `At least one file extension is required in supportedFormats for system: ${systemCode}`,
+      );
+    }
+  });
+  // Device profile must have a unique name to avoid confusion in list views.
+  const nameExists = db.data.profiles.some(
+    (profile) => profile.name.toLowerCase() === candidate.name.toLowerCase(),
+  );
+  if (nameExists) {
+    throw AppError.simple(
+      `A device profile named "${candidate.name}" already exists. Please choose a different name.`,
+    );
+  }
+
+  const profile: DeviceProfile = {
+    ...candidate,
+    isBuiltIn: false,
+    createdAt: now,
+    lastModified: now,
+    version: 1,
+    id: uuid(),
+  };
+
+  await db.update((data) => {
+    data.profiles.push(profile);
+    data.lastUpdated = now;
+  });
+
+  return profile;
 }
 
 export async function listDevices(): Promise<Device[]> {

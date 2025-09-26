@@ -49,12 +49,14 @@ const romApi: RomApi = {
 const deviceApi: DeviceApi = {
   list: () => ipcRenderer.invoke("device:list"),
   listStorage: () => ipcRenderer.invoke("device:listStorage"),
+  listProfiles: () => ipcRenderer.invoke("device:listProfiles"),
   create: (data: Device) => ipcRenderer.invoke("device:create", data),
   remove: (id: string) => ipcRenderer.invoke("device:remove", id),
   update: (id: string, data: Partial<Device>) =>
     ipcRenderer.invoke("device:update", id, data),
   checkDeviceMount: (deviceId: string) =>
     ipcRenderer.invoke("device:checkDeviceMount", deviceId),
+  uploadProfile: () => ipcRenderer.invoke("device:uploadProfile"),
 };
 
 const syncApi: SyncApi = {

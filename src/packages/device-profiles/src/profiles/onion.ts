@@ -5,6 +5,8 @@ export const ONION_OS_PROFILE: DeviceProfile = {
   name: "Onion",
   romBasePath: "/Roms/",
   biosBasePath: "/BIOS/",
+  isBuiltIn: true,
+  version: 1,
   artworkConfig: {
     enabled: true,
     pathPattern: "{romBasePath}/{folderName}/Imgs/",

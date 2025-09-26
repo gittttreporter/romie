@@ -1,3 +1,4 @@
+import type { DeviceProfile } from "@romie/device-profiles";
 import type { SystemCode } from "@/types/system";
 import type { Device } from "@/types/device";
 import type { AppSettings, AppIntegrations } from "@/types/settings";
@@ -80,6 +81,7 @@ export interface RomDatabase {
   stats: RomDatabaseStats;
   roms: Rom[];
   devices: Device[];
+  profiles: DeviceProfile[];
   settings: AppSettings;
   integrations: Partial<AppIntegrations>;
 }

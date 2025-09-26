@@ -1,27 +1,23 @@
-export type SystemCode =
-  // Nintendo Consoles
-  | "nes"
-  | "snes"
-  | "n64"
-  // Nintendo Handhelds
-  | "vb"
-  | "gb"
-  | "gbc"
-  | "gba"
-  | "nds"
-  // SNK
-  | "ngp"
-  // Sega Consoles
-  | "genesis"
-  | "sms"
-  | "gg"
-  // Sony
-  | "psx"
-  // Atari
-  | "lynx"
-  | "atari2600"
-  // Arcade
-  | "arcade";
+export const SYSTEM_CODES = [
+  "nes",
+  "snes",
+  "vb",
+  "n64",
+  "gb",
+  "gbc",
+  "gba",
+  "nds",
+  "ngp",
+  "genesis",
+  "sms",
+  "gg",
+  "psx",
+  "lynx",
+  "atari2600",
+  "arcade",
+] as const;
+
+export type SystemCode = (typeof SYSTEM_CODES)[number];
 
 export type SystemType = "console" | "handheld" | "arcade";
 

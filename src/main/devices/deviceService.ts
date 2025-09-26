@@ -1,11 +1,20 @@
-import log from "electron-log/main";
+import { dialog } from "electron";
+import logger from "electron-log/main";
 import * as Sentry from "@sentry/electron/main";
 import si from "systeminformation";
 import fs from "fs/promises";
-import { addDevice, listDevices as getDevices } from "@main/roms/romDatabase";
+import {
+  addDevice,
+  listDevices as getDevices,
+  addDeviceProfile,
+} from "@main/roms/romDatabase";
+import { AppError } from "@/errors";
 
 import type { Device, StorageDevice } from "@/types/device";
-import type { DeviceMountStatus } from "@/types/electron-api";
+import type { DeviceMountStatus, ApiResult } from "@/types/electron-api";
+import type { DeviceProfile, DeviceProfileDraft } from "@romie/device-profiles";
+
+const log = logger.scope("device");
 
 export async function listDevices(): Promise<Device[]> {
   log.warn("deviceService.listDevices() is not implemented");
@@ -232,4 +241,50 @@ export async function checkDeviceMount(
       }
     },
   );
+}
+
+export async function uploadProfile(): Promise<
+  ApiResult<DeviceProfile | null>
+> {
+  log.info("Prompting user to select device profile JSON file");
+  const { filePaths, canceled } = await dialog.showOpenDialog({
+    properties: ["openFile"],
+    filters: [
+      { name: "JSON Files", extensions: ["json"] },
+      { name: "All Files", extensions: ["*"] },
+    ],
+    title: "Select Device Profile JSON File",
+  });
+
+  if (canceled || filePaths.length === 0) {
+    return { success: true, data: null };
+  }
+
+  const filePath = filePaths[0];
+  log.info(`User selected profile file: ${filePath}`);
+
+  try {
+    const fileContent = await fs.readFile(filePath, "utf-8");
+    const profileData = JSON.parse(fileContent) as DeviceProfileDraft;
+    const profile = await addDeviceProfile(profileData);
+
+    return { success: true, data: profile };
+  } catch (error) {
+    let message;
+    let userMessage;
+
+    if (error instanceof SyntaxError) {
+      message = error.message;
+      userMessage =
+        "Invalid file format. Device profiles should be valid JSON.";
+    } else if (error instanceof AppError) {
+      message = error.message;
+      userMessage = error.userMessage;
+    } else {
+      message = error instanceof Error ? error.message : "Unknown error";
+      userMessage = "An unexpected error occurred while uploading the profile.";
+    }
+
+    return { success: false, error: message, userMessage };
+  }
 }

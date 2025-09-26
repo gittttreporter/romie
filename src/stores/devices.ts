@@ -1,8 +1,10 @@
 import { defineStore } from "pinia";
 import type { Device, StorageDevice } from "@/types/device";
+import { DeviceProfile } from "@romie/device-profiles";
 
 interface DeviceState {
   devices: Device[];
+  profiles: DeviceProfile[];
   loading: boolean;
   error: string | null;
 }
@@ -10,6 +12,7 @@ interface DeviceState {
 export const useDeviceStore = defineStore("devices", {
   state: (): DeviceState => ({
     devices: [],
+    profiles: [],
     loading: false,
     error: null,
   }),
@@ -39,6 +42,16 @@ export const useDeviceStore = defineStore("devices", {
       try {
         this.loading = true;
         this.devices = await window.device.list();
+      } catch (error) {
+        // todo
+      } finally {
+        this.loading = false;
+      }
+    },
+    async loadDeviceProfiles(): Promise<void> {
+      try {
+        this.loading = true;
+        this.profiles = await window.device.listProfiles();
       } catch (error) {
         // todo
       } finally {
