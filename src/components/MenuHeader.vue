@@ -1,9 +1,5 @@
 <template>
-  <h4
-    class="menu-header"
-    @mouseenter="isHovered = true"
-    @mouseleave="isHovered = false"
-  >
+  <h4 class="menu-header" @mouseenter="isHovered = true" @mouseleave="isHovered = false">
     {{ title }}
     <div v-if="action && isHovered" class="menu-header__actions">
       <Button
@@ -19,10 +15,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
-import Button from "primevue/button";
+import { ref } from 'vue';
+import Button from 'primevue/button';
 
-const props = defineProps<{
+defineProps<{
   title: string;
   action?: {
     icon: string;

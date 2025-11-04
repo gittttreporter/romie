@@ -1,36 +1,27 @@
-import type { DeviceProfile } from "@romie/device-profiles";
-import type { SystemCode } from "@/types/system";
-import type { Device } from "@/types/device";
-import type { AppSettings, AppIntegrations } from "@/types/settings";
+import type { DeviceProfile } from '@romie/device-profiles';
+import type { SystemCode } from '@/types/system';
+import type { Device } from '@/types/device';
+import type { AppSettings, AppIntegrations } from '@/types/settings';
 
-export type RegionCode =
-  | "USA"
-  | "JPN"
-  | "EUR"
-  | "PAL"
-  | "KOR"
-  | "CHN"
-  | "BRA"
-  | "WORLD"
-  | "OTHER";
+export type RegionCode = 'USA' | 'JPN' | 'EUR' | 'PAL' | 'KOR' | 'CHN' | 'BRA' | 'WORLD' | 'OTHER';
 
 export type RomRegion =
-  | "USA"
-  | "Europe"
-  | "Japan"
-  | "World"
-  | "Asia"
-  | "Korea"
-  | "China"
-  | "Australia"
-  | "Brazil"
-  | "Canada";
+  | 'USA'
+  | 'Europe'
+  | 'Japan'
+  | 'World'
+  | 'Asia'
+  | 'Korea'
+  | 'China'
+  | 'Australia'
+  | 'Brazil'
+  | 'Canada';
 
 export interface Rom {
   id: string;
   system: SystemCode;
   displayName: string;
-  region: RomRegion | "Unknown";
+  region: RomRegion | 'Unknown';
   /** Full path to actual file on disk */
   filePath: string;
   /** Basename of actual file on disk (e.g., "Super Metroid.zip") */
@@ -54,7 +45,7 @@ export interface Rom {
   /** @deprecated Use `filename` now, will be removed in future version */
   originalFilename?: string;
   /** @deprecated Unused import source field, will be removed in future version */
-  source?: "import" | "scan";
+  source?: 'import' | 'scan';
   /** @deprecated Unused hash field, will be removed in future version */
   crc32?: string;
   /** @deprecated Unused hash field, will be removed in future version */

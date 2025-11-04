@@ -1,6 +1,7 @@
-import { defineStore } from "pinia";
-import type { Device, StorageDevice } from "@/types/device";
-import { DeviceProfile } from "@romie/device-profiles";
+import log from 'electron-log/renderer';
+import { defineStore } from 'pinia';
+import type { Device } from '@/types/device';
+import { DeviceProfile } from '@romie/device-profiles';
 
 interface DeviceState {
   devices: Device[];
@@ -9,7 +10,7 @@ interface DeviceState {
   error: string | null;
 }
 
-export const useDeviceStore = defineStore("devices", {
+export const useDeviceStore = defineStore('devices', {
   state: (): DeviceState => ({
     devices: [],
     profiles: [],
@@ -31,7 +32,7 @@ export const useDeviceStore = defineStore("devices", {
 
         return this.devices.find(findDevice) || null;
       } catch (error) {
-        // todo
+        log.error('Failed to load device by ID:', error);
       } finally {
         this.loading = false;
       }
@@ -43,7 +44,7 @@ export const useDeviceStore = defineStore("devices", {
         this.loading = true;
         this.devices = await window.device.list();
       } catch (error) {
-        // todo
+        log.error('Failed to load devices:', error);
       } finally {
         this.loading = false;
       }
@@ -53,16 +54,7 @@ export const useDeviceStore = defineStore("devices", {
         this.loading = true;
         this.profiles = await window.device.listProfiles();
       } catch (error) {
-        // todo
-      } finally {
-        this.loading = false;
-      }
-    },
-    async createDevice(device: Device) {
-      try {
-        this.loading = true;
-      } catch (error) {
-        // todo
+        log.error('Failed to load device profiles:', error);
       } finally {
         this.loading = false;
       }

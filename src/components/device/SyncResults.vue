@@ -1,33 +1,19 @@
 <template>
   <Card class="sync-results">
     <template #title>Sync Results</template>
-    <template #subtitle
-      >Every single problem, because you asked for it.</template
-    >
+    <template #subtitle>Every single problem, because you asked for it.</template>
     <template #content>
       <div class="sync-results__problems">
         <!-- Failed files -->
-        <div
-          v-for="failure in filesFailed"
-          :key="failure.rom.id"
-          class="sync-problem"
-        >
-          <i
-            class="pi pi-times sync-problem__icon sync-problem__icon--error"
-          ></i>
+        <div v-for="failure in filesFailed" :key="failure.rom.id" class="sync-problem">
+          <i class="pi pi-times sync-problem__icon sync-problem__icon--error"></i>
           <span class="sync-problem__name">{{ failure.rom.displayName }}</span>
           <span class="sync-problem__reason">{{ failure.error.message }}</span>
         </div>
 
         <!-- Skipped files -->
-        <div
-          v-for="skip in filesSkipped"
-          :key="skip.rom.id"
-          class="sync-problem"
-        >
-          <i
-            class="pi pi-minus-circle sync-problem__icon sync-problem__icon--skip"
-          ></i>
+        <div v-for="skip in filesSkipped" :key="skip.rom.id" class="sync-problem">
+          <i class="pi pi-minus-circle sync-problem__icon sync-problem__icon--skip"></i>
           <span class="sync-problem__name">{{ skip.rom.displayName }}</span>
           <span class="sync-problem__reason">{{ skip.details }}</span>
         </div>
@@ -37,10 +23,10 @@
 </template>
 
 <script setup lang="ts">
-import Card from "primevue/card";
-import type { SyncFailReason, SyncSkipReason } from "@/types/electron-api";
+import Card from 'primevue/card';
+import type { SyncFailReason, SyncSkipReason } from '@/types/electron-api';
 
-const props = withDefaults(
+withDefaults(
   defineProps<{
     filesFailed: SyncFailReason[];
     filesSkipped: SyncSkipReason[];
@@ -48,7 +34,7 @@ const props = withDefaults(
   {
     filesFailed: () => [],
     filesSkipped: () => [],
-  },
+  }
 );
 </script>
 

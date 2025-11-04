@@ -1,9 +1,5 @@
 <template>
-  <PageLayout
-    class="rom-import"
-    title="ROM Import"
-    subtitle="Add ROM files to your library"
-  >
+  <PageLayout class="rom-import" title="ROM Import" subtitle="Add ROM files to your library">
     <template #actions>
       <div class="rom-import__actions">
         <Button
@@ -33,7 +29,7 @@
         <div class="rom-import__results-summary">
           <h3 v-if="result.successes > 0" class="rom-import__result-header">
             <i class="pi pi-check-circle success-icon"></i>
-            {{ result.successes }} ROM{{ result.successes === 1 ? "" : "s" }}
+            {{ result.successes }} ROM{{ result.successes === 1 ? '' : 's' }}
             were added successfully
           </h3>
           <h3 v-else class="rom-import__result-header">
@@ -42,14 +38,11 @@
           </h3>
         </div>
 
-        <div
-          v-if="result.warnings.length > 0"
-          class="rom-import__results-summary"
-        >
+        <div v-if="result.warnings.length > 0" class="rom-import__results-summary">
           <h3 class="rom-import__result-header">
             <i class="pi pi-exclamation-triangle warning-icon"></i>
             {{ result.warnings.length }}
-            {{ result.warnings.length === 1 ? "duplicate" : "duplicates" }}
+            {{ result.warnings.length === 1 ? 'duplicate' : 'duplicates' }}
             ignored
             <!-- <div class="rom-import__result-header-text">Duplicates detected by filename check</div> -->
             <div class="rom-import__result-header-subtitle">
@@ -65,15 +58,11 @@
           </div>
         </div>
 
-        <div
-          v-if="result.errors.length > 0"
-          class="rom-import__results-summary"
-        >
+        <div v-if="result.errors.length > 0" class="rom-import__results-summary">
           <h3 class="rom-import__result-header">
             <i class="pi pi-exclamation-circle error-icon"></i>
             {{ result.errors.length }}
-            {{ result.errors.length === 1 ? "file" : "files" }} could not be
-            imported
+            {{ result.errors.length === 1 ? 'file' : 'files' }} could not be imported
           </h3>
           <div class="rom-import__result-content">
             <ul>
@@ -89,20 +78,20 @@
 </template>
 
 <script setup lang="ts">
-import log from "electron-log/renderer";
-import { ref, computed } from "vue";
-import Button from "primevue/button";
-import { useToast } from "primevue/usetoast";
-import { useRomStore } from "@/stores";
-import PageLayout from "@/layouts/PageLayout.vue";
-import { getAllSupportedExtensions } from "@/utils/systems";
+import log from 'electron-log/renderer';
+import { ref, computed } from 'vue';
+import Button from 'primevue/button';
+import { useToast } from 'primevue/usetoast';
+import { useRomStore } from '@/stores';
+import PageLayout from '@/layouts/PageLayout.vue';
+import { getAllSupportedExtensions } from '@/utils/systems';
 
-import type { RomImportResult } from "@/types/electron-api";
+import type { RomImportResult } from '@/types/electron-api';
 
 const romStore = useRomStore();
 const toast = useToast();
-const processingState = ref<"idle" | "scanning">("idle");
-const currentFile = ref("");
+const processingState = ref<'idle' | 'scanning'>('idle');
+const currentFile = ref('');
 
 const result = ref<{
   errors: string[];
@@ -111,28 +100,28 @@ const result = ref<{
   total: number;
 } | null>(null);
 
-const supportedExtensions = getAllSupportedExtensions().join(", ");
+const supportedExtensions = getAllSupportedExtensions().join(', ');
 
-const isProcessing = computed(() => processingState.value !== "idle");
+const isProcessing = computed(() => processingState.value !== 'idle');
 
 const scanLabel = computed(() => {
-  if (processingState.value === "scanning") return "Scanning directory...";
-  return "Scan folder";
+  if (processingState.value === 'scanning') return 'Scanning directory...';
+  return 'Scan folder';
 });
 
 function showGenericError(operation: string) {
   toast.add({
-    severity: "error",
-    summary: "Sorry, something went wrong",
+    severity: 'error',
+    summary: 'Sorry, something went wrong',
     detail: `We couldn't complete the ${operation}. Please try again.`,
     life: 4000,
   });
 }
 
 async function handleScan() {
-  processingState.value = "scanning";
+  processingState.value = 'scanning';
   result.value = null;
-  currentFile.value = "";
+  currentFile.value = '';
 
   const unsubscribeImportStatus = window.rom.onImportProgress((status) => {
     currentFile.value = status.currentFile;
@@ -142,22 +131,23 @@ async function handleScan() {
     const result = await romStore.scanRomDir();
     processImportResult(result);
   } catch (error) {
-    showGenericError("scan");
+    showGenericError('scan');
+    log.error('ROM import scan failed:', error);
   } finally {
-    processingState.value = "idle";
+    processingState.value = 'idle';
     unsubscribeImportStatus();
   }
 }
 
 function processImportResult(importResult: RomImportResult) {
-  log.debug("Processing import result");
+  log.debug('Processing import result');
   if (importResult.canceled) return;
 
   const errors: string[] = [];
   const warnings: string[] = [];
 
   importResult.failed.forEach((error) => {
-    if (error.reason.includes("already exists (duplicate of")) {
+    if (error.reason.includes('already exists (duplicate of')) {
       const fileName = error.file.split(/[/\\]/).pop() || error.file;
 
       warnings.push(fileName);

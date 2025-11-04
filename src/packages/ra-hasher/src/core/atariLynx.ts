@@ -1,6 +1,6 @@
-import type { RaHashOptions } from "../types";
-import { md5 } from "../utils/hash";
-import { readAll } from "../utils/files";
+import type { RaHashOptions } from '../types';
+import { md5 } from '../utils/hash';
+import { readAll } from '../utils/files';
 
 export async function hashAtariLynx({ buffer, path }: RaHashOptions) {
   const rom = buffer ?? (await readAll(path!));
@@ -9,7 +9,7 @@ export async function hashAtariLynx({ buffer, path }: RaHashOptions) {
 
   return {
     ramd5: md5(payload),
-    notes: skipHeader ? "skipped 64B Atari Lynx header" : undefined,
+    notes: skipHeader ? 'skipped 64B Atari Lynx header' : undefined,
   };
 }
 
@@ -19,5 +19,5 @@ export async function hashAtariLynx({ buffer, path }: RaHashOptions) {
  * RA expects us to skip the header if present and hash the rest.
  */
 function hasLynxHeader(buf: Buffer): boolean {
-  return buf.length >= 4 && buf.subarray(0, 4).toString("ascii") === "LYNX";
+  return buf.length >= 4 && buf.subarray(0, 4).toString('ascii') === 'LYNX';
 }

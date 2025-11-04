@@ -1,6 +1,6 @@
-import type { RaHashOptions } from "../types";
-import { md5 } from "../utils/hash";
-import { readAll } from "../utils/files";
+import type { RaHashOptions } from '../types';
+import { md5 } from '../utils/hash';
+import { readAll } from '../utils/files';
 
 const NES_MAGIC = Buffer.from([0x4e, 0x45, 0x53, 0x1a]); // "NES\x1A"
 
@@ -16,6 +16,6 @@ export async function hashNES({ buffer, path }: RaHashOptions) {
 
   return {
     ramd5: md5(payload),
-    notes: hasINesHeader(rom) ? "skipped 16B iNES header" : undefined,
+    notes: hasINesHeader(rom) ? 'skipped 16B iNES header' : undefined,
   };
 }

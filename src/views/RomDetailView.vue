@@ -40,10 +40,7 @@
             :achievements="romMetadataExtended?.achievements"
           />
           <ul class="rom-details__metadata">
-            <li
-              class="rom-details__metadata-item"
-              v-for="{ label, value } in romMetadata"
-            >
+            <li v-for="{ label, value } in romMetadata" class="rom-details__metadata-item">
               <span class="rom-details__metadata-label">{{ label }}:</span>
               <span class="rom-details__metadata-value">{{ value }}</span>
             </li>
@@ -63,10 +60,7 @@
                 />
               </div>
             </li>
-            <li
-              v-else
-              class="rom-details__metadata-item rom-details__metadata-item--hash"
-            >
+            <li v-else class="rom-details__metadata-item rom-details__metadata-item--hash">
               <span class="rom-details__metadata-label">MD5:</span>
               <div class="rom-details__hash-container">
                 <code class="rom-details__hash-value">{{ rom.md5 }}</code>
@@ -103,28 +97,27 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref, watch } from "vue";
-import Button from "primevue/button";
-import Card from "primevue/card";
-import Tag from "primevue/tag";
-import Image from "primevue/image";
-import Skeleton from "primevue/skeleton";
-import { useToast } from "primevue/usetoast";
-import { useRomStore, useFeatureFlagStore } from "@/stores";
-import { getSystemDisplayName } from "@/utils/systems";
-import TagsEditor from "@/components/TagsEditor.vue";
-import RomTitle from "@/components/RomTitle.vue";
-import AchievementProgress from "@/components/achievements/AchievementProgress.vue";
-import RecentAchievements from "@/components/achievements/RecentAchievements.vue";
+import log from 'electron-log/renderer';
+import { computed, ref, watch } from 'vue';
+import Button from 'primevue/button';
+import Card from 'primevue/card';
+import Tag from 'primevue/tag';
+import { useToast } from 'primevue/usetoast';
+import { useRomStore, useFeatureFlagStore } from '@/stores';
+import { getSystemDisplayName } from '@/utils/systems';
+import TagsEditor from '@/components/TagsEditor.vue';
+import RomTitle from '@/components/RomTitle.vue';
+import AchievementProgress from '@/components/achievements/AchievementProgress.vue';
+import RecentAchievements from '@/components/achievements/RecentAchievements.vue';
 
-import type { GameInfoAndUserProgress } from "@retroachievements/api";
+import type { GameInfoAndUserProgress } from '@retroachievements/api';
 
 const props = defineProps<{
   romId: string;
 }>();
 const emit = defineEmits<{
-  (e: "delete"): void;
-  (e: "favorite", favorite: boolean): void;
+  (e: 'delete'): void;
+  (e: 'favorite', favorite: boolean): void;
 }>();
 const romStore = useRomStore();
 const ff = useFeatureFlagStore();
@@ -137,17 +130,17 @@ const romMetadataExtended = ref<GameInfoAndUserProgress | null>(null);
 
 const rom = computed(() => romStore.getRomById(props.romId));
 const systemDisplayName = computed(() =>
-  rom.value ? getSystemDisplayName(rom.value.system) : null,
+  rom.value ? getSystemDisplayName(rom.value.system) : null
 );
 const romMetadata = computed(() =>
   rom.value
     ? [
-        { label: "Size", value: formatSize(rom.value.size) },
-        { label: "Region", value: rom.value.region },
-        { label: "Imported on", value: formatDatetime(rom.value.importedAt) },
-        { label: "Filename", value: rom.value.filename },
+        { label: 'Size', value: formatSize(rom.value.size) },
+        { label: 'Region', value: rom.value.region },
+        { label: 'Imported on', value: formatDatetime(rom.value.importedAt) },
+        { label: 'Filename', value: rom.value.filename },
       ]
-    : [],
+    : []
 );
 
 watch(
@@ -159,7 +152,7 @@ watch(
       loadExtendedRomInfo(newValue.id);
     }
   },
-  { immediate: true },
+  { immediate: true }
 );
 
 async function loadExtendedRomInfo(romId: string) {
@@ -169,7 +162,7 @@ async function loadExtendedRomInfo(romId: string) {
   try {
     romMetadataExtended.value = await romStore.loadMetadata(romId);
   } catch (error) {
-    console.error("Failed to load extended ROM info:", error);
+    console.error('Failed to load extended ROM info:', error);
   } finally {
     loading.value = false;
   }
@@ -181,7 +174,7 @@ async function handleTagUpdate(tags: string[]) {
   try {
     await romStore.updateRom(props.romId, { tags });
   } catch (error) {
-    console.error("Failed to update tags:", error);
+    console.error('Failed to update tags:', error);
   } finally {
     updating.value = false;
   }
@@ -193,39 +186,40 @@ async function handleFavorite(value: boolean) {
   try {
     await romStore.updateRom(props.romId, { favorite: value });
   } catch (error) {
-    console.error("Failed to update favorite:", error);
+    console.error('Failed to update favorite:', error);
   } finally {
     updating.value = false;
   }
 
-  emit("favorite", value);
+  emit('favorite', value);
 }
 
 async function handleDelete() {
-  const romName = rom.value?.displayName || "Unknown";
+  const romName = rom.value?.displayName || 'Unknown';
   deleting.value = true;
 
   try {
     await romStore.removeRom(props.romId);
 
     toast.add({
-      severity: "success",
-      summary: "Delete Successful",
+      severity: 'success',
+      summary: 'Delete Successful',
       detail: `Deleted ${romName}`,
       life: 3000,
     });
   } catch (error) {
     toast.add({
-      severity: "error",
-      summary: "Delete Failed",
+      severity: 'error',
+      summary: 'Delete Failed',
       detail: `Failed to delete ${romName}`,
       life: 4000,
     });
+    log.error('Failed to delete ROM:', error);
   } finally {
     deleting.value = false;
   }
 
-  emit("delete");
+  emit('delete');
 }
 
 async function copyHashToClipboard(hash: string) {
@@ -234,21 +228,21 @@ async function copyHashToClipboard(hash: string) {
   try {
     await navigator.clipboard.writeText(hash);
     toast.add({
-      severity: "success",
-      summary: "Copied!",
-      detail: "Hash copied to clipboard",
+      severity: 'success',
+      summary: 'Copied!',
+      detail: 'Hash copied to clipboard',
       life: 2000,
     });
   } catch (error) {
-    console.error("Failed to copy hash:", error);
+    console.error('Failed to copy hash:', error);
   }
 }
 
 // Helpers for formatting
 function formatSize(size: number): string {
-  if (size < 1024) return size + " bytes";
-  if (size < 1024 * 1024) return (size / 1024).toFixed(1) + " KB";
-  return (size / (1024 * 1024)).toFixed(2) + " MB";
+  if (size < 1024) return size + ' bytes';
+  if (size < 1024 * 1024) return (size / 1024).toFixed(1) + ' KB';
+  return (size / (1024 * 1024)).toFixed(2) + ' MB';
 }
 
 function formatDatetime(ts: number): string {
@@ -261,7 +255,7 @@ function formatDatetime(ts: number): string {
 
   // Same week (within past 6 days, not today)
   if (diffDays > 0 && diffDays < 7) {
-    return `${diffDays} day${diffDays > 1 ? "s" : ""} ago`;
+    return `${diffDays} day${diffDays > 1 ? 's' : ''} ago`;
   }
 
   // Today
@@ -270,19 +264,19 @@ function formatDatetime(ts: number): string {
     now.getMonth() === d.getMonth() &&
     now.getDate() === d.getDate()
   ) {
-    return "Today";
+    return 'Today';
   }
 
   // This year
   if (now.getFullYear() === d.getFullYear()) {
-    return d.toLocaleDateString(undefined, { month: "long", day: "numeric" }); // "January 5"
+    return d.toLocaleDateString(undefined, { month: 'long', day: 'numeric' }); // "January 5"
   }
 
   // Previous years
   return d.toLocaleDateString(undefined, {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
   }); // "Jan 5, 2024"
 }
 </script>

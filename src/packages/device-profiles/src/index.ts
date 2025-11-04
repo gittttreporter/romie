@@ -1,10 +1,10 @@
-import type { DeviceProfile, DeviceProfileDraft } from "./types";
-import { ONION_OS_PROFILE } from "./profiles/onion";
-import { KNULLI_PROFILE } from "./profiles/knulli";
-import { MUOS_PROFILE } from "./profiles/muos";
+import type { DeviceProfile, DeviceProfileDraft } from './types';
+import { ONION_OS_PROFILE } from './profiles/onion';
+import { KNULLI_PROFILE } from './profiles/knulli';
+import { MUOS_PROFILE } from './profiles/muos';
 
 // Export types
-export type * from "./types";
+export type * from './types';
 
 // Registry of all device profiles
 const profiles: Record<string, DeviceProfile> = {
@@ -26,15 +26,12 @@ export const getDeviceProfileIds = (): string[] => {
   return Object.keys(profiles);
 };
 
-export function cloneProfile(
-  baseProfileId: string,
-  newName: string,
-): DeviceProfileDraft {
+export function cloneProfile(baseProfileId: string, newName: string): DeviceProfileDraft {
   const baseProfile = getDeviceProfile(baseProfileId);
   if (!baseProfile) {
     throw new Error(`Base profile with ID "${baseProfileId}" not found.`);
   }
-  const { id, ...rest } = baseProfile;
+  const { id: _id, ...rest } = baseProfile;
 
   return {
     ...structuredClone(rest),

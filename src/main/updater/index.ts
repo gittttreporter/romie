@@ -1,8 +1,8 @@
-import { autoUpdater, type BrowserWindow } from "electron";
-import logger from "electron-log/main";
-import { updateElectronApp, UpdateSourceType } from "update-electron-app";
+import { autoUpdater, type BrowserWindow } from 'electron';
+import logger from 'electron-log/main';
+import { updateElectronApp, UpdateSourceType } from 'update-electron-app';
 
-const log = logger.scope("updater");
+const log = logger.scope('updater');
 
 export function initializeUpdater(mainWindow: BrowserWindow): void {
   log.info(`Initializing auto-updates for ${process.platform} ${process.arch}`);
@@ -13,8 +13,8 @@ export function initializeUpdater(mainWindow: BrowserWindow): void {
     },
     logger: log,
     onNotifyUser: ({ releaseName }) => {
-      log.debug("Notifying user of update:", releaseName);
-      mainWindow.webContents.send("update:ready", releaseName);
+      log.debug('Notifying user of update:', releaseName);
+      mainWindow.webContents.send('update:ready', releaseName);
     },
   });
 }

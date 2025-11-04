@@ -1,10 +1,10 @@
 export class SyncError extends Error {
   constructor(
     message: string,
-    public cause?: Error,
+    public cause?: Error
   ) {
     super(message);
-    this.name = "SyncError";
+    this.name = 'SyncError';
   }
 }
 
@@ -13,10 +13,10 @@ export class RomProcessingError extends Error {
     message: string,
     public file: string,
     public reason: string,
-    public cause?: Error,
+    public cause?: Error
   ) {
     super(message);
-    this.name = "RomProcessingError";
+    this.name = 'RomProcessingError';
   }
 }
 
@@ -24,10 +24,10 @@ export class AppError extends Error {
   constructor(
     message: string,
     public userMessage: string,
-    public cause?: Error,
+    public cause?: Error
   ) {
     super(message);
-    this.name = "AppError";
+    this.name = 'AppError';
   }
 
   /**
@@ -40,11 +40,7 @@ export class AppError extends Error {
   /**
    * Creates a UserFacingError with detailed technical message and simplified user message
    */
-  static detailed(
-    technicalMessage: string,
-    userMessage: string,
-    cause?: Error,
-  ): AppError {
+  static detailed(technicalMessage: string, userMessage: string, cause?: Error): AppError {
     return new AppError(technicalMessage, userMessage, cause);
   }
 }

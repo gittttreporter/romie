@@ -1,13 +1,12 @@
-import type { RaHashOptions, RaHashResult } from "../types";
-import { md5 } from "../utils/hash";
-import { readAll } from "../utils/files";
-import { hashNES } from "./nes";
-import { hashSNES } from "./snes";
-import { hashN64 } from "./n64";
-import { hashNDS } from "./nds";
-import { hashAtariLynx } from "./atariLynx";
-import { hashAtari7800 } from "./atari7800";
-import { hashArcade } from "./arcade";
+import type { RaHashOptions, RaHashResult } from '../types';
+import { md5 } from '../utils/hash';
+import { readAll } from '../utils/files';
+import { hashNES } from './nes';
+import { hashSNES } from './snes';
+import { hashN64 } from './n64';
+import { hashAtariLynx } from './atariLynx';
+import { hashAtari7800 } from './atari7800';
+import { hashArcade } from './arcade';
 
 /**
  * Generates RetroAchievements-compatible hashes for ROM identification.
@@ -24,7 +23,7 @@ export async function hash(opts: RaHashOptions): Promise<RaHashResult> {
   const fn = chooseHasher(opts.consoleId);
   const res = await fn(opts);
 
-  return { ...res, impl: "core" };
+  return { ...res, impl: 'core' };
 }
 
 //== Internal helpers ==//

@@ -26,8 +26,8 @@
 </template>
 
 <script setup lang="ts">
-import AppToolbar from "@/components/AppToolbar.vue";
-const props = defineProps<{
+import AppToolbar from '@/components/AppToolbar.vue';
+defineProps<{
   title?: string;
   subtitle?: string;
 }>();

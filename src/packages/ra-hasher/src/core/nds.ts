@@ -1,6 +1,6 @@
-import type { RaHashOptions } from "../types";
-import { md5 } from "../utils/hash";
-import { readAll } from "../utils/files";
+import type { RaHashOptions } from '../types';
+import { md5 } from '../utils/hash';
+import { readAll } from '../utils/files';
 
 /**
  * RetroAchievements NDS hashing:
@@ -14,7 +14,7 @@ import { readAll } from "../utils/files";
 export async function hashNDS({ buffer, path }: RaHashOptions) {
   const rom = buffer ?? (await readAll(path!));
   if (rom.length < 0x160) {
-    throw new Error("File too small to be a valid NDS ROM");
+    throw new Error('File too small to be a valid NDS ROM');
   }
 
   const parts: Buffer[] = [];
@@ -46,6 +46,6 @@ export async function hashNDS({ buffer, path }: RaHashOptions) {
   const combined = Buffer.concat(parts);
   return {
     ramd5: md5(combined),
-    notes: "NDS RA hash built from header + icon + ARM9 + ARM7",
+    notes: 'NDS RA hash built from header + icon + ARM9 + ARM7',
   };
 }

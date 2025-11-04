@@ -1,5 +1,5 @@
-import { type GameList } from "@retroachievements/api";
-import { type GamesHashMap } from "../../src/types/games";
+import { type GameList } from '@retroachievements/api';
+import { type GamesHashMap } from '../../src/types/games';
 
 // Takes a list of games and groups them by system, building hash → index lookups.
 export function createGamesHashMap(games: GameList): GamesHashMap {

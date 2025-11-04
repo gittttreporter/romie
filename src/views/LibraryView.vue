@@ -29,14 +29,14 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from "vue";
-import { useRomStore } from "@/stores";
-import RomListLayout from "@/layouts/RomListLayout.vue";
-import RomDetailView from "@/views/RomDetailView.vue";
-import RomActionView from "@/views/RomActionView.vue";
-import RomList from "@/components/RomList.vue";
-import { formatBytes } from "@/utils/number.utils";
-import { pluralize } from "@/utils/string.utils";
+import { ref, computed } from 'vue';
+import { useRomStore } from '@/stores';
+import RomListLayout from '@/layouts/RomListLayout.vue';
+import RomDetailView from '@/views/RomDetailView.vue';
+import RomActionView from '@/views/RomActionView.vue';
+import RomList from '@/components/RomList.vue';
+import { formatBytes } from '@/utils/number.utils';
+import { pluralize } from '@/utils/string.utils';
 
 const romStore = useRomStore();
 const romSelections = ref<string[]>([]);
@@ -46,7 +46,7 @@ const librarySummary = computed(() => {
   const { totalSizeBytes, totalRoms, systemCounts } = romStore.stats;
   const totalSystems = Object.keys(systemCounts).length;
 
-  return `You have a ${formatBytes(totalSizeBytes)} ROM library with ${totalRoms} ${pluralize(totalRoms, "ROM")} across ${totalSystems} ${pluralize(totalSystems, "system")}.`;
+  return `You have a ${formatBytes(totalSizeBytes)} ROM library with ${totalRoms} ${pluralize(totalRoms, 'ROM')} across ${totalSystems} ${pluralize(totalSystems, 'system')}.`;
 });
 </script>
 

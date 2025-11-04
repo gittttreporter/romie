@@ -1,11 +1,11 @@
-import { dialog } from "electron";
-import { processRomDirectory } from "./romScan";
+import { dialog } from 'electron';
+import { processRomDirectory } from './romScan';
 
-import type { RomImportResult } from "@/types/electron-api";
+import type { RomImportResult } from '@/types/electron-api';
 
 export async function scanRomDirectory(): Promise<RomImportResult> {
   const { filePaths, canceled } = await dialog.showOpenDialog({
-    properties: ["openDirectory"],
+    properties: ['openDirectory'],
   });
   const response: RomImportResult = {
     canceled: false,

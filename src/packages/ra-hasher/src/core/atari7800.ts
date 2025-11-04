@@ -1,6 +1,6 @@
-import type { RaHashOptions } from "../types";
-import { md5 } from "../utils/hash";
-import { readAll } from "../utils/files";
+import type { RaHashOptions } from '../types';
+import { md5 } from '../utils/hash';
+import { readAll } from '../utils/files';
 
 export async function hashAtari7800({ buffer, path }: RaHashOptions) {
   const rom = buffer ?? (await readAll(path!));
@@ -9,7 +9,7 @@ export async function hashAtari7800({ buffer, path }: RaHashOptions) {
 
   return {
     ramd5: md5(payload),
-    notes: skipHeader ? "skipped 128B Atari 7800 header" : undefined,
+    notes: skipHeader ? 'skipped 128B Atari 7800 header' : undefined,
   };
 }
 
@@ -20,7 +20,7 @@ export async function hashAtari7800({ buffer, path }: RaHashOptions) {
  */
 function hasAtari7800Header(buf: Buffer): boolean {
   if (buf.length < 10) return false;
-  const ascii = buf.subarray(0, 10).toString("ascii");
+  const ascii = buf.subarray(0, 10).toString('ascii');
 
-  return ascii === "\x01ATARI7800";
+  return ascii === '\x01ATARI7800';
 }

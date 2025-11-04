@@ -1,23 +1,19 @@
-import { dialog } from "electron";
-import logger from "electron-log/main";
-import * as Sentry from "@sentry/electron/main";
-import si from "systeminformation";
-import fs from "fs/promises";
-import {
-  addDevice,
-  listDevices as getDevices,
-  addDeviceProfile,
-} from "@main/roms/romDatabase";
-import { AppError } from "@/errors";
+import { dialog } from 'electron';
+import logger from 'electron-log/main';
+import * as Sentry from '@sentry/electron/main';
+import si from 'systeminformation';
+import fs from 'fs/promises';
+import { addDevice, listDevices as getDevices, addDeviceProfile } from '@main/roms/romDatabase';
+import { AppError } from '@/errors';
 
-import type { Device, StorageDevice } from "@/types/device";
-import type { DeviceMountStatus, ApiResult } from "@/types/electron-api";
-import type { DeviceProfile, DeviceProfileDraft } from "@romie/device-profiles";
+import type { Device, StorageDevice } from '@/types/device';
+import type { DeviceMountStatus, ApiResult } from '@/types/electron-api';
+import type { DeviceProfile, DeviceProfileDraft } from '@romie/device-profiles';
 
-const log = logger.scope("device");
+const log = logger.scope('device');
 
 export async function listDevices(): Promise<Device[]> {
-  log.warn("deviceService.listDevices() is not implemented");
+  log.warn('deviceService.listDevices() is not implemented');
 
   return [];
 }
@@ -25,26 +21,24 @@ export async function listDevices(): Promise<Device[]> {
 export async function listStorage(): Promise<StorageDevice[]> {
   return await Sentry.startSpan(
     {
-      op: "device.storage.list",
-      name: "List Storage Devices",
+      op: 'device.storage.list',
+      name: 'List Storage Devices',
     },
     async (span) => {
-      log.debug("[STORAGE] Starting storage device enumeration");
+      log.debug('[STORAGE] Starting storage device enumeration');
 
       try {
         const [blockDevices, fileSystems] = await Promise.all([
-          Sentry.startSpan(
-            { op: "device.storage.block", name: "Get Block Devices" },
-            () => si.blockDevices(),
+          Sentry.startSpan({ op: 'device.storage.block', name: 'Get Block Devices' }, () =>
+            si.blockDevices()
           ),
-          Sentry.startSpan(
-            { op: "device.storage.fs", name: "Get Filesystem Info" },
-            () => si.fsSize(),
+          Sentry.startSpan({ op: 'device.storage.fs', name: 'Get Filesystem Info' }, () =>
+            si.fsSize()
           ),
         ]);
 
         log.debug(
-          `[STORAGE] Found ${blockDevices.length} block devices, ${fileSystems.length} filesystems`,
+          `[STORAGE] Found ${blockDevices.length} block devices, ${fileSystems.length} filesystems`
         );
 
         const validDevices: StorageDevice[] = [];
@@ -52,7 +46,7 @@ export async function listStorage(): Promise<StorageDevice[]> {
         let mountMismatches = 0;
 
         blockDevices.forEach((device) => {
-          const deviceLabel = device.label || device.name || "Unnamed Device";
+          const deviceLabel = device.label || device.name || 'Unnamed Device';
 
           if (device.removable) {
             removableDevicesFound++;
@@ -61,54 +55,47 @@ export async function listStorage(): Promise<StorageDevice[]> {
             if (fs) {
               validDevices.push({
                 ...device,
-                label: device.label || "Unnamed Device",
+                label: device.label || 'Unnamed Device',
                 size: fs.size,
               });
-              log.debug(
-                `[STORAGE] Added removable device: ${deviceLabel} at ${device.mount}`,
-              );
+              log.debug(`[STORAGE] Added removable device: ${deviceLabel} at ${device.mount}`);
             } else {
               mountMismatches++;
               log.warn(
-                `[STORAGE] Removable device ${deviceLabel} has no filesystem match (mount: ${device.mount})`,
+                `[STORAGE] Removable device ${deviceLabel} has no filesystem match (mount: ${device.mount})`
               );
             }
           }
         });
 
         span.setAttributes({
-          "storage.removable_devices_found": removableDevicesFound,
-          "storage.valid_devices_found": validDevices.length,
-          "storage.mount_mismatches": mountMismatches,
+          'storage.removable_devices_found': removableDevicesFound,
+          'storage.valid_devices_found': validDevices.length,
+          'storage.mount_mismatches': mountMismatches,
         });
 
-        log.info(
-          `[STORAGE] Found ${validDevices.length} valid removable storage devices`,
-        );
+        log.info(`[STORAGE] Found ${validDevices.length} valid removable storage devices`);
 
         return validDevices;
       } catch (error) {
-        span.setStatus({ code: 2, message: "Storage enumeration failed" });
-        span.recordException(
-          error instanceof Error ? error : new Error(String(error)),
-        );
+        span.setStatus({ code: 2, message: 'Storage enumeration failed' });
+        span.recordException(error instanceof Error ? error : new Error(String(error)));
         throw error;
       }
-    },
+    }
   );
 }
 
 export async function createDevice(data: Device): Promise<Device> {
   return await Sentry.startSpan(
     {
-      op: "device.create",
-      name: "Create Device",
+      op: 'device.create',
+      name: 'Create Device',
       attributes: {
-        "device.profile_id": data.profileId,
-        "device.has_mount": !!data.deviceInfo.mount,
-        "device.size_gb": data.deviceInfo.size
-          ? Math.round((data.deviceInfo.size / (1024 * 1024 * 1024)) * 100) /
-            100
+        'device.profile_id': data.profileId,
+        'device.has_mount': !!data.deviceInfo.mount,
+        'device.size_gb': data.deviceInfo.size
+          ? Math.round((data.deviceInfo.size / (1024 * 1024 * 1024)) * 100) / 100
           : 0,
       },
     },
@@ -116,36 +103,29 @@ export async function createDevice(data: Device): Promise<Device> {
       try {
         return await addDevice(data);
       } catch (err) {
-        span.setStatus({ code: 2, message: "Device creation failed" });
-        span.recordException(
-          err instanceof Error ? err : new Error(String(err)),
-        );
+        span.setStatus({ code: 2, message: 'Device creation failed' });
+        span.recordException(err instanceof Error ? err : new Error(String(err)));
 
-        const reason = err instanceof Error ? err.message : "Unknown error";
+        const reason = err instanceof Error ? err.message : 'Unknown error';
         throw new Error(`Failed to create device: ${reason}`);
       }
-    },
+    }
   );
 }
 
 export async function removeDevice(id: string): Promise<void> {
-  log.warn("deviceService.removeDevice() is not implemented");
+  log.warn('deviceService.removeDevice() is not implemented', id);
 }
 
-export async function updateDevice(
-  id: string,
-  data: Partial<Device>,
-): Promise<void> {
-  log.warn("deviceService.updateDevice() is not implemented");
+export async function updateDevice(id: string, data: Partial<Device>): Promise<void> {
+  log.warn('deviceService.updateDevice() is not implemented', id, data);
 }
 
-export async function checkDeviceMount(
-  deviceId: string,
-): Promise<DeviceMountStatus> {
+export async function checkDeviceMount(deviceId: string): Promise<DeviceMountStatus> {
   return await Sentry.startSpan(
     {
-      op: "device.mount.check",
-      name: "Check Device Mount Status",
+      op: 'device.mount.check',
+      name: 'Check Device Mount Status',
     },
     async (span) => {
       try {
@@ -155,17 +135,17 @@ export async function checkDeviceMount(
 
         if (!device || !device.deviceInfo.mount) {
           span.setAttributes({
-            "device.found": !!device,
-            "device.has_mount": device ? !!device.deviceInfo.mount : false,
-            "mount.accessible": false,
+            'device.found': !!device,
+            'device.has_mount': device ? !!device.deviceInfo.mount : false,
+            'mount.accessible': false,
           });
           return { accessible: false };
         }
 
         span.setAttributes({
-          "device.found": true,
-          "device.has_mount": true,
-          "device.profile_id": device.profileId,
+          'device.found': true,
+          'device.has_mount': true,
+          'device.profile_id': device.profileId,
         });
 
         const mountPath = device.deviceInfo.mount;
@@ -173,11 +153,11 @@ export async function checkDeviceMount(
         // Check if mount path is accessible
         try {
           await fs.access(mountPath);
-          span.setAttributes({ "mount.accessible": true });
+          span.setAttributes({ 'mount.accessible': true });
         } catch {
           span.setAttributes({
-            "mount.accessible": false,
-            "mount.access_check_failed": true,
+            'mount.accessible': false,
+            'mount.access_check_failed': true,
           });
           return { accessible: false };
         }
@@ -185,8 +165,8 @@ export async function checkDeviceMount(
         // Get storage info for this mount path
         try {
           const fileSystems = await Sentry.startSpan(
-            { op: "device.mount.fsinfo", name: "Get Mount Filesystem Info" },
-            () => si.fsSize(),
+            { op: 'device.mount.fsinfo', name: 'Get Mount Filesystem Info' },
+            () => si.fsSize()
           );
           const fsInfo = fileSystems.find((fs) => fs.mount === mountPath);
 
@@ -195,12 +175,10 @@ export async function checkDeviceMount(
             const totalGB = (fsInfo.size / (1000 * 1000 * 1000)).toFixed(1);
 
             span.setAttributes({
-              "mount.has_storage_info": true,
-              "mount.free_gb": parseFloat(freeGB),
-              "mount.total_gb": parseFloat(totalGB),
-              "mount.usage_percent": Math.round(
-                (1 - fsInfo.available / fsInfo.size) * 100,
-              ),
+              'mount.has_storage_info': true,
+              'mount.free_gb': parseFloat(freeGB),
+              'mount.total_gb': parseFloat(totalGB),
+              'mount.usage_percent': Math.round((1 - fsInfo.available / fsInfo.size) * 100),
             });
 
             return {
@@ -212,17 +190,15 @@ export async function checkDeviceMount(
             };
           } else {
             span.setAttributes({
-              "mount.has_storage_info": false,
-              "mount.fs_not_found": true,
+              'mount.has_storage_info': false,
+              'mount.fs_not_found': true,
             });
           }
         } catch (error) {
-          span.recordException(
-            error instanceof Error ? error : new Error(String(error)),
-          );
+          span.recordException(error instanceof Error ? error : new Error(String(error)));
           span.setAttributes({
-            "mount.has_storage_info": false,
-            "mount.storage_info_error": true,
+            'mount.has_storage_info': false,
+            'mount.storage_info_error': true,
           });
           log.warn(`Failed to get storage info for ${mountPath}:`, error);
         }
@@ -230,30 +206,26 @@ export async function checkDeviceMount(
         // Mount is accessible but couldn't get storage info
         return { accessible: true };
       } catch (error) {
-        span.setStatus({ code: 2, message: "Device mount check failed" });
-        span.recordException(
-          error instanceof Error ? error : new Error(String(error)),
-        );
-        span.setAttributes({ "mount.accessible": false });
+        span.setStatus({ code: 2, message: 'Device mount check failed' });
+        span.recordException(error instanceof Error ? error : new Error(String(error)));
+        span.setAttributes({ 'mount.accessible': false });
 
         log.error(`Failed to check device mount for ${deviceId}:`, error);
         return { accessible: false };
       }
-    },
+    }
   );
 }
 
-export async function uploadProfile(): Promise<
-  ApiResult<DeviceProfile | null>
-> {
-  log.info("Prompting user to select device profile JSON file");
+export async function uploadProfile(): Promise<ApiResult<DeviceProfile | null>> {
+  log.info('Prompting user to select device profile JSON file');
   const { filePaths, canceled } = await dialog.showOpenDialog({
-    properties: ["openFile"],
+    properties: ['openFile'],
     filters: [
-      { name: "JSON Files", extensions: ["json"] },
-      { name: "All Files", extensions: ["*"] },
+      { name: 'JSON Files', extensions: ['json'] },
+      { name: 'All Files', extensions: ['*'] },
     ],
-    title: "Select Device Profile JSON File",
+    title: 'Select Device Profile JSON File',
   });
 
   if (canceled || filePaths.length === 0) {
@@ -264,7 +236,7 @@ export async function uploadProfile(): Promise<
   log.info(`User selected profile file: ${filePath}`);
 
   try {
-    const fileContent = await fs.readFile(filePath, "utf-8");
+    const fileContent = await fs.readFile(filePath, 'utf-8');
     const profileData = JSON.parse(fileContent) as DeviceProfileDraft;
     const profile = await addDeviceProfile(profileData);
 
@@ -275,14 +247,13 @@ export async function uploadProfile(): Promise<
 
     if (error instanceof SyntaxError) {
       message = error.message;
-      userMessage =
-        "Invalid file format. Device profiles should be valid JSON.";
+      userMessage = 'Invalid file format. Device profiles should be valid JSON.';
     } else if (error instanceof AppError) {
       message = error.message;
       userMessage = error.userMessage;
     } else {
-      message = error instanceof Error ? error.message : "Unknown error";
-      userMessage = "An unexpected error occurred while uploading the profile.";
+      message = error instanceof Error ? error.message : 'Unknown error';
+      userMessage = 'An unexpected error occurred while uploading the profile.';
     }
     log.error(userMessage, error);
 

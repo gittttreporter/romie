@@ -1,4 +1,3 @@
-import type { SystemCode } from "@/types/system";
 /**
  * Represents a storage device on the system (E.g. SD card, USB drive, etc).
  */

@@ -26,15 +26,15 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
-import RomListLayout from "@/layouts/RomListLayout.vue";
-import RomDetailView from "@/views/RomDetailView.vue";
-import RomActionView from "@/views/RomActionView.vue";
-import RomList from "@/components/RomList.vue";
+import { ref } from 'vue';
+import RomListLayout from '@/layouts/RomListLayout.vue';
+import RomDetailView from '@/views/RomDetailView.vue';
+import RomActionView from '@/views/RomActionView.vue';
+import RomList from '@/components/RomList.vue';
 
-import type { SystemCode } from "@/types/system";
+import type { SystemCode } from '@/types/system';
 
-const props = defineProps<{ system: SystemCode }>();
+defineProps<{ system: SystemCode }>();
 const romSelections = ref<string[]>([]);
 </script>
 

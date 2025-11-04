@@ -1,4 +1,4 @@
-import { type GameList } from "@retroachievements/api";
+import { type GameList } from '@retroachievements/api';
 
 // TODO: Remove duplicate export in roms.ts
 export type GameEntity = GameList[number];

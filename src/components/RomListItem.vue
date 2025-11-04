@@ -10,12 +10,11 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from "vue";
-import SystemBadge from "@/components/SystemBadge.vue";
+import SystemBadge from '@/components/SystemBadge.vue';
 
-import type { SystemCode } from "@/types/system";
+import type { SystemCode } from '@/types/system';
 
-const props = defineProps<{
+defineProps<{
   id: string;
   name: string;
   system: SystemCode;

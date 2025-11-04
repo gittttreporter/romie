@@ -1,6 +1,6 @@
-import { md5 } from "../utils/hash";
-import { readAll } from "../utils/files";
-import type { RaHashOptions } from "../types";
+import { md5 } from '../utils/hash';
+import { readAll } from '../utils/files';
+import type { RaHashOptions } from '../types';
 
 export async function hashSNES({ buffer, path }: RaHashOptions) {
   const rom = buffer ?? (await readAll(path!));
@@ -9,6 +9,6 @@ export async function hashSNES({ buffer, path }: RaHashOptions) {
 
   return {
     ramd5: md5(payload),
-    notes: hasHeader ? "skipped 512B header" : undefined,
+    notes: hasHeader ? 'skipped 512B header' : undefined,
   };
 }

@@ -6,9 +6,9 @@
         <div class="rom-bulk-actions__card-content">
           <TagsEditor
             :tags="commonTags"
-            @update="handleTagUpdate"
             :disabled="deleting"
             :loading="updating"
+            @update="handleTagUpdate"
           />
           <Button
             severity="danger"
@@ -28,14 +28,14 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from "vue";
-import Card from "primevue/card";
-import Button from "primevue/button";
-import ConfirmPopup from "primevue/confirmpopup";
-import { useConfirm } from "primevue/useconfirm";
-import { useToast } from "primevue/usetoast";
-import TagsEditor from "@/components/TagsEditor.vue";
-import { useRomStore } from "@/stores";
+import { computed, ref } from 'vue';
+import Card from 'primevue/card';
+import Button from 'primevue/button';
+import ConfirmPopup from 'primevue/confirmpopup';
+import { useConfirm } from 'primevue/useconfirm';
+import { useToast } from 'primevue/usetoast';
+import TagsEditor from '@/components/TagsEditor.vue';
+import { useRomStore } from '@/stores';
 
 const romStore = useRomStore();
 const confirm = useConfirm();
@@ -45,7 +45,7 @@ const props = defineProps<{
   romSelections: string[];
 }>();
 const emit = defineEmits<{
-  (e: "delete", deleted: number, failed: number): void;
+  (e: 'delete', deleted: number, failed: number): void;
 }>();
 
 const deleting = ref<boolean>(false);
@@ -81,13 +81,13 @@ function confirmDelete(event: MouseEvent) {
     target: event.currentTarget as HTMLElement,
     message: `Are you sure you want to delete ${props.romSelections.length} ROM(s)?`,
     rejectProps: {
-      label: "Cancel",
-      severity: "secondary",
+      label: 'Cancel',
+      severity: 'secondary',
       outlined: true,
     },
     acceptProps: {
-      label: "Do it",
-      severity: "danger",
+      label: 'Do it',
+      severity: 'danger',
     },
     accept: handleDelete,
   });
@@ -95,23 +95,22 @@ function confirmDelete(event: MouseEvent) {
 function showDeleteToast(successCount: number, failureCount: number) {
   if (successCount && !failureCount) {
     toast.add({
-      severity: "success",
-      summary: "Delete Successful",
-      detail:
-        successCount === 1 ? "Deleted 1 ROM" : `Deleted ${successCount} ROMs`,
+      severity: 'success',
+      summary: 'Delete Successful',
+      detail: successCount === 1 ? 'Deleted 1 ROM' : `Deleted ${successCount} ROMs`,
       life: 3000,
     });
   } else if (successCount && failureCount) {
     toast.add({
-      severity: "warn",
-      summary: "Partial Delete",
+      severity: 'warn',
+      summary: 'Partial Delete',
       detail: `Deleted ${successCount} ROM(s), but ${failureCount} failed.`,
       life: 4000,
     });
   } else if (failureCount) {
     toast.add({
-      severity: "error",
-      summary: "Delete Failed",
+      severity: 'error',
+      summary: 'Delete Failed',
       detail: `Failed to delete ${failureCount} ROM(s).`,
       life: 4000,
     });
@@ -127,14 +126,14 @@ async function handleDelete() {
   }
 
   const results = await Promise.allSettled(deletions);
-  const succeeded = results.filter((r) => r.status === "fulfilled").length;
-  const failed = results.filter((r) => r.status === "rejected").length;
+  const succeeded = results.filter((r) => r.status === 'fulfilled').length;
+  const failed = results.filter((r) => r.status === 'rejected').length;
 
   showDeleteToast(succeeded, failed);
 
   deleting.value = false;
 
-  emit("delete", succeeded, failed);
+  emit('delete', succeeded, failed);
 }
 
 async function handleTagUpdate(tags: string[]) {

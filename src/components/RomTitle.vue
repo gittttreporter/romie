@@ -1,9 +1,6 @@
 <template>
   <div class="rom-title">
-    <div
-      v-if="rom.verified && ff.retroAchievements"
-      class="rom-title__icon-wrapper"
-    >
+    <div v-if="rom.verified && ff.retroAchievements" class="rom-title__icon-wrapper">
       <Skeleton
         v-if="!iconLoaded && !iconError"
         width="3.25rem"
@@ -35,13 +32,13 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch, computed } from "vue";
-import Button from "primevue/button";
-import Skeleton from "primevue/skeleton";
-import { useFeatureFlagStore } from "@/stores";
+import { ref, watch, computed } from 'vue';
+import Button from 'primevue/button';
+import Skeleton from 'primevue/skeleton';
+import { useFeatureFlagStore } from '@/stores';
 
-import type { Rom } from "@/types/rom";
-import type { GameInfoAndUserProgress } from "@retroachievements/api";
+import type { Rom } from '@/types/rom';
+import type { GameInfoAndUserProgress } from '@retroachievements/api';
 
 const props = defineProps<{
   rom: Rom;
@@ -55,7 +52,7 @@ const props = defineProps<{
 }>();
 
 const emit = defineEmits<{
-  (e: "favorite", favorite: boolean): void;
+  (e: 'favorite', favorite: boolean): void;
 }>();
 
 const ff = useFeatureFlagStore();
@@ -64,10 +61,10 @@ const iconError = ref(false);
 
 watch(
   () => props.rom.id,
-  (id: string) => {
+  () => {
     iconLoaded.value = false;
     iconError.value = false;
-  },
+  }
 );
 
 const iconUrl = computed(() => {

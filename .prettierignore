@@ -1,0 +1,21 @@
+# Build outputs
+out/
+dist/
+build/
+.vite/
+
+# Dependencies
+node_modules/
+
+# Generated files
+*.min.js
+*.min.css
+
+# Large data files
+src/data/ra/*.json
+
+# Logs
+*.log
+
+# OS files
+.DS_Store

@@ -1,4 +1,4 @@
-export type AppTheme = "light" | "dark" | "system";
+export type AppTheme = 'light' | 'dark' | 'system';
 
 export interface AppSettings {
   theme: AppTheme;

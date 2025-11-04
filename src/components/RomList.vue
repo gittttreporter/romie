@@ -16,11 +16,9 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from "vue";
-import VirtualScroller from "primevue/virtualscroller";
-import RomListItem from "./RomListItem.vue";
+import RomListItem from './RomListItem.vue';
 
-import type { Rom } from "@/types/rom";
+import type { Rom } from '@/types/rom';
 
 const props = defineProps<{
   roms: Rom[];
@@ -28,10 +26,8 @@ const props = defineProps<{
   compact: boolean;
 }>();
 const emit = defineEmits<{
-  (e: "rom-selected", romSelections: string[]): void;
+  (e: 'rom-selected', romSelections: string[]): void;
 }>();
-
-const itemHeight = computed(() => (props.compact ? 40 : 72));
 
 function toggleId(selections: string[], id: string): string[] {
   const idx = selections.indexOf(id);
@@ -44,11 +40,7 @@ function toggleId(selections: string[], id: string): string[] {
   }
 }
 
-function computeRangeSelection(
-  selections: string[],
-  roms: Rom[],
-  clickedId: string,
-): string[] {
+function computeRangeSelection(selections: string[], roms: Rom[], clickedId: string): string[] {
   if (selections.length === 0) {
     return [clickedId];
   }
@@ -76,16 +68,12 @@ function handleRomClick(event: MouseEvent, rom: Rom) {
   if (isToggle) {
     newSelections = toggleId(props.romSelections, romId);
   } else if (isRange) {
-    newSelections = computeRangeSelection(
-      props.romSelections,
-      props.roms,
-      romId,
-    );
+    newSelections = computeRangeSelection(props.romSelections, props.roms, romId);
   } else {
     newSelections = [romId];
   }
 
-  emit("rom-selected", newSelections);
+  emit('rom-selected', newSelections);
 }
 </script>
 

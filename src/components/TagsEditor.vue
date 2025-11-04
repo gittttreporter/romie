@@ -13,8 +13,8 @@
       <div v-if="isAddingTag" class="tags-editor__input">
         <div class="tags-editor__input-row">
           <AutoComplete
-            v-model="tagDraft"
             ref="tagInput"
+            v-model="tagDraft"
             type="text"
             size="small"
             :invalid="!!tagError"
@@ -35,21 +35,11 @@
             :disabled="!tagDraft.trim() || !!tagError"
             @click="handleTagAdded"
           />
-          <Button
-            icon="pi pi-times"
-            text
-            size="small"
-            severity="secondary"
-            @click="handleCancel"
-          />
+          <Button icon="pi pi-times" text size="small" severity="secondary" @click="handleCancel" />
         </div>
-        <Message
-          v-if="tagError"
-          severity="error"
-          size="small"
-          variant="simple"
-          >{{ tagError }}</Message
-        >
+        <Message v-if="tagError" severity="error" size="small" variant="simple">{{
+          tagError
+        }}</Message>
       </div>
       <div v-else class="tags-editor__trigger">
         <Button
@@ -68,13 +58,13 @@
 </template>
 
 <script setup lang="ts">
-import { ref, nextTick, computed } from "vue";
-import AutoComplete from "primevue/autocomplete";
-import Message from "primevue/message";
-import Button from "primevue/button";
-import Chip from "primevue/chip";
-import { normalizeInput } from "@/utils/string.utils";
-import { useRomStore } from "@/stores";
+import { ref, nextTick, computed } from 'vue';
+import AutoComplete from 'primevue/autocomplete';
+import Message from 'primevue/message';
+import Button from 'primevue/button';
+import Chip from 'primevue/chip';
+import { normalizeInput } from '@/utils/string.utils';
+import { useRomStore } from '@/stores';
 
 const props = defineProps<{
   tags: string[];
@@ -82,18 +72,18 @@ const props = defineProps<{
   loading?: boolean;
 }>();
 const emit = defineEmits<{
-  (e: "update", tags: string[]): void;
+  (e: 'update', tags: string[]): void;
 }>();
 
 const romStore = useRomStore();
 const tagInput = ref();
-const tagDraft = ref("");
+const tagDraft = ref('');
 const isAddingTag = ref(false);
 const filteredTags = ref<string[]>([]);
 
 const tagError = computed(() => {
   if (tagDraft.value.length > 24) {
-    return "Max 24 characters";
+    return 'Max 24 characters';
   }
 
   return null;
@@ -104,14 +94,14 @@ const availableTags = computed(() => {
 
 function showTagInput() {
   isAddingTag.value = true;
-  nextTick(() => tagInput.value.$el.querySelector("input").focus());
+  nextTick(() => tagInput.value.$el.querySelector('input').focus());
 }
 
 function handleSearch(event: { query: string }) {
   const query = event.query.toLowerCase();
 
   filteredTags.value = availableTags.value.filter(
-    (tag) => tag.toLowerCase().includes(query) && !props.tags.includes(tag),
+    (tag) => tag.toLowerCase().includes(query) && !props.tags.includes(tag)
   );
 }
 
@@ -119,26 +109,24 @@ function handleTagAdded() {
   if (tagError.value) return;
 
   const newTag = normalizeInput(tagDraft.value);
-  const exists = props.tags.some(
-    (tag) => tag.toLowerCase() === newTag.toLowerCase(),
-  );
+  const exists = props.tags.some((tag) => tag.toLowerCase() === newTag.toLowerCase());
 
-  if (newTag !== "" && !exists) {
-    emit("update", [...props.tags, newTag]);
+  if (newTag !== '' && !exists) {
+    emit('update', [...props.tags, newTag]);
   }
 
-  tagDraft.value = "";
+  tagDraft.value = '';
   isAddingTag.value = false;
 }
 
 function handleCancel() {
-  tagDraft.value = "";
+  tagDraft.value = '';
   isAddingTag.value = false;
 }
 
 function handleTagRemoved(tag: string) {
   const updatedTags = props.tags.filter((t) => t !== tag);
-  emit("update", updatedTags);
+  emit('update', updatedTags);
 }
 </script>
 

@@ -16,10 +16,7 @@
         @error="iconError = true"
       />
       <Skeleton v-if="loading" height="34px" />
-      <div
-        v-else-if="recentAchievements[0]"
-        class="recent-achievements__content"
-      >
+      <div v-else-if="recentAchievements[0]" class="recent-achievements__content">
         <div class="recent-achievements__title">
           {{ recentAchievements[0].title }}
         </div>
@@ -32,33 +29,26 @@
       {{ formatAchievementDate(recentAchievements[0]?.dateEarned) }}
     </div>
     <AvatarGroup>
-      <template
-        v-for="(achievement, idx) in recentAchievements"
-        :key="achievement.id"
-      >
+      <template v-for="(achievement, idx) in recentAchievements" :key="achievement.id">
         <Avatar
           v-if="idx > 0 && idx <= 4"
+          v-tooltip.bottom="`${achievement.title}: ${achievement.description}`"
           v-bind="getAvatarOptions(achievement)"
           shape="circle"
-          v-tooltip.bottom="`${achievement.title}: ${achievement.description}`"
           @error="avatarErrors[achievement.id] = true"
         />
-        <Avatar
-          v-else-if="idx === 5"
-          :label="`+${recentAchievements.length - 5}`"
-          shape="circle"
-        />
+        <Avatar v-else-if="idx === 5" :label="`+${recentAchievements.length - 5}`" shape="circle" />
       </template>
     </AvatarGroup>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { computed, ref } from "vue";
-import Avatar from "primevue/avatar";
-import AvatarGroup from "primevue/avatargroup";
-import Skeleton from "primevue/skeleton";
-import type { GameExtendedAchievementEntityWithUserProgress } from "@retroachievements/api";
+import { computed, ref } from 'vue';
+import Avatar from 'primevue/avatar';
+import AvatarGroup from 'primevue/avatargroup';
+import Skeleton from 'primevue/skeleton';
+import type { GameExtendedAchievementEntityWithUserProgress } from '@retroachievements/api';
 
 const props = defineProps<{
   loading: boolean;
@@ -75,22 +65,15 @@ const recentAchievements = computed(() => {
 
   return Object.values(props.achievements)
     .filter((achievement) => achievement.dateEarned)
-    .sort(
-      (a, b) =>
-        new Date(b.dateEarned).getTime() - new Date(a.dateEarned).getTime(),
-    );
+    .sort((a, b) => new Date(b.dateEarned).getTime() - new Date(a.dateEarned).getTime());
 });
 
-const shouldShow = computed(
-  () => props.loading || recentAchievements.value.length > 0,
-);
+const shouldShow = computed(() => props.loading || recentAchievements.value.length > 0);
 
-function getAvatarOptions(
-  achievement: GameExtendedAchievementEntityWithUserProgress,
-) {
+function getAvatarOptions(achievement: GameExtendedAchievementEntityWithUserProgress) {
   if (avatarErrors.value[achievement.id] || !achievement.badgeName) {
     return {
-      label: achievement.title?.charAt(0)?.toUpperCase() || "?",
+      label: achievement.title?.charAt(0)?.toUpperCase() || '?',
     };
   }
 
@@ -104,27 +87,25 @@ function getBadgeUrl(badgeName: string) {
 }
 
 function formatAchievementDate(dateEarned: string) {
-  if (!dateEarned) return "";
+  if (!dateEarned) return '';
 
   const date = new Date(dateEarned);
   const now = new Date();
-  const diffDays = Math.floor(
-    (now.getTime() - date.getTime()) / (1000 * 60 * 60 * 24),
-  );
+  const diffDays = Math.floor((now.getTime() - date.getTime()) / (1000 * 60 * 60 * 24));
 
   // Recent achievements use relative time
-  if (diffDays === 0) return "Achieved today";
-  if (diffDays === 1) return "Achieved yesterday";
+  if (diffDays === 0) return 'Achieved today';
+  if (diffDays === 1) return 'Achieved yesterday';
   if (diffDays < 7) return `Achieved ${diffDays} days ago`;
 
   // Exclude year for current year
   const currentYear = now.getFullYear();
   const achievementYear = date.getFullYear();
 
-  return `Achieved ${date.toLocaleDateString("en-US", {
-    month: "long",
-    day: "numeric",
-    ...(currentYear !== achievementYear && { year: "numeric" }),
+  return `Achieved ${date.toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    ...(currentYear !== achievementYear && { year: 'numeric' }),
   })}`;
 }
 </script>

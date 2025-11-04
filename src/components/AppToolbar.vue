@@ -8,8 +8,7 @@
         size="small"
         @click="handleUpdate"
       >
-        {{ updateAvailable }} is ready! Click here to restart and install the
-        update.
+        {{ updateAvailable }} is ready! Click here to restart and install the update.
       </Message>
     </div>
     <div class="app-toolbar__tools">
@@ -37,10 +36,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onBeforeUnmount } from "vue";
-import Button from "primevue/button";
-import Message from "primevue/message";
-import AppSettingsModal from "@/components/AppSettingsModal.vue";
+import { ref, onMounted, onBeforeUnmount } from 'vue';
+import Button from 'primevue/button';
+import Message from 'primevue/message';
+import AppSettingsModal from '@/components/AppSettingsModal.vue';
 
 const settingsModal = ref();
 const updateAvailable = ref<string | null>(null);

@@ -1,6 +1,6 @@
-import fs from "fs";
-import path from "path";
-import "dotenv/config";
+import fs from 'fs';
+import path from 'path';
+import 'dotenv/config';
 import {
   buildAuthorization,
   getConsoleIds,
@@ -8,11 +8,11 @@ import {
   type AuthObject,
   type FetchedSystem,
   type GameList,
-} from "@retroachievements/api";
+} from '@retroachievements/api';
 
 const { log } = console;
-const DATA_DIR = "src/data/ra";
-const SYSTEMS_FILE = path.join(DATA_DIR, "all-systems.json");
+const DATA_DIR = 'src/data/ra';
+const SYSTEMS_FILE = path.join(DATA_DIR, 'all-systems.json');
 const { RA_USERNAME, RA_API_KEY } = process.env;
 
 // Rate limiting: RA doesn't publish exact limits, but we've hit 429 after ~30 systems.
@@ -25,9 +25,7 @@ if (!fs.existsSync(DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
 }
 if (!RA_USERNAME || !RA_API_KEY) {
-  throw new Error(
-    "RA_USERNAME and RA_API_KEY must be set in environment variables",
-  );
+  throw new Error('RA_USERNAME and RA_API_KEY must be set in environment variables');
 }
 
 // Set up RA auth once, reuse for all API calls
@@ -39,12 +37,12 @@ const authorization: AuthObject = buildAuthorization({
 // Fetch systems list with aggressive caching - this rarely changes
 export async function fetchSystems(): Promise<FetchedSystem[]> {
   if (fs.existsSync(SYSTEMS_FILE)) {
-    log("[CACHE] Loading systems from cached data");
-    const data = fs.readFileSync(SYSTEMS_FILE, "utf8");
+    log('[CACHE] Loading systems from cached data');
+    const data = fs.readFileSync(SYSTEMS_FILE, 'utf8');
     return JSON.parse(data);
   }
 
-  log("[API] Fetching systems from RetroAchievements...");
+  log('[API] Fetching systems from RetroAchievements...');
   const systems = await getConsoleIds(authorization, {
     shouldOnlyRetrieveActiveSystems: false,
     shouldOnlyRetrieveGameSystems: true,
@@ -62,7 +60,7 @@ export async function fetchGamesForSystem(systemId: number): Promise<GameList> {
 
   if (fs.existsSync(gameFile)) {
     log(`  [CACHE] Loading games from cached data`);
-    const data = fs.readFileSync(gameFile, "utf8");
+    const data = fs.readFileSync(gameFile, 'utf8');
     return JSON.parse(data); // No delay for cached data
   }
   // Enforce minimum delay between API calls to avoid rate limiting
@@ -89,9 +87,7 @@ export async function fetchGamesForSystem(systemId: number): Promise<GameList> {
 
     return gameList;
   } catch (error) {
-    log(
-      `  [ERROR] Failed to fetch games for system ${systemId}: ${(error as Error).message}`,
-    );
+    log(`  [ERROR] Failed to fetch games for system ${systemId}: ${(error as Error).message}`);
     throw error;
   }
 }

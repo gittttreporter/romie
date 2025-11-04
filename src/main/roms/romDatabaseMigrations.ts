@@ -1,53 +1,54 @@
-import path from "path";
-import logger from "electron-log/main";
-import { hash } from "@romie/ra-hasher";
-import { RomDatabase } from "@/types/rom";
-import { crc32sum } from "./romUtils";
-import { lookupRomByHash, unloadHashDatabase } from "./romLookup";
-import {
-  determineSystemFromRAConsoleId,
-  getConsoleIdForSystem,
-} from "@/utils/systems";
+import path from 'path';
+import logger from 'electron-log/main';
+import { hash } from '@romie/ra-hasher';
+import { RomDatabase } from '@/types/rom';
+import { crc32sum } from './romUtils';
+import { lookupRomByHash, unloadHashDatabase } from './romLookup';
+import { determineSystemFromRAConsoleId, getConsoleIdForSystem } from '@/utils/systems';
 
-const log = logger.scope("romdb:migrations");
+const log = logger.scope('romdb:migrations');
 
 export async function ensureDatabaseSchema(data: RomDatabase) {
-  log.info("Starting database migration");
+  log.info('Starting database migration');
   switch (data.version) {
-    case "1.0.0":
+    case '1.0.0':
       migrateToVersion_2_0_0(data);
-    case "2.0.0":
+    // falls through
+    case '2.0.0':
       await migrateToVersion_3_0_0(data);
-    case "3.0.0":
+    // falls through
+    case '3.0.0':
       await migrateToVersion_4_0_0(data);
-    case "4.0.0":
+    // falls through
+    case '4.0.0':
       await migrateToVersion_5_0_0(data);
-    case "5.0.0":
+    // falls through
+    case '5.0.0':
       await migrateToVersion_6_0_0(data);
   }
 
   data.lastUpdated = Date.now();
-  log.info("Database migration completed");
+  log.info('Database migration completed');
 }
 
 //== Internal migration functions ==//
 
 function migrateToVersion_2_0_0(data: RomDatabase) {
   log.info(`Migrating rom database from ${data.version} to version 2.0.0`);
-  data.version = "2.0.0";
+  data.version = '2.0.0';
 
   data.roms.forEach((rom) => {
-    rom.source ??= "import";
+    rom.source ??= 'import';
   });
 }
 
 async function migrateToVersion_3_0_0(data: RomDatabase) {
   log.info(`Migrating rom database from ${data.version} to version 3.0.0`);
-  data.version = "3.0.0";
+  data.version = '3.0.0';
   // New fields for app settings and RA integration.
   data.integrations ??= {};
   data.settings ??= {
-    theme: "system",
+    theme: 'system',
   };
 
   for (const rom of data.roms) {
@@ -71,16 +72,14 @@ async function migrateToVersion_3_0_0(data: RomDatabase) {
 
 async function migrateToVersion_4_0_0(data: RomDatabase) {
   log.info(`Migrating rom database from ${data.version} to version 4.0.0`);
-  data.version = "4.0.0";
+  data.version = '4.0.0';
 
   // Attempt to re-verify existing ROMs against RA database using the new hashing strategy.
   log.info(`Regenerating hashes for ${data.roms.length} roms`);
   for (const rom of data.roms) {
     const consoleId = getConsoleIdForSystem(rom.system);
     if (!consoleId) {
-      log.warn(
-        `Skipping RA MD5 generation for ROM ${rom.id} with unknown system ${rom.system}`,
-      );
+      log.warn(`Skipping RA MD5 generation for ROM ${rom.id} with unknown system ${rom.system}`);
       rom.ramd5 = null;
       continue;
     }
@@ -104,7 +103,7 @@ async function migrateToVersion_4_0_0(data: RomDatabase) {
 
 async function migrateToVersion_5_0_0(data: RomDatabase) {
   log.info(`Migrating rom database from ${data.version} to version 5.0.0`);
-  data.version = "5.0.0";
+  data.version = '5.0.0';
 
   for (const rom of data.roms) {
     try {
@@ -118,7 +117,7 @@ async function migrateToVersion_5_0_0(data: RomDatabase) {
       rom.filename = path.basename(rom.filePath);
     } catch (error) {
       log.error(`Error generating file CRC32 for ROM ${rom.id}: ${error}`);
-      rom.fileCrc32 = "00000000";
+      rom.fileCrc32 = '00000000';
     }
 
     // Remove deprecated fields
@@ -131,6 +130,6 @@ async function migrateToVersion_5_0_0(data: RomDatabase) {
 
 async function migrateToVersion_6_0_0(data: RomDatabase) {
   log.info(`Migrating rom database from ${data.version} to version 6.0.0`);
-  data.version = "6.0.0";
+  data.version = '6.0.0';
   data.profiles ??= [];
 }

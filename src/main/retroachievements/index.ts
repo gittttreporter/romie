@@ -4,15 +4,15 @@
  * These functions wrap functions from the `@retroachievements/api` package to automatically
  * include the stored user credentials from the app settings.
  */
-import log from "electron-log/main";
+import log from 'electron-log/main';
 import {
   buildAuthorization,
   getUserProfile as raGetUserProfile,
   getUserCompletionProgress as raGetUserCompletionProgress,
   getGameInfoAndUserProgress as raGetGameInfoAndUserProgress,
-} from "@retroachievements/api";
-import { getRetoroAchievementsConfig } from "@main/roms/romDatabase";
-import { lookupRomByHash } from "@main/roms/romLookup";
+} from '@retroachievements/api';
+import { getRetoroAchievementsConfig } from '@main/roms/romDatabase';
+import { lookupRomByHash } from '@main/roms/romLookup';
 
 export async function isConfigured() {
   const authorization = await getAuth();
@@ -22,12 +22,12 @@ export async function isConfigured() {
 
 export async function syncAchievementProgress() {
   if (!(await isConfigured())) return;
-  log.info("[RA] Syncing achievement progress with RetroAchievements...");
+  log.info('[RA] Syncing achievement progress with RetroAchievements...');
 
   try {
-    const progress = await getUserCompletionProgress();
+    await getUserCompletionProgress();
   } catch (error) {
-    log.error("[RA] Failed to sync achievement progress:", error);
+    log.error('[RA] Failed to sync achievement progress:', error);
     return;
   }
 }
@@ -67,7 +67,7 @@ export async function getGameInfoAndUserProgress(romHash: string) {
 async function getAuth() {
   const config = await getRetoroAchievementsConfig();
   if (!config) {
-    throw new Error("RetroAchievements config not set");
+    throw new Error('RetroAchievements config not set');
   }
   const { username, apiKey: webApiKey } = config;
 

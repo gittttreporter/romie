@@ -1,8 +1,8 @@
-import { RetroAchievementsConfig } from "@/types/settings";
-import { defineStore } from "pinia";
-import { ref, readonly } from "vue";
+import { RetroAchievementsConfig } from '@/types/settings';
+import { defineStore } from 'pinia';
+import { ref, readonly } from 'vue';
 
-export const useFeatureFlagStore = defineStore("featureFlags", () => {
+export const useFeatureFlagStore = defineStore('featureFlags', () => {
   const initialized = ref(false);
   const retroAchievements = ref(false);
 
@@ -11,7 +11,7 @@ export const useFeatureFlagStore = defineStore("featureFlags", () => {
       const raConfig = await window.ra.getConfig();
       setRetroAchievements(raConfig);
     } catch (error) {
-      console.warn("Failed to load feature flags:", error);
+      console.warn('Failed to load feature flags:', error);
     } finally {
       initialized.value = true;
     }

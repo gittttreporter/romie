@@ -1,8 +1,8 @@
-import { defineStore } from "pinia";
-import log from "electron-log/renderer";
-import type { GameInfoAndUserProgress } from "@retroachievements/api";
-import type { Rom, RomDatabaseStats } from "@/types/rom";
-import type { RomImportResult } from "@/types/electron-api";
+import { defineStore } from 'pinia';
+import log from 'electron-log/renderer';
+import type { GameInfoAndUserProgress } from '@retroachievements/api';
+import type { Rom, RomDatabaseStats } from '@/types/rom';
+import type { RomImportResult } from '@/types/electron-api';
 
 interface RomState {
   roms: Rom[];
@@ -14,7 +14,7 @@ interface RomState {
   selectedRom: Rom | null;
 }
 
-export const useRomStore = defineStore("roms", {
+export const useRomStore = defineStore('roms', {
   state: (): RomState => ({
     roms: [],
     romMetadata: {},
@@ -30,23 +30,22 @@ export const useRomStore = defineStore("roms", {
   }),
 
   getters: {
-    getRomById: (state) => (id: string) =>
-      state.roms.find((rom) => rom.id === id),
+    getRomById: (state) => (id: string) => state.roms.find((rom) => rom.id === id),
   },
 
   actions: {
     async loadStats() {
-      log.info("Loading rom stats..");
+      log.info('Loading rom stats..');
 
       try {
         this.stats = await window.rom.stats();
-        log.info("Loaded rom stats");
+        log.info('Loaded rom stats');
       } catch (error) {
         log.error(error);
       }
     },
     async loadRoms() {
-      log.info("Loading rom data..");
+      log.info('Loading rom data..');
       this.loading = true;
 
       try {
@@ -58,7 +57,7 @@ export const useRomStore = defineStore("roms", {
       }
     },
     async loadMetadata(romId: string): Promise<GameInfoAndUserProgress | null> {
-      log.debug("Loading rom metadata..");
+      log.debug('Loading rom metadata..');
 
       // TODO: Add cache invalidation strategy
       if (this.romMetadata[romId] !== undefined) {
@@ -78,11 +77,9 @@ export const useRomStore = defineStore("roms", {
           return null;
         }
 
-        const romMetadata = await window.ra.getGameInfoAndUserProgress(
-          rom.ramd5,
-        );
+        const romMetadata = await window.ra.getGameInfoAndUserProgress(rom.ramd5);
         this.romMetadata[romId] = romMetadata;
-        log.info("Loaded extended ROM metadata");
+        log.info('Loaded extended ROM metadata');
 
         return romMetadata;
       } catch (error) {
@@ -121,7 +118,7 @@ export const useRomStore = defineStore("roms", {
       }
     },
     async scanRomDir(): Promise<RomImportResult> {
-      log.info("Initiating rom scan..");
+      log.info('Initiating rom scan..');
       const scanResults = await window.rom.scan();
       await this.loadRoms();
       await this.loadStats();

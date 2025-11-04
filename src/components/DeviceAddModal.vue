@@ -10,11 +10,7 @@
     <div class="device-add-form">
       <div class="device-add-form__form-item">
         <label for="name">Device Name</label>
-        <InputText
-          id="name"
-          aria-describedby="name-help"
-          v-model="deviceForm.name"
-        />
+        <InputText id="name" v-model="deviceForm.name" aria-describedby="name-help" />
       </div>
       <div class="device-add-form__form-item">
         <label for="deviceprofile">Device Profile</label>
@@ -26,16 +22,14 @@
           placeholder="Select a Device Profile"
         />
         <Message size="small" severity="secondary" variant="simple"
-          >Device profiles optimize how ROMie syncs and organizes your games
-          based on your handheld device's operating system.</Message
+          >Device profiles optimize how ROMie syncs and organizes your games based on your handheld
+          device's operating system.</Message
         >
       </div>
 
       <div class="device-add-form__custom-profile">
         <div class="device-add-form__custom-profile-header">
-          <span class="device-add-form__custom-profile-title"
-            >Custom Profile</span
-          >
+          <span class="device-add-form__custom-profile-title">Custom Profile</span>
           <Button
             label="Download Template"
             icon="pi pi-download"
@@ -46,8 +40,8 @@
           />
         </div>
         <p class="device-add-form__custom-profile-description">
-          Don't see your device OS? Create a custom profile by downloading our
-          template, modifying it for your device, and uploading it back.
+          Don't see your device OS? Create a custom profile by downloading our template, modifying
+          it for your device, and uploading it back.
         </p>
         <Message
           v-if="profileMessage"
@@ -66,12 +60,7 @@
       </div>
     </div>
     <template #footer>
-      <Button
-        label="Cancel"
-        :disabled="saving"
-        severity="secondary"
-        @click="handleCancel"
-      />
+      <Button label="Cancel" :disabled="saving" severity="secondary" @click="handleCancel" />
       <Button
         :label="saving ? 'Adding...' : 'Add Device'"
         :loading="saving"
@@ -82,17 +71,18 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from "vue";
-import Dialog from "primevue/dialog";
-import Button from "primevue/button";
-import InputText from "primevue/inputtext";
-import Message from "primevue/message";
-import Select from "primevue/select";
-import { cloneProfile } from "@romie/device-profiles";
-import { useDeviceStore } from "@/stores";
-import { downloadJson } from "@/utils/file.utils";
+import { ref, computed, onMounted } from 'vue';
+import log from 'electron-log/renderer';
+import Dialog from 'primevue/dialog';
+import Button from 'primevue/button';
+import InputText from 'primevue/inputtext';
+import Message from 'primevue/message';
+import Select from 'primevue/select';
+import { cloneProfile } from '@romie/device-profiles';
+import { useDeviceStore } from '@/stores';
+import { downloadJson } from '@/utils/file.utils';
 
-import type { Device, StorageDevice } from "@/types/device";
+import type { Device, StorageDevice } from '@/types/device';
 
 interface ProfileOption {
   name: string;
@@ -105,8 +95,8 @@ const props = defineProps<{
   storageDevice: StorageDevice;
 }>();
 const emit = defineEmits<{
-  (e: "update:visible", value: boolean): void;
-  (e: "created", device: Device): void;
+  (e: 'update:visible', value: boolean): void;
+  (e: 'created', device: Device): void;
 }>();
 const deviceStore = useDeviceStore();
 
@@ -114,8 +104,8 @@ const saving = ref(false);
 const savingProfile = ref(false);
 const profileMessage = ref<{ severity: string; content: string } | null>(null);
 const deviceForm = ref({
-  name: "",
-  profileId: "",
+  name: '',
+  profileId: '',
 });
 
 const deviceProfileOptions = computed(() => {
@@ -143,11 +133,11 @@ const deviceProfileOptions = computed(() => {
 
   return {
     options: [
-      { name: "Standard Profiles", items: builtInProfiles },
-      { name: "Custom Profiles", items: customProfiles },
+      { name: 'Standard Profiles', items: builtInProfiles },
+      { name: 'Custom Profiles', items: customProfiles },
     ],
-    optionGroupLabel: "name",
-    optionGroupChildren: "items",
+    optionGroupLabel: 'name',
+    optionGroupChildren: 'items',
   };
 });
 
@@ -157,14 +147,14 @@ onMounted(() => {
 
 function handleShow() {
   // Set default values for the form fields
-  deviceForm.value.name = props.storageDevice?.label || "";
-  deviceForm.value.profileId = "onion-os";
+  deviceForm.value.name = props.storageDevice?.label || '';
+  deviceForm.value.profileId = 'onion-os';
 }
 
 function handleTemplateDownload() {
-  const template = cloneProfile("knulli", "Custom Profile");
+  const template = cloneProfile('knulli', 'Custom Profile');
 
-  downloadJson(template, "custom-device-profile.json");
+  downloadJson(template, 'custom-device-profile.json');
 }
 
 async function handleProfileUpload() {
@@ -176,8 +166,8 @@ async function handleProfileUpload() {
 
     if (!result.success) {
       profileMessage.value = {
-        severity: "error",
-        content: result.userMessage || "Failed to upload profile.",
+        severity: 'error',
+        content: result.userMessage || 'Failed to upload profile.',
       };
       return;
     }
@@ -187,14 +177,15 @@ async function handleProfileUpload() {
     await deviceStore.loadDeviceProfiles();
     deviceForm.value.profileId = result.data.id;
     profileMessage.value = {
-      severity: "success",
+      severity: 'success',
       content: `Profile "${result.data.name}" uploaded successfully!`,
     };
   } catch (error) {
     profileMessage.value = {
-      severity: "error",
-      content: "Failed to upload profile.",
+      severity: 'error',
+      content: 'Failed to upload profile.',
     };
+    log.error(error);
   } finally {
     savingProfile.value = false;
   }
@@ -202,11 +193,11 @@ async function handleProfileUpload() {
 
 function handleCancel() {
   // Reset the form fields
-  deviceForm.value.name = "";
-  deviceForm.value.profileId = "";
+  deviceForm.value.name = '';
+  deviceForm.value.profileId = '';
 
   // Close the modal
-  emit("update:visible", false);
+  emit('update:visible', false);
 }
 
 async function handleSubmit() {
@@ -220,9 +211,9 @@ async function handleSubmit() {
   try {
     const newDevice = await window.device.create(draftDevice);
     await deviceStore.loadDevices();
-    emit("created", newDevice);
+    emit('created', newDevice);
   } catch (error) {
-    console.error(error);
+    log.error(error);
   } finally {
     saving.value = false;
   }

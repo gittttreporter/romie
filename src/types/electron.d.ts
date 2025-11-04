@@ -7,7 +7,7 @@ import type {
   UtilApi,
   SettingsApi,
   RetroAchievementsApi,
-} from "./electron-api";
+} from './electron-api';
 
 declare global {
   interface Window {

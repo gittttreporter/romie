@@ -14,9 +14,9 @@
   </main>
 </template>
 <script setup lang="ts">
-import Toast from "primevue/toast";
-import ConfirmDialog from "primevue/confirmdialog";
-import AppSidebar from "@/components/AppSidebar.vue";
+import Toast from 'primevue/toast';
+import ConfirmDialog from 'primevue/confirmdialog';
+import AppSidebar from '@/components/AppSidebar.vue';
 </script>
 
 <style lang="less" scoped>

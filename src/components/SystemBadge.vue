@@ -11,11 +11,11 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from "vue";
-import { getSystemColor } from "@/utils/system.utils";
-import { getSystemAbbreviation, getSystemDisplayName } from "@/utils/systems";
+import { computed } from 'vue';
+import { getSystemColor } from '@/utils/system.utils';
+import { getSystemAbbreviation, getSystemDisplayName } from '@/utils/systems';
 
-import type { SystemCode } from "@/types/system";
+import type { SystemCode } from '@/types/system';
 
 const props = defineProps<{
   code: SystemCode;
@@ -27,23 +27,7 @@ const props = defineProps<{
 const abbr = computed(() => getSystemAbbreviation(props.code));
 const systemDisplayName = computed(() => getSystemDisplayName(props.code));
 
-const systemColorComputed = computed(
-  () => props.color || getSystemColor(props.code),
-);
-
-// Ensure decent readability for badge text
-function getContrastYIQ(hexColor: string) {
-  // Strip '#' if present
-  const hex = hexColor.replace("#", "");
-  const r = parseInt(hex.substr(0, 2), 16);
-  const g = parseInt(hex.substr(2, 2), 16);
-  const b = parseInt(hex.substr(4, 2), 16);
-  // YIQ formula
-  const yiq = (r * 299 + g * 587 + b * 114) / 1000;
-  return yiq >= 180 ? "#222" : "#fff";
-}
-
-const textColor = computed(() => getContrastYIQ(systemColorComputed.value));
+const systemColorComputed = computed(() => props.color || getSystemColor(props.code));
 </script>
 
 <style scoped lang="less">

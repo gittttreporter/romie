@@ -6,7 +6,7 @@ export interface RaHashOptions {
 
 export interface RaHashResult {
   ramd5: string; // RA identifier (MD5 hex)
-  impl: "core";
+  impl: 'core';
   notes?: string; // e.g., "normalized N64" or "skipped 512B header"
 }
 

@@ -1,9 +1,11 @@
 # ROMie MVP
 
 ## v0.1 - Alpha (Target: [2025-08-21])
+
 **Goal:** Core workflow works end-to-end for early testers
 
 ### Import
+
 - [x] Drag‑&‑drop + file picker (single & multi‑select)
 - [x] Auto‑copy to `<appdir>/roms/` with unique filenames
 - [x] Parse & clean filenames (remove brackets, tags)
@@ -11,6 +13,7 @@
 - [x] Error messaging for unsupported formats, corrupt files, low disk space
 
 ### Manage
+
 - [x] List view: clean display name + region badge
 - [x] Search/filter bar: name search + platform dropdown
 - [x] Library summary view: total count, total size, count by system
@@ -22,15 +25,18 @@
 - [x] Bulk operations (mass delete, retag)
 
 ### Sync
+
 - [x] Onion OS SD‑card copy (core “sync” MVP)
 - [x] Device profile system (map consoles → target folders)
 
 ### Polish & Launch Essentials
+
 - [x] Light/Dark mode
 - [x] Discord server
 - [x] Basic app icon + splash (macOS / Windows)
 
 ## v0.2 - Beta (Target: 4-6 weeks post-alpha)
+
 **Goal:** Ready for wider testing, remove major friction
 
 - [ ] Add ability to scan existing ROM libraries
@@ -41,6 +47,7 @@
 - [x] Add ko-fi button in sidebar footer
 
 ## v1.0 - Public Launch (Target: TBD after beta feedback)
+
 **Goal:** Polished product ready for general users
 
 - [ ] Landing page, documentation, remaining polish
@@ -50,6 +57,7 @@
 - [ ] Monetization strategy implementation (freemium/purchase/ads)
 
 ## 💭 Future Ideas
+
 - [ ] Manage game saves across multiple devices
 - [ ] Add Pico8 support
 - [ ] Use libretro/libretro-database for game name normalization
@@ -70,10 +78,11 @@
 ---
 
 ## ✏️ Scratchpad
-* Take a look at how https://muos.dev/web/syncthing does syncing for inspiration
-* Profile backlog
-//   { value: "generic", name: "Generic Profile (Most Devices)" },
-//   { value: "onion-mm+", name: "OnionOS (Miyoo Mini+)" },
-//   { value: "allium-mm+", name: "Allium (Miyoo Mini+)" },
-//   { value: "dotui-mm+", name: "DotUI (Miyoo Mini+)" },
-//   { value: "stock-mm+", name: "Stock OS (Miyoo Mini+)" },
+
+- Take a look at how https://muos.dev/web/syncthing does syncing for inspiration
+- Profile backlog
+  // { value: "generic", name: "Generic Profile (Most Devices)" },
+  // { value: "onion-mm+", name: "OnionOS (Miyoo Mini+)" },
+  // { value: "allium-mm+", name: "Allium (Miyoo Mini+)" },
+  // { value: "dotui-mm+", name: "DotUI (Miyoo Mini+)" },
+  // { value: "stock-mm+", name: "Stock OS (Miyoo Mini+)" },

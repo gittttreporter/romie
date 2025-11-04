@@ -9,22 +9,15 @@
         <div class="progress-bar">
           <div class="progress-bar__header">
             <div class="progress-bar__header-title">
-              <span v-if="syncStatus.phase === 'preparing'">
-                Preparing for sync...
-              </span>
+              <span v-if="syncStatus.phase === 'preparing'"> Preparing for sync... </span>
               <span v-else-if="syncStatus.phase === 'copying'">
                 Copying: {{ syncStatus.currentFile }}
               </span>
-              <span v-else-if="syncStatus.phase === 'error'">
-                Oops, something went wrong
-              </span>
+              <span v-else-if="syncStatus.phase === 'error'"> Oops, something went wrong </span>
               <span v-else-if="syncStatus.phase === 'done'">
                 Sync complete!
                 <Button
-                  v-if="
-                    syncStatus.filesFailed.length > 0 ||
-                    syncStatus.filesSkipped.length > 0
-                  "
+                  v-if="syncStatus.filesFailed.length > 0 || syncStatus.filesSkipped.length > 0"
                   :label="showSyncResults ? 'Hide results' : 'Show results'"
                   severity="secondary"
                   size="small"
@@ -35,10 +28,7 @@
             </div>
             <div class="progress-bar__header-action">
               <i v-if="syncError" class="pi pi-times error"></i>
-              <i
-                v-else-if="syncStatus.phase === 'done'"
-                class="pi pi-check success"
-              ></i>
+              <i v-else-if="syncStatus.phase === 'done'" class="pi pi-check success"></i>
               <Button
                 v-else
                 icon="pi pi-times"
@@ -51,27 +41,18 @@
             </div>
           </div>
           <ProgressBar
-            :mode="
-              syncStatus.phase === 'preparing' ? 'indeterminate' : 'determinate'
-            "
+            :mode="syncStatus.phase === 'preparing' ? 'indeterminate' : 'determinate'"
             :value="syncStatus.progressPercent"
           ></ProgressBar>
           <div class="progress-bar__footer">
             <div v-if="syncError" class="error">
-              Sync hit a snag. Don't worry, your ROMs are safe - give it another
-              shot?
+              Sync hit a snag. Don't worry, your ROMs are safe - give it another shot?
             </div>
-            <div v-else-if="syncStatus.phase === 'preparing'">
-              Preparing files...
-            </div>
+            <div v-else-if="syncStatus.phase === 'preparing'">Preparing files...</div>
             <div v-else-if="syncStatus.phase === 'copying'">
-              {{ syncStatus.filesProcessed }} of
-              {{ syncStatus.totalFiles }} files
+              {{ syncStatus.filesProcessed }} of {{ syncStatus.totalFiles }} files
             </div>
-            <div
-              class="progress-bar__sync-results"
-              v-else-if="syncStatus.phase === 'done'"
-            >
+            <div v-else-if="syncStatus.phase === 'done'" class="progress-bar__sync-results">
               <Message
                 v-for="(message, index) in syncSummary"
                 :key="index"
@@ -91,15 +72,15 @@
 </template>
 
 <script setup lang="ts">
-import Card from "primevue/card";
-import ProgressBar from "primevue/progressbar";
-import Button from "primevue/button";
-import Message from "primevue/message";
+import Card from 'primevue/card';
+import ProgressBar from 'primevue/progressbar';
+import Button from 'primevue/button';
+import Message from 'primevue/message';
 
-import type { SyncStatus } from "@/types/electron-api";
-import type { SyncSummaryMessage } from "@/types/sync";
+import type { SyncStatus } from '@/types/electron-api';
+import type { SyncSummaryMessage } from '@/types/sync';
 
-const props = defineProps<{
+defineProps<{
   title: string;
   syncStatus: SyncStatus;
   syncSummary: SyncSummaryMessage[];
@@ -108,8 +89,8 @@ const props = defineProps<{
 }>();
 
 const emit = defineEmits<{
-  (e: "cancelSync"): void;
-  (e: "toggleSyncResults"): void;
+  (e: 'cancelSync'): void;
+  (e: 'toggleSyncResults'): void;
 }>();
 </script>
 

@@ -19,9 +19,7 @@
           <div class="setting-item">
             <div class="setting-item__info">
               <label class="setting-item__label">Theme</label>
-              <p class="setting-item__description">
-                Sets the default theme for the application
-              </p>
+              <p class="setting-item__description">Sets the default theme for the application</p>
             </div>
             <div class="setting-item__control">
               <Select
@@ -60,12 +58,8 @@
           <template v-if="raEnabled && !ff.retroAchievements">
             <div class="setting-item">
               <div class="setting-item__info">
-                <label class="setting-item__label" for="ra-username"
-                  >Username</label
-                >
-                <p class="setting-item__description">
-                  Your RetroAchievements username
-                </p>
+                <label class="setting-item__label" for="ra-username">Username</label>
+                <p class="setting-item__description">Your RetroAchievements username</p>
               </div>
               <div class="setting-item__control">
                 <InputText
@@ -80,13 +74,9 @@
 
             <div class="setting-item">
               <div class="setting-item__info">
-                <label class="setting-item__label" for="ra-api-key"
-                  >API Key</label
-                >
+                <label class="setting-item__label" for="ra-api-key">API Key</label>
                 <p class="setting-item__description">
-                  <a @click="openRaControlPanel" class="settings-link">
-                    Get your API key here
-                  </a>
+                  <a class="settings-link" @click="openRaControlPanel"> Get your API key here </a>
                 </p>
               </div>
               <div class="setting-item__control">
@@ -124,20 +114,15 @@
               >
                 <template #icon>
                   <Avatar
-                    v-if="
-                      connectionStatus.value === 'connected' &&
-                      raProfile?.userPic
-                    "
+                    v-if="connectionStatus.value === 'connected' && raProfile?.userPic"
                     :image="`https://media.retroachievements.org${raProfile.userPic}`"
                     shape="circle"
                   />
                   <i
                     v-else
                     :class="{
-                      'pi pi-spin pi-check':
-                        connectionStatus.value === 'connected',
-                      'pi pi-spin pi-spinner':
-                        connectionStatus.value === 'loading',
+                      'pi pi-spin pi-check': connectionStatus.value === 'connected',
+                      'pi pi-spin pi-spinner': connectionStatus.value === 'loading',
                       'pi pi-times': connectionStatus.value === 'error',
                     }"
                   ></i>
@@ -153,22 +138,21 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
-import log from "electron-log/renderer";
-import Dialog from "primevue/dialog";
-import Select from "primevue/select";
-import ToggleSwitch from "primevue/toggleswitch";
-import InputText from "primevue/inputtext";
-import Password from "primevue/password";
-import Button from "primevue/button";
-import Tag from "primevue/tag";
-import Divider from "primevue/divider";
-import Message from "primevue/message";
-import Avatar from "primevue/avatar";
-import { useToast } from "primevue/usetoast";
-import { useFeatureFlagStore } from "@/stores";
-import type { AppTheme } from "@/types/settings";
-import type { UserProfile } from "@retroachievements/api";
+import { ref, onMounted } from 'vue';
+import log from 'electron-log/renderer';
+import Dialog from 'primevue/dialog';
+import Select from 'primevue/select';
+import ToggleSwitch from 'primevue/toggleswitch';
+import InputText from 'primevue/inputtext';
+import Password from 'primevue/password';
+import Button from 'primevue/button';
+import Divider from 'primevue/divider';
+import Message from 'primevue/message';
+import Avatar from 'primevue/avatar';
+import { useToast } from 'primevue/usetoast';
+import { useFeatureFlagStore } from '@/stores';
+import type { AppTheme } from '@/types/settings';
+import type { UserProfile } from '@retroachievements/api';
 
 defineExpose({
   show() {
@@ -185,24 +169,24 @@ const visible = ref(false);
 const saving = ref(false);
 
 // Appearance Settings
-const darkMode = ref<AppTheme>("system");
+const darkMode = ref<AppTheme>('system');
 const themeOptions = ref<Array<{ label: string; value: AppTheme }>>([
-  { label: "Use system setting", value: "system" },
-  { label: "Light", value: "light" },
-  { label: "Dark", value: "dark" },
+  { label: 'Use system setting', value: 'system' },
+  { label: 'Light', value: 'light' },
+  { label: 'Dark', value: 'dark' },
 ]);
 
 // RetroAchievements Settings
 const raEnabled = ref(false);
 const hasUnsavedChanges = ref(false);
-const raUsername = ref("");
-const raApiKey = ref("");
+const raUsername = ref('');
+const raApiKey = ref('');
 
 const raProfile = ref<UserProfile | null>(null);
 const connectionStatus = ref<{
   label: string;
-  value: "loading" | "connected" | "error" | "invalid";
-  severity: "success" | "danger" | "warn" | "secondary";
+  value: 'loading' | 'connected' | 'error' | 'invalid';
+  severity: 'success' | 'danger' | 'warn' | 'secondary';
 } | null>(null);
 
 onMounted(() => {
@@ -222,18 +206,16 @@ async function loadSettings() {
 }
 
 function openRaControlPanel() {
-  window.util.openExternalLink(
-    "https://retroachievements.org/controlpanel.php",
-  );
+  window.util.openExternalLink('https://retroachievements.org/controlpanel.php');
 }
 
 async function handleDarkModeChange() {
   const isDark = await window.darkMode.value();
 
   // Toggle if the desired mode doesn't match the current mode
-  if (darkMode.value === "system") {
+  if (darkMode.value === 'system') {
     window.darkMode.system();
-  } else if ((darkMode.value === "dark") !== isDark) {
+  } else if ((darkMode.value === 'dark') !== isDark) {
     window.darkMode.toggle();
   }
 
@@ -255,12 +237,11 @@ async function saveRaConfig() {
 
     hasUnsavedChanges.value = false;
   } catch (error) {
-    log.error("Failed to save RA configuration:", error);
+    log.error('Failed to save RA configuration:', error);
     toast.add({
-      severity: "error",
-      summary: "Error",
-      detail:
-        "Failed to save RetroAchievements configuration. Please check your credentials.",
+      severity: 'error',
+      summary: 'Error',
+      detail: 'Failed to save RetroAchievements configuration. Please check your credentials.',
       life: 3000,
     });
   } finally {
@@ -270,9 +251,9 @@ async function saveRaConfig() {
 
 async function testRaConnection() {
   connectionStatus.value = {
-    label: "Checking authentication...",
-    value: "loading",
-    severity: "secondary",
+    label: 'Checking authentication...',
+    value: 'loading',
+    severity: 'secondary',
   };
 
   try {
@@ -281,23 +262,23 @@ async function testRaConnection() {
     if (profile) {
       connectionStatus.value = {
         label: `Connected as ${profile.user}`,
-        value: "connected",
-        severity: "success",
+        value: 'connected',
+        severity: 'success',
       };
       raProfile.value = profile;
     } else {
       connectionStatus.value = {
-        label: "Invalid credentials",
-        value: "invalid",
-        severity: "danger",
+        label: 'Invalid credentials',
+        value: 'invalid',
+        severity: 'danger',
       };
     }
   } catch (error) {
-    log.error("Failed to test RA connection:", error);
+    log.error('Failed to test RA connection:', error);
     connectionStatus.value = {
-      label: "Connection error",
-      value: "error",
-      severity: "danger",
+      label: 'Connection error',
+      value: 'error',
+      severity: 'danger',
     };
   }
 }
@@ -317,13 +298,13 @@ async function handleRaToggle() {
     try {
       await window.ra.removeConfig();
 
-      raUsername.value = "";
-      raApiKey.value = "";
+      raUsername.value = '';
+      raApiKey.value = '';
       connectionStatus.value = null;
       hasUnsavedChanges.value = false;
       ff.setRetroAchievements(null);
     } catch (error) {
-      console.error("Failed to remove RA configuration:", error);
+      console.error('Failed to remove RA configuration:', error);
     }
   }
 }

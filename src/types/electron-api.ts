@@ -1,13 +1,10 @@
-import { SyncError } from "@/errors";
-import type { DeviceProfile } from "@romie/device-profiles";
-import type { Rom, RomDatabaseStats } from "./rom";
-import type { Device, StorageDevice } from "@/types/device";
-import { AppSettings, RetroAchievementsConfig } from "./settings";
+import { SyncError } from '@/errors';
+import type { DeviceProfile } from '@romie/device-profiles';
+import type { Rom, RomDatabaseStats } from './rom';
+import type { Device, StorageDevice } from '@/types/device';
+import { AppSettings, RetroAchievementsConfig } from './settings';
 
-import type {
-  UserProfile,
-  GameInfoAndUserProgress,
-} from "@retroachievements/api";
+import type { UserProfile, GameInfoAndUserProgress } from '@retroachievements/api';
 
 export type ApiResult<T> =
   | {
@@ -72,9 +69,7 @@ export interface RetroAchievementsApi {
   getConfig(): Promise<RetroAchievementsConfig | null>;
   removeConfig(): Promise<void>;
   getUserProfile(): Promise<UserProfile>;
-  getGameInfoAndUserProgress(
-    romHash: string,
-  ): Promise<GameInfoAndUserProgress | null>;
+  getGameInfoAndUserProgress(romHash: string): Promise<GameInfoAndUserProgress | null>;
 }
 
 export interface SyncOptions {
@@ -89,7 +84,7 @@ export interface SyncOptions {
  * All files are accounted for: totalFiles = processed + skipped + failed
  */
 export interface SyncStatus {
-  phase: "idle" | "preparing" | "copying" | "verifying" | "done" | "error";
+  phase: 'idle' | 'preparing' | 'copying' | 'verifying' | 'done' | 'error';
   currentFile?: string;
   error?: SyncError;
   /** Total files selected for sync */
@@ -115,11 +110,7 @@ export interface SyncFailReason {
 }
 export interface SyncSkipReason {
   rom: Rom;
-  reason:
-    | "unsupported_system"
-    | "unsupported_format"
-    | "file_exists"
-    | "missing_system_mapping";
+  reason: 'unsupported_system' | 'unsupported_format' | 'file_exists' | 'missing_system_mapping';
   details: string;
 }
 
@@ -131,11 +122,7 @@ export interface DarkModeApi {
 }
 
 export interface SyncApi {
-  start(
-    tagIds: string[],
-    deviceId: string,
-    options: SyncOptions,
-  ): Promise<SyncStatus>;
+  start(tagIds: string[], deviceId: string, options: SyncOptions): Promise<SyncStatus>;
   cancel(): Promise<void>;
   onProgress(callback: (progress: SyncStatus) => void): () => void;
 }

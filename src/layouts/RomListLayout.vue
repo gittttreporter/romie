@@ -24,11 +24,7 @@
             <InputIcon>
               <i class="pi pi-search" />
             </InputIcon>
-            <InputText
-              v-model="searchQuery"
-              size="small"
-              :placeholder="searchPlaceholder"
-            />
+            <InputText v-model="searchQuery" size="small" :placeholder="searchPlaceholder" />
           </IconField>
           <Button
             class="rom-list-layout__header-item"
@@ -86,47 +82,39 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, defineAsyncComponent } from "vue";
-import Dialog from "primevue/dialog";
-import Button from "primevue/button";
-import SelectButton from "primevue/selectbutton";
-import Select from "primevue/select";
-import MultiSelect from "primevue/multiselect";
-import IconField from "primevue/iconfield";
-import InputIcon from "primevue/inputicon";
-import InputText from "primevue/inputtext";
-import { useRomStore } from "@/stores";
-import RomList from "@/components/RomList.vue";
-import AppToolbar from "@/components/AppToolbar.vue";
-import { getSystemDisplayName } from "@/utils/systems";
+import { ref, computed } from 'vue';
+import Button from 'primevue/button';
+import Select from 'primevue/select';
+import MultiSelect from 'primevue/multiselect';
+import IconField from 'primevue/iconfield';
+import InputIcon from 'primevue/inputicon';
+import InputText from 'primevue/inputtext';
+import { useRomStore } from '@/stores';
+import AppToolbar from '@/components/AppToolbar.vue';
+import { getSystemDisplayName } from '@/utils/systems';
 
-import type { Rom } from "@/types/rom";
-import type { SystemCode } from "@/types/system";
+import type { Rom } from '@/types/rom';
+import type { SystemCode } from '@/types/system';
 
 const props = defineProps<{
-  mode: "all" | "tag" | "favorites" | "system";
+  mode: 'all' | 'tag' | 'favorites' | 'system';
   system?: SystemCode;
   tag?: string;
 }>();
 
 const romStore = useRomStore();
-const searchQuery = ref("");
+const searchQuery = ref('');
 const showFilters = ref(false);
 const filterBySystem = ref([]);
 const filterByRegion = ref([]);
-const filterByVerified = ref("");
-const listMode = ref("list");
-const listModeOptions = ref([
-  { icon: "pi pi-list", value: "list" },
-  { icon: "pi pi-th-large", value: "grid" },
-]);
+const filterByVerified = ref('');
 
 const searchPlaceholder = computed(() => {
-  if (props.mode === "tag" && props.tag) {
+  if (props.mode === 'tag' && props.tag) {
     return `Search in ${props.tag}`;
   }
 
-  if (props.mode === "favorites") {
+  if (props.mode === 'favorites') {
     return `Search in your favorites`;
   }
 
@@ -134,7 +122,7 @@ const searchPlaceholder = computed(() => {
 });
 
 const filterSystems = computed(() => {
-  const systems = getUniqueRomValues("system");
+  const systems = getUniqueRomValues('system');
 
   return systems
     .filter((system) => !!system)
@@ -146,7 +134,7 @@ const filterSystems = computed(() => {
 });
 
 const filterRegions = computed(() => {
-  const regions = getUniqueRomValues("region");
+  const regions = getUniqueRomValues('region');
 
   return regions
     .filter(Boolean)
@@ -158,36 +146,31 @@ const filterRegions = computed(() => {
 });
 
 const sortedRoms = computed(() => {
-  return romStore.roms.sort((a, b) =>
-    a.displayName.localeCompare(b.displayName),
-  );
+  return romStore.roms.sort((a, b) => a.displayName.localeCompare(b.displayName));
 });
 
 const filteredRoms = computed(() => {
   const query = searchQuery.value.toLowerCase().trim();
   const selectedRegions = filterByRegion.value;
-  const selectedSystems =
-    props.mode === "system" ? [props.system] : filterBySystem.value;
-  const filterTag = props.mode === "tag" ? props.tag : null;
+  const selectedSystems = props.mode === 'system' ? [props.system] : filterBySystem.value;
+  const filterTag = props.mode === 'tag' ? props.tag : null;
 
   return sortedRoms.value.filter((rom) => {
     const { displayName, system, region, tags = [] } = rom;
 
     const hasSystemMatch =
-      !selectedSystems?.length ||
-      selectedSystems.some((value) => value === system);
+      !selectedSystems?.length || selectedSystems.some((value) => value === system);
     const hasRegionMatch =
-      !selectedRegions?.length ||
-      selectedRegions.some((value) => value === region);
+      !selectedRegions?.length || selectedRegions.some((value) => value === region);
     const hasQueryMatch = !query || displayName.toLowerCase().includes(query);
 
     const hasTagMatch = !filterTag || tags.includes(filterTag);
-    const hasFavoritesMatch = props.mode === "favorites" ? rom.favorite : true;
+    const hasFavoritesMatch = props.mode === 'favorites' ? rom.favorite : true;
     const hasVerifiedMatch =
-      filterByVerified.value === "" ||
-      filterByVerified.value === "all" ||
-      (filterByVerified.value === "verified" && rom.verified) ||
-      (filterByVerified.value === "unverified" && !rom.verified);
+      filterByVerified.value === '' ||
+      filterByVerified.value === 'all' ||
+      (filterByVerified.value === 'verified' && rom.verified) ||
+      (filterByVerified.value === 'unverified' && !rom.verified);
 
     return (
       hasSystemMatch &&
@@ -202,7 +185,7 @@ const filteredRoms = computed(() => {
 
 function toggleFilters() {
   if (showFilters.value) {
-    filterByVerified.value = "";
+    filterByVerified.value = '';
     filterByRegion.value = [];
     filterBySystem.value = [];
   }
@@ -210,9 +193,7 @@ function toggleFilters() {
 }
 
 function getUniqueRomValues<T extends keyof Rom>(field: T) {
-  return Array.from(
-    new Set(romStore.roms.map((rom) => rom[field]).filter(Boolean)),
-  );
+  return Array.from(new Set(romStore.roms.map((rom) => rom[field]).filter(Boolean)));
 }
 </script>
 

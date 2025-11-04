@@ -1,11 +1,11 @@
-import log from "electron-log/main";
-import crypto from "crypto";
-import fs from "fs/promises";
-import CRC32 from "crc-32";
-import { app } from "electron";
-import path from "path";
-import type { PathLike } from "fs";
-import type { RomRegion } from "../../types/rom";
+import log from 'electron-log/main';
+import crypto from 'crypto';
+import fs from 'fs/promises';
+import CRC32 from 'crc-32';
+import { app } from 'electron';
+import path from 'path';
+import type { PathLike } from 'fs';
+import type { RomRegion } from '../../types/rom';
 
 interface HashInput {
   filePath?: string;
@@ -15,51 +15,51 @@ interface HashInput {
 // Common region codes found in ROM filenames
 export const REGION_CODES: Record<string, RomRegion> = {
   // English/North America
-  USA: "USA",
-  US: "USA",
-  U: "USA",
-  "NTSC-U": "USA",
-  "North America": "USA",
-  NA: "USA",
+  USA: 'USA',
+  US: 'USA',
+  U: 'USA',
+  'NTSC-U': 'USA',
+  'North America': 'USA',
+  NA: 'USA',
 
   // Europe
-  EUR: "Europe",
-  Europe: "Europe",
-  E: "Europe",
-  PAL: "Europe",
-  UK: "Europe",
-  Germany: "Europe",
-  France: "Europe",
-  Spain: "Europe",
-  Italy: "Europe",
+  EUR: 'Europe',
+  Europe: 'Europe',
+  E: 'Europe',
+  PAL: 'Europe',
+  UK: 'Europe',
+  Germany: 'Europe',
+  France: 'Europe',
+  Spain: 'Europe',
+  Italy: 'Europe',
 
   // Japan
-  JPN: "Japan",
-  Japan: "Japan",
-  J: "Japan",
-  "NTSC-J": "Japan",
-  JP: "Japan",
+  JPN: 'Japan',
+  Japan: 'Japan',
+  J: 'Japan',
+  'NTSC-J': 'Japan',
+  JP: 'Japan',
 
   // World/International
-  World: "World",
-  W: "World",
-  International: "World",
-  UE: "World", // USA + Europe
-  JU: "World", // Japan + USA
-  JUE: "World", // Japan + USA + Europe
+  World: 'World',
+  W: 'World',
+  International: 'World',
+  UE: 'World', // USA + Europe
+  JU: 'World', // Japan + USA
+  JUE: 'World', // Japan + USA + Europe
 
   // Other regions
-  Asia: "Asia",
-  Korea: "Korea",
-  KR: "Korea",
-  China: "China",
-  CH: "China",
-  Australia: "Australia",
-  AU: "Australia",
-  Brazil: "Brazil",
-  BR: "Brazil",
-  Canada: "Canada",
-  CA: "Canada",
+  Asia: 'Asia',
+  Korea: 'Korea',
+  KR: 'Korea',
+  China: 'China',
+  CH: 'China',
+  Australia: 'Australia',
+  AU: 'Australia',
+  Brazil: 'Brazil',
+  BR: 'Brazil',
+  Canada: 'Canada',
+  CA: 'Canada',
 };
 
 /**
@@ -69,11 +69,9 @@ export const REGION_CODES: Record<string, RomRegion> = {
  * @param filename - The ROM filename to extract region from
  * @returns The standardized region code or "Unknown" if no region found
  */
-export function extractRegionFromFilename(
-  filename: string,
-): RomRegion | "Unknown" {
+export function extractRegionFromFilename(filename: string): RomRegion | 'Unknown' {
   // Remove file extension for cleaner matching
-  const nameWithoutExt = filename.replace(/\.[^/.]+$/, "");
+  const nameWithoutExt = filename.replace(/\.[^/.]+$/, '');
 
   // Look for region codes in parentheses: (USA), (Europe), (J), etc.
   const parenthesesMatches = nameWithoutExt.match(/\(([^)]+)\)/g);
@@ -83,7 +81,7 @@ export function extractRegionFromFilename(
     for (const match of parenthesesMatches) {
       const content = match.slice(1, -1); // Remove parentheses
       const region = findRegionInText(content);
-      if (region !== "Unknown") {
+      if (region !== 'Unknown') {
         return region;
       }
     }
@@ -97,7 +95,7 @@ export function extractRegionFromFilename(
     for (const match of bracketMatches) {
       const content = match.slice(1, -1); // Remove brackets
       const region = findRegionInText(content);
-      if (region !== "Unknown") {
+      if (region !== 'Unknown') {
         return region;
       }
     }
@@ -105,31 +103,31 @@ export function extractRegionFromFilename(
 
   // Fallback: look for region codes anywhere in the filename
   const fallbackRegion = findRegionInText(nameWithoutExt);
-  if (fallbackRegion !== "Unknown") {
+  if (fallbackRegion !== 'Unknown') {
     return fallbackRegion;
   }
 
-  return "Unknown";
+  return 'Unknown';
 }
 
 export function cleanDisplayName(filename: string): string {
   // Remove file extension
-  let name = filename.replace(/\.[^/.]+$/, "");
+  let name = filename.replace(/\.[^/.]+$/, '');
 
   // Remove everything in parentheses and brackets
-  name = name.replace(/\([^)]*\)/g, "");
-  name = name.replace(/\[[^\]]*\]/g, "");
+  name = name.replace(/\([^)]*\)/g, '');
+  name = name.replace(/\[[^\]]*\]/g, '');
 
   // Replace underscores and hyphens with spaces
-  name = name.replace(/[_-]/g, " ");
+  name = name.replace(/[_-]/g, ' ');
 
   // Clean up extra spaces and trim
-  name = name.replace(/\s+/g, " ").trim();
+  name = name.replace(/\s+/g, ' ').trim();
 
   // Convert to title case
   name = name.replace(
     /\w\S*/g,
-    (txt) => txt.charAt(0).toUpperCase() + txt.substring(1).toLowerCase(),
+    (txt) => txt.charAt(0).toUpperCase() + txt.substring(1).toLowerCase()
   );
 
   return name;
@@ -139,29 +137,22 @@ export async function md5sum({ filePath, buffer }: HashInput): Promise<string> {
   const fileBuffer = filePath ? await fs.readFile(filePath) : buffer;
 
   if (!fileBuffer) {
-    throw new Error("Either path or buffer must be provided");
+    throw new Error('Either path or buffer must be provided');
   }
 
-  return crypto
-    .createHash("md5")
-    .update(fileBuffer)
-    .digest("hex")
-    .toLowerCase();
+  return crypto.createHash('md5').update(fileBuffer).digest('hex').toLowerCase();
 }
 
-export async function crc32sum({
-  filePath,
-  buffer,
-}: HashInput): Promise<string> {
+export async function crc32sum({ filePath, buffer }: HashInput): Promise<string> {
   const fileBuffer = filePath ? await fs.readFile(filePath) : buffer;
 
   if (!fileBuffer) {
-    throw new Error("Either path or buffer must be provided");
+    throw new Error('Either path or buffer must be provided');
   }
 
   const crc = CRC32.buf(fileBuffer);
 
-  return (crc >>> 0).toString(16).toLowerCase().padStart(8, "0");
+  return (crc >>> 0).toString(16).toLowerCase().padStart(8, '0');
 }
 
 /**
@@ -169,10 +160,7 @@ export async function crc32sum({
  *
  * @returns {Promise<Object>} Object containing CRC32, MD5, and SHA1 hashes
  */
-export async function generateLibretroHashes({
-  filePath,
-  buffer,
-}: HashInput): Promise<{
+export async function generateLibretroHashes({ filePath, buffer }: HashInput): Promise<{
   crc32: string;
   md5: string;
   sha1: string;
@@ -180,7 +168,7 @@ export async function generateLibretroHashes({
   const fileBuffer = filePath ? await fs.readFile(filePath) : buffer;
 
   if (!fileBuffer) {
-    throw new Error("Either path or buffer must be provided");
+    throw new Error('Either path or buffer must be provided');
   }
 
   const md5 = await md5sum({ buffer: fileBuffer });
@@ -189,11 +177,7 @@ export async function generateLibretroHashes({
   return {
     crc32,
     md5,
-    sha1: crypto
-      .createHash("sha1")
-      .update(fileBuffer)
-      .digest("hex")
-      .toLowerCase(),
+    sha1: crypto.createHash('sha1').update(fileBuffer).digest('hex').toLowerCase(),
   };
 }
 
@@ -201,7 +185,7 @@ export async function generateLibretroHashes({
  * Helper function to find region codes within a text string
  * Handles complex region strings like "USA, Europe" or "Rev 1"
  */
-function findRegionInText(text: string): RomRegion | "Unknown" {
+function findRegionInText(text: string): RomRegion | 'Unknown' {
   // Clean up the text
   const cleanText = text.trim();
 
@@ -219,20 +203,10 @@ function findRegionInText(text: string): RomRegion | "Unknown" {
   }
 
   // Handle comma-separated regions with priority
-  if (cleanText.includes(",")) {
-    const regions = cleanText.split(",").map((r) => r.trim());
+  if (cleanText.includes(',')) {
+    const regions = cleanText.split(',').map((r) => r.trim());
     // Prioritize: USA > Europe > Japan > Others
-    const priority = [
-      "USA",
-      "US",
-      "U",
-      "Europe",
-      "EUR",
-      "E",
-      "Japan",
-      "JPN",
-      "J",
-    ];
+    const priority = ['USA', 'US', 'U', 'Europe', 'EUR', 'E', 'Japan', 'JPN', 'J'];
 
     for (const priorityRegion of priority) {
       for (const region of regions) {
@@ -245,7 +219,7 @@ function findRegionInText(text: string): RomRegion | "Unknown" {
     // If no priority match, take the first valid region
     for (const region of regions) {
       const result = findRegionInText(region);
-      if (result !== "Unknown") {
+      if (result !== 'Unknown') {
         return result;
       }
     }
@@ -267,22 +241,19 @@ function findRegionInText(text: string): RomRegion | "Unknown" {
     }
   }
 
-  return "Unknown";
+  return 'Unknown';
 }
 
 // Helper function to check if a region is valid
-export function isValidRegion(region: string): region is RomRegion | "Unknown" {
-  return (
-    Object.values(REGION_CODES).includes(region as RomRegion) ||
-    region === "Unknown"
-  );
+export function isValidRegion(region: string): region is RomRegion | 'Unknown' {
+  return Object.values(REGION_CODES).includes(region as RomRegion) || region === 'Unknown';
 }
 
 export async function fileExists(filePath: PathLike) {
   try {
     await fs.stat(filePath);
     return true;
-  } catch (_) {
+  } catch {
     return false;
   }
 }
@@ -290,23 +261,17 @@ export async function fileExists(filePath: PathLike) {
 export function get7zBinaryPath(): string {
   // Map Node.js platform names to the 7zip-bin directory names
   const platformMap = {
-    darwin: "mac",
-    win32: "win",
+    darwin: 'mac',
+    win32: 'win',
   } as Partial<Record<NodeJS.Platform, string>>;
 
-  const platform = platformMap[process.platform] || "linux";
+  const platform = platformMap[process.platform] || 'linux';
   const arch = process.arch;
   const basePath = app.isPackaged
     ? process.resourcesPath
-    : path.join(process.cwd(), "node_modules");
-  const binaryName = process.platform === "win32" ? "7za.exe" : "7za";
-  const binaryPath = path.join(
-    basePath,
-    "7zip-bin",
-    platform,
-    arch,
-    binaryName,
-  );
+    : path.join(process.cwd(), 'node_modules');
+  const binaryName = process.platform === 'win32' ? '7za.exe' : '7za';
+  const binaryPath = path.join(basePath, '7zip-bin', platform, arch, binaryName);
 
   log.debug(`Using 7zip binary at: ${binaryPath}`);
   return binaryPath;

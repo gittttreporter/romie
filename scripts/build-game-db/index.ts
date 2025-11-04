@@ -8,15 +8,15 @@
  * Memory optimization: Only load the systems you're actually scanning.
  * Scanning NES ROMs? Only load the NES hash file, not all 50+ systems.
  */
-import fs from "fs";
-import path from "path";
-import "dotenv/config";
-import { type GameList } from "@retroachievements/api";
-import { fetchSystems, fetchGamesForSystem } from "./gameFetch";
-import { createGamesHashMap } from "./gameHash";
+import fs from 'fs';
+import path from 'path';
+import 'dotenv/config';
+import { type GameList } from '@retroachievements/api';
+import { fetchSystems, fetchGamesForSystem } from './gameFetch';
+import { createGamesHashMap } from './gameHash';
 
 const { log } = console;
-const DATA_DIR = "src/data/ra";
+const DATA_DIR = 'src/data/ra';
 
 // Ensure data directory exists
 if (!fs.existsSync(DATA_DIR)) {
@@ -24,7 +24,7 @@ if (!fs.existsSync(DATA_DIR)) {
 }
 
 async function buildGameDatabase() {
-  log("[BUILD] Starting game hash database build...");
+  log('[BUILD] Starting game hash database build...');
   const systems = await fetchSystems();
   const games: GameList = [];
   log(`[BUILD] Found ${systems.length} system(s) to process}`);
@@ -32,9 +32,7 @@ async function buildGameDatabase() {
   // Sequentially fetch game data for all systems. This is intentionally not parallel
   // in order to reduce concurrent load on RA. I'm trying to avoid being blocked.
   for (const [index, system] of systems.entries()) {
-    log(
-      `[${index + 1}/${systems.length}] Processing: ${system.name} (ID: ${system.id})`,
-    );
+    log(`[${index + 1}/${systems.length}] Processing: ${system.name} (ID: ${system.id})`);
     const gamesForSystem = await fetchGamesForSystem(system.id);
     games.push(...gamesForSystem);
   }
@@ -46,7 +44,7 @@ async function buildGameDatabase() {
   const hashFile = path.join(DATA_DIR, `all-games.json`);
   fs.writeFileSync(hashFile, JSON.stringify(hashMap, null, 2));
   log(
-    `[WRITE] ${games.length} games, ${Object.values(hashMap.hashMap).length} hashes -> ${path.basename(hashFile)}`,
+    `[WRITE] ${games.length} games, ${Object.values(hashMap.hashMap).length} hashes -> ${path.basename(hashFile)}`
   );
 }
 
@@ -57,10 +55,10 @@ async function buildGameDatabase() {
     await buildGameDatabase();
 
     const duration = ((Date.now() - startTime) / 1000).toFixed(2);
-    log("\n[DONE] Hash database build completed successfully");
+    log('\n[DONE] Hash database build completed successfully');
     log(`[TIMING] Build completed in ${duration}s`);
   } catch (error) {
-    console.error("[ERROR] Hash database build failed:", error);
+    console.error('[ERROR] Hash database build failed:', error);
     process.exit(1);
   }
 })();

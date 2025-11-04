@@ -1,6 +1,6 @@
 // TODO: Fix this. Obviously bad if we ever want to expose this as it's
 // own package.
-import { SystemCode } from "@/types/system";
+import { SystemCode } from '@/types/system';
 
 export interface SystemMapping {
   folderName: string;
@@ -36,4 +36,4 @@ export interface DeviceProfile {
   version?: number;
 }
 
-export type DeviceProfileDraft = Omit<DeviceProfile, "id">;
+export type DeviceProfileDraft = Omit<DeviceProfile, 'id'>;

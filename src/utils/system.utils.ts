@@ -1,25 +1,25 @@
-import type { SystemCode } from "@/types/system";
+import type { SystemCode } from '@/types/system';
 
 /**
  * Colors for each system, used for badges, icons, etc.
  */
 const SYSTEM_COLORS: Record<SystemCode, string> = {
-  nes: "#364d30", // olive green - distinct Nintendo color
-  snes: "#443966", // dusty indigo - classic SNES purple
-  n64: "#2563EB", // bright blue - stands out from other Nintendo
-  vb: "#991B1B", // red - matches Virtual Boy's red display
-  gb: "#2c6153", // deep teal - classic Game Boy
-  gbc: "#6B46C1", // purple - represents color capability
-  gba: "#DC2626", // red - warm, distinct from other handhelds
-  nds: "#1E40AF", // darker blue - different from N64
-  ngp: "#A21CAF", // bright magenta - SNK brand color
-  genesis: "#563342", // muted plum - classic Genesis
-  sms: "#059669", // emerald green - distinct from Genesis
-  gg: "#F59E0B", // amber - bright handheld color
-  psx: "#373d66", // violet blue - PlayStation brand
-  lynx: "#EA580C", // orange - bright Atari color
-  atari2600: "#A16207", // golden brown - retro Atari
-  arcade: "#EAB308", // bright yellow - classic arcade
+  nes: '#364d30', // olive green - distinct Nintendo color
+  snes: '#443966', // dusty indigo - classic SNES purple
+  n64: '#2563EB', // bright blue - stands out from other Nintendo
+  vb: '#991B1B', // red - matches Virtual Boy's red display
+  gb: '#2c6153', // deep teal - classic Game Boy
+  gbc: '#6B46C1', // purple - represents color capability
+  gba: '#DC2626', // red - warm, distinct from other handhelds
+  nds: '#1E40AF', // darker blue - different from N64
+  ngp: '#A21CAF', // bright magenta - SNK brand color
+  genesis: '#563342', // muted plum - classic Genesis
+  sms: '#059669', // emerald green - distinct from Genesis
+  gg: '#F59E0B', // amber - bright handheld color
+  psx: '#373d66', // violet blue - PlayStation brand
+  lynx: '#EA580C', // orange - bright Atari color
+  atari2600: '#A16207', // golden brown - retro Atari
+  arcade: '#EAB308', // bright yellow - classic arcade
 };
 
 // TODO: See if we can use the color palette for system colors. I couldn't easily get $dt working though.
@@ -42,5 +42,5 @@ const SYSTEM_COLORS: Record<SystemCode, string> = {
  * Returns the color (badge background) for a system code.
  */
 export function getSystemColor(code: SystemCode): string {
-  return SYSTEM_COLORS[code] || "#bbb";
+  return SYSTEM_COLORS[code] || '#bbb';
 }

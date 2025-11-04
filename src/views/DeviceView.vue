@@ -11,7 +11,7 @@
             <div class="device-status__item">
               <i class="device-status__icon pi pi-microchip"></i>
               <span class="device-status__label"
-                >{{ device?.deviceInfo?.label || "unknown" }}:</span
+                >{{ device?.deviceInfo?.label || 'unknown' }}:</span
               >
               <Tag
                 v-if="deviceStatus?.accessible"
@@ -19,22 +19,13 @@
                 severity="success"
                 value="Connected"
               ></Tag>
-              <Tag
-                v-else
-                icon="pi pi-times"
-                severity="danger"
-                value="Disconnected"
-              ></Tag>
+              <Tag v-else icon="pi pi-times" severity="danger" value="Disconnected"></Tag>
             </div>
             <div class="device-status__item">
               <i class="device-status__icon pi pi-cog"></i>
               <span class="device-status__label">Device Profile:</span>
               <div class="device-view__profile">
-                <Tag
-                  :value="deviceProfile?.name"
-                  @click="op.toggle($event)"
-                  severity="secondary"
-                />
+                <Tag :value="deviceProfile?.name" severity="secondary" @click="op.toggle($event)" />
                 <Popover ref="op">
                   <div v-if="deviceProfile" class="device-profile-summary">
                     <div class="device-profile-summary__base-path">
@@ -52,21 +43,17 @@
                           mapping.displayName
                         }}</span>
                         →
-                        <code class="device-profile-summary__folder">{{
-                          mapping.folderName
-                        }}</code>
+                        <code class="device-profile-summary__folder">{{ mapping.folderName }}</code>
                       </div>
                     </div>
                   </div>
                 </Popover>
               </div>
             </div>
-            <div class="device-status__item" v-if="deviceStatus?.accessible">
+            <div v-if="deviceStatus?.accessible" class="device-status__item">
               <i class="device-status__icon pi pi-database"></i>
               <span class="device-status__label">Available Space:</span>
-              <span class="device-status__value">{{
-                deviceStatus?.freeSpace
-              }}</span>
+              <span class="device-status__value">{{ deviceStatus?.freeSpace }}</span>
             </div>
           </div>
         </template>
@@ -76,8 +63,8 @@
       <Card v-if="syncStatus.phase === 'idle'" class="device-view__tag-card">
         <template #title>Tags to Sync</template>
         <template #subtitle>
-          Syncing copies your selected ROMs to the device. Existing ROMs and
-          saves stay safe unless you choose to clean the destination first.
+          Syncing copies your selected ROMs to the device. Existing ROMs and saves stay safe unless
+          you choose to clean the destination first.
         </template>
         <template #content>
           <div class="tag-selection">
@@ -108,16 +95,12 @@
                   label="Start Sync"
                   icon="pi pi-sync"
                   :disabled="!canStartSync"
-                  @click="startSync"
                   class="tag-selection__sync-button"
+                  @click="startSync"
                 />
-                <small
-                  v-if="totalSelectedRoms > 0"
-                  class="tag-selection__action-subtitle"
-                >
-                  Syncing {{ totalSelectedRoms }} ROMs ({{
-                    formatFileSize(totalSelectedSize)
-                  }}) will take approximately {{ estimatedSyncTime }}
+                <small v-if="totalSelectedRoms > 0" class="tag-selection__action-subtitle">
+                  Syncing {{ totalSelectedRoms }} ROMs ({{ formatFileSize(totalSelectedSize) }})
+                  will take approximately {{ estimatedSyncTime }}
                 </small>
               </div>
               <div class="tag-selection__options">
@@ -128,49 +111,35 @@
                     binary
                   />
                   <div class="tag-selection__option-content">
-                    <label
-                      for="clean-destination"
-                      class="tag-selection__option-label"
+                    <label for="clean-destination" class="tag-selection__option-label"
                       >Clean destination before sync</label
                     >
                     <small class="tag-selection__option-subtitle"
-                      >Removes everything in
-                      <code>{{ deviceProfile?.romBasePath }}</code> before
+                      >Removes everything in <code>{{ deviceProfile?.romBasePath }}</code> before
                       syncing</small
                     >
                   </div>
                 </div>
                 <div class="tag-selection__option">
-                  <Checkbox
-                    v-model="syncOptions.useCleanNames"
-                    inputId="clean-names"
-                    binary
-                  />
+                  <Checkbox v-model="syncOptions.useCleanNames" inputId="clean-names" binary />
                   <div class="tag-selection__option-content">
                     <label for="clean-names" class="tag-selection__option-label"
                       >Simplify filenames</label
                     >
                     <small class="tag-selection__option-subtitle"
-                      >Copies as "Super Metroid.sfc" instead of "Super Metroid
-                      (Japan, USA) (En,Ja).sfc"</small
+                      >Copies as "Super Metroid.sfc" instead of "Super Metroid (Japan, USA)
+                      (En,Ja).sfc"</small
                     >
                   </div>
                 </div>
                 <div class="tag-selection__option">
-                  <Checkbox
-                    v-model="syncOptions.verifyFiles"
-                    inputId="verify-files"
-                    binary
-                  />
+                  <Checkbox v-model="syncOptions.verifyFiles" inputId="verify-files" binary />
                   <div class="tag-selection__option-content">
-                    <label
-                      for="verify-files"
-                      class="tag-selection__option-label"
+                    <label for="verify-files" class="tag-selection__option-label"
                       >Verify files after copy</label
                     >
                     <small class="tag-selection__option-subtitle"
-                      >Double-checks your ROMs made it safely (a little slower
-                      but safer)</small
+                      >Double-checks your ROMs made it safely (a little slower but safer)</small
                     >
                   </div>
                 </div>
@@ -192,9 +161,8 @@
         @cancel-sync="cancelSync"
       >
         <template v-if="syncStatus.phase !== 'done'" #subtitle>
-          Syncing {{ totalSelectedRoms }} ROMs ({{
-            formatFileSize(totalSelectedSize)
-          }}) should take approximately {{ estimatedSyncTime }}
+          Syncing {{ totalSelectedRoms }} ROMs ({{ formatFileSize(totalSelectedSize) }}) should take
+          approximately {{ estimatedSyncTime }}
         </template>
       </SyncProgress>
 
@@ -209,29 +177,27 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, computed, watchEffect } from "vue";
-import PageLayout from "@/layouts/PageLayout.vue";
-import Card from "primevue/card";
-import Chip from "primevue/chip";
-import Tag from "primevue/tag";
-import MultiSelect from "primevue/multiselect";
-import Popover from "primevue/popover";
-import Message from "primevue/message";
-import Checkbox from "primevue/checkbox";
-import Button from "primevue/button";
-import ProgressBar from "primevue/progressbar";
-import { useDeviceStore, useRomStore } from "@/stores";
-import { useSyncLogic } from "@/composables/useSyncLogic";
-import SyncProgress from "@/components/device/SyncProgress.vue";
-import SyncResults from "@/components/device/SyncResults.vue";
+import { ref, computed, watchEffect } from 'vue';
+import PageLayout from '@/layouts/PageLayout.vue';
+import Card from 'primevue/card';
+import Chip from 'primevue/chip';
+import Tag from 'primevue/tag';
+import MultiSelect from 'primevue/multiselect';
+import Popover from 'primevue/popover';
+import Checkbox from 'primevue/checkbox';
+import Button from 'primevue/button';
+import { useDeviceStore, useRomStore } from '@/stores';
+import { useSyncLogic } from '@/composables/useSyncLogic';
+import SyncProgress from '@/components/device/SyncProgress.vue';
+import SyncResults from '@/components/device/SyncResults.vue';
 
-import { getSystemDisplayName } from "@/utils/systems";
+import { getSystemDisplayName } from '@/utils/systems';
 
-import { Device } from "@/types/device";
-import { TagStats } from "@/types/rom";
-import type { SyncOptions, DeviceMountStatus } from "@/types/electron-api";
-import type { SystemCode } from "@/types/system";
-import type { DeviceSystemProfile } from "@romie/device-profiles";
+import { Device } from '@/types/device';
+import { TagStats } from '@/types/rom';
+import type { SyncOptions, DeviceMountStatus } from '@/types/electron-api';
+import type { SystemCode } from '@/types/system';
+import type { DeviceSystemProfile } from '@romie/device-profiles';
 
 const props = defineProps<{
   deviceId: string;
@@ -268,9 +234,7 @@ watchEffect(async () => {
 
 // Computed properties
 const deviceProfile = computed(() => {
-  const profile = deviceStore.profiles.find(
-    ({ id }) => id === device.value?.profileId,
-  );
+  const profile = deviceStore.profiles.find(({ id }) => id === device.value?.profileId);
 
   return profile || null;
 });
@@ -307,25 +271,23 @@ const totalSelectedSize = computed(() => {
 const estimatedSyncTime = computed(() => {
   const sizeInGB = totalSelectedSize.value / (1024 * 1024 * 1024);
   const minutes = Math.ceil(sizeInGB * 2); // Rough estimate: 2 minutes per GB
-  return minutes < 60
-    ? `${minutes} min`
-    : `${Math.floor(minutes / 60)}h ${minutes % 60}m`;
+  return minutes < 60 ? `${minutes} min` : `${Math.floor(minutes / 60)}h ${minutes % 60}m`;
 });
 
 const canStartSync = computed(() => {
   return (
     deviceStatus.value?.accessible &&
     selectedTags.value.length > 0 &&
-    syncStatus.value.phase === "idle"
+    syncStatus.value.phase === 'idle'
   );
 });
 
 // Methods
 
 function formatFileSize(bytes: number): string {
-  if (bytes === 0) return "0 B";
+  if (bytes === 0) return '0 B';
   const k = 1024;
-  const sizes = ["B", "KB", "MB", "GB", "TB"];
+  const sizes = ['B', 'KB', 'MB', 'GB', 'TB'];
   const i = Math.floor(Math.log(bytes) / Math.log(k));
   return `${(bytes / Math.pow(k, i)).toFixed(1)} ${sizes[i]}`;
 }

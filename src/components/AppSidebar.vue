@@ -2,38 +2,26 @@
   <aside class="app-sidebar">
     <div class="app-sidebar__header"></div>
     <div class="app-sidebar__content">
-      <div
-        class="app-sidebar__section"
-        v-for="section in sections"
-        :key="section.id"
-      >
+      <div v-for="section in sections" :key="section.id" class="app-sidebar__section">
         <h4 v-if="section.title" class="app-sidebar__title">
           {{ section.title }}
         </h4>
-        <ul
-          v-if="section.id === 'tags'"
-          class="app-sidebar__items app-sidebar__items--tags"
-        >
+        <ul v-if="section.id === 'tags'" class="app-sidebar__items app-sidebar__items--tags">
           <li v-for="item in section.items">
             <RouterLink
+              v-slot="{ isActive }"
               :to="item.route"
               class="app-sidebar__item"
               active-class="app-sidebar__item--active"
-              v-slot="{ isActive }"
             >
               <Tag
-                :severity="isActive ? 'contrast' : 'secondary'"
                 :key="item.id"
+                :severity="isActive ? 'contrast' : 'secondary'"
                 :value="item.label"
               ></Tag>
             </RouterLink>
           </li>
-          <li
-            v-if="section.items.length === 0"
-            class="app-sidebar__item--empty"
-          >
-            No tags yet
-          </li>
+          <li v-if="section.items.length === 0" class="app-sidebar__item--empty">No tags yet</li>
         </ul>
         <ul v-else class="app-sidebar__items">
           <li v-for="item in section.items" :key="item.id">
@@ -42,7 +30,7 @@
               class="app-sidebar__item"
               active-class="app-sidebar__item--active"
             >
-              <span class="app-sidebar__icon" v-if="item.icon">
+              <span v-if="item.icon" class="app-sidebar__icon">
                 <i :class="item.icon"></i>
               </span>
               <span class="app-sidebar__label">{{ item.label }}</span>
@@ -59,12 +47,7 @@
     </div>
     <div class="app-sidebar__footer">
       <div class="app-logo">ROMie</div>
-      <Button
-        icon="pi pi-discord"
-        size="small"
-        severity="secondary"
-        @click="openDiscordInvite"
-      />
+      <Button icon="pi pi-discord" size="small" severity="secondary" @click="openDiscordInvite" />
       <Button
         class="app-sidebar__kofi-button"
         size="small"
@@ -73,11 +56,7 @@
       >
         <template #icon>
           <span class="pi-button-icon">
-            <svg
-              role="img"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <title>Ko-fi</title>
               <path
                 d="M11.351 2.715c-2.7 0-4.986.025-6.83.26C2.078 3.285 0 5.154 0 8.61c0 3.506.182 6.13 1.585 8.493 1.584 2.701 4.233 4.182 7.662 4.182h.83c4.209 0 6.494-2.234 7.637-4a9.5 9.5 0 0 0 1.091-2.338C21.792 14.688 24 12.22 24 9.208v-.415c0-3.247-2.13-5.507-5.792-5.87-1.558-.156-2.65-.208-6.857-.208m0 1.947c4.208 0 5.09.052 6.571.182 2.624.311 4.13 1.584 4.13 4v.39c0 2.156-1.792 3.844-3.87 3.844h-.935l-.156.649c-.208 1.013-.597 1.818-1.039 2.546-.909 1.428-2.545 3.064-5.922 3.064h-.805c-2.571 0-4.831-.883-6.078-3.195-1.09-2-1.298-4.155-1.298-7.506 0-2.181.857-3.402 3.012-3.714 1.533-.233 3.559-.26 6.39-.26m6.547 2.287c-.416 0-.65.234-.65.546v2.935c0 .311.234.545.65.545 1.324 0 2.051-.754 2.051-2s-.727-2.026-2.052-2.026m-10.39.182c-1.818 0-3.013 1.48-3.013 3.142 0 1.533.858 2.857 1.949 3.897.727.701 1.87 1.429 2.649 1.896a1.47 1.47 0 0 0 1.507 0c.78-.467 1.922-1.195 2.623-1.896 1.117-1.039 1.974-2.364 1.974-3.897 0-1.662-1.247-3.142-3.039-3.142-1.065 0-1.792.545-2.338 1.298-.493-.753-1.246-1.298-2.312-1.298"
@@ -97,16 +76,16 @@
 </template>
 
 <script setup lang="ts">
-import { RouterLink } from "vue-router";
-import { computed, ref, onMounted, onBeforeUnmount } from "vue";
-import Button from "primevue/button";
-import Badge from "primevue/badge";
-import Tag from "primevue/tag";
-import { useRomStore, useDeviceStore } from "@/stores";
-import { getSystemDisplayName } from "@/utils/systems";
+import { RouterLink } from 'vue-router';
+import { computed, ref, onMounted, onBeforeUnmount } from 'vue';
+import Button from 'primevue/button';
+import Badge from 'primevue/badge';
+import Tag from 'primevue/tag';
+import { useRomStore, useDeviceStore } from '@/stores';
+import { getSystemDisplayName } from '@/utils/systems';
 
-import type { RouteLocationRaw } from "vue-router";
-import type { SystemCode } from "@/types/system";
+import type { RouteLocationRaw } from 'vue-router';
+import type { SystemCode } from '@/types/system';
 
 // prettier-ignore
 const SYSTEM_SORT_ORDER: SystemCode[] = [
@@ -152,10 +131,7 @@ onBeforeUnmount(() => {
 });
 
 const systemsSection = computed((): SidebarSection => {
-  const systems = Object.entries(romStore.stats.systemCounts) as [
-    SystemCode,
-    number,
-  ][];
+  const systems = Object.entries(romStore.stats.systemCounts) as [SystemCode, number][];
   const items: SidebarItem[] = [];
 
   systems.sort((a, b) => {
@@ -168,13 +144,13 @@ const systemsSection = computed((): SidebarSection => {
       label: getSystemDisplayName(system),
       count,
       route: {
-        name: "system-detail",
+        name: 'system-detail',
         params: { system },
       },
     });
   });
 
-  return { id: "systems", title: "Systems", items };
+  return { id: 'systems', title: 'Systems', items };
 });
 
 const tagsSection = computed((): SidebarSection => {
@@ -187,16 +163,16 @@ const tagsSection = computed((): SidebarSection => {
       id: `tag-${tag}`,
       label: tag,
       count: romCount,
-      icon: "pi pi-tag",
+      icon: 'pi pi-tag',
       route: {
-        name: "tag-detail",
+        name: 'tag-detail',
         params: { tag },
       },
     }));
 
   return {
-    id: "tags",
-    title: "Tags",
+    id: 'tags',
+    title: 'Tags',
     items,
   };
 });
@@ -205,16 +181,16 @@ const devicesSection = computed((): SidebarSection => {
   const items = deviceStore.devices.map((device) => ({
     id: `device-${device.id}`,
     label: device.name,
-    icon: "pi pi-tablet",
+    icon: 'pi pi-tablet',
     route: {
-      name: "device-detail",
+      name: 'device-detail',
       params: { deviceId: device.id },
     },
   }));
 
   return {
-    id: "devices",
-    title: "Devices",
+    id: 'devices',
+    title: 'Devices',
     items,
   };
 });
@@ -222,36 +198,33 @@ const devicesSection = computed((): SidebarSection => {
 const sections = computed((): SidebarSection[] => {
   const baseSections: SidebarSection[] = [
     {
-      id: "library",
+      id: 'library',
       items: [
         {
-          id: "import",
-          label: "Import",
-          icon: "pi pi-upload",
-          route: { name: "import" },
+          id: 'import',
+          label: 'Import',
+          icon: 'pi pi-upload',
+          route: { name: 'import' },
         },
         {
-          id: "add-device",
-          label: "Add device",
-          icon: "pi pi-plus",
-          route: { name: "add-device" },
+          id: 'add-device',
+          label: 'Add device',
+          icon: 'pi pi-plus',
+          route: { name: 'add-device' },
         },
         {
-          id: "all-roms",
-          label: "Library",
+          id: 'all-roms',
+          label: 'Library',
           count: romStore.stats.totalRoms,
-          icon: "pi pi-folder",
-          route: { name: "library" },
+          icon: 'pi pi-folder',
+          route: { name: 'library' },
         },
         {
-          id: "favorites",
-          label: "Favorites",
-          count: romStore.roms.reduce(
-            (acc, rom) => acc + (rom.favorite ? 1 : 0),
-            0,
-          ),
-          icon: "pi pi-heart",
-          route: { name: "favorites" },
+          id: 'favorites',
+          label: 'Favorites',
+          count: romStore.roms.reduce((acc, rom) => acc + (rom.favorite ? 1 : 0), 0),
+          icon: 'pi pi-heart',
+          route: { name: 'favorites' },
         },
       ],
     },
@@ -269,11 +242,11 @@ const sections = computed((): SidebarSection[] => {
 });
 
 async function openDiscordInvite() {
-  window.util.openExternalLink("https://discord.gg/ZmhHgEfAsD");
+  window.util.openExternalLink('https://discord.gg/ZmhHgEfAsD');
 }
 
 async function openKofiLink() {
-  window.util.openExternalLink("https://ko-fi.com/jzimz");
+  window.util.openExternalLink('https://ko-fi.com/jzimz');
 }
 
 async function handleDisplayModeToggle() {

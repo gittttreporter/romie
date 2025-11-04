@@ -1,17 +1,17 @@
-import logger from "electron-log/main";
-import { app, BrowserWindow } from "electron";
-import yauzl from "yauzl";
-import path from "path";
-import fs from "fs/promises";
-import * as Sentry from "@sentry/electron/main";
-import Seven from "node-7z";
-import { processRomFile } from "./romImport";
-import { get7zBinaryPath } from "./romUtils";
-import { getAllSupportedExtensions } from "@/utils/systems";
-import { RomProcessingError } from "@/errors";
+import logger from 'electron-log/main';
+import { app, BrowserWindow } from 'electron';
+import yauzl from 'yauzl';
+import path from 'path';
+import fs from 'fs/promises';
+import * as Sentry from '@sentry/electron/main';
+import Seven from 'node-7z';
+import { processRomFile } from './romImport';
+import { get7zBinaryPath } from './romUtils';
+import { getAllSupportedExtensions } from '@/utils/systems';
+import { RomProcessingError } from '@/errors';
 
-import type { PathLike } from "node:fs";
-import type { ImportStatus } from "@/types/electron-api";
+import type { PathLike } from 'node:fs';
+import type { ImportStatus } from '@/types/electron-api';
 
 interface ScanResult {
   processed: number;
@@ -21,17 +21,15 @@ interface ScanResult {
 
 const SUPPORTED_EXTENSIONS = getAllSupportedExtensions();
 const SEVEN_ZIP_PATH = get7zBinaryPath();
-const log = logger.scope("rom-scan");
+const log = logger.scope('rom-scan');
 
-export async function processRomDirectory(
-  dirPath: PathLike,
-): Promise<ScanResult> {
+export async function processRomDirectory(dirPath: PathLike): Promise<ScanResult> {
   return await Sentry.startSpan(
     {
-      op: "rom.scan",
-      name: "Scan ROM Directory",
+      op: 'rom.scan',
+      name: 'Scan ROM Directory',
       attributes: {
-        "scan.directory": dirPath.toString(),
+        'scan.directory': dirPath.toString(),
       },
     },
     async (span) => {
@@ -42,23 +40,21 @@ export async function processRomDirectory(
       try {
         files = await fs.readdir(dirPath);
       } catch (error) {
-        span.setStatus({ code: 2, message: "Failed to read directory" });
-        span.recordException(
-          error instanceof Error ? error : new Error(String(error)),
-        );
+        span.setStatus({ code: 2, message: 'Failed to read directory' });
+        span.recordException(error instanceof Error ? error : new Error(String(error)));
 
         const dirError = new RomProcessingError(
           `Failed to read directory`,
           dirPath.toString(),
-          error instanceof Error ? error.message : "Unknown error",
-          error instanceof Error ? error : undefined,
+          error instanceof Error ? error.message : 'Unknown error',
+          error instanceof Error ? error : undefined
         );
         results.errors.push(dirError);
         return results;
       }
 
       span.setAttributes({
-        "scan.files_found": files.length,
+        'scan.files_found': files.length,
       });
 
       for (const file of files) {
@@ -69,25 +65,22 @@ export async function processRomDirectory(
       }
 
       span.setAttributes({
-        "scan.files_processed": results.processed,
-        "scan.errors_count": results.errors.length,
+        'scan.files_processed': results.processed,
+        'scan.errors_count': results.errors.length,
       });
 
       return results;
-    },
+    }
   );
 }
 
 //= Helpers ==
 
-async function processFile(
-  dirPath: PathLike,
-  filename: string,
-): Promise<ScanResult> {
+async function processFile(dirPath: PathLike, filename: string): Promise<ScanResult> {
   const fullPath = path.join(dirPath.toString(), filename);
 
   try {
-    if (filename.startsWith(".")) {
+    if (filename.startsWith('.')) {
       return { processed: 0, errors: [], skipped: [] };
     }
 
@@ -99,11 +92,11 @@ async function processFile(
 
     if (fileStats.isFile()) {
       const ext = path.extname(filename).toLowerCase();
-      if (ext === ".7z") {
+      if (ext === '.7z') {
         emitProgress({ currentFile: filename });
         return await processSevenZipFile(fullPath);
       }
-      if (ext === ".zip") {
+      if (ext === '.zip') {
         emitProgress({ currentFile: filename });
         const result = await processZipFile(fullPath);
 
@@ -115,7 +108,7 @@ async function processFile(
       }
 
       if (!isRomFile(filename)) {
-        log.debug("Skipping unsupported file", filename);
+        log.debug('Skipping unsupported file', filename);
         return { processed: 0, errors: [], skipped: [filename] };
       }
 
@@ -134,8 +127,8 @@ async function processFile(
         : new RomProcessingError(
             `Failed to process ROM: ${filename}`,
             fullPath,
-            error instanceof Error ? error.message : "Unknown error",
-            error instanceof Error ? error : undefined,
+            error instanceof Error ? error.message : 'Unknown error',
+            error instanceof Error ? error : undefined
           );
 
     return {
@@ -168,8 +161,8 @@ async function processSevenZipFile(archivePath: string): Promise<ScanResult> {
         : new RomProcessingError(
             `Failed to process 7z file`,
             archivePath,
-            error instanceof Error ? error.message : "Unknown error",
-            error instanceof Error ? error : undefined,
+            error instanceof Error ? error.message : 'Unknown error',
+            error instanceof Error ? error : undefined
           );
 
     return { processed: 0, errors: [sevenZipError], skipped: [] };
@@ -198,8 +191,8 @@ async function processZipFile(zipPath: string): Promise<ScanResult> {
         : new RomProcessingError(
             `Failed to process zip file`,
             zipPath,
-            error instanceof Error ? error.message : "Unknown error",
-            error instanceof Error ? error : undefined,
+            error instanceof Error ? error.message : 'Unknown error',
+            error instanceof Error ? error : undefined
           );
 
     return { processed: 0, errors: [zipError], skipped: [] };
@@ -211,19 +204,15 @@ async function readRomFromSevenZip(archivePath: string): Promise<{
   buffer: Buffer;
 } | null> {
   return new Promise((resolve, reject) => {
-    const extractDir = path.join(
-      app.getPath("temp"),
-      `rom-${Date.now().toString()}`,
-    );
+    const extractDir = path.join(app.getPath('temp'), `rom-${Date.now().toString()}`);
     const stream = Seven.extractFull(archivePath, extractDir, {
       $bin: SEVEN_ZIP_PATH,
     });
-    const cleanTempDir = () =>
-      fs.rm(extractDir, { recursive: true, force: true }).catch(() => {});
+    const cleanTempDir = () => fs.rm(extractDir, { recursive: true, force: true }).catch(() => {});
     const romFiles: string[] = [];
 
-    stream.on("data", ({ status, file }) => {
-      if (status === "extracted" && isRomFile(file)) {
+    stream.on('data', ({ status, file }) => {
+      if (status === 'extracted' && isRomFile(file)) {
         log.debug(`Found 7z entry: ${file}`);
         const fullPath = path.join(extractDir, file);
 
@@ -233,8 +222,8 @@ async function readRomFromSevenZip(archivePath: string): Promise<{
             new RomProcessingError(
               `Multiple ROMs found in 7z file`,
               archivePath,
-              `Found multiple ROM files in 7z file.`,
-            ),
+              `Found multiple ROM files in 7z file.`
+            )
           );
           stream.destroy();
           return;
@@ -244,7 +233,7 @@ async function readRomFromSevenZip(archivePath: string): Promise<{
       }
     });
 
-    stream.on("end", async () => {
+    stream.on('end', async () => {
       const romFilePath = romFiles[0];
 
       if (!romFilePath) {
@@ -264,25 +253,25 @@ async function readRomFromSevenZip(archivePath: string): Promise<{
           new RomProcessingError(
             `Failed to read extracted ROM from 7z`,
             archivePath,
-            error instanceof Error ? error.message : "Unknown error",
-            error instanceof Error ? error : undefined,
-          ),
+            error instanceof Error ? error.message : 'Unknown error',
+            error instanceof Error ? error : undefined
+          )
         );
       } finally {
         cleanTempDir();
       }
     });
 
-    stream.on("error", (error) => {
+    stream.on('error', (error) => {
       log.error(`Error processing 7z file ${archivePath}:`, error);
       cleanTempDir();
       reject(
         new RomProcessingError(
           `Failed to process 7z file`,
           archivePath,
-          error instanceof Error ? error.message : "Unknown error",
-          error instanceof Error ? error : undefined,
-        ),
+          error instanceof Error ? error.message : 'Unknown error',
+          error instanceof Error ? error : undefined
+        )
       );
     });
   });
@@ -305,24 +294,17 @@ async function readRomFromZip(zipPath: string): Promise<{
       if (err) {
         log.error(`Failed to open zip file ${zipPath}:`, err);
 
-        reject(
-          new RomProcessingError(
-            `Failed to open zip file`,
-            zipPath,
-            err.message,
-            err,
-          ),
-        );
+        reject(new RomProcessingError(`Failed to open zip file`, zipPath, err.message, err));
         return;
       }
 
       zipfile.readEntry();
 
-      zipfile.on("entry", (entry) => {
+      zipfile.on('entry', (entry) => {
         log.debug(`Processing zip entry: ${entry.fileName}`);
         // Directory file names end with '/' so skip them since we only care about files.
         if (/\/$/.test(entry.fileName)) {
-          log.debug("Skipping directory", entry.fileName);
+          log.debug('Skipping directory', entry.fileName);
           zipfile.readEntry();
           return;
         }
@@ -336,30 +318,30 @@ async function readRomFromZip(zipPath: string): Promise<{
               new RomProcessingError(
                 `Multiple ROMs found in zip file`,
                 zipPath,
-                `Found multiple ROM files in zip file.`,
-              ),
+                `Found multiple ROM files in zip file.`
+              )
             );
             zipfile.close();
             return;
           }
 
           zipfile.openReadStream(entry, (err, readStream) => {
-            log.debug("Starting read stream for", entry.fileName);
+            log.debug('Starting read stream for', entry.fileName);
             if (err) {
               reject(
                 new RomProcessingError(
                   `Failed to open read stream for ROM in zip`,
                   zipPath,
                   err.message,
-                  err,
-                ),
+                  err
+                )
               );
               return;
             }
 
             const chunks: Buffer[] = [];
-            readStream.on("data", (chunk) => chunks.push(chunk));
-            readStream.on("end", function () {
+            readStream.on('data', (chunk) => chunks.push(chunk));
+            readStream.on('end', function () {
               log.debug(`Read stream completed for: ${entry.fileName}`);
               romFileName = entry.fileName;
               romBuffer = Buffer.concat(chunks);
@@ -371,22 +353,13 @@ async function readRomFromZip(zipPath: string): Promise<{
         }
       });
 
-      zipfile.on("error", (err) => {
+      zipfile.on('error', (err) => {
         log.error(`Zip parsing error for ${zipPath}:`, err);
-        reject(
-          new RomProcessingError(
-            `Zip file parsing failed`,
-            zipPath,
-            err.message,
-            err,
-          ),
-        );
+        reject(new RomProcessingError(`Zip file parsing failed`, zipPath, err.message, err));
       });
 
-      zipfile.on("end", () => {
-        log.debug(
-          `Zip processing completed. ROM found: ${romFileName || "none"}`,
-        );
+      zipfile.on('end', () => {
+        log.debug(`Zip processing completed. ROM found: ${romFileName || 'none'}`);
         if (romBuffer && romFileName) {
           resolve({ fileName: romFileName, buffer: romBuffer });
         } else {
@@ -399,7 +372,7 @@ async function readRomFromZip(zipPath: string): Promise<{
 
 function emitProgress(progress: ImportStatus) {
   const mainWindow = BrowserWindow.getAllWindows()[0];
-  mainWindow?.webContents.send("rom:import-progress", progress);
+  mainWindow?.webContents.send('rom:import-progress', progress);
 }
 
 function isRomFile(filename: string): boolean {

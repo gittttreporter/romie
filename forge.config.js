@@ -1,29 +1,29 @@
-import "dotenv/config";
-import { FusesPlugin } from "@electron-forge/plugin-fuses";
-import { FuseV1Options, FuseVersion } from "@electron/fuses";
+import 'dotenv/config';
+import { FusesPlugin } from '@electron-forge/plugin-fuses';
+import { FuseV1Options, FuseVersion } from '@electron/fuses';
 
-const S3_BUCKET = "romie.jzimz.com";
-const S3_REGION = "us-east-1";
+const S3_BUCKET = 'romie.jzimz.com';
+const S3_REGION = 'us-east-1';
 const CDN_URL = `https://romie.jzimz.com`;
 
 export default {
   packagerConfig: {
     asar: true,
-    name: "ROMie",
-    executableName: "ROMie",
+    name: 'ROMie',
+    executableName: 'ROMie',
     // App icons (platform-specific)
     icon:
-      process.platform === "darwin"
-        ? "src/assets/icons/app/mac/icon.icns"
-        : process.platform === "win32"
-          ? "src/assets/icons/app/win/icon.ico"
-          : "src/assets/icons/app/png/512x512.png",
+      process.platform === 'darwin'
+        ? 'src/assets/icons/app/mac/icon.icns'
+        : process.platform === 'win32'
+          ? 'src/assets/icons/app/win/icon.ico'
+          : 'src/assets/icons/app/png/512x512.png',
     // Add these for better Windows experience
     win32metadata: {
-      CompanyName: "JZimz Labs",
-      FileDescription: "ROM Manager for Retro Handhelds",
-      ProductName: "ROMie",
-      InternalName: "romie",
+      CompanyName: 'JZimz Labs',
+      FileDescription: 'ROM Manager for Retro Handhelds',
+      ProductName: 'ROMie',
+      InternalName: 'romie',
     },
     // Allow for unsigned builds
     ...(process.env.SKIP_CODESIGN
@@ -36,23 +36,23 @@ export default {
             teamId: process.env.APPLE_TEAM_ID,
           },
         }),
-    extraResource: ["node_modules/7zip-bin"],
+    extraResource: ['node_modules/7zip-bin'],
   },
   rebuildConfig: {},
   makers: [
     {
-      name: "@electron-forge/maker-squirrel",
+      name: '@electron-forge/maker-squirrel',
       config: (arch) => ({
-        name: "ROMie",
-        authors: "JZimz Labs",
-        description: "ROM Manager for Retro Handhelds",
+        name: 'ROMie',
+        authors: 'JZimz Labs',
+        description: 'ROM Manager for Retro Handhelds',
         // Builds the manifest file for Windows auto-updates
         remoteReleases: `${CDN_URL}/releases/win32/${arch}`,
       }),
     },
     {
-      name: "@electron-forge/maker-zip",
-      platforms: ["darwin"],
+      name: '@electron-forge/maker-zip',
+      platforms: ['darwin'],
       config: (arch) => ({
         // Builds the manifest file for MacOS auto-updates
         macUpdateManifestBaseUrl: `${CDN_URL}/releases/darwin/${arch}`,
@@ -61,7 +61,7 @@ export default {
   ],
   publishers: [
     {
-      name: "@electron-forge/publisher-s3",
+      name: '@electron-forge/publisher-s3',
       config: {
         bucket: S3_BUCKET,
         region: S3_REGION,
@@ -73,27 +73,27 @@ export default {
   ],
   plugins: [
     {
-      name: "@electron-forge/plugin-vite",
+      name: '@electron-forge/plugin-vite',
       config: {
         // `build` can specify multiple entry builds, which can be Main process, Preload scripts, Worker process, etc.
         // If you are familiar with Vite configuration, it will look really familiar.
         build: [
           {
             // `entry` is just an alias for `build.lib.entry` in the corresponding file of `config`.
-            entry: "src/main.js",
-            config: "vite.main.config.mjs",
-            target: "main",
+            entry: 'src/main.js',
+            config: 'vite.main.config.mjs',
+            target: 'main',
           },
           {
-            entry: "src/preload.ts",
-            config: "vite.preload.config.mjs",
-            target: "preload",
+            entry: 'src/preload.ts',
+            config: 'vite.preload.config.mjs',
+            target: 'preload',
           },
         ],
         renderer: [
           {
-            name: "main_window",
-            config: "vite.renderer.config.mjs",
+            name: 'main_window',
+            config: 'vite.renderer.config.mjs',
           },
         ],
       },

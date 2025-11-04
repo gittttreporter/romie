@@ -1,379 +1,245 @@
-This project is a ROM Manager app built using Electron with Vue.js and TypeScript. Its main purpose is to let users import and organize their ROM libraries easily. The key value proposition is the ability to create and sync playlists (tags) of ROMs to an SD card, which can then be plugged into a portable retro handheld device. The first supported device target is the MiyooMini+. The project focuses on efficient ROM library management, user-defined grouping/tagging (playlists), and seamless syncing to the SD card for use in the handheld.
+# ROMie Development Guide
 
-## Communication Style
-- Be direct and honest. If an idea has flaws, point them out clearly
-- Don't sugarcoat feedback or say something is good just to be nice
-- Rate ideas accurately - not everything is 8/10
-- Challenge technical decisions when they're questionable
-- Keep responses concise and practical
-- Be chill and conversational, but prioritize accuracy over politeness
-- If something won't work, say it won't work and explain why
-- I'm new to typescript so explain in a little extra detail why typescript related decisions are made
+> This project uses AI-assisted development. This document serves as an architectural reference for both contributors and AI coding assistants.
 
-Write Github issues like you’re explaining the task to a teammate over coffee. Keep it casual but clear. Use:
-- One-liner summary of what needs to be done.
-- Why it matters in a sentence or two (the context).
-- Steps or hints if it’s not obvious.
-- Acceptance check in plain language (‘done when…’).
-- Avoid corporate buzzwords, long paragraphs, or repeating obvious details. Keep it short, human, and actionable.”
+## Project Overview
 
-## Key points to remember:
-- Vue.js + TypeScript stack
-- Component library is PrimeVue
-- Import, organize, and tag ROMs
-- Sync playlists to SD card for portable device use
-- First iteration targets MiyooMini+
-- Helps users manage their retro game collections conveniently
+ROMie is a ROM Manager app built using Electron with Vue.js and TypeScript. Its main purpose is to let users import and organize their ROM libraries easily. The key value proposition is the ability to create and sync playlists (tags) of ROMs to an SD card, which can then be plugged into a portable retro handheld device.
 
-## Code style to follow:
-- Use less for styles with BEM (Block Element Modifier) style class names (e.g., .block__element--modifier)
-- Use REM values wherever relevant. The root font size is set to 14px.
-- Use TypeScript for type safety and better tooling.
-- Use Vue.js single file components (.vue files) with `<script setup lang="ts">` for TypeScript support
+**Core Features:**
+
+- Import and organize ROM libraries with automatic metadata detection
+- User-defined tagging system (playlists)
+- Device profiles for multiple retro handhelds
+- Seamless SD card syncing
+- RetroAchievements integration for game identification and metadata
+
+**Supported Devices:**
+
+- MiyooMini+ (primary target)
+- Generic profiles for other devices
+
+## Tech Stack
+
+- **Runtime:** Electron 37.x
+- **Frontend:** Vue 3 with Composition API (`<script setup lang="ts">`)
+- **Language:** TypeScript
+- **UI Components:** PrimeVue 4.x
+- **State Management:** Pinia
+- **Storage:** LowDB (JSON-based local database)
+- **Build Tool:** Vite
+
+## Development Setup
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Build for production
+npm run package
+
+# Type checking
+npm run lint
+
+# Run tests
+npm test
+
+# Build RetroAchievements game database
+npm run build:game-db
+```
+
+## Project Structure
+
+```
+src/
+├── main/                   # Electron main process
+│   ├── ipc/                # IPC handlers (rom, device, settings, sync, etc.)
+│   ├── roms/               # ROM import, database, scanning, lookup
+│   ├── retroachievements/  # RetroAchievements API integration
+│   ├── devices/            # Device detection and management
+│   ├── analytics/          # Sentry integration
+│   ├── themes/             # Theme management
+│   └── updater/            # Auto-update logic
+├── components/             # Vue components
+├── views/                  # Page-level Vue components
+├── layouts/                # Layout components
+├── stores/                 # Pinia stores
+├── composables/            # Vue composables
+├── router/                 # Vue Router configuration
+├── utils/                  # Utility functions
+├── types/                  # TypeScript type definitions
+├── styles/                 # Global styles and style guide
+├── data/                   # Static data
+│   └── ra/                 # RetroAchievements game database (JSON files)
+├── packages/               # Internal packages (workspace packages)
+│   ├── device-profiles/    # Device profile definitions (Onion, muOS, Knulli)
+│   └── ra-hasher/          # ROM hashing algorithms for RA verification
+├── assets/                 # Static assets (fonts, app icons)
+└── errors/                 # Error definitions
+```
+
+## Code Style
+
+### General Principles
+
+- Use TypeScript for all code - prioritize type safety
+- Use Vue 3 Composition API with `<script setup lang="ts">`
 - Use `defineProps` and `defineEmits` for component props and events
-- Use PrimeVue components for UI elements, following their design guidelines
+- Prefer PrimeVue components over custom UI implementations
 
-# PrimeVue CSS Variables Reference
+### Styling
 
-## Colors
+- **Preprocessor:** LESS
+- **Class naming:** BEM (Block Element Modifier) - `.block__element--modifier`
+- **Units:** Use REM values (root font size is 14px)
+- **Design tokens:** Use PrimeVue CSS variables (e.g., `--p-primary-color`, `--p-surface-0`)
 
-### Primary Colors
-- `--p-primary-50` through `--p-primary-950`
-- `--p-primary-color`
-- `--p-primary-hover-color`
-- `--p-primary-active-color`
-- `--p-primary-contrast-color`
+### Component Structure
 
-### Content & Text
-- `--p-content-color`
-- `--p-content-background`
-- `--p-content-border-color`
-- `--p-content-border-radius`
-- `--p-content-hover-color`
-- `--p-content-hover-background`
-- `--p-text-color`
-- `--p-text-hover-color`
-- `--p-text-hover-muted-color`
-- `--p-text-muted-color`
+```vue
+<template>
+  <div class="component-name">
+    <div class="component-name__element">
+      <!-- content -->
+    </div>
+  </div>
+</template>
 
-### Surface & Background
-- `--p-surface-0` through `--p-surface-950`
-- `--p-highlight-background`
-- `--p-highlight-color`
-- `--p-highlight-focus-background`
-- `--p-highlight-focus-color`
+<script setup lang="ts">
+// Imports
+import { ref } from 'vue';
 
-### State Colors (Full Range)
-- Red: `--p-red-50` through `--p-red-950`
-- Green: `--p-green-50` through `--p-green-950`
-- Blue: `--p-blue-50` through `--p-blue-950`
-- Yellow: `--p-yellow-50` through `--p-yellow-950`
-- Orange: `--p-orange-50` through `--p-orange-950`
-- Purple: `--p-purple-50` through `--p-purple-950`
-- Pink: `--p-pink-50` through `--p-pink-950`
-- Rose: `--p-rose-50` through `--p-rose-950`
-- Indigo: `--p-indigo-50` through `--p-indigo-950`
-- Violet: `--p-violet-50` through `--p-violet-950`
-- Sky: `--p-sky-50` through `--p-sky-950`
-- Cyan: `--p-cyan-50` through `--p-cyan-950`
-- Teal: `--p-teal-50` through `--p-teal-950`
-- Emerald: `--p-emerald-50` through `--p-emerald-950`
-- Lime: `--p-lime-50` through `--p-lime-950`
-- Amber: `--p-amber-50` through `--p-amber-950`
-- Fuchsia: `--p-fuchsia-50` through `--p-fuchsia-950`
+// Props/Emits
+const props = defineProps<{
+  value: string;
+}>();
 
-### Neutral Colors
-- Gray: `--p-gray-50` through `--p-gray-950`
-- Slate: `--p-slate-50` through `--p-slate-950`
-- Zinc: `--p-zinc-50` through `--p-zinc-950`
-- Neutral: `--p-neutral-50` through `--p-neutral-950`
-- Stone: `--p-stone-50` through `--p-stone-950`
+// Component logic
+</script>
 
-## Layout & Spacing
+<style lang="less" scoped>
+.component-name {
+  padding: 1rem;
 
-### Border Radius
-- `--p-border-radius-none`
-- `--p-border-radius-xs`
-- `--p-border-radius-sm`
-- `--p-border-radius-md`
-- `--p-border-radius-lg`
-- `--p-border-radius-xl`
+  &__element {
+    margin-top: 0.5rem;
+  }
+}
+</style>
+```
 
-### Focus Ring
-- `--p-focus-ring-width`
-- `--p-focus-ring-style`
-- `--p-focus-ring-color`
-- `--p-focus-ring-offset`
-- `--p-focus-ring-shadow`
+## Architecture Decisions
 
-### General Spacing
-- `--p-icon-size`
-- `--p-anchor-gutter`
-- `--p-ripple-background`
-- `--p-mask-background`
-- `--p-mask-color`
+### ROM Identification
 
-## Form Components
+ROMs are identified using platform-specific hashing algorithms matching RetroAchievements:
 
-### Input Text
-- `--p-inputtext-background`
-- `--p-inputtext-border-color`
-- `--p-inputtext-border-radius`
-- `--p-inputtext-color`
-- `--p-inputtext-padding-x`
-- `--p-inputtext-padding-y`
-- `--p-inputtext-focus-border-color`
-- `--p-inputtext-focus-ring-color`
-- `--p-inputtext-focus-ring-width`
-- `--p-inputtext-focus-ring-style`
-- `--p-inputtext-focus-ring-shadow`
-- `--p-inputtext-focus-ring-offset`
-- `--p-inputtext-hover-border-color`
-- `--p-inputtext-invalid-border-color`
-- `--p-inputtext-disabled-background`
-- `--p-inputtext-disabled-color`
-- `--p-inputtext-placeholder-color`
-- `--p-inputtext-invalid-placeholder-color`
-- `--p-inputtext-shadow`
-- `--p-inputtext-transition-duration`
-- `--p-inputtext-filled-background`
-- `--p-inputtext-filled-hover-background`
-- `--p-inputtext-filled-focus-background`
+- CRC32 for cartridge-based systems
+- MD5 for disc-based systems (with header offset handling)
+- Custom hashing for systems like Nintendo DS
 
-### Form Fields (Generic)
-- `--p-form-field-background`
-- `--p-form-field-border-color`
-- `--p-form-field-border-radius`
-- `--p-form-field-color`
-- `--p-form-field-padding-x`
-- `--p-form-field-padding-y`
-- `--p-form-field-focus-border-color`
-- `--p-form-field-focus-ring-color`
-- `--p-form-field-focus-ring-width`
-- `--p-form-field-focus-ring-style`
-- `--p-form-field-focus-ring-shadow`
-- `--p-form-field-focus-ring-offset`
-- `--p-form-field-hover-border-color`
-- `--p-form-field-invalid-border-color`
-- `--p-form-field-disabled-background`
-- `--p-form-field-disabled-color`
-- `--p-form-field-placeholder-color`
-- `--p-form-field-invalid-placeholder-color`
-- `--p-form-field-icon-color`
-- `--p-form-field-shadow`
-- `--p-form-field-transition-duration`
-- `--p-form-field-filled-background`
-- `--p-form-field-filled-hover-background`
-- `--p-form-field-filled-focus-background`
+See `src/packages/ra-hasher/` for implementation details.
 
-### Form Field Sizes
-- `--p-form-field-sm-font-size`
-- `--p-form-field-sm-padding-x`
-- `--p-form-field-sm-padding-y`
-- `--p-form-field-lg-font-size`
-- `--p-form-field-lg-padding-x`
-- `--p-form-field-lg-padding-y`
+### Database Schema
 
-### Form Field Float Labels
-- `--p-form-field-float-label-color`
-- `--p-form-field-float-label-focus-color`
-- `--p-form-field-float-label-active-color`
-- `--p-form-field-float-label-invalid-color`
+LowDB is used with separate collections:
 
-## Button Components
+- `roms` - ROM metadata and file paths
+- `tags` - User-created playlists
+- `devices` - Device profiles and sync history
+- `settings` - Application settings including encrypted RA API keys
 
-### Button Base
-- `--p-button-border-radius`
-- `--p-button-rounded-border-radius`
-- `--p-button-gap`
-- `--p-button-padding-x`
-- `--p-button-padding-y`
-- `--p-button-icon-only-width`
-- `--p-button-badge-size`
-- `--p-button-label-font-weight`
-- `--p-button-focus-ring-width`
-- `--p-button-focus-ring-style`
-- `--p-button-focus-ring-offset`
-- `--p-button-transition-duration`
-- `--p-button-raised-shadow`
+### Device Profiles
 
-### Button Sizes
-- `--p-button-sm-font-size`
-- `--p-button-sm-padding-x`
-- `--p-button-sm-padding-y`
-- `--p-button-sm-icon-only-width`
-- `--p-button-lg-font-size`
-- `--p-button-lg-padding-x`
-- `--p-button-lg-padding-y`
-- `--p-button-lg-icon-only-width`
+Device profiles map system codes to target directories on SD cards. Located in `src/data/device-profiles/`. Profiles define:
 
-### Button Variants (Primary, Secondary, Success, Info, Warn, Help, Danger, Contrast)
-For each variant, variables follow this pattern:
-- `--p-button-{variant}-background`
-- `--p-button-{variant}-border-color`
-- `--p-button-{variant}-color`
-- `--p-button-{variant}-hover-background`
-- `--p-button-{variant}-hover-border-color`
-- `--p-button-{variant}-hover-color`
-- `--p-button-{variant}-active-background`
-- `--p-button-{variant}-active-border-color`
-- `--p-button-{variant}-active-color`
-- `--p-button-{variant}-focus-ring-color`
-- `--p-button-{variant}-focus-ring-shadow`
+- System folder mappings
+- File organization structure
+- Supported file extensions per system
 
-### Button Outlined Variants
-Similar pattern with `--p-button-outlined-{variant}-*`
+### Security
 
-### Button Text Variants
-Similar pattern with `--p-button-text-{variant}-*`
+- RetroAchievements API keys are encrypted using Electron's `safeStorage`
+- User credentials never leave the local machine
+- All ROM operations happen locally (no cloud upload)
 
-### Button Link
-- `--p-button-link-color`
-- `--p-button-link-hover-color`
-- `--p-button-link-active-color`
+## PrimeVue Design System
 
-## Badge Component
-- `--p-badge-font-size`
-- `--p-badge-font-weight`
-- `--p-badge-height`
-- `--p-badge-min-width`
-- `--p-badge-border-radius`
-- `--p-badge-padding`
-- `--p-badge-dot-size`
+This project uses PrimeVue's Aura theme. Common design tokens:
 
-### Badge Sizes
-- `--p-badge-sm-font-size`
-- `--p-badge-sm-height`
-- `--p-badge-sm-min-width`
-- `--p-badge-lg-font-size`
-- `--p-badge-lg-height`
-- `--p-badge-lg-min-width`
-- `--p-badge-xl-font-size`
-- `--p-badge-xl-height`
-- `--p-badge-xl-min-width`
+**Colors:**
 
-### Badge Variants
-- `--p-badge-primary-background`
-- `--p-badge-primary-color`
-- `--p-badge-secondary-background`
-- `--p-badge-secondary-color`
-- `--p-badge-success-background`
-- `--p-badge-success-color`
-- `--p-badge-info-background`
-- `--p-badge-info-color`
-- `--p-badge-warn-background`
-- `--p-badge-warn-color`
-- `--p-badge-danger-background`
-- `--p-badge-danger-color`
-- `--p-badge-contrast-background`
-- `--p-badge-contrast-color`
+- `--p-primary-color` - Primary brand color
+- `--p-surface-0` through `--p-surface-950` - Surface/background colors
+- `--p-text-color`, `--p-text-muted-color` - Text colors
+- `--p-content-background`, `--p-content-border-color` - Content containers
 
-## Toast Component
-- `--p-toast-width`
-- `--p-toast-border-width`
-- `--p-toast-border-radius`
-- `--p-toast-blur`
-- `--p-toast-transition-duration`
-- `--p-toast-content-gap`
-- `--p-toast-content-padding`
-- `--p-toast-text-gap`
-- `--p-toast-summary-font-size`
-- `--p-toast-summary-font-weight`
-- `--p-toast-detail-font-size`
-- `--p-toast-detail-font-weight`
-- `--p-toast-icon-size`
-- `--p-toast-close-button-width`
-- `--p-toast-close-button-height`
-- `--p-toast-close-button-border-radius`
-- `--p-toast-close-button-focus-ring-style`
-- `--p-toast-close-button-focus-ring-width`
-- `--p-toast-close-button-focus-ring-offset`
-- `--p-toast-close-icon-size`
+**Spacing:**
 
-### Toast Variants (Success, Info, Warn, Error, Secondary, Contrast)
-For each variant:
-- `--p-toast-{variant}-background`
-- `--p-toast-{variant}-border-color`
-- `--p-toast-{variant}-color`
-- `--p-toast-{variant}-detail-color`
-- `--p-toast-{variant}-shadow`
-- `--p-toast-{variant}-close-button-hover-background`
-- `--p-toast-{variant}-close-button-focus-ring-color`
-- `--p-toast-{variant}-close-button-focus-ring-shadow`
+- Use `--p-button-padding-x`, `--p-form-field-padding-y`, etc. for consistency
+- Border radius: `--p-border-radius-sm`, `--p-border-radius-md`, etc.
 
-## List Component
-- `--p-list-gap`
-- `--p-list-padding`
-- `--p-list-header-padding`
-- `--p-list-option-padding`
-- `--p-list-option-border-radius`
-- `--p-list-option-color`
-- `--p-list-option-icon-color`
-- `--p-list-option-icon-focus-color`
-- `--p-list-option-focus-background`
-- `--p-list-option-focus-color`
-- `--p-list-option-selected-background`
-- `--p-list-option-selected-color`
-- `--p-list-option-selected-focus-background`
-- `--p-list-option-selected-focus-color`
-- `--p-list-option-group-background`
-- `--p-list-option-group-color`
-- `--p-list-option-group-font-weight`
-- `--p-list-option-group-padding`
+For full PrimeVue component documentation: https://primevue.org
 
-## Navigation Component
-- `--p-navigation-list-gap`
-- `--p-navigation-list-padding`
-- `--p-navigation-item-padding`
-- `--p-navigation-item-border-radius`
-- `--p-navigation-item-gap`
-- `--p-navigation-item-color`
-- `--p-navigation-item-icon-color`
-- `--p-navigation-item-icon-focus-color`
-- `--p-navigation-item-icon-active-color`
-- `--p-navigation-item-focus-background`
-- `--p-navigation-item-focus-color`
-- `--p-navigation-item-active-background`
-- `--p-navigation-item-active-color`
-- `--p-navigation-submenu-label-padding`
-- `--p-navigation-submenu-label-background`
-- `--p-navigation-submenu-label-color`
-- `--p-navigation-submenu-label-font-weight`
-- `--p-navigation-submenu-icon-size`
-- `--p-navigation-submenu-icon-color`
-- `--p-navigation-submenu-icon-focus-color`
-- `--p-navigation-submenu-icon-active-color`
+## Development Workflow
 
-## Overlay Components
-- `--p-overlay-modal-background`
-- `--p-overlay-modal-border-color`
-- `--p-overlay-modal-border-radius`
-- `--p-overlay-modal-color`
-- `--p-overlay-modal-shadow`
-- `--p-overlay-modal-padding`
-- `--p-overlay-popover-background`
-- `--p-overlay-popover-border-color`
-- `--p-overlay-popover-border-radius`
-- `--p-overlay-popover-color`
-- `--p-overlay-popover-shadow`
-- `--p-overlay-popover-padding`
-- `--p-overlay-navigation-shadow`
-- `--p-overlay-select-background`
-- `--p-overlay-select-border-color`
-- `--p-overlay-select-border-radius`
-- `--p-overlay-select-color`
-- `--p-overlay-select-shadow`
+### Issue Writing Style
 
-## Utilities
-- `--p-disabled-opacity`
-- `--p-transition-duration`
-- `--p-mask-transition-duration`
-- `--p-iconfield-icon-color`
+Write GitHub issues conversationally:
 
-## Input Text Size Variants
-- `--p-inputtext-sm-font-size`
-- `--p-inputtext-sm-padding-x`
-- `--p-inputtext-sm-padding-y`
-- `--p-inputtext-lg-font-size`
-- `--p-inputtext-lg-padding-x`
-- `--p-inputtext-lg-padding-y`
+- One-liner summary of what needs to be done
+- Why it matters in 1-2 sentences
+- Steps or hints if it's not obvious
+- Acceptance criteria: "done when…"
+- Avoid corporate buzzwords - keep it human and actionable
+
+### Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+
+## Common Patterns
+
+### IPC Communication
+
+```typescript
+// Main process (src/main/ipc/)
+ipcMain.handle('channel-name', async (event, arg) => {
+  // Handle request
+  return result;
+});
+
+// Renderer process
+const result = await window.electron.ipcRenderer.invoke('channel-name', arg);
+```
+
+### Store Usage
+
+```typescript
+import { useRomsStore } from '@/stores/roms';
+
+const romsStore = useRomsStore();
+await romsStore.loadRoms();
+```
+
+### Error Handling
+
+- Main process errors should be logged via `electron-log`
+- User-facing errors should use PrimeVue Toast for notifications
+- Always validate file operations (disk space, permissions, etc.)
+
+## Quirks & Known Issues
+
+- Device detection is manual (user selects SD card path)
+- ROM verification against RA database happens during import
+- Large ROM collections (>1000 files) may slow down initial load
+- RetroAchievements hashing for Nintendo DS is currently disabled (see TODO in code)
+
+## Resources
+
+- [Electron Documentation](https://www.electronjs.org/docs)
+- [Vue 3 Documentation](https://vuejs.org)
+- [PrimeVue Components](https://primevue.org)
+- [RetroAchievements API](https://api-docs.retroachievements.org)

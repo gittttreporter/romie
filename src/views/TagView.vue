@@ -26,15 +26,15 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
-import { useRouter } from "vue-router";
-import RomListLayout from "@/layouts/RomListLayout.vue";
-import RomDetailView from "@/views/RomDetailView.vue";
-import RomActionView from "@/views/RomActionView.vue";
-import RomList from "@/components/RomList.vue";
+import { ref } from 'vue';
+import { useRouter } from 'vue-router';
+import RomListLayout from '@/layouts/RomListLayout.vue';
+import RomDetailView from '@/views/RomDetailView.vue';
+import RomActionView from '@/views/RomActionView.vue';
+import RomList from '@/components/RomList.vue';
 
-const props = defineProps<{ tag: string }>();
-const router = useRouter();
+defineProps<{ tag: string }>();
+useRouter();
 const romSelections = ref<string[]>([]);
 </script>
 

@@ -27,11 +27,11 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
-import RomListLayout from "@/layouts/RomListLayout.vue";
-import RomDetailView from "@/views/RomDetailView.vue";
-import RomActionView from "@/views/RomActionView.vue";
-import RomList from "@/components/RomList.vue";
+import { ref } from 'vue';
+import RomListLayout from '@/layouts/RomListLayout.vue';
+import RomDetailView from '@/views/RomDetailView.vue';
+import RomActionView from '@/views/RomActionView.vue';
+import RomList from '@/components/RomList.vue';
 
 const romSelections = ref<string[]>([]);
 

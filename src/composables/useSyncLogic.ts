@@ -1,16 +1,16 @@
-import { ref, computed } from "vue";
-import { useConfirm } from "primevue/useconfirm";
-import type { SyncOptions, SyncStatus } from "@/types/electron-api";
-import type { SyncSummaryMessage } from "@/types/sync";
+import { ref, computed } from 'vue';
+import { useConfirm } from 'primevue/useconfirm';
+import type { SyncOptions, SyncStatus } from '@/types/electron-api';
+import type { SyncSummaryMessage } from '@/types/sync';
 
 export function useSyncLogic(deviceId: string) {
   const confirm = useConfirm();
 
   // State
-  const syncError = ref("");
+  const syncError = ref('');
   const showSyncResults = ref(false);
   const syncStatus = ref<SyncStatus>({
-    phase: "idle",
+    phase: 'idle',
     totalFiles: 0,
     filesProcessed: 0,
     filesFailed: [],
@@ -30,7 +30,7 @@ export function useSyncLogic(deviceId: string) {
         acc[skip.reason] = (acc[skip.reason] || 0) + 1;
         return acc;
       },
-      {} as Record<string, number>,
+      {} as Record<string, number>
     );
 
     const fileExists = skippedByReason.file_exists || 0;
@@ -42,8 +42,8 @@ export function useSyncLogic(deviceId: string) {
     if (total === 0) {
       return [
         {
-          icon: "pi pi-info-circle",
-          text: "No files found matching your criteria",
+          icon: 'pi pi-info-circle',
+          text: 'No files found matching your criteria',
         },
       ];
     }
@@ -53,11 +53,11 @@ export function useSyncLogic(deviceId: string) {
     // All failed
     if (failed === total) {
       messages.push({
-        icon: "pi pi-times",
+        icon: 'pi pi-times',
         text: `All ${total} files failed to copy`,
       });
       messages.push({
-        text: "No files were copied",
+        text: 'No files were copied',
       });
       return messages;
     }
@@ -66,22 +66,22 @@ export function useSyncLogic(deviceId: string) {
     if (totalSkipped === total) {
       if (fileExists === total) {
         messages.push({
-          icon: "pi pi-minus-circle",
+          icon: 'pi pi-minus-circle',
           text: `Skipped all ${total} files (already exist)`,
         });
       } else if (unsupportedSystem + unsupportedFormat === total) {
         messages.push({
-          icon: "pi pi-exclamation-triangle",
+          icon: 'pi pi-exclamation-triangle',
           text: `Skipped all ${total} files (unsupported)`,
         });
       } else {
         messages.push({
-          icon: "pi pi-minus-circle",
+          icon: 'pi pi-minus-circle',
           text: `Skipped all ${total} files`,
         });
       }
       messages.push({
-        text: "No new files to copy",
+        text: 'No new files to copy',
       });
       return messages;
     }
@@ -89,7 +89,7 @@ export function useSyncLogic(deviceId: string) {
     // Show copied files if any
     if (copied > 0) {
       messages.push({
-        icon: "pi pi-check",
+        icon: 'pi pi-check',
         text: `Copied ${copied} files`,
       });
     }
@@ -97,21 +97,21 @@ export function useSyncLogic(deviceId: string) {
     // Show skipped files by reason
     if (fileExists > 0) {
       messages.push({
-        icon: "pi pi-minus-circle",
+        icon: 'pi pi-minus-circle',
         text: `Skipped ${fileExists} (already exist)`,
       });
     }
 
     if (unsupportedSystem > 0) {
       messages.push({
-        icon: "pi pi-exclamation-triangle",
+        icon: 'pi pi-exclamation-triangle',
         text: `Skipped ${unsupportedSystem} (unsupported system)`,
       });
     }
 
     if (unsupportedFormat > 0) {
       messages.push({
-        icon: "pi pi-exclamation-triangle",
+        icon: 'pi pi-exclamation-triangle',
         text: `Skipped ${unsupportedFormat} (unsupported extension)`,
       });
     }
@@ -119,7 +119,7 @@ export function useSyncLogic(deviceId: string) {
     // Show failed files if any
     if (failed > 0) {
       messages.push({
-        icon: "pi pi-times",
+        icon: 'pi pi-times',
         text: `${failed} failed to copy`,
       });
     }
@@ -128,18 +128,15 @@ export function useSyncLogic(deviceId: string) {
     if (failed === 0) {
       if (totalSkipped === 0) {
         messages.push({
-          text: "All files copied successfully",
+          text: 'All files copied successfully',
         });
-      } else if (
-        fileExists > 0 &&
-        unsupportedSystem + unsupportedFormat === 0
-      ) {
+      } else if (fileExists > 0 && unsupportedSystem + unsupportedFormat === 0) {
         messages.push({
-          text: "All files processed successfully",
+          text: 'All files processed successfully',
         });
       } else if (unsupportedSystem + unsupportedFormat > 0) {
         messages.push({
-          text: "Check device profile for unsupported files",
+          text: 'Check device profile for unsupported files',
         });
       }
     }
@@ -153,7 +150,7 @@ export function useSyncLogic(deviceId: string) {
   }
 
   async function startSync(selectedTagIds: string[], syncOptions: SyncOptions) {
-    syncStatus.value.phase = "preparing";
+    syncStatus.value.phase = 'preparing';
     const unsubscribesyncStatus = window.sync.onProgress(handleProgressUpdate);
 
     try {
@@ -163,8 +160,8 @@ export function useSyncLogic(deviceId: string) {
         useCleanNames: syncOptions.useCleanNames,
       });
     } catch (err) {
-      syncError.value = (err as Error).message || "An unknown error occurred";
-      syncStatus.value.phase = "error";
+      syncError.value = (err as Error).message || 'An unknown error occurred';
+      syncStatus.value.phase = 'error';
     } finally {
       unsubscribesyncStatus();
     }
@@ -172,17 +169,17 @@ export function useSyncLogic(deviceId: string) {
 
   function cancelSync() {
     confirm.require({
-      header: "Cancel sync?",
+      header: 'Cancel sync?',
       message:
         "Files already copied will remain on your device, but the sync won't complete. You'll need to start over to sync the remaining ROMs.",
       rejectProps: {
-        label: "Keep syncing",
-        severity: "secondary",
+        label: 'Keep syncing',
+        severity: 'secondary',
         outlined: true,
       },
       acceptProps: {
-        label: "Cancel sync",
-        severity: "danger",
+        label: 'Cancel sync',
+        severity: 'danger',
       },
       accept: () => {
         window.sync.cancel();
