@@ -52,6 +52,9 @@ jobs:
           node-version: '22'
           cache: 'npm'
 
+      # Detect pre-release tags (e.g., v1.0.0-rc.1, v1.0.0-beta.2)
+      # Pre-releases build artifacts but skip S3 publishing to prevent auto-updates.
+      # Stable releases publish to S3, triggering auto-updates for existing users.
       - name: Check if pre-release
         id: prerelease
         shell: bash
@@ -127,7 +130,10 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: artifacts/**/*
+          files: |
+            artifacts/**/*.zip
+            artifacts/**/*.deb
+            artifacts/**/*.exe
           body_path: CHANGELOG.md
           prerelease: ${{ needs.build.outputs.is_prerelease == 'true' }}
 
