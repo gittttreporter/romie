@@ -58,6 +58,21 @@ export default {
         macUpdateManifestBaseUrl: `${CDN_URL}/releases/darwin/${arch}`,
       }),
     },
+    {
+      name: '@electron-forge/maker-deb',
+      config: {
+        options: {
+          name: 'romie',
+          productName: 'ROMie',
+          genericName: 'ROM Manager',
+          description: 'ROM Manager for Retro Handhelds',
+          categories: ['Utility', 'Game'],
+          maintainer: 'JZimz <jzimz.tv@gmail.com>',
+          homepage: 'https://github.com/JZimz/romie',
+          icon: 'src/assets/icons/app/png/512x512.png',
+        },
+      },
+    },
   ],
   publishers: [
     {
