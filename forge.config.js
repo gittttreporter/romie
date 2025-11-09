@@ -64,6 +64,7 @@ export default {
         options: {
           name: 'romie',
           productName: 'ROMie',
+          bin: 'ROMie',
           genericName: 'ROM Manager',
           description: 'ROM Manager for Retro Handhelds',
           categories: ['Utility', 'Game'],
