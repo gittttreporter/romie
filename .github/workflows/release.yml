@@ -29,11 +29,11 @@ jobs:
           npm run lint
           npm test
 
-  build-and-release:
+  build:
     needs: validate
     strategy:
       matrix:
-        os: [macos-latest, windows-latest]
+        os: [macos-latest, windows-latest, ubuntu-latest]
     runs-on: ${{ matrix.os }}
     env:
       APPLE_ID: ${{ secrets.APPLE_ID }}
@@ -46,15 +46,23 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v5
 
-      - name: Setup node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
           node-version: '22'
           cache: 'npm'
 
-      - name: Set release version
+      - name: Check if pre-release
+        id: prerelease
         shell: bash
-        run: echo "RELEASE_VERSION=${GITHUB_REF_NAME#v}" >> $GITHUB_ENV
+        run: |
+          if [[ "${{ github.ref_name }}" =~ -(rc|beta|alpha) ]]; then
+            echo "is_prerelease=true" >> $GITHUB_OUTPUT
+            echo "BUILD_CMD=make" >> $GITHUB_ENV
+          else
+            echo "is_prerelease=false" >> $GITHUB_OUTPUT
+            echo "BUILD_CMD=publish" >> $GITHUB_ENV
+          fi
 
       - name: Install dependencies
         run: npm ci
@@ -66,16 +74,65 @@ jobs:
           p12-file-base64: ${{ secrets.APPLE_CERTIFICATE }}
           p12-password: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
 
-      - name: Build and publish application (macOS)
+      - name: Build application (macOS)
         if: runner.os == 'macOS'
-        run: npm run publish -- --arch=x64,arm64
+        run: npm run ${{ env.BUILD_CMD }} -- --arch=x64,arm64
 
-      - name: Build and publish application (Windows)
+      - name: Build application (Windows)
         if: runner.os == 'Windows'
-        run: npm run publish
+        run: npm run ${{ env.BUILD_CMD }}
+
+      - name: Build application (Linux)
+        if: runner.os == 'Linux'
+        run: npm run ${{ env.BUILD_CMD }}
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-${{ runner.os }}
+          path: out/make/**/*
+          retention-days: 1
+
+    outputs:
+      is_prerelease: ${{ steps.prerelease.outputs.is_prerelease }}
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          pattern: release-*
+          merge-multiple: true
+
+      - name: Set release version
+        shell: bash
+        run: echo "RELEASE_VERSION=${GITHUB_REF_NAME#v}" >> $GITHUB_ENV
+
+      - name: Generate release notes with git-cliff
+        uses: orhun/git-cliff-action@v4
+        with:
+          config: cliff.toml
+          args: --latest --strip header
+        env:
+          OUTPUT: CHANGELOG.md
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: artifacts/**/*
+          body_path: CHANGELOG.md
+          prerelease: ${{ needs.build.outputs.is_prerelease == 'true' }}
 
       - name: Create Sentry release
-        if: runner.os == 'macOS'
+        if: needs.build.outputs.is_prerelease == 'false'
         uses: getsentry/action-release@v3
         env:
           SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
