@@ -292,12 +292,13 @@ async function copyRoms(
     const destinationFilename = options.useCleanNames
       ? `${rom.displayName}${path.extname(sourceFilename)}`
       : sourceFilename;
+    const safeFilename = sanitizeFilename(destinationFilename);
 
     const destinationPath = path.join(
       device.deviceInfo.mount,
       profile.romBasePath,
       systemMapping.folderName,
-      destinationFilename
+      safeFilename
     );
 
     log.debug(`Processing ROM ${i + 1}/${filteredRoms.length}: ${rom.displayName}`);
@@ -399,6 +400,14 @@ async function copyRoms(
 }
 
 //- utilities
+
+/**
+ * Sanitizes a filename to be compatible with FAT32/exFAT filesystems.
+ * Removes characters that are illegal on these filesystems: \ / : * ? " < > |
+ */
+function sanitizeFilename(filename: string): string {
+  return filename.replace(/[\\/:*?"<>|]/g, '');
+}
 
 function emitProgress(progress: SyncStatus) {
   const mainWindow = BrowserWindow.getAllWindows()[0];
