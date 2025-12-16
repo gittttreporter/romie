@@ -136,10 +136,22 @@ async function handleDelete() {
   emit('delete', succeeded, failed);
 }
 
-async function handleTagUpdate(tags: string[]) {
+async function handleTagUpdate(newTags: string[]) {
+  updating.value = true;
+
+  const oldTags = commonTags.value;
+  const addedTags = newTags.filter((tag) => !oldTags.includes(tag));
+  const removedTags = oldTags.filter((tag) => !newTags.includes(tag));
+
   const updates = [];
 
   for (const romId of props.romSelections) {
+    const rom = romStore.getRomById(romId);
+    if (!rom) continue;
+
+    const tagsToRemove = (rom.tags ?? []).filter((tag) => !removedTags.includes(tag));
+    const tags = Array.from(new Set([...tagsToRemove, ...addedTags]));
+
     updates.push(romStore.updateRom(romId, { tags }));
   }
 
