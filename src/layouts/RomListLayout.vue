@@ -38,37 +38,47 @@
       </template>
     </AppToolbar>
     <div v-if="showFilters" class="rom-list-layout__filters">
-      <Select
-        v-model="filterByVerified"
-        :options="[
-          { label: 'All', value: 'all' },
-          { label: 'Verified', value: 'verified' },
-          { label: 'Unverified', value: 'unverified' },
-        ]"
-        option-label="label"
-        option-value="value"
-        placeholder="Verified"
-        size="small"
-      />
-      <MultiSelect
-        v-model="filterBySystem"
-        :options="filterSystems"
-        :filled="true"
-        :disabled="props.mode === 'system'"
-        option-label="label"
-        option-value="value"
-        placeholder="System"
-        size="small"
-      />
-      <MultiSelect
-        v-model="filterByRegion"
-        :options="filterRegions"
-        :filled="true"
-        option-label="label"
-        option-value="value"
-        placeholder="Region"
-        size="small"
-      />
+      <FloatLabel variant="on">
+        <Select
+          id="achievements_filter"
+          v-model="filterByRA"
+          :options="[
+            { label: 'Available', value: 'has-achievements' },
+            { label: 'None', value: 'no-achievements' },
+            { label: 'Not Supported', value: 'unverified' },
+          ]"
+          option-label="label"
+          option-value="value"
+          show-clear
+          size="small"
+        />
+        <label for="achievements_filter">RA</label>
+      </FloatLabel>
+      <FloatLabel variant="on">
+        <MultiSelect
+          id="system_filter"
+          v-model="filterBySystem"
+          :options="filterSystems"
+          :filled="true"
+          :disabled="props.mode === 'system'"
+          option-label="label"
+          option-value="value"
+          size="small"
+        />
+        <label for="system_filter">System</label>
+      </FloatLabel>
+      <FloatLabel variant="on">
+        <MultiSelect
+          id="region_filter"
+          v-model="filterByRegion"
+          :options="filterRegions"
+          :filled="true"
+          option-label="label"
+          option-value="value"
+          size="small"
+        />
+        <label for="region_filter">Region</label>
+      </FloatLabel>
     </div>
     <div class="rom-list-layout__content">
       <div class="rom-list-layout__content-list">
@@ -84,6 +94,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 import Button from 'primevue/button';
+import FloatLabel from 'primevue/floatlabel';
 import Select from 'primevue/select';
 import MultiSelect from 'primevue/multiselect';
 import IconField from 'primevue/iconfield';
@@ -107,7 +118,7 @@ const searchQuery = ref('');
 const showFilters = ref(false);
 const filterBySystem = ref([]);
 const filterByRegion = ref([]);
-const filterByVerified = ref('');
+const filterByRA = ref(null);
 
 const searchPlaceholder = computed(() => {
   if (props.mode === 'tag' && props.tag) {
@@ -166,18 +177,20 @@ const filteredRoms = computed(() => {
 
     const hasTagMatch = !filterTag || tags.includes(filterTag);
     const hasFavoritesMatch = props.mode === 'favorites' ? rom.favorite : true;
-    const hasVerifiedMatch =
-      filterByVerified.value === '' ||
-      filterByVerified.value === 'all' ||
-      (filterByVerified.value === 'verified' && rom.verified) ||
-      (filterByVerified.value === 'unverified' && !rom.verified);
+    const hasRAMatch =
+      !filterByRA.value ||
+      (filterByRA.value === 'has-achievements' && (rom.numAchievements ?? 0) > 0) ||
+      (filterByRA.value === 'no-achievements' &&
+        rom.verified &&
+        (rom.numAchievements ?? 0) === 0) ||
+      (filterByRA.value === 'unverified' && !rom.verified);
 
     return (
       hasSystemMatch &&
       hasRegionMatch &&
       hasQueryMatch &&
       hasTagMatch &&
-      hasVerifiedMatch &&
+      hasRAMatch &&
       hasFavoritesMatch
     );
   });
@@ -185,7 +198,7 @@ const filteredRoms = computed(() => {
 
 function toggleFilters() {
   if (showFilters.value) {
-    filterByVerified.value = '';
+    filterByRA.value = null;
     filterByRegion.value = [];
     filterBySystem.value = [];
   }

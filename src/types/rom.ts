@@ -38,6 +38,8 @@ export interface Rom {
   /** RetroAchievements hash - required for game identification */
   ramd5: string | null;
   verified: boolean;
+  /** Number of achievements available in RetroAchievements (computed at runtime, not stored) */
+  numAchievements?: number;
   tags?: string[];
   favorite?: boolean;
   notes?: string;

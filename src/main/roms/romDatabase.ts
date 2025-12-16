@@ -14,6 +14,7 @@ import {
   type DeviceProfileDraft,
 } from '@romie/device-profiles';
 import { AppError } from '@/errors';
+import { lookupRomByHash } from './romLookup';
 
 import type { Low } from 'lowdb';
 import type { Rom, RomDatabase, RomDatabaseStats } from '@/types/rom';
@@ -273,7 +274,23 @@ export async function updateRom(id: string, romUpdate: Partial<Rom>): Promise<vo
 export async function listRoms(): Promise<Rom[]> {
   const db = await ensureDatabase();
 
-  return structuredClone(db.data.roms);
+  // Enrich ROMs with achievement count from game database
+  const enrichedRoms = await Promise.all(
+    db.data.roms.map(async (rom) => {
+      if (!rom.verified || !rom.ramd5) {
+        return rom;
+      }
+
+      const game = await lookupRomByHash(rom.ramd5);
+
+      return {
+        ...rom,
+        numAchievements: game?.numAchievements ?? 0,
+      };
+    })
+  );
+
+  return structuredClone(enrichedRoms);
 }
 
 export async function getRomStats(): Promise<RomDatabaseStats> {
