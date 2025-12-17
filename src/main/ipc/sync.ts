@@ -99,6 +99,10 @@ async function startSync(
           copyRoms(filteredRoms, device, profile, options, syncStatus)
         );
 
+        // Step 5: Clean up macOS hidden files
+        const destinationPath = path.join(device.deviceInfo.mount, profile.romBasePath);
+        await cleanMacOSHiddenFiles(destinationPath);
+
         // Complete
         const duration = Date.now() - startTime;
         span.setAttributes({
@@ -407,6 +411,65 @@ async function copyRoms(
  */
 function sanitizeFilename(filename: string): string {
   return filename.replace(/[\\/:*?"<>|]/g, '');
+}
+
+/**
+ * Removes macOS hidden files from a directory tree.
+ * Cleans up .DS_Store, ._* AppleDouble files, and system directories.
+ */
+async function cleanMacOSHiddenFiles(dirPath: string): Promise<void> {
+  log.debug(`Cleaning macOS hidden files from: ${dirPath}`);
+  let filesRemoved = 0;
+
+  async function cleanDirectory(dir: string): Promise<void> {
+    try {
+      const entries = await fs.readdir(dir, { withFileTypes: true });
+
+      for (const entry of entries) {
+        const fullPath = path.join(dir, entry.name);
+
+        // Remove macOS system directories
+        if (
+          entry.isDirectory() &&
+          (entry.name === '.Spotlight-V100' ||
+            entry.name === '.fseventsd' ||
+            entry.name === '.Trashes' ||
+            entry.name === '.TemporaryItems')
+        ) {
+          try {
+            await fs.rm(fullPath, { recursive: true, force: true });
+            filesRemoved++;
+            log.debug(`Removed macOS system directory: ${fullPath}`);
+          } catch (error) {
+            log.warn(`Failed to remove ${fullPath}: ${(error as Error).message}`);
+          }
+          continue;
+        }
+
+        // Recursively clean subdirectories
+        if (entry.isDirectory()) {
+          await cleanDirectory(fullPath);
+          continue;
+        }
+
+        // Remove macOS hidden files
+        if (entry.isFile() && (entry.name === '.DS_Store' || entry.name.startsWith('._'))) {
+          try {
+            await fs.unlink(fullPath);
+            filesRemoved++;
+            log.debug(`Removed macOS hidden file: ${fullPath}`);
+          } catch (error) {
+            log.warn(`Failed to remove ${fullPath}: ${(error as Error).message}`);
+          }
+        }
+      }
+    } catch (error) {
+      log.warn(`Failed to clean directory ${dir}: ${(error as Error).message}`);
+    }
+  }
+
+  await cleanDirectory(dirPath);
+  log.info(`Cleaned ${filesRemoved} macOS hidden files from ${dirPath}`);
 }
 
 function emitProgress(progress: SyncStatus) {
