@@ -1,11 +1,13 @@
 <template>
-  <div class="rom-list-item" :class="{ 'rom-list-item--active': isActive }">
-    <SystemBadge :code="system" />
-    <div class="rom-list-item__content">
-      <span class="rom-list-item__name">{{ name }}</span>
-      <span class="rom-list-item__region">{{ region }}</span>
+  <div class="rom-list-item-wrapper">
+    <div class="rom-list-item" :class="{ 'rom-list-item--active': isActive }">
+      <SystemBadge :code="system" />
+      <div class="rom-list-item__content">
+        <span class="rom-list-item__name">{{ name }}</span>
+        <span class="rom-list-item__region">{{ region }}</span>
+      </div>
+      <div class="rom-list-item__actions"></div>
     </div>
-    <div class="rom-list-item__actions"></div>
   </div>
 </template>
 
@@ -26,6 +28,9 @@ defineProps<{
 </script>
 
 <style scoped lang="less">
+.rom-list-item-wrapper {
+  padding: 0 var(--space-10);
+}
 .rom-list-item {
   display: flex;
   gap: 8px;

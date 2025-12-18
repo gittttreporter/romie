@@ -36,7 +36,7 @@
               <span class="app-sidebar__label">{{ item.label }}</span>
               <Badge
                 v-if="item.count"
-                :value="item.count"
+                :value="formatCompactNumber(item.count)"
                 severity="secondary"
                 class="app-sidebar__count"
               />
@@ -83,6 +83,7 @@ import Badge from 'primevue/badge';
 import Tag from 'primevue/tag';
 import { useRomStore, useDeviceStore } from '@/stores';
 import { getSystemDisplayName } from '@/utils/systems';
+import { formatCompactNumber } from '@/utils/number.utils';
 
 import type { RouteLocationRaw } from 'vue-router';
 import type { SystemCode } from '@/types/system';
