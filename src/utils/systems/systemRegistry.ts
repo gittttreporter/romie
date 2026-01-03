@@ -18,7 +18,7 @@ export const SYSTEM_REGISTRY: Partial<Record<SystemCode, SystemInfo>> = {
     displayName: 'SNES',
     fullName: 'Super Nintendo Entertainment System',
     type: 'console',
-    extensions: ['.sfc', '.snes'],
+    extensions: ['.sfc', '.snes', '.smc'],
     requiresBios: false,
     manufacturer: 'Nintendo',
     releaseYear: 1990,
