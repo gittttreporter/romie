@@ -347,6 +347,18 @@ async function readRomFromZip(zipPath: string): Promise<{
               romBuffer = Buffer.concat(chunks);
               zipfile.readEntry();
             });
+            readStream.on('error', (err) => {
+              log.error(`Error decompressing ROM from zip ${zipPath}:`, err);
+              reject(
+                new RomProcessingError(
+                  `Failed to decompress ROM from zip`,
+                  zipPath,
+                  err.message,
+                  err
+                )
+              );
+              zipfile.close();
+            });
           });
         } else {
           zipfile.readEntry();
