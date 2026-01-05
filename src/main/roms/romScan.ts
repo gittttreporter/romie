@@ -3,7 +3,6 @@ import { app, BrowserWindow } from 'electron';
 import yauzl from 'yauzl';
 import path from 'path';
 import fs from 'fs/promises';
-import * as Sentry from '@sentry/electron/main';
 import Seven from 'node-7z';
 import { processRomFile } from './romImport';
 import { get7zBinaryPath } from './romUtils';
@@ -24,54 +23,31 @@ const SEVEN_ZIP_PATH = get7zBinaryPath();
 const log = logger.scope('rom-scan');
 
 export async function processRomDirectory(dirPath: PathLike): Promise<ScanResult> {
-  return await Sentry.startSpan(
-    {
-      op: 'rom.scan',
-      name: 'Scan ROM Directory',
-      attributes: {
-        'scan.directory': dirPath.toString(),
-      },
-    },
-    async (span) => {
-      log.debug(`Scanning for ROMs in ${dirPath}`);
-      const results: ScanResult = { processed: 0, errors: [], skipped: [] };
+  log.debug(`Scanning for ROMs in ${dirPath}`);
+  const results: ScanResult = { processed: 0, errors: [], skipped: [] };
 
-      let files;
-      try {
-        files = await fs.readdir(dirPath);
-      } catch (error) {
-        span.setStatus({ code: 2, message: 'Failed to read directory' });
-        span.recordException(error instanceof Error ? error : new Error(String(error)));
+  let files;
+  try {
+    files = await fs.readdir(dirPath);
+  } catch (error) {
+    const dirError = new RomProcessingError(
+      `Failed to read directory`,
+      dirPath.toString(),
+      error instanceof Error ? error.message : 'Unknown error',
+      error instanceof Error ? error : undefined
+    );
+    results.errors.push(dirError);
+    return results;
+  }
 
-        const dirError = new RomProcessingError(
-          `Failed to read directory`,
-          dirPath.toString(),
-          error instanceof Error ? error.message : 'Unknown error',
-          error instanceof Error ? error : undefined
-        );
-        results.errors.push(dirError);
-        return results;
-      }
+  for (const file of files) {
+    const subResults = await processFile(dirPath, file);
 
-      span.setAttributes({
-        'scan.files_found': files.length,
-      });
+    results.processed += subResults.processed;
+    results.errors.push(...subResults.errors);
+  }
 
-      for (const file of files) {
-        const subResults = await processFile(dirPath, file);
-
-        results.processed += subResults.processed;
-        results.errors.push(...subResults.errors);
-      }
-
-      span.setAttributes({
-        'scan.files_processed': results.processed,
-        'scan.errors_count': results.errors.length,
-      });
-
-      return results;
-    }
-  );
+  return results;
 }
 
 //= Helpers ==
