@@ -1,31 +1,32 @@
 import path from 'node:path';
+import { ConsoleId, type ConsoleIdValue } from 'node-rcheevos';
 import { SYSTEM_REGISTRY } from './systemRegistry';
 import { SYSTEM_CODES, type SystemType, type SystemCode, type SystemInfo } from '@/types/system';
 
 import type { RomFile } from '@/types/rom';
 
 interface RASystemMapping {
-  consoleId: number; // RetroArch console ID
+  consoleId: ConsoleIdValue; // RetroArch console ID
   code: SystemCode; // Internal system code
 }
 
 const RA_SYSTEMS: RASystemMapping[] = [
-  { consoleId: 1, code: 'genesis' },
-  { consoleId: 2, code: 'n64' },
-  { consoleId: 3, code: 'snes' },
-  { consoleId: 4, code: 'gb' },
-  { consoleId: 5, code: 'gba' },
-  { consoleId: 6, code: 'gbc' },
-  { consoleId: 7, code: 'nes' },
-  { consoleId: 11, code: 'sms' },
-  { consoleId: 13, code: 'lynx' },
-  { consoleId: 14, code: 'ngp' },
-  { consoleId: 15, code: 'gg' },
-  { consoleId: 18, code: 'nds' },
-  { consoleId: 25, code: 'atari2600' },
-  { consoleId: 27, code: 'arcade' },
-  { consoleId: 28, code: 'vb' },
-  { consoleId: 41, code: 'psp' },
+  { consoleId: ConsoleId.MEGA_DRIVE, code: 'genesis' },
+  { consoleId: ConsoleId.NINTENDO_64, code: 'n64' },
+  { consoleId: ConsoleId.SUPER_NINTENDO, code: 'snes' },
+  { consoleId: ConsoleId.GAMEBOY, code: 'gb' },
+  { consoleId: ConsoleId.GAMEBOY_ADVANCE, code: 'gba' },
+  { consoleId: ConsoleId.GAMEBOY_COLOR, code: 'gbc' },
+  { consoleId: ConsoleId.NINTENDO, code: 'nes' },
+  { consoleId: ConsoleId.MASTER_SYSTEM, code: 'sms' },
+  { consoleId: ConsoleId.ATARI_LYNX, code: 'lynx' },
+  { consoleId: ConsoleId.NEOGEO_POCKET, code: 'ngp' },
+  { consoleId: ConsoleId.GAME_GEAR, code: 'gg' },
+  { consoleId: ConsoleId.NINTENDO_DS, code: 'nds' },
+  { consoleId: ConsoleId.ATARI_2600, code: 'atari2600' },
+  { consoleId: ConsoleId.ARCADE, code: 'arcade' },
+  { consoleId: ConsoleId.VIRTUAL_BOY, code: 'vb' },
+  { consoleId: ConsoleId.PSP, code: 'psp' },
 ];
 
 const systems = Object.values(SYSTEM_REGISTRY);
@@ -44,7 +45,7 @@ export function getSystemByExtension(extension: string): SystemInfo[] {
   return systems.filter((system) => system.extensions.includes(ext));
 }
 
-export function getConsoleIdForSystem(code: SystemCode): number | null {
+export function getConsoleIdForSystem(code: SystemCode): ConsoleIdValue | null {
   return RA_CONSOLE_MAPPING[code] || null;
 }
 

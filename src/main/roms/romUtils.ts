@@ -1,4 +1,4 @@
-import { rhash } from 'node-rcheevos';
+import { rhash, ConsoleId, type ConsoleIdValue } from 'node-rcheevos';
 import crypto from 'crypto';
 import fs from 'fs/promises';
 import CRC32 from 'crc-32';
@@ -131,14 +131,14 @@ export function cleanDisplayName(filename: string): string {
   return name;
 }
 
-export function ramd5sum(consoleId: number | null, romFile: RomFile): string | null {
+export function ramd5sum(consoleId: ConsoleIdValue | null, romFile: RomFile): string | null {
   if (!consoleId) return null;
 
   const { romPath, romBuffer, romFilename, sourcePath } = romFile;
 
   // If we have a buffer then use it unless it's from an arcade game. These files must use
   // path since their hash is based on filename.
-  if (romBuffer && consoleId !== 27) {
+  if (romBuffer && consoleId !== ConsoleId.ARCADE) {
     // A fake file path is still needed when using buffer input so the RA hasher can
     // choose the correct hashing algorithm based on file extension.
     return rhash(consoleId, romFilename, romBuffer);
