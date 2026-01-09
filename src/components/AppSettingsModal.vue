@@ -202,6 +202,32 @@
           </div>
         </div>
       </div>
+
+      <Divider />
+
+      <!-- Troubleshooting Section -->
+      <div class="settings-section">
+        <h3 class="settings-section__title">Troubleshooting</h3>
+        <div class="settings-section__content">
+          <div class="setting-item">
+            <div class="setting-item__info">
+              <label class="setting-item__label">Export Logs</label>
+              <p class="setting-item__description">
+                Bundle all log files into a zip for easier sharing when troubleshooting.
+              </p>
+            </div>
+            <div class="setting-item__control">
+              <Button
+                label="Export Logs"
+                icon="pi pi-download"
+                size="small"
+                :loading="exportingLogs"
+                @click="handleExportLogs"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <Dialog
@@ -292,6 +318,7 @@ const importingBackup = ref(false);
 const resettingDatabase = ref(false);
 const resetDialogVisible = ref(false);
 const resetConfirmText = ref('');
+const exportingLogs = ref(false);
 
 const isDatabaseBusy = computed(() =>
   [exportingBackup.value, importingBackup.value, resettingDatabase.value].some(Boolean)
@@ -575,6 +602,44 @@ async function handleResetDatabase() {
     });
   } finally {
     resettingDatabase.value = false;
+  }
+}
+
+async function handleExportLogs() {
+  exportingLogs.value = true;
+
+  try {
+    const result = await window.diagnostics.exportLogs();
+
+    if (!result.success) {
+      log.error('Log export failed:', result.error);
+      toast.add({
+        severity: 'error',
+        summary: 'Export Failed',
+        detail: result.userMessage ?? 'Failed to export logs.',
+        life: 4000,
+      });
+      return;
+    }
+
+    if (result.data.canceled) return;
+
+    toast.add({
+      severity: 'success',
+      summary: 'Logs Exported',
+      detail: 'Log files saved successfully.',
+      life: 3000,
+    });
+  } catch (error) {
+    log.error('Failed to export logs:', error);
+    toast.add({
+      severity: 'error',
+      summary: 'Export Failed',
+      detail: 'Failed to export logs.',
+      life: 4000,
+    });
+  } finally {
+    exportingLogs.value = false;
   }
 }
 </script>

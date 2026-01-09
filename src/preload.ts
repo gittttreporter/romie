@@ -8,6 +8,7 @@ import type {
   DeviceApi,
   SettingsApi,
   DatabaseApi,
+  DiagnosticsApi,
   RetroAchievementsApi,
   DarkModeApi,
   UtilApi,
@@ -83,6 +84,10 @@ const dbApi: DatabaseApi = {
   reset: () => ipcRenderer.invoke('db:reset'),
 };
 
+const diagnosticsApi: DiagnosticsApi = {
+  exportLogs: () => ipcRenderer.invoke('diagnostics:exportLogs'),
+};
+
 const retroAchievementsApi: RetroAchievementsApi = {
   setConfig: (config: RetroAchievementsConfig) => ipcRenderer.invoke('ra:setConfig', config),
   getConfig: () => ipcRenderer.invoke('ra:getConfig'),
@@ -132,6 +137,7 @@ contextBridge.exposeInMainWorld('util', utilApi);
 contextBridge.exposeInMainWorld('update', updateApi);
 contextBridge.exposeInMainWorld('settings', settingsApi);
 contextBridge.exposeInMainWorld('db', dbApi);
+contextBridge.exposeInMainWorld('diagnostics', diagnosticsApi);
 contextBridge.exposeInMainWorld('ra', retroAchievementsApi);
 
 // Note: Global Window interface is declared in src/types/electron.d.ts

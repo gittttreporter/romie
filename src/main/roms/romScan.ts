@@ -5,7 +5,7 @@ import path from 'path';
 import fs from 'fs/promises';
 import Seven from 'node-7z';
 import { processRomFile } from './romImport';
-import { get7zBinaryPath } from './romUtils';
+import { get7zBinaryPath } from '@main/utils/zip.utils';
 import { getAllSupportedExtensions } from '@/utils/systems';
 import { RomProcessingError } from '@/errors';
 

@@ -74,6 +74,10 @@ export interface DatabaseApi {
   reset(): Promise<ApiResult<void>>;
 }
 
+export interface DiagnosticsApi {
+  exportLogs(): Promise<ApiResult<{ canceled: boolean }>>;
+}
+
 export interface RetroAchievementsApi {
   setConfig(config: RetroAchievementsConfig): Promise<void>;
   getConfig(): Promise<RetroAchievementsConfig | null>;

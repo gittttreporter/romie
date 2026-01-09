@@ -7,6 +7,7 @@ import type {
   UtilApi,
   SettingsApi,
   DatabaseApi,
+  DiagnosticsApi,
   RetroAchievementsApi,
 } from './electron-api';
 
@@ -17,6 +18,7 @@ declare global {
     sync: SyncApi;
     settings: SettingsApi;
     db: DatabaseApi;
+    diagnostics: DiagnosticsApi;
     ra: RetroAchievementsApi;
     darkMode: DarkModeApi;
     util: UtilApi;

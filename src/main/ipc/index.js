@@ -6,6 +6,7 @@ import { registerDeviceIpc } from './device';
 import { registerSyncIpc } from './sync';
 import { registerSettingsIpc } from './settings';
 import { registerDatabaseIpc } from './database';
+import { registerDiagnosticsIpc } from './diagnostics';
 
 export function registerAllIpc() {
   registerDarkModeIpc();
@@ -14,6 +15,7 @@ export function registerAllIpc() {
   registerSyncIpc();
   registerSettingsIpc();
   registerDatabaseIpc();
+  registerDiagnosticsIpc();
 
   // General utilities
   ipcMain.handle('util:openExternal', (_, url) => shell.openExternal(url));

@@ -1,13 +1,11 @@
 import { app } from 'electron';
-import logger from 'electron-log/main';
 import Database from 'better-sqlite3';
 import yauzl from 'yauzl';
-import { spawn } from 'node:child_process';
 import { createWriteStream } from 'node:fs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { get7zBinaryPath } from '@main/roms/romUtils';
+import { createZip } from '@main/utils/zip.utils';
 import {
   closeDatabase,
   getDatabaseBaseDir,
@@ -15,9 +13,6 @@ import {
   getSqlite,
   initializeDatabase,
 } from './index';
-
-const log = logger.scope('db-management');
-const SEVEN_ZIP_PATH = get7zBinaryPath();
 
 export async function createDatabaseBackupZip(zipPath: string) {
   const tempDir = await fs.mkdtemp(path.join(app.getPath('temp'), 'romie-db-backup-'));
@@ -213,34 +208,6 @@ async function extractRomieDbFromZip(zipPath: string, outDbPath: string) {
           rejectOnce(new Error('Backup zip does not contain romie.db'));
         }
       });
-    });
-  });
-}
-
-async function createZip(zipPath: string, cwd: string, fileNames: string[]) {
-  log.debug(`Creating zip at ${zipPath} from ${cwd}`);
-
-  await new Promise<void>((resolve, reject) => {
-    const child = spawn(SEVEN_ZIP_PATH, ['a', '-tzip', zipPath, ...fileNames], { cwd });
-
-    let stderr = '';
-
-    child.stderr.on('data', (chunk) => {
-      stderr += chunk.toString();
-    });
-
-    child.on('error', (error) => {
-      reject(error);
-    });
-
-    child.on('close', (code) => {
-      if (code === 0) {
-        resolve();
-        return;
-      }
-
-      const details = stderr.trim();
-      reject(new Error(details ? `7zip failed: ${details}` : `7zip failed with exit code ${code}`));
     });
   });
 }

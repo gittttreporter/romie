@@ -1,10 +1,7 @@
-import log from 'electron-log/main';
 import { rhash } from 'node-rcheevos';
 import crypto from 'crypto';
 import fs from 'fs/promises';
 import CRC32 from 'crc-32';
-import { app } from 'electron';
-import path from 'path';
 import type { PathLike } from 'fs';
 import type { RomFile, RomRegion } from '../../types/rom';
 
@@ -252,23 +249,4 @@ export async function fileExists(filePath: PathLike) {
   } catch {
     return false;
   }
-}
-
-export function get7zBinaryPath(): string {
-  // Map Node.js platform names to the 7zip-bin directory names
-  const platformMap = {
-    darwin: 'mac',
-    win32: 'win',
-  } as Partial<Record<NodeJS.Platform, string>>;
-
-  const platform = platformMap[process.platform] || 'linux';
-  const arch = process.arch;
-  const basePath = app.isPackaged
-    ? process.resourcesPath
-    : path.join(process.cwd(), 'node_modules');
-  const binaryName = process.platform === 'win32' ? '7za.exe' : '7za';
-  const binaryPath = path.join(basePath, '7zip-bin', platform, arch, binaryName);
-
-  log.debug(`Using 7zip binary at: ${binaryPath}`);
-  return binaryPath;
 }
