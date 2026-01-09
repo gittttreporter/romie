@@ -95,7 +95,7 @@ app
     log.debug(`Analytics instance ID: ${instanceId}`);
 
     // Initialize app services
-    initializeDatabase();
+    await initializeDatabase();
     registerAllIpc();
     await initializeTheme();
 

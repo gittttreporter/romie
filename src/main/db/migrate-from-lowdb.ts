@@ -4,12 +4,13 @@ import path from 'node:path';
 import type { BetterSQLite3Database } from 'drizzle-orm/better-sqlite3';
 import type { RomDatabase } from '@/types/rom';
 import { schema } from './index';
+import { ensureDatabaseSchema } from '../roms/romDatabaseMigrations';
 
 const log = logger.scope('db:migration');
 
 type AppDatabase = BetterSQLite3Database<typeof schema>;
 
-export function migrateLowdbToSqlite(db: AppDatabase, baseDir: string) {
+export async function migrateLowdbToSqlite(db: AppDatabase, baseDir: string) {
   const lowdbPath = path.join(baseDir, 'roms.json');
 
   // Skip if no old database exists
@@ -22,6 +23,10 @@ export function migrateLowdbToSqlite(db: AppDatabase, baseDir: string) {
 
   try {
     const oldData: RomDatabase = JSON.parse(fs.readFileSync(lowdbPath, 'utf-8'));
+
+    // Run legacy lowdb migrations to ensure data is at latest schema version
+    // This handles users upgrading from any old version (1.0.0 through 6.0.0)
+    await ensureDatabaseSchema(oldData);
 
     // Wrap entire migration in atomic transaction
     db.transaction(() => {

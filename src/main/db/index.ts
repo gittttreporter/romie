@@ -44,7 +44,7 @@ export function closeDatabase() {
   }
 }
 
-export function initializeDatabase() {
+export async function initializeDatabase() {
   const baseDir = getDatabaseBaseDir();
 
   // Ensure directory exists (mainly for development, userData should always exist)
@@ -86,7 +86,7 @@ export function initializeDatabase() {
   migrate(db, { migrationsFolder: migrationsPath });
 
   // Migrate from LowDB if needed (existing users)
-  migrateLowdbToSqlite(db, baseDir);
+  await migrateLowdbToSqlite(db, baseDir);
 
   log.info('Database initialized successfully');
 

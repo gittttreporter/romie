@@ -38,7 +38,7 @@ export async function restoreDatabaseFromZip(zipPath: string) {
     try {
       await replaceDatabaseFile(extractedDbPath);
     } catch (error) {
-      initializeDatabase();
+      await initializeDatabase();
       throw error;
     }
   } finally {
@@ -53,7 +53,7 @@ export async function resetDatabase() {
   try {
     await deleteDatabaseFiles(dbPath);
   } catch (error) {
-    initializeDatabase();
+    await initializeDatabase();
     throw error;
   }
 }
