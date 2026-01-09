@@ -2,6 +2,7 @@ import type { DeviceProfile, DeviceProfileDraft } from './types';
 import { ONION_OS_PROFILE } from './profiles/onion';
 import { KNULLI_PROFILE } from './profiles/knulli';
 import { MUOS_PROFILE } from './profiles/muos';
+import { RETROARCH_PROFILE } from './profiles/retroarch';
 
 // Export types
 export type * from './types';
@@ -11,6 +12,7 @@ const profiles: Record<string, DeviceProfile> = {
   [ONION_OS_PROFILE.id]: ONION_OS_PROFILE,
   [KNULLI_PROFILE.id]: KNULLI_PROFILE,
   [MUOS_PROFILE.id]: MUOS_PROFILE,
+  [RETROARCH_PROFILE.id]: RETROARCH_PROFILE,
 };
 
 // API functions
