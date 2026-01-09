@@ -1,5 +1,6 @@
 # Personal/Local files
 .vscode
+.claude
 CLAUDE.local.md
 .DS_Store
 
