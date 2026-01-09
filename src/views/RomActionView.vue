@@ -23,7 +23,6 @@
         </div>
       </template>
     </Card>
-    <ConfirmPopup></ConfirmPopup>
   </div>
 </template>
 
@@ -31,11 +30,11 @@
 import { computed, ref } from 'vue';
 import Card from 'primevue/card';
 import Button from 'primevue/button';
-import ConfirmPopup from 'primevue/confirmpopup';
 import { useConfirm } from 'primevue/useconfirm';
 import { useToast } from 'primevue/usetoast';
 import TagsEditor from '@/components/TagsEditor.vue';
 import { useRomStore } from '@/stores';
+import { pluralize } from '@/utils/string.utils';
 
 const romStore = useRomStore();
 const confirm = useConfirm();
@@ -76,10 +75,12 @@ const commonTags = computed(() => {
   return intersection ? Array.from(intersection) : [];
 });
 
-function confirmDelete(event: MouseEvent) {
+function confirmDelete() {
+  const count = pluralize(props.romSelections.length, 'ROM', 'ROMs');
+
   confirm.require({
-    target: event.currentTarget as HTMLElement,
-    message: `Are you sure you want to delete ${props.romSelections.length} ROM(s)?`,
+    header: 'Delete ROMs',
+    message: `Are you sure you want to delete ${count}?`,
     rejectProps: {
       label: 'Cancel',
       severity: 'secondary',
