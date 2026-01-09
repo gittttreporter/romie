@@ -131,7 +131,7 @@ export function cleanDisplayName(filename: string): string {
   return name;
 }
 
-export function ramd5sum(consoleId: ConsoleIdValue | null, romFile: RomFile): string | null {
+export function ramd5sum(consoleId: number | null, romFile: RomFile): string | null {
   if (!consoleId) return null;
 
   const { romPath, romBuffer, romFilename, sourcePath } = romFile;
@@ -141,11 +141,11 @@ export function ramd5sum(consoleId: ConsoleIdValue | null, romFile: RomFile): st
   if (romBuffer && consoleId !== ConsoleId.ARCADE) {
     // A fake file path is still needed when using buffer input so the RA hasher can
     // choose the correct hashing algorithm based on file extension.
-    return rhash(consoleId, romFilename, romBuffer);
+    return rhash(consoleId as ConsoleIdValue, romFilename, romBuffer);
   }
 
   // If we have a romPath, then the ROM was extracted from an archive.
-  return rhash(consoleId, romPath || sourcePath);
+  return rhash(consoleId as ConsoleIdValue, romPath || sourcePath);
 }
 
 export async function md5sum({ filePath, buffer }: HashInput): Promise<string> {

@@ -1,32 +1,31 @@
 import path from 'node:path';
-import { ConsoleId, type ConsoleIdValue } from 'node-rcheevos';
 import { SYSTEM_REGISTRY } from './systemRegistry';
 import { SYSTEM_CODES, type SystemType, type SystemCode, type SystemInfo } from '@/types/system';
 
 import type { RomFile } from '@/types/rom';
 
 interface RASystemMapping {
-  consoleId: ConsoleIdValue; // RetroArch console ID
+  consoleId: number; // RetroAchievements console ID
   code: SystemCode; // Internal system code
 }
 
 const RA_SYSTEMS: RASystemMapping[] = [
-  { consoleId: ConsoleId.MEGA_DRIVE, code: 'genesis' },
-  { consoleId: ConsoleId.NINTENDO_64, code: 'n64' },
-  { consoleId: ConsoleId.SUPER_NINTENDO, code: 'snes' },
-  { consoleId: ConsoleId.GAMEBOY, code: 'gb' },
-  { consoleId: ConsoleId.GAMEBOY_ADVANCE, code: 'gba' },
-  { consoleId: ConsoleId.GAMEBOY_COLOR, code: 'gbc' },
-  { consoleId: ConsoleId.NINTENDO, code: 'nes' },
-  { consoleId: ConsoleId.MASTER_SYSTEM, code: 'sms' },
-  { consoleId: ConsoleId.ATARI_LYNX, code: 'lynx' },
-  { consoleId: ConsoleId.NEOGEO_POCKET, code: 'ngp' },
-  { consoleId: ConsoleId.GAME_GEAR, code: 'gg' },
-  { consoleId: ConsoleId.NINTENDO_DS, code: 'nds' },
-  { consoleId: ConsoleId.ATARI_2600, code: 'atari2600' },
-  { consoleId: ConsoleId.ARCADE, code: 'arcade' },
-  { consoleId: ConsoleId.VIRTUAL_BOY, code: 'vb' },
-  { consoleId: ConsoleId.PSP, code: 'psp' },
+  { consoleId: 1, code: 'genesis' }, // MEGA_DRIVE
+  { consoleId: 2, code: 'n64' }, // NINTENDO_64
+  { consoleId: 3, code: 'snes' }, // SUPER_NINTENDO
+  { consoleId: 4, code: 'gb' }, // GAMEBOY
+  { consoleId: 5, code: 'gba' }, // GAMEBOY_ADVANCE
+  { consoleId: 6, code: 'gbc' }, // GAMEBOY_COLOR
+  { consoleId: 7, code: 'nes' }, // NINTENDO
+  { consoleId: 11, code: 'sms' }, // MASTER_SYSTEM
+  { consoleId: 13, code: 'lynx' }, // ATARI_LYNX
+  { consoleId: 14, code: 'ngp' }, // NEOGEO_POCKET
+  { consoleId: 15, code: 'gg' }, // GAME_GEAR
+  { consoleId: 18, code: 'nds' }, // NINTENDO_DS
+  { consoleId: 25, code: 'atari2600' }, // ATARI_2600
+  { consoleId: 27, code: 'arcade' }, // ARCADE
+  { consoleId: 28, code: 'vb' }, // VIRTUAL_BOY
+  { consoleId: 41, code: 'psp' }, // PSP
 ];
 
 const systems = Object.values(SYSTEM_REGISTRY);
@@ -45,7 +44,7 @@ export function getSystemByExtension(extension: string): SystemInfo[] {
   return systems.filter((system) => system.extensions.includes(ext));
 }
 
-export function getConsoleIdForSystem(code: SystemCode): ConsoleIdValue | null {
+export function getConsoleIdForSystem(code: SystemCode): number | null {
   return RA_CONSOLE_MAPPING[code] || null;
 }
 
