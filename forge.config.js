@@ -62,19 +62,24 @@ export default {
     packageAfterCopy(_forgeConfig, buildPath) {
       try {
         const pkg = JSON.parse(readFileSync(path.join(process.cwd(), 'package.json'), 'utf8'));
-        const version = pkg.dependencies?.['better-sqlite3'];
+        const nativeModules = ['better-sqlite3', 'node-rcheevos'];
 
-        if (!version) {
-          throw new Error('better-sqlite3 not found in package.json dependencies');
-        }
+        // Build install command with all modules in one go to avoid overwriting
+        const installArgs = nativeModules.map((moduleName) => {
+          const version = pkg.dependencies?.[moduleName];
+          if (!version) {
+            throw new Error(`${moduleName} not found in package.json dependencies`);
+          }
+          return `${moduleName}@${version}`;
+        });
 
-        console.log(`Installing better-sqlite3@${version} in packaged app...`);
-        execSync(`npm install --omit=dev --no-save better-sqlite3@${version}`, {
+        console.log(`Installing native modules in packaged app: ${installArgs.join(', ')}`);
+        execSync(`npm install --omit=dev --no-save ${installArgs.join(' ')}`, {
           cwd: buildPath,
           stdio: 'inherit',
         });
       } catch (error) {
-        throw new Error(`Failed to install better-sqlite3 during packaging: ${error.message}`);
+        throw new Error(`Failed to install native modules during packaging: ${error.message}`);
       }
     },
   },
