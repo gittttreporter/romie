@@ -257,8 +257,6 @@ async function handleDisplayModeToggle() {
 
 <style scoped lang="less">
 .app-sidebar {
-  width: 220px;
-  border-right: 1px solid var(--p-content-border-color);
   height: 100vh;
   display: flex;
   flex-direction: column;

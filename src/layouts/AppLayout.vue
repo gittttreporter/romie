@@ -3,12 +3,19 @@
     <!-- Invisible draggable area at the top -->
     <div class="app-layout__draggable-area"></div>
 
-    <div class="app-layout__main">
-      <AppSidebar class="app-layout__main-sidebar" />
-      <div class="app-layout__main-content">
+    <Splitter
+      class="app-layout__main"
+      :gutter-size="2"
+      state-key="r_sidebar_size"
+      state-storage="local"
+    >
+      <SplitterPanel class="app-layout__main-sidebar" :size="0" :min-size="18">
+        <AppSidebar />
+      </SplitterPanel>
+      <SplitterPanel>
         <slot />
-      </div>
-    </div>
+      </SplitterPanel>
+    </Splitter>
     <Toast position="bottom-right" />
     <ConfirmDialog style="max-width: 400px" />
   </main>
@@ -16,6 +23,8 @@
 <script setup lang="ts">
 import Toast from 'primevue/toast';
 import ConfirmDialog from 'primevue/confirmdialog';
+import Splitter from 'primevue/splitter';
+import SplitterPanel from 'primevue/splitterpanel';
 import AppSidebar from '@/components/AppSidebar.vue';
 </script>
 
@@ -41,6 +50,10 @@ import AppSidebar from '@/components/AppSidebar.vue';
     display: flex;
     height: 100vh;
     overflow: hidden;
+
+    &-sidebar {
+      max-width: 350px;
+    }
   }
 
   &__main-content {
