@@ -65,7 +65,7 @@ export const SYSTEM_REGISTRY: Partial<Record<SystemCode, SystemInfo>> = {
     displayName: 'Game Boy Color',
     fullName: 'Nintendo Game Boy Color',
     type: 'handheld',
-    extensions: ['.gbc', '.gb'],
+    extensions: ['.gbc'],
     aliases: ['gbc', 'gameboycolor', 'game boy color'],
     requiresBios: false,
     manufacturer: 'Nintendo',
