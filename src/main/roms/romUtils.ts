@@ -30,6 +30,13 @@ export const REGION_CODES: Record<string, RomRegion> = {
   France: 'Europe',
   Spain: 'Europe',
   Italy: 'Europe',
+  Sweden: 'Europe',
+  Netherlands: 'Europe',
+  Norway: 'Europe',
+  Denmark: 'Europe',
+  Portugal: 'Europe',
+  Poland: 'Europe',
+  Finland: 'Europe',
 
   // Japan
   JPN: 'Japan',
@@ -97,12 +104,6 @@ export function extractRegionFromFilename(filename: string): RomRegion | 'Unknow
         return region;
       }
     }
-  }
-
-  // Fallback: look for region codes anywhere in the filename
-  const fallbackRegion = findRegionInText(nameWithoutExt);
-  if (fallbackRegion !== 'Unknown') {
-    return fallbackRegion;
   }
 
   return 'Unknown';
@@ -224,13 +225,6 @@ function findRegionInText(text: string): RomRegion | 'Unknown' {
       if (key === cleanText) {
         return value;
       }
-    }
-  }
-
-  // Partial matching for longer region names
-  for (const [key, value] of Object.entries(REGION_CODES)) {
-    if (cleanText.toUpperCase().includes(key.toUpperCase()) && key.length > 1) {
-      return value;
     }
   }
 

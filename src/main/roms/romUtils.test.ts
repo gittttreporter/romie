@@ -14,6 +14,46 @@ describe('extractRegionFromFilename', () => {
   });
 });
 
+describe('extractRegionFromFilename - false positive prevention', () => {
+  [
+    // Should NOT match region codes within the ROM name
+    ['arkretrn.zip', 'Unknown'], // has "kr" but no tag
+    ['btlkroad.zip', 'Unknown'], // has "kr" but no tag
+    ['buckrog.zip', 'Unknown'], // has "kr" but no tag
+    ['earthjkr.zip', 'Unknown'], // has "kr" but no tag
+
+    // SHOULD match when in proper tags
+    ['Super Mario Bros (Korea).nes', 'Korea'],
+    ['Sonic [KR].md', 'Korea'],
+    ['Game (USA, Korea).rom', 'USA'], // Priority: USA first
+
+    // European countries
+    ['FIFA 98 (Sweden).iso', 'Europe'],
+    ['Rally (Norway).bin', 'Europe'],
+    ['Adventure (Netherlands).rom', 'Europe'],
+    ['Racing Game (Denmark).rom', 'Europe'],
+    ['Football (Portugal).iso', 'Europe'],
+    ['Puzzle Game (Poland).rom', 'Europe'],
+    ['Strategy (Finland).rom', 'Europe'],
+
+    // Translation tags with region codes should be ignored
+    ['Shadowgate (U) [!] [T-BR] [T-Zafarion G-Nenhum] [A-2015].nes', 'USA'], // USA ROM, ignore BR translation
+    ['Game [T-BR].rom', 'Unknown'], // Only translation tag, no actual region
+    ['Final Fantasy (J) [T-Eng].nes', 'Japan'], // Japan ROM, ignore translation
+    ['Castlevania [T-FR] [T-Spanish].nes', 'Unknown'], // Only translations, no region
+
+    // Language tags should not be detected as regions
+    ['Batman - The Video Game (PT-BR).zip', 'Unknown'], // Portuguese-Brazilian is language, not region
+    ['Battle City (PT-BR).zip', 'Unknown'], // Language tag only
+    ['Battletoads (PT-BR).zip', 'Unknown'], // Language tag only
+    ['Game (EN-US).rom', 'Unknown'], // English-US is language, not region
+  ].forEach(([filename, expected]) => {
+    test(`returns ${expected} when given ${filename}`, () => {
+      expect(extractRegionFromFilename(filename)).to.equal(expected);
+    });
+  });
+});
+
 describe('cleanDisplayName', () => {
   [
     // Basic cleaning
