@@ -20,6 +20,7 @@ const SYSTEM_COLORS: Record<SystemCode, string> = {
   psp: '#0EA5E9', // sky blue - modern portable feel
   lynx: '#EA580C', // orange - bright Atari color
   atari2600: '#A16207', // golden brown - retro Atari
+  pce: '#D97706', // amber orange - TurboGrafx branding
   arcade: '#EAB308', // bright yellow - classic arcade
 };
 

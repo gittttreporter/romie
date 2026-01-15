@@ -15,6 +15,7 @@ export const SYSTEM_CODES = [
   'psp',
   'lynx',
   'atari2600',
+  'pce',
   'arcade',
 ] as const;
 

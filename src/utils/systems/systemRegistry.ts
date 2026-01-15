@@ -191,6 +191,19 @@ export const SYSTEM_REGISTRY: Partial<Record<SystemCode, SystemInfo>> = {
     releaseYear: 1998,
   },
 
+  // === NEC ===
+  pce: {
+    code: 'pce',
+    displayName: 'PC Engine',
+    fullName: 'NEC PC Engine / TurboGrafx-16',
+    type: 'console',
+    extensions: ['.pce'],
+    aliases: ['pce', 'pcengine', 'pc engine', 'turbografx', 'turbografx16', 'tg16', 'tg-16'],
+    requiresBios: false,
+    manufacturer: 'NEC',
+    releaseYear: 1987,
+  },
+
   // === ARCADE ===
   arcade: {
     code: 'arcade',

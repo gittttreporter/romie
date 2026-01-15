@@ -70,6 +70,10 @@ export const KNULLI_PROFILE: DeviceProfile = {
       folderName: 'virtualboy',
       supportedFormats: ['.vb', '.zip', '.7z'],
     },
+    pce: {
+      folderName: 'pcengine',
+      supportedFormats: ['.pce', '.zip', '.7z'],
+    },
     arcade: {
       folderName: 'fbneo',
       supportedFormats: ['.zip', '.7z'],

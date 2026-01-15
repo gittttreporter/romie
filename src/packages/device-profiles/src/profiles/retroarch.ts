@@ -77,6 +77,10 @@ export const RETROARCH_PROFILE: DeviceProfile = {
       folderName: 'SNK - Neo Geo Pocket',
       supportedFormats: ['.ngp', '.ngc', '.zip', '.7z'],
     },
+    pce: {
+      folderName: 'NEC - PC Engine - TurboGrafx-16',
+      supportedFormats: ['.pce', '.zip', '.7z'],
+    },
     arcade: {
       folderName: 'MAME',
       supportedFormats: ['.zip', '.7z'],

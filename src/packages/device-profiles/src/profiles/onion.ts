@@ -73,6 +73,10 @@ export const ONION_OS_PROFILE: DeviceProfile = {
       folderName: 'VB',
       supportedFormats: ['.vb', '.zip', '.7z'],
     },
+    pce: {
+      folderName: 'PCE',
+      supportedFormats: ['.pce', '.zip', '.7z'],
+    },
     arcade: {
       folderName: 'ARCADE',
       supportedFormats: ['.zip', '.7z'],

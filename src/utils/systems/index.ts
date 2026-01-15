@@ -17,6 +17,7 @@ const RA_SYSTEMS: RASystemMapping[] = [
   { consoleId: 5, code: 'gba' }, // GAMEBOY_ADVANCE
   { consoleId: 6, code: 'gbc' }, // GAMEBOY_COLOR
   { consoleId: 7, code: 'nes' }, // NINTENDO
+  { consoleId: 8, code: 'pce' }, // PC_ENGINE
   { consoleId: 11, code: 'sms' }, // MASTER_SYSTEM
   { consoleId: 13, code: 'lynx' }, // ATARI_LYNX
   { consoleId: 14, code: 'ngp' }, // NEOGEO_POCKET

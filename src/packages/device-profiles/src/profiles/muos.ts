@@ -57,6 +57,10 @@ export const MUOS_PROFILE: DeviceProfile = {
       folderName: 'ngp',
       supportedFormats: ['.ngp', '.ngc', '.zip', '.7z'],
     },
+    pce: {
+      folderName: 'pce',
+      supportedFormats: ['.pce', '.zip', '.7z'],
+    },
     arcade: {
       folderName: 'arcade',
       supportedFormats: ['.zip', '.7z'],
