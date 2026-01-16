@@ -27,17 +27,10 @@
       </template>
       <template #content>
         <div class="rom-details__content">
-          <AchievementProgress
-            v-if="rom.verified && ff.retroAchievements"
+          <RomAchievements
+            :verified="rom.verified"
             :loading="loading"
-            :total="romMetadataExtended?.numAchievements"
-            :num-softcore="romMetadataExtended?.numAwardedToUser"
-            :num-hardcore="romMetadataExtended?.numAwardedToUserHardcore"
-          />
-          <RecentAchievements
-            v-if="rom.verified && ff.retroAchievements"
-            :loading="loading"
-            :achievements="romMetadataExtended?.achievements"
+            :metadata="romMetadataExtended"
           />
           <ul class="rom-details__metadata">
             <li
@@ -111,8 +104,7 @@ import { useRomStore, useFeatureFlagStore } from '@/stores';
 import { getSystemDisplayName } from '@/utils/systems';
 import TagsEditor from '@/components/TagsEditor.vue';
 import RomTitle from '@/components/RomTitle.vue';
-import AchievementProgress from '@/components/achievements/AchievementProgress.vue';
-import RecentAchievements from '@/components/achievements/RecentAchievements.vue';
+import RomAchievements from '@/components/achievements/RomAchievements.vue';
 
 import type { GameInfoAndUserProgress } from '@retroachievements/api';
 

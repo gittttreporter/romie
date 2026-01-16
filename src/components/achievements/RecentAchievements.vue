@@ -59,7 +59,6 @@ const iconLoaded = ref(false);
 const iconError = ref(false);
 const avatarErrors = ref<Record<number, boolean>>({});
 
-// https://media.retroachievements.org/Badge/384447.png
 const recentAchievements = computed(() => {
   if (!props.achievements) return [];
 
