@@ -30,6 +30,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ adventures of the stalk of celery!",
+    "id": 37897,
+    "consoleId": 57,
+    "consoleName": "Fairchild Channel F",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a7f0df802a1eaba82dd9cf2aa7ce3cd4"
+    ]
+  },
+  {
     "title": "~Homebrew~ Boxing",
     "id": 22567,
     "consoleId": 57,
@@ -224,16 +239,16 @@
     "hashes": []
   },
   {
-    "title": "Hockey & Tennis | Fairchild Channel F BIOS",
+    "title": "Hockey & Tennis",
     "id": 9072,
     "consoleId": 57,
     "consoleName": "Fairchild Channel F",
     "imageIcon": "/Images/111304.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 6,
+    "numLeaderboards": 1,
+    "points": 17,
+    "dateModified": "2025-12-18 21:48:44",
+    "forumTopicId": 33447,
     "hashes": [
       "95d339631d867c8f1d15a5f2ec26069d",
       "ac9804d4c0e9d07e33472e3726ed15c3",
@@ -264,7 +279,7 @@
     "numAchievements": 7,
     "numLeaderboards": 0,
     "points": 33,
-    "dateModified": "2023-06-02 23:56:29",
+    "dateModified": "2025-11-07 22:00:59",
     "forumTopicId": 21774,
     "hashes": [
       "4f11f13cbca685cb20e888f87b3b1586"
@@ -474,7 +489,7 @@
     "numAchievements": 8,
     "numLeaderboards": 1,
     "points": 25,
-    "dateModified": "2025-05-30 20:34:53",
+    "dateModified": "2025-09-27 06:17:31",
     "forumTopicId": 17456,
     "hashes": [
       "6ffedaed3c5cd8ba74d98901849cc451"
@@ -536,7 +551,7 @@
     "numAchievements": 11,
     "numLeaderboards": 1,
     "points": 99,
-    "dateModified": "2024-09-13 10:27:02",
+    "dateModified": "2025-10-16 09:15:47",
     "forumTopicId": 26656,
     "hashes": [
       "90a9b3952568f91502a7088bfb0ae07e"

@@ -1,5 +1,65 @@
 [
   {
+    "title": "~Homebrew~ ~Demo~ Zaku Puzzle",
+    "id": 37046,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8a6dfb3c53cd0f5e8649a5f047f85a0b"
+    ]
+  },
+  {
+    "title": "~Homebrew~ ~Hack~ Crystal Mines II: Buried Treasure",
+    "id": 37037,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b7627b8d70df9cb3e75da8e1a035c71a"
+    ]
+  },
+  {
+    "title": "~Homebrew~ ~Prototype~ Asteroids Chasers",
+    "id": 37035,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2067c87c8065f60a10b5c30392cd4417"
+    ]
+  },
+  {
+    "title": "~Homebrew~ 2048",
+    "id": 37767,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5515e0491719ff09553b6d7d930569bc"
+    ]
+  },
+  {
     "title": "~Homebrew~ 8bit-Slicks",
     "id": 19841,
     "consoleId": 13,
@@ -61,6 +121,36 @@
     ]
   },
   {
+    "title": "~Homebrew~ Biniax",
+    "id": 37036,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d82f074538f69a0bd926e01e8babef8a"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Blasting Robots",
+    "id": 37093,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f2be414bf03ad440a20880f74239b633"
+    ]
+  },
+  {
     "title": "~Homebrew~ Championship Rally",
     "id": 30040,
     "consoleId": 13,
@@ -119,6 +209,112 @@
     "forumTopicId": 26046,
     "hashes": [
       "757852d987db4cc79a1a81eadc9dd821"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Grogger",
+    "id": 37038,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e1fd2daee89cbbbffcb6f81af62afd63",
+      "f5ad5b95450c0dac977909b89367c255"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Loopz",
+    "id": 37039,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3a341972f8b86f15052833857b7b3879"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Lynx Othello",
+    "id": 37043,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "cf88183c03bc063d887aa65001cc49ca"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Lynx Quest",
+    "id": 36995,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "956931acc145c87a4a18f2cc2040ead7"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Lynxopoly",
+    "id": 37040,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5e7a37ad0d3438c5d628dfb8813e4d55"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Othello",
+    "id": 37041,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "67a14ce0d5fc5fbca4e0a3662644e5ee"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Raid on TriCity: Second Wave",
+    "id": 37042,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d89081e11dcbda2e5488144fff984217"
     ]
   },
   {
@@ -287,6 +483,36 @@
     ]
   },
   {
+    "title": "~Homebrew~ Yastuna Volume 1: The Alchemy of Cubes",
+    "id": 37044,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c40f43ffba5c37d6731cf4fa4c78702a"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Yastuna Volume 2: The Space Incident",
+    "id": 37045,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "df4881703738614ee465559ad18e6e8e"
+    ]
+  },
+  {
     "title": "~Homebrew~ YNXA",
     "id": 30046,
     "consoleId": 13,
@@ -329,6 +555,21 @@
     "forumTopicId": null,
     "hashes": [
       "8ce6c739d30d6c5ba197fcdd73d5ead5"
+    ]
+  },
+  {
+    "title": "~Prototype~ Centipede",
+    "id": 34517,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "13cb869b95c67c532efdd0e924e37299"
     ]
   },
   {
@@ -390,6 +631,34 @@
     "hashes": [
       "5d8fdfb15441cdfb8a1c66c243c486da"
     ]
+  },
+  {
+    "title": "~Unlicensed~ Alien",
+    "id": 37766,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fe5f8038a448b0d8aa82333e49e87f9c"
+    ]
+  },
+  {
+    "title": "~Z~ No Hash 37034",
+    "id": 37034,
+    "consoleId": 13,
+    "consoleName": "Atari Lynx",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
   },
   {
     "title": "A.P.B.: All Points Bulletin",
@@ -517,11 +786,11 @@
     "consoleId": 13,
     "consoleName": "Atari Lynx",
     "imageIcon": "/Images/092011.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 11,
+    "numLeaderboards": 4,
+    "points": 114,
+    "dateModified": "2025-10-11 11:12:41",
+    "forumTopicId": 32742,
     "hashes": [
       "c81abf2919effd525b83c2103b75e6ca"
     ]
@@ -741,12 +1010,12 @@
     "id": 11494,
     "consoleId": 13,
     "consoleName": "Atari Lynx",
-    "imageIcon": "/Images/092045.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118440.png",
+    "numAchievements": 19,
+    "numLeaderboards": 2,
+    "points": 224,
+    "dateModified": "2025-10-13 01:38:22",
+    "forumTopicId": 32293,
     "hashes": [
       "d5be9118bcb14243468001b08c4aa21a"
     ]
@@ -827,15 +1096,15 @@
     ]
   },
   {
-    "title": "Ishido: The Way of Stones",
+    "title": "Ishidō: The Way of Stones",
     "id": 10201,
     "consoleId": 13,
     "consoleName": "Atari Lynx",
-    "imageIcon": "/Images/092059.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2017-05-20 01:14:35",
+    "imageIcon": "/Images/122632.png",
+    "numAchievements": 7,
+    "numLeaderboards": 3,
+    "points": 53,
+    "dateModified": "2026-01-06 02:34:06",
     "forumTopicId": 26075,
     "hashes": [
       "addc6c0ae7b535839815b8e7f7fd0f11"
@@ -1210,7 +1479,7 @@
     "numAchievements": 24,
     "numLeaderboards": 2,
     "points": 317,
-    "dateModified": "2023-04-16 12:16:57",
+    "dateModified": "2026-01-17 09:20:21",
     "forumTopicId": 7074,
     "hashes": [
       "60c1dfbf112bbb2a49cf16eddb191842"

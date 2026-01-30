@@ -1206,7 +1206,7 @@
     "numAchievements": 84,
     "numLeaderboards": 14,
     "points": 516,
-    "dateModified": "2023-07-15 16:39:28",
+    "dateModified": "2025-12-04 09:45:03",
     "forumTopicId": 8435,
     "hashes": [
       "28d83150c298bcdae6aec51cc2c6975a"
@@ -1326,10 +1326,10 @@
     "consoleName": "SG-1000",
     "imageIcon": "/Images/096576.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 2,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-28 04:29:40",
+    "forumTopicId": 34181,
     "hashes": [
       "38ae610eb6266d4db8bc6d3dcb8fcd4a"
     ]
@@ -1595,7 +1595,7 @@
     "id": 6787,
     "consoleId": 33,
     "consoleName": "SG-1000",
-    "imageIcon": "/Images/083785.png",
+    "imageIcon": "/Images/123219.png",
     "numAchievements": 135,
     "numLeaderboards": 3,
     "points": 1800,
@@ -1737,11 +1737,11 @@
     "consoleId": 33,
     "consoleName": "SG-1000",
     "imageIcon": "/Images/103424.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 12,
+    "numLeaderboards": 1,
+    "points": 121,
+    "dateModified": "2025-12-01 12:35:18",
+    "forumTopicId": 33400,
     "hashes": [
       "4e457a6c5b4b613f2aac3472f6827a89"
     ]

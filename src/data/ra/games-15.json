@@ -1,5 +1,20 @@
 [
   {
+    "title": "~Hack~ ~Demo~ Tails Adventures: Uber Players",
+    "id": 37855,
+    "consoleId": 15,
+    "consoleName": "Game Gear",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "633ce644a192a2a939859b99372ad56e"
+    ]
+  },
+  {
     "title": "~Hack~ Tails Adventure: Fire of Robollion",
     "id": 24339,
     "consoleId": 15,
@@ -12,6 +27,51 @@
     "forumTopicId": null,
     "hashes": [
       "7ea233a9fb7e75445e9d44c22e466e36"
+    ]
+  },
+  {
+    "title": "~Hack~ Tails Adventures: LX",
+    "id": 37854,
+    "consoleId": 15,
+    "consoleName": "Game Gear",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "701ada1691372042e8c1092d117182fa"
+    ]
+  },
+  {
+    "title": "~Hack~ Tails Kicks Ass",
+    "id": 37856,
+    "consoleId": 15,
+    "consoleName": "Game Gear",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "41b72ae835cfa02a1a73a3d1b4671530"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Dangerous Demolition",
+    "id": 37645,
+    "consoleId": 15,
+    "consoleName": "Game Gear",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d643d140b0a6e7691ff61db20896f92e"
     ]
   },
   {
@@ -75,6 +135,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Ring Dash GG",
+    "id": 36733,
+    "consoleId": 15,
+    "consoleName": "Game Gear",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "90008552628768282f5993f4f9638b6e"
+    ]
+  },
+  {
     "title": "~Homebrew~ Snepzhen Solitaire",
     "id": 30932,
     "consoleId": 15,
@@ -120,6 +195,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ The Sword of Stone",
+    "id": 37644,
+    "consoleId": 15,
+    "consoleName": "Game Gear",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5fb06a0786776c4ba151bfa5153c6fc6"
+    ]
+  },
+  {
     "title": "~Prototype~ Cave Dude",
     "id": 20603,
     "consoleId": 15,
@@ -147,6 +237,21 @@
     "forumTopicId": 9750,
     "hashes": [
       "0336bd86c59096a6b9a069ec0ddd94b2"
+    ]
+  },
+  {
+    "title": "~Prototype~ Dinobasher Starring Bignose the Caveman",
+    "id": 36325,
+    "consoleId": 15,
+    "consoleName": "Game Gear",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7b03e5e3d8b5ccf8edbfa5bc1366b2c7"
     ]
   },
   {
@@ -246,12 +351,12 @@
     "id": 24340,
     "consoleId": 15,
     "consoleName": "Game Gear",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118604.png",
+    "numAchievements": 47,
+    "numLeaderboards": 21,
+    "points": 453,
+    "dateModified": "2026-01-28 20:27:31",
+    "forumTopicId": 32391,
     "hashes": [
       "653310b476cab68eeb8d3520c26b9755"
     ]
@@ -261,7 +366,7 @@
     "id": 14298,
     "consoleId": 15,
     "consoleName": "Game Gear",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120158.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -356,7 +461,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32343,
     "hashes": [
       "e786fb76fb3808a7b4906aa3ba9ff1a7"
     ]
@@ -490,7 +595,7 @@
     "numAchievements": 26,
     "numLeaderboards": 0,
     "points": 140,
-    "dateModified": "2024-07-04 12:49:27",
+    "dateModified": "2025-11-27 13:54:24",
     "forumTopicId": 25655,
     "hashes": [
       "0a40a863596797aa68340948b53fd6ef"
@@ -550,7 +655,7 @@
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 200,
-    "dateModified": "2025-07-31 01:00:44",
+    "dateModified": "2025-10-22 13:32:05",
     "forumTopicId": 11395,
     "hashes": [
       "33ca01d639aef0b2fecf2d059175abbe",
@@ -939,7 +1044,7 @@
     "id": 12980,
     "consoleId": 15,
     "consoleName": "Game Gear",
-    "imageIcon": "/Images/022326.png",
+    "imageIcon": "/Images/122567.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -999,7 +1104,7 @@
     "id": 31789,
     "consoleId": 15,
     "consoleName": "Game Gear",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/121791.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1081,7 +1186,8 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "ecfcb1f193ab20547e3dc1f4304ef21e"
+      "ecfcb1f193ab20547e3dc1f4304ef21e",
+      "a5d8f63bda80b2d0cf587655a389ae4c"
     ]
   },
   {
@@ -1093,7 +1199,7 @@
     "numAchievements": 49,
     "numLeaderboards": 7,
     "points": 480,
-    "dateModified": "2025-07-01 16:58:09",
+    "dateModified": "2025-10-03 18:46:48",
     "forumTopicId": 22717,
     "hashes": [
       "f0ceed28d0e83bc4adc688d06d12bf2e"
@@ -1416,6 +1522,21 @@
     ]
   },
   {
+    "title": "FIFA 96",
+    "id": 26282,
+    "consoleId": 15,
+    "consoleName": "Game Gear",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4338306d35219da89e1f6cc4550fd8a3"
+    ]
+  },
+  {
     "title": "FIFA International Soccer",
     "id": 26280,
     "consoleId": 15,
@@ -1428,21 +1549,6 @@
     "forumTopicId": null,
     "hashes": [
       "9a70ade3cc8647ee1a926ae71bb7fe52"
-    ]
-  },
-  {
-    "title": "FIFA Soccer 96 | FIFA 96",
-    "id": 26282,
-    "consoleId": 15,
-    "consoleName": "Game Gear",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "4338306d35219da89e1f6cc4550fd8a3"
     ]
   },
   {
@@ -2022,7 +2128,7 @@
     "id": 22293,
     "consoleId": 15,
     "consoleName": "Game Gear",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119625.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -2636,7 +2742,7 @@
     "id": 12654,
     "consoleId": 15,
     "consoleName": "Game Gear",
-    "imageIcon": "/Images/089124.png",
+    "imageIcon": "/Images/121021.png",
     "numAchievements": 8,
     "numLeaderboards": 3,
     "points": 34,
@@ -2662,7 +2768,7 @@
     ]
   },
   {
-    "title": "Micro Machines 2 - Turbo Tournament",
+    "title": "Micro Machines 2: Turbo Tournament",
     "id": 13241,
     "consoleId": 15,
     "consoleName": "Game Gear",
@@ -2746,7 +2852,7 @@
     "numAchievements": 22,
     "numLeaderboards": 0,
     "points": 157,
-    "dateModified": "2021-12-02 14:25:52",
+    "dateModified": "2025-10-18 20:30:30",
     "forumTopicId": 13215,
     "hashes": [
       "f9971dc9d78214f94856f6e886b1c8c2"
@@ -2791,8 +2897,8 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2025-11-25 02:06:21",
+    "forumTopicId": 32853,
     "hashes": [
       "d65e3350cba32a42d54130c356feb2a8"
     ]
@@ -2983,7 +3089,7 @@
     "id": 12623,
     "consoleId": 15,
     "consoleName": "Game Gear",
-    "imageIcon": "/Images/024253.png",
+    "imageIcon": "/Images/120890.png",
     "numAchievements": 28,
     "numLeaderboards": 0,
     "points": 333,
@@ -3126,7 +3232,7 @@
     "numAchievements": 19,
     "numLeaderboards": 0,
     "points": 110,
-    "dateModified": "2023-08-18 04:34:49",
+    "dateModified": "2025-12-16 22:43:16",
     "forumTopicId": 7335,
     "hashes": [
       "4d0d6d25dfef7e1a509d828f157d515f"
@@ -3183,7 +3289,7 @@
     "id": 29205,
     "consoleId": 15,
     "consoleName": "Game Gear",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/123092.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -3396,10 +3502,10 @@
     "consoleId": 15,
     "consoleName": "Game Gear",
     "imageIcon": "/Images/069917.png",
-    "numAchievements": 0,
+    "numAchievements": 18,
     "numLeaderboards": 50,
-    "points": 0,
-    "dateModified": "2025-08-16 11:49:57",
+    "points": 249,
+    "dateModified": "2026-01-25 02:41:21",
     "forumTopicId": 29838,
     "hashes": [
       "e0e2fbd5834c04574795c923b0147f39"
@@ -3602,7 +3708,7 @@
     ]
   },
   {
-    "title": "Quest for the Shaven Yak Starring Ren Hoek & Stimpy",
+    "title": "Quest for the Shaven Yak Starring Ren Hoëk & Stimpy",
     "id": 12844,
     "consoleId": 15,
     "consoleName": "Game Gear",
@@ -3849,12 +3955,12 @@
     "id": 34269,
     "consoleId": 15,
     "consoleName": "Game Gear",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119015.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32710,
     "hashes": [
       "a9d1712dca313ba021844f62eec8a08c",
       "c228d31cf77bd03ac457e2d22f5b2bd1"
@@ -3899,7 +4005,7 @@
     "numAchievements": 55,
     "numLeaderboards": 0,
     "points": 545,
-    "dateModified": "2022-06-25 03:41:41",
+    "dateModified": "2025-11-17 08:02:01",
     "forumTopicId": 8705,
     "hashes": [
       "f96d7da86e4f63d66175b1903f976b2c"
@@ -4038,7 +4144,7 @@
     "numAchievements": 41,
     "numLeaderboards": 1,
     "points": 474,
-    "dateModified": "2022-09-03 00:29:50",
+    "dateModified": "2025-12-04 03:08:50",
     "forumTopicId": 12010,
     "hashes": [
       "8093ef0eeb147f2a938fae3e5a26d8b3"
@@ -4053,7 +4159,7 @@
     "numAchievements": 49,
     "numLeaderboards": 126,
     "points": 385,
-    "dateModified": "2024-12-09 09:14:31",
+    "dateModified": "2025-09-03 18:24:20",
     "forumTopicId": 6578,
     "hashes": [
       "b39d1e9a40dfd3508ee4003cd28da452"
@@ -4293,7 +4399,7 @@
     "numAchievements": 45,
     "numLeaderboards": 2,
     "points": 250,
-    "dateModified": "2025-03-09 02:43:06",
+    "dateModified": "2025-09-06 05:49:58",
     "forumTopicId": 25182,
     "hashes": [
       "b1b543a313bf406d1cd049ac84b31f26"
@@ -4323,7 +4429,7 @@
     "numAchievements": 20,
     "numLeaderboards": 2,
     "points": 180,
-    "dateModified": "2024-12-08 19:06:32",
+    "dateModified": "2025-10-23 07:26:46",
     "forumTopicId": 7326,
     "hashes": [
       "1ece7480d21fb862a65233ba126282d3"
@@ -4548,7 +4654,7 @@
     "numAchievements": 44,
     "numLeaderboards": 0,
     "points": 435,
-    "dateModified": "2025-08-21 00:07:11",
+    "dateModified": "2025-09-02 21:38:00",
     "forumTopicId": 6496,
     "hashes": [
       "2c802c2e6a61509309a76f76e4e947f7",
@@ -4594,7 +4700,7 @@
     "numAchievements": 24,
     "numLeaderboards": 7,
     "points": 245,
-    "dateModified": "2023-10-18 23:19:29",
+    "dateModified": "2025-12-20 23:08:46",
     "forumTopicId": 6750,
     "hashes": [
       "18cfb9986478e6ff96f6ce878d261c8c",
@@ -4677,7 +4783,7 @@
     ]
   },
   {
-    "title": "Tarot no Yakata | House of Tarot",
+    "title": "Tarot no Yakata",
     "id": 17863,
     "consoleId": 15,
     "consoleName": "Game Gear",
@@ -4737,7 +4843,7 @@
     ]
   },
   {
-    "title": "Taz-Mania: The Search for the Lost Seabirds",
+    "title": "Taz-Mania",
     "id": 17382,
     "consoleId": 15,
     "consoleName": "Game Gear",
@@ -5162,11 +5268,11 @@
     "id": 26253,
     "consoleId": 15,
     "consoleName": "Game Gear",
-    "imageIcon": "/Images/108936.png",
+    "imageIcon": "/Images/118410.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2025-11-15 23:08:13",
     "forumTopicId": 32014,
     "hashes": [
       "082dbe19bcfb1a9d16423bc79e940826"
@@ -5177,7 +5283,7 @@
     "id": 25718,
     "consoleId": 15,
     "consoleName": "Game Gear",
-    "imageIcon": "/Images/082498.png",
+    "imageIcon": "/Images/121551.png",
     "numAchievements": 17,
     "numLeaderboards": 1,
     "points": 126,
@@ -5399,7 +5505,7 @@
     ]
   },
   {
-    "title": "Wonder Boy: The Dragon's Trap | Monster World II: Dragon no Wana",
+    "title": "Wonder Boy: The Dragon's Trap",
     "id": 12565,
     "consoleId": 15,
     "consoleName": "Game Gear",

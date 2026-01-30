@@ -120,6 +120,21 @@
     ]
   },
   {
+    "title": "Comic-Sans",
+    "id": 35649,
+    "consoleId": 72,
+    "consoleName": "WASM-4",
+    "imageIcon": "/Images/121764.png",
+    "numAchievements": 6,
+    "numLeaderboards": 0,
+    "points": 34,
+    "dateModified": "2025-11-05 10:19:11",
+    "forumTopicId": 33063,
+    "hashes": [
+      "a15d84ac06f9f1bbbb44b8b72ad7e8f3"
+    ]
+  },
+  {
     "title": "Crazy Factory",
     "id": 27650,
     "consoleId": 72,
@@ -207,6 +222,36 @@
     "forumTopicId": 22404,
     "hashes": [
       "444255185eb652c852a57f4758d1086c"
+    ]
+  },
+  {
+    "title": "Duck Maze",
+    "id": 35650,
+    "consoleId": 72,
+    "consoleName": "WASM-4",
+    "imageIcon": "/Images/120793.png",
+    "numAchievements": 0,
+    "numLeaderboards": 1,
+    "points": 0,
+    "dateModified": "2025-11-25 19:16:54",
+    "forumTopicId": 33301,
+    "hashes": [
+      "a359288d51ebe7678df4891d09452aa4"
+    ]
+  },
+  {
+    "title": "Earth Invaders",
+    "id": 35651,
+    "consoleId": 72,
+    "consoleName": "WASM-4",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f07acae65361275fec4271da94f54065"
     ]
   },
   {
@@ -480,6 +525,21 @@
     ]
   },
   {
+    "title": "Jump 'n' Shoot",
+    "id": 35652,
+    "consoleId": 72,
+    "consoleName": "WASM-4",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "33a3220e392269c113aa92dc7906ccbc"
+    ]
+  },
+  {
     "title": "Kitty Game",
     "id": 27436,
     "consoleId": 72,
@@ -533,7 +593,7 @@
     "numAchievements": 6,
     "numLeaderboards": 0,
     "points": 25,
-    "dateModified": "2022-05-01 22:00:29",
+    "dateModified": "2025-11-04 08:19:26",
     "forumTopicId": 16283,
     "hashes": [
       "ecf202c3fea60d1b645d37462245e315"
@@ -585,6 +645,36 @@
     ]
   },
   {
+    "title": "Mazethingie",
+    "id": 35653,
+    "consoleId": 72,
+    "consoleName": "WASM-4",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "35c7030f33a42b0aa1e55b8a98cab632"
+    ]
+  },
+  {
+    "title": "Melancholy: cart 0",
+    "id": 35654,
+    "consoleId": 72,
+    "consoleName": "WASM-4",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8afba0799351d89747e5a807ebd373fe"
+    ]
+  },
+  {
     "title": "Meteoroids",
     "id": 19301,
     "consoleId": 72,
@@ -623,8 +713,8 @@
     "imageIcon": "/Images/056961.png",
     "numAchievements": 6,
     "numLeaderboards": 5,
-    "points": 25,
-    "dateModified": "2022-05-08 22:27:50",
+    "points": 20,
+    "dateModified": "2025-10-08 17:53:25",
     "forumTopicId": 16293,
     "hashes": [
       "04afe658b3c9e2e61dbef7897d604adc"
@@ -771,12 +861,12 @@
     "id": 34384,
     "consoleId": 72,
     "consoleName": "WASM-4",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/121450.png",
+    "numAchievements": 7,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "points": 40,
+    "dateModified": "2025-12-11 13:12:53",
+    "forumTopicId": 33509,
     "hashes": [
       "973c5e969ba18229376ebe6e8420fe56"
     ]
@@ -861,7 +951,7 @@
     "id": 25680,
     "consoleId": 72,
     "consoleName": "WASM-4",
-    "imageIcon": "/Images/082108.png",
+    "imageIcon": "/Images/120183.png",
     "numAchievements": 9,
     "numLeaderboards": 0,
     "points": 35,
@@ -891,12 +981,12 @@
     "id": 27644,
     "consoleId": 72,
     "consoleName": "WASM-4",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/120971.png",
+    "numAchievements": 7,
+    "numLeaderboards": 4,
+    "points": 30,
+    "dateModified": "2025-11-23 19:27:39",
+    "forumTopicId": 33280,
     "hashes": [
       "ddc6ce5c7624c1ff33537faef8ddae0e"
     ]
@@ -1296,7 +1386,7 @@
     "id": 19319,
     "consoleId": 72,
     "consoleName": "WASM-4",
-    "imageIcon": "/Images/067912.png",
+    "imageIcon": "/Images/121552.png",
     "numAchievements": 6,
     "numLeaderboards": 0,
     "points": 6,
@@ -1352,6 +1442,21 @@
     ]
   },
   {
+    "title": "UEM Mini Game",
+    "id": 35655,
+    "consoleId": 72,
+    "consoleName": "WASM-4",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b3406a544cb0a96b675360a853d720ad"
+    ]
+  },
+  {
     "title": "Untangle",
     "id": 33048,
     "consoleId": 72,
@@ -1379,6 +1484,21 @@
     "forumTopicId": null,
     "hashes": [
       "bcc2a64f6d9cb045c2b1ec2b5cff4b9a"
+    ]
+  },
+  {
+    "title": "WASM Invaders",
+    "id": 35656,
+    "consoleId": 72,
+    "consoleName": "WASM-4",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e0102bec6ef9bf5a78255a5f914d7f01"
     ]
   },
   {
@@ -1457,6 +1577,21 @@
     ]
   },
   {
+    "title": "WASMstein 3D",
+    "id": 37511,
+    "consoleId": 72,
+    "consoleName": "WASM-4",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a16c43936a0f7d0510fb1b7a57780174"
+    ]
+  },
+  {
     "title": "Watris",
     "id": 19334,
     "consoleId": 72,
@@ -1511,7 +1646,7 @@
     "numAchievements": 6,
     "numLeaderboards": 1,
     "points": 8,
-    "dateModified": "2024-08-01 21:38:28",
+    "dateModified": "2025-12-17 01:20:10",
     "forumTopicId": 16335,
     "hashes": [
       "5e470ef900a385018294e521798555f8"
@@ -1578,6 +1713,21 @@
     ]
   },
   {
+    "title": "Zigtris",
+    "id": 35657,
+    "consoleId": 72,
+    "consoleName": "WASM-4",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c5591e6aa2bf3c735088f8960a276983"
+    ]
+  },
+  {
     "title": "Znake",
     "id": 24185,
     "consoleId": 72,
@@ -1616,7 +1766,7 @@
     "numAchievements": 11,
     "numLeaderboards": 1,
     "points": 42,
-    "dateModified": "2022-05-17 16:23:11",
+    "dateModified": "2025-12-12 20:11:19",
     "forumTopicId": 16337,
     "hashes": [
       "88f0a50bf711bdc9fae8f1ee91395cb1",

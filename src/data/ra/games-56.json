@@ -196,7 +196,7 @@
     "id": 23838,
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
-    "imageIcon": "/Images/080051.png",
+    "imageIcon": "/Images/117699.png",
     "numAchievements": 23,
     "numLeaderboards": 1,
     "points": 220,
@@ -211,7 +211,7 @@
     "id": 23839,
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119119.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -436,11 +436,11 @@
     "id": 23834,
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
-    "imageIcon": "/Images/080153.png",
+    "imageIcon": "/Images/120100.png",
     "numAchievements": 34,
     "numLeaderboards": 0,
     "points": 283,
-    "dateModified": "2023-10-30 15:19:03",
+    "dateModified": "2025-12-17 23:00:42",
     "forumTopicId": 23600,
     "hashes": [
       "d94a0a87aa7b26032d49e94bd3837fd8",
@@ -505,7 +505,7 @@
     "numAchievements": 20,
     "numLeaderboards": 4,
     "points": 208,
-    "dateModified": "2025-03-04 21:27:13",
+    "dateModified": "2025-09-08 10:34:23",
     "forumTopicId": 26034,
     "hashes": [
       "fda4c1804f3ce9723db4ed2ad38ef269"
@@ -531,7 +531,7 @@
     "id": 23846,
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120593.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -652,9 +652,9 @@
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
     "imageIcon": "/Images/115868.png",
-    "numAchievements": 20,
+    "numAchievements": 19,
     "numLeaderboards": 6,
-    "points": 369,
+    "points": 364,
     "dateModified": "2025-07-29 12:02:20",
     "forumTopicId": 31729,
     "hashes": [
@@ -711,12 +711,12 @@
     "id": 9182,
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
-    "imageIcon": "/Images/061943.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2023-12-21 00:19:43",
-    "forumTopicId": 23575,
+    "imageIcon": "/Images/121655.png",
+    "numAchievements": 42,
+    "numLeaderboards": 8,
+    "points": 451,
+    "dateModified": "2026-01-08 01:44:19",
+    "forumTopicId": 33599,
     "hashes": [
       "14902f6044ab1fe5b0ad9fc44b0e1814"
     ]
@@ -753,7 +753,7 @@
     ]
   },
   {
-    "title": "Mutation Nation [Subset - Multi]",
+    "title": "Mutation Nation [Subset - Multiplayer]",
     "id": 26990,
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
@@ -918,7 +918,7 @@
     ]
   },
   {
-    "title": "Puzzle Bobble | Bust-A-Move",
+    "title": "Puzzle Bobble",
     "id": 23803,
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
@@ -986,7 +986,7 @@
     "numAchievements": 46,
     "numLeaderboards": 7,
     "points": 143,
-    "dateModified": "2023-11-04 01:18:58",
+    "dateModified": "2026-01-17 12:02:30",
     "forumTopicId": 23592,
     "hashes": [
       "8dc5545bde96a4debfc6deae3f20aa86"
@@ -1197,10 +1197,10 @@
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
     "imageIcon": "/Images/085952.png",
-    "numAchievements": 189,
+    "numAchievements": 126,
     "numLeaderboards": 0,
-    "points": 1769,
-    "dateModified": "2024-07-11 21:15:29",
+    "points": 314,
+    "dateModified": "2026-01-02 22:53:03",
     "forumTopicId": 23571,
     "hashes": [
       "26e2b6677508159f29b408f143ae5b03"
@@ -1312,7 +1312,7 @@
     ]
   },
   {
-    "title": "Tengai Makyou: Shinden | Far East of Eden: Kabuki Klash",
+    "title": "Tengai Makyou: Shinden",
     "id": 9156,
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
@@ -1320,7 +1320,7 @@
     "numAchievements": 41,
     "numLeaderboards": 6,
     "points": 271,
-    "dateModified": "2025-08-25 16:25:44",
+    "dateModified": "2025-11-30 18:05:35",
     "forumTopicId": 23591,
     "hashes": [
       "ead8565baa2255f3273e1996a0666c13"
@@ -1331,7 +1331,7 @@
     "id": 23870,
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/121641.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1363,7 +1363,7 @@
     "id": 23872,
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120965.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1409,7 +1409,7 @@
     "id": 23875,
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
-    "imageIcon": "/Images/071374.png",
+    "imageIcon": "/Images/120944.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1424,7 +1424,7 @@
     "id": 23827,
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122058.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1439,7 +1439,7 @@
     "id": 23828,
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122057.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1473,7 +1473,7 @@
     "numAchievements": 32,
     "numLeaderboards": 12,
     "points": 325,
-    "dateModified": "2025-06-18 04:38:13",
+    "dateModified": "2026-01-14 23:08:08",
     "forumTopicId": 23581,
     "hashes": [
       "ec04ad9093243f662b7d3dde8005a165"
@@ -1530,7 +1530,7 @@
     "id": 9162,
     "consoleId": 56,
     "consoleName": "Neo Geo CD",
-    "imageIcon": "/Images/086967.png",
+    "imageIcon": "/Images/121553.png",
     "numAchievements": 17,
     "numLeaderboards": 0,
     "points": 247,

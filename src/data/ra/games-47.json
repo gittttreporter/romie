@@ -55,7 +55,24 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "a8bdd05816906c0b2ee99c29e094f734"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Pack'n Boy",
+    "id": 37205,
+    "consoleId": 47,
+    "consoleName": "PC-8000/8800",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "aa110629813c6b4fefcad958c3ba21ec"
+    ]
   },
   {
     "title": "~Z~ Mario Bros. Special",
@@ -73,19 +90,17 @@
     ]
   },
   {
-    "title": "177",
+    "title": "~Z~ No Hash 6978",
     "id": 6978,
     "consoleId": 47,
     "consoleName": "PC-8000/8800",
-    "imageIcon": "/Images/058489.png",
-    "numAchievements": 20,
-    "numLeaderboards": 4,
-    "points": 201,
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
     "dateModified": "2023-07-23 14:29:41",
-    "forumTopicId": 16633,
-    "hashes": [
-      "6675451bad0928cc3f05aa241a6f067f"
-    ]
+    "forumTopicId": null,
+    "hashes": []
   },
   {
     "title": "1942",
@@ -128,7 +143,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "ca73c2e692bad9669ac2db2d9ed7b898"
+    ]
   },
   {
     "title": "Abyss",
@@ -262,7 +279,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "333f9488a2ea8e25df3dbb6bbb772b05"
+    ]
   },
   {
     "title": "American Truck",
@@ -292,6 +311,22 @@
     "forumTopicId": null,
     "hashes": [
       "544b4bc14b46ff6a5aef9087834120e3"
+    ]
+  },
+  {
+    "title": "Archon",
+    "id": 37342,
+    "consoleId": 47,
+    "consoleName": "PC-8000/8800",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "93b53820c463b925facc610beaab9bef",
+      "82b830f3c837468e71d3756322d13b8e"
     ]
   },
   {
@@ -500,7 +535,7 @@
     "numAchievements": 29,
     "numLeaderboards": 0,
     "points": 250,
-    "dateModified": "2021-03-10 22:25:50",
+    "dateModified": "2025-11-19 18:09:41",
     "forumTopicId": 12536,
     "hashes": [
       "1f37c90372f768650491d33325a1e396",
@@ -523,6 +558,22 @@
     "hashes": []
   },
   {
+    "title": "Bishoujo Shashinkan: Moving School",
+    "id": 37343,
+    "consoleId": 47,
+    "consoleName": "PC-8000/8800",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "958803eb714de339861308697bcb8842",
+      "df533f6ce3d525435e73a37d0f08bb7a"
+    ]
+  },
+  {
     "title": "Blue Mint",
     "id": 32648,
     "consoleId": 47,
@@ -543,10 +594,10 @@
     "consoleId": 47,
     "consoleName": "PC-8000/8800",
     "imageIcon": "/Images/101836.png",
-    "numAchievements": 12,
+    "numAchievements": 11,
     "numLeaderboards": 1,
-    "points": 69,
-    "dateModified": "2025-01-05 03:06:33",
+    "points": 66,
+    "dateModified": "2025-09-09 02:14:29",
     "forumTopicId": 27983,
     "hashes": [
       "d00e07046291efda14a076b870d26fd5"
@@ -617,12 +668,12 @@
     "id": 25310,
     "consoleId": 47,
     "consoleName": "PC-8000/8800",
-    "imageIcon": "/Images/079260.png",
+    "imageIcon": "/Images/120222.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33150,
     "hashes": [
       "3c39e5b538f938465bb87b86b613f610"
     ]
@@ -775,6 +826,23 @@
     "forumTopicId": null,
     "hashes": [
       "42708acdd9a7deb70322024d74ad4065"
+    ]
+  },
+  {
+    "title": "Cruise Chaser Blassty",
+    "id": 36267,
+    "consoleId": 47,
+    "consoleName": "PC-8000/8800",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e61510e304a8b97052fd10666e404975",
+      "91e5098cdbd11f48792cfe663c100fb0",
+      "abb32689590fed594aa131534a1056c4"
     ]
   },
   {
@@ -945,7 +1013,7 @@
     "numAchievements": 39,
     "numLeaderboards": 0,
     "points": 232,
-    "dateModified": "2024-12-03 08:03:47",
+    "dateModified": "2026-01-17 18:54:02",
     "forumTopicId": 13639,
     "hashes": [
       "7ede109c078aa2b3fd052f537b9fa1c8",
@@ -1003,6 +1071,21 @@
     "forumTopicId": null,
     "hashes": [
       "7f485a99a0157916f096983a0f1b4f4f"
+    ]
+  },
+  {
+    "title": "Donkey Gorilla",
+    "id": 34876,
+    "consoleId": 47,
+    "consoleName": "PC-8000/8800",
+    "imageIcon": "/Images/117926.png",
+    "numAchievements": 8,
+    "numLeaderboards": 2,
+    "points": 31,
+    "dateModified": "2025-12-30 19:59:09",
+    "forumTopicId": 32312,
+    "hashes": [
+      "8c13b5d875e4cee792a00836e1b7d226"
     ]
   },
   {
@@ -1387,12 +1470,12 @@
     "id": 33474,
     "consoleId": 47,
     "consoleName": "PC-8000/8800",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/118123.png",
+    "numAchievements": 41,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "points": 310,
+    "dateModified": "2026-01-15 07:00:06",
+    "forumTopicId": 32348,
     "hashes": [
       "eb63ca7ebd38357d8eb5f793296564b0",
       "250308b334a42e5ad19df56593a17092",
@@ -1546,9 +1629,9 @@
     "consoleId": 47,
     "consoleName": "PC-8000/8800",
     "imageIcon": "/Images/063223.png",
-    "numAchievements": 67,
+    "numAchievements": 0,
     "numLeaderboards": 0,
-    "points": 850,
+    "points": 0,
     "dateModified": "2022-11-23 13:32:05",
     "forumTopicId": 8184,
     "hashes": [
@@ -1893,7 +1976,7 @@
     "numAchievements": 49,
     "numLeaderboards": 1,
     "points": 620,
-    "dateModified": "2025-01-27 20:47:57",
+    "dateModified": "2025-12-28 00:33:05",
     "forumTopicId": 28150,
     "hashes": [
       "85831fe9365d42f8535c11a9e649f25a"
@@ -1916,6 +1999,46 @@
       "6c34d2c255f993393da5aac988cbd1c6",
       "ca76dfee37cb1c1ee179f00513b54004",
       "cfe66b3651bdc36e02c78a8e08b8b19e"
+    ]
+  },
+  {
+    "title": "Jesus",
+    "id": 36209,
+    "consoleId": 47,
+    "consoleName": "PC-8000/8800",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f99eb7bdab87af15d855584768debcfa",
+      "ffb4d23d5261dfd3b2ce394e07b6280c",
+      "adc003c1f2945f30518c93753e05bf15",
+      "6d3aacada0b93e39205bed198727f08c",
+      "bbe734b44dd7b5f256c2daced233d824",
+      "4613e84255a457cd645bf02872d9acaa"
+    ]
+  },
+  {
+    "title": "Jesus II",
+    "id": 36210,
+    "consoleId": 47,
+    "consoleName": "PC-8000/8800",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3fa5357be1036afad99ff65a7a22049d",
+      "b91f9e1c3135ac94c5c9d8faebb13d64",
+      "9ba8ccfff330c0c9d22c0ca4d92b4c68",
+      "5bfc677e548d86562d5ba768d7a16614",
+      "20d1498154e2c534928867bbfe614533",
+      "17ced3ccd40b09eaecd593b8a4285560"
     ]
   },
   {
@@ -2072,6 +2195,27 @@
     ]
   },
   {
+    "title": "Last Armageddon",
+    "id": 36867,
+    "consoleId": 47,
+    "consoleName": "PC-8000/8800",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "009ca366a6e3f83805eb63d80550006c",
+      "c4c2c29f045275cf6f4b41797d6b68e4",
+      "7e74aef612c16fceb7465a2ba613c995",
+      "88518cbf0c6d6f08fdc8e8f559490f05",
+      "c270bb12c1df29e868fd830be22a1b31",
+      "4df4f1a05b5d8292e3db20839c593871",
+      "53fe98cebbb423af9d5c0d0ec7a5a9de"
+    ]
+  },
+  {
     "title": "Lock On",
     "id": 31423,
     "consoleId": 47,
@@ -2114,6 +2258,38 @@
     "forumTopicId": 28690,
     "hashes": [
       "17018d645592852a74e5ad965388f94e"
+    ]
+  },
+  {
+    "title": "Lupin III: Babylon no Ougon Densetsu",
+    "id": 36369,
+    "consoleId": 47,
+    "consoleName": "PC-8000/8800",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5bd9f99c7d0531eb660c4705baf043f1",
+      "e8d213c5294ee71f77549b5e4825f6b6"
+    ]
+  },
+  {
+    "title": "Lupin III: Cagliostro no Shiro",
+    "id": 36368,
+    "consoleId": 47,
+    "consoleName": "PC-8000/8800",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8ef499f9a62d96600b7e29bd098d382c",
+      "ae4087eafa3c2613f7397c1c39be15ed"
     ]
   },
   {
@@ -2264,6 +2440,21 @@
     "forumTopicId": 8031,
     "hashes": [
       "dc66bcd1034c08879a2a47a10e6c95c8"
+    ]
+  },
+  {
+    "title": "Meo's Mystery Adventure",
+    "id": 36290,
+    "consoleId": 47,
+    "consoleName": "PC-8000/8800",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f50dabb3c9a0b7b2ca382e9d1d5a2ca1"
     ]
   },
   {
@@ -2454,6 +2645,21 @@
     ]
   },
   {
+    "title": "Newtron",
+    "id": 36382,
+    "consoleId": 47,
+    "consoleName": "PC-8000/8800",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "15ea1868bdad74e601d114026530016a"
+    ]
+  },
+  {
     "title": "Nightlife",
     "id": 30833,
     "consoleId": 47,
@@ -2477,7 +2683,7 @@
     "numAchievements": 23,
     "numLeaderboards": 1,
     "points": 135,
-    "dateModified": "2025-02-20 04:01:24",
+    "dateModified": "2025-09-13 08:23:11",
     "forumTopicId": 27903,
     "hashes": [
       "a2558e8b836005fc2b869c0edfb9d89a"
@@ -2575,7 +2781,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33100,
     "hashes": [
       "dd04ed20fa30d66226336d8406d3f99d"
     ]
@@ -2585,7 +2791,7 @@
     "id": 17772,
     "consoleId": 47,
     "consoleName": "PC-8000/8800",
-    "imageIcon": "/Images/045204.png",
+    "imageIcon": "/Images/121002.png",
     "numAchievements": 10,
     "numLeaderboards": 0,
     "points": 76,
@@ -2824,7 +3030,7 @@
     "id": 31627,
     "consoleId": 47,
     "consoleName": "PC-8000/8800",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122662.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -2846,7 +3052,7 @@
     "id": 31626,
     "consoleId": 47,
     "consoleName": "PC-8000/8800",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122660.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -3030,6 +3236,21 @@
     ]
   },
   {
+    "title": "Shikinjou",
+    "id": 36469,
+    "consoleId": 47,
+    "consoleName": "PC-8000/8800",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d284a7fce08568c7d1b9f36bfec68a30"
+    ]
+  },
+  {
     "title": "Shin Taketori Monogatari",
     "id": 30834,
     "consoleId": 47,
@@ -3158,7 +3379,7 @@
     "numAchievements": 23,
     "numLeaderboards": 1,
     "points": 302,
-    "dateModified": "2024-12-05 03:03:49",
+    "dateModified": "2025-10-21 20:24:08",
     "forumTopicId": 27900,
     "hashes": [
       "b327fabd0e95fb0b0948b5b9bc410c1a"
@@ -3374,7 +3595,7 @@
     "numAchievements": 77,
     "numLeaderboards": 1,
     "points": 679,
-    "dateModified": "2023-07-31 16:38:15",
+    "dateModified": "2025-12-27 09:32:56",
     "forumTopicId": 22258,
     "hashes": [
       "fd6199123cff370e7f2694c350615ee1"
@@ -3448,12 +3669,12 @@
     "id": 30818,
     "consoleId": 47,
     "consoleName": "PC-8000/8800",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/123866.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 34209,
     "hashes": [
       "4a70d47b026967ca8cfc93e261355565"
     ]
@@ -3708,7 +3929,7 @@
     "id": 13982,
     "consoleId": 47,
     "consoleName": "PC-8000/8800",
-    "imageIcon": "/Images/023549.png",
+    "imageIcon": "/Images/120012.png",
     "numAchievements": 26,
     "numLeaderboards": 0,
     "points": 450,

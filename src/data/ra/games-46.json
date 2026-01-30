@@ -1,5 +1,20 @@
 [
   {
+    "title": "~Homebrew~ ~Demo~ Spike Goes Skiing",
+    "id": 37698,
+    "consoleId": 46,
+    "consoleName": "Vectrex",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "cec6824e56baba97e90090f685d9294c"
+    ]
+  },
+  {
     "title": "~Homebrew~ Beluga Dreams",
     "id": 25165,
     "consoleId": 46,
@@ -105,6 +120,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Patriots Remix",
+    "id": 36987,
+    "consoleId": 46,
+    "consoleName": "Vectrex",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b4b6051a7b91c9c54aa25ad12f553cae"
+    ]
+  },
+  {
     "title": "~Homebrew~ Quartz's Quest",
     "id": 23000,
     "consoleId": 46,
@@ -117,6 +147,21 @@
     "forumTopicId": 20853,
     "hashes": [
       "e018b905f4a6be9b162beca5611c6010"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Rockaroids Remix: 3rd Rock",
+    "id": 36988,
+    "consoleId": 46,
+    "consoleName": "Vectrex",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "625e537ebb7056e1c6f787c502443bd0"
     ]
   },
   {
@@ -238,6 +283,21 @@
     "forumTopicId": 17123,
     "hashes": [
       "c92f22327e3ba5750d061d817531761a"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Vector Vaders",
+    "id": 36989,
+    "consoleId": 46,
+    "consoleName": "Vectrex",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "130ee6db535f805307c3b55ca8b95bd0"
     ]
   },
   {

@@ -10,7 +10,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "357cbf03cd3761ca97e24e48fda609d0"
+    ]
   },
   {
     "title": "~Homebrew~ ~Demo~ Special Ninja Squad",
@@ -726,7 +728,7 @@
     ]
   },
   {
-    "title": "1941: Counter Attack [Subset - Multi]",
+    "title": "1941: Counter Attack [Subset - Multiplayer]",
     "id": 28683,
     "consoleId": 8,
     "consoleName": "PC Engine/TurboGrafx-16",
@@ -808,7 +810,7 @@
     "consoleName": "PC Engine/TurboGrafx-16",
     "imageIcon": "/Images/062888.png",
     "numAchievements": 26,
-    "numLeaderboards": 0,
+    "numLeaderboards": 3,
     "points": 120,
     "dateModified": "2024-03-30 13:16:26",
     "forumTopicId": 3845,
@@ -1093,7 +1095,7 @@
     ]
   },
   {
-    "title": "Blazing Lazers | Gunhed",
+    "title": "Blazing Lazers",
     "id": 2274,
     "consoleId": 8,
     "consoleName": "PC Engine/TurboGrafx-16",
@@ -1128,11 +1130,11 @@
     "id": 2275,
     "consoleId": 8,
     "consoleName": "PC Engine/TurboGrafx-16",
-    "imageIcon": "/Images/110095.png",
-    "numAchievements": 55,
+    "imageIcon": "/Images/121124.png",
+    "numAchievements": 53,
     "numLeaderboards": 1,
-    "points": 500,
-    "dateModified": "2024-12-23 23:06:22",
+    "points": 494,
+    "dateModified": "2025-11-26 16:04:45",
     "forumTopicId": 9051,
     "hashes": [
       "f19869d1823a28e8472452baf697cf56"
@@ -1147,7 +1149,7 @@
     "numAchievements": 56,
     "numLeaderboards": 1,
     "points": 401,
-    "dateModified": "2025-01-02 20:49:06",
+    "dateModified": "2025-10-28 12:06:14",
     "forumTopicId": 11867,
     "hashes": [
       "22945308eb41396f39c00444be9f251f"
@@ -1162,7 +1164,7 @@
     "numAchievements": 60,
     "numLeaderboards": 2,
     "points": 471,
-    "dateModified": "2023-09-05 01:33:15",
+    "dateModified": "2026-01-03 21:33:52",
     "forumTopicId": 3873,
     "hashes": [
       "17a08fca7468a24039f1a6c97015807f",
@@ -1240,7 +1242,7 @@
     "numAchievements": 48,
     "numLeaderboards": 9,
     "points": 432,
-    "dateModified": "2024-07-27 19:44:00",
+    "dateModified": "2026-01-09 13:01:21",
     "forumTopicId": 24808,
     "hashes": [
       "3aa21326050c489ea867de05dd6cb7e5"
@@ -1399,7 +1401,7 @@
     ]
   },
   {
-    "title": "Cadash [Subset - Multi]",
+    "title": "Cadash [Subset - Multiplayer]",
     "id": 24081,
     "consoleId": 8,
     "consoleName": "PC Engine/TurboGrafx-16",
@@ -1489,7 +1491,7 @@
     ]
   },
   {
-    "title": "China Warrior | The Kung Fu",
+    "title": "China Warrior",
     "id": 2285,
     "consoleId": 8,
     "consoleName": "PC Engine/TurboGrafx-16",
@@ -1529,9 +1531,11 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32561,
     "hashes": [
-      "32a6a97aa9e69fa8091bfda374609922"
+      "32a6a97aa9e69fa8091bfda374609922",
+      "9dcfed2ba5b59fa8f97387e01bb96f66",
+      "ff76216eb5d8c0d773f20b3cb220f5ff"
     ]
   },
   {
@@ -1543,7 +1547,7 @@
     "numAchievements": 15,
     "numLeaderboards": 6,
     "points": 218,
-    "dateModified": "2023-09-19 19:38:05",
+    "dateModified": "2025-12-11 11:07:14",
     "forumTopicId": 2693,
     "hashes": [
       "6e0c2c5ebb0caf13a4ba59b653ab55ef",
@@ -1661,7 +1665,7 @@
     "id": 9212,
     "consoleId": 8,
     "consoleName": "PC Engine/TurboGrafx-16",
-    "imageIcon": "/Images/047333.png",
+    "imageIcon": "/Images/120789.png",
     "numAchievements": 48,
     "numLeaderboards": 1,
     "points": 755,
@@ -1721,7 +1725,7 @@
     "id": 2288,
     "consoleId": 8,
     "consoleName": "PC Engine/TurboGrafx-16",
-    "imageIcon": "/Images/042894.png",
+    "imageIcon": "/Images/120851.png",
     "numAchievements": 20,
     "numLeaderboards": 0,
     "points": 300,
@@ -1800,7 +1804,7 @@
     "numAchievements": 52,
     "numLeaderboards": 2,
     "points": 544,
-    "dateModified": "2024-12-14 19:49:34",
+    "dateModified": "2025-11-16 10:39:00",
     "forumTopicId": 2513,
     "hashes": [
       "84b0df00a7fb6dae64739c9dd4842130",
@@ -1836,7 +1840,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 34184,
     "hashes": [
       "ac5290f448ee230ff9337b437557af52"
     ]
@@ -1883,7 +1887,6 @@
     "dateModified": "2023-08-12 04:52:56",
     "forumTopicId": 19786,
     "hashes": [
-      "0a459d74f0545f4538705276422be34e",
       "5ba010cd617c6f2b0f6e926fd4ef8a42"
     ]
   },
@@ -1974,7 +1977,7 @@
     "numAchievements": 24,
     "numLeaderboards": 1,
     "points": 220,
-    "dateModified": "2024-03-10 04:46:13",
+    "dateModified": "2026-01-24 21:15:05",
     "forumTopicId": 25720,
     "hashes": [
       "7df6342574ed3e0241029a11f1f5c4da"
@@ -2569,7 +2572,7 @@
     "numAchievements": 32,
     "numLeaderboards": 0,
     "points": 490,
-    "dateModified": "2024-04-30 00:02:39",
+    "dateModified": "2025-09-22 23:20:43",
     "forumTopicId": 26210,
     "hashes": [
       "015b8a761e1c3a8d0d474ef7e1063a55"
@@ -2762,7 +2765,7 @@
     "id": 8708,
     "consoleId": 8,
     "consoleName": "PC Engine/TurboGrafx-16",
-    "imageIcon": "/Images/028106.png",
+    "imageIcon": "/Images/121211.png",
     "numAchievements": 34,
     "numLeaderboards": 0,
     "points": 343,
@@ -2786,7 +2789,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "1d7dbc1ecff5f6661bffb6c2cfe1912f"
+      "6e6a1d3c2119b88c42d6cc516c71cdba"
     ]
   },
   {
@@ -2836,7 +2839,7 @@
     ]
   },
   {
-    "title": "Juuouki [Subset - Multi]",
+    "title": "Juuouki [Subset - Multiplayer]",
     "id": 29048,
     "consoleId": 8,
     "consoleName": "PC Engine/TurboGrafx-16",
@@ -2920,7 +2923,7 @@
     "numAchievements": 12,
     "numLeaderboards": 0,
     "points": 185,
-    "dateModified": "2024-04-15 14:49:54",
+    "dateModified": "2025-11-06 02:41:51",
     "forumTopicId": 3727,
     "hashes": [
       "0d6de0fee8ef07c96c94275623ce98d1",
@@ -3160,7 +3163,7 @@
     "id": 22775,
     "consoleId": 8,
     "consoleName": "PC Engine/TurboGrafx-16",
-    "imageIcon": "/Images/075962.png",
+    "imageIcon": "/Images/121541.png",
     "numAchievements": 30,
     "numLeaderboards": 1,
     "points": 204,
@@ -3210,7 +3213,7 @@
     "numAchievements": 21,
     "numLeaderboards": 4,
     "points": 106,
-    "dateModified": "2025-06-24 19:57:53",
+    "dateModified": "2025-10-25 02:36:31",
     "forumTopicId": 26151,
     "hashes": [
       "887b9fa8296ff3c98839e11cc7039763",
@@ -3516,7 +3519,7 @@
     "numAchievements": 50,
     "numLeaderboards": 0,
     "points": 338,
-    "dateModified": "2022-07-14 20:23:21",
+    "dateModified": "2025-11-15 14:52:27",
     "forumTopicId": 12140,
     "hashes": [
       "36678d3ec3b9eb534d9807be79587c8c"
@@ -3731,7 +3734,7 @@
     "numAchievements": 19,
     "numLeaderboards": 0,
     "points": 226,
-    "dateModified": "2021-01-30 21:01:14",
+    "dateModified": "2025-11-21 00:24:48",
     "forumTopicId": 2336,
     "hashes": [
       "407b7e772f86fbdfd90f1e4ac087c03d",
@@ -3777,7 +3780,7 @@
     "numAchievements": 83,
     "numLeaderboards": 6,
     "points": 726,
-    "dateModified": "2025-03-25 04:20:47",
+    "dateModified": "2025-12-06 07:16:33",
     "forumTopicId": 25902,
     "hashes": [
       "39f5f51e066e2d7874efcff7d6f394ef"
@@ -4300,12 +4303,13 @@
     "numAchievements": 55,
     "numLeaderboards": 0,
     "points": 500,
-    "dateModified": "2021-11-29 19:02:09",
+    "dateModified": "2025-11-30 02:20:20",
     "forumTopicId": 5956,
     "hashes": [
       "c0e606b8ecb1c64b01ddd062e54672b7",
       "cfd7fc43a9664979685b8e4358e4555f",
-      "ecbd032873e2b30ed0bc25d20505a8ed"
+      "ecbd032873e2b30ed0bc25d20505a8ed",
+      "5fb0ef737dcea6a7cb8df0fbcd2670b6"
     ]
   },
   {
@@ -4317,7 +4321,7 @@
     "numAchievements": 19,
     "numLeaderboards": 0,
     "points": 205,
-    "dateModified": "2023-08-16 19:06:04",
+    "dateModified": "2025-11-17 04:21:31",
     "forumTopicId": 4488,
     "hashes": [
       "57c888f4af792dc4588a2f9dbebea31a",
@@ -4359,11 +4363,11 @@
     "id": 2324,
     "consoleId": 8,
     "consoleName": "PC Engine/TurboGrafx-16",
-    "imageIcon": "/Images/022874.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-08-30 14:53:31",
+    "imageIcon": "/Images/119459.png",
+    "numAchievements": 27,
+    "numLeaderboards": 2,
+    "points": 296,
+    "dateModified": "2025-11-08 04:12:17",
     "forumTopicId": 25275,
     "hashes": [
       "46719950684f5148c20730c6fd7df4a0"
@@ -4423,7 +4427,7 @@
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 521,
-    "dateModified": "2021-11-30 08:31:00",
+    "dateModified": "2026-01-01 04:15:42",
     "forumTopicId": 509,
     "hashes": [
       "59d23b7af39ea827eceb1d7e2cc363c0",
@@ -4548,7 +4552,7 @@
     "numAchievements": 45,
     "numLeaderboards": 0,
     "points": 640,
-    "dateModified": "2024-06-12 22:05:11",
+    "dateModified": "2025-12-19 11:25:35",
     "forumTopicId": 1374,
     "hashes": [
       "e7fc6d455247c63a7b3fa6a8a090d9b3",
@@ -4822,7 +4826,7 @@
     "numAchievements": 42,
     "numLeaderboards": 1,
     "points": 600,
-    "dateModified": "2024-12-12 09:45:22",
+    "dateModified": "2025-11-22 00:55:17",
     "forumTopicId": 5842,
     "hashes": [
       "09f944f6c28cf77d17dd668e9cc160f7",
@@ -5123,11 +5127,11 @@
     "id": 2339,
     "consoleId": 8,
     "consoleName": "PC Engine/TurboGrafx-16",
-    "imageIcon": "/Images/001589.png",
+    "imageIcon": "/Images/120103.png",
     "numAchievements": 13,
     "numLeaderboards": 0,
     "points": 75,
-    "dateModified": "2021-05-27 23:00:33",
+    "dateModified": "2025-10-29 13:59:16",
     "forumTopicId": 740,
     "hashes": [
       "4333192a22a121772356d3821d445a69",
@@ -5220,7 +5224,7 @@
     "numAchievements": 40,
     "numLeaderboards": 2,
     "points": 382,
-    "dateModified": "2025-05-31 02:59:18",
+    "dateModified": "2025-12-13 08:01:57",
     "forumTopicId": 25415,
     "hashes": [
       "367c426ccd7b9ce45e86a836d83d17db",

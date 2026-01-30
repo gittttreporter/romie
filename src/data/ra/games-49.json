@@ -68,7 +68,7 @@
     "numAchievements": 14,
     "numLeaderboards": 2,
     "points": 165,
-    "dateModified": "2023-07-18 22:59:56",
+    "dateModified": "2025-11-30 23:05:08",
     "forumTopicId": 16883,
     "hashes": [
       "770aaf1214a145ba2b1511b0de752a24"
@@ -607,7 +607,7 @@
     "id": 9786,
     "consoleId": 49,
     "consoleName": "PC-FX",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/123614.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -688,7 +688,7 @@
     "numAchievements": 34,
     "numLeaderboards": 1,
     "points": 183,
-    "dateModified": "2022-07-07 00:30:11",
+    "dateModified": "2025-12-22 02:54:39",
     "forumTopicId": 12036,
     "hashes": [
       "b66c6490791269a180ff82097ee762a0"
@@ -770,19 +770,18 @@
     ]
   },
   {
-    "title": "Team Innocent: The Point of No Return - G.C.P.O.SS",
+    "title": "Team Innocent: The Point of No Return",
     "id": 16465,
     "consoleId": 49,
     "consoleName": "PC-FX",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 16881,
+    "imageIcon": "/Images/121798.png",
+    "numAchievements": 40,
+    "numLeaderboards": 3,
+    "points": 353,
+    "dateModified": "2025-12-21 03:46:34",
+    "forumTopicId": 33651,
     "hashes": [
       "3827b255e716ef0670378fb6e0b47fb1",
-      "d81df118af451d20fdf7d70a631cd189",
       "02ebdbd5b1a2193143b45296ea15fbb8"
     ]
   },
@@ -822,7 +821,7 @@
     "id": 16467,
     "consoleId": 49,
     "consoleName": "PC-FX",
-    "imageIcon": "/Images/070235.png",
+    "imageIcon": "/Images/120895.png",
     "numAchievements": 15,
     "numLeaderboards": 0,
     "points": 88,

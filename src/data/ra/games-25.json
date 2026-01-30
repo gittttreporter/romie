@@ -30,6 +30,23 @@
     ]
   },
   {
+    "title": "~Hack~ Bermuda",
+    "id": 37877,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bcef7880828a391cf6b50d5a6dcef719",
+      "cf3c2725f736d4bcb84ad6f42de62a41",
+      "073d7aff37b7601431e4f742c36c0dc1"
+    ]
+  },
+  {
     "title": "~Hack~ Tank AI",
     "id": 13317,
     "consoleId": 25,
@@ -75,6 +92,38 @@
     ]
   },
   {
+    "title": "~Homebrew~ Aardvark",
+    "id": 37265,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "82ee056af81203af58092ff2e6cf079d",
+      "689f49e31cac68db8a2cf8f44fa7a01a"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Abyss of Chernobyl",
+    "id": 37266,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fd805d35c48437e1d99d6390f33b0112",
+      "a729818b7f9ca18c631adde04e211a83"
+    ]
+  },
+  {
     "title": "~Homebrew~ Alien Force",
     "id": 26007,
     "consoleId": 25,
@@ -94,7 +143,7 @@
     "id": 26073,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119150.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -147,7 +196,23 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "81b400ecf7ddae9c57dcd0fac503749b"
+      "81b400ecf7ddae9c57dcd0fac503749b",
+      "f69a2458d29efaff1b4a76adb923e984"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Assembloids",
+    "id": 37755,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "35f2237213a6771500e324184c37d8b8"
     ]
   },
   {
@@ -166,6 +231,51 @@
     ]
   },
   {
+    "title": "~Homebrew~ Backfire",
+    "id": 37053,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ea08d519122e6af06117fdded62c525d"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Bee-Ball",
+    "id": 37054,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "45cbf6ed6ec3140ba3723c1e5dcec9d7"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Bees",
+    "id": 37923,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/123402.png",
+    "numAchievements": 6,
+    "numLeaderboards": 1,
+    "points": 9,
+    "dateModified": "2026-01-27 23:36:06",
+    "forumTopicId": 34095,
+    "hashes": [
+      "597af15cc043c11f60f1e5cc6f091380"
+    ]
+  },
+  {
     "title": "~Homebrew~ Bird & Beans",
     "id": 26027,
     "consoleId": 25,
@@ -174,7 +284,7 @@
     "numAchievements": 11,
     "numLeaderboards": 10,
     "points": 63,
-    "dateModified": "2024-04-29 20:14:08",
+    "dateModified": "2025-11-24 21:12:30",
     "forumTopicId": 26216,
     "hashes": [
       "41e0953e9e8810ce67bc7995b37bbf8b"
@@ -211,6 +321,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Carrot Kingdom",
+    "id": 37913,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/123149.png",
+    "numAchievements": 7,
+    "numLeaderboards": 4,
+    "points": 40,
+    "dateModified": "2026-01-18 04:39:40",
+    "forumTopicId": 34031,
+    "hashes": [
+      "e60ddaf73ee51ecba7dd22219faede50"
+    ]
+  },
+  {
     "title": "~Homebrew~ Cave Raider",
     "id": 28935,
     "consoleId": 25,
@@ -223,6 +348,21 @@
     "forumTopicId": null,
     "hashes": [
       "e532c1a9c4110c4a359b8e7514dc5c48"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Chetiry",
+    "id": 37941,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9784290f422e7aeeab4d542318bd9a1f"
     ]
   },
   {
@@ -316,6 +456,23 @@
     ]
   },
   {
+    "title": "~Homebrew~ ElectroBall",
+    "id": 37267,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "cd43a9cc395d8899f85be4e5c5177fc2",
+      "519d391e51426df42c71358eecb1ad75",
+      "ca6d7724c1c6fda00acb06f6c4c8a94f"
+    ]
+  },
+  {
     "title": "~Homebrew~ Euchre",
     "id": 22186,
     "consoleId": 25,
@@ -328,6 +485,21 @@
     "forumTopicId": 20008,
     "hashes": [
       "6205855cc848d1f6c4551391b9bfa279"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Fall Down",
+    "id": 37756,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "edd69e956e153057ee548bd76b5017e8"
     ]
   },
   {
@@ -381,7 +553,7 @@
     "id": 25982,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119102.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -404,6 +576,37 @@
     "forumTopicId": 26949,
     "hashes": [
       "28fd7490ddb2f24f7eb6ba97a8f67c6b"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Game of the Bear",
+    "id": 37268,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "dc7eff9936c27218480cbb0fc2d756c1"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Game of the Bear - 2 Much to Bear",
+    "id": 37269,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d4b0a44b79bd2da5dc97811f210abcaf",
+      "1ae73be0ab11a0bba1509a0a0dff2772"
     ]
   },
   {
@@ -453,6 +656,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Hunchy 2",
+    "id": 37055,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9fa0c664b157a0c27d10319dbbca812c"
+    ]
+  },
+  {
     "title": "~Homebrew~ Hunger Shark",
     "id": 24092,
     "consoleId": 25,
@@ -466,6 +684,36 @@
     "hashes": [
       "919278fc296daeca578376d542166d8c",
       "84a127ff664edff1fcd6e559eb681fa9"
+    ]
+  },
+  {
+    "title": "~Homebrew~ I Ran",
+    "id": 37270,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "47db521cc84aaa1a0a8eef9464685dc9"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Immunity",
+    "id": 37271,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a8d604acb9a7b6e57d511a4dc67135cb"
     ]
   },
   {
@@ -591,6 +839,22 @@
     ]
   },
   {
+    "title": "~Homebrew~ Mr. Yo-Yo",
+    "id": 37272,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b54be87652cd9af6095f7d7f154762c6",
+      "eb99c0286ff206ea0626a10ec6d07b46"
+    ]
+  },
+  {
     "title": "~Homebrew~ Myst Demake",
     "id": 26405,
     "consoleId": 25,
@@ -625,7 +889,7 @@
     "id": 26012,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119249.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -633,6 +897,51 @@
     "forumTopicId": null,
     "hashes": [
       "1c11a231ef51cd45075d9c3c30c9621a"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Ninjish Guy in Low Res World",
+    "id": 37273,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "567db49a3ee319ff5e30fe0dcb7bd7fd"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Omicron",
+    "id": 37274,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2148917316ca5ce1672f6c49c0f89d0b"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Oozy the Goo Slime Quest",
+    "id": 37757,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "94ae9d9a8561988164148b88d7891797"
     ]
   },
   {
@@ -771,6 +1080,85 @@
     ]
   },
   {
+    "title": "~Homebrew~ Robo Tito",
+    "id": 37275,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/123865.png",
+    "numAchievements": 14,
+    "numLeaderboards": 1,
+    "points": 71,
+    "dateModified": "2026-01-29 21:59:32",
+    "forumTopicId": 34206,
+    "hashes": [
+      "20bb15cbf61f85684d88c348a121fc1a",
+      "e2bd71a61584da41ac7c55b90deab543"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Robo-Ninja Climb",
+    "id": 37758,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2372dd6d58b8bb34882e171ce1143d3c"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Robot City",
+    "id": 37276,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "828fc8784d3fc5451c482db3a73c7f49",
+      "cbcc94565291c3b412ef5614b9e04ba2",
+      "e12d63de3e9516a389b8d0559ed2f5db"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Rock Shot",
+    "id": 36536,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/120659.png",
+    "numAchievements": 8,
+    "numLeaderboards": 0,
+    "points": 42,
+    "dateModified": "2025-11-22 17:59:08",
+    "forumTopicId": 33255,
+    "hashes": [
+      "d92c1ebe55807fab5921d960130d6925"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Seaweed Assault",
+    "id": 37277,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3034532daf80997f752aee680d2e7fc3",
+      "c7765a3af7ff156e18a970d5b9eb4f85"
+    ]
+  },
+  {
     "title": "~Homebrew~ Sheep It Up!",
     "id": 13456,
     "consoleId": 25,
@@ -848,6 +1236,22 @@
     ]
   },
   {
+    "title": "~Homebrew~ Space Game",
+    "id": 37278,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "44ca1a88274ff55787ed1763296b8456",
+      "753802cda6e0d53bcd99bfa2d1c6a239"
+    ]
+  },
+  {
     "title": "~Homebrew~ Space Rocks",
     "id": 34468,
     "consoleId": 25,
@@ -893,6 +1297,23 @@
     ]
   },
   {
+    "title": "~Homebrew~ StarGiraf",
+    "id": 37912,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e0b5cbede75b96a2e7c68ddbaed77858",
+      "03649cc2d2169c9b6dd163670da67d0f",
+      "baff265b249b59a7b5a405fe683112d4"
+    ]
+  },
+  {
     "title": "~Homebrew~ Stepz",
     "id": 27362,
     "consoleId": 25,
@@ -923,6 +1344,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Swoops",
+    "id": 37279,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "cec71f88f02ec4ab742b1a6cefdceba9"
+    ]
+  },
+  {
     "title": "~Homebrew~ Tetris26",
     "id": 13141,
     "consoleId": 25,
@@ -935,6 +1371,21 @@
     "forumTopicId": 7723,
     "hashes": [
       "0279a63d922163da5a4fde76397f3fe0"
+    ]
+  },
+  {
+    "title": "~Homebrew~ The Angry Video Game Nerd",
+    "id": 36936,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9150cd982fbd340c75b1371a12796704"
     ]
   },
   {
@@ -957,7 +1408,7 @@
     "id": 13322,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119132.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1134,6 +1585,66 @@
     ]
   },
   {
+    "title": "~Prototype~ 3-D Ghost Attack",
+    "id": 36687,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fcbdf405f0fc2027b0ea45bb5af94c1a"
+    ]
+  },
+  {
+    "title": "~Prototype~ 3-D Havoc",
+    "id": 36688,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "60cd61a2dfccb0e2736434f9792c1672"
+    ]
+  },
+  {
+    "title": "~Prototype~ Actionauts",
+    "id": 36689,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a1bcbe0bfe6570da2661fc4de2f74e8a"
+    ]
+  },
+  {
+    "title": "~Prototype~ Alligator People",
+    "id": 36690,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e1a51690792838c5c687da80cd764d78"
+    ]
+  },
+  {
     "title": "~Prototype~ Aquaventure",
     "id": 20600,
     "consoleId": 25,
@@ -1146,6 +1657,66 @@
     "forumTopicId": null,
     "hashes": [
       "038e1e79c3d4410defde4bfe0b99cc32"
+    ]
+  },
+  {
+    "title": "~Prototype~ Arkyology",
+    "id": 36729,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2434102f30eeb47792cf0825e368229b"
+    ]
+  },
+  {
+    "title": "~Prototype~ Astro Chase",
+    "id": 36728,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7d24f3054be9950aa263e005581c4786"
+    ]
+  },
+  {
+    "title": "~Prototype~ Atom Smasher",
+    "id": 35098,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2cc3049b7feb8e92f1870f1972629757"
+    ]
+  },
+  {
+    "title": "~Prototype~ Boggle",
+    "id": 36691,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a5855d73d304d83ef07dde03e379619f"
     ]
   },
   {
@@ -1179,6 +1750,66 @@
     ]
   },
   {
+    "title": "~Prototype~ Cabbage Patch Kids: Adventures in the Park",
+    "id": 36692,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "66fcf7643d554f5e15d4d06bab59fe70"
+    ]
+  },
+  {
+    "title": "~Prototype~ Combat Two",
+    "id": 35099,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b0c9cf89a6d4e612524f4fd48b5bb562"
+    ]
+  },
+  {
+    "title": "~Prototype~ Crack'ed",
+    "id": 36693,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fe67087f9c22655ce519616fc6c6ef4d"
+    ]
+  },
+  {
+    "title": "~Prototype~ Depth Charge",
+    "id": 36694,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "519f007c0e14fb90208dbb5199dfb604"
+    ]
+  },
+  {
     "title": "~Prototype~ Donald Duck's Speedboat",
     "id": 13022,
     "consoleId": 25,
@@ -1191,6 +1822,21 @@
     "forumTopicId": 15625,
     "hashes": [
       "937736d899337036de818391a87271e0"
+    ]
+  },
+  {
+    "title": "~Prototype~ Dukes of Hazzard",
+    "id": 35100,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "51de328e79d919d7234cf19c1cd77fbc"
     ]
   },
   {
@@ -1224,6 +1870,51 @@
     ]
   },
   {
+    "title": "~Prototype~ Elf Adventure",
+    "id": 36695,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7d483b702c44ee65cd2df22cbcc8b7ed"
+    ]
+  },
+  {
+    "title": "~Prototype~ Elk Attack",
+    "id": 36696,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7eafc9827e8d5b1336905939e097aae7"
+    ]
+  },
+  {
+    "title": "~Prototype~ Firefox",
+    "id": 36727,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "554fd5775ca6d544818c96825032cf0d"
+    ]
+  },
+  {
     "title": "~Prototype~ Fish",
     "id": 32962,
     "consoleId": 25,
@@ -1239,6 +1930,21 @@
     ]
   },
   {
+    "title": "~Prototype~ Frog Pond",
+    "id": 36698,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f67181b3a01b9c9159840b15449b87b0"
+    ]
+  },
+  {
     "title": "~Prototype~ Garfield",
     "id": 17914,
     "consoleId": 25,
@@ -1247,7 +1953,7 @@
     "numAchievements": 7,
     "numLeaderboards": 2,
     "points": 27,
-    "dateModified": "2024-08-22 13:03:51",
+    "dateModified": "2025-09-20 23:30:10",
     "forumTopicId": 13759,
     "hashes": [
       "dc13df8420ec69841a7c51e41b9fbba5"
@@ -1269,6 +1975,36 @@
     ]
   },
   {
+    "title": "~Prototype~ Hard-Head",
+    "id": 35097,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "700a786471c8a91ec09e2f8e47f14a04"
+    ]
+  },
+  {
+    "title": "~Prototype~ Harem",
+    "id": 36699,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a34560841e0878c7b14cc65f79f6967d"
+    ]
+  },
+  {
     "title": "~Prototype~ Holey Moley",
     "id": 22460,
     "consoleId": 25,
@@ -1281,6 +2017,21 @@
     "forumTopicId": null,
     "hashes": [
       "078e08c1ddf839067b7bc7b88dc04ac1"
+    ]
+  },
+  {
+    "title": "~Prototype~ Ixion",
+    "id": 36700,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2f0546c4d238551c7d64d884b618100c"
     ]
   },
   {
@@ -1299,6 +2050,96 @@
     ]
   },
   {
+    "title": "~Prototype~ Kamikaze Saucers",
+    "id": 36701,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7b43c32e3d4ff5932f39afcb4c551627"
+    ]
+  },
+  {
+    "title": "~Prototype~ Kick-Man",
+    "id": 36726,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "248668b364514de590382a7eda2c9834"
+    ]
+  },
+  {
+    "title": "~Prototype~ Lasercade",
+    "id": 36702,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1fab68fd67fe5a86b2c0a9227a59bb95"
+    ]
+  },
+  {
+    "title": "~Prototype~ Looping",
+    "id": 36703,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5babe0cad3ec99d76b0aa1d36a695d2f"
+    ]
+  },
+  {
+    "title": "~Prototype~ Meltdown",
+    "id": 36704,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "96e798995af6ed9d8601166d4350f276"
+    ]
+  },
+  {
+    "title": "~Prototype~ Peek-A-Boo",
+    "id": 36705,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e40a818dac4dd851f3b4aafbe2f1e0c1"
+    ]
+  },
+  {
     "title": "~Prototype~ Pizza Chef",
     "id": 11785,
     "consoleId": 25,
@@ -1314,6 +2155,51 @@
     ]
   },
   {
+    "title": "~Prototype~ Planet of the Apes",
+    "id": 36706,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9efb4e1a15a6cdd286e4bcd7cd94b7b8"
+    ]
+  },
+  {
+    "title": "~Prototype~ Pompeii",
+    "id": 36707,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a83b070b485cf1fb4d5a48da153fdf1a"
+    ]
+  },
+  {
+    "title": "~Prototype~ Power Lords",
+    "id": 36723,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3ad3dc799211ccd424d7c6d454401436"
+    ]
+  },
+  {
     "title": "~Prototype~ Pursuit of the Pink Panther",
     "id": 34000,
     "consoleId": 25,
@@ -1326,6 +2212,21 @@
     "forumTopicId": null,
     "hashes": [
       "56210a3b9ea6d5dd8f417a357ed8ca92"
+    ]
+  },
+  {
+    "title": "~Prototype~ Racer",
+    "id": 36724,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3c7a7b3a0a7e6319b2fa0f923ef6c9af"
     ]
   },
   {
@@ -1356,6 +2257,51 @@
     "forumTopicId": null,
     "hashes": [
       "d97fd5e6e1daacd909559a71f189f14b"
+    ]
+  },
+  {
+    "title": "~Prototype~ Rubik's Cube 3-D",
+    "id": 36708,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "40b1832177c63ebf81e6c5b61aaffd3a"
+    ]
+  },
+  {
+    "title": "~Prototype~ Rush Hour",
+    "id": 36709,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b9b4612358a0b2c1b4d66bb146767306"
+    ]
+  },
+  {
+    "title": "~Prototype~ S.A.C. Alert",
+    "id": 36710,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "715dbf2e39ba8a52c5fe5cdd927b37e0"
     ]
   },
   {
@@ -1404,8 +2350,8 @@
     ]
   },
   {
-    "title": "~Prototype~ Sinistar",
-    "id": 13033,
+    "title": "~Prototype~ Secret Agent",
+    "id": 36712,
     "consoleId": 25,
     "consoleName": "Atari 2600",
     "imageIcon": "/Images/000001.png",
@@ -1415,7 +2361,67 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
+      "605fd59bfef88901c8c4794193a4cbad"
+    ]
+  },
+  {
+    "title": "~Prototype~ Shooting Arcade",
+    "id": 36713,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "15c11ab6e4502b2010b18366133fc322"
+    ]
+  },
+  {
+    "title": "~Prototype~ Sinistar",
+    "id": 13033,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/119414.png",
+    "numAchievements": 9,
+    "numLeaderboards": 1,
+    "points": 75,
+    "dateModified": "2025-10-22 10:53:34",
+    "forumTopicId": 32886,
+    "hashes": [
       "1e85f8bccb4b866d4daa9fcf89306474"
+    ]
+  },
+  {
+    "title": "~Prototype~ Sky Patrol",
+    "id": 36714,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4c9307de724c36fd487af6c99ca078f2"
+    ]
+  },
+  {
+    "title": "~Prototype~ Snark",
+    "id": 36725,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f753c0799f8ed2c767d3241112b96408"
     ]
   },
   {
@@ -1464,6 +2470,36 @@
     ]
   },
   {
+    "title": "~Prototype~ Stunt Cycle",
+    "id": 36715,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c3bbc673acf2701b5275e85d9372facf"
+    ]
+  },
+  {
+    "title": "~Prototype~ Tarzan",
+    "id": 36718,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "468dc062a58499d081c59cf5fd08f655"
+    ]
+  },
+  {
     "title": "~Prototype~ Tempest",
     "id": 13098,
     "consoleId": 25,
@@ -1476,6 +2512,111 @@
     "forumTopicId": 22082,
     "hashes": [
       "c830f6ae7ee58bcc2a6712fb33e92d55"
+    ]
+  },
+  {
+    "title": "~Prototype~ The Entity",
+    "id": 36697,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9f5096a6f1a5049df87798eb59707583"
+    ]
+  },
+  {
+    "title": "~Prototype~ The Lord of the Rings: Journey to Rivendell",
+    "id": 36711,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e24d7d879281ffec0641e9c3f52e505a"
+    ]
+  },
+  {
+    "title": "~Prototype~ The Texas Chainsaw Massacre",
+    "id": 36722,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2d15b092e8350912ec4b2e5e750fa1c6"
+    ]
+  },
+  {
+    "title": "~Prototype~ Thwocker",
+    "id": 36411,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c032c2bd7017fdfbba9a105ec50f800e"
+    ]
+  },
+  {
+    "title": "~Prototype~ Turbo",
+    "id": 36719,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "807841df228ee8aab0a06ee639ce5a8a"
+    ]
+  },
+  {
+    "title": "~Prototype~ Wings",
+    "id": 36720,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8e48ea6ea53709b98e6f4bd8aa018908"
+    ]
+  },
+  {
+    "title": "~Prototype~ Wizard",
+    "id": 36721,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7b24bfe1b61864e758ada1fe9adaa098"
     ]
   },
   {
@@ -1492,6 +2633,34 @@
     "hashes": [
       "c6688781f4ab844852f4e3352772289b"
     ]
+  },
+  {
+    "title": "~Unlicensed~ Astrowar",
+    "id": 36508,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8f53a3b925f0fd961d9b8c4d46ee6755"
+    ]
+  },
+  {
+    "title": "~Z~ No Hash 12722",
+    "id": 12722,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
   },
   {
     "title": "3-D Tic-Tac-Toe",
@@ -1533,7 +2702,7 @@
     "numAchievements": 12,
     "numLeaderboards": 3,
     "points": 75,
-    "dateModified": "2019-10-22 22:38:02",
+    "dateModified": "2025-09-28 02:34:48",
     "forumTopicId": 6287,
     "hashes": [
       "157bddb7192754a45372be196797f284",
@@ -1631,6 +2800,22 @@
     ]
   },
   {
+    "title": "Alien's Return",
+    "id": 36396,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "103f1756d9dc0dd2b16b53ad0f0f1859",
+      "4093382187f8387e6d011883e8ea519b"
+    ]
+  },
+  {
     "title": "Alpha Beam with Ernie",
     "id": 13207,
     "consoleId": 25,
@@ -1703,21 +2888,6 @@
     "forumTopicId": null,
     "hashes": [
       "de78b3a064d374390ac0710f95edde92"
-    ]
-  },
-  {
-    "title": "Astérix",
-    "id": 22893,
-    "consoleId": 25,
-    "consoleName": "Atari 2600",
-    "imageIcon": "/Images/090732.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-08-26 11:16:53",
-    "forumTopicId": 31773,
-    "hashes": [
-      "faebcb2ef1f3831b2fc1dbd39d36517c"
     ]
   },
   {
@@ -1861,10 +3031,10 @@
     "consoleId": 25,
     "consoleName": "Atari 2600",
     "imageIcon": "/Images/107332.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-06-07 16:34:54",
+    "numAchievements": 16,
+    "numLeaderboards": 2,
+    "points": 81,
+    "dateModified": "2025-09-05 21:22:47",
     "forumTopicId": 30425,
     "hashes": [
       "ab4ac994865fb16ebb85738316309457"
@@ -1875,7 +3045,7 @@
     "id": 13138,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/032509.png",
+    "imageIcon": "/Images/117774.png",
     "numAchievements": 6,
     "numLeaderboards": 3,
     "points": 35,
@@ -1988,6 +3158,21 @@
     "forumTopicId": 9405,
     "hashes": [
       "d22a401f0b20808196f538cc43786459"
+    ]
+  },
+  {
+    "title": "Birthday Mania",
+    "id": 36397,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a6239810564638de7e4c54e66b3014e4"
     ]
   },
   {
@@ -2300,7 +3485,7 @@
     "numAchievements": 11,
     "numLeaderboards": 1,
     "points": 67,
-    "dateModified": "2025-07-30 17:46:11",
+    "dateModified": "2025-09-24 17:50:29",
     "forumTopicId": 30569,
     "hashes": [
       "b816296311019ab69a21cb9e9e235d12"
@@ -2311,12 +3496,12 @@
     "id": 16639,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/123207.png",
+    "numAchievements": 10,
+    "numLeaderboards": 2,
+    "points": 70,
+    "dateModified": "2026-01-18 19:30:56",
+    "forumTopicId": 34043,
     "hashes": [
       "76f66ce3b83d7a104a899b4b3354a2f2"
     ]
@@ -2330,7 +3515,7 @@
     "numAchievements": 24,
     "numLeaderboards": 1,
     "points": 260,
-    "dateModified": "2022-04-21 05:21:51",
+    "dateModified": "2025-09-05 02:04:10",
     "forumTopicId": 13382,
     "hashes": [
       "91c2098e88a6b13f977af8c003e0bca5"
@@ -2388,9 +3573,9 @@
     "consoleName": "Atari 2600",
     "imageIcon": "/Images/111497.png",
     "numAchievements": 0,
-    "numLeaderboards": 1,
+    "numLeaderboards": 3,
     "points": 0,
-    "dateModified": "2025-08-21 21:44:52",
+    "dateModified": "2026-01-12 22:47:46",
     "forumTopicId": 7992,
     "hashes": [
       "3f5a43602f960ede330cd2f43a25139e"
@@ -2524,10 +3709,10 @@
     "consoleId": 25,
     "consoleName": "Atari 2600",
     "imageIcon": "/Images/057557.png",
-    "numAchievements": 13,
+    "numAchievements": 12,
     "numLeaderboards": 1,
-    "points": 375,
-    "dateModified": "2024-12-15 04:29:27",
+    "points": 370,
+    "dateModified": "2025-10-04 12:01:33",
     "forumTopicId": 10866,
     "hashes": [
       "00b7b4cbec81570642283e7fc1ef17af"
@@ -2624,6 +3809,21 @@
     ]
   },
   {
+    "title": "Crypts of Chaos",
+    "id": 36175,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "384f5fbf57b5e92ed708935ebf8a8610"
+    ]
+  },
+  {
     "title": "Crystal Castles",
     "id": 13028,
     "consoleId": 25,
@@ -2636,21 +3836,6 @@
     "forumTopicId": 7621,
     "hashes": [
       "1c6eb740d3c485766cade566abab8208"
-    ]
-  },
-  {
-    "title": "Custer's Revenge",
-    "id": 12722,
-    "consoleId": 25,
-    "consoleName": "Atari 2600",
-    "imageIcon": "/Images/028455.png",
-    "numAchievements": 26,
-    "numLeaderboards": 4,
-    "points": 130,
-    "dateModified": "2024-12-10 01:28:37",
-    "forumTopicId": 8509,
-    "hashes": [
-      "58513bae774360b96866a07ca0e8fd8e"
     ]
   },
   {
@@ -2752,10 +3937,25 @@
     "numAchievements": 13,
     "numLeaderboards": 10,
     "points": 271,
-    "dateModified": "2023-02-19 02:49:54",
+    "dateModified": "2025-12-13 02:03:03",
     "forumTopicId": 11211,
     "hashes": [
       "b12a7f63787a6bb08e683837a8ed3f18"
+    ]
+  },
+  {
+    "title": "Demons to Diamonds",
+    "id": 36277,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f91fb8da3223b79f1c9a07b77ebfa0b2"
     ]
   },
   {
@@ -2767,7 +3967,7 @@
     "numAchievements": 38,
     "numLeaderboards": 0,
     "points": 328,
-    "dateModified": "2024-12-23 02:25:43",
+    "dateModified": "2025-12-12 21:45:34",
     "forumTopicId": 6188,
     "hashes": [
       "fd4f5536fd80f35c64d365df85873418"
@@ -2853,7 +4053,7 @@
     "id": 13323,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/060129.png",
+    "imageIcon": "/Images/121604.png",
     "numAchievements": 15,
     "numLeaderboards": 1,
     "points": 148,
@@ -3059,6 +4259,22 @@
     ]
   },
   {
+    "title": "Fatal Run",
+    "id": 36278,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "85470dcb7989e5e856f36b962d815537",
+      "074ec425ec20579e64a7ded592155d48"
+    ]
+  },
+  {
     "title": "Fathom",
     "id": 34113,
     "consoleId": 25,
@@ -3071,6 +4287,21 @@
     "forumTopicId": null,
     "hashes": [
       "0b55399cf640a2a00ba72dd155a0c140"
+    ]
+  },
+  {
+    "title": "Final Approach",
+    "id": 37200,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "211fbbdbbca1102dc5b43dc8157c09b3"
     ]
   },
   {
@@ -3146,6 +4377,21 @@
     "forumTopicId": null,
     "hashes": [
       "30512e0e83903fc05541d2f6a6a62654"
+    ]
+  },
+  {
+    "title": "Flash Gordon",
+    "id": 36279,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8786c1e56ef221d946c64f6b65b697e9"
     ]
   },
   {
@@ -3333,12 +4579,12 @@
     "id": 16353,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/086763.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118193.png",
+    "numAchievements": 11,
+    "numLeaderboards": 3,
+    "points": 49,
+    "dateModified": "2025-09-20 16:53:17",
+    "forumTopicId": 32344,
     "hashes": [
       "2bee7f226d506c217163bad4ab1768c0"
     ]
@@ -3502,7 +4748,7 @@
     "numAchievements": 47,
     "numLeaderboards": 12,
     "points": 500,
-    "dateModified": "2021-11-21 21:56:43",
+    "dateModified": "2025-12-05 05:58:04",
     "forumTopicId": 6031,
     "hashes": [
       "fca4a5be1251927027f2c24774a02160"
@@ -3614,6 +4860,21 @@
     ]
   },
   {
+    "title": "Ikari Warriors",
+    "id": 36213,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9a21fba9ee9794e0fadd7c7eb6be4e12"
+    ]
+  },
+  {
     "title": "Indy 500",
     "id": 13314,
     "consoleId": 25,
@@ -3652,7 +4913,7 @@
     "numAchievements": 12,
     "numLeaderboards": 3,
     "points": 125,
-    "dateModified": "2024-08-11 17:43:15",
+    "dateModified": "2025-11-18 01:22:41",
     "forumTopicId": 27600,
     "hashes": [
       "58a82e1da64a692fd727c25faef2ecc9"
@@ -3679,10 +4940,10 @@
     "consoleId": 25,
     "consoleName": "Atari 2600",
     "imageIcon": "/Images/113348.png",
-    "numAchievements": 23,
+    "numAchievements": 22,
     "numLeaderboards": 2,
-    "points": 70,
-    "dateModified": "2024-11-11 17:05:03",
+    "points": 67,
+    "dateModified": "2025-12-15 02:47:03",
     "forumTopicId": 7830,
     "hashes": [
       "3276c777cbe97cdd2b4a63ffc16b7151"
@@ -3779,6 +5040,21 @@
     ]
   },
   {
+    "title": "Killer Satellites",
+    "id": 36765,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7a7f6ab9215a3a6b5940b8737f116359"
+    ]
+  },
+  {
     "title": "King Kong",
     "id": 25623,
     "consoleId": 25,
@@ -3843,7 +5119,7 @@
     "id": 16352,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/035165.png",
+    "imageIcon": "/Images/117780.png",
     "numAchievements": 11,
     "numLeaderboards": 0,
     "points": 200,
@@ -3881,6 +5157,21 @@
     "forumTopicId": null,
     "hashes": [
       "71464c54da46adae9447926fdbfc1abe"
+    ]
+  },
+  {
+    "title": "M.A.S.H",
+    "id": 36305,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "835759ff95c2cdc2324d7c1e7c5fa237"
     ]
   },
   {
@@ -4098,7 +5389,7 @@
     "id": 13170,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/065584.png",
+    "imageIcon": "/Images/120410.png",
     "numAchievements": 20,
     "numLeaderboards": 2,
     "points": 340,
@@ -4166,6 +5457,21 @@
     "forumTopicId": null,
     "hashes": [
       "a20b7abbcdf90fbc29ac0fafa195bd12"
+    ]
+  },
+  {
+    "title": "Mountain King",
+    "id": 36283,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "db4eb44bc5d652d9192451383d3249fc"
     ]
   },
   {
@@ -4260,6 +5566,36 @@
     ]
   },
   {
+    "title": "My Golf",
+    "id": 36474,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "dfad86dd85a11c80259f3ddb6151f48f"
+    ]
+  },
+  {
+    "title": "Name This Game",
+    "id": 35101,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "36306070f0c90a72461551a7a4f3a209"
+    ]
+  },
+  {
     "title": "Night Driver",
     "id": 13143,
     "consoleId": 25,
@@ -4305,21 +5641,6 @@
     ]
   },
   {
-    "title": "Obélix",
-    "id": 13019,
-    "consoleId": 25,
-    "consoleName": "Atari 2600",
-    "imageIcon": "/Images/090742.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "133a4234512e8c4e9e8c5651469d4a09"
-    ]
-  },
-  {
     "title": "Off the Wall",
     "id": 13066,
     "consoleId": 25,
@@ -4340,9 +5661,9 @@
     "consoleId": 25,
     "consoleName": "Atari 2600",
     "imageIcon": "/Images/111415.png",
-    "numAchievements": 9,
+    "numAchievements": 6,
     "numLeaderboards": 4,
-    "points": 110,
+    "points": 50,
     "dateModified": "2024-01-15 00:46:28",
     "forumTopicId": 16080,
     "hashes": [
@@ -4441,6 +5762,36 @@
     ]
   },
   {
+    "title": "Party Mix",
+    "id": 36766,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "012b8e6ef3b5fd5aabc94075c527709d"
+    ]
+  },
+  {
+    "title": "Pengo",
+    "id": 36280,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "04014d563b094e79ac8974366f616308"
+    ]
+  },
+  {
     "title": "Phaser Patrol",
     "id": 13219,
     "consoleId": 25,
@@ -4535,7 +5886,7 @@
     "id": 13213,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/054874.png",
+    "imageIcon": "/Images/120184.png",
     "numAchievements": 12,
     "numLeaderboards": 3,
     "points": 97,
@@ -4726,6 +6077,21 @@
     ]
   },
   {
+    "title": "Quadrun",
+    "id": 36281,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "024365007a87f213cbe8ef5f2e8e1333"
+    ]
+  },
+  {
     "title": "Rabbit Transit",
     "id": 13155,
     "consoleId": 25,
@@ -4738,6 +6104,36 @@
     "forumTopicId": null,
     "hashes": [
       "fb4ca865abc02d66e39651bd9ade140a"
+    ]
+  },
+  {
+    "title": "Racquetball",
+    "id": 36480,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a20d931a8fddcd6f6116ed21ff5c4832"
+    ]
+  },
+  {
+    "title": "Radar",
+    "id": 36473,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "74f623833429d35341b7a84bc09793c0"
     ]
   },
   {
@@ -5072,6 +6468,21 @@
     ]
   },
   {
+    "title": "Sea Battle",
+    "id": 22893,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/118170.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": "2025-08-26 11:16:53",
+    "forumTopicId": 31773,
+    "hashes": [
+      "1bc2427ac9b032a52fe527c7b26ce22c"
+    ]
+  },
+  {
     "title": "Sea Hunt",
     "id": 34073,
     "consoleId": 25,
@@ -5376,7 +6787,7 @@
     "id": 11684,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/027690.png",
+    "imageIcon": "/Images/117164.png",
     "numAchievements": 14,
     "numLeaderboards": 5,
     "points": 175,
@@ -5429,6 +6840,21 @@
     "forumTopicId": null,
     "hashes": [
       "a7ef44ccb5b9000caf02df3e6da71a92"
+    ]
+  },
+  {
+    "title": "Spacechase",
+    "id": 36282,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ec5c861b487a5075876ab01155e74c6c"
     ]
   },
   {
@@ -5507,6 +6933,21 @@
     ]
   },
   {
+    "title": "Sssnake",
+    "id": 36176,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "21a96301bb0df27fde2e7eefa49e0397"
+    ]
+  },
+  {
     "title": "Stampede",
     "id": 16367,
     "consoleId": 25,
@@ -5564,6 +7005,21 @@
     "forumTopicId": null,
     "hashes": [
       "e363e467f605537f3777ad33e74e113a"
+    ]
+  },
+  {
+    "title": "Star Strike",
+    "id": 13019,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/118174.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "79e5338dbfa6b64008bb0d72a3179d3c"
     ]
   },
   {
@@ -5650,7 +7106,7 @@
     "numAchievements": 23,
     "numLeaderboards": 16,
     "points": 250,
-    "dateModified": "2025-07-28 04:54:02",
+    "dateModified": "2025-12-15 10:23:13",
     "forumTopicId": 10147,
     "hashes": [
       "3c8e57a246742fa5d59e517134c0b4e6"
@@ -5778,6 +7234,36 @@
     ]
   },
   {
+    "title": "Subterranea",
+    "id": 36914,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "93c52141d3c4e1b5574d072f1afde6cd"
+    ]
+  },
+  {
+    "title": "Suicide Mission",
+    "id": 36764,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e4c666ca0c36928b95b13d33474dbb44"
+    ]
+  },
+  {
     "title": "Summer Games",
     "id": 34111,
     "consoleId": 25,
@@ -5883,6 +7369,51 @@
     ]
   },
   {
+    "title": "Survival Island",
+    "id": 36767,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "045035f995272eb2deb8820111745a07"
+    ]
+  },
+  {
+    "title": "Survival Run",
+    "id": 36716,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "85e564dae5687e431955056fbda10978"
+    ]
+  },
+  {
+    "title": "Sweat! The Decathlon Game",
+    "id": 36717,
+    "consoleId": 25,
+    "consoleName": "Atari 2600",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e51c23389e43ab328ccfb05be7d451da"
+    ]
+  },
+  {
     "title": "Sword of Saros",
     "id": 28127,
     "consoleId": 25,
@@ -5977,7 +7508,7 @@
     "id": 11718,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/064913.png",
+    "imageIcon": "/Images/123778.png",
     "numAchievements": 22,
     "numLeaderboards": 1,
     "points": 111,
@@ -6024,11 +7555,11 @@
     "id": 13139,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/076858.png",
+    "imageIcon": "/Images/121234.png",
     "numAchievements": 0,
-    "numLeaderboards": 2,
+    "numLeaderboards": 4,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2025-12-10 15:04:01",
     "forumTopicId": 22455,
     "hashes": [
       "c73ae5ba5a0a3f3ac77f0a9e14770e73"
@@ -6039,7 +7570,7 @@
     "id": 13214,
     "consoleId": 25,
     "consoleName": "Atari 2600",
-    "imageIcon": "/Images/114407.png",
+    "imageIcon": "/Images/120896.png",
     "numAchievements": 8,
     "numLeaderboards": 4,
     "points": 135,
@@ -6325,10 +7856,10 @@
     "consoleId": 25,
     "consoleName": "Atari 2600",
     "imageIcon": "/Images/047622.png",
-    "numAchievements": 25,
+    "numAchievements": 24,
     "numLeaderboards": 4,
     "points": 195,
-    "dateModified": "2021-02-10 02:08:50",
+    "dateModified": "2025-10-26 23:28:02",
     "forumTopicId": 7313,
     "hashes": [
       "107cc025334211e6d29da0b6be46aec7"
@@ -6404,7 +7935,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32133,
     "hashes": [
       "87f020daa98d0132e98e43db7d8fea7e"
     ]

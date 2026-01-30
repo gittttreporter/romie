@@ -4,7 +4,7 @@
     "id": 17023,
     "consoleId": 28,
     "consoleName": "Virtual Boy",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118448.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -27,6 +27,21 @@
     "forumTopicId": null,
     "hashes": [
       "faf72685bbcc1df04f265669217bf6d2"
+    ]
+  },
+  {
+    "title": "~Homebrew~ ~Demo~ Capitán Sevila 3D",
+    "id": 37139,
+    "consoleId": 28,
+    "consoleName": "Virtual Boy",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "101479a7e4b20566465ded419eb550b0"
     ]
   },
   {
@@ -171,7 +186,7 @@
     "consoleName": "Virtual Boy",
     "imageIcon": "/Images/067289.png",
     "numAchievements": 20,
-    "numLeaderboards": 4,
+    "numLeaderboards": 5,
     "points": 223,
     "dateModified": "2023-01-28 07:42:58",
     "forumTopicId": 16410,
@@ -305,12 +320,12 @@
     "id": 19874,
     "consoleId": 28,
     "consoleName": "Virtual Boy",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/121140.png",
+    "numAchievements": 15,
+    "numLeaderboards": 3,
+    "points": 143,
+    "dateModified": "2025-12-01 17:35:44",
+    "forumTopicId": 33390,
     "hashes": [
       "74d21ea01f97ac19e018d7f5a3e3bc7c"
     ]
@@ -395,7 +410,7 @@
     "id": 16579,
     "consoleId": 28,
     "consoleName": "Virtual Boy",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118326.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -421,6 +436,21 @@
     ]
   },
   {
+    "title": "~Prototype~ Virtual League Baseball 2",
+    "id": 36545,
+    "consoleId": 28,
+    "consoleName": "Virtual Boy",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f1ccdb396b8b0cd99daa0d5d10ac4e71"
+    ]
+  },
+  {
     "title": "~Z~ A Cheated ROM [VB]",
     "id": 13106,
     "consoleId": 28,
@@ -442,10 +472,10 @@
     "consoleName": "Virtual Boy",
     "imageIcon": "/Images/044131.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 17,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-13 21:33:03",
+    "forumTopicId": 33607,
     "hashes": [
       "ecf1218706e9b547eab9e4be58d54e21"
     ]
@@ -501,7 +531,7 @@
     "id": 11700,
     "consoleId": 28,
     "consoleName": "Virtual Boy",
-    "imageIcon": "/Images/074723.png",
+    "imageIcon": "/Images/122410.png",
     "numAchievements": 57,
     "numLeaderboards": 0,
     "points": 836,
@@ -538,7 +568,7 @@
     "numAchievements": 28,
     "numLeaderboards": 0,
     "points": 331,
-    "dateModified": "2023-01-05 02:28:23",
+    "dateModified": "2025-10-26 12:19:19",
     "forumTopicId": 7086,
     "hashes": [
       "38ecc2c5a745a80d32eb9e8e413358c4"
@@ -568,7 +598,7 @@
     "numAchievements": 19,
     "numLeaderboards": 11,
     "points": 220,
-    "dateModified": "2020-07-12 17:52:49",
+    "dateModified": "2025-11-30 16:07:49",
     "forumTopicId": 11054,
     "hashes": [
       "467247d5e3383d066005565bf8218436"
@@ -691,7 +721,7 @@
     "numAchievements": 18,
     "numLeaderboards": 0,
     "points": 204,
-    "dateModified": "2022-05-09 08:36:44",
+    "dateModified": "2025-12-12 04:22:11",
     "forumTopicId": 16414,
     "hashes": [
       "5b11d402f7e322c71a7d4fa6503631fa"

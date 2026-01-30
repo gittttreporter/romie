@@ -4,11 +4,11 @@
     "id": 24129,
     "consoleId": 9,
     "consoleName": "Sega CD",
-    "imageIcon": "/Images/074996.png",
+    "imageIcon": "/Images/123773.png",
     "numAchievements": 46,
     "numLeaderboards": 19,
     "points": 451,
-    "dateModified": "2024-12-20 01:02:24",
+    "dateModified": "2025-10-23 14:34:44",
     "forumTopicId": 21356,
     "hashes": [
       "3c12feaa765ff91a126aa62c7eb24de7"
@@ -19,20 +19,22 @@
     "id": 33563,
     "consoleId": 9,
     "consoleName": "Sega CD",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/122348.png",
+    "numAchievements": 6,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
+    "points": 12,
+    "dateModified": "2026-01-22 19:46:16",
+    "forumTopicId": 33743,
+    "hashes": [
+      "fe9b5ef770e02d001b0391bba234d87d"
+    ]
   },
   {
     "title": "~Homebrew~ Mighty Mighty Missile!",
     "id": 5,
     "consoleId": 9,
     "consoleName": "Sega CD",
-    "imageIcon": "/Images/022495.png",
+    "imageIcon": "/Images/122963.png",
     "numAchievements": 56,
     "numLeaderboards": 98,
     "points": 203,
@@ -104,19 +106,6 @@
     ]
   },
   {
-    "title": "~Unlicensed~ Battle Frenzy",
-    "id": 33140,
-    "consoleId": 9,
-    "consoleName": "Sega CD",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
     "title": "~Unlicensed~ Burning Fists - Force Striker",
     "id": 33142,
     "consoleId": 9,
@@ -166,7 +155,7 @@
     "id": 31406,
     "consoleId": 9,
     "consoleName": "Sega CD",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120153.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -391,11 +380,11 @@
     "id": 15686,
     "consoleId": 9,
     "consoleName": "Sega CD",
-    "imageIcon": "/Images/063027.png",
+    "imageIcon": "/Images/122269.png",
     "numAchievements": 69,
     "numLeaderboards": 0,
     "points": 555,
-    "dateModified": "2023-09-04 15:38:50",
+    "dateModified": "2025-12-29 15:59:57",
     "forumTopicId": 18613,
     "hashes": [
       "6d14797a2108c284e27dfac0657b6692"
@@ -452,10 +441,10 @@
     "consoleId": 9,
     "consoleName": "Sega CD",
     "imageIcon": "/Images/114247.png",
-    "numAchievements": 29,
+    "numAchievements": 28,
     "numLeaderboards": 14,
-    "points": 136,
-    "dateModified": "2025-08-07 23:50:14",
+    "points": 135,
+    "dateModified": "2025-10-22 04:07:03",
     "forumTopicId": 30081,
     "hashes": [
       "fd7720c80cb080541cfbddaca02c173a"
@@ -489,6 +478,21 @@
     "forumTopicId": 31298,
     "hashes": [
       "f551034768405cef3fd7c908377e80fe"
+    ]
+  },
+  {
+    "title": "Burai: Hachigyoku no Yuushi Densetsu",
+    "id": 33140,
+    "consoleId": 9,
+    "consoleName": "Sega CD",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "04dd27768b8882e5fe2e07b6281bff66"
     ]
   },
   {
@@ -710,8 +714,8 @@
     "imageIcon": "/Images/113269.png",
     "numAchievements": 45,
     "numLeaderboards": 32,
-    "points": 425,
-    "dateModified": "2025-06-28 20:30:56",
+    "points": 445,
+    "dateModified": "2025-10-28 04:45:47",
     "forumTopicId": 31108,
     "hashes": [
       "e8a591459675bc15793b36847491c194"
@@ -787,7 +791,7 @@
     "numAchievements": 0,
     "numLeaderboards": 4,
     "points": 0,
-    "dateModified": "2025-07-14 22:08:07",
+    "dateModified": "2026-01-04 08:41:35",
     "forumTopicId": 30909,
     "hashes": [
       "b0e9b92afa241dfe4ecef261fba4e227"
@@ -862,7 +866,7 @@
     "numAchievements": 175,
     "numLeaderboards": 0,
     "points": 1303,
-    "dateModified": "2024-07-15 07:44:29",
+    "dateModified": "2025-09-06 09:08:20",
     "forumTopicId": 13511,
     "hashes": [
       "fbd25c6c1f42973b214ace4646c8632a"
@@ -877,7 +881,7 @@
     "numAchievements": 41,
     "numLeaderboards": 0,
     "points": 310,
-    "dateModified": "2025-07-18 14:48:53",
+    "dateModified": "2025-11-22 21:05:23",
     "forumTopicId": 15525,
     "hashes": [
       "1f9896c6fc87315538aead49d345178b"
@@ -1419,7 +1423,7 @@
     "numAchievements": 90,
     "numLeaderboards": 0,
     "points": 825,
-    "dateModified": "2025-05-17 06:42:42",
+    "dateModified": "2025-11-21 00:57:42",
     "forumTopicId": 16092,
     "hashes": [
       "9f173a8aedd5cca2667dba81ddaddae5"
@@ -1557,7 +1561,7 @@
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 228,
-    "dateModified": "2025-07-19 22:30:26",
+    "dateModified": "2025-11-15 18:13:59",
     "forumTopicId": 19827,
     "hashes": [
       "0de3f1c9f358f35eb589125d07b11f42",
@@ -1655,6 +1659,21 @@
     ]
   },
   {
+    "title": "NFL Football Trivia Challenge",
+    "id": 34896,
+    "consoleId": 9,
+    "consoleName": "Sega CD",
+    "imageIcon": "/Images/118767.png",
+    "numAchievements": 15,
+    "numLeaderboards": 0,
+    "points": 92,
+    "dateModified": "2025-10-01 03:11:42",
+    "forumTopicId": 32387,
+    "hashes": [
+      "137d103d696f6229f90e5d3c9de6af28"
+    ]
+  },
+  {
     "title": "NFL's Greatest - San Francisco vs. Dallas 1978-1993",
     "id": 33134,
     "consoleId": 9,
@@ -1709,7 +1728,7 @@
     "numAchievements": 27,
     "numLeaderboards": 0,
     "points": 170,
-    "dateModified": "2022-05-23 15:49:23",
+    "dateModified": "2025-12-31 21:43:14",
     "forumTopicId": 16566,
     "hashes": [
       "3110d9f656697adb3cbf5f1cb0d77e6f"
@@ -1769,7 +1788,7 @@
     "numAchievements": 70,
     "numLeaderboards": 0,
     "points": 600,
-    "dateModified": "2025-01-22 01:59:46",
+    "dateModified": "2026-01-05 16:17:39",
     "forumTopicId": 15813,
     "hashes": [
       "9e155928a45983bb845f800ba6908f96"
@@ -1922,7 +1941,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "d4490fa7e20eb277900a4258d301f12b"
+    ]
   },
   {
     "title": "Revenge of the Ninja",
@@ -2023,8 +2044,8 @@
     "imageIcon": "/Images/069482.png",
     "numAchievements": 21,
     "numLeaderboards": 3,
-    "points": 262,
-    "dateModified": "2025-01-31 23:10:17",
+    "points": 259,
+    "dateModified": "2025-08-31 23:22:40",
     "forumTopicId": 20605,
     "hashes": [
       "71967ae1a3446731e64ca18a5539191d",
@@ -2112,7 +2133,7 @@
     "id": 10074,
     "consoleId": 9,
     "consoleName": "Sega CD",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120062.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -2243,7 +2264,7 @@
     "numAchievements": 66,
     "numLeaderboards": 0,
     "points": 500,
-    "dateModified": "2025-06-27 09:52:51",
+    "dateModified": "2025-11-24 21:05:45",
     "forumTopicId": 4508,
     "hashes": [
       "38318ed1f6f7732a3fa2495288f6da24",
@@ -2271,10 +2292,10 @@
     "consoleId": 9,
     "consoleName": "Sega CD",
     "imageIcon": "/Images/108450.png",
-    "numAchievements": 102,
+    "numAchievements": 100,
     "numLeaderboards": 43,
-    "points": 940,
-    "dateModified": "2025-01-23 03:31:30",
+    "points": 1083,
+    "dateModified": "2025-12-14 09:36:16",
     "forumTopicId": 7528,
     "hashes": [
       "204f8d81ecf13aa7dc75cbafaf4c4ca3",
@@ -2321,7 +2342,7 @@
     "numAchievements": 12,
     "numLeaderboards": 0,
     "points": 41,
-    "dateModified": "2025-07-01 16:38:30",
+    "dateModified": "2025-11-20 17:43:06",
     "forumTopicId": 21972,
     "hashes": [
       "0aa9aa05e09b9c290a22dcf3c1799cab"
@@ -2820,7 +2841,7 @@
     "numAchievements": 30,
     "numLeaderboards": 0,
     "points": 360,
-    "dateModified": "2023-09-09 03:12:41",
+    "dateModified": "2025-12-24 07:07:28",
     "forumTopicId": 9640,
     "hashes": [
       "e6f4bda45b2e75f6d860ba9e7a8f5531"
@@ -2880,7 +2901,7 @@
     "numAchievements": 41,
     "numLeaderboards": 1,
     "points": 240,
-    "dateModified": "2025-07-21 02:01:50",
+    "dateModified": "2025-10-09 03:17:43",
     "forumTopicId": 30943,
     "hashes": [
       "ed530df3dd246970d9b5c217f10ac0f9"

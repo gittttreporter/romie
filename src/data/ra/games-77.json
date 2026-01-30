@@ -186,11 +186,11 @@
     "consoleId": 77,
     "consoleName": "Atari Jaguar CD",
     "imageIcon": "/Images/092368.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 21306,
+    "numAchievements": 16,
+    "numLeaderboards": 1,
+    "points": 263,
+    "dateModified": "2025-12-09 03:57:49",
+    "forumTopicId": 33481,
     "hashes": [
       "D19987D55D2B0AA6D0FF82EF9D859341"
     ]
@@ -355,7 +355,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33457,
     "hashes": [
       "513DAAD36C3BDE25E81EF04710721DBA"
     ]
@@ -369,7 +369,7 @@
     "numAchievements": 44,
     "numLeaderboards": 0,
     "points": 615,
-    "dateModified": "2023-05-27 04:21:19",
+    "dateModified": "2025-11-03 04:41:34",
     "forumTopicId": 21527,
     "hashes": [
       "B3EC00D298651570D2C6B9E63724ED92"

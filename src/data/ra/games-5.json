@@ -62,7 +62,7 @@
     ]
   },
   {
-    "title": "~Hack~  Pokemon Hoenn Adventures",
+    "title": "~Hack~  Pokémon Hoenn Adventures",
     "id": 30154,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -77,7 +77,7 @@
     ]
   },
   {
-    "title": "~Hack~ ~Demo~ Pokemon Sors 2",
+    "title": "~Hack~ ~Demo~ Pokémon Sors 2",
     "id": 33065,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -92,7 +92,7 @@
     ]
   },
   {
-    "title": "~Hack~ ~Demo~ Pokemon: Unbound - Battle Frontier Demo",
+    "title": "~Hack~ ~Demo~ Pokémon: Unbound - Battle Frontier Demo",
     "id": 17531,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -152,7 +152,7 @@
     ]
   },
   {
-    "title": "~Hack~ ~Prototype~ Pokemon Chileno",
+    "title": "~Hack~ ~Prototype~ Pokémon Chileno",
     "id": 20443,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -167,7 +167,7 @@
     ]
   },
   {
-    "title": "~Hack~ ~Prototype~ Pokemon Liquid Ocean",
+    "title": "~Hack~ ~Prototype~ Pokémon Liquid Ocean",
     "id": 33097,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -182,7 +182,7 @@
     ]
   },
   {
-    "title": "~Hack~ ~Prototype~ Pokemon Regis' Origin",
+    "title": "~Hack~ ~Prototype~ Pokémon Regis' Origin",
     "id": 25875,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -197,7 +197,7 @@
     ]
   },
   {
-    "title": "~Hack~ ~Prototype~ Pokemon Ruby Destiny: Broken Timeline",
+    "title": "~Hack~ ~Prototype~ Pokémon Ruby Destiny: Broken Timeline",
     "id": 14412,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -212,27 +212,11 @@
     ]
   },
   {
-    "title": "~Hack~ ~Prototype~ Pokemon Shiny Gold",
-    "id": 22466,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/109432.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "d5e1f57b025d091afe7d4c2e2de3a5e6",
-      "f19e1ffb95770c1c680e68f71cb2b5c1"
-    ]
-  },
-  {
     "title": "~Hack~ A Grand Day Out",
     "id": 14655,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/027518.png",
+    "imageIcon": "/Images/121538.png",
     "numAchievements": 7,
     "numLeaderboards": 0,
     "points": 70,
@@ -263,10 +247,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/100603.png",
-    "numAchievements": 181,
+    "numAchievements": 180,
     "numLeaderboards": 0,
-    "points": 1000,
-    "dateModified": "2025-08-02 16:12:36",
+    "points": 998,
+    "dateModified": "2025-12-05 10:50:55",
     "forumTopicId": 27557,
     "hashes": [
       "8daa19fb099c4d726fb440d5b8caf518",
@@ -301,6 +285,21 @@
     "forumTopicId": 27886,
     "hashes": [
       "e31c36f4243e3da477a2594ff73f2e4d"
+    ]
+  },
+  {
+    "title": "~Hack~ Animon",
+    "id": 37207,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5eeaceab16879e5104e7ac361103ff99"
     ]
   },
   {
@@ -379,6 +378,21 @@
     ]
   },
   {
+    "title": "~Hack~ Castlevania: Aria of Sorrow - Libert(aria)nism",
+    "id": 22468,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/111328.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4ea484ca13a83c81ce408ba163bd9f9f"
+    ]
+  },
+  {
     "title": "~Hack~ Castlevania: Aria of Sorrow - Magician Mode",
     "id": 24089,
     "consoleId": 5,
@@ -402,7 +416,7 @@
     "numAchievements": 46,
     "numLeaderboards": 0,
     "points": 480,
-    "dateModified": "2023-05-01 10:53:47",
+    "dateModified": "2026-01-21 18:03:43",
     "forumTopicId": 20669,
     "hashes": [
       "44214175b0dc0b57adb93f6622bdc869",
@@ -426,26 +440,11 @@
     ]
   },
   {
-    "title": "~Hack~ Castlevania: Aria of Sorrow Harder Vanilla ft. More Doors",
-    "id": 22468,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/111328.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "f121bb0f5aeedad0e3a151c858408854"
-    ]
-  },
-  {
     "title": "~Hack~ Castlevania: Aria of Sorrow Reprise",
     "id": 22834,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/089913.png",
+    "imageIcon": "/Images/117260.png",
     "numAchievements": 49,
     "numLeaderboards": 4,
     "points": 431,
@@ -471,6 +470,21 @@
     ]
   },
   {
+    "title": "~Hack~ Castlevania: Dawn of Symphony",
+    "id": 37047,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3c9fb4f0b50b87df3ff1cc5b6f7d5b2e"
+    ]
+  },
+  {
     "title": "~Hack~ Castlevania: Maria of Sorrow",
     "id": 24470,
     "consoleId": 5,
@@ -479,7 +493,7 @@
     "numAchievements": 72,
     "numLeaderboards": 0,
     "points": 515,
-    "dateModified": "2023-09-16 15:13:55",
+    "dateModified": "2025-12-14 22:13:38",
     "forumTopicId": 21783,
     "hashes": [
       "509fc6a040d074770f2d89a9da0ddeeb",
@@ -506,7 +520,7 @@
     "id": 18655,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/112576.png",
+    "imageIcon": "/Images/123776.png",
     "numAchievements": 58,
     "numLeaderboards": 0,
     "points": 347,
@@ -514,6 +528,21 @@
     "forumTopicId": 15471,
     "hashes": [
       "d9c72031b924655046065870ba01cf37"
+    ]
+  },
+  {
+    "title": "~Hack~ Chex Quest GBA",
+    "id": 37898,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c2af8e6877bd7e307f7db9b375250adb"
     ]
   },
   {
@@ -607,6 +636,21 @@
     ]
   },
   {
+    "title": "~Hack~ Doom: Master Levels",
+    "id": 37084,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3ba5c639cd01eb3e519eabc86ebd563b"
+    ]
+  },
+  {
     "title": "~Hack~ Doom: The Plutonia Experiment",
     "id": 24422,
     "consoleId": 5,
@@ -634,6 +678,36 @@
     "forumTopicId": 5063,
     "hashes": [
       "a75cc0c8d8c8aca6ccf1bf3abf7a1c95"
+    ]
+  },
+  {
+    "title": "~Hack~ Duty Calls",
+    "id": 37863,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "6c7f18dd3d31851180a3d8cac5935c8f"
+    ]
+  },
+  {
+    "title": "~Hack~ F-Zero: Vintage Velocity",
+    "id": 36978,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8b9af29414d9eef2b4b1d0d01d794c83"
     ]
   },
   {
@@ -697,6 +771,51 @@
     ]
   },
   {
+    "title": "~Hack~ Fire Emblem - Duo Geno Escapo",
+    "id": 35149,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ee10642dbea50e0f8089d48bfd90e4e2"
+    ]
+  },
+  {
+    "title": "~Hack~ Fire Emblem - Gheb Fe",
+    "id": 35148,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/119320.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c3abde8ad8cc8f0e797c109515dd692b"
+    ]
+  },
+  {
+    "title": "~Hack~ Fire Emblem Legacy",
+    "id": 37351,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bd0622449f6ca787612f3f6cbecc7cc0"
+    ]
+  },
+  {
     "title": "~Hack~ Fire Emblem Wars",
     "id": 22571,
     "consoleId": 5,
@@ -731,12 +850,12 @@
     "id": 33600,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/118027.png",
+    "numAchievements": 9,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "points": 50,
+    "dateModified": "2025-12-06 14:55:56",
+    "forumTopicId": 32332,
     "hashes": [
       "bc92054bf11d9ac87257741ea466a291"
     ]
@@ -754,6 +873,21 @@
     "forumTopicId": null,
     "hashes": [
       "7e61c01960250e47b546d3bdd2b47fdb"
+    ]
+  },
+  {
+    "title": "~Hack~ Fire Emblem: Bound Destiny",
+    "id": 37937,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/123600.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5e47fbe473f09890bd326efbf41aa3dc"
     ]
   },
   {
@@ -862,6 +996,21 @@
     ]
   },
   {
+    "title": "~Hack~ Fire Emblem: Fallen King",
+    "id": 36941,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "da350dda4e7cd0181023d8a4effd349d"
+    ]
+  },
+  {
     "title": "~Hack~ Fire Emblem: Gilmore Girls",
     "id": 7762,
     "consoleId": 5,
@@ -874,6 +1023,36 @@
     "forumTopicId": 12177,
     "hashes": [
       "d6204bcfc68a8332a975905a77931869"
+    ]
+  },
+  {
+    "title": "~Hack~ Fire Emblem: Hetja's Quest",
+    "id": 36942,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "77f7b4bd63b1a3f68ed3cc5f1db198a6"
+    ]
+  },
+  {
+    "title": "~Hack~ Fire Emblem: Illuminated",
+    "id": 30058,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 27008,
+    "hashes": [
+      "b9c137b83e1849b91222c65ebd053945"
     ]
   },
   {
@@ -937,6 +1116,21 @@
     ]
   },
   {
+    "title": "~Hack~ Fire Emblem: Radiant Houses Awakening",
+    "id": 36979,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b8658696cc91d29612fa23d6698d988c"
+    ]
+  },
+  {
     "title": "~Hack~ Fire Emblem: Requiem",
     "id": 5028,
     "consoleId": 5,
@@ -947,19 +1141,21 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "659e6b097a54f92666d405664271402e"
+    ]
   },
   {
     "title": "~Hack~ Fire Emblem: Sacred Echoes",
     "id": 29689,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/106351.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/121401.png",
+    "numAchievements": 100,
+    "numLeaderboards": 1,
+    "points": 550,
+    "dateModified": "2025-12-24 09:04:09",
+    "forumTopicId": 33211,
     "hashes": [
       "e1ffc6bf135b30dc07cf3ffa7193f4f2"
     ]
@@ -973,7 +1169,7 @@
     "numAchievements": 56,
     "numLeaderboards": 1,
     "points": 568,
-    "dateModified": "2024-08-17 22:24:59",
+    "dateModified": "2025-12-05 17:04:32",
     "forumTopicId": 27501,
     "hashes": [
       "d004c8f14aceb1f861f7277ca3df5cc3"
@@ -1040,6 +1236,21 @@
     ]
   },
   {
+    "title": "~Hack~ Fire Emblem: The Hag in White",
+    "id": 36943,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e1f049ebdcbba262ed033b88ae6285ba"
+    ]
+  },
+  {
     "title": "~Hack~ Fire Emblem: The Heroes We Deserve",
     "id": 15979,
     "consoleId": 5,
@@ -1067,6 +1278,21 @@
     "forumTopicId": null,
     "hashes": [
       "c99d310e0c56887cf8b7cb052386cd05"
+    ]
+  },
+  {
+    "title": "~Hack~ Fire Emblem: The Morrow's Golden Country",
+    "id": 36944,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e881bbef0b1486ac6ec0e701d8a75acf"
     ]
   },
   {
@@ -1143,6 +1369,21 @@
     "forumTopicId": null,
     "hashes": [
       "80c9b3220f3fc1fc1436091f08748d17"
+    ]
+  },
+  {
+    "title": "~Hack~ Fire Emblem: Twisted Heart - Rise of the Demon King",
+    "id": 37136,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "672754e592a57f4bfbf8fdea59e81534"
     ]
   },
   {
@@ -1251,6 +1492,36 @@
     ]
   },
   {
+    "title": "~Hack~ Golden Sun: Fallen Star",
+    "id": 37024,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e033e788d1d73463b8fa7196ef714c7a"
+    ]
+  },
+  {
+    "title": "~Hack~ Golden Sun: Risen Star",
+    "id": 37023,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "cad336e85a9ba5f50c2964e3ceaeafb8"
+    ]
+  },
+  {
     "title": "~Hack~ Golden Sun: The Lost Age - Alex Path",
     "id": 31188,
     "consoleId": 5,
@@ -1356,21 +1627,6 @@
     ]
   },
   {
-    "title": "~Hack~ Last Promise, The",
-    "id": 15933,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/076916.png",
-    "numAchievements": 61,
-    "numLeaderboards": 0,
-    "points": 410,
-    "dateModified": "2021-07-04 16:51:48",
-    "forumTopicId": 10232,
-    "hashes": [
-      "485740f0f0036d32bdf7369334be13e0"
-    ]
-  },
-  {
     "title": "~Hack~ Mach Bike Racing",
     "id": 32956,
     "consoleId": 5,
@@ -1424,7 +1680,7 @@
     "numAchievements": 76,
     "numLeaderboards": 0,
     "points": 1060,
-    "dateModified": "2025-08-22 18:05:51",
+    "dateModified": "2025-11-14 02:05:30",
     "forumTopicId": 25949,
     "hashes": [
       "0ad2aa4377ad7b7a5ff2e8c5d5e0236f"
@@ -1473,6 +1729,21 @@
     "forumTopicId": null,
     "hashes": [
       "3e9c40d826b9fd867276daad1facf766"
+    ]
+  },
+  {
+    "title": "~Hack~ Metroid: Crocomire's Last Stand",
+    "id": 36945,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c0fb5e8cf17f5df220c2ae8229d568ba"
     ]
   },
   {
@@ -1556,11 +1827,11 @@
     "id": 19681,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/116028.png",
-    "numAchievements": 0,
-    "numLeaderboards": 3,
-    "points": 0,
-    "dateModified": "2025-08-13 03:04:48",
+    "imageIcon": "/Images/123567.png",
+    "numAchievements": 40,
+    "numLeaderboards": 4,
+    "points": 290,
+    "dateModified": "2026-01-27 20:57:55",
     "forumTopicId": 16590,
     "hashes": [
       "4288f29631de443cee689be23f43a056"
@@ -1642,11 +1913,26 @@
     ]
   },
   {
+    "title": "~Hack~ Metroid: Spring Break",
+    "id": 36946,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "6de0e616546fb49636ae1c07b0812af8"
+    ]
+  },
+  {
     "title": "~Hack~ Metroid: SR387",
     "id": 18335,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/051720.png",
+    "imageIcon": "/Images/123577.png",
     "numAchievements": 28,
     "numLeaderboards": 3,
     "points": 205,
@@ -1661,7 +1947,7 @@
     "id": 12962,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/104483.png",
+    "imageIcon": "/Images/118992.png",
     "numAchievements": 24,
     "numLeaderboards": 4,
     "points": 403,
@@ -1757,7 +2043,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": 13521,
-    "hashes": []
+    "hashes": [
+      "d4b3474bc3ca59fc4f94fbd11cd75c51"
+    ]
   },
   {
     "title": "~Hack~ Pokeluv FireRed",
@@ -1770,7 +2058,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "338974c064c1e84a0ce985b8516b7e55"
+    ]
   },
   {
     "title": "~Hack~ Pokemblem",
@@ -1792,7 +2082,7 @@
     "id": 9595,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/026206.png",
+    "imageIcon": "/Images/123771.png",
     "numAchievements": 138,
     "numLeaderboards": 0,
     "points": 1086,
@@ -1803,7 +2093,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Altair Version | Pokemon Sirius Version",
+    "title": "~Hack~ Pokémon All In",
+    "id": 37100,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "597517da6bdd9302cecfac71e825c80d"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Altair Version | Pokémon Sirius Version",
     "id": 14462,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -1819,7 +2124,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon AlteRed",
+    "title": "~Hack~ Pokémon AlteRed",
     "id": 17702,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -1834,7 +2139,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Aquamarine",
+    "title": "~Hack~ Pokémon Aquamarine",
     "id": 19740,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -1857,7 +2162,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Ash Kanto: Mewtwo Strikes Back",
+    "title": "~Hack~ Pokémon Ash Kanto: Mewtwo Strikes Back",
     "id": 22046,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -1880,14 +2185,14 @@
     "numAchievements": 139,
     "numLeaderboards": 0,
     "points": 686,
-    "dateModified": "2025-07-10 15:00:13",
+    "dateModified": "2025-11-18 00:28:37",
     "forumTopicId": 2211,
     "hashes": [
       "92262059190c05a5615be6b98612fb14"
     ]
   },
   {
-    "title": "~Hack~ Pokemon Astral Red",
+    "title": "~Hack~ Pokémon Astral Red",
     "id": 31929,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -1902,7 +2207,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Azure Horizons",
+    "title": "~Hack~ Pokémon Azure Horizons",
     "id": 33100,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -1933,7 +2238,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Black Dark",
+    "title": "~Hack~ Pokémon Black Dark",
     "id": 34104,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -1948,7 +2253,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Blazed Glazed",
+    "title": "~Hack~ Pokémon Black Pearl Emerald",
+    "id": 34891,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "691103ca84c83a7c15ddcea558614e7d"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Blazed Glazed",
     "id": 14473,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -1963,7 +2283,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Blazing Emerald",
+    "title": "~Hack~ Pokémon Blazing Emerald",
     "id": 5425,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2008,7 +2328,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Chaos Black",
+    "title": "~Hack~ Pokémon Chaos Black",
     "id": 9530,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2024,7 +2344,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Chaos Emerald",
+    "title": "~Hack~ Pokémon Chaos Emerald",
     "id": 34065,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2039,22 +2359,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokémon Clover",
-    "id": 11575,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/111798.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2023-05-17 18:27:48",
-    "forumTopicId": 5910,
-    "hashes": [
-      "11de281e6d25ab281169588763d3bd2f"
-    ]
-  },
-  {
-    "title": "~Hack~ Pokemon Crimson Red",
+    "title": "~Hack~ Pokémon Crimson Red",
     "id": 34278,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2069,7 +2374,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Dark Realm",
+    "title": "~Hack~ Pokémon Dark Realm",
     "id": 33458,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2092,14 +2397,14 @@
     "numAchievements": 100,
     "numLeaderboards": 0,
     "points": 1000,
-    "dateModified": "2023-06-23 16:22:13",
+    "dateModified": "2026-01-21 18:25:29",
     "forumTopicId": 20887,
     "hashes": [
       "bfc7ae79445c34c44bc1ffb144049be4"
     ]
   },
   {
-    "title": "~Hack~ Pokemon Dark Rising 2",
+    "title": "~Hack~ Pokémon Dark Rising 2",
     "id": 33091,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2114,7 +2419,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Dark Rising Kaizo",
+    "title": "~Hack~ Pokémon Dark Rising Kaizo",
     "id": 15641,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2129,7 +2434,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Dark Rising Origins: Worlds Collide",
+    "title": "~Hack~ Pokémon Dark Rising Origins: Worlds Collide",
     "id": 15639,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2144,7 +2449,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Dark Rising: Order Destroyed",
+    "title": "~Hack~ Pokémon Dark Rising: Order Destroyed",
     "id": 33457,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2167,25 +2472,10 @@
     "numAchievements": 55,
     "numLeaderboards": 0,
     "points": 360,
-    "dateModified": "2024-08-09 18:02:42",
+    "dateModified": "2025-11-19 03:01:01",
     "forumTopicId": 12741,
     "hashes": [
       "47f9eeb51ffe48a8c28636f25a9543e8"
-    ]
-  },
-  {
-    "title": "~Hack~ Pokémon DerErif | Pokémon FireRed Backwards",
-    "id": 15623,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/110760.png",
-    "numAchievements": 32,
-    "numLeaderboards": 0,
-    "points": 345,
-    "dateModified": "2023-09-09 20:59:46",
-    "forumTopicId": 10031,
-    "hashes": [
-      "1983512180b60115cf8c04b5c1affbec"
     ]
   },
   {
@@ -2204,7 +2494,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Dreary",
+    "title": "~Hack~ Pokémon Dreamstone Mysteries",
+    "id": 37206,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9accb8a1e8cec1c263575679aa0de502"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Dreary",
     "id": 19741,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2219,7 +2524,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Eclat Pourpre",
+    "title": "~Hack~ Pokémon Dual-Type Emerald",
+    "id": 21953,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/117240.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9489e4852e48d38a6897781966f7894a"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Eclat Pourpre",
     "id": 34107,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2249,7 +2569,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Elite Redux",
+    "title": "~Hack~ Pokémon Elite Redux",
     "id": 25604,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2264,7 +2584,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Elysium",
+    "title": "~Hack~ Pokémon Elysium",
     "id": 33298,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2280,7 +2600,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Emerald Final",
+    "title": "~Hack~ Pokémon Emerald Crest",
+    "id": 34892,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "cfe8c708e18faafcec0d003423856f27"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Emerald Final",
     "id": 7759,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2290,11 +2625,21 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": 13515,
-    "hashes": []
+    "hashes": [
+      "62cbaa12eab1f47aeacbf2374b5038b5",
+      "16ef4dfb283d7f448c78d1f370c0240a",
+      "bce3c6ded498f87a83c200812db32df5",
+      "dba4a449646cd2ee98c3aea62d283b8a",
+      "2887d50b981709c09938bf565d6044dd",
+      "0111310e79b00254dcb848f5b5ff3c54",
+      "485b91bb623db9e4db592d608e63d8d4",
+      "5cae8873bbd4eb5dea28102ddf8afb82",
+      "ed8463133ff4da8fbe514563da1302be"
+    ]
   },
   {
-    "title": "~Hack~ Pokemon Emerald Imperium",
-    "id": 32839,
+    "title": "~Hack~ Pokémon Emerald Horizons",
+    "id": 37865,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/000001.png",
@@ -2302,9 +2647,24 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f2975ecd2f43da991c3fc9c9ebaca97f"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Emerald Imperium",
+    "id": 32839,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/121490.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
     "forumTopicId": 29515,
     "hashes": [
-      "29aa59d214648b012c6881440aa03623"
+      "b1cf145a9c92303a7990e1904602c1e1"
     ]
   },
   {
@@ -2315,15 +2675,15 @@
     "imageIcon": "/Images/080584.png",
     "numAchievements": 66,
     "numLeaderboards": 0,
-    "points": 1155,
-    "dateModified": "2023-08-20 02:42:55",
+    "points": 1205,
+    "dateModified": "2025-10-15 02:13:25",
     "forumTopicId": 10052,
     "hashes": [
       "b48a5df9dfa88ce7cf0465bee8bbff94"
     ]
   },
   {
-    "title": "~Hack~ Pokemon Emerald Legacy",
+    "title": "~Hack~ Pokémon Emerald Legacy",
     "id": 32565,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2340,7 +2700,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Emerald Mini",
+    "title": "~Hack~ Pokémon Emerald Mini",
     "id": 34052,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2355,7 +2715,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Emerald ReSprited",
+    "title": "~Hack~ Pokémon Emerald ReSprited",
     "id": 30921,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2393,7 +2753,7 @@
     "numAchievements": 260,
     "numLeaderboards": 0,
     "points": 1556,
-    "dateModified": "2025-06-26 16:55:43",
+    "dateModified": "2025-09-11 03:00:50",
     "forumTopicId": 27129,
     "hashes": [
       "d433c84e2a0d267cd2e30bb15fdbfcce",
@@ -2410,14 +2770,14 @@
     "numAchievements": 67,
     "numLeaderboards": 0,
     "points": 2525,
-    "dateModified": "2025-02-05 22:54:04",
+    "dateModified": "2025-12-19 05:52:29",
     "forumTopicId": 29652,
     "hashes": [
       "c544bd31b7b7f81622ed0c516d788f6d"
     ]
   },
   {
-    "title": "~Hack~ Pokemon Emerald Seaglass",
+    "title": "~Hack~ Pokémon Emerald Seaglass",
     "id": 30894,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2425,10 +2785,25 @@
     "numAchievements": 68,
     "numLeaderboards": 0,
     "points": 594,
-    "dateModified": "2025-08-25 16:32:52",
+    "dateModified": "2026-01-04 20:29:29",
     "forumTopicId": 27976,
     "hashes": [
       "fe5f3a1995ca8bb26c68b5f74360d798"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Emerald Slide",
+    "id": 37088,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e9d9cc609e4823bb1fdbcd85a07ed621"
     ]
   },
   {
@@ -2437,10 +2812,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/114163.png",
-    "numAchievements": 30,
+    "numAchievements": 23,
     "numLeaderboards": 0,
-    "points": 337,
-    "dateModified": "2025-03-15 11:41:25",
+    "points": 316,
+    "dateModified": "2026-01-09 01:50:08",
     "forumTopicId": 13314,
     "hashes": [
       "7e319f61dc68fc37223d5ac17f012356"
@@ -2455,14 +2830,59 @@
     "numAchievements": 16,
     "numLeaderboards": 0,
     "points": 1200,
-    "dateModified": "2024-11-17 01:14:18",
+    "dateModified": "2025-11-21 21:03:54",
     "forumTopicId": 17389,
     "hashes": [
       "fa6e5e03d041501c72db930474754305"
     ]
   },
   {
-    "title": "~Hack~ Pokemon Exceeded",
+    "title": "~Hack~ Pokémon Emerald: Double Edition",
+    "id": 32810,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "381031341068a429839a3e99e5e29031"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokemon Ephemerald",
+    "id": 37691,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f76ccef7902b15c5f063b2195fd8ea79"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Evolved",
+    "id": 20492,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/117202.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e69f125e67ec18d1c530b8b7894f7c9d"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Exceeded",
     "id": 31178,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2477,7 +2897,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Fire Red Extended",
+    "title": "~Hack~ Pokémon Exiled Emerald",
+    "id": 34890,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "86f309bfa93a222128169b923fe7d67f"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Fire Red Extended",
     "id": 19572,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2492,7 +2927,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon FireRed 251",
+    "title": "~Hack~ Pokémon FireRed & LeafGreen+",
+    "id": 37868,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3ff0d0a6d17bafaaba1724ef202da03d"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon FireRed 251",
     "id": 8214,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2507,7 +2957,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon FireRed Omega Plus Plus",
+    "title": "~Hack~ Pokémon FireRed Backwards",
+    "id": 15623,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/110760.png",
+    "numAchievements": 32,
+    "numLeaderboards": 0,
+    "points": 345,
+    "dateModified": "2023-09-09 20:59:46",
+    "forumTopicId": 10031,
+    "hashes": [
+      "1983512180b60115cf8c04b5c1affbec"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon FireRed Omega Plus Plus",
     "id": 16038,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2523,7 +2988,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon FireRed: RNG Strikes Back",
+    "title": "~Hack~ Pokémon FireRed Slide",
+    "id": 37087,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "41318776b97f8e4eaa31958de8d4add4"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon FireRed: RNG Strikes Back",
     "id": 8022,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2542,7 +3022,7 @@
     "id": 14408,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/036005.png",
+    "imageIcon": "/Images/122420.png",
     "numAchievements": 34,
     "numLeaderboards": 0,
     "points": 355,
@@ -2562,14 +3042,14 @@
     "numAchievements": 53,
     "numLeaderboards": 0,
     "points": 310,
-    "dateModified": "2022-05-04 22:07:28",
+    "dateModified": "2025-09-04 16:23:31",
     "forumTopicId": 10305,
     "hashes": [
       "acc02c922ab999609c1e50ffdb934df3"
     ]
   },
   {
-    "title": "~Hack~ Pokemon Flora Sky",
+    "title": "~Hack~ Pokémon Flora Sky",
     "id": 12443,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2584,7 +3064,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Fury Red",
+    "title": "~Hack~ Pokémon Fuligin",
+    "id": 37869,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "06f259a49843184529aeab82e203ba1d"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Fury Red",
     "id": 34103,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2599,7 +3094,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Fused Dimensions",
+    "title": "~Hack~ Pokémon Fused Dimensions",
     "id": 28214,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2614,7 +3109,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Fusion 3",
+    "title": "~Hack~ Pokémon Fusion 3",
     "id": 19552,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2629,7 +3124,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Garbage Green",
+    "title": "~Hack~ Pokémon Garbage Green",
     "id": 33099,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2644,7 +3139,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Genesis",
+    "title": "~Hack~ Pokémon Genesis",
     "id": 33098,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2675,7 +3170,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Golden Glazed",
+    "title": "~Hack~ Pokémon Golden Glazed",
     "id": 32960,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2705,7 +3200,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon GS Chronicles",
+    "title": "~Hack~ Pokémon GS Chronicles",
     "id": 34066,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2720,7 +3215,37 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Hyper Emerald",
+    "title": "~Hack~ Pokémon Heart & Soul",
+    "id": 35631,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2283541f9de1b77b48ae7505f33a17fb"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Hodgepodge Platoon",
+    "id": 37866,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7da4e8a85ece3ed0d8b49df718a29598"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Hyper Emerald",
     "id": 33766,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2735,7 +3260,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Inclement Emerald",
+    "title": "~Hack~ Pokémon Inclement Emerald",
     "id": 18004,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2750,7 +3275,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Islas Doradas",
+    "title": "~Hack~ Pokémon Islas Doradas",
     "id": 34105,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2765,7 +3290,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Jupiter",
+    "title": "~Hack~ Pokémon Jupiter",
     "id": 15649,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2780,7 +3305,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Kanlara Ultimate",
+    "title": "~Hack~ Pokémon Kanlara Ultimate",
     "id": 5188,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2795,22 +3320,23 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Lazarus",
+    "title": "~Hack~ Pokémon Lazarus",
     "id": 34108,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120498.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33224,
     "hashes": [
-      "41bf40a70d5c065dc8225afc97303edd"
+      "2057204e19099c7ce602cf559573d09b",
+      "e8326583f1f0f26217836213be3509f1"
     ]
   },
   {
-    "title": "~Hack~ Pokemon League of Legends",
+    "title": "~Hack~ Pokémon League of Legends",
     "id": 28351,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2849,14 +3375,30 @@
     "numAchievements": 74,
     "numLeaderboards": 0,
     "points": 410,
-    "dateModified": "2025-06-20 22:54:45",
+    "dateModified": "2025-12-09 15:58:02",
     "forumTopicId": 2600,
     "hashes": [
       "e2cf937901114df0928ea29443525986"
     ]
   },
   {
-    "title": "~Hack~ Pokemon Mega Emerald: X and Y",
+    "title": "~Hack~ Pokémon MarioRed & LuigiGreen",
+    "id": 37870,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c9abe81fb8715196f2d50f72d865c6b6",
+      "53cf77a1f328ff49006a7a6ad53bb7a6"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Mega Emerald: X and Y",
     "id": 17025,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2868,6 +3410,36 @@
     "forumTopicId": null,
     "hashes": [
       "c2015865a7cc18148c6ccd386e8c42f9"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Minced Fusions",
+    "id": 19720,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/117236.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "08e00c1469f8f14e4948a00eb1f126a5"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Modern Emerald",
+    "id": 34893,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "571e36cb91d46081fdfcaf6620efd078"
     ]
   },
   {
@@ -2886,7 +3458,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Mystery Dungeon: Red Rescue Team Kaizo",
+    "title": "~Hack~ Pokémon Mystery Dungeon: Red Rescue Team Kaizo",
     "id": 17396,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2896,10 +3468,12 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "ee8da817dc8c496284457e2ea07d445c"
+    ]
   },
   {
-    "title": "~Hack~ Pokemon Mystical",
+    "title": "~Hack~ Pokémon Mystical",
     "id": 34106,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2914,7 +3488,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Neon Blue",
+    "title": "~Hack~ Pokémon Neon Blue",
     "id": 19742,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2943,11 +3517,12 @@
       "6074f5ee69d1af489a48cfa3d9492ceb",
       "f08d1b00fdd11bbb7a0a7b26b1e34e3f",
       "4d05834b0e72362bc19681eb718acf8c",
-      "c2f1f0d5a1659c05e2686c23a448b48c"
+      "c2f1f0d5a1659c05e2686c23a448b48c",
+      "c1a19efc331c0489912e70178bda1004"
     ]
   },
   {
-    "title": "~Hack~ Pokemon Outlaw",
+    "title": "~Hack~ Pokémon Outlaw",
     "id": 31916,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2962,7 +3537,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Perfect Emerald",
+    "title": "~Hack~ Pokémon Perfect Emerald",
     "id": 18834,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2972,10 +3547,13 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "05f5ffcea31f321dcf3649228d406e44",
+      "c05a8d19599fbfe075a8fcafd7b7a7ab"
+    ]
   },
   {
-    "title": "~Hack~ Pokemon Pisces",
+    "title": "~Hack~ Pokémon Pisces",
     "id": 34180,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -2990,8 +3568,8 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Puffy Pink",
-    "id": 28350,
+    "title": "~Hack~ Pokémon Pseudo Red",
+    "id": 34889,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/000001.png",
@@ -3001,11 +3579,26 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
+      "228118ce7dfdf5b30fd6ddcdad48d97a"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Puffy Pink",
+    "id": 28350,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/123779.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 34163,
+    "hashes": [
       "48a851befb72015a231733a86677290c"
     ]
   },
   {
-    "title": "~Hack~ Pokemon Quartz",
+    "title": "~Hack~ Pokémon Quartz",
     "id": 15436,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3020,7 +3613,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon R.O.W.E.",
+    "title": "~Hack~ Pokémon R.O.W.E.",
     "id": 21881,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3055,14 +3648,16 @@
     "id": 32844,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/117539.png",
+    "numAchievements": 122,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "points": 1106,
+    "dateModified": "2025-09-22 13:21:35",
     "forumTopicId": 31065,
     "hashes": [
-      "88dda60955bebb087dc1e72fd1308bc0"
+      "eceaa049048a61ebe66f3f58e3723a5b",
+      "f258589489cb284a1115ae26db5f8111",
+      "a243fec6f7c80477eacf6762313dd6e0"
     ]
   },
   {
@@ -3074,14 +3669,30 @@
     "numAchievements": 91,
     "numLeaderboards": 0,
     "points": 614,
-    "dateModified": "2025-08-09 01:30:33",
+    "dateModified": "2025-11-01 18:39:44",
     "forumTopicId": 26425,
     "hashes": [
-      "9d54170472e5a37fc92602b838fe754e"
+      "9d54170472e5a37fc92602b838fe754e",
+      "3d26111c90fc3041abe5b1ac4c8257b3"
     ]
   },
   {
-    "title": "~Hack~ Pokemon Resolute Version",
+    "title": "~Hack~ Pokémon Recordkeepers",
+    "id": 37158,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "72e5cc272cc7f5c37f181b4c7581a261"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Resolute Version",
     "id": 4709,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3096,7 +3707,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Rijon Adventures",
+    "title": "~Hack~ Pokémon Rijon Adventures",
     "id": 16166,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3111,7 +3722,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Ruby Destiny: Life of Guardians",
+    "title": "~Hack~ Pokémon Royal Sapphire",
+    "id": 36407,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 33236,
+    "hashes": [
+      "5f78da393160195ae7d4b66e5ba3d37a"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Ruby Destiny: Life of Guardians",
     "id": 14409,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3126,7 +3752,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Ruby Destiny: Reign of Legends",
+    "title": "~Hack~ Pokémon Ruby Destiny: Reign of Legends",
     "id": 14410,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3141,7 +3767,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Ruby Destiny: Rescue Rangers",
+    "title": "~Hack~ Pokémon Ruby Destiny: Rescue Rangers",
     "id": 14411,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3156,7 +3782,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Ruby Renev",
+    "title": "~Hack~ Pokémon Ruby Renev",
     "id": 24614,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3171,7 +3797,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Run & Bun",
+    "title": "~Hack~ Pokémon Run & Bun",
     "id": 25363,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3186,7 +3812,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Saiph",
+    "title": "~Hack~ Pokémon Saiph",
     "id": 16059,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3202,7 +3828,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Saiph 2",
+    "title": "~Hack~ Pokémon Saiph 2",
     "id": 33064,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3217,22 +3843,38 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Scorched Silver",
+    "title": "~Hack~ Pokémon Scorched Silver",
     "id": 31892,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/112523.png",
-    "numAchievements": 0,
+    "numAchievements": 84,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-06-16 19:06:01",
+    "points": 731,
+    "dateModified": "2025-12-04 14:34:36",
     "forumTopicId": 30953,
     "hashes": [
       "f7af51cecd3e170cc373fba01753053c"
     ]
   },
   {
-    "title": "~Hack~ Pokemon Shiny Gold Sigma",
+    "title": "~Hack~ Pokémon Shiny Gold",
+    "id": 22466,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/109432.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d5e1f57b025d091afe7d4c2e2de3a5e6",
+      "f19e1ffb95770c1c680e68f71cb2b5c1"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Shiny Gold Sigma",
     "id": 9592,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3249,7 +3891,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Shiny Gold X",
+    "title": "~Hack~ Pokémon Shiny Gold X",
     "id": 9324,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3264,7 +3906,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Sienna",
+    "title": "~Hack~ Pokémon Sienna",
     "id": 33101,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3279,7 +3921,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon SkyBlue",
+    "title": "~Hack~ Pokémon Sippy Cup Sapphire",
+    "id": 36991,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ac45fda192187a16590ea78026cb6e2c"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon SkyBlue",
     "id": 32071,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3294,7 +3951,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Smile",
+    "title": "~Hack~ Pokémon Smile",
     "id": 17134,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3309,7 +3966,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Smogon Emerald",
+    "title": "~Hack~ Pokémon Smogon Emerald",
     "id": 31930,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3340,7 +3997,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Sors",
+    "title": "~Hack~ Pokémon Sors",
     "id": 18809,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3356,7 +4013,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Stigma",
+    "title": "~Hack~ Pokémon Stigma",
     "id": 28307,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3371,7 +4028,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Sun and Moon",
+    "title": "~Hack~ Pokémon Sun and Moon",
     "id": 15710,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3386,7 +4043,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Super Dark Worship",
+    "title": "~Hack~ Pokémon Super Dark Worship",
     "id": 34030,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3401,7 +4058,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Sweet 2th",
+    "title": "~Hack~ Pokémon Sweet 2th",
     "id": 6386,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3432,21 +4089,6 @@
     ]
   },
   {
-    "title": "~Hack~ Pokémon Sweet Version [Subset - Professor Oak Challenge]",
-    "id": 29082,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/096856.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 26012,
-    "hashes": [
-      "097cf74b42393bc2d41bc45ed7ac6ced"
-    ]
-  },
-  {
     "title": "~Hack~ Pokémon Sword and Shield Ultimate Plus",
     "id": 18985,
     "consoleId": 5,
@@ -3470,7 +4112,7 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2026-01-09 02:58:04",
     "forumTopicId": 28659,
     "hashes": [
       "f2ec2719a5c30d0a028d438e1b6d7bb4",
@@ -3478,7 +4120,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Team Rocket Edition",
+    "title": "~Hack~ Pokémon Team Rocket Edition",
     "id": 31917,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3508,7 +4150,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Throwback",
+    "title": "~Hack~ Pokémon Throwback",
     "id": 19800,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3523,7 +4165,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Trick-or-Treat House",
+    "title": "~Hack~ Pokémon Trade & 'Stache",
+    "id": 37867,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8b61fa8ab00c6d895b928e3bca5740df"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Trick-or-Treat House",
     "id": 26632,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3538,7 +4195,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Ultra",
+    "title": "~Hack~ Pokémon Turky Version",
+    "id": 37157,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "57272c196288b623b753734d2e4486b4"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Ultra",
     "id": 9328,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3553,7 +4225,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Ultra Quartz: Let's Go! Blobbos",
+    "title": "~Hack~ Pokémon Ultra Quartz: Let's Go! Blobbos",
     "id": 15620,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3576,7 +4248,7 @@
     "numAchievements": 29,
     "numLeaderboards": 0,
     "points": 321,
-    "dateModified": "2020-04-22 22:30:29",
+    "dateModified": "2026-01-17 22:05:34",
     "forumTopicId": 3411,
     "hashes": [
       "48f5c9500f409dd2e14e297e81aa764c"
@@ -3607,10 +4279,25 @@
     "numAchievements": 844,
     "numLeaderboards": 10,
     "points": 1000,
-    "dateModified": "2025-03-20 04:27:55",
+    "dateModified": "2025-12-26 01:48:19",
     "forumTopicId": 21528,
     "hashes": [
       "ba7c443cf7da00e1bbf7d3ffce305dcf"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Uncanny Version",
+    "id": 34877,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/119475.png",
+    "numAchievements": 90,
+    "numLeaderboards": 0,
+    "points": 356,
+    "dateModified": "2025-12-22 18:19:46",
+    "forumTopicId": 32321,
+    "hashes": [
+      "6b83016bbf8eaf6fc9846cab02a5f838"
     ]
   },
   {
@@ -3622,14 +4309,14 @@
     "numAchievements": 77,
     "numLeaderboards": 2,
     "points": 560,
-    "dateModified": "2024-10-25 22:12:08",
+    "dateModified": "2025-12-05 00:49:16",
     "forumTopicId": 7855,
     "hashes": [
       "07c35fe1c718fb92c80797c0d449455b"
     ]
   },
   {
-    "title": "~Hack~ Pokemon Verde Musgo",
+    "title": "~Hack~ Pokémon Verde Musgo",
     "id": 33275,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3645,7 +4332,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Victory Fire",
+    "title": "~Hack~ Pokémon Victory Fire",
     "id": 28185,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3657,6 +4344,21 @@
     "forumTopicId": null,
     "hashes": [
       "c3a58f49b19ca63cf9403ec5b19ef0c5"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Voyager",
+    "id": 37085,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d4fdf47743afb924fc1e5d2603d41f21"
     ]
   },
   {
@@ -3676,7 +4378,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Weird Type Fun",
+    "title": "~Hack~ Pokémon Weird Type Fun",
     "id": 31963,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3706,7 +4408,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon: Desert Bus",
+    "title": "~Hack~ Pokémon: Desert Bus",
     "id": 16781,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3721,7 +4423,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon: Fat Kid",
+    "title": "~Hack~ Pokémon: Fat Kid",
     "id": 17128,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3736,7 +4438,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon: Gaia Version",
+    "title": "~Hack~ Pokémon: Gaia Version",
     "id": 14438,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3751,7 +4453,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon: Giratina Strikes Back",
+    "title": "~Hack~ Pokémon: Giratina Strikes Back",
     "id": 14605,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3766,7 +4468,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon: Let's Go, Pikachu! | Pokemon: Let's Go, Eevee!",
+    "title": "~Hack~ Pokémon: Let's Go, Pikachu! | Pokémon: Let's Go, Eevee!",
     "id": 15709,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3776,7 +4478,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "4aad591dc9239a237f98dfaec308d3c9"
+    ]
   },
   {
     "title": "~Hack~ Pokémon: Maxie's Island",
@@ -3794,7 +4498,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon: Nameless",
+    "title": "~Hack~ Pokémon: Nameless",
     "id": 5983,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3832,7 +4536,7 @@
     "numAchievements": 49,
     "numLeaderboards": 0,
     "points": 307,
-    "dateModified": "2025-05-29 09:47:16",
+    "dateModified": "2025-09-28 22:53:49",
     "forumTopicId": 9374,
     "hashes": [
       "a9ab32e8aa66acf206fb19c3764f29ce"
@@ -3854,7 +4558,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon: Rocket Science",
+    "title": "~Hack~ Pokémon: Rocket Science",
     "id": 9327,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3869,7 +4573,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon: Sovereign of the Skies",
+    "title": "~Hack~ Pokémon: Sovereign of the Skies",
     "id": 33008,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3884,7 +4588,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon: The Last Fire Red Version",
+    "title": "~Hack~ Pokémon: Spirits of the Storm",
+    "id": 37146,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "efefeb6c88b1b310f128d07a8c6c313f"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon: The Last Fire Red Version",
     "id": 16567,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3899,23 +4618,53 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon: Too Many Types",
-    "id": 25856,
+    "title": "~Hack~ Pokémon: The Wooloo & Obstagoon",
+    "id": 37156,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/108677.png",
+    "imageIcon": "/Images/000001.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": 23555,
+    "forumTopicId": null,
     "hashes": [
-      "e7ec28748911cf3895f930d59d6d0120",
-      "5b68aeb8edd2c9d7ba5de829c22850e0"
+      "3a90ecad7f96e58e1c0ae13ed6d00ade"
     ]
   },
   {
-    "title": "~Hack~ PokeScape",
+    "title": "~Hack~ Pokémon: Too Many Types",
+    "id": 25856,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/108677.png",
+    "numAchievements": 63,
+    "numLeaderboards": 0,
+    "points": 632,
+    "dateModified": "2025-12-25 16:22:55",
+    "forumTopicId": 23555,
+    "hashes": [
+      "e7ec28748911cf3895f930d59d6d0120"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon: Too Many Types 2",
+    "id": 37577,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/122784.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 33638,
+    "hashes": [
+      "744fe521d58beb5ed16cbfc9e02f352b",
+      "524b56155162145ccf93ef8b9771b7ba"
+    ]
+  },
+  {
+    "title": "~Hack~ PokéScape",
     "id": 32794,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -3991,6 +4740,21 @@
     ]
   },
   {
+    "title": "~Hack~ SMA2 Micro-Hack: The Return to Dinosaur Land",
+    "id": 29082,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/121114.png",
+    "numAchievements": 10,
+    "numLeaderboards": 0,
+    "points": 39,
+    "dateModified": "2025-11-29 00:45:44",
+    "forumTopicId": 33349,
+    "hashes": [
+      "df01d18578247c6bd8b7c651793268bc"
+    ]
+  },
+  {
     "title": "~Hack~ Sonic Advance 2 SP",
     "id": 31904,
     "consoleId": 5,
@@ -4003,6 +4767,21 @@
     "forumTopicId": null,
     "hashes": [
       "256b697614592d41e0c05c2e597e6151"
+    ]
+  },
+  {
+    "title": "~Hack~ Sonicmon FireRed",
+    "id": 7875,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/122215.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "96c8cc524f1fac55769d7b9f794c80e8"
     ]
   },
   {
@@ -4030,11 +4809,71 @@
     "numAchievements": 46,
     "numLeaderboards": 0,
     "points": 410,
-    "dateModified": "2025-08-25 14:32:54",
+    "dateModified": "2026-01-28 22:46:23",
     "forumTopicId": 12428,
     "hashes": [
       "0c0450cf5556ddac9de85f04cbee4c00",
       "ae340ff5e044ccca4b3efbb61c154c1c"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Metroid: Revamp",
+    "id": 37864,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e0d629dd304ea32fb8376ef123455634"
+    ]
+  },
+  {
+    "title": "~Hack~ The Last Promise",
+    "id": 15933,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/076916.png",
+    "numAchievements": 61,
+    "numLeaderboards": 0,
+    "points": 410,
+    "dateModified": "2021-07-04 16:51:48",
+    "forumTopicId": 10232,
+    "hashes": [
+      "485740f0f0036d32bdf7369334be13e0"
+    ]
+  },
+  {
+    "title": "~Hack~ The New Kanto: Fractured Fate",
+    "id": 37871,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2243d9cce26f58026e218060a10d436d"
+    ]
+  },
+  {
+    "title": "~Hack~ The Szechuan Sword: A PostModern Strategy Game",
+    "id": 37048,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/122588.png",
+    "numAchievements": 30,
+    "numLeaderboards": 0,
+    "points": 275,
+    "dateModified": "2026-01-04 22:20:05",
+    "forumTopicId": 33463,
+    "hashes": [
+      "d3515716f640151e607eaf7b38ac8a33"
     ]
   },
   {
@@ -4053,6 +4892,21 @@
     ]
   },
   {
+    "title": "~Hack~ Thirst Trap",
+    "id": 37159,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f880a36fb074fcdf06d15e6d60d1414d"
+    ]
+  },
+  {
     "title": "~Hack~ Touhou Emblem",
     "id": 17706,
     "consoleId": 5,
@@ -4063,7 +4917,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "56ceb82a9637114274f34bef3eacb469"
+    ]
   },
   {
     "title": "~Hack~ Touhou Puppet Play Enhanced (Reloaded)",
@@ -4076,7 +4932,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "2e8a0b195fb8411781ce8e453a1374f6"
+    ]
   },
   {
     "title": "~Hack~ Touhoumon Cirno Version",
@@ -4192,7 +5050,7 @@
     "numAchievements": 11,
     "numLeaderboards": 0,
     "points": 101,
-    "dateModified": "2025-08-09 13:39:02",
+    "dateModified": "2025-09-01 19:19:21",
     "forumTopicId": 30821,
     "hashes": [
       "2a61c47153fae98c6d6dfc1cf2a840e8"
@@ -4274,21 +5132,6 @@
     ]
   },
   {
-    "title": "~Hack~Pokemon Emerald: Double Edition",
-    "id": 32810,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "381031341068a429839a3e99e5e29031"
-    ]
-  },
-  {
     "title": "~Homebrew~ ~Demo~ Goodboy Galaxy: Chapter Zero",
     "id": 10577,
     "consoleId": 5,
@@ -4307,6 +5150,36 @@
       "c2d4eb09f51e13a7ec4968e198f323c7",
       "c94f9c68bdda0a027367e49d67becdd9",
       "e5e47dc93685ab0e7299526864d4b450"
+    ]
+  },
+  {
+    "title": "~Homebrew~ ~Demo~ Graveblood",
+    "id": 37694,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "edb886e57808ac9e1b5d25c56bbcef32"
+    ]
+  },
+  {
+    "title": "~Homebrew~ ~Demo~ Hollow Knight",
+    "id": 37164,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0c7177020807ef7b517150d9ad9f74ad"
     ]
   },
   {
@@ -4340,6 +5213,36 @@
     ]
   },
   {
+    "title": "~Homebrew~ ~Demo~ Toll Runner",
+    "id": 37155,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "be100ee4f7309ffa4b59cfde7e4d8a2f"
+    ]
+  },
+  {
+    "title": "~Homebrew~ 2048",
+    "id": 37771,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a4de2d3cbdc2bd88946ff2ead5d80d5d"
+    ]
+  },
+  {
     "title": "~Homebrew~ 3D SnowTank",
     "id": 34132,
     "consoleId": 5,
@@ -4367,6 +5270,21 @@
     "forumTopicId": null,
     "hashes": [
       "02f233e3ae37bb9a9517291872720a1f"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Alice Sisters",
+    "id": 37883,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a9bcc7b2c3dd026b28d442d7c73891e4"
     ]
   },
   {
@@ -4462,6 +5380,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Boulder Crash",
+    "id": 28315,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/117194.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1441e4d82330fb286a7e1702b68992cf"
+    ]
+  },
+  {
     "title": "~Homebrew~ Bridge Quest",
     "id": 27590,
     "consoleId": 5,
@@ -4511,7 +5444,7 @@
     "id": 9331,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/101419.png",
+    "imageIcon": "/Images/118994.png",
     "numAchievements": 15,
     "numLeaderboards": 1,
     "points": 110,
@@ -4541,11 +5474,11 @@
     "id": 24913,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/117134.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-08-31 01:58:37",
+    "imageIcon": "/Images/117557.png",
+    "numAchievements": 20,
+    "numLeaderboards": 6,
+    "points": 232,
+    "dateModified": "2025-10-02 02:04:26",
     "forumTopicId": 22139,
     "hashes": [
       "b80cc711be05a40a2707fbf8027f120e"
@@ -4560,22 +5493,22 @@
     "numAchievements": 39,
     "numLeaderboards": 6,
     "points": 155,
-    "dateModified": "2025-07-09 10:30:46",
+    "dateModified": "2025-09-06 19:31:09",
     "forumTopicId": 10861,
     "hashes": [
       "9bcd687293600451abdd0f181b2427e8"
     ]
   },
   {
-    "title": "~Homebrew~ Celeste Classic 2",
+    "title": "~Homebrew~ Celeste Classic 2: Lani's Trek",
     "id": 34096,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "imageIcon": "/Images/117569.png",
+    "numAchievements": 11,
+    "numLeaderboards": 2,
+    "points": 120,
+    "dateModified": "2025-10-04 19:25:25",
     "forumTopicId": 31520,
     "hashes": [
       "c54284810931820a1b3e9e86b7aac6f1"
@@ -4642,18 +5575,33 @@
     ]
   },
   {
+    "title": "~Homebrew~ Crypt Sweeper",
+    "id": 37882,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7124c4ba52dfe5684579f343954274e3"
+    ]
+  },
+  {
     "title": "~Homebrew~ Discrete Orange",
     "id": 30462,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/100296.png",
-    "numAchievements": 32,
+    "imageIcon": "/Images/117665.png",
+    "numAchievements": 62,
     "numLeaderboards": 0,
-    "points": 295,
-    "dateModified": "2025-07-14 17:45:00",
+    "points": 390,
+    "dateModified": "2025-12-19 17:27:46",
     "forumTopicId": 27485,
     "hashes": [
-      "0f424c61285bfee9a940bc9aa47c61bf"
+      "0b05bbe610ecf21530aade82f4246fc0"
     ]
   },
   {
@@ -4774,6 +5722,21 @@
     "forumTopicId": 21393,
     "hashes": [
       "609b56cf77e11f798f2913efbef0d94f"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Galacard Advance",
+    "id": 37016,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1c1d819ef380b1910277eae8f6f754f6"
     ]
   },
   {
@@ -4898,6 +5861,21 @@
     "forumTopicId": null,
     "hashes": [
       "f56df89da1d5405402166b06e19d15e5"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Green Memories",
+    "id": 37683,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "276b4ef1d42518e99859b31d4ee1b843"
     ]
   },
   {
@@ -5216,6 +6194,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Necropolis",
+    "id": 37154,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bf478efac1a6ffccf083eea8cff01c55"
+    ]
+  },
+  {
     "title": "~Homebrew~ Neo Racing Genesis",
     "id": 25306,
     "consoleId": 5,
@@ -5360,8 +6353,8 @@
     "imageIcon": "/Images/074274.png",
     "numAchievements": 7,
     "numLeaderboards": 6,
-    "points": 9,
-    "dateModified": "2023-06-04 03:33:30",
+    "points": 11,
+    "dateModified": "2025-09-02 07:18:04",
     "forumTopicId": 21830,
     "hashes": [
       "564728f953486c7f8af022f7765bcc93"
@@ -5376,7 +6369,7 @@
     "numAchievements": 6,
     "numLeaderboards": 1,
     "points": 16,
-    "dateModified": "2025-08-29 03:41:50",
+    "dateModified": "2025-09-29 05:34:58",
     "forumTopicId": 32082,
     "hashes": [
       "65080cc9ae25fc558c6fb0a1eb0a3b2b"
@@ -5507,7 +6500,7 @@
     "id": 22659,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/068856.png",
+    "imageIcon": "/Images/121562.png",
     "numAchievements": 10,
     "numLeaderboards": 0,
     "points": 7,
@@ -5643,10 +6636,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/051052.png",
-    "numAchievements": 8,
+    "numAchievements": 7,
     "numLeaderboards": 2,
-    "points": 20,
-    "dateModified": "2025-01-23 03:33:20",
+    "points": 19,
+    "dateModified": "2025-12-04 23:36:28",
     "forumTopicId": 14518,
     "hashes": [
       "b01251955731bf7509cb09af8f49ad1d"
@@ -5863,6 +6856,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ With the Last Moonbeam",
+    "id": 37695,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/123177.png",
+    "numAchievements": 18,
+    "numLeaderboards": 1,
+    "points": 100,
+    "dateModified": "2026-01-24 17:03:25",
+    "forumTopicId": 33983,
+    "hashes": [
+      "8220c6b2243aa64a2bd30e09c1d0436d"
+    ]
+  },
+  {
     "title": "~Homebrew~ Worm Wars",
     "id": 20053,
     "consoleId": 5,
@@ -5935,6 +6943,21 @@
     "forumTopicId": null,
     "hashes": [
       "37c496730495607e17c2ff73478c263f"
+    ]
+  },
+  {
+    "title": "~Prototype~ Animaniacs: Hollywood Hypnotics",
+    "id": 36235,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0e2e6304b6f04d7b878f05c22f6b5ab1"
     ]
   },
   {
@@ -6020,9 +7043,9 @@
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/068007.png",
     "numAchievements": 0,
-    "numLeaderboards": 32,
+    "numLeaderboards": 0,
     "points": 0,
-    "dateModified": "2023-02-13 09:55:59",
+    "dateModified": null,
     "forumTopicId": 9045,
     "hashes": [
       "e56da89876f44184900ee955d5864742"
@@ -6086,21 +7109,6 @@
     "forumTopicId": 7943,
     "hashes": [
       "bb03faf625c3fcfd8278513ce46448b4"
-    ]
-  },
-  {
-    "title": "~Prototype~ Holy Bible, The: World English Bible",
-    "id": 24040,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 21161,
-    "hashes": [
-      "f5d654479e0298694b9479cef798494c"
     ]
   },
   {
@@ -6194,21 +7202,6 @@
     ]
   },
   {
-    "title": "~Prototype~ Phantom, The",
-    "id": 4913,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 6765,
-    "hashes": [
-      "b0c2d1eea6b076c167fd74ce79538d91"
-    ]
-  },
-  {
     "title": "~Prototype~ Quake",
     "id": 19894,
     "consoleId": 5,
@@ -6247,7 +7240,7 @@
     "numAchievements": 11,
     "numLeaderboards": 1,
     "points": 25,
-    "dateModified": "2024-05-02 23:47:54",
+    "dateModified": "2025-12-26 11:03:38",
     "forumTopicId": 7514,
     "hashes": [
       "e9385f1a0876c563dc42a0ee9c8700ce"
@@ -6284,6 +7277,21 @@
     ]
   },
   {
+    "title": "~Prototype~ SpongeBob SquarePants: SuperSponge",
+    "id": 35439,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/119579.png",
+    "numAchievements": 43,
+    "numLeaderboards": 0,
+    "points": 93,
+    "dateModified": "2026-01-19 06:41:10",
+    "forumTopicId": 34018,
+    "hashes": [
+      "04507c08f149756e262017efd3df4bee"
+    ]
+  },
+  {
     "title": "~Prototype~ The Haunted Mansion",
     "id": 8664,
     "consoleId": 5,
@@ -6296,6 +7304,52 @@
     "forumTopicId": null,
     "hashes": [
       "e10c33761a85410bb894696ae03f22d0"
+    ]
+  },
+  {
+    "title": "~Prototype~ The Holy Bible: World English Bible",
+    "id": 24040,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/119524.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 21161,
+    "hashes": [
+      "f5d654479e0298694b9479cef798494c"
+    ]
+  },
+  {
+    "title": "~Prototype~ The Phantom",
+    "id": 4913,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 6765,
+    "hashes": [
+      "b0c2d1eea6b076c167fd74ce79538d91"
+    ]
+  },
+  {
+    "title": "~Prototype~ Turok Advance",
+    "id": 36526,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4ea4146cbd7ae1995475192de7c2fc42",
+      "a5c7e848777e487bb762131146c5e0ec"
     ]
   },
   {
@@ -6374,19 +7428,6 @@
     ]
   },
   {
-    "title": "~Unlicensed~ Digimon 2",
-    "id": 16159,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
     "title": "~Unlicensed~ Digimon Adventure",
     "id": 16158,
     "consoleId": 5,
@@ -6397,7 +7438,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "1dabbc7a86182729df1310ae6234ffb4"
+    ]
   },
   {
     "title": "~Unlicensed~ Digimon Ruby",
@@ -6430,21 +7473,6 @@
     ]
   },
   {
-    "title": "~Unlicensed~ Hajimete no Orusuban",
-    "id": 31879,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/104859.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "733e79630527629cbbe757b3e7f30a31"
-    ]
-  },
-  {
     "title": "~Unlicensed~ Kagetsu Tohya",
     "id": 31903,
     "consoleId": 5,
@@ -6454,7 +7482,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32850,
     "hashes": [
       "ba753b74237fde2d26264b0b095c1a8a"
     ]
@@ -6475,21 +7503,6 @@
     ]
   },
   {
-    "title": "~Unlicensed~ Lord of the Rings, The: The Return of the King",
-    "id": 17532,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 12665,
-    "hashes": [
-      "662a615941bc1299de3f4cac0a6bec2d"
-    ]
-  },
-  {
     "title": "~Unlicensed~ Qwak",
     "id": 11130,
     "consoleId": 5,
@@ -6505,19 +7518,18 @@
     ]
   },
   {
-    "title": "~Unlicensed~ Rockman & Crystal | Zook Man ZX4",
+    "title": "~Unlicensed~ Rockman & Crystal",
     "id": 13635,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/021126.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 36,
+    "numLeaderboards": 1,
+    "points": 252,
+    "dateModified": "2025-11-07 22:53:22",
     "forumTopicId": 7884,
     "hashes": [
-      "8bb88f20d166d7f6c3806c0c761fb54d",
-      "9f966d8f9f2865e96a42eed33a201cde"
+      "8bb88f20d166d7f6c3806c0c761fb54d"
     ]
   },
   {
@@ -6534,6 +7546,21 @@
     "hashes": [
       "a6e8aa4c79ad8c68922c749ab7de7829",
       "b32cb8feed35b03fd6a49d50dc9223c7"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ The Lord of the Rings: The Return of the King",
+    "id": 17532,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 12665,
+    "hashes": [
+      "662a615941bc1299de3f4cac0a6bec2d"
     ]
   },
   {
@@ -6567,7 +7594,7 @@
     ]
   },
   {
-    "title": "~Z~ ~Hack~ Pokemon Psychic Adventures",
+    "title": "~Z~ ~Hack~ Pokémon Psychic Adventures",
     "id": 24233,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -7568,6 +8595,32 @@
     ]
   },
   {
+    "title": "~Z~ Ineligible For Set",
+    "id": 35104,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
+    "title": "~Z~ No Hash 11575",
+    "id": 11575,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/118919.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
     "title": "007: Everything or Nothing",
     "id": 9207,
     "consoleId": 5,
@@ -7637,7 +8690,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33858,
     "hashes": [
       "bd846a0248e2f18bf7521fd2f5479881"
     ]
@@ -7651,7 +8704,7 @@
     "numAchievements": 25,
     "numLeaderboards": 3,
     "points": 400,
-    "dateModified": "2025-01-02 20:27:11",
+    "dateModified": "2025-11-15 10:30:04",
     "forumTopicId": 7880,
     "hashes": [
       "a40e7bbd268202da470950335a6793f5"
@@ -7709,10 +8762,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/114300.png",
-    "numAchievements": 0,
+    "numAchievements": 24,
     "numLeaderboards": 4,
-    "points": 0,
-    "dateModified": "2025-08-12 16:32:28",
+    "points": 150,
+    "dateModified": "2025-12-23 00:35:26",
     "forumTopicId": 31172,
     "hashes": [
       "1cd909a6837e4175244b71b83d2fdd1f"
@@ -7739,14 +8792,29 @@
     "id": 531,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/080113.png",
+    "imageIcon": "/Images/118866.png",
+    "numAchievements": 43,
+    "numLeaderboards": 24,
+    "points": 235,
+    "dateModified": "2026-01-01 13:47:26",
+    "forumTopicId": 32559,
+    "hashes": [
+      "4e46dd3ae5c9c70c49587d093517049a"
+    ]
+  },
+  {
+    "title": "Ace Lightning",
+    "id": 16159,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "4e46dd3ae5c9c70c49587d093517049a"
+      "21f4383d59bb113b4495be56e30c0c53"
     ]
   },
   {
@@ -7920,7 +8988,7 @@
     "id": 5081,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/049695.png",
+    "imageIcon": "/Images/121440.png",
     "numAchievements": 39,
     "numLeaderboards": 0,
     "points": 329,
@@ -8257,10 +9325,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/114199.png",
-    "numAchievements": 0,
+    "numAchievements": 27,
     "numLeaderboards": 12,
-    "points": 0,
-    "dateModified": "2025-08-21 00:59:10",
+    "points": 154,
+    "dateModified": "2025-10-13 15:57:00",
     "forumTopicId": 31239,
     "hashes": [
       "60eb386e45d38b41fa10cd2535f681d8"
@@ -8394,12 +9462,12 @@
     "id": 9052,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/110510.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/122463.png",
+    "numAchievements": 19,
+    "numLeaderboards": 12,
+    "points": 125,
+    "dateModified": "2026-01-04 22:54:22",
+    "forumTopicId": 33626,
     "hashes": [
       "a3dd3b98ad5049503af18f80c84731fc"
     ]
@@ -8436,6 +9504,21 @@
     ]
   },
   {
+    "title": "Avatar: The Last Airbender",
+    "id": 7644,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/076401.png",
+    "numAchievements": 46,
+    "numLeaderboards": 0,
+    "points": 301,
+    "dateModified": "2024-10-24 23:20:39",
+    "forumTopicId": 14449,
+    "hashes": [
+      "ef9198e16c58c4824efae668da1e7040"
+    ]
+  },
+  {
     "title": "Avatar: The Last Airbender - The Burning Earth",
     "id": 5502,
     "consoleId": 5,
@@ -8451,21 +9534,6 @@
     ]
   },
   {
-    "title": "Avatar: The Last Airbender | Avatar: The Legend of Aang",
-    "id": 7644,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/076401.png",
-    "numAchievements": 46,
-    "numLeaderboards": 0,
-    "points": 301,
-    "dateModified": "2024-10-24 23:20:39",
-    "forumTopicId": 14449,
-    "hashes": [
-      "ef9198e16c58c4824efae668da1e7040"
-    ]
-  },
-  {
     "title": "Azumanga Daioh Advance",
     "id": 6653,
     "consoleId": 5,
@@ -8474,7 +9542,7 @@
     "numAchievements": 42,
     "numLeaderboards": 0,
     "points": 338,
-    "dateModified": "2024-11-13 00:18:34",
+    "dateModified": "2025-12-17 07:00:04",
     "forumTopicId": 25536,
     "hashes": [
       "34a82a7281e62fdf2051b95dc0df0488"
@@ -8550,7 +9618,7 @@
     "numAchievements": 0,
     "numLeaderboards": 2,
     "points": 0,
-    "dateModified": "2025-08-06 19:43:35",
+    "dateModified": "2026-01-07 15:17:08",
     "forumTopicId": 31051,
     "hashes": [
       "4f34ee4d9014cd0b9c6ae52df1f72af2"
@@ -8809,7 +9877,7 @@
     "numAchievements": 20,
     "numLeaderboards": 0,
     "points": 116,
-    "dateModified": "2024-11-10 17:23:30",
+    "dateModified": "2026-01-25 18:59:19",
     "forumTopicId": 24836,
     "hashes": [
       "31628fe35cfe67066a003f045a32daae",
@@ -8817,7 +9885,7 @@
     ]
   },
   {
-    "title": "Barbie as the Island Princess",
+    "title": "Barbie as The Island Princess",
     "id": 8064,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -8931,10 +9999,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/089227.png",
-    "numAchievements": 0,
+    "numAchievements": 27,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "points": 235,
+    "dateModified": "2025-09-04 15:29:04",
     "forumTopicId": 32068,
     "hashes": [
       "8c48059bf2c40a78b9739edf5ea411cb"
@@ -9068,7 +10136,7 @@
     "id": 14163,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/024291.png",
+    "imageIcon": "/Images/122124.png",
     "numAchievements": 32,
     "numLeaderboards": 0,
     "points": 265,
@@ -9076,6 +10144,21 @@
     "forumTopicId": 13517,
     "hashes": [
       "d3057e966f2383ba5664d4523d8f6df1"
+    ]
+  },
+  {
+    "title": "Bibi Blocksberg: Der Magische Hexenkreis",
+    "id": 36297,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c3c8470c8b0e460def74307fa985666b"
     ]
   },
   {
@@ -9128,7 +10211,7 @@
     "id": 8973,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/121255.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -9222,7 +10305,7 @@
     "numAchievements": 51,
     "numLeaderboards": 31,
     "points": 381,
-    "dateModified": "2025-03-23 12:02:57",
+    "dateModified": "2025-11-11 03:19:40",
     "forumTopicId": 28265,
     "hashes": [
       "00fc773fff582dc53604a7229f64e82f"
@@ -9465,7 +10548,7 @@
     "numAchievements": 67,
     "numLeaderboards": 0,
     "points": 540,
-    "dateModified": "2025-01-05 22:05:02",
+    "dateModified": "2025-11-25 00:42:24",
     "forumTopicId": 132,
     "hashes": [
       "9f1c1202ed1d856c5836cee6818a171e",
@@ -9474,16 +10557,31 @@
     ]
   },
   {
-    "title": "Bomberman Jetters: Densetsu no Bomberman",
-    "id": 9885,
+    "title": "Boku wa Koukuu Kanseikan",
+    "id": 31879,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119211.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
+    "hashes": [
+      "90f1dfb87a2c47224d43c8f09eda0841"
+    ]
+  },
+  {
+    "title": "Bomberman Jetters: Densetsu no Bomberman",
+    "id": 9885,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/123341.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 33814,
     "hashes": [
       "c86f84d68f584b666e5490f764fda27e"
     ]
@@ -9601,7 +10699,7 @@
     "id": 7651,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/043762.png",
+    "imageIcon": "/Images/118131.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -9757,10 +10855,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/110019.png",
-    "numAchievements": 0,
+    "numAchievements": 25,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2022-07-28 10:25:16",
+    "points": 147,
+    "dateModified": "2025-11-30 02:04:37",
     "forumTopicId": 6905,
     "hashes": [
       "1bdadffe311ef9fa231c799806ad5ca3",
@@ -9864,7 +10962,7 @@
     ]
   },
   {
-    "title": "Cabela's Big Game Hunter: 2005 Adventures",
+    "title": "Cabela's Big Game Hunter 2005 Adventures",
     "id": 7331,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -9993,7 +11091,7 @@
     "numAchievements": 25,
     "numLeaderboards": 0,
     "points": 180,
-    "dateModified": "2023-03-12 22:14:14",
+    "dateModified": "2025-12-26 20:47:18",
     "forumTopicId": 20747,
     "hashes": [
       "0e9df95d854d56a7bed63b79bab40bc1",
@@ -10054,7 +11152,7 @@
     "id": 9330,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122817.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -10073,7 +11171,7 @@
     "numAchievements": 66,
     "numLeaderboards": 6,
     "points": 725,
-    "dateModified": "2025-08-21 19:50:09",
+    "dateModified": "2025-11-25 19:54:52",
     "forumTopicId": 467,
     "hashes": [
       "023deff01a5285d1539d18266903a050",
@@ -10109,7 +11207,7 @@
     "numAchievements": 36,
     "numLeaderboards": 3,
     "points": 196,
-    "dateModified": "2025-01-17 18:54:22",
+    "dateModified": "2025-10-23 19:19:57",
     "forumTopicId": 20765,
     "hashes": [
       "6dab829c8637ddd3408a97c083605c93"
@@ -10124,7 +11222,7 @@
     "numAchievements": 109,
     "numLeaderboards": 5,
     "points": 873,
-    "dateModified": "2025-02-10 12:42:55",
+    "dateModified": "2025-11-15 05:39:43",
     "forumTopicId": 23227,
     "hashes": [
       "00adbd6a694f009b7754376b505fa23e",
@@ -10175,7 +11273,7 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2025-12-31 18:07:30",
     "forumTopicId": 32054,
     "hashes": [
       "1851c34d41025d541b6ad76b9146cc6b",
@@ -10203,7 +11301,7 @@
     "id": 7216,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/082742.png",
+    "imageIcon": "/Images/118692.png",
     "numAchievements": 51,
     "numLeaderboards": 6,
     "points": 318,
@@ -10279,14 +11377,15 @@
     "id": 27042,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/111032.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118385.png",
+    "numAchievements": 33,
+    "numLeaderboards": 4,
+    "points": 327,
+    "dateModified": "2025-10-29 07:37:02",
+    "forumTopicId": 32402,
     "hashes": [
-      "fa6a6fd3e3898a58977f468db9a1f6f9"
+      "fa6a6fd3e3898a58977f468db9a1f6f9",
+      "11716b06dad0f17160fa237a7ace7130"
     ]
   },
   {
@@ -10329,7 +11428,7 @@
     "numAchievements": 153,
     "numLeaderboards": 114,
     "points": 567,
-    "dateModified": "2025-06-22 14:28:30",
+    "dateModified": "2025-12-27 21:54:14",
     "forumTopicId": 17428,
     "hashes": [
       "35132fb11ea80dba872a8edeb9ba42d6",
@@ -10348,7 +11447,7 @@
     "numAchievements": 145,
     "numLeaderboards": 25,
     "points": 727,
-    "dateModified": "2025-04-26 01:12:40",
+    "dateModified": "2025-10-21 20:40:11",
     "forumTopicId": 2953,
     "hashes": [
       "76bd3ac13808b1d6abea377815b10adb"
@@ -10391,9 +11490,9 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/107471.png",
-    "numAchievements": 42,
+    "numAchievements": 35,
     "numLeaderboards": 27,
-    "points": 198,
+    "points": 172,
     "dateModified": "2025-02-13 19:19:26",
     "forumTopicId": 29301,
     "hashes": [
@@ -10406,9 +11505,9 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/107470.png",
-    "numAchievements": 37,
+    "numAchievements": 35,
     "numLeaderboards": 27,
-    "points": 187,
+    "points": 163,
     "dateModified": "2025-01-22 07:28:21",
     "forumTopicId": 29300,
     "hashes": [
@@ -10454,7 +11553,7 @@
     "numAchievements": 26,
     "numLeaderboards": 2,
     "points": 257,
-    "dateModified": "2023-10-06 12:33:46",
+    "dateModified": "2025-12-18 00:28:22",
     "forumTopicId": 17412,
     "hashes": [
       "1f90a64fb3b26abee5ff9284fe628758",
@@ -10579,7 +11678,7 @@
     "numAchievements": 97,
     "numLeaderboards": 0,
     "points": 791,
-    "dateModified": "2025-05-29 20:16:27",
+    "dateModified": "2026-01-12 22:44:52",
     "forumTopicId": 591,
     "hashes": [
       "588203bd9de678a55a9f1707931302f2",
@@ -10672,7 +11771,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32954,
     "hashes": [
       "6d0aef7b4a8ab01db3c27284df771a81"
     ]
@@ -10713,7 +11812,7 @@
     "id": 9584,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/075008.png",
+    "imageIcon": "/Images/121384.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -10733,7 +11832,7 @@
     "numAchievements": 19,
     "numLeaderboards": 0,
     "points": 220,
-    "dateModified": "2020-07-12 10:16:38",
+    "dateModified": "2025-11-22 19:18:29",
     "forumTopicId": 3573,
     "hashes": [
       "0860a674599a5a07df8e7bdc116ee088",
@@ -10849,7 +11948,7 @@
     "id": 6141,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/047408.png",
+    "imageIcon": "/Images/122803.png",
     "numAchievements": 56,
     "numLeaderboards": 1,
     "points": 373,
@@ -10900,23 +11999,23 @@
     "numAchievements": 48,
     "numLeaderboards": 0,
     "points": 164,
-    "dateModified": "2024-04-07 13:10:20",
+    "dateModified": "2025-10-27 16:47:33",
     "forumTopicId": 2164,
     "hashes": [
       "f341bab11f2bfd79b995554d40a61cba"
     ]
   },
   {
-    "title": "Crazy Taxi: Catch a Ride!",
+    "title": "Crazy Taxi: Catch a Ride",
     "id": 6006,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/087815.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/121731.png",
+    "numAchievements": 37,
+    "numLeaderboards": 17,
+    "points": 323,
+    "dateModified": "2026-01-10 09:23:08",
+    "forumTopicId": 33816,
     "hashes": [
       "603470cb171bc53491b0a8643f1302ef",
       "8bcf4e0da6be539f2099c683ff897b43"
@@ -11114,7 +12213,7 @@
     "numAchievements": 24,
     "numLeaderboards": 3,
     "points": 201,
-    "dateModified": "2024-01-07 23:03:07",
+    "dateModified": "2025-09-30 18:53:52",
     "forumTopicId": 19977,
     "hashes": [
       "4a5a274a7c2514b21ebb43b2ceade091"
@@ -11126,10 +12225,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/115111.png",
-    "numAchievements": 0,
+    "numAchievements": 52,
     "numLeaderboards": 18,
-    "points": 0,
-    "dateModified": "2025-08-20 10:08:25",
+    "points": 435,
+    "dateModified": "2026-01-11 16:23:19",
     "forumTopicId": 31592,
     "hashes": [
       "1f49d24ac42d1697a55a45a145b1dd39",
@@ -11141,7 +12240,7 @@
     "id": 11807,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118795.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -11289,7 +12388,7 @@
     "numAchievements": 50,
     "numLeaderboards": 9,
     "points": 429,
-    "dateModified": "2023-07-22 02:17:57",
+    "dateModified": "2025-12-16 01:23:27",
     "forumTopicId": 20746,
     "hashes": [
       "53e67f535c69e7c95b696abfe1ce1a2b",
@@ -11317,10 +12416,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/113726.png",
-    "numAchievements": 0,
+    "numAchievements": 29,
     "numLeaderboards": 7,
-    "points": 0,
-    "dateModified": "2025-08-28 21:53:49",
+    "points": 193,
+    "dateModified": "2025-12-01 19:09:25",
     "forumTopicId": 31183,
     "hashes": [
       "f8d9503c529e3608ed4d91fc7315deb3"
@@ -11423,7 +12522,7 @@
     "id": 6228,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119614.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -11443,7 +12542,7 @@
     "numAchievements": 12,
     "numLeaderboards": 3,
     "points": 140,
-    "dateModified": "2025-08-14 10:16:33",
+    "dateModified": "2025-11-19 00:42:56",
     "forumTopicId": 13492,
     "hashes": [
       "7618d824c146a521ecaad69d4b8443ea"
@@ -11543,7 +12642,7 @@
     ]
   },
   {
-    "title": "Densetsu no Stafy | The Legendary Starfy",
+    "title": "Densetsu no Stafy",
     "id": 5619,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -11654,6 +12753,36 @@
     ]
   },
   {
+    "title": "Di Gi Charat: DigiCommunication",
+    "id": 36463,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "6427ad3bb3d1617276d2fd0737e2d9e7"
+    ]
+  },
+  {
+    "title": "Di Gi Charat: DigiCommunication Nyo - Datou! Black Gemagema Dan",
+    "id": 36464,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c627e05cd3e6613ef772b92cc86ada1c"
+    ]
+  },
+  {
     "title": "Die Wilden Fussball-Kerle: Entscheidung im Teufelstopf",
     "id": 17912,
     "consoleId": 5,
@@ -11754,7 +12883,7 @@
     "numAchievements": 53,
     "numLeaderboards": 0,
     "points": 263,
-    "dateModified": "2023-11-01 03:59:14",
+    "dateModified": "2025-11-16 06:46:00",
     "forumTopicId": 2552,
     "hashes": [
       "1cd1d918e2730ac739bf2bcf14373382",
@@ -11786,10 +12915,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/115161.png",
-    "numAchievements": 36,
+    "numAchievements": 53,
     "numLeaderboards": 0,
-    "points": 290,
-    "dateModified": "2021-10-16 15:18:43",
+    "points": 326,
+    "dateModified": "2025-12-15 02:15:19",
     "forumTopicId": 14139,
     "hashes": [
       "b52a72e07155057e21e6519472f5a2aa"
@@ -11830,7 +12959,7 @@
     "id": 7086,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/123391.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -11906,10 +13035,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/067986.png",
-    "numAchievements": 32,
-    "numLeaderboards": 0,
-    "points": 280,
-    "dateModified": "2021-05-11 01:15:13",
+    "numAchievements": 52,
+    "numLeaderboards": 40,
+    "points": 384,
+    "dateModified": "2026-01-14 02:02:17",
     "forumTopicId": 6832,
     "hashes": [
       "054223e916f9a4f543812ae795145cb5",
@@ -11941,7 +13070,7 @@
     "numAchievements": 30,
     "numLeaderboards": 1,
     "points": 160,
-    "dateModified": "2025-04-01 02:59:22",
+    "dateModified": "2026-01-06 19:48:29",
     "forumTopicId": 12589,
     "hashes": [
       "839f44aec4456b2be03a1bdec90ae7f7"
@@ -12009,7 +13138,7 @@
     ]
   },
   {
-    "title": "Dokodemo Taikyoku - Yakuman Advance",
+    "title": "Dokodemo Taikyoku: Yakuman Advance",
     "id": 6185,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -12191,7 +13320,7 @@
     "numAchievements": 37,
     "numLeaderboards": 0,
     "points": 149,
-    "dateModified": "2025-08-20 00:12:26",
+    "dateModified": "2026-01-25 20:17:00",
     "forumTopicId": 6817,
     "hashes": [
       "e23047fcf278ca962b8e95690490cc1c"
@@ -12219,7 +13348,7 @@
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/064413.png",
     "numAchievements": 53,
-    "numLeaderboards": 2,
+    "numLeaderboards": 3,
     "points": 465,
     "dateModified": "2023-09-27 22:44:02",
     "forumTopicId": 23604,
@@ -12237,7 +13366,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32950,
     "hashes": [
       "2f14e9e9357b04ee867d837a3dd3fcdd"
     ]
@@ -12297,7 +13426,7 @@
     "numAchievements": 59,
     "numLeaderboards": 0,
     "points": 410,
-    "dateModified": "2025-07-25 20:05:44",
+    "dateModified": "2025-12-25 23:19:38",
     "forumTopicId": 549,
     "hashes": [
       "3a74fce97f1ea2b28c2a50ec3df0acee",
@@ -12328,7 +13457,7 @@
     "numAchievements": 58,
     "numLeaderboards": 0,
     "points": 490,
-    "dateModified": "2024-06-21 10:08:56",
+    "dateModified": "2025-12-15 22:58:16",
     "forumTopicId": 1065,
     "hashes": [
       "09f49996195a3fce6141306f9eeb2944"
@@ -12339,7 +13468,7 @@
     "id": 757,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/092739.png",
+    "imageIcon": "/Images/121419.png",
     "numAchievements": 31,
     "numLeaderboards": 0,
     "points": 145,
@@ -12435,7 +13564,7 @@
     "numAchievements": 63,
     "numLeaderboards": 0,
     "points": 479,
-    "dateModified": "2024-11-21 14:09:11",
+    "dateModified": "2026-01-15 13:23:35",
     "forumTopicId": 13333,
     "hashes": [
       "a57a5ea8c43957ee5974dd02ae305d1f"
@@ -12477,10 +13606,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/112078.png",
-    "numAchievements": 0,
+    "numAchievements": 35,
     "numLeaderboards": 13,
-    "points": 0,
-    "dateModified": "2025-08-23 19:20:51",
+    "points": 351,
+    "dateModified": "2025-10-18 03:54:45",
     "forumTopicId": 23838,
     "hashes": [
       "ca1e7ca13fc27ec962b8163d8e94dce0"
@@ -12542,7 +13671,7 @@
     "numAchievements": 22,
     "numLeaderboards": 4,
     "points": 220,
-    "dateModified": "2024-12-11 23:13:44",
+    "dateModified": "2025-12-24 22:59:32",
     "forumTopicId": 3664,
     "hashes": [
       "beab4156e466e97dc7f0b16948d371b7"
@@ -12768,7 +13897,7 @@
     "id": 761,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/093670.png",
+    "imageIcon": "/Images/121734.png",
     "numAchievements": 59,
     "numLeaderboards": 12,
     "points": 400,
@@ -12783,7 +13912,7 @@
     "id": 9807,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122054.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -12815,7 +13944,7 @@
     "id": 4894,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/041904.png",
+    "imageIcon": "/Images/121629.png",
     "numAchievements": 18,
     "numLeaderboards": 0,
     "points": 210,
@@ -12841,7 +13970,7 @@
     ]
   },
   {
-    "title": "Egg Mania | Eggo Mania",
+    "title": "Egg Mania",
     "id": 5959,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -12992,7 +14121,7 @@
     ]
   },
   {
-    "title": "ESPN Winter X-Games Snowboarding 2002",
+    "title": "ESPN Winter X Games Snowboarding 2002",
     "id": 5750,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -13007,7 +14136,7 @@
     ]
   },
   {
-    "title": "ESPN X-Games Skateboarding",
+    "title": "ESPN X Games Skateboarding",
     "id": 5723,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -13082,6 +14211,21 @@
     "hashes": [
       "8cbbfc4bac6a08f33e91d7cd6408a660",
       "ca03360842a7c269f9a46de25d5e779f"
+    ]
+  },
+  {
+    "title": "Eyeshield 21 - DevilBats DevilDays",
+    "id": 36276,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0260c5c32bec282426882f5c127ed781"
     ]
   },
   {
@@ -13273,12 +14417,12 @@
     "id": 12965,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/101864.png",
+    "imageIcon": "/Images/119924.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 2,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33053,
     "hashes": [
       "71dffd1adcef71adf9d4ca089b08b6b2"
     ]
@@ -13318,7 +14462,7 @@
     "id": 18994,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120570.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -13367,7 +14511,7 @@
     "numAchievements": 23,
     "numLeaderboards": 1,
     "points": 153,
-    "dateModified": "2023-08-03 23:50:57",
+    "dateModified": "2025-09-09 21:04:23",
     "forumTopicId": 18469,
     "hashes": [
       "10ea584b14960348548e8528202968f1"
@@ -13438,11 +14582,11 @@
     "id": 19447,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/116144.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/119917.png",
+    "numAchievements": 50,
     "numLeaderboards": 60,
-    "points": 0,
-    "dateModified": "2025-08-16 13:37:19",
+    "points": 500,
+    "dateModified": "2025-10-31 12:01:42",
     "forumTopicId": 23693,
     "hashes": [
       "5c46126c6a429a3704f15139dadb19be"
@@ -13468,11 +14612,11 @@
     "id": 11156,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/079226.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/119317.png",
+    "numAchievements": 24,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "points": 181,
+    "dateModified": "2025-11-15 14:28:33",
     "forumTopicId": 5475,
     "hashes": [
       "76759e14e1a4072397c105419d702735"
@@ -13543,7 +14687,7 @@
     "id": 27754,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120419.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -13735,7 +14879,7 @@
     ]
   },
   {
-    "title": "FIFA Soccer 2003",
+    "title": "FIFA 2003",
     "id": 6846,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -13750,7 +14894,7 @@
     ]
   },
   {
-    "title": "FIFA Soccer 2004",
+    "title": "FIFA 2004",
     "id": 9344,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -13765,7 +14909,7 @@
     ]
   },
   {
-    "title": "FIFA Soccer 2005 | FIFA Football 2005",
+    "title": "FIFA 2005",
     "id": 13204,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -13780,7 +14924,7 @@
     ]
   },
   {
-    "title": "FIFA World Cup Germany 2006",
+    "title": "FIFA World Cup: Germany 2006",
     "id": 28405,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -13860,10 +15004,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/070792.png",
-    "numAchievements": 73,
+    "numAchievements": 95,
     "numLeaderboards": 0,
-    "points": 547,
-    "dateModified": "2024-06-18 14:49:05",
+    "points": 647,
+    "dateModified": "2025-11-17 22:13:47",
     "forumTopicId": 1494,
     "hashes": [
       "c74dd5cc3ab6e5d4ac53b1677e1abd69"
@@ -13871,17 +15015,17 @@
   },
   {
     "title": "Final Fantasy IV: Advance [Subset - LLIEG]",
-    "id": 30058,
+    "id": 37814,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 27008,
+    "imageIcon": "/Images/123037.png",
+    "numAchievements": 20,
+    "numLeaderboards": 2,
+    "points": 230,
+    "dateModified": "2026-01-19 16:50:37",
+    "forumTopicId": 33976,
     "hashes": [
-      "a5716948e480826205858154348c66a2"
+      "9f5913c0b6cd4f7bb243fe2e1f0cae77"
     ]
   },
   {
@@ -13908,7 +15052,7 @@
     "numAchievements": 172,
     "numLeaderboards": 3,
     "points": 1220,
-    "dateModified": "2025-07-09 11:11:33",
+    "dateModified": "2026-01-22 18:32:21",
     "forumTopicId": 241,
     "hashes": [
       "9ed82843cc54876362be56faccb15d75",
@@ -13939,24 +15083,11 @@
     "numAchievements": 60,
     "numLeaderboards": 4,
     "points": 979,
-    "dateModified": "2024-10-08 00:19:27",
+    "dateModified": "2025-09-17 12:17:28",
     "forumTopicId": 23823,
     "hashes": [
       "ed9178bb3b620b27521dd9ea947e2923"
     ]
-  },
-  {
-    "title": "Final Fantasy V: Advance [Subset - Solo Class]",
-    "id": 28315,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/088518.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 25174,
-    "hashes": []
   },
   {
     "title": "Final Fantasy VI: Advance",
@@ -14045,7 +15176,7 @@
     "numAchievements": 70,
     "numLeaderboards": 0,
     "points": 735,
-    "dateModified": "2025-02-08 11:31:20",
+    "dateModified": "2025-10-15 18:46:43",
     "forumTopicId": 4407,
     "hashes": [
       "8643fe7632d4895dcaaca230475e70fb",
@@ -14079,7 +15210,7 @@
     "numAchievements": 87,
     "numLeaderboards": 0,
     "points": 730,
-    "dateModified": "2025-02-18 03:41:12",
+    "dateModified": "2026-01-05 21:15:32",
     "forumTopicId": 678,
     "hashes": [
       "7b7a43f3ac4a3facc65aa6b616c0b887",
@@ -14095,24 +15226,11 @@
     "numAchievements": 114,
     "numLeaderboards": 49,
     "points": 1000,
-    "dateModified": "2025-07-12 17:18:48",
+    "dateModified": "2025-12-16 22:36:58",
     "forumTopicId": 14842,
     "hashes": [
       "8f0dad780f01ce002331693f4733f27e"
     ]
-  },
-  {
-    "title": "Fire Emblem: The Sacred Stones [Subset - The Legend of Seth McDeath]",
-    "id": 20492,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/074927.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 21807,
-    "hashes": []
   },
   {
     "title": "Fire Pro Wrestling",
@@ -14197,9 +15315,9 @@
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/090600.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 10,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2026-01-26 19:17:08",
     "forumTopicId": 31722,
     "hashes": [
       "db64d910feec15dc3f3bc90c151e731b"
@@ -14210,14 +15328,15 @@
     "id": 7336,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/098044.png",
-    "numAchievements": 0,
-    "numLeaderboards": 3,
-    "points": 0,
-    "dateModified": "2024-06-06 17:05:24",
+    "imageIcon": "/Images/119583.png",
+    "numAchievements": 30,
+    "numLeaderboards": 4,
+    "points": 152,
+    "dateModified": "2026-01-16 04:20:23",
     "forumTopicId": 26800,
     "hashes": [
-      "1207a415c9acfbd206e5580f34e73ba2"
+      "1207a415c9acfbd206e5580f34e73ba2",
+      "784e266e768506888dd0f656fd7cf715"
     ]
   },
   {
@@ -14357,7 +15476,7 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": "2025-08-30 00:07:47",
+    "dateModified": "2025-12-11 21:47:03",
     "forumTopicId": 30119,
     "hashes": [
       "ad77704e57f00d568f0ce1809936ab62",
@@ -14373,7 +15492,7 @@
     "numAchievements": 61,
     "numLeaderboards": 1,
     "points": 497,
-    "dateModified": "2025-05-02 21:43:04",
+    "dateModified": "2025-09-09 20:53:42",
     "forumTopicId": 30093,
     "hashes": [
       "70dd13d5d0cb840ecdee29ea78e5e013",
@@ -14565,11 +15684,11 @@
     "id": 11843,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/029813.png",
+    "imageIcon": "/Images/120886.png",
     "numAchievements": 45,
-    "numLeaderboards": 227,
-    "points": 105,
-    "dateModified": "2021-07-08 12:43:08",
+    "numLeaderboards": 467,
+    "points": 120,
+    "dateModified": "2026-01-29 19:32:42",
     "forumTopicId": 13114,
     "hashes": [
       "10799ba44adde27fb8919a61be5c63f1",
@@ -14671,7 +15790,7 @@
     "id": 6194,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/079163.png",
+    "imageIcon": "/Images/120653.png",
     "numAchievements": 42,
     "numLeaderboards": 1,
     "points": 196,
@@ -14712,15 +15831,30 @@
     ]
   },
   {
+    "title": "Genseishin Justirisers: Souchaku! Hoshi no Senshi-tachi",
+    "id": 36772,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/122884.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8905016d29e691975ebb176dec1dce4e"
+    ]
+  },
+  {
     "title": "Genso Suikoden Card Stories",
     "id": 5521,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/116886.png",
-    "numAchievements": 0,
+    "numAchievements": 78,
     "numLeaderboards": 3,
-    "points": 0,
-    "dateModified": "2025-08-28 20:20:02",
+    "points": 668,
+    "dateModified": "2025-11-26 21:28:34",
     "forumTopicId": 7094,
     "hashes": [
       "0a3523db5fe9a0329d766d9d1ff5e654",
@@ -14780,8 +15914,8 @@
     "imageIcon": "/Images/098755.png",
     "numAchievements": 52,
     "numLeaderboards": 25,
-    "points": 481,
-    "dateModified": "2024-09-09 06:06:51",
+    "points": 471,
+    "dateModified": "2025-11-12 22:41:53",
     "forumTopicId": 20693,
     "hashes": [
       "d6e41a11cfd0fa428bc43a68b5af7bca"
@@ -14886,7 +16020,7 @@
     "numAchievements": 50,
     "numLeaderboards": 33,
     "points": 284,
-    "dateModified": "2025-02-12 23:14:53",
+    "dateModified": "2025-09-30 23:43:10",
     "forumTopicId": 27536,
     "hashes": [
       "842f50e8321d16d33566839d76635448"
@@ -14923,7 +16057,7 @@
     "numAchievements": 97,
     "numLeaderboards": 1,
     "points": 717,
-    "dateModified": "2025-08-05 03:55:46",
+    "dateModified": "2025-09-25 00:54:27",
     "forumTopicId": 2601,
     "hashes": [
       "370cc3b832f905a2b5511c1665e4a8bc",
@@ -15004,7 +16138,7 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2025-12-10 01:24:34",
     "forumTopicId": 3068,
     "hashes": [
       "66c238ea31904c09e2ee06bc465a8342",
@@ -15031,7 +16165,7 @@
     "id": 8162,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/103234.png",
+    "imageIcon": "/Images/121079.png",
     "numAchievements": 95,
     "numLeaderboards": 42,
     "points": 599,
@@ -15059,15 +16193,15 @@
     ]
   },
   {
-    "title": "GT Advance: Championship Racing | Advance GTA",
+    "title": "GT Advance: Championship Racing",
     "id": 8209,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/059072.png",
-    "numAchievements": 0,
+    "numAchievements": 53,
     "numLeaderboards": 32,
-    "points": 0,
-    "dateModified": "2025-08-30 12:58:50",
+    "points": 306,
+    "dateModified": "2025-08-31 21:24:57",
     "forumTopicId": 23418,
     "hashes": [
       "266da549741dbc9b9c902c113b13b4b6"
@@ -15112,7 +16246,7 @@
     "numAchievements": 57,
     "numLeaderboards": 0,
     "points": 400,
-    "dateModified": "2024-10-22 15:36:15",
+    "dateModified": "2025-11-19 20:41:30",
     "forumTopicId": 2367,
     "hashes": [
       "5a3db0c384d089bda397e395df4270f8",
@@ -15201,10 +16335,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/115669.png",
-    "numAchievements": 0,
+    "numAchievements": 42,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "points": 209,
+    "dateModified": "2026-01-03 17:25:59",
     "forumTopicId": 31680,
     "hashes": [
       "6c8460b00a7dcade834b0579116771db"
@@ -15381,10 +16515,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/112066.png",
-    "numAchievements": 9,
-    "numLeaderboards": 0,
-    "points": 105,
-    "dateModified": "2023-02-15 10:32:57",
+    "numAchievements": 97,
+    "numLeaderboards": 107,
+    "points": 471,
+    "dateModified": "2025-11-30 22:36:45",
     "forumTopicId": 4200,
     "hashes": [
       "4a4a77b12b463a758a143642f96b1846"
@@ -15591,7 +16725,7 @@
     "id": 4853,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/051640.png",
+    "imageIcon": "/Images/120932.png",
     "numAchievements": 150,
     "numLeaderboards": 5,
     "points": 1100,
@@ -15621,19 +16755,6 @@
     ]
   },
   {
-    "title": "Harvest Moon: More Friends of Mineral Town [Subset - Farm Degree]",
-    "id": 31313,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
     "title": "Hatena Satena",
     "id": 7987,
     "consoleId": 5,
@@ -15653,12 +16774,12 @@
     "id": 8207,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/063051.png",
+    "imageIcon": "/Images/123215.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 34044,
     "hashes": [
       "2dd50cff5266e703e72964fa0755e0c7"
     ]
@@ -15725,15 +16846,15 @@
     ]
   },
   {
-    "title": "Hey Arnold!: The Movie",
+    "title": "Hey Arnold! The Movie",
     "id": 9360,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/010705.png",
+    "imageIcon": "/Images/122451.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 1,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2026-01-24 19:07:37",
     "forumTopicId": 4546,
     "hashes": [
       "a234f8b94fafc111ab29f235361baf50"
@@ -15939,7 +17060,7 @@
     "id": 6403,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/060765.png",
+    "imageIcon": "/Images/121617.png",
     "numAchievements": 45,
     "numLeaderboards": 24,
     "points": 315,
@@ -15970,12 +17091,12 @@
     "id": 9296,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118655.png",
+    "numAchievements": 36,
+    "numLeaderboards": 15,
+    "points": 275,
+    "dateModified": "2025-12-20 12:04:13",
+    "forumTopicId": 32558,
     "hashes": [
       "91cc97b4023b7876f4ac783c2c4de2bd"
     ]
@@ -16105,7 +17226,7 @@
     "id": 7851,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/121868.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -16121,10 +17242,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/116135.png",
-    "numAchievements": 0,
+    "numAchievements": 40,
     "numLeaderboards": 3,
-    "points": 0,
-    "dateModified": "2025-08-31 02:53:17",
+    "points": 186,
+    "dateModified": "2025-09-01 16:03:15",
     "forumTopicId": 14865,
     "hashes": [
       "a3201407f7988a563f4dfb243db02bcb"
@@ -16135,14 +17256,16 @@
     "id": 9829,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/114871.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "imageIcon": "/Images/123524.png",
+    "numAchievements": 25,
+    "numLeaderboards": 12,
+    "points": 163,
+    "dateModified": "2026-01-29 23:39:04",
     "forumTopicId": 31508,
     "hashes": [
-      "b6e949610feec32108b4bdc62d1be4dc"
+      "b6e949610feec32108b4bdc62d1be4dc",
+      "32c77b409455bc4efbfde71d4ca4d256",
+      "4235dbfac776ac1d3c391c740ce28892"
     ]
   },
   {
@@ -16176,7 +17299,7 @@
     ]
   },
   {
-    "title": "IK+ | International Karate Plus | Chop N' Drop",
+    "title": "IK+",
     "id": 5690,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -16302,9 +17425,9 @@
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/068661.png",
     "numAchievements": 25,
-    "numLeaderboards": 13,
+    "numLeaderboards": 10,
     "points": 325,
-    "dateModified": "2025-04-27 00:52:54",
+    "dateModified": "2025-11-24 12:37:47",
     "forumTopicId": 20505,
     "hashes": [
       "4eb435c43d7955e680355b94a6d39433"
@@ -16454,7 +17577,7 @@
     "numAchievements": 30,
     "numLeaderboards": 10,
     "points": 445,
-    "dateModified": "2024-02-13 00:16:22",
+    "dateModified": "2025-12-18 18:31:25",
     "forumTopicId": 25043,
     "hashes": [
       "863bb2f057959ec7b21aa0174c817fa9"
@@ -16541,7 +17664,7 @@
     "id": 6804,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117725.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -16647,7 +17770,7 @@
     "id": 8149,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/112686.png",
+    "imageIcon": "/Images/120884.png",
     "numAchievements": 15,
     "numLeaderboards": 5,
     "points": 134,
@@ -16748,7 +17871,7 @@
     ]
   },
   {
-    "title": "Kaiketsu Zorori to Mahou no Yuuenchi - Ohimesama o Sukue!",
+    "title": "Kaiketsu Zorori to Mahou no Yuuenchi: Ohimesama o Sukue!",
     "id": 9014,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -16813,7 +17936,7 @@
     "id": 7366,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/110699.png",
+    "imageIcon": "/Images/121068.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -16828,7 +17951,7 @@
     "id": 8595,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120109.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -16843,7 +17966,7 @@
     "id": 9753,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120110.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -16998,7 +18121,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32917,
     "hashes": [
       "ff99de23c20d8b8136e3afca53734e87"
     ]
@@ -17012,7 +18135,7 @@
     "numAchievements": 28,
     "numLeaderboards": 0,
     "points": 100,
-    "dateModified": "2024-06-04 17:17:08",
+    "dateModified": "2025-10-04 17:56:59",
     "forumTopicId": 25748,
     "hashes": [
       "565edd5751fa8ca5f78e3ab732dc8f01"
@@ -17195,7 +18318,7 @@
     "numAchievements": 54,
     "numLeaderboards": 2,
     "points": 301,
-    "dateModified": "2025-08-17 08:05:45",
+    "dateModified": "2025-11-16 11:35:04",
     "forumTopicId": 6895,
     "hashes": [
       "df5efe075b35859529ebf82a4d824458"
@@ -17206,11 +18329,11 @@
     "id": 770,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/042859.png",
+    "imageIcon": "/Images/122187.png",
     "numAchievements": 70,
     "numLeaderboards": 7,
     "points": 600,
-    "dateModified": "2025-04-23 21:16:08",
+    "dateModified": "2025-11-15 11:40:58",
     "forumTopicId": 1088,
     "hashes": [
       "35ae64b0f27e60107c14ab956f6cdf70"
@@ -17255,7 +18378,7 @@
     "numAchievements": 121,
     "numLeaderboards": 8,
     "points": 924,
-    "dateModified": "2025-07-30 14:57:31",
+    "dateModified": "2025-09-09 19:52:58",
     "forumTopicId": 21812,
     "hashes": [
       "214fd38f121edda327979dbeef76c008",
@@ -17543,8 +18666,8 @@
     "imageIcon": "/Images/079878.png",
     "numAchievements": 40,
     "numLeaderboards": 300,
-    "points": 271,
-    "dateModified": "2024-11-20 02:45:00",
+    "points": 311,
+    "dateModified": "2025-09-28 02:55:36",
     "forumTopicId": 27108,
     "hashes": [
       "25ead20d8d3cfedb35393740b3a36b74",
@@ -18098,7 +19221,7 @@
     ]
   },
   {
-    "title": "Looney Tunes: Double Pack - Dizzy Driving / Acme Antics",
+    "title": "Looney Tunes: Double Pack",
     "id": 8945,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -18362,11 +19485,11 @@
     "id": 8378,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/051484.png",
+    "imageIcon": "/Images/123874.png",
     "numAchievements": 26,
     "numLeaderboards": 0,
     "points": 250,
-    "dateModified": "2022-09-24 18:10:53",
+    "dateModified": "2026-01-24 16:11:10",
     "forumTopicId": 3537,
     "hashes": [
       "9397ee8e46cd0357d49af1cff6fd97b3",
@@ -18382,7 +19505,7 @@
     "numAchievements": 57,
     "numLeaderboards": 3,
     "points": 338,
-    "dateModified": "2025-06-16 00:37:16",
+    "dateModified": "2025-09-23 00:13:37",
     "forumTopicId": 3213,
     "hashes": [
       "47fe0fe1ee054ac37e286fb909e49be0"
@@ -18393,7 +19516,7 @@
     "id": 8679,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/051483.png",
+    "imageIcon": "/Images/123873.png",
     "numAchievements": 28,
     "numLeaderboards": 0,
     "points": 300,
@@ -18434,22 +19557,7 @@
     ]
   },
   {
-    "title": "Mahou Sensei Negima! - Private Lesson - Damedesuu Toshokan-jima",
-    "id": 5492,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/112789.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "7fd1ec249c6145adb5c2e284513b8078"
-    ]
-  },
-  {
-    "title": "Mahou Sensei Negima! - Private Lesson 2 - Ojamashimasuu Parasite de Chuu",
+    "title": "Mahou Sensei Negima! Private Lesson 2: Ojamashimasuu Parasite de Chuu",
     "id": 5560,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -18461,6 +19569,21 @@
     "forumTopicId": null,
     "hashes": [
       "2047548fdb416c3ebe15ca34fc16e773"
+    ]
+  },
+  {
+    "title": "Mahou Sensei Negima! Private Lesson: Damedesuu Toshokan-jima",
+    "id": 5492,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/112789.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7fd1ec249c6145adb5c2e284513b8078"
     ]
   },
   {
@@ -18491,6 +19614,36 @@
     "forumTopicId": 7986,
     "hashes": [
       "eedd67a815e798e19159237a4d151d1a"
+    ]
+  },
+  {
+    "title": "Majokko Cream-chan no Gokko Series 1: Wannyan Idol Gakuen",
+    "id": 36274,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1d82ad717de36b8025770049ef4fb934"
+    ]
+  },
+  {
+    "title": "Majokko Cream-chan no Gokko Series 2: Kisekae Angel",
+    "id": 36275,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "14c864da7a500ffc5ccc7139fb7ef053"
     ]
   },
   {
@@ -18607,7 +19760,7 @@
     "numAchievements": 85,
     "numLeaderboards": 0,
     "points": 668,
-    "dateModified": "2025-08-02 15:41:28",
+    "dateModified": "2026-01-21 17:02:27",
     "forumTopicId": 1461,
     "hashes": [
       "3b50b9f9e13e271ead33ee5a234650a9",
@@ -18680,7 +19833,7 @@
     ]
   },
   {
-    "title": "Mario Pinball Land | Super Mario Ball",
+    "title": "Mario Pinball Land",
     "id": 2445,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -18701,10 +19854,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/116617.png",
-    "numAchievements": 61,
+    "numAchievements": 58,
     "numLeaderboards": 0,
-    "points": 637,
-    "dateModified": "2025-08-15 14:14:34",
+    "points": 607,
+    "dateModified": "2025-11-20 01:21:29",
     "forumTopicId": 1211,
     "hashes": [
       "928c0bd4cf82b3fd6f34b53d4fd02e69",
@@ -18800,7 +19953,8 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "4f142c9621c9115d7107e7e6f02d99d3"
+      "4f142c9621c9115d7107e7e6f02d99d3",
+      "b169016486294d9d9eb61bbf96d30400"
     ]
   },
   {
@@ -18913,7 +20067,7 @@
     "id": 7365,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/081163.png",
+    "imageIcon": "/Images/122121.png",
     "numAchievements": 34,
     "numLeaderboards": 0,
     "points": 315,
@@ -18929,12 +20083,12 @@
     "id": 5884,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/058953.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/122122.png",
+    "numAchievements": 20,
+    "numLeaderboards": 1,
+    "points": 126,
+    "dateModified": "2026-01-16 14:29:06",
+    "forumTopicId": 33798,
     "hashes": [
       "a6e3e17f96065a33c8ad3b540583fb64",
       "08a002ca5de6e28726c3d17644137b23"
@@ -18949,7 +20103,7 @@
     "numAchievements": 36,
     "numLeaderboards": 0,
     "points": 420,
-    "dateModified": "2024-12-30 11:06:18",
+    "dateModified": "2025-11-16 02:47:13",
     "forumTopicId": 1597,
     "hashes": [
       "b186a9ba291a156c45640cb3c6b8a710"
@@ -18964,7 +20118,7 @@
     "numAchievements": 36,
     "numLeaderboards": 0,
     "points": 420,
-    "dateModified": "2024-12-30 11:07:08",
+    "dateModified": "2025-11-22 05:22:53",
     "forumTopicId": 4883,
     "hashes": [
       "bb040b4d930c1fc4be1067b9756a7c44"
@@ -19085,7 +20239,7 @@
     "numAchievements": 74,
     "numLeaderboards": 0,
     "points": 671,
-    "dateModified": "2025-07-17 02:00:09",
+    "dateModified": "2026-01-29 02:25:32",
     "forumTopicId": 403,
     "hashes": [
       "88792ae1fbc74f4a5425d0c6f0482023"
@@ -19150,7 +20304,7 @@
     "numAchievements": 79,
     "numLeaderboards": 0,
     "points": 724,
-    "dateModified": "2025-05-04 18:47:26",
+    "dateModified": "2025-09-14 02:59:27",
     "forumTopicId": 3653,
     "hashes": [
       "6fe31df0144759b34ad666badaacc442",
@@ -19226,7 +20380,7 @@
     "numAchievements": 55,
     "numLeaderboards": 17,
     "points": 815,
-    "dateModified": "2023-02-04 01:43:08",
+    "dateModified": "2025-12-29 13:29:08",
     "forumTopicId": 11973,
     "hashes": [
       "6c653de4749981579252e59fcae956d5",
@@ -19267,7 +20421,7 @@
     ]
   },
   {
-    "title": "Mega Man Battle Network 5: Team Colonel | Rockman EXE 5 - Team of Colonel",
+    "title": "Mega Man Battle Network 5: Team Colonel",
     "id": 778,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -19275,7 +20429,7 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2026-01-29 19:24:55",
     "forumTopicId": 11664,
     "hashes": [
       "17ff0b3af041f31b6c6924726c2642b8",
@@ -19292,7 +20446,7 @@
     "numAchievements": 88,
     "numLeaderboards": 35,
     "points": 872,
-    "dateModified": "2025-06-01 18:53:54",
+    "dateModified": "2026-01-06 03:53:40",
     "forumTopicId": 3061,
     "hashes": [
       "71b00ba406c522d3cec48311bd7bc760",
@@ -19308,7 +20462,7 @@
     "numAchievements": 57,
     "numLeaderboards": 27,
     "points": 579,
-    "dateModified": "2025-08-09 15:08:27",
+    "dateModified": "2025-10-27 10:39:52",
     "forumTopicId": 895,
     "hashes": [
       "1e8c774ba210d1c55113531c7360c737",
@@ -19324,7 +20478,7 @@
     "numAchievements": 49,
     "numLeaderboards": 0,
     "points": 646,
-    "dateModified": "2025-06-27 20:25:59",
+    "dateModified": "2025-10-16 12:45:16",
     "forumTopicId": 22945,
     "hashes": [
       "410c6df8eaef7b9e13853abf46dc689b"
@@ -19443,7 +20597,7 @@
     "numAchievements": 52,
     "numLeaderboards": 7,
     "points": 700,
-    "dateModified": "2023-02-17 19:59:27",
+    "dateModified": "2025-12-27 00:15:02",
     "forumTopicId": 891,
     "hashes": [
       "0d1e88bdb09ff68adf9877a121325f9c",
@@ -19596,7 +20750,7 @@
     "id": 5780,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/121254.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -19615,7 +20769,7 @@
     "numAchievements": 43,
     "numLeaderboards": 2,
     "points": 732,
-    "dateModified": "2025-07-15 20:04:11",
+    "dateModified": "2025-11-23 02:03:51",
     "forumTopicId": 416,
     "hashes": [
       "0168acb0d18c5c14c6bea88ed62ab3ed",
@@ -19650,7 +20804,7 @@
     "numAchievements": 55,
     "numLeaderboards": 11,
     "points": 766,
-    "dateModified": "2025-05-08 01:31:39",
+    "dateModified": "2025-09-23 23:48:02",
     "forumTopicId": 655,
     "hashes": [
       "07930e72d4824bd63827a1a823cc8829",
@@ -19780,6 +20934,36 @@
     ]
   },
   {
+    "title": "Momotarou Dentetsu G: Gold Deck o Tsukure!",
+    "id": 37641,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "80177651fac95135f205c00a5f8ae922"
+    ]
+  },
+  {
+    "title": "Momotarou Matsuri",
+    "id": 37640,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e876ddf9aecf8f52caecee2358acd9cc"
+    ]
+  },
+  {
     "title": "Monopoly",
     "id": 5344,
     "consoleId": 5,
@@ -19808,6 +20992,52 @@
     "forumTopicId": null,
     "hashes": [
       "4e1b65a22eddc145fd7efecabff0282e"
+    ]
+  },
+  {
+    "title": "Monster Gate",
+    "id": 36738,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ba1f2cd7d4eb41792103bf0a95fc0c09",
+      "d0c7958ff085664e0b78e1378a85e39f"
+    ]
+  },
+  {
+    "title": "Monster Gate: Ooinaru Dungeon - Fuuin no Orb",
+    "id": 36739,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2c5221fbcbd75a985d68451cf7fa6c8e"
+    ]
+  },
+  {
+    "title": "Monster Guardians",
+    "id": 37642,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a62155a1c3dd4bad9e260a2bf527b69f"
     ]
   },
   {
@@ -20041,7 +21271,7 @@
     "id": 2427,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/088326.png",
+    "imageIcon": "/Images/121442.png",
     "numAchievements": 30,
     "numLeaderboards": 0,
     "points": 217,
@@ -20056,11 +21286,11 @@
     "id": 2595,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/050766.png",
+    "imageIcon": "/Images/121262.png",
     "numAchievements": 181,
     "numLeaderboards": 1,
     "points": 1015,
-    "dateModified": "2025-01-12 16:16:36",
+    "dateModified": "2026-01-23 02:33:24",
     "forumTopicId": 14416,
     "hashes": [
       "546762eec62ff6b1afa1bfbb934ce24f",
@@ -20074,11 +21304,11 @@
     "id": 677,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/100663.png",
+    "imageIcon": "/Images/122954.png",
     "numAchievements": 132,
     "numLeaderboards": 0,
     "points": 700,
-    "dateModified": "2025-07-19 10:05:17",
+    "dateModified": "2026-01-23 12:43:23",
     "forumTopicId": 845,
     "hashes": [
       "31321db87c763bba42a2fdedf1706386",
@@ -20093,7 +21323,7 @@
     "id": 30988,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/102860.png",
+    "imageIcon": "/Images/122955.png",
     "numAchievements": 55,
     "numLeaderboards": 0,
     "points": 395,
@@ -20139,12 +21369,12 @@
     "id": 6270,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122982.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": "2021-01-27 14:48:39",
-    "forumTopicId": null,
+    "dateModified": "2026-01-27 19:31:56",
+    "forumTopicId": 33929,
     "hashes": [
       "fc221b4371061c27cbf6a8b08db82543"
     ]
@@ -20215,12 +21445,12 @@
     "id": 9864,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/083411.png",
+    "imageIcon": "/Images/123490.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 1,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-24 08:33:23",
+    "forumTopicId": 34034,
     "hashes": [
       "0b4c94edc68ff0f0a18e09e5b11ed0df"
     ]
@@ -20253,6 +21483,21 @@
     "forumTopicId": null,
     "hashes": [
       "0007d212d9b76a466c7ca003d50c8c74"
+    ]
+  },
+  {
+    "title": "My Animal Centre in Africa",
+    "id": 36805,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "cd20a4c59eca007754b660b49f26c233"
     ]
   },
   {
@@ -20309,7 +21554,7 @@
     "numAchievements": 20,
     "numLeaderboards": 1,
     "points": 89,
-    "dateModified": "2025-03-21 19:29:58",
+    "dateModified": "2026-01-24 23:07:56",
     "forumTopicId": 23515,
     "hashes": [
       "f977a030aa9f5fa4c6013ae472f68b91"
@@ -20477,10 +21722,10 @@
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/115236.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 42,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-29 02:10:19",
+    "forumTopicId": 33805,
     "hashes": [
       "0053467f8f43c893299c1c18a2e971d9"
     ]
@@ -20490,7 +21735,7 @@
     "id": 8644,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/055100.png",
+    "imageIcon": "/Images/118511.png",
     "numAchievements": 43,
     "numLeaderboards": 28,
     "points": 345,
@@ -20581,13 +21826,13 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/081842.png",
-    "numAchievements": 0,
+    "numAchievements": 26,
     "numLeaderboards": 12,
-    "points": 0,
-    "dateModified": "2025-08-26 14:35:31",
+    "points": 190,
+    "dateModified": "2025-10-20 15:10:12",
     "forumTopicId": 14779,
     "hashes": [
-      "d5a97a8360ee0ee2651dc2c5ae1f8f30"
+      "b8a651f0fc9080bf42044c93a746b5e7"
     ]
   },
   {
@@ -20610,7 +21855,7 @@
     "id": 6407,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/097031.png",
+    "imageIcon": "/Images/121939.png",
     "numAchievements": 16,
     "numLeaderboards": 0,
     "points": 120,
@@ -20666,7 +21911,23 @@
     ]
   },
   {
-    "title": "Nintendo e-Reader [Kirby Puzzle]",
+    "title": "Nintendo e-Reader",
+    "id": 37927,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/123488.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7b17e51d5a61780f9823203c6254ed8f",
+      "e71b45bbbe488cc268ef4cfceb92284a"
+    ]
+  },
+  {
+    "title": "Nintendo e-Reader [Subset - Kirby Puzzle]",
     "id": 20086,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -20676,29 +21937,23 @@
     "points": 20,
     "dateModified": "2023-01-26 12:22:21",
     "forumTopicId": 20058,
-    "hashes": [
-      "15a180962887feb81d8d084864d687d4",
-      "62dd5af694bdd194b141fe6ab0f3a046"
-    ]
+    "hashes": []
   },
   {
-    "title": "Nintendo e-Reader [Mario Party-e]",
+    "title": "Nintendo e-Reader [Subset - Mario Party-e]",
     "id": 5007,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/115426.png",
+    "imageIcon": "/Images/118600.png",
     "numAchievements": 11,
     "numLeaderboards": 4,
     "points": 95,
     "dateModified": "2023-07-30 22:46:58",
     "forumTopicId": 5232,
-    "hashes": [
-      "7b17e51d5a61780f9823203c6254ed8f",
-      "e71b45bbbe488cc268ef4cfceb92284a"
-    ]
+    "hashes": []
   },
   {
-    "title": "Nintendo e-Reader [Pokémon-e TCG]",
+    "title": "Nintendo e-Reader [Subset - Pokémon-e TCG]",
     "id": 20209,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -20708,10 +21963,7 @@
     "points": 150,
     "dateModified": "2023-02-18 15:47:18",
     "forumTopicId": 17381,
-    "hashes": [
-      "4d565c55f80a8b2e0f4a36b78f281446",
-      "ed083c0f363804193ac23fea9fa3427a"
-    ]
+    "hashes": []
   },
   {
     "title": "No Rules: Get Phat",
@@ -20778,7 +22030,7 @@
     "id": 2598,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/057232.png",
+    "imageIcon": "/Images/121444.png",
     "numAchievements": 38,
     "numLeaderboards": 0,
     "points": 400,
@@ -20827,7 +22079,7 @@
     "numAchievements": 34,
     "numLeaderboards": 4,
     "points": 285,
-    "dateModified": "2024-09-17 21:56:52",
+    "dateModified": "2025-09-29 17:47:58",
     "forumTopicId": 7842,
     "hashes": [
       "9bb9e68ca6d9a2f0c4bc9052321fbee8"
@@ -20873,7 +22125,7 @@
     "numAchievements": 43,
     "numLeaderboards": 0,
     "points": 230,
-    "dateModified": "2024-04-04 18:38:09",
+    "dateModified": "2025-10-30 19:58:39",
     "forumTopicId": 24310,
     "hashes": [
       "5048d3110f72b4ba40f0b98936413a0b",
@@ -20979,7 +22231,7 @@
     "numAchievements": 71,
     "numLeaderboards": 9,
     "points": 550,
-    "dateModified": "2024-06-03 20:41:48",
+    "dateModified": "2025-10-17 12:10:49",
     "forumTopicId": 1564,
     "hashes": [
       "ed4304cc4f5bac34adfaa750316784a8"
@@ -20990,7 +22242,7 @@
     "id": 7274,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/061851.png",
+    "imageIcon": "/Images/122950.png",
     "numAchievements": 37,
     "numLeaderboards": 2,
     "points": 470,
@@ -21030,6 +22282,21 @@
     "hashes": [
       "86e6497272f39b19af6750d699569531",
       "3755c0a785a829114c543393ecf0cb4e"
+    ]
+  },
+  {
+    "title": "Paws & Claws: Best Friends - Dogs & Cats",
+    "id": 35036,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2b679f61361ad3040086d8684d58e8e7"
     ]
   },
   {
@@ -21147,8 +22414,8 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2025-12-12 17:03:52",
+    "forumTopicId": 33434,
     "hashes": [
       "6c36961dc125f8507c941888640a0272",
       "af7e218eb4a7f28f1887b3504647854e"
@@ -21178,7 +22445,7 @@
     "numAchievements": 33,
     "numLeaderboards": 10,
     "points": 138,
-    "dateModified": "2024-12-30 00:17:17",
+    "dateModified": "2025-09-16 02:28:42",
     "forumTopicId": 6619,
     "hashes": [
       "7aa675f783554e6734239df89e2b7cbe"
@@ -21429,11 +22696,11 @@
     ]
   },
   {
-    "title": "Pocky & Rocky with Becky | KiKi KaiKai Advance",
+    "title": "Pocky & Rocky with Becky",
     "id": 6087,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/049293.png",
+    "imageIcon": "/Images/122421.png",
     "numAchievements": 36,
     "numLeaderboards": 0,
     "points": 215,
@@ -21452,27 +22719,18 @@
     "numAchievements": 197,
     "numLeaderboards": 40,
     "points": 2086,
-    "dateModified": "2025-08-17 17:40:52",
+    "dateModified": "2025-11-15 14:47:11",
     "forumTopicId": 31917,
     "hashes": [
       "21f934f5738b6f975709e46646b83e86",
       "5f91214a7b563c858a94920796817d83",
       "605b89b67018abcea91e693a4dd25be3",
-      "054b20eed28e84b0102062a89ae7ebb1"
+      "054b20eed28e84b0102062a89ae7ebb1",
+      "67b770405f7b87589e0342513b25fe9b",
+      "f793a854654b467211fc32c4062cb183",
+      "2c00e335288a96650e34785b5e2a7588",
+      "c3e85be7372bbd5e43f6334a565968c1"
     ]
-  },
-  {
-    "title": "Pokémon Emerald Version [Subset - Bonus]",
-    "id": 7875,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/108986.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 8994,
-    "hashes": []
   },
   {
     "title": "Pokémon Emerald Version [Subset - Mudkip vs. The World (ft. Castform)]",
@@ -21505,19 +22763,6 @@
     ]
   },
   {
-    "title": "Pokémon Emerald Version [Subset - Shiny Pokémon]",
-    "id": 19720,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/058134.png",
-    "numAchievements": 0,
-    "numLeaderboards": 3,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 16680,
-    "hashes": []
-  },
-  {
     "title": "Pokémon FireRed Version",
     "id": 515,
     "consoleId": 5,
@@ -21526,7 +22771,7 @@
     "numAchievements": 61,
     "numLeaderboards": 0,
     "points": 453,
-    "dateModified": "2025-06-11 23:11:36",
+    "dateModified": "2025-12-09 21:19:21",
     "forumTopicId": 902,
     "hashes": [
       "21c75cf6ea782231121270606bdd2e76",
@@ -21539,6 +22784,21 @@
       "cfbecda514aee8b964e5e5603e60b925",
       "e26ee0d44e809351c8ce2d73c7400cdd",
       "e7e95ab0d167ea062a74c2accb299002"
+    ]
+  },
+  {
+    "title": "Pokémon FireRed Version [Subset - Carcinisation]",
+    "id": 33103,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/121044.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": "2025-12-06 14:09:52",
+    "forumTopicId": 30180,
+    "hashes": [
+      "c75b0134db376129763942364fdcff30"
     ]
   },
   {
@@ -21557,37 +22817,6 @@
     ]
   },
   {
-    "title": "Pokémon FireRed Version | Pokémon LeafGreen Version [Subset - Bonus]",
-    "id": 21953,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/088093.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2024-02-24 02:35:09",
-    "forumTopicId": 25076,
-    "hashes": [
-      "0d651f6bf37d59edae23b87c237f934f",
-      "3355bd390311e2ad154bac2322cb6245"
-    ]
-  },
-  {
-    "title": "Pokémon FireRed Version | Pokémon LeafGreen Version [Subset - Carcinisation]",
-    "id": 33103,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/109490.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-03-20 01:22:50",
-    "forumTopicId": 30180,
-    "hashes": [
-      "c75b0134db376129763942364fdcff30"
-    ]
-  },
-  {
     "title": "Pokémon FireRed Version | Pokémon LeafGreen Version [Subset - Shiny Pokémon+]",
     "id": 24875,
     "consoleId": 5,
@@ -21596,7 +22825,7 @@
     "numAchievements": 259,
     "numLeaderboards": 3,
     "points": 6175,
-    "dateModified": "2024-10-31 20:27:22",
+    "dateModified": "2025-11-18 17:11:30",
     "forumTopicId": 22076,
     "hashes": [
       "0f75499bd326e95b40d4880955157660",
@@ -21609,10 +22838,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/104330.png",
-    "numAchievements": 42,
+    "numAchievements": 128,
     "numLeaderboards": 0,
-    "points": 361,
-    "dateModified": "2025-08-14 07:07:05",
+    "points": 776,
+    "dateModified": "2026-01-03 23:20:55",
     "forumTopicId": 2257,
     "hashes": [
       "612ca9473451fa42b51d1711031ed5f6",
@@ -21629,7 +22858,7 @@
     "numAchievements": 136,
     "numLeaderboards": 0,
     "points": 330,
-    "dateModified": "2025-07-24 04:44:30",
+    "dateModified": "2025-12-07 06:19:52",
     "forumTopicId": 29826,
     "hashes": [
       "223ac5717907037ef91778c354935902"
@@ -21644,7 +22873,7 @@
     "numAchievements": 128,
     "numLeaderboards": 0,
     "points": 1350,
-    "dateModified": "2023-02-09 17:16:12",
+    "dateModified": "2026-01-17 08:35:47",
     "forumTopicId": 1084,
     "hashes": [
       "2100cf6f17e12cd34f1513647dfa506b",
@@ -21662,8 +22891,8 @@
     "numAchievements": 54,
     "numLeaderboards": 4,
     "points": 438,
-    "dateModified": "2025-05-29 09:49:55",
-    "forumTopicId": 747,
+    "dateModified": "2025-12-03 06:05:14",
+    "forumTopicId": 33712,
     "hashes": [
       "ba6d0fbff297b8937d3c8e7f2c25fa0f"
     ]
@@ -21677,7 +22906,7 @@
     "numAchievements": 49,
     "numLeaderboards": 13,
     "points": 485,
-    "dateModified": "2025-01-21 19:25:33",
+    "dateModified": "2025-11-16 16:11:18",
     "forumTopicId": 287,
     "hashes": [
       "27c9f37193977828f9808f3f76ff8c76",
@@ -21699,8 +22928,8 @@
     "imageIcon": "/Images/107800.png",
     "numAchievements": 186,
     "numLeaderboards": 0,
-    "points": 407,
-    "dateModified": "2025-04-12 00:53:21",
+    "points": 250,
+    "dateModified": "2026-01-07 20:11:02",
     "forumTopicId": 21334,
     "hashes": [
       "5eea818df4dc59b2991d57b77844b884",
@@ -21921,7 +23150,7 @@
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 197,
-    "dateModified": "2022-12-06 00:59:34",
+    "dateModified": "2025-11-20 19:07:15",
     "forumTopicId": 7578,
     "hashes": [
       "2892a0fcefc0c183bf725b0a2540a83a"
@@ -22055,10 +23284,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/115404.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 35,
+    "numLeaderboards": 8,
+    "points": 253,
+    "dateModified": "2026-01-12 19:35:01",
     "forumTopicId": 6181,
     "hashes": [
       "69a9f59169766cda7ebc29be820a78a3",
@@ -22210,7 +23439,7 @@
     "numAchievements": 38,
     "numLeaderboards": 3,
     "points": 385,
-    "dateModified": "2023-05-26 04:05:22",
+    "dateModified": "2025-12-06 20:08:32",
     "forumTopicId": 14279,
     "hashes": [
       "8d7c792d3c715f48833d0390b4eebc45",
@@ -22267,7 +23496,7 @@
     "id": 4968,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/078036.png",
+    "imageIcon": "/Images/120635.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -22313,7 +23542,7 @@
     "id": 9620,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/034488.png",
+    "imageIcon": "/Images/120846.png",
     "numAchievements": 37,
     "numLeaderboards": 1,
     "points": 155,
@@ -22361,11 +23590,11 @@
     "id": 4106,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/049327.png",
-    "numAchievements": 60,
+    "imageIcon": "/Images/123320.png",
+    "numAchievements": 58,
     "numLeaderboards": 0,
-    "points": 628,
-    "dateModified": "2025-07-20 10:05:35",
+    "points": 626,
+    "dateModified": "2025-12-03 00:52:33",
     "forumTopicId": 2058,
     "hashes": [
       "616f80f482ade86d88021b41587aa600",
@@ -22549,10 +23778,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/108538.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2015-04-25 03:09:30",
+    "numAchievements": 76,
+    "numLeaderboards": 7,
+    "points": 526,
+    "dateModified": "2026-01-29 00:49:05",
     "forumTopicId": 3296,
     "hashes": [
       "16b5f1c6f8567cbe42f7562fccbb6426"
@@ -22804,11 +24033,11 @@
     "id": 5988,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/114132.png",
-    "numAchievements": 0,
-    "numLeaderboards": 56,
-    "points": 0,
-    "dateModified": "2025-07-06 12:13:56",
+    "imageIcon": "/Images/122129.png",
+    "numAchievements": 60,
+    "numLeaderboards": 9,
+    "points": 640,
+    "dateModified": "2026-01-13 13:21:26",
     "forumTopicId": 6563,
     "hashes": [
       "6714ce5d3c2f6988776ec92e36b9ddda",
@@ -22961,7 +24190,7 @@
     "numAchievements": 38,
     "numLeaderboards": 8,
     "points": 305,
-    "dateModified": "2025-07-20 15:54:35",
+    "dateModified": "2025-09-16 10:18:19",
     "forumTopicId": 22936,
     "hashes": [
       "1e3fd614dc43edbbf9df51262057f2cc"
@@ -22988,14 +24217,13 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/108666.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 34,
+    "numLeaderboards": 5,
+    "points": 170,
+    "dateModified": "2026-01-10 09:01:03",
     "forumTopicId": 20429,
     "hashes": [
-      "9cff0577973c0219738da5995edcf3ae",
-      "c8e45043d61075471f8ee3d05862d960"
+      "9cff0577973c0219738da5995edcf3ae"
     ]
   },
   {
@@ -23013,22 +24241,6 @@
       "00e44d439cdef2014c67ffced1cb90d7",
       "6544c0e0b23bb831ddf42895cfc6a528",
       "803ff345f4df60a7f00db44fd25730bc"
-    ]
-  },
-  {
-    "title": "Scorpion King: Sword of Osiris",
-    "id": 9339,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/073062.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 31026,
-    "hashes": [
-      "8620aeb89f00dd3e3c2a500ba75ce2de",
-      "bf8fac941521947c92ba860d570927c4"
     ]
   },
   {
@@ -23071,7 +24283,7 @@
     "numAchievements": 46,
     "numLeaderboards": 0,
     "points": 425,
-    "dateModified": "2024-12-05 19:16:27",
+    "dateModified": "2026-01-27 20:41:32",
     "forumTopicId": 2165,
     "hashes": [
       "2cd38e2e2d2bbc3eeee2833b8667e962",
@@ -23128,7 +24340,7 @@
     "id": 18321,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118495.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -23160,10 +24372,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/116746.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 16,
+    "numLeaderboards": 16,
+    "points": 101,
+    "dateModified": "2025-10-27 06:06:47",
     "forumTopicId": 31970,
     "hashes": [
       "f4326bde4b5e9f53f5fc58ce24d7b137"
@@ -23251,7 +24463,7 @@
     "id": 9609,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/081519.png",
+    "imageIcon": "/Images/122703.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -23376,6 +24588,36 @@
     "forumTopicId": null,
     "hashes": [
       "2d457f68782271e833b1469ec7308502"
+    ]
+  },
+  {
+    "title": "Shikakui Atama o Maruku Suru. Advance: Kanji, Keisan",
+    "id": 35278,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b41a755562a4128829c6dc12c8aba3e3"
+    ]
+  },
+  {
+    "title": "Shikakui Atama o Maruku Suru. Advance: Kokugo, Sansuu, Shakai, Rika",
+    "id": 35279,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "878dc37944b93347e220ca68936402e0"
     ]
   },
   {
@@ -23599,7 +24841,7 @@
     "id": 6227,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/088315.png",
+    "imageIcon": "/Images/121471.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -23614,11 +24856,11 @@
     "id": 9768,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/105533.png",
+    "imageIcon": "/Images/123731.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 25,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2026-01-28 18:19:31",
     "forumTopicId": 22227,
     "hashes": [
       "c8a0ce6010243c1b4a05458344c9fc31"
@@ -23648,7 +24890,7 @@
     "numAchievements": 58,
     "numLeaderboards": 19,
     "points": 488,
-    "dateModified": "2025-08-12 18:10:03",
+    "dateModified": "2025-12-19 15:34:00",
     "forumTopicId": 29934,
     "hashes": [
       "0af58674e0fef09ca529a0a27aecf17a",
@@ -23666,7 +24908,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 34045,
     "hashes": [
       "05d2d50f8aac9d4d6e1889432e197167",
       "57709c330edf8fe50cc52ce5fbfeb2f6"
@@ -23741,7 +24983,7 @@
     "numAchievements": 89,
     "numLeaderboards": 0,
     "points": 795,
-    "dateModified": "2024-12-07 20:53:09",
+    "dateModified": "2026-01-22 00:39:43",
     "forumTopicId": 3300,
     "hashes": [
       "29b048b4b36b3fda168850003f2ee844"
@@ -23941,7 +25183,7 @@
     "numAchievements": 40,
     "numLeaderboards": 21,
     "points": 380,
-    "dateModified": "2025-02-24 12:18:00",
+    "dateModified": "2025-09-09 05:10:49",
     "forumTopicId": 122,
     "hashes": [
       "0aa17178edfbd1dea1b3e18826b367b3",
@@ -23956,10 +25198,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/044235.png",
-    "numAchievements": 93,
+    "numAchievements": 63,
     "numLeaderboards": 0,
-    "points": 825,
-    "dateModified": "2025-08-14 10:19:06",
+    "points": 545,
+    "dateModified": "2026-01-29 01:24:02",
     "forumTopicId": 890,
     "hashes": [
       "310498d4b2e3cc44ed69557903c4a54e",
@@ -24009,7 +25251,7 @@
     "numAchievements": 103,
     "numLeaderboards": 16,
     "points": 682,
-    "dateModified": "2025-07-01 22:30:29",
+    "dateModified": "2025-12-22 20:09:50",
     "forumTopicId": 4226,
     "hashes": [
       "95ce5443198044f4546a42d9d67be0e2",
@@ -24022,10 +25264,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/071905.png",
-    "numAchievements": 26,
+    "numAchievements": 25,
     "numLeaderboards": 38,
-    "points": 275,
-    "dateModified": "2023-02-19 13:20:24",
+    "points": 250,
+    "dateModified": "2025-11-16 02:02:13",
     "forumTopicId": 5805,
     "hashes": [
       "8105a6012737aac2907b27e4a05ad794"
@@ -24067,7 +25309,7 @@
     "id": 8584,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/066951.png",
+    "imageIcon": "/Images/119883.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -24162,7 +25404,7 @@
     "numAchievements": 27,
     "numLeaderboards": 0,
     "points": 187,
-    "dateModified": "2025-06-14 16:19:59",
+    "dateModified": "2026-01-23 18:51:55",
     "forumTopicId": 4534,
     "hashes": [
       "fbda16cbc7e3f81aa5b90da955d3e114"
@@ -24188,14 +25430,16 @@
     "id": 2346,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/119783.png",
+    "numAchievements": 60,
+    "numLeaderboards": 15,
+    "points": 325,
+    "dateModified": "2025-12-10 18:30:37",
+    "forumTopicId": 33010,
     "hashes": [
-      "dce828e687f05511c1ad70e936b5ef25"
+      "dce828e687f05511c1ad70e936b5ef25",
+      "f146baf10cf767d2313c4da94a5845eb",
+      "8daee9fe02459c2084d461d4f2e8e481"
     ]
   },
   {
@@ -24386,7 +25630,7 @@
     ]
   },
   {
-    "title": "Spyro: Attack of the Rhynocs | Spyro: Adventure",
+    "title": "Spyro: Attack of the Rhynocs",
     "id": 4204,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -24408,7 +25652,7 @@
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/071269.png",
     "numAchievements": 35,
-    "numLeaderboards": 0,
+    "numLeaderboards": 9,
     "points": 285,
     "dateModified": "2024-11-12 21:18:57",
     "forumTopicId": 2540,
@@ -24422,7 +25666,7 @@
     "id": 4657,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117143.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -24475,21 +25719,6 @@
     "forumTopicId": null,
     "hashes": [
       "47e02ac1a4cc0d5f7441426469015dd7"
-    ]
-  },
-  {
-    "title": "Star Wars - Episode I: Jedi Power Battles",
-    "id": 9356,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "2d2a6725da37285d65c34205d08754d7"
     ]
   },
   {
@@ -24552,6 +25781,21 @@
     "forumTopicId": null,
     "hashes": [
       "a6cc5b4377dc7396fa275113e1b958b4"
+    ]
+  },
+  {
+    "title": "Star Wars: Jedi Power Battles",
+    "id": 9356,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/117181.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2d2a6725da37285d65c34205d08754d7"
     ]
   },
   {
@@ -24729,7 +25973,7 @@
     "id": 9334,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/101720.png",
+    "imageIcon": "/Images/122409.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -24744,11 +25988,11 @@
     "id": 2588,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/036473.png",
+    "imageIcon": "/Images/121536.png",
     "numAchievements": 36,
     "numLeaderboards": 0,
     "points": 500,
-    "dateModified": "2025-08-23 01:51:28",
+    "dateModified": "2025-11-25 20:18:29",
     "forumTopicId": 4311,
     "hashes": [
       "abfa372f860d0f10037bf28cc78de409"
@@ -24759,7 +26003,7 @@
     "id": 2589,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/038179.png",
+    "imageIcon": "/Images/122120.png",
     "numAchievements": 81,
     "numLeaderboards": 7,
     "points": 678,
@@ -24911,10 +26155,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/035249.png",
-    "numAchievements": 88,
+    "numAchievements": 81,
     "numLeaderboards": 0,
-    "points": 706,
-    "dateModified": "2023-09-02 01:17:09",
+    "points": 595,
+    "dateModified": "2025-11-21 00:58:32",
     "forumTopicId": 1954,
     "hashes": [
       "ff6b0c48065389b888c7a78731d4b58d",
@@ -24925,6 +26169,37 @@
     ]
   },
   {
+    "title": "Super Mario Advance 3: Yoshi's Island",
+    "id": 5234,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/121554.png",
+    "numAchievements": 66,
+    "numLeaderboards": 0,
+    "points": 455,
+    "dateModified": "2024-04-19 05:28:41",
+    "forumTopicId": 3293,
+    "hashes": [
+      "5a0bd0ec784823f2c45fdaa5dd914bea",
+      "bb09508c782f37934c9519c5f8a7350c"
+    ]
+  },
+  {
+    "title": "Super Mario Advance 3: Yoshi's Island [Subset - Low Score]",
+    "id": 5225,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/114417.png",
+    "numAchievements": 60,
+    "numLeaderboards": 0,
+    "points": 535,
+    "dateModified": "2025-06-24 21:08:13",
+    "forumTopicId": 14433,
+    "hashes": [
+      "0c7e58ddb31ba4880873974553dd01e5"
+    ]
+  },
+  {
     "title": "Super Mario Advance 4: Super Mario Bros. 3",
     "id": 20277,
     "consoleId": 5,
@@ -24932,8 +26207,8 @@
     "imageIcon": "/Images/060733.png",
     "numAchievements": 83,
     "numLeaderboards": 0,
-    "points": 652,
-    "dateModified": "2025-06-16 13:25:06",
+    "points": 612,
+    "dateModified": "2026-01-20 14:26:47",
     "forumTopicId": 17605,
     "hashes": [
       "d904485be937fb3e30e4da5019e34a71"
@@ -24952,6 +26227,25 @@
     "forumTopicId": 2816,
     "hashes": [
       "e7a2792c5913a8420a419f2d01358487"
+    ]
+  },
+  {
+    "title": "Super Mario Advance Series [Subset - Mario Bros]",
+    "id": 37604,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/123220.png",
+    "numAchievements": 24,
+    "numLeaderboards": 0,
+    "points": 339,
+    "dateModified": "2026-01-27 14:39:23",
+    "forumTopicId": 33706,
+    "hashes": [
+      "5947bc6016400399703bf628c8122853",
+      "d035cbe42815c340f78631bc6ab32f92",
+      "28ae60ea08ae2b1906f0df137d853177",
+      "c95fd922c577d69b713c1766f1c50d2b",
+      "92ec5b30c547374a640943d7eafe0dc9"
     ]
   },
   {
@@ -24990,7 +26284,7 @@
     "id": 535,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/064495.png",
+    "imageIcon": "/Images/123106.png",
     "numAchievements": 25,
     "numLeaderboards": 0,
     "points": 330,
@@ -25118,7 +26412,7 @@
     "numAchievements": 36,
     "numLeaderboards": 0,
     "points": 200,
-    "dateModified": "2025-01-24 15:15:02",
+    "dateModified": "2025-11-26 21:15:01",
     "forumTopicId": 1133,
     "hashes": [
       "7a36a7486ef2c534111ee417b8acf9b7",
@@ -25177,11 +26471,11 @@
     "id": 4206,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/029958.png",
+    "imageIcon": "/Images/123002.png",
     "numAchievements": 101,
     "numLeaderboards": 1,
     "points": 660,
-    "dateModified": "2025-04-13 03:57:03",
+    "dateModified": "2025-10-01 23:32:27",
     "forumTopicId": 1684,
     "hashes": [
       "c7e5d28e7c430454aeff766961095561"
@@ -25226,7 +26520,7 @@
     "numAchievements": 87,
     "numLeaderboards": 5,
     "points": 730,
-    "dateModified": "2025-04-11 21:33:59",
+    "dateModified": "2025-11-27 06:27:22",
     "forumTopicId": 4919,
     "hashes": [
       "5d4f385e4e1cfa4a057d0ac828993906"
@@ -25256,8 +26550,8 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-27 00:16:02",
+    "forumTopicId": 33254,
     "hashes": [
       "05b2267bdf77e3d36d0b96c22d3af844"
     ]
@@ -25421,10 +26715,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/117103.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 33,
+    "numLeaderboards": 1,
+    "points": 336,
+    "dateModified": "2025-12-03 15:42:28",
     "forumTopicId": 3245,
     "hashes": [
       "c9ce90b98c6cc2f60847d6f39ecf11c5"
@@ -25651,12 +26945,12 @@
     "id": 7959,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/119059.png",
+    "numAchievements": 18,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "points": 50,
+    "dateModified": "2025-10-17 19:13:17",
+    "forumTopicId": 32725,
     "hashes": [
       "85bbf8a6f95b9d2d463d0a55f2b69d35",
       "8e1c2672225640d441932424b5e11243"
@@ -25734,8 +27028,23 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "adf1ac69caf510176ee1028ecf6f7adf",
-      "d5a8437be47f77ea14409b0b40a026fa"
+      "d5a8437be47f77ea14409b0b40a026fa",
+      "22a0e9f0e8c1c51272a2e29ef2de56e7"
+    ]
+  },
+  {
+    "title": "The Cat in the Hat (2005)",
+    "id": 36770,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "adf1ac69caf510176ee1028ecf6f7adf"
     ]
   },
   {
@@ -25743,7 +27052,7 @@
     "id": 7214,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122916.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -25848,7 +27157,7 @@
     "id": 6118,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/066028.png",
+    "imageIcon": "/Images/120845.png",
     "numAchievements": 21,
     "numLeaderboards": 1,
     "points": 250,
@@ -25868,7 +27177,7 @@
     "numAchievements": 44,
     "numLeaderboards": 0,
     "points": 198,
-    "dateModified": "2025-05-24 14:08:06",
+    "dateModified": "2025-11-19 12:46:01",
     "forumTopicId": 7848,
     "hashes": [
       "c3ef5da0b49da2e7a124d5d94f19daf7"
@@ -25898,7 +27207,7 @@
     "numAchievements": 21,
     "numLeaderboards": 1,
     "points": 302,
-    "dateModified": "2025-01-21 05:10:46",
+    "dateModified": "2025-11-02 15:14:50",
     "forumTopicId": 16535,
     "hashes": [
       "97cc2aeb06142aedc38b672e90e04a11"
@@ -26007,7 +27316,7 @@
     "numAchievements": 46,
     "numLeaderboards": 0,
     "points": 245,
-    "dateModified": "2024-12-10 22:32:34",
+    "dateModified": "2025-12-09 13:16:25",
     "forumTopicId": 2700,
     "hashes": [
       "2ae7ae75669717e299671d26ea883f98",
@@ -26054,7 +27363,7 @@
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 207,
-    "dateModified": "2024-12-14 00:40:36",
+    "dateModified": "2026-01-17 03:17:31",
     "forumTopicId": 19992,
     "hashes": [
       "15fb7bb864e9876537890af774b43dbf",
@@ -26118,16 +27427,17 @@
     "numAchievements": 66,
     "numLeaderboards": 0,
     "points": 705,
-    "dateModified": "2025-07-15 19:44:22",
+    "dateModified": "2025-09-15 11:58:15",
     "forumTopicId": 146,
     "hashes": [
       "3cded5508b03afb52b41dfbe9955628b",
       "626a6f1134455c879dd8a5cbb84b116a",
-      "a104896da0047abe8bee2a6e3f4c7290"
+      "a104896da0047abe8bee2a6e3f4c7290",
+      "dcd84f2cd26e40cfbc4c332677774473"
     ]
   },
   {
-    "title": "The Lion King | The Lion King 1½",
+    "title": "The Lion King 1½",
     "id": 14087,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
@@ -26135,8 +27445,8 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-27 00:33:04",
+    "forumTopicId": 34127,
     "hashes": [
       "3f1cb5398649ff0c43673e73cad3010e"
     ]
@@ -26389,7 +27699,7 @@
     "id": 7158,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/077458.png",
+    "imageIcon": "/Images/123875.png",
     "numAchievements": 30,
     "numLeaderboards": 10,
     "points": 315,
@@ -26401,11 +27711,27 @@
     ]
   },
   {
+    "title": "The Scorpion King: Sword of Osiris",
+    "id": 9339,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/119018.png",
+    "numAchievements": 27,
+    "numLeaderboards": 2,
+    "points": 222,
+    "dateModified": "2025-10-09 17:16:34",
+    "forumTopicId": 31026,
+    "hashes": [
+      "8620aeb89f00dd3e3c2a500ba75ce2de",
+      "bf8fac941521947c92ba860d570927c4"
+    ]
+  },
+  {
     "title": "The Simpsons: Road Rage",
     "id": 2540,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/051005.png",
+    "imageIcon": "/Images/120850.png",
     "numAchievements": 36,
     "numLeaderboards": 7,
     "points": 250,
@@ -26615,6 +27941,21 @@
     ]
   },
   {
+    "title": "Thunderbirds",
+    "id": 36771,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bff321ba7052247f9a6936e3ed0c75da"
+    ]
+  },
+  {
     "title": "Thunderbirds: International Rescue",
     "id": 6256,
     "consoleId": 5,
@@ -26668,7 +28009,7 @@
     "numAchievements": 71,
     "numLeaderboards": 0,
     "points": 499,
-    "dateModified": "2023-10-24 02:28:26",
+    "dateModified": "2025-12-05 13:32:11",
     "forumTopicId": 1259,
     "hashes": [
       "2de53bf040953ad79cc8135c37b47aa0"
@@ -26748,6 +28089,21 @@
     "hashes": [
       "164b2a21afa59d6dedad07117296c8e7",
       "3dac0a2fb322eebbdad45ecc1ec8a943"
+    ]
+  },
+  {
+    "title": "TOCA World Touring Cars",
+    "id": 31313,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bcf9dcaca7c0bab4d75184d900d27d50"
     ]
   },
   {
@@ -26925,10 +28281,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/111507.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-06-01 14:06:44",
+    "numAchievements": 59,
+    "numLeaderboards": 46,
+    "points": 404,
+    "dateModified": "2025-09-19 23:34:04",
     "forumTopicId": 30842,
     "hashes": [
       "ee91c4582d9b0cc494fcb71173b43e17"
@@ -26988,7 +28344,7 @@
     "numAchievements": 50,
     "numLeaderboards": 12,
     "points": 354,
-    "dateModified": "2025-08-27 04:06:25",
+    "dateModified": "2025-12-05 08:37:29",
     "forumTopicId": 21745,
     "hashes": [
       "36916861e921121015366b7d5ec45f3e"
@@ -27273,7 +28629,7 @@
     "id": 9051,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/059073.png",
+    "imageIcon": "/Images/121023.png",
     "numAchievements": 56,
     "numLeaderboards": 1,
     "points": 231,
@@ -27360,6 +28716,21 @@
     ]
   },
   {
+    "title": "Ultimate Beach Soccer",
+    "id": 34895,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d14cf631928fc1523b49c9ae0a2cdd2f"
+    ]
+  },
+  {
     "title": "Ultimate Brain Games",
     "id": 6288,
     "consoleId": 5,
@@ -27398,7 +28769,7 @@
     "numAchievements": 21,
     "numLeaderboards": 3,
     "points": 126,
-    "dateModified": "2025-08-21 01:22:42",
+    "dateModified": "2025-12-10 18:19:24",
     "forumTopicId": 30824,
     "hashes": [
       "a4e4230baf0e3b819c84eae58097cdb0"
@@ -27425,10 +28796,10 @@
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
     "imageIcon": "/Images/110737.png",
-    "numAchievements": 0,
-    "numLeaderboards": 21,
-    "points": 0,
-    "dateModified": "2025-08-31 02:10:56",
+    "numAchievements": 80,
+    "numLeaderboards": 26,
+    "points": 585,
+    "dateModified": "2026-01-23 00:56:38",
     "forumTopicId": 10783,
     "hashes": [
       "11beb7fd8ce6c8a3d4987274835e0843"
@@ -27534,7 +28905,7 @@
     "numAchievements": 77,
     "numLeaderboards": 52,
     "points": 450,
-    "dateModified": "2025-05-15 01:47:46",
+    "dateModified": "2026-01-02 02:28:33",
     "forumTopicId": 7283,
     "hashes": [
       "37205e649905cc4f714ffbb0f3b41307"
@@ -27592,12 +28963,12 @@
     "id": 6739,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2015-09-11 12:27:08",
-    "forumTopicId": null,
+    "imageIcon": "/Images/118076.png",
+    "numAchievements": 70,
+    "numLeaderboards": 11,
+    "points": 642,
+    "dateModified": "2025-12-07 14:41:09",
+    "forumTopicId": 32241,
     "hashes": [
       "820a03dcd47b4d8aec4b09b6d0f95d56",
       "bfb5a63fde75becb342f5d0e9a8e0da2"
@@ -27612,7 +28983,7 @@
     "numAchievements": 47,
     "numLeaderboards": 5,
     "points": 306,
-    "dateModified": "2025-05-03 19:36:31",
+    "dateModified": "2025-10-23 20:17:32",
     "forumTopicId": 29349,
     "hashes": [
       "68d45d576023082a099526d5b384dd1c"
@@ -27647,6 +29018,96 @@
     "hashes": [
       "05b82f996a7ebc44c62697b02833a68f",
       "c322a67af5d3eb1454ac02237189cd4a"
+    ]
+  },
+  {
+    "title": "Wagamama☆Fairy: Mirumo de Pon! 8 Nin no Toki no Yousei",
+    "id": 36483,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "570a28cd1d5137e4ee061a9fc7986476"
+    ]
+  },
+  {
+    "title": "Wagamama☆Fairy: Mirumo de Pon! Dokidoki Memorial Panic",
+    "id": 36484,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c42d862eda2d7b0d49c0cbe33525a93c"
+    ]
+  },
+  {
+    "title": "Wagamama☆Fairy: Mirumo de Pon! Nazo no Kagi to Shinjitsu no Tobira",
+    "id": 36485,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "89edab9880ff7a18657398e75c6d7462"
+    ]
+  },
+  {
+    "title": "Wagamama☆Fairy: Mirumo de Pon! Ougon Maracas no Densetsu",
+    "id": 36486,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "27035b74f608ffced0e4f78d9b3251cf"
+    ]
+  },
+  {
+    "title": "Wagamama☆Fairy: Mirumo de Pon! Taisen Mahoudrama",
+    "id": 36487,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d0afddbd4f9a06aeaf9a8d7db3a2ef82"
+    ]
+  },
+  {
+    "title": "Wagamama☆Fairy: Mirumo de Pon! Yume no Kakera",
+    "id": 36488,
+    "consoleId": 5,
+    "consoleName": "Game Boy Advance",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "335d6415dad158195ee1290f4f955fa1"
     ]
   },
   {
@@ -27690,7 +29151,7 @@
     "numAchievements": 47,
     "numLeaderboards": 237,
     "points": 640,
-    "dateModified": "2024-08-26 12:29:23",
+    "dateModified": "2025-09-28 21:10:02",
     "forumTopicId": 430,
     "hashes": [
       "31c33a781f3a6bd3af3a4497e6d88c3c",
@@ -27706,7 +29167,7 @@
     "numAchievements": 50,
     "numLeaderboards": 15,
     "points": 600,
-    "dateModified": "2022-08-09 01:52:00",
+    "dateModified": "2025-11-17 22:54:45",
     "forumTopicId": 1612,
     "hashes": [
       "2cca01b2f9587ca10b267350488eb3fc",
@@ -27769,7 +29230,7 @@
     "numAchievements": 7,
     "numLeaderboards": 0,
     "points": 26,
-    "dateModified": "2023-10-21 12:59:05",
+    "dateModified": "2025-10-12 07:23:26",
     "forumTopicId": 23789,
     "hashes": [
       "94194788e55c1d3c256d816601ee7530"
@@ -28151,7 +29612,7 @@
     "dateModified": null,
     "forumTopicId": 6625,
     "hashes": [
-      "34469cbe444c6561a5a24c1159f0697e"
+      "85853646ee8ed8269a442a13bffc6e0d"
     ]
   },
   {
@@ -28159,7 +29620,7 @@
     "id": 12820,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/034408.png",
+    "imageIcon": "/Images/122152.png",
     "numAchievements": 28,
     "numLeaderboards": 5,
     "points": 395,
@@ -28168,37 +29629,6 @@
     "hashes": [
       "0cb3d605b15189485ff9689ca099187f",
       "e66d2e98947a5bd1068228e4084b06da"
-    ]
-  },
-  {
-    "title": "Yoshi's Island: Super Mario Advance 3",
-    "id": 5234,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/028136.png",
-    "numAchievements": 67,
-    "numLeaderboards": 0,
-    "points": 460,
-    "dateModified": "2024-04-19 05:28:41",
-    "forumTopicId": 3293,
-    "hashes": [
-      "5a0bd0ec784823f2c45fdaa5dd914bea",
-      "bb09508c782f37934c9519c5f8a7350c"
-    ]
-  },
-  {
-    "title": "Yoshi's Island: Super Mario Advance 3 [Subset - Low Score]",
-    "id": 5225,
-    "consoleId": 5,
-    "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/114417.png",
-    "numAchievements": 60,
-    "numLeaderboards": 0,
-    "points": 535,
-    "dateModified": "2025-06-24 21:08:13",
-    "forumTopicId": 14433,
-    "hashes": [
-      "0c7e58ddb31ba4880873974553dd01e5"
     ]
   },
   {
@@ -28225,7 +29655,7 @@
     "numAchievements": 60,
     "numLeaderboards": 0,
     "points": 500,
-    "dateModified": "2023-10-29 08:47:50",
+    "dateModified": "2025-12-17 06:39:22",
     "forumTopicId": 1601,
     "hashes": [
       "78ea18b7f5d5b51abaca1565aa81230e",
@@ -28241,7 +29671,7 @@
     "numAchievements": 40,
     "numLeaderboards": 0,
     "points": 335,
-    "dateModified": "2025-06-28 19:12:32",
+    "dateModified": "2025-12-20 12:16:23",
     "forumTopicId": 2720,
     "hashes": [
       "27f9f0e73752cc2df3b73bc46048e8a2"
@@ -28301,7 +29731,7 @@
     "numAchievements": 50,
     "numLeaderboards": 0,
     "points": 469,
-    "dateModified": "2024-10-21 20:05:48",
+    "dateModified": "2025-10-18 21:03:12",
     "forumTopicId": 1697,
     "hashes": [
       "4f71a4e021f4b9319c9d4443dd710666",
@@ -28332,7 +29762,7 @@
     "numAchievements": 64,
     "numLeaderboards": 0,
     "points": 360,
-    "dateModified": "2024-10-12 20:51:34",
+    "dateModified": "2025-12-11 17:59:48",
     "forumTopicId": 1645,
     "hashes": [
       "0a7c58069d5390165482e88a22158bd2",
@@ -28413,7 +29843,7 @@
     "numAchievements": 64,
     "numLeaderboards": 12,
     "points": 417,
-    "dateModified": "2025-08-13 12:28:10",
+    "dateModified": "2025-09-06 12:24:44",
     "forumTopicId": 3578,
     "hashes": [
       "54f8b4748e5f0233bc28216a0188c968"
@@ -28499,7 +29929,7 @@
     "id": 8671,
     "consoleId": 5,
     "consoleName": "Game Boy Advance",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122908.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,

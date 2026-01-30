@@ -71,7 +71,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "265f775db724fb47e08c0a539f886df0"
+      "10b3d082c57cdf5a6353149e1ed2962f"
     ]
   },
   {
@@ -86,7 +86,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "80f6544bc45be03b0b472f52b9d6b7ff"
+      "341fc26add52d23acc2b29f6bab42134"
     ]
   },
   {
@@ -124,12 +124,12 @@
     "id": 21574,
     "consoleId": 73,
     "consoleName": "Arcadia 2001",
-    "imageIcon": "/Images/071626.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/121420.png",
+    "numAchievements": 8,
+    "numLeaderboards": 1,
+    "points": 49,
+    "dateModified": "2025-12-10 00:48:20",
+    "forumTopicId": 33493,
     "hashes": [
       "f73756c9c837e892857967ed45b7f6f0"
     ]
@@ -381,14 +381,14 @@
     "id": 24686,
     "consoleId": 73,
     "consoleName": "Arcadia 2001",
-    "imageIcon": "/Images/075524.png",
+    "imageIcon": "/Images/117701.png",
     "numAchievements": 8,
     "numLeaderboards": 3,
     "points": 47,
     "dateModified": "2023-07-09 03:28:46",
     "forumTopicId": 22174,
     "hashes": [
-      "fbb02515f81f6e163e0ad74085ccd0e8"
+      "2938509d9c2a2316b460b2a617581771"
     ]
   },
   {
@@ -403,7 +403,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "7d22b32dcc2dffd0e09b22ef38153ebc"
+      "2a636fc1b2c414f87c078c06f279d618"
     ]
   },
   {
@@ -433,7 +433,7 @@
     "dateModified": "2024-12-12 14:01:40",
     "forumTopicId": 22169,
     "hashes": [
-      "03103a22374c20e9fc642798af14da19"
+      "668af35d78d4c4286ada370013a4fc54"
     ]
   },
   {
@@ -478,7 +478,7 @@
     "dateModified": "2023-07-01 01:22:45",
     "forumTopicId": 22167,
     "hashes": [
-      "8f9e596c87bb930e8a6c9e11ad19f9de"
+      "9640b53728b797b11f90c912a8ccadaf"
     ]
   },
   {
@@ -508,8 +508,8 @@
     "dateModified": "2023-06-28 20:51:16",
     "forumTopicId": 22193,
     "hashes": [
-      "15dfaf2ebe12eed5bb7ca8166d75944a",
-      "cb45418fb2f287d0aec2f760e5835b70"
+      "78574f28c2cb0d19f2656925fa048042",
+      "6f2cfbf3c07d1b096f096fc8a763e500"
     ]
   },
   {
@@ -524,7 +524,7 @@
     "dateModified": "2023-07-28 20:02:37",
     "forumTopicId": 22184,
     "hashes": [
-      "168093f68509335f26196f44694d7d44"
+      "bf10520aef366afdcf6c29e1c97afefe"
     ]
   },
   {
@@ -536,7 +536,7 @@
     "numAchievements": 6,
     "numLeaderboards": 1,
     "points": 9,
-    "dateModified": "2023-07-04 00:46:04",
+    "dateModified": "2025-11-07 23:35:30",
     "forumTopicId": 22170,
     "hashes": [
       "4a9404e44df9a747549f7af0b18df632"
@@ -554,7 +554,7 @@
     "dateModified": "2023-09-01 21:24:46",
     "forumTopicId": 22197,
     "hashes": [
-      "8f368ed8a1b8f8272846a96878ff5c14"
+      "eca02a18e0ff4222283ab16947fe6911"
     ]
   },
   {
@@ -627,10 +627,10 @@
     "numAchievements": 9,
     "numLeaderboards": 10,
     "points": 142,
-    "dateModified": "2023-09-04 04:41:52",
+    "dateModified": "2025-12-30 03:26:20",
     "forumTopicId": 22168,
     "hashes": [
-      "760df0e156fc41aedb5ddc5b0fdaa96d"
+      "a9bc2c25fd1c4cd8024b2c69939252b0"
     ]
   },
   {
@@ -690,7 +690,7 @@
     "dateModified": "2023-06-22 22:31:05",
     "forumTopicId": 22181,
     "hashes": [
-      "4bbab011cc65de8bcad882befc616207"
+      "376d97f9f74ab1c64fc888385506027b"
     ]
   },
   {
@@ -841,7 +841,7 @@
     "dateModified": "2023-07-27 13:57:13",
     "forumTopicId": 22265,
     "hashes": [
-      "01e8af7a69beb5632c8edc157c7f50ae"
+      "60ee33a137802d27b5b0567ff4de52ae"
     ]
   },
   {
@@ -856,7 +856,7 @@
     "dateModified": "2023-07-01 22:07:59",
     "forumTopicId": 22180,
     "hashes": [
-      "06692f79de7dcb0be79d4468e26eb72e"
+      "3bc3df43b6d82f10cf9651372a784f9b"
     ]
   },
   {
@@ -875,7 +875,7 @@
     ]
   },
   {
-    "title": "Turtles | Turpin",
+    "title": "Turtles",
     "id": 21619,
     "consoleId": 73,
     "consoleName": "Arcadia 2001",

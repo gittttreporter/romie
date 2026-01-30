@@ -26,7 +26,7 @@
     "dateModified": null,
     "forumTopicId": 22034,
     "hashes": [
-      "60d933ad75f3f803898b7104496a1607"
+      "663eed15fd2a7a39c21622d09e21fbf9"
     ]
   },
   {
@@ -41,7 +41,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "b2e6994aafc93f8f251748cf09ed6152"
+      "d47f25b98226aa528c897cd7b9fa76d9"
     ]
   },
   {
@@ -56,7 +56,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "7cc4a5be735d9c426669666d72427eaa"
+      "0a66501303746259703c099bf74fb681"
     ]
   },
   {
@@ -71,7 +71,7 @@
     "dateModified": "2023-07-13 21:00:35",
     "forumTopicId": 22060,
     "hashes": [
-      "f9b8ea2501bfea4183a52b76e167e5b3"
+      "4efffb40e9bd84ff37f9debb8807d68c"
     ]
   },
   {
@@ -86,7 +86,7 @@
     "dateModified": "2023-06-30 22:22:34",
     "forumTopicId": 22039,
     "hashes": [
-      "68334f252bce9048a799d8fa106e6ae3"
+      "b69a9c1519f20a42686c542f270434b2"
     ]
   },
   {
@@ -101,7 +101,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "4506706013c7112ce53ffc6a79452b10"
+      "0a61ebf44259c67434ad44e1bcac96e7"
     ]
   },
   {
@@ -116,7 +116,7 @@
     "dateModified": "2025-05-12 13:41:40",
     "forumTopicId": 22038,
     "hashes": [
-      "c1d6ce37f738cddd6c9fac29f9818159"
+      "9ef4ed004d188d0543daa1eeb6c3befc"
     ]
   },
   {
@@ -131,7 +131,7 @@
     "dateModified": "2023-07-03 00:15:03",
     "forumTopicId": 22050,
     "hashes": [
-      "a048199f14cece5318eba10962ee1e69"
+      "d6b3a7879a1be746e994926d91601f60"
     ]
   },
   {
@@ -146,7 +146,7 @@
     "dateModified": "2024-06-22 00:52:48",
     "forumTopicId": 26968,
     "hashes": [
-      "58a2483a264a8c8c5901ed90ca51f5d5"
+      "ff1a7bdd03150f744431a506c641e451"
     ]
   },
   {
@@ -161,7 +161,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "61e96d3c724092cf4f0419e288409a91"
+      "483f1046302f597b8f81fd93b8fba482"
     ]
   },
   {
@@ -176,7 +176,7 @@
     "dateModified": "2023-06-12 20:30:50",
     "forumTopicId": 22056,
     "hashes": [
-      "c071244279bd9f1bc17e371a376bd2cb"
+      "b0cb507cfdf9f5a4d4ee49ddddb31fe2"
     ]
   },
   {
@@ -184,14 +184,15 @@
     "id": 24671,
     "consoleId": 75,
     "consoleName": "Elektor TV Games Computer",
-    "imageIcon": "/Images/088307.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/121395.png",
+    "numAchievements": 10,
     "numLeaderboards": 1,
-    "points": 0,
-    "dateModified": "2024-01-18 20:02:45",
-    "forumTopicId": 25094,
+    "points": 100,
+    "dateModified": "2025-12-09 11:12:06",
+    "forumTopicId": 33495,
     "hashes": [
-      "36b9bf7fa5a0646020c8a729afcf87d6"
+      "938fd8ab57e469268754ec28e07ac10f",
+      "14b6dc270d41ef89f30e5f3b1fe6f4fd"
     ]
   },
   {
@@ -206,7 +207,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "198475fd8eebad5eaa9e3bf9a852a00a"
+      "08384961ab022969a7daa2b3cdaa08e0"
     ]
   },
   {
@@ -221,7 +222,7 @@
     "dateModified": "2023-07-22 16:49:31",
     "forumTopicId": 22043,
     "hashes": [
-      "2e55236c45ba6b94b307411b4151d67d"
+      "e731b5fb80355976feafa0a5a31ef4e4"
     ]
   },
   {
@@ -236,7 +237,7 @@
     "dateModified": "2023-07-15 22:38:01",
     "forumTopicId": 22032,
     "hashes": [
-      "2e1927200eb6c5c1e837038f9fb02708"
+      "31352fa861c990364e57b37db97dda0d"
     ]
   },
   {
@@ -251,7 +252,7 @@
     "dateModified": "2023-06-13 16:55:36",
     "forumTopicId": 22054,
     "hashes": [
-      "226bf09b9cd736aa2e5b1470e1b593b1"
+      "3a15e7b4920fe8ebb3253b01a226ee32"
     ]
   },
   {
@@ -266,8 +267,8 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "30ae40b58eab77e0b59f7ffe85768904",
-      "afd6482a675c367fb4caf8bbd75dad3e"
+      "15bcdaf3fa07394676f82e759b304558",
+      "8881980b6290f962e79bb7c8eb489e40"
     ]
   },
   {
@@ -282,7 +283,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "abb733e67e182e30b7749d7c371afabd"
+      "f221b3ccad0254b74fd1b267d88475a1"
     ]
   },
   {
@@ -297,7 +298,7 @@
     "dateModified": "2024-08-08 22:31:06",
     "forumTopicId": 22041,
     "hashes": [
-      "6e9586312d59a4eb131fc51ae95c3e0f"
+      "d59524e3efae862b9a42196e30da6c4f"
     ]
   },
   {
@@ -312,7 +313,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "b48ab935bd7f20a0c0dd03b945292e2c"
+      "d400712c5413452afe874ad082c4bc9e"
     ]
   },
   {
@@ -327,7 +328,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "defb14428c77697ca3f1a2cf03037834"
+      "5a96f963d05ccc001bc657e64b4e8151"
     ]
   },
   {
@@ -342,7 +343,7 @@
     "dateModified": "2023-07-31 22:47:40",
     "forumTopicId": 22136,
     "hashes": [
-      "aa5ec6f121145fd6fb5b443988b22f6a"
+      "541601096da0fbd15fd28bac5793fbed"
     ]
   },
   {
@@ -357,7 +358,7 @@
     "dateModified": "2023-06-13 03:33:50",
     "forumTopicId": 22044,
     "hashes": [
-      "6feee881566cfa1983d64bf9d680e06b"
+      "fd5bfe6c009fbda5c6266a45b22b3369"
     ]
   },
   {
@@ -372,7 +373,7 @@
     "dateModified": "2023-07-10 15:07:10",
     "forumTopicId": 22052,
     "hashes": [
-      "1612877eeeeefa26a0b16a9125be79e6"
+      "1cd8cfb7fbcd9d5ab146337873914986"
     ]
   },
   {
@@ -387,7 +388,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "16602287e100f3b21a277b437f968e43"
+      "a155ab1cd4a7f77a5017e7aff30c4761"
     ]
   },
   {
@@ -402,7 +403,7 @@
     "dateModified": "2023-06-11 22:52:50",
     "forumTopicId": 22045,
     "hashes": [
-      "33e1aabf9910921de49bd197050b95bf"
+      "752b04c7f8d537301b60ad776adae9d1"
     ]
   },
   {
@@ -417,7 +418,7 @@
     "dateModified": "2024-11-29 23:31:40",
     "forumTopicId": 28851,
     "hashes": [
-      "61b04505ebeddf8946e3f5954e6c9962"
+      "6029558d05817f14189b1d68c9ea9fef"
     ]
   },
   {
@@ -432,7 +433,7 @@
     "dateModified": "2023-07-01 00:50:53",
     "forumTopicId": 22031,
     "hashes": [
-      "5e5690466de94fc021bc17550f6fb4c5"
+      "470d888650f2144d94c37a48017e4d6f"
     ]
   },
   {
@@ -447,7 +448,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "aa6b3a13f8a619cb05bb4b4efb48acba"
+      "a7892fac431faef9cdf1baf4a924cc68"
     ]
   },
   {
@@ -462,7 +463,7 @@
     "dateModified": "2025-02-19 15:45:26",
     "forumTopicId": 22059,
     "hashes": [
-      "69768909b778878667883f4ca7446625"
+      "f94d028134169f434134ad2d5a3bf2fc"
     ]
   },
   {
@@ -477,7 +478,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "cf01c4f8cab7a480524d1f6f4b7f1c18"
+      "94245e545f34400bf4d2c48db3159a4f"
     ]
   },
   {
@@ -492,7 +493,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "ceb0739ca83d54325e1a0816542898b9"
+      "c728bf0dce487029f684b4847baf6dc9"
     ]
   },
   {
@@ -507,7 +508,7 @@
     "dateModified": "2023-07-01 01:10:46",
     "forumTopicId": 22069,
     "hashes": [
-      "65c12687d63606bc51a84ae8fda8d006"
+      "067b6b03e52f2a9a1b3ecbdcaba66c07"
     ]
   },
   {
@@ -522,7 +523,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "5acc8870da1f8f7146dce3d5f4d257b7"
+      "7d2775bf59d639cf15f2a7ae0e6dc71b"
     ]
   },
   {
@@ -537,7 +538,7 @@
     "dateModified": "2025-05-19 04:07:35",
     "forumTopicId": 22035,
     "hashes": [
-      "c7776d480bad96c578ba32ed55462a4d"
+      "8b1da672b8636205efc79c9c29f2438d"
     ]
   },
   {
@@ -552,7 +553,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "99cc837cd218253273c1f1351452d0d9"
+      "f94aed97c487d17c05dd669cc49e3bc2"
     ]
   },
   {
@@ -567,7 +568,7 @@
     "dateModified": "2023-06-11 15:58:35",
     "forumTopicId": 22030,
     "hashes": [
-      "6f62ad2455ea1751ab7dc8eb1dfa4c43"
+      "778ad7909404e74add179dba705a580f"
     ]
   },
   {
@@ -582,7 +583,7 @@
     "dateModified": "2023-06-12 21:40:17",
     "forumTopicId": 22049,
     "hashes": [
-      "c2ced6b071c7efb5b26c781135668508"
+      "5312273c8048a40339d1df6f54b237c9"
     ]
   },
   {
@@ -596,7 +597,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "391c17250431425f5b9c899bd8d9d502"
+    ]
   },
   {
     "title": "Rocket Hunting",
@@ -610,7 +613,7 @@
     "dateModified": "2024-03-08 02:15:12",
     "forumTopicId": 25745,
     "hashes": [
-      "4e99ead8de4845c1403e0334be899a02"
+      "ff5f7f6c0bba34a081acb131653ca758"
     ]
   },
   {
@@ -625,7 +628,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "7a2ae886aaf2e4f208c2a79c3461f26b"
+      "472a9af429b440ba09a84ed6bc4630a6"
     ]
   },
   {
@@ -640,7 +643,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "fb82a4354ec46c4cb43d5cc10b2a76ac"
+      "64973429bed230ab643d9d02eeb186d0"
     ]
   },
   {
@@ -655,7 +658,7 @@
     "dateModified": "2023-06-14 22:32:50",
     "forumTopicId": 22055,
     "hashes": [
-      "c62656b1fb8c54ebebf70517317168b3"
+      "ec77c9285986436bf95ff41021665c38"
     ]
   },
   {
@@ -670,7 +673,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "73a374ff4e969fbb7003e097867a315c"
+      "157b34d841dc9db621a8903a8d11047a"
     ]
   },
   {
@@ -685,7 +688,7 @@
     "dateModified": "2023-10-07 21:47:14",
     "forumTopicId": 22033,
     "hashes": [
-      "1d7e2bbbd74d523247c08cbe2158908f"
+      "6f7ac2b5d983d5f34a56971962dc4cfe"
     ]
   },
   {
@@ -700,7 +703,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "58d63c5868360a4b7b384171339bdd3e"
+      "d7d0c543910c8f736a0f9fc182a44708"
     ]
   },
   {
@@ -715,7 +718,22 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "761a70ac6963e67e59cee884846a7a84"
+      "dcd87ce8f4e5325fc5de4ecf2eec2f8f"
+    ]
+  },
+  {
+    "title": "Submarine + Racing",
+    "id": 37507,
+    "consoleId": 75,
+    "consoleName": "Elektor TV Games Computer",
+    "imageIcon": "/Images/121392.png",
+    "numAchievements": 16,
+    "numLeaderboards": 1,
+    "points": 125,
+    "dateModified": "2025-12-14 14:44:30",
+    "forumTopicId": 33472,
+    "hashes": [
+      "fb8c205c7aa983c379068e9581364c2c"
     ]
   },
   {
@@ -730,7 +748,7 @@
     "dateModified": "2023-07-01 01:15:39",
     "forumTopicId": 22046,
     "hashes": [
-      "0add1fcd7b24f1f2993ebcfef65157f2"
+      "48a6d88b1e5b8aff7d7827b364522cb4"
     ]
   },
   {
@@ -745,7 +763,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "265a9018c1e79d488d4ade6f2da4e5cd"
+      "b9911dda27f1abf45fd39eff6cd195cf"
     ]
   },
   {
@@ -760,7 +778,7 @@
     "dateModified": "2024-08-05 20:16:06",
     "forumTopicId": 22048,
     "hashes": [
-      "bed59b65c10151aed71ab49c1dfdbcff"
+      "5f8a6148f466c081e0e3903dee97f7e9"
     ]
   }
 ]

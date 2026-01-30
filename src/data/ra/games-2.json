@@ -68,7 +68,7 @@
     "numAchievements": 6,
     "numLeaderboards": 0,
     "points": 25,
-    "dateModified": "2025-05-03 17:09:02",
+    "dateModified": "2025-11-09 17:13:56",
     "forumTopicId": 30738,
     "hashes": [
       "df1aca0e6b5ee6e2ea5f9766fa367ff9"
@@ -296,7 +296,7 @@
     "numAchievements": 298,
     "numLeaderboards": 3,
     "points": 1162,
-    "dateModified": "2025-07-27 22:57:55",
+    "dateModified": "2026-01-05 00:41:26",
     "forumTopicId": 20391,
     "hashes": [
       "d1c8f404b08d276d48e4ef5a8e208818"
@@ -337,11 +337,11 @@
     "id": 34487,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/118028.png",
+    "numAchievements": 38,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "points": 219,
+    "dateModified": "2025-12-11 02:13:28",
     "forumTopicId": 31992,
     "hashes": [
       "295ddc270a3f55ef8acaab39f70c65bd"
@@ -551,7 +551,7 @@
     "numAchievements": 12,
     "numLeaderboards": 0,
     "points": 65,
-    "dateModified": "2024-12-24 15:44:18",
+    "dateModified": "2025-12-20 23:08:43",
     "forumTopicId": 29083,
     "hashes": [
       "b79594de34304e41ad53968c078fc7b5"
@@ -585,6 +585,21 @@
     "forumTopicId": 12805,
     "hashes": [
       "08b9e2157f23375e4263df6eeda25b13"
+    ]
+  },
+  {
+    "title": "~Hack~ Banjo-Kazooie: Santa's Village",
+    "id": 24428,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/121603.png",
+    "numAchievements": 20,
+    "numLeaderboards": 0,
+    "points": 87,
+    "dateModified": "2025-12-25 19:44:40",
+    "forumTopicId": 33572,
+    "hashes": [
+      "57a0fc74c9a052415d9e44740b3923dc"
     ]
   },
   {
@@ -630,6 +645,21 @@
     "forumTopicId": 26730,
     "hashes": [
       "df570d85f649f05afc41ecbd01820d38"
+    ]
+  },
+  {
+    "title": "~Hack~ Banjo-Kazooie: The Lair Witch Project",
+    "id": 37161,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "00e9b4169d708848bd54509fff2e89a1"
     ]
   },
   {
@@ -709,6 +739,36 @@
     ]
   },
   {
+    "title": "~Hack~ Blooming Blossoms",
+    "id": 36983,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8880fe7c3ef2110c35b33774c9d564e5"
+    ]
+  },
+  {
+    "title": "~Hack~ Bounce Tales 64",
+    "id": 37132,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/121486.png",
+    "numAchievements": 24,
+    "numLeaderboards": 12,
+    "points": 130,
+    "dateModified": "2025-12-12 02:00:44",
+    "forumTopicId": 33452,
+    "hashes": [
+      "f91effec4a48252d69c51e1ac3efa272"
+    ]
+  },
+  {
     "title": "~Hack~ Box World",
     "id": 33035,
     "consoleId": 2,
@@ -747,7 +807,7 @@
     "numAchievements": 13,
     "numLeaderboards": 1,
     "points": 50,
-    "dateModified": "2021-01-18 04:22:43",
+    "dateModified": "2025-12-16 09:20:31",
     "forumTopicId": 12021,
     "hashes": [
       "8b473fe01d0450fe5d74a318ecf01f14",
@@ -793,25 +853,25 @@
     "numAchievements": 12,
     "numLeaderboards": 5,
     "points": 151,
-    "dateModified": "2022-08-15 18:12:47",
+    "dateModified": "2025-11-17 23:42:12",
     "forumTopicId": 17550,
     "hashes": [
       "18ae5a7a467ba6b351b3e00ddb82f1ed"
     ]
   },
   {
-    "title": "~Hack~ Corroded Charklet City",
-    "id": 22051,
+    "title": "~Hack~ Despair Mario's Gambit 64",
+    "id": 36922,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/066262.png",
-    "numAchievements": 9,
-    "numLeaderboards": 1,
+    "imageIcon": "/Images/121094.png",
+    "numAchievements": 41,
+    "numLeaderboards": 2,
     "points": 300,
-    "dateModified": "2023-01-03 14:22:35",
-    "forumTopicId": 19690,
+    "dateModified": "2025-11-28 04:45:21",
+    "forumTopicId": 33309,
     "hashes": [
-      "e0adbc55499e221247a464af1537e64d"
+      "d6dfc46c0cd78a658e04ebcb0fce54ff"
     ]
   },
   {
@@ -853,7 +913,7 @@
     "numAchievements": 0,
     "numLeaderboards": 1,
     "points": 0,
-    "dateModified": "2025-08-31 02:30:54",
+    "dateModified": "2025-12-28 16:16:20",
     "forumTopicId": 31112,
     "hashes": [
       "709a491d7550de07a6ba5368b7ee2def"
@@ -902,6 +962,21 @@
     "forumTopicId": null,
     "hashes": [
       "3a7409a06f5239b3361c92e17a734e7d"
+    ]
+  },
+  {
+    "title": "~Hack~ Dream 64",
+    "id": 36984,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2fd0dc1ea5ec039ea452bdd960d1b474"
     ]
   },
   {
@@ -1041,6 +1116,21 @@
     ]
   },
   {
+    "title": "~Hack~ Garfield: Desolation",
+    "id": 37133,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1e118c699bbd72122430e6134bd78e03"
+    ]
+  },
+  {
     "title": "~Hack~ Glass Smash 64",
     "id": 33394,
     "consoleId": 2,
@@ -1079,7 +1169,7 @@
     "numAchievements": 11,
     "numLeaderboards": 2,
     "points": 95,
-    "dateModified": "2023-11-18 23:15:37",
+    "dateModified": "2025-12-10 21:39:19",
     "forumTopicId": 24445,
     "hashes": [
       "24bf8877ed0c730524bd19548c2d8b73"
@@ -1105,7 +1195,7 @@
     "id": 22558,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/110501.png",
+    "imageIcon": "/Images/118875.png",
     "numAchievements": 30,
     "numLeaderboards": 100,
     "points": 685,
@@ -1196,14 +1286,13 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/115365.png",
-    "numAchievements": 45,
+    "numAchievements": 48,
     "numLeaderboards": 1,
-    "points": 117,
-    "dateModified": "2025-08-01 19:19:51",
+    "points": 108,
+    "dateModified": "2025-10-23 09:41:03",
     "forumTopicId": 31335,
     "hashes": [
-      "d826e04d46be813079bff7e8720d0f98",
-      "6f9476d767e61960c1dafbb006d4923a"
+      "3eba56d724a9b0c540ed62b9c878425a"
     ]
   },
   {
@@ -1222,6 +1311,36 @@
     ]
   },
   {
+    "title": "~Hack~ Japanese Community Battle Hack",
+    "id": 36958,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b1c8854121d14f1bd651ee9f6862f35f"
+    ]
+  },
+  {
+    "title": "~Hack~ Japanese Community Battle Hack 2",
+    "id": 36959,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ff99d0e1f78fea87482c68a150b2fe3e"
+    ]
+  },
+  {
     "title": "~Hack~ Jerod Kart 64",
     "id": 17451,
     "consoleId": 2,
@@ -1232,7 +1351,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "a6644f80d620dfb40739e6708b4aa6b6"
+    ]
   },
   {
     "title": "~Hack~ Jet Force Gemini Co-Op",
@@ -1280,6 +1401,51 @@
     ]
   },
   {
+    "title": "~Hack~ King Boo's Revenge",
+    "id": 36960,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1a6b00fcaec37ca4462b7695e109dfe3"
+    ]
+  },
+  {
+    "title": "~Hack~ King Boo's Revenge 2",
+    "id": 36961,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ddee9639320aa2c566dbf99366abdaa4"
+    ]
+  },
+  {
+    "title": "~Hack~ King Boo's Revenge X",
+    "id": 36962,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1f1ac9c38a37cc85c5052e64c61d073d"
+    ]
+  },
+  {
     "title": "~Hack~ Kirby 64: Whispy's Trials",
     "id": 17507,
     "consoleId": 2,
@@ -1310,6 +1476,21 @@
     ]
   },
   {
+    "title": "~Hack~ lanayxy's landscapes",
+    "id": 22051,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/119755.png",
+    "numAchievements": 12,
+    "numLeaderboards": 1,
+    "points": 360,
+    "dateModified": "2025-10-28 17:35:33",
+    "forumTopicId": 19690,
+    "hashes": [
+      "5b2b61510edd902f200101ff4ca410e4"
+    ]
+  },
+  {
     "title": "~Hack~ Land94",
     "id": 28293,
     "consoleId": 2,
@@ -1337,6 +1518,51 @@
     "forumTopicId": 15765,
     "hashes": [
       "f3a32befbc20de999abd3e906d8ab7f4"
+    ]
+  },
+  {
+    "title": "~Hack~ Link in Golden Sun",
+    "id": 37947,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1f7c128481809f3c4598a60dce07c3b5"
+    ]
+  },
+  {
+    "title": "~Hack~ Lost Lunatic Trials",
+    "id": 36975,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5f0de35304af2c0f5a72ec03e0778d7b"
+    ]
+  },
+  {
+    "title": "~Hack~ Lost Universe 2: Curse of Eternity",
+    "id": 36963,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9773be38dc88d25f9e44181097a4d9a9"
     ]
   },
   {
@@ -1447,6 +1673,21 @@
     ]
   },
   {
+    "title": "~Hack~ Luigi's Mansion 64.5: Super Player Mode",
+    "id": 35115,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/119514.png",
+    "numAchievements": 42,
+    "numLeaderboards": 0,
+    "points": 420,
+    "dateModified": "2025-11-25 19:20:54",
+    "forumTopicId": 32814,
+    "hashes": [
+      "de1e8ddfdbb94c47c06e22f6886e34dc"
+    ]
+  },
+  {
     "title": "~Hack~ Mario Aimlessly Drives a Car Around the City 64",
     "id": 22554,
     "consoleId": 2,
@@ -1540,6 +1781,36 @@
     ]
   },
   {
+    "title": "~Hack~ Mario HATES 2025",
+    "id": 34875,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/117923.png",
+    "numAchievements": 8,
+    "numLeaderboards": 1,
+    "points": 55,
+    "dateModified": "2025-12-16 21:09:05",
+    "forumTopicId": 32310,
+    "hashes": [
+      "b5ac0ed309f59730c238e3500b7bd10d"
+    ]
+  },
+  {
+    "title": "~Hack~ Mario in the Dreamscape",
+    "id": 36964,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3f5115ee8514fd17ecb9b9fdaf43c386"
+    ]
+  },
+  {
     "title": "~Hack~ Mario in the Multiverse",
     "id": 32649,
     "consoleId": 2,
@@ -1560,13 +1831,13 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/042876.png",
-    "numAchievements": 46,
-    "numLeaderboards": 12,
-    "points": 430,
-    "dateModified": "2023-02-18 16:39:36",
+    "numAchievements": 0,
+    "numLeaderboards": 21,
+    "points": 0,
+    "dateModified": "2026-01-29 22:56:49",
     "forumTopicId": 12365,
     "hashes": [
-      "48551a360ac3fc5527cee51a7092cb7a"
+      "40a15aac19e9cef7a533d6a565a4c92f"
     ]
   },
   {
@@ -1580,7 +1851,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "3fa6a5123e1345ca9e0502184f99691f"
+    ]
   },
   {
     "title": "~Hack~ Mario on Indigo Island",
@@ -1606,7 +1879,7 @@
     "numAchievements": 20,
     "numLeaderboards": 9,
     "points": 177,
-    "dateModified": "2021-05-23 23:46:23",
+    "dateModified": "2025-09-25 02:48:07",
     "forumTopicId": 13041,
     "hashes": [
       "b91664d1c1a5ce2e57d5c466d610ce32"
@@ -1774,7 +2047,7 @@
     "numAchievements": 14,
     "numLeaderboards": 3,
     "points": 95,
-    "dateModified": "2021-10-22 11:46:49",
+    "dateModified": "2025-10-23 08:58:34",
     "forumTopicId": 9443,
     "hashes": [
       "af4e6b6ae78cfd2d909d494a0648f625",
@@ -1907,13 +2180,28 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/036463.png",
-    "numAchievements": 71,
+    "numAchievements": 70,
     "numLeaderboards": 0,
-    "points": 878,
-    "dateModified": "2023-07-03 16:57:23",
+    "points": 877,
+    "dateModified": "2025-10-26 23:32:12",
     "forumTopicId": 11164,
     "hashes": [
       "4661B8323F591A1B7C30F83BE64CAE6B"
+    ]
+  },
+  {
+    "title": "~Hack~ Ocarina of Time DX",
+    "id": 37605,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 33733,
+    "hashes": [
+      "33d0b28ecde800f2a6528a2cd5fe2438"
     ]
   },
   {
@@ -1929,6 +2217,21 @@
     "forumTopicId": 31580,
     "hashes": [
       "4522482322a50626ba1c11000a97cf28"
+    ]
+  },
+  {
+    "title": "~Hack~ Omega Mario 64",
+    "id": 34504,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/117593.png",
+    "numAchievements": 55,
+    "numLeaderboards": 2,
+    "points": 375,
+    "dateModified": "2025-09-08 18:10:16",
+    "forumTopicId": 32138,
+    "hashes": [
+      "f87d6a9a0018fb018b3e43d62347f231"
     ]
   },
   {
@@ -1955,7 +2258,7 @@
     "numAchievements": 75,
     "numLeaderboards": 43,
     "points": 596,
-    "dateModified": "2025-05-21 13:52:51",
+    "dateModified": "2025-12-06 21:43:49",
     "forumTopicId": 20168,
     "hashes": [
       "5b363e0954a3ae436b825e3d0e082d0e"
@@ -1981,11 +2284,11 @@
     "id": 34478,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/116595.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-08-21 08:04:26",
+    "imageIcon": "/Images/119684.png",
+    "numAchievements": 8,
+    "numLeaderboards": 7,
+    "points": 64,
+    "dateModified": "2025-10-05 18:53:15",
     "forumTopicId": 31944,
     "hashes": [
       "77b7b9bf40e8b8ab04b474d912979459"
@@ -2146,6 +2449,21 @@
     ]
   },
   {
+    "title": "~Hack~ Pokémon Mystery Dungeon: The Forest of Shadows",
+    "id": 36939,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "421c9fe71e7123f61ba9f7e48da93924"
+    ]
+  },
+  {
     "title": "~Hack~ Pokémon Snap: Custom Levels",
     "id": 15385,
     "consoleId": 2,
@@ -2162,7 +2480,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Stadium Fusion",
+    "title": "~Hack~ Pokémon Stadium Fusion",
     "id": 22118,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
@@ -2177,7 +2495,7 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon Stadium Kaizo",
+    "title": "~Hack~ Pokémon Stadium Kaizo",
     "id": 17062,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
@@ -2189,6 +2507,21 @@
     "forumTopicId": null,
     "hashes": [
       "332042b5ee1caab61c5ecd941f72c12f"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon Stadium Legacy",
+    "id": 37781,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3493915a3971cd34ba422f0201b39d44"
     ]
   },
   {
@@ -2215,14 +2548,25 @@
     "numAchievements": 69,
     "numLeaderboards": 0,
     "points": 862,
-    "dateModified": "2025-08-24 08:13:24",
+    "dateModified": "2025-09-08 19:51:19",
     "forumTopicId": 15487,
     "hashes": [
-      "641e746054496ffce612d3fc400855cb",
-      "00ca874a4b51a52e2715d08d8b90a232",
-      "a5704fb4d67f203234b54762cadcea8e",
-      "803a8494aa068b54361a201c8ece1240",
-      "96b37bef7e8dcedf9dc91ee571368df6"
+      "7d6426f22bedbba9f3b956d489d072ba"
+    ]
+  },
+  {
+    "title": "~Hack~ Realm Invasion",
+    "id": 36965,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "378d40eadaf38833fdc3eaf7f637c1ba"
     ]
   },
   {
@@ -2246,10 +2590,10 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/041148.png",
-    "numAchievements": 8,
+    "numAchievements": 7,
     "numLeaderboards": 1,
     "points": 35,
-    "dateModified": "2021-01-09 04:02:19",
+    "dateModified": "2025-10-03 01:41:04",
     "forumTopicId": 12170,
     "hashes": [
       "b991902fad60ca703b73b5e8a0c30d5b"
@@ -2465,6 +2809,84 @@
     "hashes": []
   },
   {
+    "title": "~Hack~ SimpleFlips' 14th Hacking Competition: Crossover",
+    "id": 37025,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
+    "title": "~Hack~ SimpleFlips' 15th Hacking Competition: Dream",
+    "id": 37026,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
+    "title": "~Hack~ SimpleFlips' 16th Hacking Competition: Troll 2023",
+    "id": 37027,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
+    "title": "~Hack~ SimpleFlips' 17th Hacking Competition: Slide 2024",
+    "id": 37028,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
+    "title": "~Hack~ SimpleFlips' 18th Hacking Competition: Chaos Mario",
+    "id": 37029,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
+    "title": "~Hack~ SimpleFlips' 19th Hacking Competition: Mario Builder 64",
+    "id": 37030,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
     "title": "~Hack~ SimpleFlips' 1st Hacking Competition: Nathaniel Bandy",
     "id": 16215,
     "consoleId": 2,
@@ -2575,7 +2997,7 @@
     "numAchievements": 28,
     "numLeaderboards": 1,
     "points": 251,
-    "dateModified": "2024-07-11 13:41:09",
+    "dateModified": "2025-12-25 04:04:24",
     "forumTopicId": 14534,
     "hashes": [
       "0dc44fe484378e5911fba55de0254a47",
@@ -2677,7 +3099,7 @@
     "numAchievements": 53,
     "numLeaderboards": 1,
     "points": 166,
-    "dateModified": "2025-04-04 18:35:50",
+    "dateModified": "2025-11-17 19:14:48",
     "forumTopicId": 10568,
     "hashes": [
       "12361cf2e1c3a3d0c754c26734974403",
@@ -2712,6 +3134,21 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": []
+  },
+  {
+    "title": "~Hack~ SM64 geSEGKt",
+    "id": 35110,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/119300.png",
+    "numAchievements": 0,
+    "numLeaderboards": 1,
+    "points": 0,
+    "dateModified": "2025-12-11 20:45:22",
+    "forumTopicId": 32759,
+    "hashes": [
+      "cd741156226082dfcc16429b7074c081"
+    ]
   },
   {
     "title": "~Hack~ SM64: Beyond the Cursed Mirror",
@@ -2760,15 +3197,30 @@
     ]
   },
   {
+    "title": "~Hack~ SM64Kitty's Kaizo Hack",
+    "id": 36259,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/120549.png",
+    "numAchievements": 10,
+    "numLeaderboards": 0,
+    "points": 245,
+    "dateModified": "2025-11-13 16:21:44",
+    "forumTopicId": 33186,
+    "hashes": [
+      "b2c9f2588078a5fcb7d9edfde1de5258"
+    ]
+  },
+  {
     "title": "~Hack~ Smash Remix",
     "id": 15964,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/108105.png",
+    "imageIcon": "/Images/121623.png",
     "numAchievements": 201,
     "numLeaderboards": 637,
     "points": 2232,
-    "dateModified": "2025-08-16 11:16:04",
+    "dateModified": "2025-08-31 17:49:50",
     "forumTopicId": 10977,
     "hashes": [
       "43571020fa5ddb138bbd7f64a8c9c0d4"
@@ -2787,6 +3239,21 @@
     "forumTopicId": null,
     "hashes": [
       "e2d90a698b07e642c4f7917aa106b72b"
+    ]
+  },
+  {
+    "title": "~Hack~ Sooper Wooper 64",
+    "id": 36980,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/121004.png",
+    "numAchievements": 9,
+    "numLeaderboards": 0,
+    "points": 57,
+    "dateModified": "2025-11-30 10:28:03",
+    "forumTopicId": 33352,
+    "hashes": [
+      "be02352320c563c250bc3c65bfc95440"
     ]
   },
   {
@@ -2813,7 +3280,7 @@
     "numAchievements": 29,
     "numLeaderboards": 0,
     "points": 255,
-    "dateModified": "2022-12-04 22:41:46",
+    "dateModified": "2025-12-19 14:43:38",
     "forumTopicId": 12727,
     "hashes": [
       "37ae2c921335e9e791f8af548fd58670"
@@ -2855,10 +3322,10 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/078809.png",
-    "numAchievements": 35,
+    "numAchievements": 36,
     "numLeaderboards": 1,
-    "points": 332,
-    "dateModified": "2025-08-23 00:22:52",
+    "points": 342,
+    "dateModified": "2025-11-30 17:21:53",
     "forumTopicId": 8446,
     "hashes": [
       "6bbf30e75a6c2fa2b71ae1e9009cbc4e",
@@ -2979,7 +3446,7 @@
     "numAchievements": 35,
     "numLeaderboards": 2,
     "points": 341,
-    "dateModified": "2025-08-23 00:31:50",
+    "dateModified": "2025-11-12 04:13:56",
     "forumTopicId": 9583,
     "hashes": [
       "f4ba203179a5c12f4a4bcac88bbce70e"
@@ -3025,7 +3492,7 @@
     "numAchievements": 48,
     "numLeaderboards": 3,
     "points": 400,
-    "dateModified": "2024-12-11 04:38:02",
+    "dateModified": "2026-01-28 01:10:23",
     "forumTopicId": 28985,
     "hashes": [
       "c122a32d0abba1a8e8f24d1caa79594e"
@@ -3126,12 +3593,12 @@
     "id": 19408,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/084095.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/119007.png",
+    "numAchievements": 18,
+    "numLeaderboards": 1,
+    "points": 80,
+    "dateModified": "2025-10-07 01:44:51",
+    "forumTopicId": 32649,
     "hashes": [
       "3f6f8a405bd953f617781f82f6cc9cd5"
     ]
@@ -3293,10 +3760,10 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/039592.png",
-    "numAchievements": 8,
+    "numAchievements": 28,
     "numLeaderboards": 3,
-    "points": 63,
-    "dateModified": "2025-08-26 08:39:05",
+    "points": 163,
+    "dateModified": "2025-09-21 20:52:24",
     "forumTopicId": 11061,
     "hashes": [
       "d18eb3dcdf403b53c750cc95d5a6beef"
@@ -3326,7 +3793,7 @@
     "numAchievements": 30,
     "numLeaderboards": 3,
     "points": 285,
-    "dateModified": "2025-08-23 00:34:15",
+    "dateModified": "2025-11-07 04:43:05",
     "forumTopicId": 8865,
     "hashes": [
       "732556723f46102eaa62958da4995af4"
@@ -3345,6 +3812,21 @@
     "forumTopicId": 30826,
     "hashes": [
       "ddd92e35fa3a702b8fcf183a568458e5"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Mario _4",
+    "id": 35103,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/118921.png",
+    "numAchievements": 30,
+    "numLeaderboards": 2,
+    "points": 165,
+    "dateModified": "2026-01-03 23:14:51",
+    "forumTopicId": 32647,
+    "hashes": [
+      "9135e0361658fc0aae3915c7ad310acb"
     ]
   },
   {
@@ -3375,6 +3857,21 @@
     "forumTopicId": 9526,
     "hashes": [
       "9feee5da895fb2e115bb15d1c4a9f906"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Mario 64: Beyond the Castle Walls",
+    "id": 36985,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "65b9fa07626c35cdabe9e085b1e98474"
     ]
   },
   {
@@ -3423,18 +3920,33 @@
     ]
   },
   {
+    "title": "~Hack~ Super Mario 64: EA Edition",
+    "id": 37782,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f0971eb7dd428f2251cfce5b3619daa7"
+    ]
+  },
+  {
     "title": "~Hack~ Super Mario 64: Green Demon Challenge",
     "id": 15373,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/112434.png",
-    "numAchievements": 0,
+    "numAchievements": 127,
     "numLeaderboards": 1,
-    "points": 0,
-    "dateModified": "2025-05-24 01:32:53",
+    "points": 1103,
+    "dateModified": "2025-12-19 05:21:06",
     "forumTopicId": 9881,
     "hashes": [
-      "310923a67cf1a8cd578a00b870c9c446"
+      "e9dd0b7adf0193f444a718be230e565b"
     ]
   },
   {
@@ -3532,11 +4044,11 @@
     "id": 10509,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/050039.png",
+    "imageIcon": "/Images/117531.png",
     "numAchievements": 34,
     "numLeaderboards": 5,
     "points": 271,
-    "dateModified": "2024-09-19 17:48:56",
+    "dateModified": "2025-10-11 19:11:18",
     "forumTopicId": 26122,
     "hashes": [
       "0c32d33618bef36d349c331bfa88eb3a"
@@ -3656,7 +4168,7 @@
     "numAchievements": 71,
     "numLeaderboards": 7,
     "points": 489,
-    "dateModified": "2025-03-24 23:22:37",
+    "dateModified": "2026-01-11 23:21:48",
     "forumTopicId": 12822,
     "hashes": [
       "e9ebf9b7627ab237110141c4d983bd11"
@@ -3671,7 +4183,7 @@
     "numAchievements": 29,
     "numLeaderboards": 15,
     "points": 230,
-    "dateModified": "2024-09-15 14:06:27",
+    "dateModified": "2025-10-06 17:42:05",
     "forumTopicId": 9850,
     "hashes": [
       "f0595a36eab6109c5ff2420eb452b6e2"
@@ -3693,6 +4205,21 @@
     ]
   },
   {
+    "title": "~Hack~ Super Mario 64: The Dark Stars",
+    "id": 36972,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/122811.png",
+    "numAchievements": 65,
+    "numLeaderboards": 0,
+    "points": 750,
+    "dateModified": "2026-01-07 14:27:30",
+    "forumTopicId": 33802,
+    "hashes": [
+      "ece9ebb71413bbee956b9df1e46725c6"
+    ]
+  },
+  {
     "title": "~Hack~ Super Mario 64: The Green Comet",
     "id": 14447,
     "consoleId": 2,
@@ -3700,8 +4227,8 @@
     "imageIcon": "/Images/047936.png",
     "numAchievements": 32,
     "numLeaderboards": 0,
-    "points": 231,
-    "dateModified": "2025-02-05 21:30:18",
+    "points": 276,
+    "dateModified": "2025-11-19 21:23:52",
     "forumTopicId": 13854,
     "hashes": [
       "fff346b40ecb4c9f67a6d5b5e063d03b"
@@ -3746,7 +4273,7 @@
     "numAchievements": 88,
     "numLeaderboards": 3,
     "points": 555,
-    "dateModified": "2023-08-14 20:48:50",
+    "dateModified": "2025-08-31 03:02:20",
     "forumTopicId": 22857,
     "hashes": [
       "b7ed4a99548ed70b68ef9c7ab8268bd4"
@@ -3783,6 +4310,21 @@
     ]
   },
   {
+    "title": "~Hack~ Super Mario 64: Twisted Adventures",
+    "id": 37880,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/123520.png",
+    "numAchievements": 76,
+    "numLeaderboards": 1,
+    "points": 555,
+    "dateModified": "2026-01-28 22:49:07",
+    "forumTopicId": 34008,
+    "hashes": [
+      "b5ae14c8973591df1edeb3aca59d9bc8"
+    ]
+  },
+  {
     "title": "~Hack~ Super Mario 64: Ztar Attack Rebooted",
     "id": 13112,
     "consoleId": 2,
@@ -3807,7 +4349,7 @@
     "numAchievements": 58,
     "numLeaderboards": 1,
     "points": 600,
-    "dateModified": "2025-08-17 17:17:56",
+    "dateModified": "2026-01-07 16:06:01",
     "forumTopicId": 4905,
     "hashes": [
       "6e7ba926f5709088a900b8ff3eb9ee6e",
@@ -3880,6 +4422,21 @@
     ]
   },
   {
+    "title": "~Hack~ Super Mario 93: The Bowser Defeat",
+    "id": 37948,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c9e045926abd54d8d2448a73a8b934c8"
+    ]
+  },
+  {
     "title": "~Hack~ Super Mario and the Cursed Castles",
     "id": 14664,
     "consoleId": 2,
@@ -3949,7 +4506,7 @@
     "numAchievements": 64,
     "numLeaderboards": 13,
     "points": 460,
-    "dateModified": "2025-05-22 21:38:43",
+    "dateModified": "2025-11-19 15:38:10",
     "forumTopicId": 26680,
     "hashes": [
       "421463b72b2e817ef6d8201c7fa3632e"
@@ -3976,10 +4533,10 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/067928.png",
-    "numAchievements": 41,
+    "numAchievements": 40,
     "numLeaderboards": 9,
-    "points": 361,
-    "dateModified": "2023-04-16 21:22:26",
+    "points": 356,
+    "dateModified": "2025-12-28 14:36:27",
     "forumTopicId": 8313,
     "hashes": [
       "6c91472b5b0f8ab499eebfb67e2b12f3"
@@ -3994,7 +4551,7 @@
     "numAchievements": 34,
     "numLeaderboards": 1,
     "points": 242,
-    "dateModified": "2025-06-22 22:33:30",
+    "dateModified": "2025-12-12 01:01:48",
     "forumTopicId": 31191,
     "hashes": [
       "f59eaf2e5c29f3e1d785a0fa3f001cbf"
@@ -4156,7 +4713,7 @@
     "id": 10206,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/115349.png",
+    "imageIcon": "/Images/119607.png",
     "numAchievements": 32,
     "numLeaderboards": 3,
     "points": 435,
@@ -4217,8 +4774,8 @@
     ]
   },
   {
-    "title": "~Hack~ Super Mario Treasure World",
-    "id": 31306,
+    "title": "~Hack~ Super Mario Timeless Rendezvous",
+    "id": 37783,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/000001.png",
@@ -4226,9 +4783,25 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7250a13b507f51cd68fb9c0cfec992d1"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Mario Treasure World",
+    "id": 31306,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/120597.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
     "forumTopicId": 28631,
     "hashes": [
-      "f15d14c5ef263efc685ae09bc4a54d81"
+      "f15d14c5ef263efc685ae09bc4a54d81",
+      "e85e206a13e7e4b3108512c2253ce117"
     ]
   },
   {
@@ -4248,6 +4821,81 @@
     ]
   },
   {
+    "title": "~Hack~ Super Mario: Integration of Fragments",
+    "id": 36966,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f0e60b90aecb7d084e1168f2a38ebd39"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Mario: Invasion of Chuckya",
+    "id": 36967,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "74fa8eb59b88696b0ba793eec236fad4"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Mario: Lovestruck Calamity",
+    "id": 36968,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "72cb48d48e041ca3db557efd9c8ab324"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Mario: SezNative Reminiscence",
+    "id": 36969,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e808fd9e8be0e18e98560f37574828bf"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Mario: The Lost Dreams",
+    "id": 36970,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8dc54ac604994d056d4a7cdaff393ba2"
+    ]
+  },
+  {
     "title": "~Hack~ Super Mario: The Majestic Road",
     "id": 31939,
     "consoleId": 2,
@@ -4260,6 +4908,21 @@
     "forumTopicId": null,
     "hashes": [
       "cf552cbd87f1dd14a21475bf2d93a299"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Mario: The Stolen Stars",
+    "id": 36971,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e85ef63aa744eaf663bb762468482c49"
     ]
   },
   {
@@ -4286,7 +4949,7 @@
     "numAchievements": 13,
     "numLeaderboards": 0,
     "points": 64,
-    "dateModified": "2024-01-02 16:16:37",
+    "dateModified": "2025-11-11 14:00:22",
     "forumTopicId": 24937,
     "hashes": [
       "e14e92bcc01d18129a4188fe676562ec"
@@ -4450,17 +5113,19 @@
     ]
   },
   {
-    "title": "~Hack~ The Legend of Zelda: Boss Rush",
-    "id": 30982,
+    "title": "~Hack~ The Legend of Morrowind",
+    "id": 37949,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/113114.png",
+    "imageIcon": "/Images/000001.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": 28268,
-    "hashes": []
+    "forumTopicId": null,
+    "hashes": [
+      "2daad321c4a08ba0922a77fb4b259731"
+    ]
   },
   {
     "title": "~Hack~ The Legend of Zelda: Child Quest",
@@ -4501,7 +5166,7 @@
     "numAchievements": 36,
     "numLeaderboards": 0,
     "points": 356,
-    "dateModified": "2025-08-14 20:32:53",
+    "dateModified": "2025-09-06 15:44:49",
     "forumTopicId": 30950,
     "hashes": [
       "d71c6bd1b095855bfbb11a38f1e73c49"
@@ -4568,7 +5233,7 @@
     ]
   },
   {
-    "title": "~Hack~ The Legend of Zelda: Hylian Modding Hack Competition: 2023 Escape Rooms",
+    "title": "~Hack~ The Legend of Zelda: Hylian Modding Hack Competition - 2023 Escape Rooms",
     "id": 28295,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
@@ -4599,15 +5264,15 @@
     ]
   },
   {
-    "title": "~Hack~ The Legend of Zelda: Hylian Modding Hack Competition: Romhack Jam 1",
+    "title": "~Hack~ The Legend of Zelda: Hylian Modding Hack Competition - Romhack Jam 1",
     "id": 34498,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "imageIcon": "/Images/117328.png",
+    "numAchievements": 35,
+    "numLeaderboards": 3,
+    "points": 178,
+    "dateModified": "2025-09-08 05:36:53",
     "forumTopicId": 32093,
     "hashes": [
       "04deca5e128eeef38a8cf100d8cdbb79",
@@ -4691,7 +5356,7 @@
     "numAchievements": 94,
     "numLeaderboards": 0,
     "points": 535,
-    "dateModified": "2025-03-16 20:43:23",
+    "dateModified": "2025-09-30 13:22:31",
     "forumTopicId": 12512,
     "hashes": [
       "0ccf7d5c1c3d18ce0ed2e2e49dd89a27"
@@ -4713,6 +5378,22 @@
     ]
   },
   {
+    "title": "~Hack~ The Legend of Zelda: New Master Quest",
+    "id": 36940,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c969ef7062920ffe6a976495b8d11553",
+      "0620302a59c0a7cc67588a0444a19835"
+    ]
+  },
+  {
     "title": "~Hack~ The Legend of Zelda: Nightmare",
     "id": 19808,
     "consoleId": 2,
@@ -4725,6 +5406,21 @@
     "forumTopicId": null,
     "hashes": [
       "5f6437d67a7dac7c59b1b543e1902975"
+    ]
+  },
+  {
+    "title": "~Hack~ The Legend of Zelda: Ocarina of Time - Reality Estate",
+    "id": 37099,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/121150.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fc3135cff82ef17854c7c42133b71f00"
     ]
   },
   {
@@ -4842,7 +5538,7 @@
     "numAchievements": 62,
     "numLeaderboards": 4,
     "points": 488,
-    "dateModified": "2025-04-11 00:20:03",
+    "dateModified": "2025-09-19 23:08:45",
     "forumTopicId": 28846,
     "hashes": [
       "33273fb052fa8ea94410352a6ce52f8f"
@@ -4966,7 +5662,7 @@
     "numAchievements": 8,
     "numLeaderboards": 1,
     "points": 50,
-    "dateModified": "2025-03-27 00:07:42",
+    "dateModified": "2025-11-09 16:49:43",
     "forumTopicId": 30287,
     "hashes": [
       "72237b5e10a368393c288492517e910c"
@@ -5034,11 +5730,27 @@
     ]
   },
   {
+    "title": "~Hack~ The Phantom's Call",
+    "id": 37573,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/121993.png",
+    "numAchievements": 24,
+    "numLeaderboards": 1,
+    "points": 140,
+    "dateModified": "2025-12-25 03:00:01",
+    "forumTopicId": 33616,
+    "hashes": [
+      "e0c18949c34e86576405944fa616f56c",
+      "05efe824339137d3716a0530c78ae4b1"
+    ]
+  },
+  {
     "title": "~Hack~ The Preservation Project",
     "id": 20279,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/108908.png",
+    "imageIcon": "/Images/121472.png",
     "numAchievements": 8,
     "numLeaderboards": 1,
     "points": 20,
@@ -5061,6 +5773,21 @@
     "forumTopicId": 20228,
     "hashes": [
       "d8c79261b4af8f8917354abce80b22ef"
+    ]
+  },
+  {
+    "title": "~Hack~ The Slideverse",
+    "id": 35528,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/119651.png",
+    "numAchievements": 20,
+    "numLeaderboards": 1,
+    "points": 160,
+    "dateModified": "2025-10-26 14:46:28",
+    "forumTopicId": 32964,
+    "hashes": [
+      "adae9361e00f24c8684bb750194b18cf"
     ]
   },
   {
@@ -5124,6 +5851,21 @@
     ]
   },
   {
+    "title": "~Hack~ Transcending the Rainbow",
+    "id": 36973,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/123908.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 34227,
+    "hashes": [
+      "9f3bccc2d9b3f5ededcae5eef77df14d"
+    ]
+  },
+  {
     "title": "~Hack~ Traumatic Tick Tock Tower",
     "id": 31177,
     "consoleId": 2,
@@ -5154,6 +5896,36 @@
     ]
   },
   {
+    "title": "~Hack~ TsucnenT's Treasures",
+    "id": 34885,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/118740.png",
+    "numAchievements": 21,
+    "numLeaderboards": 0,
+    "points": 180,
+    "dateModified": "2025-09-28 02:46:02",
+    "forumTopicId": 32370,
+    "hashes": [
+      "3580b6eb0e26f89f9d89a615ef1663c4"
+    ]
+  },
+  {
+    "title": "~Hack~ TsucnenT's Treasures 2",
+    "id": 34886,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/118742.png",
+    "numAchievements": 26,
+    "numLeaderboards": 0,
+    "points": 210,
+    "dateModified": "2025-09-28 02:55:47",
+    "forumTopicId": 32371,
+    "hashes": [
+      "2d0e8090ef236fca175c1fcc44b2732c"
+    ]
+  },
+  {
     "title": "~Hack~ Ultimate Goomboss Challenge",
     "id": 29092,
     "consoleId": 2,
@@ -5177,7 +5949,7 @@
     "numAchievements": 0,
     "numLeaderboards": 3,
     "points": 0,
-    "dateModified": "2025-08-28 02:44:22",
+    "dateModified": "2025-10-31 03:36:08",
     "forumTopicId": 29911,
     "hashes": [
       "27ca052ee95c5ff9442ee67c985625d4"
@@ -5211,6 +5983,21 @@
     "forumTopicId": 19513,
     "hashes": [
       "98fbf4b2057ac5e0d51254ec97a32e44"
+    ]
+  },
+  {
+    "title": "~Hack~ Waifu Cauldron",
+    "id": 36974,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3beeb63994050d3fa6b4531058ad4eca"
     ]
   },
   {
@@ -5304,6 +6091,21 @@
     ]
   },
   {
+    "title": "~Hack~Mario Adventure 2",
+    "id": 36253,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/123212.png",
+    "numAchievements": 0,
+    "numLeaderboards": 29,
+    "points": 0,
+    "dateModified": "2026-01-28 11:26:50",
+    "forumTopicId": 33164,
+    "hashes": [
+      "65c7435cf98c28df7eecc37b648a1b0c"
+    ]
+  },
+  {
     "title": "~Homebrew~ 64Doom",
     "id": 24365,
     "consoleId": 2,
@@ -5381,19 +6183,6 @@
     ]
   },
   {
-    "title": "~Homebrew~ Free64Doom",
-    "id": 24428,
-    "consoleId": 2,
-    "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
     "title": "~Homebrew~ Lunar Assault 64",
     "id": 34430,
     "consoleId": 2,
@@ -5449,7 +6238,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "fbdd421fc2105cf4b9663df97fd7041d"
+    ]
   },
   {
     "title": "~Homebrew~ Pyoro 64",
@@ -5580,7 +6371,7 @@
     "numAchievements": 43,
     "numLeaderboards": 0,
     "points": 362,
-    "dateModified": "2024-07-26 15:01:33",
+    "dateModified": "2026-01-09 01:28:36",
     "forumTopicId": 14310,
     "hashes": [
       "a98c2efc8e7c7f7dbcd293cc4e608aa8"
@@ -5632,6 +6423,36 @@
     ]
   },
   {
+    "title": "~Prototype~ O.D.T.",
+    "id": 30138,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/117228.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 27134,
+    "hashes": [
+      "4116e492168aafff1bd3100c7b0aa28f"
+    ]
+  },
+  {
+    "title": "~Prototype~ Riqa",
+    "id": 30982,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/121397.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a987b4074ba05838d3ecbdca5f182ff0"
+    ]
+  },
+  {
     "title": "~Prototype~ Robotech: Crystal Dreams",
     "id": 10286,
     "consoleId": 2,
@@ -5656,7 +6477,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33409,
     "hashes": [
       "3777ddb4a7494a0f39f78f25756890d1"
     ]
@@ -5704,6 +6525,21 @@
     "forumTopicId": null,
     "hashes": [
       "432c707ec56ab6ab94e063177248d73b"
+    ]
+  },
+  {
+    "title": "~Prototype~ Wildwaters",
+    "id": 35289,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b867880c96c9e8d3130dde5526c95439"
     ]
   },
   {
@@ -6084,7 +6920,7 @@
     "numAchievements": 39,
     "numLeaderboards": 0,
     "points": 421,
-    "dateModified": "2025-01-24 19:06:42",
+    "dateModified": "2025-12-12 18:13:37",
     "forumTopicId": 5185,
     "hashes": [
       "632C98CF281CDA776E66685B278A4FA6",
@@ -6175,7 +7011,7 @@
     "numAchievements": 84,
     "numLeaderboards": 16,
     "points": 409,
-    "dateModified": "2025-06-07 10:51:50",
+    "dateModified": "2025-11-06 00:39:08",
     "forumTopicId": 16692,
     "hashes": [
       "7fd6bffb80f920e01ef869829d485ea3"
@@ -6372,7 +7208,7 @@
     "numAchievements": 59,
     "numLeaderboards": 54,
     "points": 710,
-    "dateModified": "2024-08-17 02:02:32",
+    "dateModified": "2026-01-17 22:03:48",
     "forumTopicId": 6509,
     "hashes": [
       "6EEA5C4A6256092ED8F9BA8861C689C6"
@@ -6447,7 +7283,7 @@
     "numAchievements": 60,
     "numLeaderboards": 7,
     "points": 486,
-    "dateModified": "2024-11-21 21:30:29",
+    "dateModified": "2025-11-22 20:52:24",
     "forumTopicId": 4722,
     "hashes": [
       "B29599651A13F681C9923D69354BF4A3"
@@ -6458,7 +7294,7 @@
     "id": 22524,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/068163.png",
+    "imageIcon": "/Images/119070.png",
     "numAchievements": 21,
     "numLeaderboards": 0,
     "points": 125,
@@ -6485,11 +7321,11 @@
     ]
   },
   {
-    "title": "Banjo-Tooie [Subset - Multi]",
+    "title": "Banjo-Tooie [Subset - Multiplayer]",
     "id": 10276,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/076658.png",
+    "imageIcon": "/Images/120185.png",
     "numAchievements": 22,
     "numLeaderboards": 0,
     "points": 82,
@@ -6553,7 +7389,7 @@
     "numAchievements": 75,
     "numLeaderboards": 13,
     "points": 392,
-    "dateModified": "2024-04-30 08:42:39",
+    "dateModified": "2025-09-25 09:33:07",
     "forumTopicId": 23217,
     "hashes": [
       "3406a505c22bac2f40d9bfc6ff08cf86"
@@ -6657,10 +7493,10 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/097046.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 22,
+    "numLeaderboards": 4,
+    "points": 144,
+    "dateModified": "2026-01-01 10:43:29",
     "forumTopicId": 29263,
     "hashes": [
       "997fd8f79cd6f3cd1c1c1fd21e358717"
@@ -6690,7 +7526,7 @@
     "numAchievements": 69,
     "numLeaderboards": 24,
     "points": 670,
-    "dateModified": "2025-04-27 23:53:46",
+    "dateModified": "2025-12-31 17:53:55",
     "forumTopicId": 4742,
     "hashes": [
       "093058ECE14C8CC1A887B2087EB5CFE9"
@@ -6702,10 +7538,10 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/108648.png",
-    "numAchievements": 61,
-    "numLeaderboards": 37,
-    "points": 402,
-    "dateModified": "2025-08-07 03:38:11",
+    "numAchievements": 63,
+    "numLeaderboards": 38,
+    "points": 437,
+    "dateModified": "2025-11-11 08:07:27",
     "forumTopicId": 13957,
     "hashes": [
       "c714806b4cc144a3eabd234c07412109",
@@ -6721,7 +7557,7 @@
     "numAchievements": 50,
     "numLeaderboards": 0,
     "points": 470,
-    "dateModified": "2025-01-27 01:41:54",
+    "dateModified": "2025-11-15 08:24:16",
     "forumTopicId": 4805,
     "hashes": [
       "AEC1FDB0F1CAAD86C9F457989A4CE482"
@@ -7082,13 +7918,14 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/109362.png",
-    "numAchievements": 62,
+    "numAchievements": 0,
     "numLeaderboards": 0,
-    "points": 529,
+    "points": 0,
     "dateModified": "2025-01-24 03:13:46",
     "forumTopicId": 4754,
     "hashes": [
-      "05194D49C14E52055DF72A54D40791E1"
+      "05194D49C14E52055DF72A54D40791E1",
+      "00e2920665f2329b95797a7eaabc2390"
     ]
   },
   {
@@ -7112,9 +7949,9 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/109395.png",
-    "numAchievements": 50,
+    "numAchievements": 0,
     "numLeaderboards": 0,
-    "points": 505,
+    "points": 0,
     "dateModified": "2021-02-14 09:01:29",
     "forumTopicId": 8444,
     "hashes": [
@@ -7130,7 +7967,7 @@
     "numAchievements": 102,
     "numLeaderboards": 61,
     "points": 504,
-    "dateModified": "2025-05-26 04:22:02",
+    "dateModified": "2025-10-31 02:34:13",
     "forumTopicId": 15469,
     "hashes": [
       "DB7A03B77D44DB81B8A3FCDFC4B72D8C"
@@ -7221,7 +8058,7 @@
     "numAchievements": 44,
     "numLeaderboards": 0,
     "points": 217,
-    "dateModified": "2021-05-14 21:20:08",
+    "dateModified": "2025-09-18 16:45:44",
     "forumTopicId": 13027,
     "hashes": [
       "0b86fa9259e2b751111a1701091644b1"
@@ -7263,14 +8100,15 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/098476.png",
-    "numAchievements": 64,
-    "numLeaderboards": 54,
-    "points": 721,
-    "dateModified": "2025-02-22 20:06:53",
+    "numAchievements": 63,
+    "numLeaderboards": 55,
+    "points": 716,
+    "dateModified": "2026-01-25 00:14:07",
     "forumTopicId": 26658,
     "hashes": [
       "772fa166e5db51effc77fb8d832ac4d2",
-      "fdffa662ae3357bf5970338ee7589f6c"
+      "fdffa662ae3357bf5970338ee7589f6c",
+      "91131a1bb91aa42d3e8f2aa55948041f"
     ]
   },
   {
@@ -7328,11 +8166,26 @@
     "numAchievements": 94,
     "numLeaderboards": 47,
     "points": 666,
-    "dateModified": "2025-01-23 21:24:52",
+    "dateModified": "2026-01-20 16:31:33",
     "forumTopicId": 4671,
     "hashes": [
       "4F0E07F0EEAC7E5D7CE3A75461888D03",
       "94D81D14A2D768DD0EDA3A845AFB25CD"
+    ]
+  },
+  {
+    "title": "Diddy Kong Racing [Subset - Krunch Only]",
+    "id": 37922,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/123441.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": "2026-01-22 07:40:58",
+    "forumTopicId": 34094,
+    "hashes": [
+      "a3c9430bff6c608b11930ffb62d55c41"
     ]
   },
   {
@@ -7390,10 +8243,9 @@
     "numAchievements": 128,
     "numLeaderboards": 7,
     "points": 846,
-    "dateModified": "2025-08-06 14:04:29",
+    "dateModified": "2026-01-16 20:01:37",
     "forumTopicId": 30894,
     "hashes": [
-      "11da2a2d0e91074bb8ff1fcb029535fd",
       "9ec41abf2519fc386cadd0731f6e868c"
     ]
   },
@@ -7406,7 +8258,7 @@
     "numAchievements": 38,
     "numLeaderboards": 0,
     "points": 348,
-    "dateModified": "2025-06-05 01:31:06",
+    "dateModified": "2026-01-28 22:48:03",
     "forumTopicId": 30463,
     "hashes": [
       "7a04cedce4946034a2889e0d5d432baa"
@@ -7496,7 +8348,7 @@
     "numAchievements": 72,
     "numLeaderboards": 4,
     "points": 948,
-    "dateModified": "2024-07-20 11:15:28",
+    "dateModified": "2025-10-23 10:21:45",
     "forumTopicId": 6060,
     "hashes": [
       "a4f7c57c180297b2e7ba5a5feb44fe0b"
@@ -7527,7 +8379,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32758,
     "hashes": [
       "923d65e69f51858c697e0e5759cd038b"
     ]
@@ -7707,7 +8559,7 @@
     "numAchievements": 74,
     "numLeaderboards": 25,
     "points": 1600,
-    "dateModified": "2023-10-25 04:45:40",
+    "dateModified": "2025-11-28 04:50:03",
     "forumTopicId": 5259,
     "hashes": [
       "753437D0D8ADA1D12F3F9CF0F0A5171F"
@@ -7774,6 +8626,21 @@
     ]
   },
   {
+    "title": "FIFA 98: Road to World Cup",
+    "id": 10200,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/109633.png",
+    "numAchievements": 32,
+    "numLeaderboards": 0,
+    "points": 253,
+    "dateModified": "2025-05-03 07:56:08",
+    "forumTopicId": 30207,
+    "hashes": [
+      "2c6d146a8473511cfcfbbe8518f49d71"
+    ]
+  },
+  {
     "title": "FIFA 99",
     "id": 10463,
     "consoleId": 2,
@@ -7805,21 +8672,6 @@
     ]
   },
   {
-    "title": "FIFA: Road to World Cup 98",
-    "id": 10200,
-    "consoleId": 2,
-    "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/109633.png",
-    "numAchievements": 32,
-    "numLeaderboards": 0,
-    "points": 253,
-    "dateModified": "2025-05-03 07:56:08",
-    "forumTopicId": 30207,
-    "hashes": [
-      "2c6d146a8473511cfcfbbe8518f49d71"
-    ]
-  },
-  {
     "title": "Fighter Destiny 2 | Kakutou Denshou: F-Cup Maniax",
     "id": 10647,
     "consoleId": 2,
@@ -7839,7 +8691,7 @@
     "id": 10429,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/049798.png",
+    "imageIcon": "/Images/120787.png",
     "numAchievements": 75,
     "numLeaderboards": 42,
     "points": 722,
@@ -7934,7 +8786,7 @@
     "numAchievements": 44,
     "numLeaderboards": 0,
     "points": 534,
-    "dateModified": "2024-08-07 23:59:47",
+    "dateModified": "2025-09-09 11:36:48",
     "forumTopicId": 4730,
     "hashes": [
       "9CB963E8B71F18568F78EC1AF120362E"
@@ -7946,15 +8798,16 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/097149.png",
-    "numAchievements": 0,
+    "numAchievements": 74,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-08-24 20:33:35",
+    "points": 602,
+    "dateModified": "2025-11-16 19:28:27",
     "forumTopicId": 28941,
     "hashes": [
       "5270d98f9e67dc7ef354ece109c2a18f",
       "4677619c31c5dfda8448308c558f480d",
-      "0ac7a16f8afcc03031835c89d095d7b9"
+      "0ac7a16f8afcc03031835c89d095d7b9",
+      "e2fe94804e7127eb6b78e25e8a775060"
     ]
   },
   {
@@ -7996,7 +8849,7 @@
     "numAchievements": 49,
     "numLeaderboards": 30,
     "points": 460,
-    "dateModified": "2024-07-19 19:39:15",
+    "dateModified": "2025-11-18 17:31:44",
     "forumTopicId": 5995,
     "hashes": [
       "87aa5740dff79291ee97832da1f86205"
@@ -8180,7 +9033,7 @@
     "numAchievements": 23,
     "numLeaderboards": 1,
     "points": 165,
-    "dateModified": "2025-07-07 20:13:13",
+    "dateModified": "2025-12-11 01:52:26",
     "forumTopicId": 23397,
     "hashes": [
       "6BBD8C42F6EF8F5B9541D6F4DB657DD7"
@@ -8195,7 +9048,7 @@
     "numAchievements": 66,
     "numLeaderboards": 0,
     "points": 478,
-    "dateModified": "2023-06-06 05:11:30",
+    "dateModified": "2025-12-01 16:22:15",
     "forumTopicId": 4727,
     "hashes": [
       "EB98F1B8C6898AF7417F6882946DA9B3"
@@ -8281,11 +9134,11 @@
     "id": 10795,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/072144.png",
+    "imageIcon": "/Images/121508.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 20,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2026-01-26 07:50:00",
     "forumTopicId": 31177,
     "hashes": [
       "464211abb602ee1005974d2d835a3bcf"
@@ -8315,7 +9168,7 @@
     "numAchievements": 77,
     "numLeaderboards": 35,
     "points": 521,
-    "dateModified": "2025-03-07 18:24:04",
+    "dateModified": "2025-09-10 03:07:40",
     "forumTopicId": 7639,
     "hashes": [
       "70DE1EAB508596B6BBEFD168B5D07194"
@@ -8816,7 +9669,7 @@
     "numAchievements": 53,
     "numLeaderboards": 22,
     "points": 370,
-    "dateModified": "2023-01-07 02:59:02",
+    "dateModified": "2026-01-26 03:33:07",
     "forumTopicId": 5937,
     "hashes": [
       "26B5EAA13DC5B5E35307FE8C0CF5B6BA"
@@ -8846,7 +9699,7 @@
     "numAchievements": 75,
     "numLeaderboards": 0,
     "points": 457,
-    "dateModified": "2025-05-02 12:40:11",
+    "dateModified": "2025-12-08 00:29:32",
     "forumTopicId": 19791,
     "hashes": [
       "39A2BCA1C17CD4CF1A9F3AE2B725B5C6"
@@ -9074,7 +9927,7 @@
     "numAchievements": 72,
     "numLeaderboards": 18,
     "points": 692,
-    "dateModified": "2025-07-05 16:47:31",
+    "dateModified": "2025-12-03 19:45:02",
     "forumTopicId": 4521,
     "hashes": [
       "3A67D9986F54EB282924FCA4CD5F6DFF",
@@ -9082,15 +9935,15 @@
     ]
   },
   {
-    "title": "Mario Kart 64 [Subset - Multi]",
+    "title": "Mario Kart 64 [Subset - Multiplayer]",
     "id": 33643,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/112670.png",
     "numAchievements": 23,
-    "numLeaderboards": 15,
+    "numLeaderboards": 16,
     "points": 350,
-    "dateModified": "2025-07-27 02:04:47",
+    "dateModified": "2025-12-21 04:34:01",
     "forumTopicId": 30999,
     "hashes": [
       "212522a9af262b9a26b5afd045a6b3d5"
@@ -9105,7 +9958,7 @@
     "numAchievements": 33,
     "numLeaderboards": 4,
     "points": 425,
-    "dateModified": "2025-08-05 13:45:06",
+    "dateModified": "2026-01-18 04:45:13",
     "forumTopicId": 29326,
     "hashes": [
       "4d7a2bb8a2a33a7d5f634d979f6e601f"
@@ -9150,7 +10003,7 @@
     "numAchievements": 45,
     "numLeaderboards": 13,
     "points": 535,
-    "dateModified": "2024-05-09 14:21:31",
+    "dateModified": "2025-11-18 05:39:32",
     "forumTopicId": 4725,
     "hashes": [
       "04840612A35ECE222AFDB2DFBF926409"
@@ -9165,7 +10018,7 @@
     "numAchievements": 72,
     "numLeaderboards": 11,
     "points": 755,
-    "dateModified": "2025-08-16 15:17:53",
+    "dateModified": "2025-11-15 00:56:36",
     "forumTopicId": 4526,
     "hashes": [
       "76A8BBC81BC2060EC99C9645867237CC"
@@ -9180,7 +10033,7 @@
     "numAchievements": 97,
     "numLeaderboards": 2,
     "points": 658,
-    "dateModified": "2025-03-17 19:25:54",
+    "dateModified": "2025-11-18 00:28:07",
     "forumTopicId": 21836,
     "hashes": [
       "759358FAD1ED5AE31DCB2001A07F2FE5"
@@ -9330,7 +10183,7 @@
     "numAchievements": 37,
     "numLeaderboards": 0,
     "points": 330,
-    "dateModified": "2025-07-25 02:25:45",
+    "dateModified": "2025-10-07 15:42:22",
     "forumTopicId": 10895,
     "hashes": [
       "d1ba3b1899576a4b67908abb6544d75a",
@@ -9403,7 +10256,7 @@
     "id": 10116,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/042459.png",
+    "imageIcon": "/Images/123570.png",
     "numAchievements": 130,
     "numLeaderboards": 97,
     "points": 720,
@@ -9440,8 +10293,7 @@
     "dateModified": "2022-08-24 12:50:31",
     "forumTopicId": 4540,
     "hashes": [
-      "3DCB15043063BD656A0223C519218CFB",
-      "9b7f29aab911d6753f2011c48da752bf"
+      "3DCB15043063BD656A0223C519218CFB"
     ]
   },
   {
@@ -9450,11 +10302,11 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/097147.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 25,
+    "numLeaderboards": 66,
+    "points": 180,
+    "dateModified": "2026-01-21 03:48:56",
+    "forumTopicId": 33854,
     "hashes": [
       "FC61D60F2C6FE4610F70CE4949A7A062"
     ]
@@ -9468,7 +10320,7 @@
     "numAchievements": 40,
     "numLeaderboards": 0,
     "points": 380,
-    "dateModified": "2022-11-22 02:26:19",
+    "dateModified": "2025-12-03 00:07:32",
     "forumTopicId": 8745,
     "hashes": [
       "08bea3310e778a6584eb64cd3f15f86e"
@@ -9978,7 +10830,7 @@
     "numAchievements": 116,
     "numLeaderboards": 2,
     "points": 755,
-    "dateModified": "2021-09-26 18:34:50",
+    "dateModified": "2026-01-20 15:43:26",
     "forumTopicId": 5904,
     "hashes": [
       "F666E020218392E52662FDDFA1EA4F21"
@@ -10038,7 +10890,7 @@
     "numAchievements": 87,
     "numLeaderboards": 4,
     "points": 840,
-    "dateModified": "2025-05-13 13:56:26",
+    "dateModified": "2025-11-27 02:48:12",
     "forumTopicId": 4701,
     "hashes": [
       "A722F8161FF489943191330BF8416496",
@@ -10051,10 +10903,10 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/111717.png",
-    "numAchievements": 101,
+    "numAchievements": 100,
     "numLeaderboards": 1,
-    "points": 908,
-    "dateModified": "2025-07-25 12:40:33",
+    "points": 905,
+    "dateModified": "2026-01-27 00:19:40",
     "forumTopicId": 30225,
     "hashes": [
       "f901839bef29ccf84f5fd735680fe5d3",
@@ -10063,15 +10915,15 @@
     ]
   },
   {
-    "title": "Paperboy 64",
+    "title": "Paperboy",
     "id": 10660,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/069245.png",
-    "numAchievements": 0,
+    "numAchievements": 88,
     "numLeaderboards": 68,
-    "points": 0,
-    "dateModified": "2025-08-24 15:51:33",
+    "points": 528,
+    "dateModified": "2025-09-23 01:05:47",
     "forumTopicId": 30227,
     "hashes": [
       "C4CBCB54B010A5A71FE5CAA391E5C25F"
@@ -10116,7 +10968,7 @@
     "numAchievements": 130,
     "numLeaderboards": 63,
     "points": 980,
-    "dateModified": "2024-11-04 05:56:37",
+    "dateModified": "2025-11-14 06:12:11",
     "forumTopicId": 4556,
     "hashes": [
       "7F4171B0C8D17815BE37913F535E4E93",
@@ -10158,11 +11010,11 @@
     "id": 10650,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/106343.png",
+    "imageIcon": "/Images/118805.png",
     "numAchievements": 19,
     "numLeaderboards": 0,
     "points": 170,
-    "dateModified": "2025-08-03 07:16:36",
+    "dateModified": "2025-09-14 10:07:25",
     "forumTopicId": 5327,
     "hashes": [
       "c46e087d966a35095df96799b0b4ffae"
@@ -10177,7 +11029,7 @@
     "numAchievements": 52,
     "numLeaderboards": 0,
     "points": 495,
-    "dateModified": "2025-04-28 02:21:25",
+    "dateModified": "2025-12-05 13:59:35",
     "forumTopicId": 4871,
     "hashes": [
       "E722576A15182CFED6782379CE4BC8BE"
@@ -10192,7 +11044,7 @@
     "numAchievements": 51,
     "numLeaderboards": 71,
     "points": 519,
-    "dateModified": "2025-08-17 21:26:50",
+    "dateModified": "2025-10-24 03:14:19",
     "forumTopicId": 4721,
     "hashes": [
       "FC3C9329B7CDD67CF7650ABF63B9A580"
@@ -10222,7 +11074,7 @@
     "numAchievements": 72,
     "numLeaderboards": 10,
     "points": 877,
-    "dateModified": "2025-04-07 01:00:04",
+    "dateModified": "2025-10-23 22:50:49",
     "forumTopicId": 4665,
     "hashes": [
       "ED1378BC12115F71209A77844965BA50"
@@ -10338,15 +11190,14 @@
     "id": 13113,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/056033.png",
+    "imageIcon": "/Images/121321.png",
     "numAchievements": 29,
     "numLeaderboards": 0,
     "points": 450,
     "dateModified": "2025-06-19 06:35:51",
     "forumTopicId": 7941,
     "hashes": [
-      "b8267c225583a02acc3b74b3178b87e9",
-      "faaa2094b04dca4c287af9334d22529d"
+      "b8267c225583a02acc3b74b3178b87e9"
     ]
   },
   {
@@ -10703,7 +11554,7 @@
     "numAchievements": 31,
     "numLeaderboards": 3,
     "points": 219,
-    "dateModified": "2025-04-04 22:14:36",
+    "dateModified": "2025-10-16 23:47:52",
     "forumTopicId": 28269,
     "hashes": [
       "8C432235A57D34BC4A9B8B290E21E01E"
@@ -10734,7 +11585,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33720,
     "hashes": [
       "d0aa9d20a4b85fe514d2a3150d0133ea"
     ]
@@ -10763,7 +11614,7 @@
     "numAchievements": 65,
     "numLeaderboards": 16,
     "points": 592,
-    "dateModified": "2025-01-01 20:13:11",
+    "dateModified": "2025-11-23 03:00:19",
     "forumTopicId": 13141,
     "hashes": [
       "AF5BE0ADFF51A8E9C6D771282C295810"
@@ -10942,6 +11793,22 @@
     ]
   },
   {
+    "title": "Sin and Punishment",
+    "id": 10119,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/093936.png",
+    "numAchievements": 74,
+    "numLeaderboards": 8,
+    "points": 833,
+    "dateModified": "2025-06-09 02:23:40",
+    "forumTopicId": 18149,
+    "hashes": [
+      "a0657bc99e169153fd46aeccfde748f3",
+      "ca19a4b2bae3b4950ff967ee9e0857ae"
+    ]
+  },
+  {
     "title": "Snowboard Kids",
     "id": 10199,
     "consoleId": 2,
@@ -10963,7 +11830,7 @@
     "id": 10247,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/075897.png",
+    "imageIcon": "/Images/118993.png",
     "numAchievements": 44,
     "numLeaderboards": 8,
     "points": 690,
@@ -10979,10 +11846,10 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/088517.png",
-    "numAchievements": 54,
+    "numAchievements": 53,
     "numLeaderboards": 0,
-    "points": 303,
-    "dateModified": "2025-01-12 03:02:38",
+    "points": 302,
+    "dateModified": "2025-11-17 22:40:31",
     "forumTopicId": 4945,
     "hashes": [
       "1730119B0455EF89C4E495DEC8E950A5",
@@ -11071,7 +11938,7 @@
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/093951.png",
     "numAchievements": 50,
-    "numLeaderboards": 41,
+    "numLeaderboards": 42,
     "points": 717,
     "dateModified": "2025-03-30 16:57:16",
     "forumTopicId": 4711,
@@ -11089,7 +11956,7 @@
     "numAchievements": 17,
     "numLeaderboards": 2,
     "points": 375,
-    "dateModified": "2023-06-21 16:31:44",
+    "dateModified": "2025-11-18 05:09:45",
     "forumTopicId": 5780,
     "hashes": [
       "7420d9a92c03dfcf224a1f56d71727d1"
@@ -11182,7 +12049,7 @@
     "numAchievements": 76,
     "numLeaderboards": 70,
     "points": 760,
-    "dateModified": "2025-08-26 23:36:27",
+    "dateModified": "2025-09-08 16:44:12",
     "forumTopicId": 4912,
     "hashes": [
       "559F71B861F639B6376D891E3023414B"
@@ -11256,8 +12123,8 @@
     "imageIcon": "/Images/112471.png",
     "numAchievements": 114,
     "numLeaderboards": 8,
-    "points": 690,
-    "dateModified": "2025-07-19 13:40:06",
+    "points": 688,
+    "dateModified": "2026-01-26 22:41:38",
     "forumTopicId": 4478,
     "hashes": [
       "20b854b239203baf6c961b850a4a51a2",
@@ -11278,8 +12145,8 @@
     "imageIcon": "/Images/116313.png",
     "numAchievements": 127,
     "numLeaderboards": 3,
-    "points": 1144,
-    "dateModified": "2025-08-29 13:32:23",
+    "points": 1169,
+    "dateModified": "2025-11-16 05:56:35",
     "forumTopicId": 31715,
     "hashes": [
       "50dab78045aa04b95adb97f4648d61b0"
@@ -11382,7 +12249,7 @@
     "id": 10082,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/108227.png",
+    "imageIcon": "/Images/121474.png",
     "numAchievements": 59,
     "numLeaderboards": 46,
     "points": 656,
@@ -11402,10 +12269,25 @@
     "numAchievements": 56,
     "numLeaderboards": 27,
     "points": 468,
-    "dateModified": "2025-02-11 22:03:36",
+    "dateModified": "2026-01-14 15:22:29",
     "forumTopicId": 24407,
     "hashes": [
       "95be169289c1a62b541d7e536232491c"
+    ]
+  },
+  {
+    "title": "Super Smash Bros. [Subset - Very Hard Runs]",
+    "id": 37603,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/121983.png",
+    "numAchievements": 12,
+    "numLeaderboards": 0,
+    "points": 450,
+    "dateModified": "2025-12-28 23:54:07",
+    "forumTopicId": 33704,
+    "hashes": [
+      "f4fc3ae6a9ed4be2b67deded9e27c039"
     ]
   },
   {
@@ -11491,7 +12373,7 @@
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/098365.png",
     "numAchievements": 40,
-    "numLeaderboards": 12,
+    "numLeaderboards": 13,
     "points": 247,
     "dateModified": "2024-11-04 00:01:29",
     "forumTopicId": 7238,
@@ -11523,7 +12405,7 @@
     "numAchievements": 96,
     "numLeaderboards": 13,
     "points": 750,
-    "dateModified": "2025-08-07 15:23:36",
+    "dateModified": "2025-11-17 14:34:45",
     "forumTopicId": 5803,
     "hashes": [
       "2A0A8ACB61538235BC1094D297FB6556",
@@ -11535,7 +12417,7 @@
     "id": 29800,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/098108.png",
+    "imageIcon": "/Images/122976.png",
     "numAchievements": 42,
     "numLeaderboards": 1,
     "points": 268,
@@ -11550,14 +12432,16 @@
     "id": 34500,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118607.png",
+    "numAchievements": 72,
+    "numLeaderboards": 1,
+    "points": 686,
+    "dateModified": "2025-12-11 15:50:05",
+    "forumTopicId": 32131,
     "hashes": [
-      "dea8b7aa5fe22abec2e3031cc72236a3"
+      "dea8b7aa5fe22abec2e3031cc72236a3",
+      "9da9a2d4f8c83c563d2c88c8f9058916",
+      "963b0f26bf166a336892c61f92eaea0e"
     ]
   },
   {
@@ -11568,8 +12452,8 @@
     "imageIcon": "/Images/022051.png",
     "numAchievements": 97,
     "numLeaderboards": 13,
-    "points": 601,
-    "dateModified": "2025-08-05 19:18:38",
+    "points": 690,
+    "dateModified": "2025-11-26 04:50:39",
     "forumTopicId": 22797,
     "hashes": [
       "0D6331C2FA062F20272CC1A7F80F7271",
@@ -11608,10 +12492,10 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/078909.png",
-    "numAchievements": 34,
+    "numAchievements": 38,
     "numLeaderboards": 0,
-    "points": 465,
-    "dateModified": "2025-03-12 15:22:37",
+    "points": 530,
+    "dateModified": "2025-09-01 20:45:53",
     "forumTopicId": 12387,
     "hashes": [
       "9cdbc307c9b154a381f176ffe49575f9",
@@ -11631,21 +12515,6 @@
     "forumTopicId": 7666,
     "hashes": [
       "7a28179b00734c9aa0f0609fafaafd5f"
-    ]
-  },
-  {
-    "title": "The New Tetris [Subset - Bonus]",
-    "id": 30138,
-    "consoleId": 2,
-    "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 27134,
-    "hashes": [
-      "a89806c58b1cf3c7d1a4e9ea0b376e90"
     ]
   },
   {
@@ -11732,7 +12601,7 @@
     "numAchievements": 62,
     "numLeaderboards": 3,
     "points": 374,
-    "dateModified": "2024-03-24 02:13:34",
+    "dateModified": "2026-01-29 04:17:43",
     "forumTopicId": 14123,
     "hashes": [
       "7d3e935156844de0002db875e1076a5c"
@@ -11747,7 +12616,7 @@
     "numAchievements": 35,
     "numLeaderboards": 9,
     "points": 455,
-    "dateModified": "2025-07-15 02:25:20",
+    "dateModified": "2026-01-20 02:59:13",
     "forumTopicId": 4557,
     "hashes": [
       "aff424a1883dc7bb92c7b2ebe9342f85"
@@ -11762,7 +12631,7 @@
     "numAchievements": 35,
     "numLeaderboards": 8,
     "points": 490,
-    "dateModified": "2024-04-24 04:58:08",
+    "dateModified": "2025-09-10 15:52:09",
     "forumTopicId": 4555,
     "hashes": [
       "29974692808C112B306FBD259273DC96"
@@ -11864,7 +12733,7 @@
     "id": 11609,
     "consoleId": 2,
     "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/086033.png",
+    "imageIcon": "/Images/120761.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -11887,22 +12756,6 @@
     "forumTopicId": null,
     "hashes": [
       "6f2c37a20e6eccb657fbfc4ba36a34bb"
-    ]
-  },
-  {
-    "title": "Tsumi to Batsu: Hoshi no Keishousha | Sin and Punishment",
-    "id": 10119,
-    "consoleId": 2,
-    "consoleName": "Nintendo 64",
-    "imageIcon": "/Images/093936.png",
-    "numAchievements": 74,
-    "numLeaderboards": 8,
-    "points": 833,
-    "dateModified": "2025-06-09 02:23:40",
-    "forumTopicId": 18149,
-    "hashes": [
-      "a0657bc99e169153fd46aeccfde748f3",
-      "ca19a4b2bae3b4950ff967ee9e0857ae"
     ]
   },
   {
@@ -11930,7 +12783,7 @@
     "numAchievements": 51,
     "numLeaderboards": 0,
     "points": 513,
-    "dateModified": "2024-07-18 17:29:14",
+    "dateModified": "2025-10-12 06:41:44",
     "forumTopicId": 7676,
     "hashes": [
       "279ec83bd60a3cce69a1db22b0a5c318"
@@ -11960,7 +12813,7 @@
     "numAchievements": 26,
     "numLeaderboards": 0,
     "points": 371,
-    "dateModified": "2022-11-24 10:03:17",
+    "dateModified": "2025-12-21 17:55:25",
     "forumTopicId": 7677,
     "hashes": [
       "9b2ffe72080b03a5f92eb87ea849cac4"
@@ -12259,8 +13112,8 @@
     "imageIcon": "/Images/025645.png",
     "numAchievements": 40,
     "numLeaderboards": 15,
-    "points": 311,
-    "dateModified": "2025-08-15 19:49:10",
+    "points": 316,
+    "dateModified": "2026-01-05 01:22:42",
     "forumTopicId": 7942,
     "hashes": [
       "6e81d3056e409208e4af2d39a2ff0f03"
@@ -12348,10 +13201,10 @@
     "consoleId": 2,
     "consoleName": "Nintendo 64",
     "imageIcon": "/Images/109508.png",
-    "numAchievements": 0,
+    "numAchievements": 67,
     "numLeaderboards": 58,
-    "points": 0,
-    "dateModified": "2025-05-13 12:37:47",
+    "points": 550,
+    "dateModified": "2025-11-27 16:30:46",
     "forumTopicId": 6363,
     "hashes": [
       "431de8f6611a8131b536f0ede1f330d9",
@@ -12427,7 +13280,7 @@
     "numAchievements": 39,
     "numLeaderboards": 0,
     "points": 270,
-    "dateModified": "2025-01-28 05:51:16",
+    "dateModified": "2025-12-30 02:45:24",
     "forumTopicId": 6614,
     "hashes": [
       "D9030CA30E4D1AF805ACCE1BFED988CC"
@@ -12472,7 +13325,7 @@
     "numAchievements": 93,
     "numLeaderboards": 1,
     "points": 961,
-    "dateModified": "2025-08-24 04:45:51",
+    "dateModified": "2025-12-27 23:21:15",
     "forumTopicId": 4670,
     "hashes": [
       "27e71da98ce4b7b11bdcc92a6c400679",

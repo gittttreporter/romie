@@ -5,10 +5,10 @@
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
     "imageIcon": "/Images/068079.png",
-    "numAchievements": 0,
+    "numAchievements": 200,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2023-02-05 13:42:43",
+    "points": 600,
+    "dateModified": "2025-10-12 11:55:39",
     "forumTopicId": 20189,
     "hashes": [
       "c3ca202fd995ca013ef3b4896e5dc93d"
@@ -252,7 +252,7 @@
     "forumTopicId": null,
     "hashes": [
       "552356cc91dc696fc24974eb082a607b",
-      "ca951495a6348d034ae102657927c4cd"
+      "f04768a5af8ec26a3ac3e0d621793eab"
     ]
   },
   {
@@ -433,21 +433,6 @@
     "forumTopicId": 30206,
     "hashes": [
       "452ad5266bac60a9334fdd24bfb49eb5"
-    ]
-  },
-  {
-    "title": "A Little Bit of... Dr. Kawashima's Brain Training: Arts Edition",
-    "id": 27685,
-    "consoleId": 78,
-    "consoleName": "Nintendo DSi",
-    "imageIcon": "/Images/097348.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2024-06-03 20:02:57",
-    "forumTopicId": 26754,
-    "hashes": [
-      "181fb6d46e025fa7ae8111e4ced2fc2f"
     ]
   },
   {
@@ -831,7 +816,7 @@
     "id": 27665,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118500.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1112,7 +1097,7 @@
     ]
   },
   {
-    "title": "Art Style: AQUIA | Art Style: AQUITE",
+    "title": "Art Style: AQUIA",
     "id": 26200,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
@@ -1127,7 +1112,7 @@
     ]
   },
   {
-    "title": "Art Style: BASE 10 | Art Style: CODE",
+    "title": "Art Style: BASE 10",
     "id": 26201,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
@@ -1157,16 +1142,16 @@
     ]
   },
   {
-    "title": "Art Style: DIGIDRIVE | Art Style: INTERSECT",
+    "title": "Art Style: DIGIDRIVE",
     "id": 26698,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/123396.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33823,
     "hashes": [
       "cfba429a862171ae38ca0b73d422d08b"
     ]
@@ -1187,7 +1172,7 @@
     ]
   },
   {
-    "title": "Art Style: precipice | Art Style: KUBOS",
+    "title": "Art Style: precipice",
     "id": 26204,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
@@ -1202,7 +1187,7 @@
     ]
   },
   {
-    "title": "Art Style: ZENGAGE | Art Style: NEMREM",
+    "title": "Art Style: ZENGAGE",
     "id": 26205,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
@@ -1266,7 +1251,7 @@
     "id": 22313,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
-    "imageIcon": "/Images/067166.png",
+    "imageIcon": "/Images/121277.png",
     "numAchievements": 55,
     "numLeaderboards": 24,
     "points": 450,
@@ -1274,6 +1259,51 @@
     "forumTopicId": 21010,
     "hashes": [
       "992b1835d9fb677b89ab50e4724ac1df"
+    ]
+  },
+  {
+    "title": "Battle of Giants: Dinosaurs - Fight for Survival",
+    "id": 34551,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "15a66409d6cdeabf729b032640587ba2"
+    ]
+  },
+  {
+    "title": "Battle of Giants: Dragons - Bronze Edition",
+    "id": 34552,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8e4386e8bf73ddb53fd2b4201615668d"
+    ]
+  },
+  {
+    "title": "Battle of the Elements",
+    "id": 34553,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "498aa552766629a81b22125c623a7c02"
     ]
   },
   {
@@ -1397,6 +1427,21 @@
     ]
   },
   {
+    "title": "Boardwalk Ball Toss",
+    "id": 34554,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "30a20ccdd841e724d286f4866b044eb9"
+    ]
+  },
+  {
     "title": "Bomberman Blitz",
     "id": 22372,
     "consoleId": 78,
@@ -1412,6 +1457,69 @@
     ]
   },
   {
+    "title": "Bookstore Dream",
+    "id": 34555,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a839207675df527f38d6b1f0b2a68ddd",
+      "ea51a2f832afe32f8239f2f02bdef8b7"
+    ]
+  },
+  {
+    "title": "Bookworm",
+    "id": 34556,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "76837a58826670f85ad0cc5f5feb734b",
+      "025c5a36e3e09afc011c89aebd0f712f"
+    ]
+  },
+  {
+    "title": "Boom Boom Squaries",
+    "id": 34557,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b80923f2f2a2a58c2f455dd3754b1000",
+      "c830d43280143c07bfc144041e326c30"
+    ]
+  },
+  {
+    "title": "Bounce & Break",
+    "id": 34558,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c6d505e7b20a83b385d17fc6111bf6ce"
+    ]
+  },
+  {
     "title": "Box Pusher",
     "id": 22514,
     "consoleId": 78,
@@ -1424,6 +1532,21 @@
     "forumTopicId": 20328,
     "hashes": [
       "e6b6f76c50ddba68ac6a9ceaec5659d2"
+    ]
+  },
+  {
+    "title": "Brain Age Express: Arts & Letters",
+    "id": 27685,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/097348.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": "2024-06-03 20:02:57",
+    "forumTopicId": 26754,
+    "hashes": [
+      "181fb6d46e025fa7ae8111e4ced2fc2f"
     ]
   },
   {
@@ -1454,6 +1577,54 @@
     "forumTopicId": null,
     "hashes": [
       "053ac3b186f5bab3066c292b964a8f3b"
+    ]
+  },
+  {
+    "title": "Brain Challenge",
+    "id": 34560,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7822c1c510b13720aa875f936e748786",
+      "5a0e7836da333ecf5734ca20fb3a3b4b"
+    ]
+  },
+  {
+    "title": "Break Tactics",
+    "id": 34561,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2c98d7085f4fc87d655f1be4c690c0a1",
+      "fda70237fba10c0732917ec6663dd12e"
+    ]
+  },
+  {
+    "title": "Bugs'N'Balls",
+    "id": 34562,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9fbf74d11a970fe091069703e69bdb08",
+      "f7a78ee7099301ceda74cb3ae32ca5a2"
     ]
   },
   {
@@ -1502,6 +1673,66 @@
     ]
   },
   {
+    "title": "Car Jack Streets",
+    "id": 35046,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "41b0cf730ca54d2a41e7521639e394cb"
+    ]
+  },
+  {
+    "title": "Card Hero: Speed Battle Custom",
+    "id": 35047,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "752a41da751404528bbff8eb2075f7db"
+    ]
+  },
+  {
+    "title": "Castle Conqueror",
+    "id": 35048,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b8a13d04e4d8bdb23d9243957ca966f2"
+    ]
+  },
+  {
+    "title": "Castle Conqueror: Against",
+    "id": 35049,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0e23e806dbf76ed62190b540bbd6a938"
+    ]
+  },
+  {
     "title": "Castle Conqueror: Heroes",
     "id": 26699,
     "consoleId": 78,
@@ -1514,6 +1745,36 @@
     "forumTopicId": null,
     "hashes": [
       "9c04bdd18ac9db554719786ee7779c82"
+    ]
+  },
+  {
+    "title": "Castle Conqueror: Heroes 2",
+    "id": 35050,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9416f5b5902fc21371a7168a2e72157b"
+    ]
+  },
+  {
+    "title": "Castle Conqueror: Revolution",
+    "id": 35051,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "21e54ff3f49eab3c71039b114c08db3d"
     ]
   },
   {
@@ -1532,6 +1793,21 @@
     ]
   },
   {
+    "title": "Cat Frenzy",
+    "id": 35052,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "39fa08cd0495512dfbe0ed99a3d0dae6"
+    ]
+  },
+  {
     "title": "Cave Story",
     "id": 2902,
     "consoleId": 78,
@@ -1545,6 +1821,21 @@
     "hashes": [
       "03754af05487d3dd1914d641051e4a2c",
       "35565430303b9af0cb351189ac033812"
+    ]
+  },
+  {
+    "title": "Chess Challenge!",
+    "id": 35053,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "41fe6add7ec31a3766919da147cb68df"
     ]
   },
   {
@@ -1612,12 +1903,12 @@
     "id": 27690,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117187.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32125,
     "hashes": [
       "9217831f2ce57684abd6308af14539be"
     ]
@@ -1683,6 +1974,66 @@
     ]
   },
   {
+    "title": "Color Commando",
+    "id": 35054,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8d717c76ace9e97307b4d2f6e600e03e"
+    ]
+  },
+  {
+    "title": "Come On! Dragons",
+    "id": 35055,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "6f60293fda3e3341362ff50eefa781b6"
+    ]
+  },
+  {
+    "title": "Come On! Heroes",
+    "id": 35056,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fa29be2fd5469e902bc36813bb2aa2de"
+    ]
+  },
+  {
+    "title": "Cosmo Fighters",
+    "id": 35057,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b695767f01c5ea79b91b024be8c753ef"
+    ]
+  },
+  {
     "title": "Cosmos X2",
     "id": 22402,
     "consoleId": 78,
@@ -1695,6 +2046,21 @@
     "forumTopicId": null,
     "hashes": [
       "44f113833d8ddd68cba73c086c080794"
+    ]
+  },
+  {
+    "title": "Crash-Course Domo",
+    "id": 35058,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3d26dd07ca49051d9f89f553a81716e1"
     ]
   },
   {
@@ -1728,6 +2094,126 @@
     ]
   },
   {
+    "title": "Crazy Golf",
+    "id": 35059,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "859f96b07183a64cf1d91ef583582cc9"
+    ]
+  },
+  {
+    "title": "Crazy Hamster",
+    "id": 35060,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "002f418eea4a02d3741259d72dc329ca"
+    ]
+  },
+  {
+    "title": "Crazy Hunter",
+    "id": 35061,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "511b99f51e89125f0ce61ac5dce30bb7"
+    ]
+  },
+  {
+    "title": "Crazy Pinball",
+    "id": 35062,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "509376893956536aea61918557be8472"
+    ]
+  },
+  {
+    "title": "Crazy Sudoku",
+    "id": 35063,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e8001d472566026eaeccbc6144704bb1"
+    ]
+  },
+  {
+    "title": "Crazy Train",
+    "id": 35064,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "712ac6aa2366035d6b84250afb943f65"
+    ]
+  },
+  {
+    "title": "Crystal Adventure",
+    "id": 35065,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a7b717b1fcb052220b19d7c255d7d0c1"
+    ]
+  },
+  {
+    "title": "Crystal Caverns of Amon-Ra",
+    "id": 35066,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8cfa0e23fddefc8500c0baa1583c3dfe"
+    ]
+  },
+  {
     "title": "Crystal Monsters",
     "id": 27675,
     "consoleId": 78,
@@ -1740,6 +2226,21 @@
     "forumTopicId": null,
     "hashes": [
       "cec6f95946b8da700b986134f622ac17"
+    ]
+  },
+  {
+    "title": "Curling Super Championship",
+    "id": 35067,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5251252014ee7a3335d9bb5b5adb59fa"
     ]
   },
   {
@@ -1773,6 +2274,21 @@
     ]
   },
   {
+    "title": "Dairojo! Samurai Defenders",
+    "id": 35190,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4d2f672d1742fc8e187f7e586a5391d7"
+    ]
+  },
+  {
     "title": "Dark Void Zero",
     "id": 22311,
     "consoleId": 78,
@@ -1781,10 +2297,25 @@
     "numAchievements": 22,
     "numLeaderboards": 0,
     "points": 220,
-    "dateModified": "2023-08-18 03:55:53",
+    "dateModified": "2025-12-11 13:06:50",
     "forumTopicId": 20077,
     "hashes": [
       "d080287ca99643c37f9b956f0797e6c4"
+    ]
+  },
+  {
+    "title": "Datamine",
+    "id": 35191,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "23b971c9480d0ea10dbd404ff41f8ff5"
     ]
   },
   {
@@ -1815,6 +2346,96 @@
     "forumTopicId": 20136,
     "hashes": [
       "b66369245b60f0809da4b7013a6c1866"
+    ]
+  },
+  {
+    "title": "Defense of the Middle Kingdom",
+    "id": 35192,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "65db11ccac27eb68f82229589295d366"
+    ]
+  },
+  {
+    "title": "Dekisugi Tincle Pack",
+    "id": 35193,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "cf6829d4b8f910fbab3f19f862bf8619"
+    ]
+  },
+  {
+    "title": "Delbo",
+    "id": 35194,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "48a87ed0f068d2876e98daf8fc3f34e3"
+    ]
+  },
+  {
+    "title": "Devil Band: Rock the Underworld",
+    "id": 37251,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "73d422b2077b9ef255bb835d2bebe7d1"
+    ]
+  },
+  {
+    "title": "Did It Myself ABC123",
+    "id": 37252,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ca7fc2577af9177f91d671f9164725a6"
+    ]
+  },
+  {
+    "title": "Digger Dan & Kaboom",
+    "id": 37253,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4b5d2e355790950f769cc056ce1e32bb"
     ]
   },
   {
@@ -1863,6 +2484,66 @@
     ]
   },
   {
+    "title": "DodoGo! Challenge",
+    "id": 37254,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fb4b2ab3d68434f39eed50be6520641f"
+    ]
+  },
+  {
+    "title": "DodoGo! Robo",
+    "id": 37255,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "70744d5c4b01268ca6022ace43aa2b65"
+    ]
+  },
+  {
+    "title": "Don't Cross the Line",
+    "id": 37256,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c0d4f00f8b012afd49f9272a10235bfc"
+    ]
+  },
+  {
+    "title": "Doodle Fit",
+    "id": 37257,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e94d473c4ee778f65f8c3bb9b8369858"
+    ]
+  },
+  {
     "title": "DotMan",
     "id": 27705,
     "consoleId": 78,
@@ -1878,6 +2559,21 @@
     ]
   },
   {
+    "title": "Downtown Texas Hold'Em",
+    "id": 37258,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "87c2017e69383e8a71ab2a27464f8d27"
+    ]
+  },
+  {
     "title": "Dr. Mario Express",
     "id": 22374,
     "consoleId": 78,
@@ -1890,6 +2586,21 @@
     "forumTopicId": 20097,
     "hashes": [
       "cfe479031963a1be99838cbb01043c39"
+    ]
+  },
+  {
+    "title": "Dracula: Undead Awakening",
+    "id": 37259,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7aaa129128c17f3b9863abeccee3d1d5"
     ]
   },
   {
@@ -1938,11 +2649,26 @@
     ]
   },
   {
+    "title": "Drift Street International",
+    "id": 37260,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "84361d525899cda063bdeb91968dd7d9"
+    ]
+  },
+  {
     "title": "Earthworm Jim",
     "id": 27673,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/121837.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1968,6 +2694,66 @@
     ]
   },
   {
+    "title": "EJ Puzzles: Hooked",
+    "id": 36173,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b4edd88311b54e1a6f3a544af8f337cd"
+    ]
+  },
+  {
+    "title": "Elemental Masters",
+    "id": 36174,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "547149cdf306c07dd4b28db9a7686d42"
+    ]
+  },
+  {
+    "title": "Escape the Virus: Shoot'em Up!",
+    "id": 37352,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "39622a396c9e04f6fd073d263bd7cd58"
+    ]
+  },
+  {
+    "title": "Escape the Virus: Swarm Survival",
+    "id": 37353,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2b7724dbf1415158aa7a3a85606a189b"
+    ]
+  },
+  {
     "title": "Escape Trick: Convenience Store",
     "id": 31334,
     "consoleId": 78,
@@ -1980,6 +2766,21 @@
     "forumTopicId": null,
     "hashes": [
       "f07fa3696be68323a94624b802cf01f8"
+    ]
+  },
+  {
+    "title": "Escape Trick: The Secret of Rock City Prison",
+    "id": 37354,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7895538018caf3a8d1f1714bcb4c0f2d"
     ]
   },
   {
@@ -2148,6 +2949,21 @@
     ]
   },
   {
+    "title": "G.G Series: Altered Weapon",
+    "id": 34989,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "590bca7a28372a5cfe019f03bd16e120"
+    ]
+  },
+  {
     "title": "G.G Series: Assault Buster",
     "id": 22317,
     "consoleId": 78,
@@ -2160,6 +2976,186 @@
     "forumTopicId": null,
     "hashes": [
       "55ffdf2abe3baa1d2d845f9691f4e2f5"
+    ]
+  },
+  {
+    "title": "G.G Series: Black x Block",
+    "id": 34990,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e5adc164168dd9abf63e823b76d23727"
+    ]
+  },
+  {
+    "title": "G.G Series: Conveyor Toy Packing",
+    "id": 34991,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f08d7beddc6407b8d427a3b8bf9703da"
+    ]
+  },
+  {
+    "title": "G.G Series: Cosmo Rally!!",
+    "id": 34992,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "333e20b2a2987da0cf865ef11be1c26a"
+    ]
+  },
+  {
+    "title": "G.G Series: D-Tank",
+    "id": 34996,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0bd0a517d2dabfe95345a28c37b1ad39"
+    ]
+  },
+  {
+    "title": "G.G Series: Dark Spirits",
+    "id": 34993,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "55f08942dbf074c0f61390c70af9f785"
+    ]
+  },
+  {
+    "title": "G.G Series: Drift Circuit",
+    "id": 34994,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5a873eaa33a745eebb7adce6b89ad482"
+    ]
+  },
+  {
+    "title": "G.G Series: Drilling Attack!!",
+    "id": 34995,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "107adfb96eaf83ca94235e5180b3a3d9"
+    ]
+  },
+  {
+    "title": "G.G Series: Energy Chain",
+    "id": 34997,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "48bfa5f93b8d07b9da9911e0cd3e429d"
+    ]
+  },
+  {
+    "title": "G.G Series: Exciting River",
+    "id": 34998,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c3b14fc336c2b6d61db5e337c2b422ea"
+    ]
+  },
+  {
+    "title": "G.G Series: Great Whip Adventure",
+    "id": 34999,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e15a3c40b6873f089489dcdd7e5cb6dd"
+    ]
+  },
+  {
+    "title": "G.G Series: Hero Puzzle",
+    "id": 35000,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "668e6e05c74fcc861c825daac34c2d9b"
+    ]
+  },
+  {
+    "title": "G.G Series: Horizontal Bar",
+    "id": 35001,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2b1cf792a31627f8052170d55d80ba43"
     ]
   },
   {
@@ -2178,6 +3174,36 @@
     ]
   },
   {
+    "title": "G.G Series: Nyokki",
+    "id": 35002,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c8d4ad0ef05e691b622bb625f7b44871"
+    ]
+  },
+  {
+    "title": "G.G Series: Run & Strike",
+    "id": 35003,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b626ef282dd1ed8bc771ae45ac2c882a"
+    ]
+  },
+  {
     "title": "G.G Series: Score Attacker",
     "id": 22378,
     "consoleId": 78,
@@ -2190,6 +3216,36 @@
     "forumTopicId": null,
     "hashes": [
       "333406e8cb05fa7a24adc5cc5fdfad4f"
+    ]
+  },
+  {
+    "title": "G.G Series: Shadow Army",
+    "id": 35004,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "36ab3f08ab476fe79e751b5fa0e9c716"
+    ]
+  },
+  {
+    "title": "G.G Series: Super Hero Ogre",
+    "id": 35005,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9e3d7476a1949259e3abf58a647e79da"
     ]
   },
   {
@@ -2220,6 +3276,97 @@
     "forumTopicId": 20098,
     "hashes": [
       "ad29ae723acee0ff5c52cd988344ae18"
+    ]
+  },
+  {
+    "title": "G.G Series: The Spiky Blowfish",
+    "id": 35006,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "58e60751b1c8553fd1fb2845ae1f551d"
+    ]
+  },
+  {
+    "title": "G.G Series: Throw Out",
+    "id": 35007,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e88ff6c42a382dfa62a13d5e6d52e1e8"
+    ]
+  },
+  {
+    "title": "G.G Series: Vector",
+    "id": 35008,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e6b75c2af39e09d93ce49df5a2f4c6c6",
+      "c31b3e1012bb66ea35b4a00aed258994"
+    ]
+  },
+  {
+    "title": "G.G Series: Vertex",
+    "id": 35009,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "027715a2f0a275ae14b46e34fdc17217"
+    ]
+  },
+  {
+    "title": "G.G Series: Wonder Land",
+    "id": 35010,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fa4a1234d59dfcc627a2936d9c43ff8b"
+    ]
+  },
+  {
+    "title": "G.G Series: Z-One",
+    "id": 35011,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5676a43e21d1658f51f3cac4e47b480f"
     ]
   },
   {
@@ -2405,6 +3552,36 @@
     ]
   },
   {
+    "title": "GO Series: Captain Sub",
+    "id": 34559,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e13dc96a92e410328e27704688775e29"
+    ]
+  },
+  {
+    "title": "GO Series: Earth Saver",
+    "id": 36172,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0cbbfcfb88b062fda73645a715d94bf7"
+    ]
+  },
+  {
     "title": "GO Series: Fishing Resort",
     "id": 22363,
     "consoleId": 78,
@@ -2450,6 +3627,24 @@
     ]
   },
   {
+    "title": "Go! Go! Kokopolo",
+    "id": 36370,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/121467.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "dea0d96ab3d22a4c499c602ad88b96fb",
+      "24d2db84fc8f91f0fceae2b2a2a39be7",
+      "7d7653b2b83d3ba6de3b1937469ce8d2",
+      "4be478d876a6d859bb39e1ab6bdfcb2c"
+    ]
+  },
+  {
     "title": "Goooooal America",
     "id": 27670,
     "consoleId": 78,
@@ -2462,6 +3657,21 @@
     "forumTopicId": null,
     "hashes": [
       "8adfb85ecf9a5898b82e9bd587b4c621"
+    ]
+  },
+  {
+    "title": "Halloween: Trick or Treat",
+    "id": 36568,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7d62b6b874567d4a7b39abedd52ecaeb"
     ]
   },
   {
@@ -2495,7 +3705,22 @@
     ]
   },
   {
-    "title": "House M.D.: Episode 1 - Globetrotting",
+    "title": "Hot and Cold: A 3D Hidden Object Adventure",
+    "id": 36879,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "848e2dd1c4e4c49717dbc59688d21e98"
+    ]
+  },
+  {
+    "title": "House M.D.",
     "id": 25051,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
@@ -2506,7 +3731,11 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "0cc7244ec0ba0491c067aa0f7bf3dfff"
+      "0cc7244ec0ba0491c067aa0f7bf3dfff",
+      "1b30dd439788e8296e28a23263ffdea0",
+      "3202447867eacc70e8238a11ee67dce2",
+      "78166ee8951c53da4d9278834e340c1b",
+      "8a52f02564767b9d5370b7fc2ecb7140"
     ]
   },
   {
@@ -2605,7 +3834,7 @@
     "id": 22440,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
-    "imageIcon": "/Images/067684.png",
+    "imageIcon": "/Images/119400.png",
     "numAchievements": 30,
     "numLeaderboards": 100,
     "points": 345,
@@ -2692,6 +3921,21 @@
     ]
   },
   {
+    "title": "Little Twin Stars to Minna no Nurie",
+    "id": 36923,
+    "consoleId": 78,
+    "consoleName": "Nintendo DSi",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3a7ecc583427c3d423f2a2dd3ea85275"
+    ]
+  },
+  {
     "title": "Littlest Pet Shop",
     "id": 27697,
     "consoleId": 78,
@@ -2756,11 +4000,11 @@
     "id": 27462,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
-    "imageIcon": "/Images/117136.png",
+    "imageIcon": "/Images/117166.png",
     "numAchievements": 11,
     "numLeaderboards": 0,
     "points": 13,
-    "dateModified": "2025-04-29 15:58:24",
+    "dateModified": "2025-11-01 06:06:03",
     "forumTopicId": 26899,
     "hashes": [
       "88f5aa28c7651767625844636c5a1190"
@@ -2771,7 +4015,7 @@
     "id": 27461,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
-    "imageIcon": "/Images/089410.png",
+    "imageIcon": "/Images/117167.png",
     "numAchievements": 7,
     "numLeaderboards": 0,
     "points": 10,
@@ -3063,7 +4307,7 @@
     "numAchievements": 59,
     "numLeaderboards": 0,
     "points": 520,
-    "dateModified": "2023-09-25 12:43:18",
+    "dateModified": "2025-12-13 21:54:46",
     "forumTopicId": 20973,
     "hashes": [
       "a80d1a69655bb39105781abe4dc18c3a"
@@ -3164,12 +4408,12 @@
     "id": 27714,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/121426.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33506,
     "hashes": [
       "688a16b14ae7fa46de6f9f7989986d97"
     ]
@@ -3344,7 +4588,7 @@
     "id": 28937,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118502.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -3359,7 +4603,7 @@
     "id": 28938,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118504.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -3656,7 +4900,7 @@
     ]
   },
   {
-    "title": "X-Scape | 3D Space Tank",
+    "title": "X-Scape",
     "id": 26490,
     "consoleId": 78,
     "consoleName": "Nintendo DSi",

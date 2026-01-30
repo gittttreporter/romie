@@ -622,12 +622,12 @@
     "id": 29693,
     "consoleId": 37,
     "consoleName": "Amstrad CPC",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120724.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 1,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2025-11-26 13:18:51",
+    "forumTopicId": 33277,
     "hashes": [
       "a890a84e0a2f3c5eea151c5cac830f68"
     ]
@@ -645,6 +645,24 @@
     "forumTopicId": null,
     "hashes": [
       "0fc2e391910162786987829314a9ec21"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Master Piece",
+    "id": 37785,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c1e589d7ac03dde89cd3662dfcdfd1c5",
+      "f157512324a3dd52f12ce18daa227907",
+      "9aa10f98b75a245601b291a9c339818a",
+      "4326681e1c350a598249178983de988e"
     ]
   },
   {
@@ -1162,6 +1180,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Teodoro no sabe volar",
+    "id": 36263,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7b1322901b312afb332c324b7e583da8"
+    ]
+  },
+  {
     "title": "~Homebrew~ The Abduction of Oscar Z",
     "id": 14040,
     "consoleId": 37,
@@ -1301,6 +1334,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Uwol 2",
+    "id": 34550,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fb4a14b1a610f3c2b0ff1546ae19d2c8"
+    ]
+  },
+  {
     "title": "~Homebrew~ WhatTheRock",
     "id": 28150,
     "consoleId": 37,
@@ -1361,6 +1409,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Xyphoe's Nightmare",
+    "id": 37678,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4f89fadc7312bf9b622c3f81c194f4f5"
+    ]
+  },
+  {
     "title": "~Prototype~ Frogger",
     "id": 22041,
     "consoleId": 37,
@@ -1389,6 +1452,19 @@
     "hashes": [
       "381e50c8bdaf31bcd6e254ebc842793d"
     ]
+  },
+  {
+    "title": "~Z~ No Hash 37784",
+    "id": 37784,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
   },
   {
     "title": "007: A View to a Kill",
@@ -1914,7 +1990,7 @@
     "numAchievements": 16,
     "numLeaderboards": 2,
     "points": 138,
-    "dateModified": "2025-05-31 09:19:28",
+    "dateModified": "2025-09-05 19:05:21",
     "forumTopicId": 30877,
     "hashes": [
       "7bc8b730e3776e565816e2cfd7b9fc63"
@@ -1970,7 +2046,7 @@
     "id": 29168,
     "consoleId": 37,
     "consoleName": "Amstrad CPC",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119617.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -2065,7 +2141,7 @@
     "numAchievements": 44,
     "numLeaderboards": 1,
     "points": 405,
-    "dateModified": "2025-07-29 01:04:23",
+    "dateModified": "2025-11-13 20:37:57",
     "forumTopicId": 31399,
     "hashes": [
       "7034aac069febf8ee81732cb1e9e9854"
@@ -2167,7 +2243,7 @@
     "id": 32175,
     "consoleId": 37,
     "consoleName": "Amstrad CPC",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119075.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -2215,7 +2291,7 @@
     "id": 32180,
     "consoleId": 37,
     "consoleName": "Amstrad CPC",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119629.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -2258,6 +2334,21 @@
     ]
   },
   {
+    "title": "Ball Bearing",
+    "id": 36309,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0408709c81781f17eaffe99d67abb82a"
+    ]
+  },
+  {
     "title": "Bangers & Mash",
     "id": 28851,
     "consoleId": 37,
@@ -2270,6 +2361,52 @@
     "forumTopicId": null,
     "hashes": [
       "5602f4d0f5adab9f43328bb934477766"
+    ]
+  },
+  {
+    "title": "Barbarian (Melbourne House)",
+    "id": 37632,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "67499de45c7c1dae4bac2f8b605a7fb6"
+    ]
+  },
+  {
+    "title": "Barbarian (Palace Software)",
+    "id": 37630,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9a28c6fafebb2a6a68411af5257c84fa",
+      "b0834e82cdd18c09aa20cdd8493a2ddc"
+    ]
+  },
+  {
+    "title": "Barbarian II",
+    "id": 37631,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2ee482cb3132749a081914c6bc027f75"
     ]
   },
   {
@@ -2535,6 +2672,36 @@
     ]
   },
   {
+    "title": "Bomb Jack",
+    "id": 37633,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fa6b5caecbe1267af30c4a8a14efeb03"
+    ]
+  },
+  {
+    "title": "Bomb Jack II",
+    "id": 37634,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5521fd460fe35d0e95714af047357755"
+    ]
+  },
+  {
     "title": "Bonanza Bros.",
     "id": 31517,
     "consoleId": 37,
@@ -2734,12 +2901,12 @@
     "id": 32188,
     "consoleId": 37,
     "consoleName": "Amstrad CPC",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/121687.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 2,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2025-12-29 23:37:21",
+    "forumTopicId": 33608,
     "hashes": [
       "1cf0f253354c82db6a3361038e2bedb1"
     ]
@@ -2790,6 +2957,22 @@
     ]
   },
   {
+    "title": "Bunny Bricks",
+    "id": 36261,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4314b2a7239f1a414c5d922ac8a68c02",
+      "25d34911f7a2b4d333fe03d21c2c623d"
+    ]
+  },
+  {
     "title": "By Fair Means or Foul",
     "id": 27453,
     "consoleId": 37,
@@ -2802,6 +2985,22 @@
     "forumTopicId": null,
     "hashes": [
       "6e27f1a7bd94bde8babcca8355ad63ef"
+    ]
+  },
+  {
+    "title": "Camelot Warriors",
+    "id": 35045,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/122923.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c74b904abf42e1359815633f090e5237",
+      "36471213bff0b3411267d62bfb2e3ded"
     ]
   },
   {
@@ -2847,6 +3046,21 @@
     "forumTopicId": null,
     "hashes": [
       "a0be4f5224070cc0c44200818b8d55c4"
+    ]
+  },
+  {
+    "title": "Carlos Sainz",
+    "id": 34920,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/120168.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c5c1c4aae7927c62358ac57d9432b7eb"
     ]
   },
   {
@@ -3062,6 +3276,22 @@
     ]
   },
   {
+    "title": "Clive Barker's Nightbreed: The Action Game",
+    "id": 36361,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "89d73ff2e4c5588196efacaa33e55839",
+      "d91b7aae9d6f7205ffeda04064abab0c"
+    ]
+  },
+  {
     "title": "Cobra (Cobra Soft)",
     "id": 27610,
     "consoleId": 37,
@@ -3179,6 +3409,21 @@
     "forumTopicId": null,
     "hashes": [
       "7b2de87e7dba4d5a49e2c6f953086427"
+    ]
+  },
+  {
+    "title": "Croco Magneto",
+    "id": 36308,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5c6ac4849933bc1a591c0ed6afa17ce1"
     ]
   },
   {
@@ -3418,7 +3663,7 @@
     "numAchievements": 27,
     "numLeaderboards": 2,
     "points": 200,
-    "dateModified": "2025-03-04 19:54:02",
+    "dateModified": "2025-12-31 12:28:52",
     "forumTopicId": 29500,
     "hashes": [
       "c18827bfd5ba0185702128e7f332c67c",
@@ -3438,6 +3683,21 @@
     "forumTopicId": 21365,
     "hashes": [
       "53072d49672e0da90432f0983dbc6210"
+    ]
+  },
+  {
+    "title": "Dodgy Geezers",
+    "id": 36196,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "51e51d0568062a9e885e4b4303a2afc6"
     ]
   },
   {
@@ -3471,6 +3731,21 @@
       "050183a50d89a49413023ed6af8bad2a",
       "11762738AB3C38F786DFB91F0B714948",
       "987ba629589479aceac0712f2e5526c0"
+    ]
+  },
+  {
+    "title": "Doomdark's Revenge",
+    "id": 36197,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4a048b2518eb4f0cca1eb00e43b518ea"
     ]
   },
   {
@@ -3565,6 +3840,22 @@
     ]
   },
   {
+    "title": "Dynamite Düx",
+    "id": 36516,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a1390ea6a2387244dd024a5d4e096929",
+      "da4175e79d6bc4aef47475ee0a62c307"
+    ]
+  },
+  {
     "title": "Emlyn Hughes International Soccer",
     "id": 28843,
     "consoleId": 37,
@@ -3607,6 +3898,21 @@
     "forumTopicId": null,
     "hashes": [
       "d24d4a8c08f27bdd5497cbbbc5510abe"
+    ]
+  },
+  {
+    "title": "Feud",
+    "id": 36199,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "230e822df57f39ef1e621454e26219f6"
     ]
   },
   {
@@ -3655,6 +3961,66 @@
     ]
   },
   {
+    "title": "Football Manager",
+    "id": 37355,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "15323524424f9bf29c322606b277cddf"
+    ]
+  },
+  {
+    "title": "Football Manager 2",
+    "id": 37356,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d87dc3d8cc89192e0caf2564a947853a"
+    ]
+  },
+  {
+    "title": "Football Manager 3",
+    "id": 37357,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e92ab053cc02d326ae3243fec49cc24a"
+    ]
+  },
+  {
+    "title": "Football Manager: World Cup Edition",
+    "id": 37358,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fdfcf3b20c8cead90b36b3ee32542c38"
+    ]
+  },
+  {
     "title": "Frankenstein",
     "id": 32199,
     "consoleId": 37,
@@ -3697,6 +4063,21 @@
     "forumTopicId": null,
     "hashes": [
       "d8973342d48e12efd13aa478e19bab08"
+    ]
+  },
+  {
+    "title": "Fruity Frank",
+    "id": 37635,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a47dc9322e60d3b59882495dc847a9f6"
     ]
   },
   {
@@ -3757,6 +4138,22 @@
     "forumTopicId": null,
     "hashes": [
       "9170780883567ddb11a4e8a84d510e36"
+    ]
+  },
+  {
+    "title": "Gauntlet III: The Final Quest",
+    "id": 36635,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "246c385bca354681370c6358c7beaeee",
+      "dd2894071640545e0ac6b6f7d3c2ca7c"
     ]
   },
   {
@@ -3835,6 +4232,22 @@
     ]
   },
   {
+    "title": "Gnome Ranger",
+    "id": 37359,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7850d3a9f549b8f8f3245f8aae8f91a3",
+      "80189675b5d4ce5128011f0a846b4fb5"
+    ]
+  },
+  {
     "title": "Gothik",
     "id": 23989,
     "consoleId": 37,
@@ -3843,10 +4256,40 @@
     "numAchievements": 28,
     "numLeaderboards": 2,
     "points": 175,
-    "dateModified": "2023-07-11 18:46:45",
+    "dateModified": "2025-11-16 19:55:48",
     "forumTopicId": 21263,
     "hashes": [
       "1a7d67203b81dc0dd9928225867ca285"
+    ]
+  },
+  {
+    "title": "Grange Hill",
+    "id": 36360,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "233136779f1a9c608e58adfb73513b36"
+    ]
+  },
+  {
+    "title": "Green Beret",
+    "id": 37636,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1097cb604930c136634d4e8219e3360f"
     ]
   },
   {
@@ -3888,11 +4331,26 @@
     "numAchievements": 20,
     "numLeaderboards": 2,
     "points": 200,
-    "dateModified": "2022-03-09 13:59:39",
+    "dateModified": "2025-09-06 20:28:02",
     "forumTopicId": 15571,
     "hashes": [
       "4a27e83a02039014fda1552c3c53e932",
       "bf70f0893459a1b25a917f953c8dc6ee"
+    ]
+  },
+  {
+    "title": "Guzzler",
+    "id": 37606,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/122208.png",
+    "numAchievements": 12,
+    "numLeaderboards": 3,
+    "points": 131,
+    "dateModified": "2026-01-22 19:37:33",
+    "forumTopicId": 33735,
+    "hashes": [
+      "6405c587ca920db57c06c51f34bc7cc4"
     ]
   },
   {
@@ -3949,7 +4407,7 @@
     "numAchievements": 50,
     "numLeaderboards": 0,
     "points": 305,
-    "dateModified": "2025-04-10 13:17:42",
+    "dateModified": "2025-11-11 10:58:18",
     "forumTopicId": 28673,
     "hashes": [
       "2bec802cafd431812cbe1fe337a4bf92",
@@ -3986,6 +4444,22 @@
     "forumTopicId": null,
     "hashes": [
       "39bf896847f9a4a5e07a79114aae7959"
+    ]
+  },
+  {
+    "title": "Hostages: Operation Jupiter",
+    "id": 37637,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7c03a55d66efe3c13e224ed8da4c7e02",
+      "df9f64bd18fb8cc81c40e15a14e22e97"
     ]
   },
   {
@@ -4078,6 +4552,21 @@
     "forumTopicId": null,
     "hashes": [
       "72a3749a5b4c1dafe9fc7326cf6150a1"
+    ]
+  },
+  {
+    "title": "Impossible Mission II",
+    "id": 36356,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "22bd2503c78b1154edefa0541335a373"
     ]
   },
   {
@@ -4191,6 +4680,22 @@
     ]
   },
   {
+    "title": "Jinxter",
+    "id": 37361,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3ad09b7f1c8f6755877be53b1872f19d",
+      "2fed6d82926a305ddda05e94d799c38d"
+    ]
+  },
+  {
     "title": "Jonny Quest in Doctor Zin's Underworld",
     "id": 32213,
     "consoleId": 37,
@@ -4251,6 +4756,21 @@
     ]
   },
   {
+    "title": "Kick Off",
+    "id": 37362,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7e7c8a3deffc38d6e932a80360315d33"
+    ]
+  },
+  {
     "title": "Klax",
     "id": 14348,
     "consoleId": 37,
@@ -4272,13 +4792,29 @@
     "consoleId": 37,
     "consoleName": "Amstrad CPC",
     "imageIcon": "/Images/057078.png",
+    "numAchievements": 22,
+    "numLeaderboards": 4,
+    "points": 195,
+    "dateModified": "2025-12-31 12:07:23",
+    "forumTopicId": 32603,
+    "hashes": [
+      "94ae9fcd00bf058171eb30bdf646e8e7"
+    ]
+  },
+  {
+    "title": "Knight Orc",
+    "id": 37360,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "94ae9fcd00bf058171eb30bdf646e8e7"
+      "b23753e6d50a61e5b49f6b779e2ddc7b",
+      "0e6c4ca0bcc1a2257ced0a9a76fe6a6d"
     ]
   },
   {
@@ -4324,6 +4860,22 @@
     "forumTopicId": null,
     "hashes": [
       "862dc3709a8f794d11820e5ce647ead4"
+    ]
+  },
+  {
+    "title": "La Chose de Grotemburg",
+    "id": 9673,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b216fdfd61119268501ce82d9a54fae9",
+      "81489ff8e4c2aee68bd595656c2a7324"
     ]
   },
   {
@@ -4384,6 +4936,22 @@
     "forumTopicId": null,
     "hashes": [
       "13426a539b3617cad14eec7f00c669d9"
+    ]
+  },
+  {
+    "title": "Le Manoir de Mortville",
+    "id": 9475,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "70dd2a927034226293848293f6a4527d",
+      "1a20a76559012fbec964452bdbac00cd"
     ]
   },
   {
@@ -4634,6 +5202,21 @@
     ]
   },
   {
+    "title": "Mercenary",
+    "id": 37364,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1f5905a036f3e8526cd5b1fc5be95857"
+    ]
+  },
+  {
     "title": "Mercs",
     "id": 20598,
     "consoleId": 37,
@@ -4694,6 +5277,21 @@
     ]
   },
   {
+    "title": "Mikie",
+    "id": 36359,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f2f88a6dd0872c80c113028dc8ad9273"
+    ]
+  },
+  {
     "title": "Monopoly",
     "id": 32218,
     "consoleId": 37,
@@ -4741,8 +5339,8 @@
     ]
   },
   {
-    "title": "Mortville Manor",
-    "id": 9475,
+    "title": "Movie",
+    "id": 37365,
     "consoleId": 37,
     "consoleName": "Amstrad CPC",
     "imageIcon": "/Images/000001.png",
@@ -4751,7 +5349,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "e55169769cd16b03c4a5e43734e10274"
+    ]
   },
   {
     "title": "Munch-It",
@@ -4766,6 +5366,21 @@
     "forumTopicId": null,
     "hashes": [
       "7515dca8cf08a0a45efcab475be74ca6"
+    ]
+  },
+  {
+    "title": "Navy Moves",
+    "id": 37639,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f3570a26ed5f8a22e2569ab6293ed365"
     ]
   },
   {
@@ -4860,6 +5475,22 @@
     ]
   },
   {
+    "title": "North & South",
+    "id": 37366,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0869365ae60f6461acba6d213a30e1d8",
+      "26037e37963854a8d06ee2b5135a8798"
+    ]
+  },
+  {
     "title": "Nosferatu the Vampyre",
     "id": 32221,
     "consoleId": 37,
@@ -4887,6 +5518,21 @@
     "forumTopicId": null,
     "hashes": [
       "bf580ce78b54cd106d99339b614c5959"
+    ]
+  },
+  {
+    "title": "Pac-Land",
+    "id": 36371,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "af6ab0ceeabf4d043f14e8f8b8f80b2a"
     ]
   },
   {
@@ -4947,6 +5593,22 @@
     "forumTopicId": null,
     "hashes": [
       "88160045b336e27677fb9706bfeaed7c"
+    ]
+  },
+  {
+    "title": "Peur Sur Amityville",
+    "id": 9646,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f83a51c7636f69ae89c4bf8a66fff4e5",
+      "fd5ba326b51b28f4da11e6a830965bfd"
     ]
   },
   {
@@ -5116,6 +5778,36 @@
     ]
   },
   {
+    "title": "Potsworth & Co.",
+    "id": 36260,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "26ebe76b94ef9aab36be7965a3038172"
+    ]
+  },
+  {
+    "title": "Powerplay: Game of the Gods",
+    "id": 37368,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9858c85cfd95c4a987c253c054153f73"
+    ]
+  },
+  {
     "title": "Predator",
     "id": 23984,
     "consoleId": 37,
@@ -5208,6 +5900,21 @@
     ]
   },
   {
+    "title": "Pub Trivia",
+    "id": 37369,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8bf1eabab9b1c942fb23260129b28d1d"
+    ]
+  },
+  {
     "title": "Purple Saturn Day",
     "id": 9504,
     "consoleId": 37,
@@ -5280,6 +5987,21 @@
     "forumTopicId": null,
     "hashes": [
       "2bd0a040e4a98016fa1421e8c91478fc"
+    ]
+  },
+  {
+    "title": "Ranarama",
+    "id": 37376,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0fa12037cb7babe53f0ba2f9a87c4c50"
     ]
   },
   {
@@ -5440,19 +6162,6 @@
     ]
   },
   {
-    "title": "RoboCop 2",
-    "id": 9646,
-    "consoleId": 37,
-    "consoleName": "Amstrad CPC",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
     "title": "Rock 'n Roller",
     "id": 22912,
     "consoleId": 37,
@@ -5465,6 +6174,22 @@
     "forumTopicId": null,
     "hashes": [
       "7e907c5a05dc9a64ab250a8fa1d34e34"
+    ]
+  },
+  {
+    "title": "Rod-Land",
+    "id": 36357,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3371d033baa1a1d768ccfe7ad2f9465a",
+      "456cb4072bdf3afc9c4636e5e10e4622"
     ]
   },
   {
@@ -5532,7 +6257,7 @@
     "id": 27543,
     "consoleId": 37,
     "consoleName": "Amstrad CPC",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119079.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -5817,6 +6542,36 @@
     ]
   },
   {
+    "title": "Shufflepuck Cafe",
+    "id": 36869,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "cc969ef3eb2eb319b43ab406f808a824"
+    ]
+  },
+  {
+    "title": "Silicon Dreams",
+    "id": 37372,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "516c90254e2f9d65b89e241ca6a2221d"
+    ]
+  },
+  {
     "title": "Silkworm",
     "id": 25085,
     "consoleId": 37,
@@ -5895,6 +6650,21 @@
     ]
   },
   {
+    "title": "Skateball",
+    "id": 37638,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "82346f627b57ad998d6f02b626e35a13"
+    ]
+  },
+  {
     "title": "Skweek",
     "id": 22913,
     "consoleId": 37,
@@ -5907,6 +6677,21 @@
     "forumTopicId": null,
     "hashes": [
       "f1de0562ec308bb620b854e6a6369733"
+    ]
+  },
+  {
+    "title": "Sliders",
+    "id": 36470,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4cdb2c3d3da352ab1bc8696d96a81586"
     ]
   },
   {
@@ -6105,6 +6890,21 @@
     ]
   },
   {
+    "title": "Stationfall",
+    "id": 37373,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f0f5a8a226f267697e1ec0f56b8649e8"
+    ]
+  },
+  {
     "title": "Steve McQueen: Westphaser",
     "id": 32246,
     "consoleId": 37,
@@ -6166,6 +6966,21 @@
     ]
   },
   {
+    "title": "Super Cars",
+    "id": 37374,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2f8aaf078cb9ad6d9f24d08b8d3ea23f"
+    ]
+  },
+  {
     "title": "Super Monaco GP",
     "id": 25876,
     "consoleId": 37,
@@ -6193,6 +7008,21 @@
     "forumTopicId": null,
     "hashes": [
       "2c5d1fc556ec5c8e0adad1dd703d4ae2"
+    ]
+  },
+  {
+    "title": "Super Sprint",
+    "id": 37375,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bf80bd20fedad7866d61755faa4231fc"
     ]
   },
   {
@@ -6362,6 +7192,21 @@
     "hashes": [
       "48ff57d8a7730c6e6e122a9c6170c5bb",
       "2001f1cfc0b240012ff7e9a44a2787e9"
+    ]
+  },
+  {
+    "title": "Terrormolinos",
+    "id": 37377,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ff26dd852e48c57e8bfb39a6ba3d8aa3"
     ]
   },
   {
@@ -6718,6 +7563,22 @@
     ]
   },
   {
+    "title": "The Pawn",
+    "id": 37367,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "93590ad02504f2da40d3c44d5b5af4c0",
+      "f5ad360fc5ca64e8bf328b98304a47ea"
+    ]
+  },
+  {
     "title": "The Real Ghostbusters",
     "id": 32230,
     "consoleId": 37,
@@ -6765,11 +7626,56 @@
     ]
   },
   {
+    "title": "The Sacred Armour of Antiriad",
+    "id": 37370,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "29886d283e3ae86741266a7ad5ad5b2b"
+    ]
+  },
+  {
+    "title": "The Saga of Erik the Viking",
+    "id": 36198,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0ece5b28f40e4d387ebf3ea88023c077"
+    ]
+  },
+  {
+    "title": "The Secret Diary of Adrian Mole",
+    "id": 37371,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "dbf70b6ef8102fac01453cb933ac9011"
+    ]
+  },
+  {
     "title": "The Sentinel",
     "id": 9572,
     "consoleId": 37,
     "consoleName": "Amstrad CPC",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/123712.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -6794,19 +7700,6 @@
       "843d47b8560b62d8c4972a90409263c9",
       "2c70d33ee3d0effefa434e311330b59a"
     ]
-  },
-  {
-    "title": "The Thing from Grotemburg",
-    "id": 9673,
-    "consoleId": 37,
-    "consoleName": "Amstrad CPC",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
   },
   {
     "title": "The Untouchables",
@@ -6840,6 +7733,21 @@
     ]
   },
   {
+    "title": "The Young Ones",
+    "id": 37385,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e8c7ffaa88338ce6c9a36f92fab54de6"
+    ]
+  },
+  {
     "title": "Thomas the Tank Engine & Friends",
     "id": 18816,
     "consoleId": 37,
@@ -6870,6 +7778,51 @@
     ]
   },
   {
+    "title": "Three Weeks in Paradise",
+    "id": 37378,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5f63070820333aa9a42f71b189db3566"
+    ]
+  },
+  {
+    "title": "Through the Trap Door",
+    "id": 37379,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "27536b3b20ddd1f6f830ef853ca53fa0"
+    ]
+  },
+  {
+    "title": "Thrust",
+    "id": 37380,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ab532c894cc3f1c8d4f53ecbdc0b0dbb"
+    ]
+  },
+  {
     "title": "Thundercats: The Lost Eye of Thundera",
     "id": 32251,
     "consoleId": 37,
@@ -6885,6 +7838,22 @@
     ]
   },
   {
+    "title": "Time and Magik Trilogy",
+    "id": 37363,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7993a2c728789267eeccb591441a1f58",
+      "ce067f1bd1fc246a451ccbf4a74d3f72"
+    ]
+  },
+  {
     "title": "Tintin on the Moon",
     "id": 32252,
     "consoleId": 37,
@@ -6897,6 +7866,21 @@
     "forumTopicId": null,
     "hashes": [
       "f388f30de9ee9cba7072a1a9cef0bf6e"
+    ]
+  },
+  {
+    "title": "Tir Na Nog",
+    "id": 37381,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "62b521a9cfd9aebf8800cc623a011850"
     ]
   },
   {
@@ -7020,6 +8004,22 @@
     ]
   },
   {
+    "title": "Turbo Esprit",
+    "id": 34921,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f3233e73036d438ac57f28097f34fc77",
+      "7dc6eed157ce5eb34dc051ae80f079cd"
+    ]
+  },
+  {
     "title": "Turbo the Tortoise",
     "id": 20056,
     "consoleId": 37,
@@ -7035,6 +8035,22 @@
     ]
   },
   {
+    "title": "UN Squadron",
+    "id": 35186,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "846412864b03d7fff47eee0cfdde7be6",
+      "8017a9b04c4b46b32a376ad18ae11d7d"
+    ]
+  },
+  {
     "title": "Vector Ball",
     "id": 25582,
     "consoleId": 37,
@@ -7047,6 +8063,22 @@
     "forumTopicId": null,
     "hashes": [
       "d31889fda9f749fb701ee0224668d5bf"
+    ]
+  },
+  {
+    "title": "Viz: The Computer Game",
+    "id": 37382,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "828f4e397e52647a08f43375e0497c11",
+      "7f2f639346182032e4083864cbd6b214"
     ]
   },
   {
@@ -7200,6 +8232,22 @@
     ]
   },
   {
+    "title": "Windsurf Willy",
+    "id": 36262,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "707bf8b2d7ab6ec68252e15e51bed0f5",
+      "88ccbfce48cb284ebe2cbd9581749078"
+    ]
+  },
+  {
     "title": "Wolfman",
     "id": 32259,
     "consoleId": 37,
@@ -7258,7 +8306,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "39bdae9cb46871fc41ad1413b59e8305"
+    ]
   },
   {
     "title": "Xeno",
@@ -7288,6 +8338,21 @@
     "forumTopicId": null,
     "hashes": [
       "eea01c6b96555671dda6d76d7743a3bd"
+    ]
+  },
+  {
+    "title": "XOR",
+    "id": 37383,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bdb9b97dd96163e10e17c7263fb54a38"
     ]
   },
   {
@@ -7337,7 +8402,23 @@
     ]
   },
   {
-    "title": "Yie Ar Kung-Fu II",
+    "title": "Yes, Prime Minister",
+    "id": 37384,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "87160dc3f37954ebd0982d4e20360289",
+      "9d95b7a40e891dbcb4af7b7e23967179"
+    ]
+  },
+  {
+    "title": "Yie Ar Kung-Fu",
     "id": 22937,
     "consoleId": 37,
     "consoleName": "Amstrad CPC",
@@ -7349,6 +8430,21 @@
     "forumTopicId": null,
     "hashes": [
       "aff19a45938ecfadf2c348216a1a4d37"
+    ]
+  },
+  {
+    "title": "Yie Ar Kung-Fu II",
+    "id": 36868,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "08326d0b6982e6795f6d2e9b5244a3f1"
     ]
   },
   {
@@ -7424,6 +8520,22 @@
     "forumTopicId": null,
     "hashes": [
       "e20a280f64196e58241e0adbce38d6f7"
+    ]
+  },
+  {
+    "title": "Zombi",
+    "id": 35288,
+    "consoleId": 37,
+    "consoleName": "Amstrad CPC",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "394a392ac56480480177efcd0d43e85d",
+      "198418206b90351f5c0201cb50eac5cc"
     ]
   },
   {

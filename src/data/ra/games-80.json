@@ -529,12 +529,12 @@
     "id": 24731,
     "consoleId": 80,
     "consoleName": "Uzebox",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/121507.png",
+    "numAchievements": 12,
+    "numLeaderboards": 1,
+    "points": 152,
+    "dateModified": "2025-12-14 20:15:53",
+    "forumTopicId": 33532,
     "hashes": [
       "991e6c0b0bb37eea3010fc3dc77a4f7e"
     ]
@@ -1100,14 +1100,14 @@
     "id": 30696,
     "consoleId": 80,
     "consoleName": "Uzebox",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/122306.png",
+    "numAchievements": 13,
+    "numLeaderboards": 2,
+    "points": 100,
+    "dateModified": "2026-01-18 21:43:27",
+    "forumTopicId": 33799,
     "hashes": [
-      "68000697c1e930ee26f0f1a7c601fdb1"
+      "ed366e0950fac5db8cda44fc15a22393"
     ]
   },
   {
@@ -1325,12 +1325,12 @@
     "id": 27961,
     "consoleId": 80,
     "consoleName": "Uzebox",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/121391.png",
+    "numAchievements": 60,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "points": 376,
+    "dateModified": "2025-12-08 19:50:37",
+    "forumTopicId": 33443,
     "hashes": [
       "c98854e5d947a169193fb0c6368ce244"
     ]
@@ -1445,7 +1445,7 @@
     "id": 24777,
     "consoleId": 80,
     "consoleName": "Uzebox",
-    "imageIcon": "/Images/076605.png",
+    "imageIcon": "/Images/119611.png",
     "numAchievements": 20,
     "numLeaderboards": 2,
     "points": 195,
@@ -1651,7 +1651,7 @@
     ]
   },
   {
-    "title": "Vector Game | Asteroids",
+    "title": "Vector Game",
     "id": 24787,
     "consoleId": 80,
     "consoleName": "Uzebox",

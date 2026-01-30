@@ -8,7 +8,7 @@
     "numAchievements": 14,
     "numLeaderboards": 3,
     "points": 92,
-    "dateModified": "2024-07-19 05:54:34",
+    "dateModified": "2025-11-17 21:41:51",
     "forumTopicId": 14216,
     "hashes": [
       "f3349305b47dec32eb9b6b2416f5382e"
@@ -57,6 +57,36 @@
     "forumTopicId": null,
     "hashes": [
       "3b153a6a83a549b44ffa8ca8f138e161"
+    ]
+  },
+  {
+    "title": "~Homebrew~ ~Demo~ HELLSLAVE",
+    "id": 37134,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bf87d3f0d9d69ab9f1442e579fd7feed"
+    ]
+  },
+  {
+    "title": "~Homebrew~ ~Demo~ IRRÉEL",
+    "id": 37195,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "6c9f4d320e14c0a1dce18aa22e427899"
     ]
   },
   {
@@ -358,7 +388,7 @@
     "numAchievements": 52,
     "numLeaderboards": 26,
     "points": 415,
-    "dateModified": "2024-04-27 11:24:10",
+    "dateModified": "2025-09-30 20:50:59",
     "forumTopicId": 23730,
     "hashes": [
       "862958e9229b0ee26ddeea01fbf6d8e2"
@@ -456,6 +486,36 @@
     ]
   },
   {
+    "title": "Air Management '96",
+    "id": 36207,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f2c3086b92dfae99ce31a4cda191cb26"
+    ]
+  },
+  {
+    "title": "Airs Adventure",
+    "id": 37203,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "718cbcfab696d3d81b0a75afe08bfdc5"
+    ]
+  },
+  {
     "title": "Akumajou Dracula X: Gekka no Yasoukyoku",
     "id": 14514,
     "consoleId": 39,
@@ -467,9 +527,7 @@
     "dateModified": "2025-06-03 08:50:18",
     "forumTopicId": 10871,
     "hashes": [
-      "b38060f45ab282ea629c91d630f81422",
-      "19410380dcda0b770bd766836ce9f032",
-      "eb35b47de3ddc35bd94ac196daea689a"
+      "b38060f45ab282ea629c91d630f81422"
     ]
   },
   {
@@ -503,17 +561,19 @@
     ]
   },
   {
-    "title": "Alien Trilogy [Subset - Bonus]",
-    "id": 28172,
+    "title": "All-Star Baseball 97 featuring Frank Thomas",
+    "id": 36166,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/087740.png",
+    "imageIcon": "/Images/000001.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": 24982,
-    "hashes": []
+    "forumTopicId": null,
+    "hashes": [
+      "5be168cc5e492944dd044ea779bf6fdb"
+    ]
   },
   {
     "title": "Alone in the Dark: One-Eyed Jack's Revenge",
@@ -606,7 +666,7 @@
     ]
   },
   {
-    "title": "Arcade Gears Vol. 1: Pu-Li-Ru-La [Subset - Multi]",
+    "title": "Arcade Gears Vol. 1: Pu-Li-Ru-La [Subset - Multiplayer]",
     "id": 28322,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -817,6 +877,22 @@
     ]
   },
   {
+    "title": "Atlantis: The Lost Tales",
+    "id": 34919,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c18297b6c67f3c2291e3a214544e4ec3",
+      "62f25dc8fb7ca7b59c7cbcf92e6b8d9c"
+    ]
+  },
+  {
     "title": "Baku Baku Animal: World Zookeeper Contest",
     "id": 14523,
     "consoleId": 39,
@@ -832,15 +908,30 @@
     ]
   },
   {
+    "title": "Baldy Land",
+    "id": 35277,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "443070b50069cb8d973d41431c8cf51b"
+    ]
+  },
+  {
     "title": "Baroque",
     "id": 14534,
     "consoleId": 39,
     "consoleName": "Saturn",
     "imageIcon": "/Images/081404.png",
-    "numAchievements": 54,
+    "numAchievements": 72,
     "numLeaderboards": 0,
-    "points": 321,
-    "dateModified": "2023-08-31 00:30:24",
+    "points": 493,
+    "dateModified": "2026-01-21 04:38:41",
     "forumTopicId": 23045,
     "hashes": [
       "9a61a47419b731e3d867da69be3b33e2"
@@ -942,13 +1033,43 @@
     "consoleId": 39,
     "consoleName": "Saturn",
     "imageIcon": "/Images/104040.png",
+    "numAchievements": 28,
+    "numLeaderboards": 0,
+    "points": 176,
+    "dateModified": "2025-11-29 08:47:30",
+    "forumTopicId": 33065,
+    "hashes": [
+      "1bf9745f0092fdf7f8cad3f75081f121"
+    ]
+  },
+  {
+    "title": "Battle Stations",
+    "id": 37587,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "1bf9745f0092fdf7f8cad3f75081f121"
+      "7b486cb940fe73ce1d4dc82f35ee5010"
+    ]
+  },
+  {
+    "title": "BattleSport",
+    "id": 37580,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "73ff95bda0cdcf2d11c9931c0e655836"
     ]
   },
   {
@@ -1020,7 +1141,7 @@
     "numAchievements": 27,
     "numLeaderboards": 4,
     "points": 380,
-    "dateModified": "2025-01-22 19:38:14",
+    "dateModified": "2025-09-01 16:50:16",
     "forumTopicId": 22164,
     "hashes": [
       "b9c8a2a842636bb211fe114d4fc27344"
@@ -1068,7 +1189,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33617,
     "hashes": [
       "9a7949e6b598f6b107414f497aebcf73"
     ]
@@ -1086,6 +1207,36 @@
     "forumTopicId": null,
     "hashes": [
       "d4792c2fca4c501b7b13d6d15e861a6a"
+    ]
+  },
+  {
+    "title": "Bottom of the 9th",
+    "id": 36605,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4925997062b7a8d7705bfd3a8c07f7a1"
+    ]
+  },
+  {
+    "title": "Brain Dead 13",
+    "id": 35037,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "56af7ef7adc2f16584bd1d96a8eca216"
     ]
   },
   {
@@ -1153,7 +1304,7 @@
     "id": 14520,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/041169.png",
+    "imageIcon": "/Images/120215.png",
     "numAchievements": 30,
     "numLeaderboards": 7,
     "points": 420,
@@ -1171,8 +1322,8 @@
     "imageIcon": "/Images/052110.png",
     "numAchievements": 33,
     "numLeaderboards": 2,
-    "points": 426,
-    "dateModified": "2023-05-01 08:15:29",
+    "points": 466,
+    "dateModified": "2025-11-12 01:48:32",
     "forumTopicId": 14870,
     "hashes": [
       "173eb41e4c5416c59d823c8d30fb7e99",
@@ -1477,7 +1628,7 @@
     "numAchievements": 63,
     "numLeaderboards": 5,
     "points": 420,
-    "dateModified": "2023-10-10 10:14:21",
+    "dateModified": "2025-11-10 20:41:45",
     "forumTopicId": 10918,
     "hashes": [
       "80dccad3059a876ffe698c06f57f6c2e"
@@ -1511,6 +1662,21 @@
     "forumTopicId": null,
     "hashes": [
       "303abb3b5268c365130674bd43a7ce52"
+    ]
+  },
+  {
+    "title": "College Slam",
+    "id": 36604,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e657022f34d831df875c96973deb0741"
     ]
   },
   {
@@ -1607,7 +1773,7 @@
     ]
   },
   {
-    "title": "Cotton 2: Magical Night Dreams [Subset - Multi]",
+    "title": "Cotton 2: Magical Night Dreams [Subset - Multiplayer]",
     "id": 29068,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -1626,7 +1792,7 @@
     "id": 2129,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/080025.png",
+    "imageIcon": "/Images/118009.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1702,11 +1868,11 @@
     "id": 8849,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/098668.png",
+    "imageIcon": "/Images/121735.png",
     "numAchievements": 83,
     "numLeaderboards": 0,
     "points": 776,
-    "dateModified": "2025-06-23 05:06:58",
+    "dateModified": "2025-09-06 19:55:25",
     "forumTopicId": 17380,
     "hashes": [
       "068946371d4a8944c86260fcbed2a7b8",
@@ -1772,6 +1938,37 @@
     "forumTopicId": null,
     "hashes": [
       "8d834ba49c73ff1398a60cd6ae40c29f"
+    ]
+  },
+  {
+    "title": "Culdcept",
+    "id": 36877,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "66ddafa17d5e5283a998a367391b645e",
+      "a901adde24da2170856d153c588f16c4"
+    ]
+  },
+  {
+    "title": "Cyber Doll",
+    "id": 36878,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b28f8a598daef6642279d5b233d9f4f5"
     ]
   },
   {
@@ -1935,7 +2132,7 @@
     "numAchievements": 100,
     "numLeaderboards": 0,
     "points": 840,
-    "dateModified": "2024-09-17 22:50:12",
+    "dateModified": "2025-09-26 22:14:02",
     "forumTopicId": 25957,
     "hashes": [
       "7c1c80d893e2a585a1d30374d035c1d0"
@@ -2048,6 +2245,21 @@
     ]
   },
   {
+    "title": "Death Throttle: Kakuzetsu Toshi kara no Dasshutsu",
+    "id": 36181,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "16d9f6d28ede07c2474c3054f8e0d683"
+    ]
+  },
+  {
     "title": "DeathMask",
     "id": 25771,
     "consoleId": 39,
@@ -2088,7 +2300,7 @@
     "numAchievements": 57,
     "numLeaderboards": 3,
     "points": 341,
-    "dateModified": "2025-08-27 00:34:20",
+    "dateModified": "2025-11-27 02:04:30",
     "forumTopicId": 12162,
     "hashes": [
       "0cb84f8a21db4b965d432445ae485c8b",
@@ -2118,10 +2330,10 @@
     "consoleId": 39,
     "consoleName": "Saturn",
     "imageIcon": "/Images/028889.png",
-    "numAchievements": 21,
+    "numAchievements": 20,
     "numLeaderboards": 20,
     "points": 40,
-    "dateModified": "2019-12-30 06:27:44",
+    "dateModified": "2025-09-21 22:25:09",
     "forumTopicId": 9830,
     "hashes": [
       "f7ddb753673e55b6b952da7f729e8e8c"
@@ -2133,10 +2345,10 @@
     "consoleId": 39,
     "consoleName": "Saturn",
     "imageIcon": "/Images/028890.png",
-    "numAchievements": 21,
+    "numAchievements": 20,
     "numLeaderboards": 0,
     "points": 50,
-    "dateModified": "2023-09-09 14:44:43",
+    "dateModified": "2025-09-07 16:50:37",
     "forumTopicId": 9864,
     "hashes": [
       "d8ad98ff399147de3e62ffff20a2bb13"
@@ -2188,6 +2400,22 @@
     ]
   },
   {
+    "title": "Desire",
+    "id": 36438,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "74fb50b64d612034032e46e07497b6ec",
+      "cd6f8edce5a28473b3cc8375dea91c4f"
+    ]
+  },
+  {
     "title": "Detana!! TwinBee Yahho! Deluxe Pack",
     "id": 4952,
     "consoleId": 39,
@@ -2218,11 +2446,26 @@
     ]
   },
   {
-    "title": "Die Hard Arcade | Dynamite Deka",
+    "title": "Dezaemon 2",
+    "id": 36226,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0c603d481e4f79d330b9d9c346078a8a"
+    ]
+  },
+  {
+    "title": "Die Hard Arcade",
     "id": 14570,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/034327.png",
+    "imageIcon": "/Images/118950.png",
     "numAchievements": 21,
     "numLeaderboards": 5,
     "points": 231,
@@ -2252,12 +2495,12 @@
     "id": 32864,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/119900.png",
+    "numAchievements": 14,
+    "numLeaderboards": 12,
+    "points": 60,
+    "dateModified": "2025-11-15 07:39:14",
+    "forumTopicId": 33041,
     "hashes": [
       "c56b0225b9ceb2bb845cfb6bd8d90837"
     ]
@@ -2320,6 +2563,36 @@
     "forumTopicId": 23898,
     "hashes": [
       "b05b7d290e9be141999e187bd79c9d7f"
+    ]
+  },
+  {
+    "title": "Discworld II: Missing Presumed...!?",
+    "id": 36410,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5f1e4d6cf105eed317bd710cfc98d82d"
+    ]
+  },
+  {
+    "title": "DJ Wars",
+    "id": 34918,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2aa592df7d0d1c78cb9d45d8bdefc73e"
     ]
   },
   {
@@ -2399,6 +2672,21 @@
     ]
   },
   {
+    "title": "Doukoku Soshite...",
+    "id": 36528,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3f2798b9b06fe25bf845d8cbfc6c0918"
+    ]
+  },
+  {
     "title": "Dragon Ball Z: Idainaru Dragon Ball Densetsu",
     "id": 28734,
     "consoleId": 39,
@@ -2437,7 +2725,7 @@
     "numAchievements": 223,
     "numLeaderboards": 18,
     "points": 1712,
-    "dateModified": "2025-06-12 02:05:04",
+    "dateModified": "2025-09-16 11:57:52",
     "forumTopicId": 24813,
     "hashes": [
       "acb9d7194d31fb2ea6967fce3558efe1"
@@ -2458,6 +2746,21 @@
       "0717ad3446fa0c729986c9579b84b694",
       "0ecdc9dd3797d7ed96d341efdb4e0110",
       "299d5506b93074becda06a8cf44eed71"
+    ]
+  },
+  {
+    "title": "Dream Square: Hinagata Akiko",
+    "id": 35835,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/119809.png",
+    "numAchievements": 7,
+    "numLeaderboards": 3,
+    "points": 24,
+    "dateModified": "2025-11-03 18:13:28",
+    "forumTopicId": 33015,
+    "hashes": [
+      "88a6b0747ebaec675654081b97d09ee6"
     ]
   },
   {
@@ -2511,7 +2814,7 @@
     "id": 4830,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/088233.png",
+    "imageIcon": "/Images/122044.png",
     "numAchievements": 71,
     "numLeaderboards": 0,
     "points": 448,
@@ -2523,11 +2826,11 @@
     ]
   },
   {
-    "title": "Dungeons & Dragons Collection [Subset - Multi]",
+    "title": "Dungeons & Dragons Collection [Subset - Multiplayer]",
     "id": 28268,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/088237.png",
+    "imageIcon": "/Images/122045.png",
     "numAchievements": 35,
     "numLeaderboards": 0,
     "points": 264,
@@ -2579,9 +2882,48 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
+    "forumTopicId": 34196,
+    "hashes": [
+      "00d1aa354c0a4b969566464474dd5ba2",
+      "3b6f9483a1954f4c8f91693380eaa1b8",
+      "612fb42d51a00f08db6b1449850bff97",
+      "50f9346944cd3a063a3f00623f012f77"
+    ]
+  },
+  {
+    "title": "EVE: Burst Error",
+    "id": 36439,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "00d1aa354c0a4b969566464474dd5ba2"
+      "67588d463c5e6c49b58300f5d9b86d77",
+      "48daf82ef392435caaa1486554003ef6",
+      "8a867d0947e7c3f7eab9ea9035c441bf",
+      "1ecaa42011b180bb2d841548ce63bed7"
+    ]
+  },
+  {
+    "title": "EVE: The Lost One",
+    "id": 36440,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c70bdc294a8e28bede9f7771cd593fb4",
+      "98c0991c4ba98760224ea1c20698f304",
+      "7e25b43a1a1d748d13498ac04d4fe779",
+      "e10b5bd77afb2045ee8d6d683d2aae0b"
     ]
   },
   {
@@ -2611,7 +2953,8 @@
     "dateModified": null,
     "forumTopicId": 27998,
     "hashes": [
-      "dc6fe98c2ebce3a16e8456101091458b"
+      "dc6fe98c2ebce3a16e8456101091458b",
+      "ba1c720d0ba9cd6c9b586efbdf6825e7"
     ]
   },
   {
@@ -2654,7 +2997,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33229,
     "hashes": [
       "07ff5385f5bd1bab3c6280a6545363e0"
     ]
@@ -2690,7 +3033,7 @@
     ]
   },
   {
-    "title": "FIFA Soccer 96",
+    "title": "FIFA 96",
     "id": 25777,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -2705,7 +3048,7 @@
     ]
   },
   {
-    "title": "FIFA Soccer 97 | FIFA 97",
+    "title": "FIFA 97",
     "id": 26283,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -2720,7 +3063,7 @@
     ]
   },
   {
-    "title": "FIFA: Road to World Cup 98",
+    "title": "FIFA 98: Road to World Cup",
     "id": 26284,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -2739,7 +3082,7 @@
     "id": 28610,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118672.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -2755,10 +3098,10 @@
     "consoleId": 39,
     "consoleName": "Saturn",
     "imageIcon": "/Images/114694.png",
-    "numAchievements": 86,
+    "numAchievements": 87,
     "numLeaderboards": 3,
-    "points": 675,
-    "dateModified": "2025-07-14 15:01:56",
+    "points": 700,
+    "dateModified": "2025-10-08 16:22:43",
     "forumTopicId": 10622,
     "hashes": [
       "dad4e684cd0c37efd0929e42f505415d"
@@ -2773,7 +3116,7 @@
     "numAchievements": 41,
     "numLeaderboards": 0,
     "points": 385,
-    "dateModified": "2025-02-20 04:35:32",
+    "dateModified": "2025-10-07 17:02:38",
     "forumTopicId": 10621,
     "hashes": [
       "c571e8b0d34cc86e24fb819e9908c95c"
@@ -2784,11 +3127,11 @@
     "id": 17899,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/083151.png",
+    "imageIcon": "/Images/121622.png",
     "numAchievements": 52,
     "numLeaderboards": 2,
     "points": 645,
-    "dateModified": "2025-05-30 00:42:30",
+    "dateModified": "2026-01-03 14:47:43",
     "forumTopicId": 25448,
     "hashes": [
       "5d9804144e37656ceb6b4a71101981f1"
@@ -2904,7 +3247,7 @@
     "id": 27836,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/104173.png",
+    "imageIcon": "/Images/120594.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -2934,12 +3277,12 @@
     "id": 25806,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/119712.png",
+    "numAchievements": 43,
+    "numLeaderboards": 27,
+    "points": 362,
+    "dateModified": "2025-12-17 05:03:32",
+    "forumTopicId": 32973,
     "hashes": [
       "9f4d90cbf0599f245b2c221aa915a903"
     ]
@@ -3127,6 +3470,21 @@
     ]
   },
   {
+    "title": "Ginga Eiyuu Densetsu",
+    "id": 36641,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/122996.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "db3ce362528b4023187f87e968614e11"
+    ]
+  },
+  {
     "title": "Ginga Eiyuu Densetsu Plus",
     "id": 28697,
     "consoleId": 39,
@@ -3251,7 +3609,7 @@
     "id": 4289,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118343.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -3274,6 +3632,21 @@
     "forumTopicId": null,
     "hashes": [
       "1b86ca4d7907494c7783ff505bb1673e"
+    ]
+  },
+  {
+    "title": "Grand Slam",
+    "id": 37579,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1fd0aff28fc4388522dab32f4ca7850f"
     ]
   },
   {
@@ -3418,9 +3791,9 @@
     "consoleId": 39,
     "consoleName": "Saturn",
     "imageIcon": "/Images/111278.png",
-    "numAchievements": 0,
+    "numAchievements": 20,
     "numLeaderboards": 0,
-    "points": 0,
+    "points": 199,
     "dateModified": "2025-08-16 02:15:38",
     "forumTopicId": 31746,
     "hashes": [
@@ -3440,6 +3813,21 @@
     "forumTopicId": null,
     "hashes": [
       "9b4d8eb848992ff370f2ca5aab80128c"
+    ]
+  },
+  {
+    "title": "Heartbeat Scramble",
+    "id": 36441,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c8e1dc67df058bba0acb8f44cd7d9ef5"
     ]
   },
   {
@@ -3489,7 +3877,7 @@
     ]
   },
   {
-    "title": "HeXen | HeXen: Beyond Heretic",
+    "title": "HeXen",
     "id": 17973,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -3497,7 +3885,7 @@
     "numAchievements": 143,
     "numLeaderboards": 0,
     "points": 390,
-    "dateModified": "2025-04-28 20:49:54",
+    "dateModified": "2025-10-09 01:08:43",
     "forumTopicId": 29276,
     "hashes": [
       "899e743677badd953e83afb663edbca3"
@@ -3579,6 +3967,38 @@
     ]
   },
   {
+    "title": "Horror Tour",
+    "id": 36529,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "501e34293aa6b9deac5ee69265934265",
+      "bb9c44c14241b01a0411bb98e0bc0c23"
+    ]
+  },
+  {
+    "title": "Houma Hunter Lime Perfect Collection",
+    "id": 34978,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c0395ac699fcf067ed0e62251917f447",
+      "7ccebb5dbf21c827b0f22449b263c126"
+    ]
+  },
+  {
     "title": "Hyper 3-D Pinball | Tilt!",
     "id": 25746,
     "consoleId": 39,
@@ -3617,10 +4037,25 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2025-12-17 00:47:52",
     "forumTopicId": 31837,
     "hashes": [
       "b0cd2d606cba659a6bae8953a2bc9e38"
+    ]
+  },
+  {
+    "title": "Ide Yousuke Meijin no Shin Jissen Mahjong",
+    "id": 36442,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9dbd3012f26134ad7522fe9dec3056bc"
     ]
   },
   {
@@ -3639,7 +4074,7 @@
     ]
   },
   {
-    "title": "In the Hunt [Subset - Multi]",
+    "title": "In the Hunt [Subset - Multiplayer]",
     "id": 28617,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -3850,6 +4285,38 @@
     ]
   },
   {
+    "title": "Kaitou Saint Tail",
+    "id": 36291,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "39b9debbcb770c0cfb12b4e85d4b8fdc"
+    ]
+  },
+  {
+    "title": "Kakyuusei",
+    "id": 36612,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e7a04c6f63d484fc4600bd702799aec1",
+      "49c20e3a671574e6271339bc4d38ddfd",
+      "15c1f7152a0240672b997da5a8c283bc"
+    ]
+  },
+  {
     "title": "Keio Flying Squadron 2",
     "id": 8802,
     "consoleId": 39,
@@ -3858,7 +4325,7 @@
     "numAchievements": 42,
     "numLeaderboards": 3,
     "points": 515,
-    "dateModified": "2025-05-22 18:26:48",
+    "dateModified": "2025-10-07 18:43:33",
     "forumTopicId": 23854,
     "hashes": [
       "ee772e411fcdb297026c54ac6f8f9bf0",
@@ -4072,7 +4539,7 @@
     "numAchievements": 45,
     "numLeaderboards": 3,
     "points": 375,
-    "dateModified": "2022-04-12 15:47:02",
+    "dateModified": "2026-01-10 21:23:39",
     "forumTopicId": 15254,
     "hashes": [
       "f6843d9de6ec670e9ab4ee64b44874ce"
@@ -4195,7 +4662,8 @@
     "dateModified": "2023-02-15 00:41:33",
     "forumTopicId": 9491,
     "hashes": [
-      "2f64a277f265ab19a1d0ba51f326337c"
+      "2f64a277f265ab19a1d0ba51f326337c",
+      "477d34dd63ac4c8379b97e9c454328da"
     ]
   },
   {
@@ -4244,7 +4712,7 @@
     ]
   },
   {
-    "title": "Lode Runner: The Legend Returns [Subset - Multi]",
+    "title": "Lode Runner: The Legend Returns [Subset - Multiplayer]",
     "id": 28274,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -4289,7 +4757,22 @@
     ]
   },
   {
-    "title": "Lunacy | Torico",
+    "title": "LuLu: Un Conte Interactif de Romain Victor-Pujebet",
+    "id": 28172,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/117189.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 24982,
+    "hashes": [
+      "e87157f6bb098ef4be8bb9d8bd0eb8ea"
+    ]
+  },
+  {
+    "title": "Lunacy",
     "id": 17864,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -4344,7 +4827,7 @@
     "numAchievements": 55,
     "numLeaderboards": 4,
     "points": 380,
-    "dateModified": "2023-11-03 23:02:59",
+    "dateModified": "2025-09-17 20:01:37",
     "forumTopicId": 22908,
     "hashes": [
       "742e8eaa9328b8b34b3ed87ac99b210e"
@@ -4487,6 +4970,21 @@
     ]
   },
   {
+    "title": "Mahjong Gokuu Tenjiku",
+    "id": 36180,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "123048a0bc95b2df1ad9b7b809cf4419"
+    ]
+  },
+  {
     "title": "Mahou Gakuen Lunar!",
     "id": 28650,
     "consoleId": 39,
@@ -4499,6 +4997,21 @@
     "forumTopicId": null,
     "hashes": [
       "20a7127deb077b5d9c35918f3fbd6161"
+    ]
+  },
+  {
+    "title": "Mahou no Janshi: Poe Poe Poemy",
+    "id": 36444,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8f1ceb9f3f6e7a4d415a6108bf82835b"
     ]
   },
   {
@@ -4536,7 +5049,7 @@
     "id": 4434,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120935.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -4559,6 +5072,21 @@
     "forumTopicId": null,
     "hashes": [
       "2a36ba20dfe9c24790524b656cc11ff6"
+    ]
+  },
+  {
+    "title": "Marie no Atelier Ver. 1.3: Salburg no Renkinjutsushi",
+    "id": 36445,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9b0ca9b2000d7c00a8d1f7a8dd6238fb"
     ]
   },
   {
@@ -4660,7 +5188,7 @@
     "numAchievements": 38,
     "numLeaderboards": 0,
     "points": 449,
-    "dateModified": "2023-10-21 18:35:12",
+    "dateModified": "2026-01-19 23:45:29",
     "forumTopicId": 24005,
     "hashes": [
       "6da464e225d43d3430d5237bcc92ec68"
@@ -4671,11 +5199,11 @@
     "id": 4304,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/056203.png",
+    "imageIcon": "/Images/117755.png",
     "numAchievements": 74,
     "numLeaderboards": 6,
     "points": 710,
-    "dateModified": "2025-07-11 23:22:59",
+    "dateModified": "2025-11-07 23:17:10",
     "forumTopicId": 25248,
     "hashes": [
       "7e508c16f0f84b46c43f5f3d19262223"
@@ -4686,7 +5214,7 @@
     "id": 28318,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/088559.png",
+    "imageIcon": "/Images/117783.png",
     "numAchievements": 60,
     "numLeaderboards": 30,
     "points": 2095,
@@ -4694,6 +5222,38 @@
     "forumTopicId": 25188,
     "hashes": [
       "69a8883226481c092e7954bc700a0fe9"
+    ]
+  },
+  {
+    "title": "MeltyLancer: Ginga Shoujo Keisatsu 2086",
+    "id": 36446,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2473219f3285914c6ec712e71ceed554"
+    ]
+  },
+  {
+    "title": "MeltyLancer: Re-inforce",
+    "id": 36447,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ccf381ab85676313028d253b9773be01",
+      "629c9209f6a38a6507b353351cb72ae4",
+      "65c86e72a479652600ca27fc7f3a3b07"
     ]
   },
   {
@@ -4731,7 +5291,7 @@
     "id": 9431,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/062138.png",
+    "imageIcon": "/Images/121616.png",
     "numAchievements": 46,
     "numLeaderboards": 0,
     "points": 565,
@@ -4802,7 +5362,7 @@
     ]
   },
   {
-    "title": "Mobile Suit Gundam Side Story I: Senritsu no Blue | Blue Fear",
+    "title": "Mobile Suit Gundam Side Story I: Senritsu no Blue",
     "id": 25887,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -4817,7 +5377,7 @@
     ]
   },
   {
-    "title": "Mobile Suit Gundam Side Story II: Ao o Uketsugu Mono | Heir to the Blue",
+    "title": "Mobile Suit Gundam Side Story II: Ao o Uketsugu Mono",
     "id": 25888,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -4832,7 +5392,7 @@
     ]
   },
   {
-    "title": "Mobile Suit Gundam Side Story III: Sabakareshi Mono | The Condemned",
+    "title": "Mobile Suit Gundam Side Story III: Sabakareshi Mono",
     "id": 25889,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -4866,7 +5426,7 @@
     "id": 17176,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/089164.png",
+    "imageIcon": "/Images/123573.png",
     "numAchievements": 170,
     "numLeaderboards": 79,
     "points": 930,
@@ -5244,7 +5804,7 @@
     "id": 17876,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122828.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -5391,7 +5951,7 @@
     ]
   },
   {
-    "title": "Ogre Battle | Densetsu no Ogre Battle",
+    "title": "Ogre Battle: The March of the Black Queen",
     "id": 20248,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -5449,6 +6009,21 @@
     "forumTopicId": null,
     "hashes": [
       "87c24f56bda971584c233ae2498e0172"
+    ]
+  },
+  {
+    "title": "Panic-chan",
+    "id": 36448,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8ab971d5696a3562ca7a352b24a6afe2"
     ]
   },
   {
@@ -5598,6 +6173,21 @@
     ]
   },
   {
+    "title": "Phantasy Star Collection",
+    "id": 36182,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "89d7b3fba345c17a8f616d4b5c806286"
+    ]
+  },
+  {
     "title": "Pia Carrot e Youkoso!! We've Been Waiting for You",
     "id": 24211,
     "consoleId": 39,
@@ -5731,10 +6321,11 @@
     "numAchievements": 83,
     "numLeaderboards": 0,
     "points": 580,
-    "dateModified": "2024-04-19 02:28:28",
+    "dateModified": "2025-10-20 16:15:02",
     "forumTopicId": 12190,
     "hashes": [
-      "ced8331d3036971979593ab452d4b45b"
+      "ced8331d3036971979593ab452d4b45b",
+      "cd01172cbe80ecfb3709ce880a28806b"
     ]
   },
   {
@@ -5783,6 +6374,186 @@
     ]
   },
   {
+    "title": "Private Idol Disc Tokubetsu-hen: Cosplayers",
+    "id": 36177,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/120208.png",
+    "numAchievements": 7,
+    "numLeaderboards": 0,
+    "points": 25,
+    "dateModified": "2025-11-16 08:54:16",
+    "forumTopicId": 33183,
+    "hashes": [
+      "65f0adeb7e6b61d7c47bf01e77cdf13b"
+    ]
+  },
+  {
+    "title": "Private Idol Disc Vol. 1: Kinoshita Yuu",
+    "id": 35916,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/119991.png",
+    "numAchievements": 6,
+    "numLeaderboards": 0,
+    "points": 32,
+    "dateModified": "2025-11-04 23:42:44",
+    "forumTopicId": 33070,
+    "hashes": [
+      "d721146d446fc15df1d817fd22332446"
+    ]
+  },
+  {
+    "title": "Private Idol Disc Vol. 10: Masaki Mai",
+    "id": 37943,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/123598.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": "2026-01-29 03:21:44",
+    "forumTopicId": 34157,
+    "hashes": [
+      "cc7e8fcf19ef362ecd3a66e8eb26a0c6"
+    ]
+  },
+  {
+    "title": "Private Idol Disc Vol. 11: Hirose Mayumi",
+    "id": 37944,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/123604.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 34158,
+    "hashes": [
+      "d007fc9f26118242d584c98251f23562"
+    ]
+  },
+  {
+    "title": "Private Idol Disc Vol. 2: Uchiyama Miki",
+    "id": 36087,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/120119.png",
+    "numAchievements": 6,
+    "numLeaderboards": 0,
+    "points": 32,
+    "dateModified": "2025-11-07 21:00:31",
+    "forumTopicId": 33111,
+    "hashes": [
+      "a05649bb93b24f8596b7075228481024"
+    ]
+  },
+  {
+    "title": "Private Idol Disc Vol. 3: Oshima Akemi",
+    "id": 36094,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/120120.png",
+    "numAchievements": 6,
+    "numLeaderboards": 0,
+    "points": 32,
+    "dateModified": "2025-11-10 20:14:35",
+    "forumTopicId": 33112,
+    "hashes": [
+      "ab9ec49bedc2dfb675a8a8ca901f8366"
+    ]
+  },
+  {
+    "title": "Private Idol Disc Vol. 4: Kuroda Mirei",
+    "id": 36098,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/121187.png",
+    "numAchievements": 7,
+    "numLeaderboards": 0,
+    "points": 55,
+    "dateModified": "2025-12-03 00:59:19",
+    "forumTopicId": 33113,
+    "hashes": [
+      "1c6c7c8205a80b2e2e6b1315635dd1de"
+    ]
+  },
+  {
+    "title": "Private Idol Disc Vol. 5: Fujisaki Nanako",
+    "id": 37243,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/121235.png",
+    "numAchievements": 9,
+    "numLeaderboards": 0,
+    "points": 60,
+    "dateModified": "2026-01-07 03:42:27",
+    "forumTopicId": 33864,
+    "hashes": [
+      "ada226686c1f22a78badddc15de03b2c"
+    ]
+  },
+  {
+    "title": "Private Idol Disc Vol. 6: Yoshida Satomi",
+    "id": 37684,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/122774.png",
+    "numAchievements": 8,
+    "numLeaderboards": 0,
+    "points": 55,
+    "dateModified": "2026-01-14 02:51:54",
+    "forumTopicId": 33938,
+    "hashes": [
+      "14b381b194aae88bc50a69d98748d032"
+    ]
+  },
+  {
+    "title": "Private Idol Disc Vol. 7: Asou Kaori",
+    "id": 37685,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/122775.png",
+    "numAchievements": 8,
+    "numLeaderboards": 0,
+    "points": 55,
+    "dateModified": "2026-01-19 02:58:50",
+    "forumTopicId": 33939,
+    "hashes": [
+      "2954f17434e48c58072ef2e54b197137"
+    ]
+  },
+  {
+    "title": "Private Idol Disc Vol. 8: Furukawa Emiko",
+    "id": 37916,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/123231.png",
+    "numAchievements": 8,
+    "numLeaderboards": 0,
+    "points": 55,
+    "dateModified": "2026-01-22 01:57:26",
+    "forumTopicId": 34066,
+    "hashes": [
+      "97e866568701ee06da35320d3586c6b6"
+    ]
+  },
+  {
+    "title": "Private Idol Disc Vol. 9: Nagamatsu Keiko",
+    "id": 37917,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/123235.png",
+    "numAchievements": 8,
+    "numLeaderboards": 0,
+    "points": 55,
+    "dateModified": "2026-01-25 18:55:08",
+    "forumTopicId": 34067,
+    "hashes": [
+      "30f2e6007b044f5b9127187a83e06297"
+    ]
+  },
+  {
     "title": "Pro-Pinball | Pro Pinball: The Web",
     "id": 32808,
     "consoleId": 39,
@@ -5817,7 +6588,7 @@
     "id": 28714,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/098806.png",
+    "imageIcon": "/Images/117820.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -5912,7 +6683,7 @@
     "numAchievements": 59,
     "numLeaderboards": 8,
     "points": 547,
-    "dateModified": "2024-12-22 03:48:37",
+    "dateModified": "2025-09-05 04:29:05",
     "forumTopicId": 9577,
     "hashes": [
       "528573764eab41c4c3c8b3befdbfdf6e"
@@ -5940,9 +6711,9 @@
     "consoleName": "Saturn",
     "imageIcon": "/Images/083045.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 29,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2026-01-29 16:17:08",
     "forumTopicId": 23585,
     "hashes": [
       "e990357806e546d7e8e10511ce3c3673"
@@ -5987,7 +6758,7 @@
     "numAchievements": 94,
     "numLeaderboards": 0,
     "points": 768,
-    "dateModified": "2025-01-23 19:18:17",
+    "dateModified": "2026-01-14 15:52:44",
     "forumTopicId": 12227,
     "hashes": [
       "458ca29356b89893a582b073567cd36f"
@@ -6043,7 +6814,7 @@
     "id": 25758,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118242.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -6140,7 +6911,7 @@
     "numAchievements": 60,
     "numLeaderboards": 0,
     "points": 519,
-    "dateModified": "2025-07-12 02:23:57",
+    "dateModified": "2025-09-11 22:36:23",
     "forumTopicId": 14506,
     "hashes": [
       "1b1029dbc188b8d47cdb3827be0aff28"
@@ -6174,6 +6945,36 @@
     "forumTopicId": null,
     "hashes": [
       "5f123a6158bff77a32dee41fdde9d335"
+    ]
+  },
+  {
+    "title": "RoX: 6 = Six",
+    "id": 34518,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f67facc75f14272d107d6c7cc0522d6e"
+    ]
+  },
+  {
+    "title": "Ryuuteki Gosennen: Dragons of China",
+    "id": 36450,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "50e5b883d7fa2a1aad47bce1ef8f7fb6"
     ]
   },
   {
@@ -6439,12 +7240,12 @@
     "id": 14560,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/048900.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118990.png",
+    "numAchievements": 22,
+    "numLeaderboards": 30,
+    "points": 217,
+    "dateModified": "2025-11-29 06:40:00",
+    "forumTopicId": 32656,
     "hashes": [
       "9a678bad8ea51314b7e43188356e5d7a"
     ]
@@ -6503,10 +7304,25 @@
     "numAchievements": 20,
     "numLeaderboards": 0,
     "points": 212,
-    "dateModified": "2023-09-20 08:24:07",
+    "dateModified": "2025-12-07 05:30:46",
     "forumTopicId": 14499,
     "hashes": [
       "3e64a495a6034cad43c3fb7a5f962364"
+    ]
+  },
+  {
+    "title": "Seifuku Densetsu: Pretty Fighter X",
+    "id": 36451,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "441f4b34d901fce9bc1df325ee614713"
     ]
   },
   {
@@ -6741,8 +7557,8 @@
     "imageIcon": "/Images/067625.png",
     "numAchievements": 86,
     "numLeaderboards": 0,
-    "points": 651,
-    "dateModified": "2025-04-15 23:51:30",
+    "points": 681,
+    "dateModified": "2025-12-15 03:20:49",
     "forumTopicId": 11293,
     "hashes": [
       "91616ea99bd661ef9a785694de2f7d68",
@@ -6759,7 +7575,7 @@
     "numAchievements": 34,
     "numLeaderboards": 0,
     "points": 380,
-    "dateModified": "2023-08-13 17:21:27",
+    "dateModified": "2025-12-17 13:14:10",
     "forumTopicId": 9943,
     "hashes": [
       "c0d0efd675b0e77731b38a66f5425a66"
@@ -6808,7 +7624,9 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "f39c2c008e8177d701d79b8ac8ecc74c"
+      "f39c2c008e8177d701d79b8ac8ecc74c",
+      "3ffc01c7384fb7e11177e6f8a5724271",
+      "cb3c7f7b5378318fb11d00e50fa1d934"
     ]
   },
   {
@@ -6857,6 +7675,21 @@
       "8b49fc74cd2109903054842b91e732a5",
       "1c952a1b4fe795ee190624d4d26997d3",
       "093a035731ea0dcef5dc9b3ec6ea5a27"
+    ]
+  },
+  {
+    "title": "Shouryuu Sangoku Engi",
+    "id": 36443,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c20a18a84b0638a051d3555f72fdfbdc"
     ]
   },
   {
@@ -7025,6 +7858,21 @@
     ]
   },
   {
+    "title": "Snatcher",
+    "id": 36530,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5d948ec3d5a81661ec8a9238a1670128"
+    ]
+  },
+  {
     "title": "Solar Eclipse",
     "id": 25781,
     "consoleId": 39,
@@ -7055,6 +7903,21 @@
     ]
   },
   {
+    "title": "Solo Crisis",
+    "id": 36910,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b3d5b100bed2ec02e6177c107b81951e"
+    ]
+  },
+  {
     "title": "Sonic 3D Blast",
     "id": 14547,
     "consoleId": 39,
@@ -7063,7 +7926,7 @@
     "numAchievements": 77,
     "numLeaderboards": 23,
     "points": 570,
-    "dateModified": "2025-07-18 18:46:36",
+    "dateModified": "2025-10-20 22:48:44",
     "forumTopicId": 16260,
     "hashes": [
       "f17f893fa4dbb83e7999aee71fd2bb2e"
@@ -7078,7 +7941,7 @@
     "numAchievements": 331,
     "numLeaderboards": 165,
     "points": 2857,
-    "dateModified": "2025-08-19 15:36:00",
+    "dateModified": "2025-12-29 07:48:12",
     "forumTopicId": 11213,
     "hashes": [
       "4cc79d222e326fe2ba906930673c7466",
@@ -7094,7 +7957,7 @@
     "numAchievements": 60,
     "numLeaderboards": 20,
     "points": 500,
-    "dateModified": "2025-04-15 22:45:26",
+    "dateModified": "2025-11-14 16:20:45",
     "forumTopicId": 9479,
     "hashes": [
       "1ce911e19fedb4565fe29d1ea2005a26"
@@ -7113,6 +7976,22 @@
     "forumTopicId": null,
     "hashes": [
       "50e4902345fd2b7c8ffaea5281fd42b7"
+    ]
+  },
+  {
+    "title": "Sound Novel Machi",
+    "id": 36381,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "21e58157aa4a6d06f4e73055f6d29198",
+      "55fec3de1ad49b291dd34c421cf29469"
     ]
   },
   {
@@ -7207,6 +8086,21 @@
     ]
   },
   {
+    "title": "Star Fighter",
+    "id": 36452,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f64283a5587ae8379293c5ebce418445"
+    ]
+  },
+  {
     "title": "Steam-Heart's",
     "id": 27934,
     "consoleId": 39,
@@ -7245,7 +8139,7 @@
     "numAchievements": 27,
     "numLeaderboards": 0,
     "points": 280,
-    "dateModified": "2025-08-27 19:46:19",
+    "dateModified": "2025-08-31 18:12:34",
     "forumTopicId": 23249,
     "hashes": [
       "a9fe1cc3159d653f9f7b1800e4e84890"
@@ -7271,12 +8165,12 @@
     "id": 17797,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/113943.png",
+    "imageIcon": "/Images/121821.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-06 22:02:34",
+    "forumTopicId": 33631,
     "hashes": [
       "8eb0979c315319095d4e24ead03b1f07"
     ]
@@ -7333,7 +8227,7 @@
     "id": 20399,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/061299.png",
+    "imageIcon": "/Images/121823.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -7453,7 +8347,7 @@
     "id": 23909,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/123868.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -7566,11 +8460,41 @@
     "numAchievements": 188,
     "numLeaderboards": 7,
     "points": 1346,
-    "dateModified": "2025-02-10 18:11:29",
+    "dateModified": "2025-12-28 19:35:46",
     "forumTopicId": 26207,
     "hashes": [
       "2f1f99cb6ce623633cc8ceeec9b35ff5",
       "999855774e7787f16e84006fbcc0012f"
+    ]
+  },
+  {
+    "title": "Taiheiyou no Arashi 2: Shippuu no Moudou",
+    "id": 36458,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c2e86a675eb7840b94f52645e684078f"
+    ]
+  },
+  {
+    "title": "Tama: Adventurous Ball in Giddy Labyrinth",
+    "id": 36179,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b815635636df04520ae0c885cbf60cfe"
     ]
   },
   {
@@ -7586,6 +8510,21 @@
     "forumTopicId": null,
     "hashes": [
       "ab6483a4d057fadcff2d50d605ab778e"
+    ]
+  },
+  {
+    "title": "Ten Pin Alley",
+    "id": 37581,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "69b9dd7cb1a1e35dd92b5064adf4b2e2"
     ]
   },
   {
@@ -7666,7 +8605,7 @@
     ]
   },
   {
-    "title": "Tenchi o Kurau II: Sekiheki no Tatakai [Subset - Multi]",
+    "title": "Tenchi o Kurau II: Sekiheki no Tatakai [Subset - Multiplayer]",
     "id": 28292,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -7678,6 +8617,21 @@
     "forumTopicId": 25141,
     "hashes": [
       "fdac20eb87c6be5636dfcea2ff9b2baa"
+    ]
+  },
+  {
+    "title": "Tenga-Seiha",
+    "id": 36454,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5f5c73212386052005238b593eecbc0a"
     ]
   },
   {
@@ -7725,6 +8679,22 @@
     "hashes": [
       "86d7dfcf2ad6e9dffceed3168422abe9",
       "ce070e5d631507dd7ebf7ace3b3a8560"
+    ]
+  },
+  {
+    "title": "Terry Pratchett's Discworld",
+    "id": 36409,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ad67f51f4602acd162bce8b578beb24f",
+      "4c20097e5533f0d14f558a339ff6d531"
     ]
   },
   {
@@ -7879,15 +8849,15 @@
     ]
   },
   {
-    "title": "The Legend of Oasis | The Story of Thor 2",
+    "title": "The Legend of Oasis",
     "id": 14542,
     "consoleId": 39,
     "consoleName": "Saturn",
     "imageIcon": "/Images/041650.png",
-    "numAchievements": 0,
+    "numAchievements": 55,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-08-21 00:11:25",
+    "points": 475,
+    "dateModified": "2025-10-02 00:21:43",
     "forumTopicId": 12308,
     "hashes": [
       "4f6ab49745fa06590042fc4ecdc5666f"
@@ -7921,6 +8891,21 @@
     "forumTopicId": 19034,
     "hashes": [
       "54d133fe827411aee4e6ed576dbfa701"
+    ]
+  },
+  {
+    "title": "The Photograph of a Crime: Hankou Shashin - Shibarareta Shoujo-tachi no Mita Mon",
+    "id": 36449,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "11c3367310e1a33e9334a8f29035d4a8"
     ]
   },
   {
@@ -8228,6 +9213,21 @@
     ]
   },
   {
+    "title": "Transport Tycoon",
+    "id": 36453,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b8e82042f293a5c956b308121f56257a"
+    ]
+  },
+  {
     "title": "True Pinball",
     "id": 25766,
     "consoleId": 39,
@@ -8319,7 +9319,7 @@
     ]
   },
   {
-    "title": "Ultraman: Hikari no Kyojin Densetsu | Ultraman: Legendary Giant of Light",
+    "title": "Ultraman: Hikari no Kyojin Densetsu",
     "id": 26097,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -8346,6 +9346,22 @@
     "forumTopicId": 23717,
     "hashes": [
       "bb0b5e306d4e6b0a1a2b58257b0105ce"
+    ]
+  },
+  {
+    "title": "Valhollian",
+    "id": 17900,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/098994.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": "2024-10-29 21:02:32",
+    "forumTopicId": 26950,
+    "hashes": [
+      "f4207729e717535cbecfe0ac4ae9a578",
+      "57ec918af4b9350dc240b4fe2b0bca6f"
     ]
   },
   {
@@ -8428,12 +9444,12 @@
     "id": 14563,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/123889.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 34219,
     "hashes": [
       "a4ccad6aed76a61ad438475ea432bfcc"
     ]
@@ -8530,6 +9546,22 @@
     ]
   },
   {
+    "title": "Virtual Casino",
+    "id": 36640,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d1dd20676b6f29541ef0cdc1c5984b5e",
+      "a3ec8530f16a34e18418e0e5932e2afa"
+    ]
+  },
+  {
     "title": "Virtual Hydlide",
     "id": 14552,
     "consoleId": 39,
@@ -8575,22 +9607,71 @@
     ]
   },
   {
+    "title": "Virtual Open Tennis",
+    "id": 36455,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a833b97d417ebe402673b2cce19d759a",
+      "c733b976247e655a1affadda4f912eec",
+      "1e8ed46a7023b9b446cbd290b80b18cf"
+    ]
+  },
+  {
+    "title": "Virtual Volleyball",
+    "id": 36456,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "cf8853b40424572cc4442f61f06eb0f8"
+    ]
+  },
+  {
     "title": "Virtual-On: Cyber Troopers",
     "id": 14568,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/048899.png",
+    "imageIcon": "/Images/119884.png",
     "numAchievements": 19,
     "numLeaderboards": 2,
     "points": 190,
-    "dateModified": "2023-05-01 03:35:25",
+    "dateModified": "2025-11-22 06:12:03",
     "forumTopicId": 14960,
     "hashes": [
       "a7dc126a2f782f48105d76f7feda9ebd"
     ]
   },
   {
-    "title": "VR Golf '97 | Actua Golf",
+    "title": "Virus",
+    "id": 36531,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bfe9e70cd9850eedbafb327e1ffefd7e",
+      "22d5f802ef8bacbcdea40996970b3c2f",
+      "8acfbadbfd0b571fa0ce6e7539ce8895"
+    ]
+  },
+  {
+    "title": "VR Golf '97",
     "id": 25725,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -8607,7 +9688,7 @@
     ]
   },
   {
-    "title": "VR Soccer | Actua Soccer",
+    "title": "VR Soccer",
     "id": 25726,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -8623,7 +9704,7 @@
     ]
   },
   {
-    "title": "Wachenroeder",
+    "title": "Wachenröder",
     "id": 18252,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -8669,6 +9750,22 @@
     ]
   },
   {
+    "title": "WanChai Connection",
+    "id": 36178,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "caff1bcf02f2f70013972ae07286d7d8",
+      "d46b36ae68cf86baf46780a2aafdecd6"
+    ]
+  },
+  {
     "title": "Wangan Dead Heat + Real Arrange",
     "id": 20014,
     "consoleId": 39,
@@ -8681,6 +9778,21 @@
     "forumTopicId": null,
     "hashes": [
       "f1f7a6e1d9b63709c2741d973eca73c6"
+    ]
+  },
+  {
+    "title": "Wangan Trial Love",
+    "id": 34917,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0c113f3a52b3305e4583bbb920ed616d"
     ]
   },
   {
@@ -8699,11 +9811,26 @@
     ]
   },
   {
+    "title": "Welcome House",
+    "id": 36457,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "76584eb7972550362d90c7a98329d238"
+    ]
+  },
+  {
     "title": "Whizz",
     "id": 1006,
     "consoleId": 39,
     "consoleName": "Saturn",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/123786.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -8864,7 +9991,7 @@
     ]
   },
   {
-    "title": "Wipeout XL | Wipeout 2097",
+    "title": "Wipeout 2097",
     "id": 9231,
     "consoleId": 39,
     "consoleName": "Saturn",
@@ -8937,6 +10064,21 @@
     "forumTopicId": null,
     "hashes": [
       "0673f4a03fc396c3d1011f2da9cd79e2"
+    ]
+  },
+  {
+    "title": "World Evolution Soccer",
+    "id": 34979,
+    "consoleId": 39,
+    "consoleName": "Saturn",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ebd86eea05f321565fedabceeff342ca"
     ]
   },
   {
@@ -9152,22 +10294,6 @@
     ]
   },
   {
-    "title": "Zanma Chouougi Valhollian | Valhollian",
-    "id": 17900,
-    "consoleId": 39,
-    "consoleName": "Saturn",
-    "imageIcon": "/Images/098994.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2024-10-29 21:02:32",
-    "forumTopicId": 26950,
-    "hashes": [
-      "f4207729e717535cbecfe0ac4ae9a578",
-      "57ec918af4b9350dc240b4fe2b0bca6f"
-    ]
-  },
-  {
     "title": "Zero Divide: The Final Conflict",
     "id": 8435,
     "consoleId": 39,
@@ -9221,7 +10347,7 @@
     "numAchievements": 17,
     "numLeaderboards": 0,
     "points": 320,
-    "dateModified": "2022-09-12 03:49:00",
+    "dateModified": "2025-11-27 00:29:18",
     "forumTopicId": 17982,
     "hashes": [
       "7b14583698bb6892a6d12bb805740982"

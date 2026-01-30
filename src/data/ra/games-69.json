@@ -96,11 +96,11 @@
     "consoleId": 69,
     "consoleName": "Mega Duck",
     "imageIcon": "/Images/092571.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 14,
+    "numLeaderboards": 1,
+    "points": 200,
+    "dateModified": "2025-12-06 00:23:59",
+    "forumTopicId": 33403,
     "hashes": [
       "651635c9b964bdd1fde94adf6b6f38ec"
     ]
@@ -145,7 +145,7 @@
     "numAchievements": 60,
     "numLeaderboards": 3,
     "points": 376,
-    "dateModified": "2022-07-23 22:37:39",
+    "dateModified": "2025-10-13 11:59:31",
     "forumTopicId": 17478,
     "hashes": [
       "34d48f05d6be1d64b22732fc03b19301"
@@ -160,7 +160,7 @@
     "numAchievements": 6,
     "numLeaderboards": 2,
     "points": 45,
-    "dateModified": "2023-08-12 00:18:46",
+    "dateModified": "2026-01-09 04:50:50",
     "forumTopicId": 19475,
     "hashes": [
       "a52fb4ea81525a1cc8fa9b2dfe0856b4"
@@ -382,7 +382,7 @@
     "id": 10780,
     "consoleId": 69,
     "consoleName": "Mega Duck",
-    "imageIcon": "/Images/060445.png",
+    "imageIcon": "/Images/121549.png",
     "numAchievements": 41,
     "numLeaderboards": 0,
     "points": 325,
@@ -416,7 +416,7 @@
     "numAchievements": 16,
     "numLeaderboards": 0,
     "points": 150,
-    "dateModified": "2025-05-01 18:29:25",
+    "dateModified": "2025-11-17 04:05:30",
     "forumTopicId": 17476,
     "hashes": [
       "0bd39f37e9589a4dec2b3ebf535ef7b7"

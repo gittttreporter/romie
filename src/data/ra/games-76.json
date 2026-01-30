@@ -190,20 +190,10 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
-  },
-  {
-    "title": "~Z~ No Hash 29316",
-    "id": 29316,
-    "consoleId": 76,
-    "consoleName": "PC Engine CD/TurboGrafx-CD",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "2a294fdda15233e6542901d6c475d6b2",
+      "eae70645eb2dfa10fdee37edda948bab"
+    ]
   },
   {
     "title": "1552 Tenka Tairan",
@@ -259,7 +249,7 @@
     "numAchievements": 31,
     "numLeaderboards": 24,
     "points": 275,
-    "dateModified": "2024-05-03 22:04:06",
+    "dateModified": "2025-11-19 09:40:09",
     "forumTopicId": 25269,
     "hashes": [
       "17f2a62623bf1091f286c92eda4ddf43"
@@ -286,9 +276,9 @@
     "consoleId": 76,
     "consoleName": "PC Engine CD/TurboGrafx-CD",
     "imageIcon": "/Images/059447.png",
-    "numAchievements": 78,
+    "numAchievements": 76,
     "numLeaderboards": 1,
-    "points": 655,
+    "points": 623,
     "dateModified": "2025-08-21 06:31:38",
     "forumTopicId": 1045,
     "hashes": [
@@ -353,6 +343,21 @@
     "forumTopicId": null,
     "hashes": [
       "11fea8d0d101f2c8a41a59fbe0ff7c96"
+    ]
+  },
+  {
+    "title": "Aurora Quest: Otaku no Seiza in Another World",
+    "id": 36505,
+    "consoleId": 76,
+    "consoleName": "PC Engine CD/TurboGrafx-CD",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "236ece31708e996f0de17539e3744264"
     ]
   },
   {
@@ -602,11 +607,11 @@
     "consoleId": 76,
     "consoleName": "PC Engine CD/TurboGrafx-CD",
     "imageIcon": "/Images/091061.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 11,
+    "numLeaderboards": 2,
+    "points": 132,
+    "dateModified": "2025-12-27 23:10:49",
+    "forumTopicId": 33597,
     "hashes": [
       "8ea46d9914c68b1ec53a7e215b1fce16"
     ]
@@ -755,7 +760,7 @@
     "numAchievements": 20,
     "numLeaderboards": 3,
     "points": 175,
-    "dateModified": "2024-05-31 21:18:47",
+    "dateModified": "2025-11-15 15:23:30",
     "forumTopicId": 25799,
     "hashes": [
       "55eb44cb8b534a2431a494b7b1b38403"
@@ -1191,9 +1196,10 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33860,
     "hashes": [
-      "0ad8a48b9a8826805f5c1f39fb63ace7"
+      "0ad8a48b9a8826805f5c1f39fb63ace7",
+      "f80222590e265e2ec184c087ee85abd4"
     ]
   },
   {
@@ -1458,10 +1464,10 @@
     "consoleName": "PC Engine CD/TurboGrafx-CD",
     "imageIcon": "/Images/113275.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 3,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-23 13:26:02",
+    "forumTopicId": 32870,
     "hashes": [
       "ad48889cc1be550f470cb993148a8bfa"
     ]
@@ -1488,7 +1494,7 @@
     "consoleName": "PC Engine CD/TurboGrafx-CD",
     "imageIcon": "/Images/048376.png",
     "numAchievements": 50,
-    "numLeaderboards": 0,
+    "numLeaderboards": 3,
     "points": 670,
     "dateModified": "2021-09-01 17:10:24",
     "forumTopicId": 3615,
@@ -1565,7 +1571,7 @@
     "numAchievements": 30,
     "numLeaderboards": 0,
     "points": 100,
-    "dateModified": "2025-06-24 19:47:55",
+    "dateModified": "2025-09-03 15:03:10",
     "forumTopicId": 19990,
     "hashes": [
       "12888594bfafea9afa707ce6c2eb75db",
@@ -1573,7 +1579,7 @@
     ]
   },
   {
-    "title": "Ginga Ojousama Densetsu Yuna 2",
+    "title": "Ginga Ojousama Densetsu Yuna 2: Eien no Princess",
     "id": 24328,
     "consoleId": 76,
     "consoleName": "PC Engine CD/TurboGrafx-CD",
@@ -1603,7 +1609,7 @@
     ]
   },
   {
-    "title": "Godzilla | Gojira: Bakutou Retsuden",
+    "title": "Godzilla",
     "id": 6204,
     "consoleId": 76,
     "consoleName": "PC Engine CD/TurboGrafx-CD",
@@ -1633,7 +1639,7 @@
     ]
   },
   {
-    "title": "Gotzendiener",
+    "title": "Götzendiener",
     "id": 13414,
     "consoleId": 76,
     "consoleName": "PC Engine CD/TurboGrafx-CD",
@@ -1678,7 +1684,7 @@
     ]
   },
   {
-    "title": "Gyuwambler Jiko Chushinha",
+    "title": "Gyuwambler Jiko Chushinha: Gekitou 36 Janshi",
     "id": 14139,
     "consoleId": 76,
     "consoleName": "PC Engine CD/TurboGrafx-CD",
@@ -1837,7 +1843,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 34211,
     "hashes": [
       "c5a0525d72e419595bb314e17034e1f1"
     ]
@@ -2299,7 +2305,7 @@
     "consoleName": "PC Engine CD/TurboGrafx-CD",
     "imageIcon": "/Images/084150.png",
     "numAchievements": 59,
-    "numLeaderboards": 0,
+    "numLeaderboards": 3,
     "points": 620,
     "dateModified": "2023-08-10 20:23:22",
     "forumTopicId": 12871,
@@ -2362,7 +2368,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 34185,
     "hashes": [
       "ea09d4fe262c2f01b4787124bcad7062"
     ]
@@ -2518,7 +2524,7 @@
     ]
   },
   {
-    "title": "Monster Lair [Subset - Multi]",
+    "title": "Monster Lair [Subset - Multiplayer]",
     "id": 29713,
     "consoleId": 76,
     "consoleName": "PC Engine CD/TurboGrafx-CD",
@@ -2557,7 +2563,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 34186,
     "hashes": [
       "a8cd7550428474bed206008d34d07b91"
     ]
@@ -2668,6 +2674,21 @@
     ]
   },
   {
+    "title": "Pastel Lime",
+    "id": 36292,
+    "consoleId": 76,
+    "consoleName": "PC Engine CD/TurboGrafx-CD",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4dba0c105d398219cfdef19898cafc44"
+    ]
+  },
+  {
     "title": "Patlabor: Chapter of Griffon",
     "id": 28768,
     "consoleId": 76,
@@ -2706,7 +2727,7 @@
     "numAchievements": 113,
     "numLeaderboards": 53,
     "points": 979,
-    "dateModified": "2025-05-03 21:17:51",
+    "dateModified": "2025-10-05 21:59:12",
     "forumTopicId": 17649,
     "hashes": [
       "a0fef3e9b4f74bf51c4cc6dd6b7f9ff7"
@@ -2973,7 +2994,7 @@
     "id": 28774,
     "consoleId": 76,
     "consoleName": "PC Engine CD/TurboGrafx-CD",
-    "imageIcon": "/Images/090242.png",
+    "imageIcon": "/Images/118008.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -3112,7 +3133,7 @@
     "numAchievements": 70,
     "numLeaderboards": 2,
     "points": 1190,
-    "dateModified": "2023-01-14 19:43:01",
+    "dateModified": "2026-01-01 16:21:14",
     "forumTopicId": 18067,
     "hashes": [
       "fd49772941ca4e58b06b9bea02f588df"
@@ -3285,6 +3306,21 @@
     ]
   },
   {
+    "title": "Sol Moonarge",
+    "id": 36323,
+    "consoleId": 76,
+    "consoleName": "PC Engine CD/TurboGrafx-CD",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1fdfde929f967a51ab002ac68f87e3b8"
+    ]
+  },
+  {
     "title": "Sorcerian",
     "id": 8994,
     "consoleId": 76,
@@ -3372,6 +3408,36 @@
     "forumTopicId": null,
     "hashes": [
       "cc641edcc091910df5e915bb1af298a4"
+    ]
+  },
+  {
+    "title": "Star Breaker",
+    "id": 36506,
+    "consoleId": 76,
+    "consoleName": "PC Engine CD/TurboGrafx-CD",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "72cc586b7e6f0f52bc199cc723957694"
+    ]
+  },
+  {
+    "title": "Star Mobile",
+    "id": 29316,
+    "consoleId": 76,
+    "consoleName": "PC Engine CD/TurboGrafx-CD",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "92f9dd08bc631db7c4c698e035076986"
     ]
   },
   {
@@ -3698,7 +3764,7 @@
     "numAchievements": 123,
     "numLeaderboards": 14,
     "points": 666,
-    "dateModified": "2025-06-05 03:05:47",
+    "dateModified": "2025-09-17 20:35:10",
     "forumTopicId": 24658,
     "hashes": [
       "6a5357c92dd8313ca3ebc80593f77cea",
@@ -4161,11 +4227,11 @@
     "id": 8838,
     "consoleId": 76,
     "consoleName": "PC Engine CD/TurboGrafx-CD",
-    "imageIcon": "/Images/009018.png",
+    "imageIcon": "/Images/120101.png",
     "numAchievements": 38,
     "numLeaderboards": 0,
     "points": 295,
-    "dateModified": "2025-02-16 20:16:11",
+    "dateModified": "2025-11-04 16:24:45",
     "forumTopicId": 3610,
     "hashes": [
       "5f00e6cf276b34927c819b376ba27cc4"
@@ -4196,7 +4262,7 @@
     "numAchievements": 142,
     "numLeaderboards": 0,
     "points": 1200,
-    "dateModified": "2025-08-16 23:59:36",
+    "dateModified": "2026-01-23 04:16:49",
     "forumTopicId": 3587,
     "hashes": [
       "e9f07a66e2e793bdbf8538ac110bfb7c"

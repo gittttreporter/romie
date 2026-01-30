@@ -79,7 +79,7 @@
     "id": 30905,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/105017.png",
+    "imageIcon": "/Images/123327.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -109,7 +109,7 @@
     "id": 29873,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/100494.png",
+    "imageIcon": "/Images/123326.png",
     "numAchievements": 30,
     "numLeaderboards": 0,
     "points": 238,
@@ -124,14 +124,15 @@
     "id": 30151,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/101235.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/119405.png",
+    "numAchievements": 7,
     "numLeaderboards": 1,
-    "points": 0,
-    "dateModified": "2024-07-16 23:10:28",
+    "points": 37,
+    "dateModified": "2025-12-30 09:57:16",
     "forumTopicId": 27186,
     "hashes": [
-      "0d602f64d9e968229964b42852b9bf91"
+      "c03d5588464987036d7b7b4ebc9f2cfd",
+      "b4aaa6cfa08322cc403387eca8d20fbc"
     ]
   },
   {
@@ -180,6 +181,21 @@
     ]
   },
   {
+    "title": "~Hack~ Luigi's Other Mansion",
+    "id": 37142,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c4b5fa5e31a3f28f53a665aa82bc2f05"
+    ]
+  },
+  {
     "title": "~Hack~ Mario Kart: Double Dash Extended",
     "id": 29759,
     "consoleId": 16,
@@ -207,6 +223,36 @@
     "forumTopicId": 27182,
     "hashes": [
       "eac6965e4b579397917a72ca108b8a90"
+    ]
+  },
+  {
+    "title": "~Hack~ Metroid Prime 2: Echoes - Double Trouble",
+    "id": 37575,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/121748.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 33635,
+    "hashes": [
+      "cc9b95c3d79ce2664c3baffbfab4bea2"
+    ]
+  },
+  {
+    "title": "~Hack~ Metroid Prime: Double Trouble",
+    "id": 36636,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/120769.png",
+    "numAchievements": 34,
+    "numLeaderboards": 3,
+    "points": 665,
+    "dateModified": "2025-12-27 14:07:20",
+    "forumTopicId": 33291,
+    "hashes": [
+      "f7d0fdd44db4982b915e2951f72815a9"
     ]
   },
   {
@@ -248,10 +294,26 @@
     "numAchievements": 80,
     "numLeaderboards": 6,
     "points": 1040,
-    "dateModified": "2025-08-24 02:18:05",
+    "dateModified": "2025-09-29 01:33:17",
     "forumTopicId": 28519,
     "hashes": [
-      "fa9de0bc1c19b3184b5be10a8ff4706c"
+      "1c461e3c8884490f767b3235c8a80231",
+      "ae3a0ed61dae8fd03c697ffdfee860fc"
+    ]
+  },
+  {
+    "title": "~Hack~ Piki 2",
+    "id": 37089,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1ee452f679dcb39e59cd55969acab864"
     ]
   },
   {
@@ -263,10 +325,25 @@
     "numAchievements": 77,
     "numLeaderboards": 10,
     "points": 418,
-    "dateModified": "2025-08-25 12:37:24",
+    "dateModified": "2025-10-14 22:28:23",
     "forumTopicId": 29218,
     "hashes": [
       "f45d751b8a2131de52cbcdb98e4ac227"
+    ]
+  },
+  {
+    "title": "~Hack~ Pikmin 1² [Subset - Randomizer Run]",
+    "id": 34508,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/117406.png",
+    "numAchievements": 19,
+    "numLeaderboards": 0,
+    "points": 298,
+    "dateModified": "2025-09-28 16:38:26",
+    "forumTopicId": 32159,
+    "hashes": [
+      "b4799cdf60ffa240d24e7444c0f28713"
     ]
   },
   {
@@ -293,7 +370,7 @@
     "numAchievements": 27,
     "numLeaderboards": 2,
     "points": 280,
-    "dateModified": "2025-04-21 18:28:41",
+    "dateModified": "2025-11-15 16:53:17",
     "forumTopicId": 28339,
     "hashes": [
       "6e875844552132c360421f1af9b0050a"
@@ -312,6 +389,141 @@
     "forumTopicId": 27765,
     "hashes": [
       "51ec09ed55439b9960b186c9d646a0e1"
+    ]
+  },
+  {
+    "title": "~Hack~ Pikmin 2: Halloween Hack",
+    "id": 37021,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7a701910b659a170c335d9aa9e764ab5"
+    ]
+  },
+  {
+    "title": "~Hack~ Pikmin 2: Hallows Haunt",
+    "id": 37090,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0ac86a6e1686611e2888f6cdecec243a"
+    ]
+  },
+  {
+    "title": "~Hack~ Pikmin 2: Kaizo Edition",
+    "id": 37022,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b1c81641cf9afa8d0066f325430bb65b"
+    ]
+  },
+  {
+    "title": "~Hack~ Pikmin 2: Man at Legs Testing Facility",
+    "id": 28808,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c11d0b2774f64b19fb2e24476bc7041c"
+    ]
+  },
+  {
+    "title": "~Hack~ Pikmin 2: New Year",
+    "id": 29802,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/117222.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b06aa84e92bde6afc85029b695fa5f6f"
+    ]
+  },
+  {
+    "title": "~Hack~ Pikmin 2: Power Cut",
+    "id": 37091,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "465443b58d53c5ac2382afb5908be10f"
+    ]
+  },
+  {
+    "title": "~Hack~ Pikmin 2: Power Cut Blackout",
+    "id": 37092,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f9df3124ff592668ccc6790c841b0cff"
+    ]
+  },
+  {
+    "title": "~Hack~ Pikmin 2: Regrown",
+    "id": 34511,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/117445.png",
+    "numAchievements": 74,
+    "numLeaderboards": 0,
+    "points": 683,
+    "dateModified": "2026-01-29 20:10:14",
+    "forumTopicId": 32166,
+    "hashes": [
+      "f861d6f29be496e09a58af3e8e59d958"
+    ]
+  },
+  {
+    "title": "~Hack~ Pikmin 2: Yellow Edition",
+    "id": 30708,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/117188.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "015d9f344814d3fedef6fd7c7d20f756"
     ]
   },
   {
@@ -345,7 +557,37 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon GRAND Colosseum",
+    "title": "~Hack~ Pikmin Wars",
+    "id": 37878,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/123483.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "733bdad0b30ec46d91fd1104bf62ea02"
+    ]
+  },
+  {
+    "title": "~Hack~ Pikmin: Endless Abyss 2",
+    "id": 37853,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "138b6e797ae1b8d7cba4f460cf15171e"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon GRAND Colosseum",
     "id": 30691,
     "consoleId": 16,
     "consoleName": "GameCube",
@@ -360,7 +602,22 @@
     ]
   },
   {
-    "title": "~Hack~ Pokemon XG: NeXt Gen",
+    "title": "~Hack~ Pokémon XD: DX [Director's Cut]",
+    "id": 35685,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 32988,
+    "hashes": [
+      "b134627a93ccf34c8cdde9cd7df13536"
+    ]
+  },
+  {
+    "title": "~Hack~ Pokémon XG: NeXt Gen",
     "id": 30170,
     "consoleId": 16,
     "consoleName": "GameCube",
@@ -372,6 +629,21 @@
     "forumTopicId": 27287,
     "hashes": [
       "790d420d49b0908a37f6e64f714acdf2"
+    ]
+  },
+  {
+    "title": "~Hack~ Project Reality",
+    "id": 37143,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "00b00d6dbc6109cb3407b408f7dc73eb"
     ]
   },
   {
@@ -405,6 +677,36 @@
     ]
   },
   {
+    "title": "~Hack~ Scooby-Doo: Night of 100 Frights Hardcore Nuzlocke",
+    "id": 37033,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3864e21dc6645095f302258d59d15f10"
+    ]
+  },
+  {
+    "title": "~Hack~ Shadow Mario's Story",
+    "id": 37938,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4b6e3e97ea02fa5b94eacdcf40e00fd3"
+    ]
+  },
+  {
     "title": "~Hack~ Shadow the Hedgehog: Reloaded",
     "id": 28371,
     "consoleId": 16,
@@ -434,6 +736,21 @@
     "forumTopicId": null,
     "hashes": [
       "b5eac73031ecc639fcc11624960f3cd7"
+    ]
+  },
+  {
+    "title": "~Hack~ Skies of Arcadia: Legends Maeson",
+    "id": 37879,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "6d7b760b7a5b364f56c28e24a79df390"
     ]
   },
   {
@@ -542,31 +859,16 @@
     ]
   },
   {
-    "title": "~Hack~ SpongeBob SquarePants: The Movie - Encore",
-    "id": 31966,
-    "consoleId": 16,
-    "consoleName": "GameCube",
-    "imageIcon": "/Images/105056.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "a4a6bb027431c52c7f4e77d52a293b7a"
-    ]
-  },
-  {
     "title": "~Hack~ Super Doot Sunshine",
     "id": 31898,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/112559.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/123632.png",
+    "numAchievements": 345,
+    "numLeaderboards": 70,
+    "points": 5960,
+    "dateModified": "2026-01-29 15:31:50",
+    "forumTopicId": 34166,
     "hashes": [
       "5e9758bbb2a79846afc8ddf6c7752449"
     ]
@@ -577,10 +879,10 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/101487.png",
-    "numAchievements": 121,
+    "numAchievements": 122,
     "numLeaderboards": 17,
-    "points": 1117,
-    "dateModified": "2025-07-18 19:52:01",
+    "points": 1120,
+    "dateModified": "2026-01-26 14:50:53",
     "forumTopicId": 25756,
     "hashes": [
       "1938af2aee854415255e3220fc366dd1"
@@ -639,12 +941,12 @@
     "consoleName": "GameCube",
     "imageIcon": "/Images/115776.png",
     "numAchievements": 0,
-    "numLeaderboards": 96,
+    "numLeaderboards": 58,
     "points": 0,
-    "dateModified": "2025-08-19 20:21:10",
+    "dateModified": "2025-10-04 21:02:01",
     "forumTopicId": 26492,
     "hashes": [
-      "eea210b673545a27118c32fed0ecbb78"
+      "786d44bbf718f843340246fb215a32b2"
     ]
   },
   {
@@ -678,17 +980,19 @@
     ]
   },
   {
-    "title": "~Hack~ The Legend of Pokémon XD: Wind of Darkness",
-    "id": 3778,
+    "title": "~Hack~ The SpongeBob SquarePants Movie: Encore",
+    "id": 31966,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/105056.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": 32114,
-    "hashes": []
+    "forumTopicId": null,
+    "hashes": [
+      "a4a6bb027431c52c7f4e77d52a293b7a"
+    ]
   },
   {
     "title": "~Hack~ Valley of the Lost",
@@ -766,6 +1070,21 @@
     ]
   },
   {
+    "title": "~Prototype~ Pirates of the Caribbean: At World's End",
+    "id": 37881,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9245aa4694fc130822d685b004512b47"
+    ]
+  },
+  {
     "title": "~Unlicensed~ MaxPlay Classic Games Volume 1",
     "id": 7018,
     "consoleId": 16,
@@ -807,6 +1126,19 @@
     "points": 0,
     "dateModified": "2024-10-16 07:03:02",
     "forumTopicId": 28445,
+    "hashes": []
+  },
+  {
+    "title": "~Z~ No Hash 3778",
+    "id": 3778,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 32114,
     "hashes": []
   },
   {
@@ -905,8 +1237,8 @@
     "imageIcon": "/Images/110484.png",
     "numAchievements": 22,
     "numLeaderboards": 16,
-    "points": 201,
-    "dateModified": "2025-04-16 11:29:34",
+    "points": 203,
+    "dateModified": "2025-12-29 21:25:56",
     "forumTopicId": 30490,
     "hashes": [
       "9e0cc10acd5be05fd2e156d9a03ca23f"
@@ -1056,7 +1388,7 @@
     "numAchievements": 117,
     "numLeaderboards": 3,
     "points": 975,
-    "dateModified": "2025-01-23 00:20:37",
+    "dateModified": "2025-12-05 02:56:12",
     "forumTopicId": 25382,
     "hashes": [
       "4f69c7886162509baa0882062bb2e1c8"
@@ -1127,7 +1459,7 @@
     "id": 30423,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118770.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1157,7 +1489,7 @@
     "id": 30417,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119156.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1281,7 +1613,7 @@
     "numAchievements": 72,
     "numLeaderboards": 0,
     "points": 540,
-    "dateModified": "2025-06-26 20:36:23",
+    "dateModified": "2025-10-27 16:45:01",
     "forumTopicId": 30887,
     "hashes": [
       "bceab2cf38673bf2eded4283487ce3b0"
@@ -1419,7 +1751,7 @@
     "numAchievements": 121,
     "numLeaderboards": 60,
     "points": 1072,
-    "dateModified": "2025-08-07 20:00:58",
+    "dateModified": "2025-10-27 02:20:27",
     "forumTopicId": 31084,
     "hashes": [
       "f4d8e2a60dce94b966250e1824ed3f5b"
@@ -1536,7 +1868,7 @@
     "id": 30439,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/123044.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1599,8 +1931,8 @@
     "imageIcon": "/Images/094007.png",
     "numAchievements": 47,
     "numLeaderboards": 2,
-    "points": 400,
-    "dateModified": "2025-01-02 08:32:16",
+    "points": 440,
+    "dateModified": "2025-12-23 18:12:20",
     "forumTopicId": 26127,
     "hashes": [
       "aaded21bb03331297bed18a890a72545"
@@ -1773,19 +2105,6 @@
     ]
   },
   {
-    "title": "Burnout [Subset - Criterion Times]",
-    "id": 30708,
-    "consoleId": 16,
-    "consoleName": "GameCube",
-    "imageIcon": "/Images/101292.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
     "title": "Burnout 2: Point of Impact",
     "id": 9375,
     "consoleId": 16,
@@ -1810,7 +2129,7 @@
     "numAchievements": 44,
     "numLeaderboards": 6,
     "points": 359,
-    "dateModified": "2024-07-19 18:20:51",
+    "dateModified": "2025-12-27 01:41:09",
     "forumTopicId": 25913,
     "hashes": [
       "cf157e7bf913a9bfe03b368b1227c04d"
@@ -2228,10 +2547,10 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/096210.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-08-28 22:18:03",
+    "numAchievements": 110,
+    "numLeaderboards": 35,
+    "points": 1163,
+    "dateModified": "2025-10-26 05:32:46",
     "forumTopicId": 29607,
     "hashes": [
       "faee7869f31c17f1d80292ca9c4d66b9"
@@ -2272,7 +2591,7 @@
     "id": 22907,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/100215.png",
+    "imageIcon": "/Images/121672.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -2557,7 +2876,7 @@
     "id": 28265,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/114428.png",
+    "imageIcon": "/Images/122265.png",
     "numAchievements": 108,
     "numLeaderboards": 1,
     "points": 1340,
@@ -2662,7 +2981,7 @@
     "id": 30287,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/103241.png",
+    "imageIcon": "/Images/123484.png",
     "numAchievements": 11,
     "numLeaderboards": 0,
     "points": 82,
@@ -2816,8 +3135,8 @@
     "imageIcon": "/Images/100547.png",
     "numAchievements": 246,
     "numLeaderboards": 576,
-    "points": 1655,
-    "dateModified": "2024-11-16 19:13:23",
+    "points": 1660,
+    "dateModified": "2025-11-08 02:02:21",
     "forumTopicId": 27408,
     "hashes": [
       "3720b4306b4588ccefb09ed0c5bbcdc9"
@@ -2952,8 +3271,8 @@
     "imageIcon": "/Images/110437.png",
     "numAchievements": 89,
     "numLeaderboards": 2,
-    "points": 659,
-    "dateModified": "2025-07-31 16:39:06",
+    "points": 653,
+    "dateModified": "2025-12-25 06:38:15",
     "forumTopicId": 27335,
     "hashes": [
       "efbb9d397524083b762ec88eccc69dbc"
@@ -3024,7 +3343,7 @@
     "id": 30266,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120906.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -3178,7 +3497,7 @@
     "numAchievements": 72,
     "numLeaderboards": 0,
     "points": 600,
-    "dateModified": "2025-06-04 22:11:31",
+    "dateModified": "2025-11-30 20:32:19",
     "forumTopicId": 25591,
     "hashes": [
       "513fa0301861e31412a5819b418c8c2c",
@@ -3236,13 +3555,28 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/081531.png",
-    "numAchievements": 229,
+    "numAchievements": 147,
     "numLeaderboards": 26,
-    "points": 6790,
-    "dateModified": "2024-07-25 18:15:58",
+    "points": 3715,
+    "dateModified": "2024-07-20 13:25:35",
     "forumTopicId": 25348,
     "hashes": [
       "15449523ead65939970e336a91bf943b"
+    ]
+  },
+  {
+    "title": "F-Zero GX [Subset - Completionist]",
+    "id": 37697,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/122877.png",
+    "numAchievements": 82,
+    "numLeaderboards": 0,
+    "points": 3075,
+    "dateModified": "2024-07-25 18:15:58",
+    "forumTopicId": 33916,
+    "hashes": [
+      "d1dee37187359adfe5dd644c5776a864"
     ]
   },
   {
@@ -3306,7 +3640,7 @@
     ]
   },
   {
-    "title": "FIFA Soccer 06",
+    "title": "FIFA 06",
     "id": 30203,
     "consoleId": 16,
     "consoleName": "GameCube",
@@ -3321,7 +3655,7 @@
     ]
   },
   {
-    "title": "FIFA Soccer 07",
+    "title": "FIFA 07",
     "id": 30204,
     "consoleId": 16,
     "consoleName": "GameCube",
@@ -3336,7 +3670,7 @@
     ]
   },
   {
-    "title": "FIFA Soccer 2002",
+    "title": "FIFA 2002",
     "id": 30198,
     "consoleId": 16,
     "consoleName": "GameCube",
@@ -3351,7 +3685,7 @@
     ]
   },
   {
-    "title": "FIFA Soccer 2003",
+    "title": "FIFA 2003",
     "id": 30200,
     "consoleId": 16,
     "consoleName": "GameCube",
@@ -3366,7 +3700,7 @@
     ]
   },
   {
-    "title": "FIFA Soccer 2004",
+    "title": "FIFA 2004",
     "id": 30201,
     "consoleId": 16,
     "consoleName": "GameCube",
@@ -3381,7 +3715,7 @@
     ]
   },
   {
-    "title": "FIFA Soccer 2005",
+    "title": "FIFA 2005",
     "id": 30202,
     "consoleId": 16,
     "consoleName": "GameCube",
@@ -3426,7 +3760,7 @@
     ]
   },
   {
-    "title": "FIFA World Cup Germany 2006",
+    "title": "FIFA World Cup: Germany 2006",
     "id": 30358,
     "consoleId": 16,
     "consoleName": "GameCube",
@@ -3471,7 +3805,7 @@
     ]
   },
   {
-    "title": "Final Fantasy Crystal Chronicles [Subset - Multi]",
+    "title": "Final Fantasy Crystal Chronicles [Subset - Multiplayer]",
     "id": 28644,
     "consoleId": 16,
     "consoleName": "GameCube",
@@ -3561,7 +3895,7 @@
     ]
   },
   {
-    "title": "Franklin: A Birthday Surprise",
+    "title": "Franklin: Un anniversaire surprise",
     "id": 30470,
     "consoleId": 16,
     "consoleName": "GameCube",
@@ -3975,7 +4309,7 @@
     "id": 25445,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117646.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -4005,7 +4339,7 @@
     "id": 25446,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/104890.png",
+    "imageIcon": "/Images/117647.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -4020,12 +4354,12 @@
     "id": 30224,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117628.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32237,
     "hashes": [
       "43dbf63cd3bc99fbef985a9fec646726"
     ]
@@ -4050,7 +4384,7 @@
     "id": 3178,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/089381.png",
+    "imageIcon": "/Images/120496.png",
     "numAchievements": 230,
     "numLeaderboards": 4,
     "points": 821,
@@ -4060,22 +4394,6 @@
       "ea86895552fe7101969b1a6dc508ae6c",
       "c598ff0b2ffaf51353609cae27ae8d7e",
       "40f00a29d84aa66dfd059687605113de"
-    ]
-  },
-  {
-    "title": "Harvest Moon: A Wonderful Life [Subset - Link Cable]",
-    "id": 28808,
-    "consoleId": 16,
-    "consoleName": "GameCube",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 25686,
-    "hashes": [
-      "5b5f7bc6c34c518018bfca708528fcef",
-      "c38ea99fe4ffad63363f3c9242edc7a2"
     ]
   },
   {
@@ -4098,11 +4416,11 @@
     "id": 8577,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/089049.png",
+    "imageIcon": "/Images/120788.png",
     "numAchievements": 138,
     "numLeaderboards": 5,
     "points": 1229,
-    "dateModified": "2025-03-29 07:55:56",
+    "dateModified": "2026-01-26 05:50:50",
     "forumTopicId": 25350,
     "hashes": [
       "92c480e1e106d8b681e3c8e611b52e62"
@@ -4297,7 +4615,7 @@
     "numAchievements": 83,
     "numLeaderboards": 0,
     "points": 556,
-    "dateModified": "2025-02-12 08:26:16",
+    "dateModified": "2025-09-28 22:57:06",
     "forumTopicId": 26000,
     "hashes": [
       "eaf4bf58ffdb7f8a3e4f2370ac18e973"
@@ -4503,7 +4821,7 @@
     "id": 25448,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/121362.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -4624,7 +4942,7 @@
     "id": 6151,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/089625.png",
+    "imageIcon": "/Images/117530.png",
     "numAchievements": 203,
     "numLeaderboards": 618,
     "points": 1086,
@@ -4823,11 +5141,11 @@
     "id": 3337,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/087596.png",
+    "imageIcon": "/Images/121889.png",
     "numAchievements": 76,
     "numLeaderboards": 20,
     "points": 489,
-    "dateModified": "2025-07-16 12:22:07",
+    "dateModified": "2025-09-13 01:14:03",
     "forumTopicId": 27468,
     "hashes": [
       "7db862c9afe7be8135a04f1047ecc89d"
@@ -5097,7 +5415,7 @@
     "id": 6336,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/088910.png",
+    "imageIcon": "/Images/117529.png",
     "numAchievements": 45,
     "numLeaderboards": 0,
     "points": 203,
@@ -5159,12 +5477,27 @@
     "consoleName": "GameCube",
     "imageIcon": "/Images/091536.png",
     "numAchievements": 65,
-    "numLeaderboards": 36,
+    "numLeaderboards": 37,
     "points": 1073,
-    "dateModified": "2024-11-02 10:52:15",
+    "dateModified": "2026-01-25 00:41:48",
     "forumTopicId": 25289,
     "hashes": [
       "adad8934d2586d27ec4b653bae52e47b"
+    ]
+  },
+  {
+    "title": "Mario Kart: Double Dash!! [Subset - Hero]",
+    "id": 37514,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/121716.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 33587,
+    "hashes": [
+      "79c56661182bfb1115627a74daebb7c2"
     ]
   },
   {
@@ -5191,14 +5524,14 @@
     "numAchievements": 55,
     "numLeaderboards": 3,
     "points": 374,
-    "dateModified": "2024-11-03 22:57:38",
+    "dateModified": "2026-01-17 21:04:12",
     "forumTopicId": 25319,
     "hashes": [
       "de557373807ad6ec46691878ba51b66e"
     ]
   },
   {
-    "title": "Mario Party 5 [Subset - Multi]",
+    "title": "Mario Party 5 [Subset - Multiplayer]",
     "id": 30135,
     "consoleId": 16,
     "consoleName": "GameCube",
@@ -5236,7 +5569,7 @@
     "numAchievements": 139,
     "numLeaderboards": 12,
     "points": 789,
-    "dateModified": "2025-08-20 22:51:25",
+    "dateModified": "2025-09-10 02:15:02",
     "forumTopicId": 25291,
     "hashes": [
       "8614a7f02731d625767326bcda70c6a6"
@@ -5247,13 +5580,17 @@
     "id": 32848,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/111796.png",
+    "imageIcon": "/Images/117553.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "7a1ed8b91a0f636f8996d20564d966ca",
+      "b20ac0eff64ab0b4ce7e14a6855357bb",
+      "53102c241c2a7058518c6c647136dfda"
+    ]
   },
   {
     "title": "Mario Power Tennis",
@@ -5445,7 +5782,7 @@
     "numAchievements": 0,
     "numLeaderboards": 4,
     "points": 0,
-    "dateModified": "2025-04-09 11:31:12",
+    "dateModified": "2026-01-06 02:46:18",
     "forumTopicId": 26755,
     "hashes": [
       "ca4415fd4896529b75b5a6b7ebc33a42"
@@ -5474,8 +5811,8 @@
     "imageIcon": "/Images/089033.png",
     "numAchievements": 407,
     "numLeaderboards": 0,
-    "points": 4199,
-    "dateModified": "2025-07-11 01:44:05",
+    "points": 4209,
+    "dateModified": "2026-01-24 01:33:00",
     "forumTopicId": 25276,
     "hashes": [
       "0d2a8a5d60ab2a761bbf7fe39ec844ac"
@@ -5535,7 +5872,7 @@
     "numAchievements": 123,
     "numLeaderboards": 0,
     "points": 1200,
-    "dateModified": "2025-08-20 18:50:38",
+    "dateModified": "2025-12-22 22:05:42",
     "forumTopicId": 25287,
     "hashes": [
       "9dfcc50213847a97b66134059e88f12b",
@@ -5586,7 +5923,7 @@
     "numAchievements": 29,
     "numLeaderboards": 4,
     "points": 660,
-    "dateModified": "2025-08-30 01:28:07",
+    "dateModified": "2025-11-06 12:33:23",
     "forumTopicId": 27393,
     "hashes": [
       "3b895069096fa40b37c59c27b96520be"
@@ -5614,7 +5951,7 @@
     "id": 7683,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/079073.png",
+    "imageIcon": "/Images/119612.png",
     "numAchievements": 68,
     "numLeaderboards": 49,
     "points": 710,
@@ -5901,10 +6238,10 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/116295.png",
-    "numAchievements": 0,
+    "numAchievements": 79,
     "numLeaderboards": 30,
-    "points": 0,
-    "dateModified": "2025-08-23 06:17:59",
+    "points": 569,
+    "dateModified": "2026-01-11 07:33:28",
     "forumTopicId": 31569,
     "hashes": [
       "1db71ce557c78865a750b1287eb56735"
@@ -6036,10 +6373,10 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/088925.png",
-    "numAchievements": 27,
+    "numAchievements": 26,
     "numLeaderboards": 21,
-    "points": 225,
-    "dateModified": "2024-12-01 20:08:09",
+    "points": 224,
+    "dateModified": "2025-11-08 20:12:07",
     "forumTopicId": 25296,
     "hashes": [
       "dd585efef511615d0ae8753a2a5050f0"
@@ -6051,10 +6388,10 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/089044.png",
-    "numAchievements": 78,
+    "numAchievements": 77,
     "numLeaderboards": 48,
-    "points": 469,
-    "dateModified": "2024-12-01 20:07:17",
+    "points": 470,
+    "dateModified": "2026-01-06 20:59:33",
     "forumTopicId": 25375,
     "hashes": [
       "6e327105e0f83450c5524db354b7b713"
@@ -6066,10 +6403,10 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/101802.png",
-    "numAchievements": 94,
+    "numAchievements": 93,
     "numLeaderboards": 116,
-    "points": 489,
-    "dateModified": "2025-01-14 05:19:04",
+    "points": 490,
+    "dateModified": "2026-01-06 21:01:40",
     "forumTopicId": 27787,
     "hashes": [
       "ba03edfe739e8dcd332287d5666788a8"
@@ -6081,10 +6418,10 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/107346.png",
-    "numAchievements": 0,
-    "numLeaderboards": 78,
-    "points": 0,
-    "dateModified": "2025-08-10 05:20:35",
+    "numAchievements": 135,
+    "numLeaderboards": 198,
+    "points": 1040,
+    "dateModified": "2025-11-22 07:44:00",
     "forumTopicId": 29648,
     "hashes": [
       "6c2dc4c76fca3ed8cbf2830e427690b4",
@@ -6096,7 +6433,7 @@
     "id": 30548,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117811.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -6111,7 +6448,7 @@
     "id": 30547,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117830.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -6216,7 +6553,7 @@
     "id": 30404,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122971.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -6366,7 +6703,7 @@
     "id": 6887,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/102332.png",
+    "imageIcon": "/Images/118129.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -6640,7 +6977,7 @@
     "numAchievements": 28,
     "numLeaderboards": 9,
     "points": 238,
-    "dateModified": "2025-08-23 02:40:47",
+    "dateModified": "2025-09-16 01:44:23",
     "forumTopicId": 28787,
     "hashes": [
       "c5e3b52902eff411d1235a53d15362bc"
@@ -6696,7 +7033,7 @@
     "id": 30176,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/113548.png",
+    "imageIcon": "/Images/121388.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -6730,7 +7067,7 @@
     "numAchievements": 148,
     "numLeaderboards": 52,
     "points": 1694,
-    "dateModified": "2025-08-05 13:50:35",
+    "dateModified": "2025-12-22 13:40:26",
     "forumTopicId": 27163,
     "hashes": [
       "e5d674f9b151ae0df4bbae98d9eeeeea"
@@ -6891,7 +7228,7 @@
     "id": 25417,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/090060.png",
+    "imageIcon": "/Images/121378.png",
     "numAchievements": 43,
     "numLeaderboards": 22,
     "points": 333,
@@ -7122,7 +7459,7 @@
     "numAchievements": 113,
     "numLeaderboards": 32,
     "points": 760,
-    "dateModified": "2025-08-29 13:35:37",
+    "dateModified": "2026-01-05 14:21:04",
     "forumTopicId": 25278,
     "hashes": [
       "3876a058fdf7ee82565f9a4439237b1f"
@@ -7133,11 +7470,11 @@
     "id": 28656,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/110407.png",
+    "imageIcon": "/Images/119129.png",
     "numAchievements": 23,
     "numLeaderboards": 2,
-    "points": 523,
-    "dateModified": "2025-03-17 04:32:42",
+    "points": 498,
+    "dateModified": "2025-10-13 15:26:14",
     "forumTopicId": 25608,
     "hashes": [
       "46bdb78bc7855e98f76f13f2eef58ad2"
@@ -7167,7 +7504,7 @@
     "numAchievements": 49,
     "numLeaderboards": 39,
     "points": 408,
-    "dateModified": "2025-08-16 23:42:07",
+    "dateModified": "2025-09-09 19:19:54",
     "forumTopicId": 30121,
     "hashes": [
       "1134b5301e40a4453de5d33be174a218"
@@ -7208,11 +7545,11 @@
     "id": 3781,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/081298.png",
+    "imageIcon": "/Images/120663.png",
     "numAchievements": 31,
     "numLeaderboards": 0,
     "points": 200,
-    "dateModified": "2024-07-19 21:43:33",
+    "dateModified": "2025-09-02 21:32:31",
     "forumTopicId": 25507,
     "hashes": [
       "136d9d4ac673d75d0fc51407186b9e73"
@@ -7587,11 +7924,13 @@
     "numAchievements": 114,
     "numLeaderboards": 12,
     "points": 1120,
-    "dateModified": "2025-01-05 17:20:58",
+    "dateModified": "2025-10-15 12:04:52",
     "forumTopicId": 25290,
     "hashes": [
       "e869ece68f004f74278ec5fce58105e3",
-      "aa38a0a07d54aedc8a3bbabe15cc5574"
+      "aa38a0a07d54aedc8a3bbabe15cc5574",
+      "1daecc981f0c8ee8008f5d42c620d90b",
+      "5ed0ea07578a7a02d381855ef94a029b"
     ]
   },
   {
@@ -7619,7 +7958,7 @@
     "numAchievements": 172,
     "numLeaderboards": 10,
     "points": 1640,
-    "dateModified": "2025-07-11 23:09:35",
+    "dateModified": "2026-01-17 06:23:30",
     "forumTopicId": 25300,
     "hashes": [
       "ab902c1cd4bcff257657a16df4c322c0"
@@ -7637,7 +7976,8 @@
     "dateModified": "2025-05-27 12:51:46",
     "forumTopicId": 25304,
     "hashes": [
-      "7d980856f5f09b295fa3278645cf229f"
+      "7d980856f5f09b295fa3278645cf229f",
+      "027fe88ad51b493eb37f3e4f49ad0b59"
     ]
   },
   {
@@ -7648,8 +7988,8 @@
     "imageIcon": "/Images/089552.png",
     "numAchievements": 151,
     "numLeaderboards": 25,
-    "points": 1111,
-    "dateModified": "2024-10-30 04:25:00",
+    "points": 1186,
+    "dateModified": "2025-09-09 04:16:36",
     "forumTopicId": 25510,
     "hashes": [
       "93f746a6523f684c05ce25238483400c",
@@ -8149,7 +8489,7 @@
     "numAchievements": 180,
     "numLeaderboards": 0,
     "points": 1000,
-    "dateModified": "2025-08-28 20:51:37",
+    "dateModified": "2025-10-15 23:14:33",
     "forumTopicId": 25277,
     "hashes": [
       "01352040a55de2651d5150d0120579d1",
@@ -8206,11 +8546,11 @@
     "id": 6333,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/103041.png",
+    "imageIcon": "/Images/122566.png",
     "numAchievements": 142,
     "numLeaderboards": 125,
     "points": 841,
-    "dateModified": "2025-06-25 09:05:44",
+    "dateModified": "2025-12-30 08:14:26",
     "forumTopicId": 25333,
     "hashes": [
       "90f666f636fff92b2e609462edbb29b5"
@@ -8240,7 +8580,7 @@
     "numAchievements": 114,
     "numLeaderboards": 183,
     "points": 932,
-    "dateModified": "2024-08-14 00:40:31",
+    "dateModified": "2026-01-06 05:23:00",
     "forumTopicId": 25539,
     "hashes": [
       "0d6cf5995685f52d80d789216d86f0a8"
@@ -8253,9 +8593,9 @@
     "consoleName": "GameCube",
     "imageIcon": "/Images/072356.png",
     "numAchievements": 0,
-    "numLeaderboards": 23,
+    "numLeaderboards": 44,
     "points": 0,
-    "dateModified": "2025-08-09 02:07:05",
+    "dateModified": "2025-12-25 13:00:00",
     "forumTopicId": 28841,
     "hashes": [
       "56d082f5079e5f86d98a78ca248a88b5",
@@ -8271,7 +8611,7 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2026-01-12 19:25:24",
     "forumTopicId": 30266,
     "hashes": [
       "b3fe27d7d71a3b02395a9df93ef295c3"
@@ -8286,7 +8626,7 @@
     "numAchievements": 125,
     "numLeaderboards": 0,
     "points": 1000,
-    "dateModified": "2024-07-24 18:21:36",
+    "dateModified": "2025-11-28 09:54:09",
     "forumTopicId": 25619,
     "hashes": [
       "389217145b6935f8ddc3d52cbb6500a7",
@@ -8407,7 +8747,7 @@
     "numAchievements": 133,
     "numLeaderboards": 59,
     "points": 915,
-    "dateModified": "2024-11-12 23:45:09",
+    "dateModified": "2026-01-20 18:24:43",
     "forumTopicId": 25279,
     "hashes": [
       "9332e566f4caaf324353a2832b4dbc58"
@@ -8422,7 +8762,7 @@
     "numAchievements": 57,
     "numLeaderboards": 0,
     "points": 948,
-    "dateModified": "2025-08-16 15:24:46",
+    "dateModified": "2025-12-10 18:55:26",
     "forumTopicId": 27788,
     "hashes": [
       "af82769fe7546675953b24f5ba5301f8"
@@ -8452,7 +8792,7 @@
     "numAchievements": 61,
     "numLeaderboards": 0,
     "points": 371,
-    "dateModified": "2025-03-22 20:03:48",
+    "dateModified": "2025-10-07 06:33:22",
     "forumTopicId": 26452,
     "hashes": [
       "4f5aeb86025ba2546acbca6370138d8d"
@@ -8467,11 +8807,9 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": "2025-08-12 06:12:23",
+    "dateModified": "2026-01-27 11:38:52",
     "forumTopicId": 27958,
-    "hashes": [
-      "a2a809044eec399e9a3b19919e027b78"
-    ]
+    "hashes": []
   },
   {
     "title": "SpongeBob SquarePants: Creature from the Krusty Krab",
@@ -8516,21 +8854,6 @@
     "forumTopicId": null,
     "hashes": [
       "6793b6d0baacdaea731bebe504e59144"
-    ]
-  },
-  {
-    "title": "SpongeBob SquarePants: The Movie",
-    "id": 15376,
-    "consoleId": 16,
-    "consoleName": "GameCube",
-    "imageIcon": "/Images/059013.png",
-    "numAchievements": 62,
-    "numLeaderboards": 10,
-    "points": 660,
-    "dateModified": "2024-09-02 14:46:21",
-    "forumTopicId": 28554,
-    "hashes": [
-      "034a9a1905978fdfaaa7d6f3fc85ca2a"
     ]
   },
   {
@@ -8583,7 +8906,7 @@
     "id": 30569,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117147.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -8662,10 +8985,10 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/089933.png",
-    "numAchievements": 47,
+    "numAchievements": 58,
     "numLeaderboards": 33,
-    "points": 620,
-    "dateModified": "2025-08-28 17:21:59",
+    "points": 729,
+    "dateModified": "2025-11-01 16:10:21",
     "forumTopicId": 25599,
     "hashes": [
       "4e50ec9b91906f1b25d611b2b64e31d8"
@@ -8680,7 +9003,7 @@
     "numAchievements": 213,
     "numLeaderboards": 2,
     "points": 1540,
-    "dateModified": "2025-08-26 15:50:04",
+    "dateModified": "2025-09-02 16:47:22",
     "forumTopicId": 25351,
     "hashes": [
       "692572eedda49cc331ac7fb9b300b371"
@@ -8830,7 +9153,7 @@
     "numAchievements": 40,
     "numLeaderboards": 0,
     "points": 555,
-    "dateModified": "2024-08-07 13:00:31",
+    "dateModified": "2025-11-14 14:55:42",
     "forumTopicId": 25354,
     "hashes": [
       "ea02ff3bdb24aa6ff6f13d5483e3f6c6"
@@ -8845,7 +9168,7 @@
     "numAchievements": 148,
     "numLeaderboards": 72,
     "points": 1230,
-    "dateModified": "2025-06-30 01:23:10",
+    "dateModified": "2026-01-27 14:09:23",
     "forumTopicId": 25282,
     "hashes": [
       "051e73a951c34842b45641dc4de39f51",
@@ -8869,7 +9192,7 @@
     "numAchievements": 75,
     "numLeaderboards": 0,
     "points": 1325,
-    "dateModified": "2025-06-30 22:26:12",
+    "dateModified": "2026-01-24 23:05:39",
     "forumTopicId": 25482,
     "hashes": [
       "4a89d7099e1cc17a3d50748772319014",
@@ -8879,11 +9202,7 @@
       "bb26111fdf21be171c764b66cd0850fd",
       "0db6f2c10205f7d859e23d90068f18bb",
       "c58bc3359db959900673ee7a0a86046d",
-      "b10f027041a58b344fbac556ea91d48f",
-      "81b87dd4587eb640024c353e3845e53c",
-      "dc3c6ccc67240d070af4ada07efdd6e8",
-      "4b1ad6e34ebdfc2eb2e6cc10e18006cf",
-      "bd4f5c0ccbf949c0a97ab70a7e757823"
+      "b10f027041a58b344fbac556ea91d48f"
     ]
   },
   {
@@ -8973,9 +9292,9 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/089484.png",
-    "numAchievements": 159,
+    "numAchievements": 158,
     "numLeaderboards": 436,
-    "points": 1446,
+    "points": 1436,
     "dateModified": "2024-08-26 23:21:02",
     "forumTopicId": 25491,
     "hashes": [
@@ -9019,13 +9338,43 @@
     "consoleName": "GameCube",
     "imageIcon": "/Images/081455.png",
     "numAchievements": 338,
-    "numLeaderboards": 436,
-    "points": 2859,
-    "dateModified": "2025-08-19 03:09:27",
+    "numLeaderboards": 461,
+    "points": 2785,
+    "dateModified": "2026-01-27 18:23:10",
     "forumTopicId": 25389,
     "hashes": [
       "326d2c2de5c8957637780da332ab9dbb",
       "8f0b014a1da84167f3f8f8b2145b95cd"
+    ]
+  },
+  {
+    "title": "Super Smash Bros. Melee [Subset - Stadium Freak]",
+    "id": 37915,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/123202.png",
+    "numAchievements": 89,
+    "numLeaderboards": 8,
+    "points": 990,
+    "dateModified": "2026-01-27 22:01:16",
+    "forumTopicId": 34071,
+    "hashes": [
+      "313e828372751e76d5ea6cfd0c014844"
+    ]
+  },
+  {
+    "title": "Super Smash Bros. Melee [Subset - Very Hard Runs]",
+    "id": 37208,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/121182.png",
+    "numAchievements": 79,
+    "numLeaderboards": 2,
+    "points": 4935,
+    "dateModified": "2025-12-28 00:48:19",
+    "forumTopicId": 33410,
+    "hashes": [
+      "a0ae1395ad7df02729858a5ecc8486dd"
     ]
   },
   {
@@ -9142,7 +9491,7 @@
     "numAchievements": 294,
     "numLeaderboards": 0,
     "points": 2510,
-    "dateModified": "2025-04-04 21:27:28",
+    "dateModified": "2025-12-04 21:32:27",
     "forumTopicId": 25335,
     "hashes": [
       "25156adf6843add13144a8fae239689a",
@@ -9166,7 +9515,7 @@
     ]
   },
   {
-    "title": "Tarzan: Untamed",
+    "title": "Tarzan Untamed",
     "id": 30295,
     "consoleId": 16,
     "consoleName": "GameCube",
@@ -9401,7 +9750,7 @@
     "numAchievements": 73,
     "numLeaderboards": 0,
     "points": 312,
-    "dateModified": "2024-09-18 21:18:54",
+    "dateModified": "2025-12-24 22:51:51",
     "forumTopicId": 25405,
     "hashes": [
       "380582e0d15d448f212a96cb2aba111b",
@@ -9569,7 +9918,7 @@
     "numAchievements": 391,
     "numLeaderboards": 27,
     "points": 2537,
-    "dateModified": "2025-08-20 15:36:27",
+    "dateModified": "2026-01-15 21:58:13",
     "forumTopicId": 28386,
     "hashes": [
       "bc79775029222f94c91a92da970431f4"
@@ -9596,10 +9945,10 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/048069.png",
-    "numAchievements": 129,
+    "numAchievements": 128,
     "numLeaderboards": 0,
     "points": 978,
-    "dateModified": "2025-07-13 23:55:26",
+    "dateModified": "2026-01-13 22:35:35",
     "forumTopicId": 6315,
     "hashes": [
       "29d3c366bf3143b251986e99a0964cdb"
@@ -9611,7 +9960,7 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/103673.png",
-    "numAchievements": 51,
+    "numAchievements": 50,
     "numLeaderboards": 15,
     "points": 1106,
     "dateModified": "2025-03-17 23:23:10",
@@ -9629,7 +9978,7 @@
     "numAchievements": 126,
     "numLeaderboards": 9,
     "points": 1000,
-    "dateModified": "2025-08-13 02:14:01",
+    "dateModified": "2025-12-26 01:36:58",
     "forumTopicId": 25301,
     "hashes": [
       "4ac9fb3e05560f402073ff73c49c7276",
@@ -9647,7 +9996,7 @@
     "numAchievements": 149,
     "numLeaderboards": 18,
     "points": 1400,
-    "dateModified": "2025-07-11 16:23:41",
+    "dateModified": "2025-12-19 07:14:35",
     "forumTopicId": 25314,
     "hashes": [
       "0d02d0c796d09d6df9109ffba0dca877"
@@ -9662,25 +10011,10 @@
     "numAchievements": 40,
     "numLeaderboards": 1,
     "points": 1243,
-    "dateModified": "2025-07-25 18:57:41",
+    "dateModified": "2026-01-22 00:58:28",
     "forumTopicId": 26589,
     "hashes": [
       "be14f197a38720e8b8bc7717c7b2ad38"
-    ]
-  },
-  {
-    "title": "The Legend of Zelda: Twilight Princess [Subset - Speedrun Showcase]",
-    "id": 29802,
-    "consoleId": 16,
-    "consoleName": "GameCube",
-    "imageIcon": "/Images/098352.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 26590,
-    "hashes": [
-      "95583d674364dbf8fa796a9ee46e4051"
     ]
   },
   {
@@ -9794,11 +10128,11 @@
     "id": 6343,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/110602.png",
+    "imageIcon": "/Images/123510.png",
     "numAchievements": 59,
     "numLeaderboards": 16,
     "points": 425,
-    "dateModified": "2025-06-16 15:27:53",
+    "dateModified": "2025-11-19 21:51:01",
     "forumTopicId": 30489,
     "hashes": [
       "25cd098ca8abb5ee642abb9a9459a575"
@@ -9862,6 +10196,21 @@
     "forumTopicId": null,
     "hashes": [
       "ac34aca66f02587e5c7ef0bb48e7603e"
+    ]
+  },
+  {
+    "title": "The SpongeBob SquarePants Movie",
+    "id": 15376,
+    "consoleId": 16,
+    "consoleName": "GameCube",
+    "imageIcon": "/Images/059013.png",
+    "numAchievements": 62,
+    "numLeaderboards": 10,
+    "points": 660,
+    "dateModified": "2024-09-02 14:46:21",
+    "forumTopicId": 28554,
+    "hashes": [
+      "034a9a1905978fdfaaa7d6f3fc85ca2a"
     ]
   },
   {
@@ -9977,10 +10326,10 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/116557.png",
-    "numAchievements": 0,
+    "numAchievements": 222,
     "numLeaderboards": 30,
-    "points": 0,
-    "dateModified": "2025-08-13 02:27:34",
+    "points": 1723,
+    "dateModified": "2026-01-27 09:47:55",
     "forumTopicId": 30983,
     "hashes": [
       "02292c9cf33f509091faea1dc1043947"
@@ -9995,7 +10344,7 @@
     "numAchievements": 128,
     "numLeaderboards": 129,
     "points": 1050,
-    "dateModified": "2025-08-26 02:50:30",
+    "dateModified": "2025-09-12 18:26:35",
     "forumTopicId": 30270,
     "hashes": [
       "a925b0cd2194524439f0f35a359ec0bc"
@@ -10117,7 +10466,10 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "e707663a9cf49100b709989ac5f32629",
+      "185cf98d02e207d2ccba17c476002656"
+    ]
   },
   {
     "title": "Tom Clancy's Splinter Cell: Chaos Theory",
@@ -10172,10 +10524,10 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/090873.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-08-26 02:09:17",
+    "numAchievements": 47,
+    "numLeaderboards": 9,
+    "points": 357,
+    "dateModified": "2025-11-10 15:27:01",
     "forumTopicId": 28114,
     "hashes": [
       "d9c4058243b262d1c0df9205f5d63277"
@@ -10222,7 +10574,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "a36caf338ded22c978cef4228e5d4697"
+    ]
   },
   {
     "title": "Tony Hawk's Pro Skater 4",
@@ -10345,7 +10699,7 @@
     ]
   },
   {
-    "title": "True Crime: Streets of LA",
+    "title": "True Crime: Streets of L.A.",
     "id": 29941,
     "consoleId": 16,
     "consoleName": "GameCube",
@@ -10489,7 +10843,7 @@
     "numAchievements": 40,
     "numLeaderboards": 75,
     "points": 493,
-    "dateModified": "2024-08-20 13:58:17",
+    "dateModified": "2026-01-14 02:02:18",
     "forumTopicId": 27416,
     "hashes": [
       "8f7be241b2ba9d4451bcdca34a4b96f0"
@@ -10651,10 +11005,10 @@
     "consoleId": 16,
     "consoleName": "GameCube",
     "imageIcon": "/Images/115275.png",
-    "numAchievements": 81,
-    "numLeaderboards": 14,
-    "points": 571,
-    "dateModified": "2025-08-15 15:16:12",
+    "numAchievements": 88,
+    "numLeaderboards": 27,
+    "points": 610,
+    "dateModified": "2025-12-30 09:33:59",
     "forumTopicId": 28073,
     "hashes": [
       "2e74fff1b7a94b6576f15f3e67780aaf"
@@ -10955,7 +11309,7 @@
     "numAchievements": 99,
     "numLeaderboards": 24,
     "points": 840,
-    "dateModified": "2025-05-14 23:52:58",
+    "dateModified": "2025-10-11 23:23:07",
     "forumTopicId": 29754,
     "hashes": [
       "494dc8045372440eb68a511ab592b010"
@@ -11128,16 +11482,16 @@
     ]
   },
   {
-    "title": "Zoids: Battle Legends | Zoids Vs. II",
+    "title": "Zoids: Battle Legends",
     "id": 30277,
     "consoleId": 16,
     "consoleName": "GameCube",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118833.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32611,
     "hashes": [
       "57f99a3501f472248926d7715153fead"
     ]

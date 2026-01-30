@@ -53,7 +53,7 @@
     "numAchievements": 40,
     "numLeaderboards": 0,
     "points": 300,
-    "dateModified": "2025-06-25 20:29:10",
+    "dateModified": "2025-12-21 11:29:43",
     "forumTopicId": 30291,
     "hashes": [
       "55088e83cf69c5b741bae56981ba6af0",
@@ -76,7 +76,22 @@
     ]
   },
   {
-    "title": "~Homebrew~ ~Demo~ Sonic Robo Blast 2",
+    "title": "~Homebrew~ ~Demo~ OpenLara 32X",
+    "id": 37075,
+    "consoleId": 10,
+    "consoleName": "32X",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fd3ade112a5498c5832e3a043467ad4a"
+    ]
+  },
+  {
+    "title": "~Homebrew~ ~Demo~ Sonic Robo Blast 32X",
     "id": 33276,
     "consoleId": 10,
     "consoleName": "32X",
@@ -84,7 +99,7 @@
     "numAchievements": 15,
     "numLeaderboards": 0,
     "points": 58,
-    "dateModified": "2025-06-30 03:23:22",
+    "dateModified": "2026-01-16 09:15:28",
     "forumTopicId": 30375,
     "hashes": [
       "c9dd33ba3cbdd64941dd19facb515adb"
@@ -129,7 +144,7 @@
     "numAchievements": 12,
     "numLeaderboards": 6,
     "points": 125,
-    "dateModified": "2025-03-10 06:35:34",
+    "dateModified": "2025-09-01 02:48:52",
     "forumTopicId": 23523,
     "hashes": [
       "f642e289bfb670022e0ae001786bdf94"
@@ -189,7 +204,7 @@
     "numAchievements": 36,
     "numLeaderboards": 0,
     "points": 137,
-    "dateModified": "2024-11-08 07:59:25",
+    "dateModified": "2026-01-18 00:15:16",
     "forumTopicId": 21797,
     "hashes": [
       "11caaeaa76ac810400e9a08985e0eb29"
@@ -245,7 +260,7 @@
     "id": 15652,
     "consoleId": 10,
     "consoleName": "32X",
-    "imageIcon": "/Images/030669.png",
+    "imageIcon": "/Images/122214.png",
     "numAchievements": 40,
     "numLeaderboards": 64,
     "points": 436,
@@ -332,7 +347,7 @@
     ]
   },
   {
-    "title": "FIFA Soccer 96",
+    "title": "FIFA 96",
     "id": 16797,
     "consoleId": 10,
     "consoleName": "32X",
@@ -415,7 +430,7 @@
     "numAchievements": 54,
     "numLeaderboards": 0,
     "points": 500,
-    "dateModified": "2025-08-25 16:18:50",
+    "dateModified": "2025-12-08 01:31:04",
     "forumTopicId": 12788,
     "hashes": [
       "a95c0e7c1d35fd42cd2e3eb7b06cb6d0"
@@ -506,7 +521,7 @@
     "numAchievements": 36,
     "numLeaderboards": 2,
     "points": 235,
-    "dateModified": "2025-06-29 19:04:03",
+    "dateModified": "2025-09-17 12:20:55",
     "forumTopicId": 30355,
     "hashes": [
       "5f955b5feab07c072fc345f1fee52a60"

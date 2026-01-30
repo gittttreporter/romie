@@ -96,12 +96,12 @@
     "id": 29892,
     "consoleId": 71,
     "consoleName": "Arduboy",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/120045.png",
+    "numAchievements": 13,
+    "numLeaderboards": 1,
+    "points": 91,
+    "dateModified": "2026-01-05 18:47:38",
+    "forumTopicId": 33089,
     "hashes": [
       "e8ec91f0a78813a95e17f56cf0b94525"
     ]
@@ -366,12 +366,12 @@
     "id": 29902,
     "consoleId": 71,
     "consoleName": "Arduboy",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/121658.png",
+    "numAchievements": 7,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "points": 63,
+    "dateModified": "2025-12-17 13:12:34",
+    "forumTopicId": 33553,
     "hashes": [
       "951e1b8f38636343fa8503bd96056304"
     ]
@@ -591,12 +591,12 @@
     "id": 29908,
     "consoleId": 71,
     "consoleName": "Arduboy",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/121248.png",
+    "numAchievements": 8,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "points": 45,
+    "dateModified": "2025-12-04 21:59:10",
+    "forumTopicId": 33440,
     "hashes": [
       "d227c87e9009f13db6057944d164a78a"
     ]
@@ -771,12 +771,12 @@
     "id": 29919,
     "consoleId": 71,
     "consoleName": "Arduboy",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/123213.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 1,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-24 03:20:48",
+    "forumTopicId": 34039,
     "hashes": [
       "2d17fc9797e4490d92ad5bf94f3ec3e4"
     ]
@@ -836,7 +836,7 @@
     "numAchievements": 10,
     "numLeaderboards": 33,
     "points": 31,
-    "dateModified": "2024-07-07 07:26:59",
+    "dateModified": "2026-01-05 23:14:29",
     "forumTopicId": 26953,
     "hashes": [
       "f73f4f6714539fa8ae5a55ef32d420ca"
@@ -1192,7 +1192,7 @@
     "id": 22869,
     "consoleId": 71,
     "consoleName": "Arduboy",
-    "imageIcon": "/Images/069794.png",
+    "imageIcon": "/Images/121096.png",
     "numAchievements": 7,
     "numLeaderboards": 1,
     "points": 31,
@@ -1518,6 +1518,21 @@
     ]
   },
   {
+    "title": "Glove",
+    "id": 37086,
+    "consoleId": 71,
+    "consoleName": "Arduboy",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "81803fb00b96c1fb0f583b67898c9652"
+    ]
+  },
+  {
     "title": "Greenhorn Syndicate",
     "id": 34396,
     "consoleId": 71,
@@ -1618,14 +1633,16 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "4bebf3c12024d061c3525fc7a5308a12"
+    ]
   },
   {
     "title": "Jump Boy",
     "id": 13861,
     "consoleId": 71,
     "consoleName": "Arduboy",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119633.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -2310,7 +2327,40 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "201801a0a4a20b009e3747a4d6428144"
+    ]
+  },
+  {
+    "title": "Prince Of Arabia",
+    "id": 35866,
+    "consoleId": 71,
+    "consoleName": "Arduboy",
+    "imageIcon": "/Images/119891.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 33018,
+    "hashes": [
+      "1554f3fcb7b1498a4a4ab3deebc74b70",
+      "f18b2c12a8c6ef3c1c1be223b2eff25a"
+    ]
+  },
+  {
+    "title": "Quarto!",
+    "id": 35173,
+    "consoleId": 71,
+    "consoleName": "Arduboy",
+    "imageIcon": "/Images/119354.png",
+    "numAchievements": 11,
+    "numLeaderboards": 0,
+    "points": 45,
+    "dateModified": "2025-10-20 01:23:43",
+    "forumTopicId": 32877,
+    "hashes": [
+      "6a2ab0ba8d2ecb2921d0a41e79d37202"
+    ]
   },
   {
     "title": "Radical Racing: Rivalry",
@@ -2588,14 +2638,13 @@
     "consoleId": 71,
     "consoleName": "Arduboy",
     "imageIcon": "/Images/102225.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 24,
+    "numLeaderboards": 1,
+    "points": 180,
+    "dateModified": "2025-09-18 23:39:41",
+    "forumTopicId": 32218,
     "hashes": [
-      "9ea09acd5c73b8298c64911e4ccb83f2",
-      "bf8692979cfcfc5ecb622488cf2828cc"
+      "9ea09acd5c73b8298c64911e4ccb83f2"
     ]
   },
   {
@@ -3046,6 +3095,22 @@
     "forumTopicId": 26837,
     "hashes": [
       "4927d3169aba8925ca356522b0ac827c"
+    ]
+  },
+  {
+    "title": "Vectramblex",
+    "id": 37512,
+    "consoleId": 71,
+    "consoleName": "Arduboy",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ad6b10714a100caa97adf4151d594006",
+      "e572674529e2988758b7e4b4a0b6dbe0"
     ]
   },
   {

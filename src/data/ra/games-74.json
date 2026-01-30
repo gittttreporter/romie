@@ -53,7 +53,7 @@
     "numAchievements": 17,
     "numLeaderboards": 0,
     "points": 81,
-    "dateModified": "2025-05-26 14:11:43",
+    "dateModified": "2025-11-12 02:27:00",
     "forumTopicId": 21922,
     "hashes": [
       "0cbac5ace65a63613587152d2ef87311"
@@ -86,7 +86,7 @@
     "hashes": []
   },
   {
-    "title": "Air-Sea Battle | Air-Sea Attack",
+    "title": "Air-Sea Battle",
     "id": 21620,
     "consoleId": 74,
     "consoleName": "Interton VC 4000",
@@ -98,21 +98,6 @@
     "forumTopicId": 21940,
     "hashes": [
       "62189ca0a1541840ab09c41210968bfb"
-    ]
-  },
-  {
-    "title": "Alien Invasion | Invaders",
-    "id": 21639,
-    "consoleId": 74,
-    "consoleName": "Interton VC 4000",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "5864620260e0ee714e824b91a1ddc853"
     ]
   },
   {
@@ -356,7 +341,7 @@
     ]
   },
   {
-    "title": "Hippodrome | Horse Racing",
+    "title": "Hippodrome",
     "id": 21636,
     "consoleId": 74,
     "consoleName": "Interton VC 4000",
@@ -414,6 +399,21 @@
     "forumTopicId": 21942,
     "hashes": [
       "9f513213f1ee6c6867dcf959a6dc03c9"
+    ]
+  },
+  {
+    "title": "Invaders",
+    "id": 21639,
+    "consoleId": 74,
+    "consoleName": "Interton VC 4000",
+    "imageIcon": "/Images/121350.png",
+    "numAchievements": 13,
+    "numLeaderboards": 3,
+    "points": 78,
+    "dateModified": "2025-12-09 02:13:19",
+    "forumTopicId": 33455,
+    "hashes": [
+      "5864620260e0ee714e824b91a1ddc853"
     ]
   },
   {
@@ -613,7 +613,7 @@
     ]
   },
   {
-    "title": "Outer Space Combat | Space War | Space Attack",
+    "title": "Outer Space Combat",
     "id": 21650,
     "consoleId": 74,
     "consoleName": "Interton VC 4000",
@@ -643,11 +643,11 @@
     ]
   },
   {
-    "title": "Pinball | Electronic Pinball | Flipper",
+    "title": "Pinball",
     "id": 21652,
     "consoleId": 74,
     "consoleName": "Interton VC 4000",
-    "imageIcon": "/Images/074718.png",
+    "imageIcon": "/Images/119406.png",
     "numAchievements": 21,
     "numLeaderboards": 8,
     "points": 248,
@@ -803,7 +803,7 @@
     "numAchievements": 9,
     "numLeaderboards": 6,
     "points": 62,
-    "dateModified": "2025-03-15 13:07:24",
+    "dateModified": "2026-01-01 22:31:49",
     "forumTopicId": 21921,
     "hashes": [
       "855b92759ed3b60d113454037f62c588"

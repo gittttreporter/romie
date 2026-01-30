@@ -10,7 +10,114 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": 22524,
-    "hashes": []
+    "hashes": [
+      "89112d9e5fd1f54f305d9b456d3be84b"
+    ]
+  },
+  {
+    "title": "~Hack~ Half-Life: 007 Golden Eye",
+    "id": 37396,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "aae0b88db10980ab806e7541518853df"
+    ]
+  },
+  {
+    "title": "~Hack~ Half-Life: Black Ops",
+    "id": 37402,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ff4483bc43f7d52bc767b554930bff71"
+    ]
+  },
+  {
+    "title": "~Hack~ Half-Life: Grunt",
+    "id": 37397,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0302bd2b0e2d35d67d191352084b7fe8"
+    ]
+  },
+  {
+    "title": "~Hack~ Half-Life: Gunman Chronicles",
+    "id": 37398,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "df23e0e8a5320fdda966d1f920a4fbef"
+    ]
+  },
+  {
+    "title": "~Hack~ Half-Life: Opposing Forces",
+    "id": 37399,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "02d348c85302cb0f0a8e3c49afaec8eb"
+    ]
+  },
+  {
+    "title": "~Hack~ Half-Life: Paranoia",
+    "id": 37400,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "87a96c190f54ea84f1097776b8a0b908"
+    ]
+  },
+  {
+    "title": "~Hack~ Half-Life: U.S.S. Darkstar",
+    "id": 37401,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "48a4359c955d3718e379ca605acc22a8"
+    ]
   },
   {
     "title": "~Hack~ Resident Evil 2: Special Edition",
@@ -39,11 +146,41 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": 22522,
-    "hashes": []
+    "hashes": [
+      "b441f630067259186117c58dcdb37402"
+    ]
   },
   {
     "title": "~Hack~ Typing of the Dead: RetroAchievements Edition",
     "id": 9672,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
+    "title": "~Homebrew~ Alice Sisters",
+    "id": 37900,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2fc884c70736ff8c385a0e32c29e706b"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Divi-Dead",
+    "id": 3873,
     "consoleId": 40,
     "consoleName": "Dreamcast",
     "imageIcon": "/Images/000001.png",
@@ -68,6 +205,21 @@
     "hashes": [
       "f3d06c2599e27749015ca217f61a5d2e",
       "acef957337183a41f65faef75c5b7969"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Feet of Fury",
+    "id": 7279,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/108099.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 29831,
+    "hashes": [
+      "640a695894a98dca0eb2461066028d75"
     ]
   },
   {
@@ -206,6 +358,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Sturmwind",
+    "id": 9468,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5c3320434589e12d47bdaa82abfca2d1"
+    ]
+  },
+  {
     "title": "~Homebrew~ The Ultimate Doom",
     "id": 25112,
     "consoleId": 40,
@@ -221,15 +388,30 @@
     ]
   },
   {
+    "title": "~Homebrew~ Völgarr the Viking",
+    "id": 9648,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/098852.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c07256a894f512e6ab5c2da9a6366b34"
+    ]
+  },
+  {
     "title": "~Homebrew~ Wolflame",
     "id": 32944,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/107853.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-04-11 03:02:56",
+    "imageIcon": "/Images/123134.png",
+    "numAchievements": 32,
+    "numLeaderboards": 4,
+    "points": 275,
+    "dateModified": "2026-01-27 02:03:14",
     "forumTopicId": 29760,
     "hashes": [
       "d8ae1ecba98f051f410e6533bcda39c2"
@@ -259,7 +441,7 @@
     "numAchievements": 18,
     "numLeaderboards": 0,
     "points": 36,
-    "dateModified": "2024-08-31 19:48:15",
+    "dateModified": "2025-09-02 07:58:03",
     "forumTopicId": 23328,
     "hashes": [
       "d59ca0093f3fd239289f6c2f71b8a9b8"
@@ -319,10 +501,10 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-24 04:30:47",
+    "forumTopicId": 33279,
     "hashes": [
-      "c8e28d19baefeab5543c7be5fca5fc89"
+      "c83ed55939055b0d211cbb9a3439d3d1"
     ]
   },
   {
@@ -341,62 +523,8 @@
     ]
   },
   {
-    "title": "~Unlicensed~ Divi-Dead",
-    "id": 3873,
-    "consoleId": 40,
-    "consoleName": "Dreamcast",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
-    "title": "~Unlicensed~ Elysian Shadows",
-    "id": 9721,
-    "consoleId": 40,
-    "consoleName": "Dreamcast",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
-    "title": "~Unlicensed~ Feet of Fury",
-    "id": 7279,
-    "consoleId": 40,
-    "consoleName": "Dreamcast",
-    "imageIcon": "/Images/108099.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 29831,
-    "hashes": [
-      "640a695894a98dca0eb2461066028d75"
-    ]
-  },
-  {
-    "title": "~Unlicensed~ Hypertension: Harmony of Darkness",
-    "id": 9677,
-    "consoleId": 40,
-    "consoleName": "Dreamcast",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
-    "title": "~Unlicensed~ Sturmwind",
-    "id": 9468,
+    "title": "~Prototype~ Worms Pinball",
+    "id": 37466,
     "consoleId": 40,
     "consoleName": "Dreamcast",
     "imageIcon": "/Images/000001.png",
@@ -406,53 +534,12 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "5c3320434589e12d47bdaa82abfca2d1"
+      "f9029cee713ed503078a2b93a05b194e"
     ]
   },
   {
-    "title": "~Unlicensed~ Völgarr the Viking",
-    "id": 9648,
-    "consoleId": 40,
-    "consoleName": "Dreamcast",
-    "imageIcon": "/Images/098852.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "c07256a894f512e6ab5c2da9a6366b34"
-    ]
-  },
-  {
-    "title": "~Z~ No Hash 24909",
-    "id": 24909,
-    "consoleId": 40,
-    "consoleName": "Dreamcast",
-    "imageIcon": "/Images/115744.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 22125,
-    "hashes": []
-  },
-  {
-    "title": "~Z~ No Hash 26984",
-    "id": 26984,
-    "consoleId": 40,
-    "consoleName": "Dreamcast",
-    "imageIcon": "/Images/115416.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
-    "title": "~Z~ No Hash 31841",
-    "id": 31841,
+    "title": "~Unlicensed~ Another World: 20th Anniversary Edition",
+    "id": 37409,
     "consoleId": 40,
     "consoleName": "Dreamcast",
     "imageIcon": "/Images/000001.png",
@@ -461,7 +548,39 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "9013594342e6c84c68797b69a6a05e77"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Flashback",
+    "id": 37262,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "27eb0e534b03f355c7bf7bf56e7c5271"
+    ]
+  },
+  {
+    "title": "~Unlicensed~Battle Crust",
+    "id": 36931,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/120898.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "394adbb7175ae863d20d2956050b73cb"
+    ]
   },
   {
     "title": "102 Dalmatians: Puppies to the Rescue",
@@ -492,6 +611,21 @@
     "hashes": [
       "aa5429328078f39078610df43a6446ff",
       "aa571861964e9f58437f609239cbfb7c"
+    ]
+  },
+  {
+    "title": "21: Two One",
+    "id": 24909,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/115744.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a37015f749cf57ea011135f11b15bf8f"
     ]
   },
   {
@@ -697,7 +831,7 @@
     "id": 28398,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118794.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -705,6 +839,21 @@
     "forumTopicId": null,
     "hashes": [
       "053965694c90e263bb83a688e828df7e"
+    ]
+  },
+  {
+    "title": "Bang! Gunship Elite",
+    "id": 35088,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3be3adf7662b9afdbc93768c83ab8ede"
     ]
   },
   {
@@ -731,7 +880,7 @@
     "numAchievements": 127,
     "numLeaderboards": 18,
     "points": 1208,
-    "dateModified": "2023-10-14 22:48:46",
+    "dateModified": "2025-08-31 21:28:12",
     "forumTopicId": 14602,
     "hashes": [
       "1085232889d7467fdd3584dbc9bfa4de",
@@ -783,7 +932,7 @@
     "consoleName": "Dreamcast",
     "imageIcon": "/Images/053532.png",
     "numAchievements": 0,
-    "numLeaderboards": 2,
+    "numLeaderboards": 6,
     "points": 0,
     "dateModified": "2025-08-24 00:11:56",
     "forumTopicId": 15672,
@@ -811,14 +960,29 @@
     "id": 15326,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/061621.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/120540.png",
+    "numAchievements": 46,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "points": 365,
+    "dateModified": "2026-01-05 22:24:15",
     "forumTopicId": 31910,
     "hashes": [
       "ebee803a43d98f94ec40b18904490e14"
+    ]
+  },
+  {
+    "title": "Bomberman Online [Subset - Multiplayer]",
+    "id": 34563,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/120541.png",
+    "numAchievements": 25,
+    "numLeaderboards": 0,
+    "points": 124,
+    "dateModified": "2025-11-19 11:56:11",
+    "forumTopicId": 32273,
+    "hashes": [
+      "47fc98f54ff09de13b8b063768933de6"
     ]
   },
   {
@@ -909,6 +1073,21 @@
     "forumTopicId": 20055,
     "hashes": [
       "9edee9f48068e7449f53a79a82c8dfff"
+    ]
+  },
+  {
+    "title": "Caesars Palace 2000: Millennium Gold Edition",
+    "id": 35089,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f599eceead9d6cd5edc7e31a54d9c532"
     ]
   },
   {
@@ -1027,7 +1206,7 @@
     "numAchievements": 56,
     "numLeaderboards": 75,
     "points": 478,
-    "dateModified": "2025-05-03 20:16:58",
+    "dateModified": "2025-09-20 23:34:40",
     "forumTopicId": 23247,
     "hashes": [
       "f3abb4ce1b8323b1a0f50d952fb335b0"
@@ -1076,6 +1255,21 @@
     "forumTopicId": null,
     "hashes": [
       "72d885ee16f8be39061ecec71442a86e"
+    ]
+  },
+  {
+    "title": "Cherry Blossom",
+    "id": 35090,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f35efdbe383fb55355a70b50be86cab3"
     ]
   },
   {
@@ -1220,7 +1414,7 @@
     "id": 3399,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/036797.png",
+    "imageIcon": "/Images/122047.png",
     "numAchievements": 82,
     "numLeaderboards": 23,
     "points": 1045,
@@ -1235,7 +1429,7 @@
     "id": 3400,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/116935.png",
+    "imageIcon": "/Images/121534.png",
     "numAchievements": 72,
     "numLeaderboards": 20,
     "points": 716,
@@ -1359,10 +1553,10 @@
     "consoleId": 40,
     "consoleName": "Dreamcast",
     "imageIcon": "/Images/053537.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 47,
+    "numLeaderboards": 16,
+    "points": 338,
+    "dateModified": "2025-10-12 17:44:45",
     "forumTopicId": 17437,
     "hashes": [
       "02d78cda793af4743591446655573428"
@@ -1374,7 +1568,7 @@
     "consoleId": 40,
     "consoleName": "Dreamcast",
     "imageIcon": "/Images/053973.png",
-    "numAchievements": 75,
+    "numAchievements": 74,
     "numLeaderboards": 4,
     "points": 430,
     "dateModified": "2025-02-09 22:08:26",
@@ -1499,7 +1693,7 @@
     "numAchievements": 77,
     "numLeaderboards": 5,
     "points": 740,
-    "dateModified": "2025-07-21 12:28:20",
+    "dateModified": "2025-11-28 14:32:00",
     "forumTopicId": 17690,
     "hashes": [
       "5773bf1be85affe875d2dcff5ab4b483",
@@ -1612,6 +1806,21 @@
     ]
   },
   {
+    "title": "Ducati World: Racing Challenge",
+    "id": 35091,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f8a6cbc2912add3fe08127cf026b3a84"
+    ]
+  },
+  {
     "title": "Dynamite Cop",
     "id": 6552,
     "consoleId": 40,
@@ -1669,6 +1878,21 @@
     "forumTopicId": null,
     "hashes": [
       "1b64683a4e89a49ce2b23720d3715778"
+    ]
+  },
+  {
+    "title": "Eisei Meijin III: Game Creator Yoshimura Nobuhiro no Zunou",
+    "id": 35092,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9ea9fc7c4c592d5cda69205539da15b5"
     ]
   },
   {
@@ -1811,7 +2035,7 @@
     "id": 3749,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/061809.png",
+    "imageIcon": "/Images/123082.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1977,7 +2201,7 @@
     "id": 8353,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/052052.png",
+    "imageIcon": "/Images/120011.png",
     "numAchievements": 0,
     "numLeaderboards": 14,
     "points": 0,
@@ -2030,6 +2254,36 @@
     "forumTopicId": null,
     "hashes": [
       "4ee6464f3d18d6d9427293f7ae6cd14b"
+    ]
+  },
+  {
+    "title": "For Symphony: With All One's Heart",
+    "id": 37102,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "27182b1c7a0f8b95fd056a34c5d25ffb"
+    ]
+  },
+  {
+    "title": "Fragrance Tale",
+    "id": 37103,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7a3c01a9938c744784b15287e90c1c79"
     ]
   },
   {
@@ -2128,10 +2382,10 @@
     "consoleId": 40,
     "consoleName": "Dreamcast",
     "imageIcon": "/Images/113372.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 62,
+    "numLeaderboards": 7,
+    "points": 445,
+    "dateModified": "2025-12-07 15:58:58",
     "forumTopicId": 29334,
     "hashes": [
       "8b3166e1f96be84e14072a2f9d876feb"
@@ -2146,10 +2400,25 @@
     "numAchievements": 72,
     "numLeaderboards": 33,
     "points": 629,
-    "dateModified": "2025-03-18 16:44:37",
+    "dateModified": "2025-12-22 17:49:06",
     "forumTopicId": 24033,
     "hashes": [
       "074ad91b0a9500b1edeecf446f8788f5"
+    ]
+  },
+  {
+    "title": "Get!! Colonies",
+    "id": 37104,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fd39cb861ab24d35765666667b1e3395"
     ]
   },
   {
@@ -2180,6 +2449,21 @@
     "forumTopicId": null,
     "hashes": [
       "463d93ffa1d82a806744abb9217668fb"
+    ]
+  },
+  {
+    "title": "GK: Giant Killers",
+    "id": 37105,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fbcccfcec0e54a1e8baa35abbe07b745"
     ]
   },
   {
@@ -2281,14 +2565,27 @@
     "consoleId": 40,
     "consoleName": "Dreamcast",
     "imageIcon": "/Images/053644.png",
-    "numAchievements": 63,
+    "numAchievements": 47,
     "numLeaderboards": 17,
-    "points": 1265,
-    "dateModified": "2023-07-26 16:50:38",
+    "points": 465,
+    "dateModified": "2025-12-06 23:29:14",
     "forumTopicId": 22711,
     "hashes": [
       "a46984ec09d4f360dd91b8bd57608f10"
     ]
+  },
+  {
+    "title": "Guilty Gear X [Subset - Omni Survivalist]",
+    "id": 9677,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/123439.png",
+    "numAchievements": 16,
+    "numLeaderboards": 0,
+    "points": 800,
+    "dateModified": "2023-07-26 16:50:34",
+    "forumTopicId": null,
+    "hashes": []
   },
   {
     "title": "Gunbird 2",
@@ -2314,8 +2611,8 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-07 19:50:04",
+    "forumTopicId": 33610,
     "hashes": [
       "4004cfbef3296c866d3a1ad52cc89acd"
     ]
@@ -2367,6 +2664,66 @@
     ]
   },
   {
+    "title": "Hello Kitty no Garden Panic",
+    "id": 37106,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e340fc9db3611a7bf4fff7e695ba873a"
+    ]
+  },
+  {
+    "title": "Hello Kitty no Lovely Fruit Park",
+    "id": 37107,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "26c40dd5708d7aa732accf62866ffd78"
+    ]
+  },
+  {
+    "title": "Hello Kitty no Magical Block",
+    "id": 37108,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2613081005336074b366c0b5f967c5c2"
+    ]
+  },
+  {
+    "title": "Hello Kitty no Waku Waku Cookies",
+    "id": 37109,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "34fc090f26913042570c7875ee7b7121"
+    ]
+  },
+  {
     "title": "Hidden & Dangerous",
     "id": 28402,
     "consoleId": 40,
@@ -2379,6 +2736,21 @@
     "forumTopicId": null,
     "hashes": [
       "7e2d42fe5a120371dbffc33592cfb86e"
+    ]
+  },
+  {
+    "title": "Hoyle Casino",
+    "id": 37110,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e6e7e749f483d2332bb0655590a052d6"
     ]
   },
   {
@@ -2406,7 +2778,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32602,
     "hashes": [
       "de7338a8ba87c81f155a661897e61654"
     ]
@@ -2547,6 +2919,21 @@
     ]
   },
   {
+    "title": "Jimmy White's 2: Cueball",
+    "id": 37111,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "915b253cb4cc21e6e10c90b91615f7df"
+    ]
+  },
+  {
     "title": "JoJo's Bizarre Adventure",
     "id": 348,
     "consoleId": 40,
@@ -2574,6 +2961,21 @@
     "forumTopicId": null,
     "hashes": [
       "5e4ca61147c07805be23fe66aaf556ed"
+    ]
+  },
+  {
+    "title": "Kaitou Apricot",
+    "id": 37112,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2d661b2d6c01140b0c7a09a5c713aadb"
     ]
   },
   {
@@ -2683,6 +3085,36 @@
     ]
   },
   {
+    "title": "Kita e. White Illumination",
+    "id": 37113,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c6b3d92342840e649da41c0a38aaafd3"
+    ]
+  },
+  {
+    "title": "Kitahei Gold",
+    "id": 37114,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bd39407fc59a6c894def9f7c4e3a6344"
+    ]
+  },
+  {
     "title": "L.O.L.: Lack of Love",
     "id": 10840,
     "consoleId": 40,
@@ -2691,7 +3123,7 @@
     "numAchievements": 17,
     "numLeaderboards": 0,
     "points": 90,
-    "dateModified": "2025-05-29 17:36:47",
+    "dateModified": "2025-09-10 01:32:19",
     "forumTopicId": 14678,
     "hashes": [
       "4ab193310e28704b961c75105bc5233e",
@@ -2801,6 +3233,36 @@
     "forumTopicId": 22636,
     "hashes": [
       "65ce9e83d854ee2e41c8e4db3c111fb7"
+    ]
+  },
+  {
+    "title": "Marionette Company",
+    "id": 37115,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "42685a78d5dc95ffb858b8049e10a0bc"
+    ]
+  },
+  {
+    "title": "Marionette Company 2",
+    "id": 37116,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f7f22e19acd91fb3563f7bc04ae1f5c2"
     ]
   },
   {
@@ -2925,6 +3387,21 @@
     ]
   },
   {
+    "title": "Mercurius Pretty: End of the Century",
+    "id": 26984,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/115416.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4b3abe4f7d0b41795017a525b5081a81"
+    ]
+  },
+  {
     "title": "Midway's Greatest Arcade Hits: Volume 1",
     "id": 19414,
     "consoleId": 40,
@@ -2955,6 +3432,21 @@
     ]
   },
   {
+    "title": "Miss Moonlight",
+    "id": 31841,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d6ee8c9602237f574ddb332c88668721"
+    ]
+  },
+  {
     "title": "MoHo",
     "id": 26071,
     "consoleId": 40,
@@ -2982,6 +3474,36 @@
     "forumTopicId": null,
     "hashes": [
       "1a5e4bee08bcdc2bae11e1fada26ac30"
+    ]
+  },
+  {
+    "title": "Morita no Saikyou Reversi",
+    "id": 37117,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "157051599c059d6452db23ab2b3bb603"
+    ]
+  },
+  {
+    "title": "Morita no Saikyou Shougi",
+    "id": 37118,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "37fb681b24f3860a9a4f07d19fe81b53"
     ]
   },
   {
@@ -3110,7 +3632,7 @@
     "id": 31491,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/104825.png",
+    "imageIcon": "/Images/120553.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -3125,7 +3647,7 @@
     "id": 31492,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/106873.png",
+    "imageIcon": "/Images/120554.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -3211,6 +3733,21 @@
     ]
   },
   {
+    "title": "Net de Para: Nekosogi Paradise",
+    "id": 37119,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0a39205ce15b3d241de9ebb6c2ded8b6"
+    ]
+  },
+  {
     "title": "Net de Tennis",
     "id": 29214,
     "consoleId": 40,
@@ -3261,11 +3798,11 @@
     "consoleId": 40,
     "consoleName": "Dreamcast",
     "imageIcon": "/Images/113750.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 30,
+    "numLeaderboards": 1,
+    "points": 160,
+    "dateModified": "2026-01-23 18:25:26",
+    "forumTopicId": 32928,
     "hashes": [
       "4d039b3ab67e742a8d106bc5cf53d448"
     ]
@@ -3275,7 +3812,7 @@
     "id": 32006,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117604.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -3290,7 +3827,7 @@
     "id": 26707,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117607.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -3328,6 +3865,36 @@
     "forumTopicId": null,
     "hashes": [
       "8effed3a798f40b29020a92c2600a7cd"
+    ]
+  },
+  {
+    "title": "NFL QB Club 2001",
+    "id": 37122,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0f18c057527f92ae67defc32c10385e0"
+    ]
+  },
+  {
+    "title": "NFL Quarterback Club 2000",
+    "id": 37121,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "668ba3963358c594bf728c44a8350d47"
     ]
   },
   {
@@ -3422,6 +3989,21 @@
     ]
   },
   {
+    "title": "Pandora no Yume",
+    "id": 34519,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "35556497d3fdbee9b4b6f1c875c76863"
+    ]
+  },
+  {
     "title": "Panzer Front",
     "id": 21894,
     "consoleId": 40,
@@ -3441,7 +4023,7 @@
     "id": 10839,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/051701.png",
+    "imageIcon": "/Images/121730.png",
     "numAchievements": 35,
     "numLeaderboards": 0,
     "points": 173,
@@ -3494,6 +4076,21 @@
     "forumTopicId": null,
     "hashes": [
       "9aedd63895f5e95ffad8165a4ef0569c"
+    ]
+  },
+  {
+    "title": "Plus Plumb",
+    "id": 37124,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "53d1dd86cd16e5793dd1bd3acd957965"
     ]
   },
   {
@@ -3572,11 +4169,27 @@
     ]
   },
   {
+    "title": "Power Jet Racing 2001",
+    "id": 34916,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f067c3619b1d4cb3c756068a32f11cbb",
+      "2bd885d3d3e2551d8b0ca34c08704bde"
+    ]
+  },
+  {
     "title": "Power Stone",
     "id": 3396,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/052486.png",
+    "imageIcon": "/Images/121097.png",
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 210,
@@ -3592,7 +4205,7 @@
     "id": 3397,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/053872.png",
+    "imageIcon": "/Images/120059.png",
     "numAchievements": 103,
     "numLeaderboards": 0,
     "points": 1263,
@@ -3800,6 +4413,21 @@
     ]
   },
   {
+    "title": "Quiz Aa! Megami-sama: Tatakau Tsubasa to Tomoni",
+    "id": 36611,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "00ab98427f81d4af148f2294511dbb78"
+    ]
+  },
+  {
     "title": "Radirgy",
     "id": 26709,
     "consoleId": 40,
@@ -3839,9 +4467,10 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32229,
     "hashes": [
-      "f34d114e9e2da8437e8a50ae78dd8b9d"
+      "f34d114e9e2da8437e8a50ae78dd8b9d",
+      "0dc90fbda302d66e63d49a5100e91c29"
     ]
   },
   {
@@ -3853,7 +4482,7 @@
     "numAchievements": 81,
     "numLeaderboards": 7,
     "points": 705,
-    "dateModified": "2025-06-30 02:10:29",
+    "dateModified": "2026-01-06 03:41:42",
     "forumTopicId": 16120,
     "hashes": [
       "8ddbdfbe90a07971ff022900afb15b30"
@@ -3965,6 +4594,21 @@
     ]
   },
   {
+    "title": "Ren'ai Chu! Happy Perfect",
+    "id": 34520,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "69e33f61cc3c5feab92f4bf2ba78f116"
+    ]
+  },
+  {
     "title": "Rent A Hero No.1",
     "id": 24183,
     "consoleId": 40,
@@ -3989,7 +4633,7 @@
     "numAchievements": 178,
     "numLeaderboards": 26,
     "points": 1835,
-    "dateModified": "2025-07-06 06:38:46",
+    "dateModified": "2026-01-12 00:59:40",
     "forumTopicId": 14700,
     "hashes": [
       "3894b9eed7b8c559df96475645eeb262",
@@ -4021,7 +4665,7 @@
     "numAchievements": 101,
     "numLeaderboards": 1,
     "points": 1103,
-    "dateModified": "2024-09-09 12:50:29",
+    "dateModified": "2025-12-17 17:10:00",
     "forumTopicId": 14583,
     "hashes": [
       "99dbe36beafa47a6680051205828697b",
@@ -4071,6 +4715,21 @@
     "forumTopicId": 24397,
     "hashes": [
       "fd9f65cc14d428f2dbae93207d7cc1d6"
+    ]
+  },
+  {
+    "title": "Revive...: Sosei",
+    "id": 36527,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1d23d5ed1be57839b9a40dae7274f417"
     ]
   },
   {
@@ -4132,6 +4791,36 @@
     "forumTopicId": null,
     "hashes": [
       "a228b0e70e60a64d28e84e30b009312a"
+    ]
+  },
+  {
+    "title": "Roommate Novel: Satou Yuka",
+    "id": 34521,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0bf545b88f895c534b053e7a4ff3aa5d"
+    ]
+  },
+  {
+    "title": "Run=Dim as Black Soul",
+    "id": 36517,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5e748f94908c62aeb958d09321efa8e1"
     ]
   },
   {
@@ -4203,7 +4892,7 @@
     "id": 3454,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/053769.png",
+    "imageIcon": "/Images/119176.png",
     "numAchievements": 43,
     "numLeaderboards": 73,
     "points": 410,
@@ -4372,7 +5061,7 @@
     "numAchievements": 451,
     "numLeaderboards": 184,
     "points": 4055,
-    "dateModified": "2024-12-15 23:08:20",
+    "dateModified": "2025-12-07 22:19:03",
     "forumTopicId": 16171,
     "hashes": [
       "d98b50bdfabec5be349bb8ef4ce4fabf"
@@ -4391,6 +5080,21 @@
     "forumTopicId": null,
     "hashes": [
       "3201671cafa82b7ccaa75d71f3226eb2"
+    ]
+  },
+  {
+    "title": "Sekai Fushigi Hakken! Troy",
+    "id": 37125,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "42c85fca5203e3f6598bdbf7fc34e9dd"
     ]
   },
   {
@@ -4458,7 +5162,7 @@
     "id": 3398,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/053854.png",
+    "imageIcon": "/Images/121381.png",
     "numAchievements": 83,
     "numLeaderboards": 10,
     "points": 652,
@@ -4495,9 +5199,9 @@
     "consoleName": "Dreamcast",
     "imageIcon": "/Images/106573.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 2,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2026-01-12 19:11:33",
     "forumTopicId": 14582,
     "hashes": [
       "6f126149eaa94212983d9b8e78ae5110",
@@ -4618,16 +5322,18 @@
     "consoleId": 40,
     "consoleName": "Dreamcast",
     "imageIcon": "/Images/087673.png",
-    "numAchievements": 141,
+    "numAchievements": 140,
     "numLeaderboards": 0,
-    "points": 839,
-    "dateModified": "2025-03-30 11:57:30",
+    "points": 789,
+    "dateModified": "2025-11-05 13:02:45",
     "forumTopicId": 14579,
     "hashes": [
       "24bd2bf95276cdd151c6f960b162c631",
       "276661ab8bea50afcc1b7a1e48d25ff8",
       "6e18b7264826413e55df3161cc13000e",
-      "bb17728a4b639184f8115b640ff3dd30"
+      "bb17728a4b639184f8115b640ff3dd30",
+      "7f9b2ac12e50351f9288c6a3f9a9ad24",
+      "8f4f564a17eefd6b356168a9a4f02464"
     ]
   },
   {
@@ -4641,7 +5347,12 @@
     "points": 0,
     "dateModified": "2024-11-22 19:35:28",
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "d03fac52178e24f556852400c39a4bfd",
+      "41fe5cf9a543b57f5bb3843c01498314",
+      "4193ef2fcd76d5877508707fa53e0b5f",
+      "21d2257ff6bf221184f9c1697bebd8fc"
+    ]
   },
   {
     "title": "Slave Zero",
@@ -4656,6 +5367,21 @@
     "forumTopicId": null,
     "hashes": [
       "8138f5e5bc0f9a537f280351619b8b27"
+    ]
+  },
+  {
+    "title": "SnoCross Championship Racing",
+    "id": 37126,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "18dce52f333d1a23f156e7d0fe43aed6"
     ]
   },
   {
@@ -4710,7 +5436,7 @@
     "id": 22863,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/069717.png",
+    "imageIcon": "/Images/122804.png",
     "numAchievements": 54,
     "numLeaderboards": 7,
     "points": 149,
@@ -4745,7 +5471,7 @@
     "id": 24940,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/089674.png",
+    "imageIcon": "/Images/122153.png",
     "numAchievements": 59,
     "numLeaderboards": 0,
     "points": 425,
@@ -4835,12 +5561,12 @@
     "id": 6675,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/072031.png",
+    "imageIcon": "/Images/119106.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 22,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-12 12:57:22",
+    "forumTopicId": 32630,
     "hashes": [
       "e99e25d6403217abd5a8f883306c42b6"
     ]
@@ -4899,8 +5625,8 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-15 17:39:16",
+    "forumTopicId": 33806,
     "hashes": [
       "08293cb7429bf867f6f448564a3d7d9a"
     ]
@@ -4971,10 +5697,10 @@
     "consoleId": 40,
     "consoleName": "Dreamcast",
     "imageIcon": "/Images/053569.png",
-    "numAchievements": 0,
+    "numAchievements": 73,
     "numLeaderboards": 20,
-    "points": 0,
-    "dateModified": "2025-07-11 22:35:17",
+    "points": 655,
+    "dateModified": "2025-10-25 10:56:04",
     "forumTopicId": 15307,
     "hashes": [
       "9cfbb85f22d77b43aba881739c08fc37"
@@ -5049,7 +5775,7 @@
     "numAchievements": 50,
     "numLeaderboards": 1,
     "points": 410,
-    "dateModified": "2024-09-15 23:43:24",
+    "dateModified": "2025-10-17 23:24:57",
     "forumTopicId": 19442,
     "hashes": [
       "249333f7bd39d6d729e9b5e5d49219c6"
@@ -5083,6 +5809,21 @@
     "forumTopicId": 24720,
     "hashes": [
       "1142370d1040f5f7d8b3267e12d30d4e"
+    ]
+  },
+  {
+    "title": "Striker Pro 2000",
+    "id": 9721,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "df6da5b0daed9efaae6350db568ca581"
     ]
   },
   {
@@ -5129,6 +5870,21 @@
     "forumTopicId": 17519,
     "hashes": [
       "204d6c2a1261a5131d86444a4e6ff095"
+    ]
+  },
+  {
+    "title": "Super Producers: Mezase Show Biz Kai",
+    "id": 37127,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "254331630b6dbba26d4044974ce1d2ad"
     ]
   },
   {
@@ -5207,6 +5963,21 @@
     ]
   },
   {
+    "title": "Sweet Season",
+    "id": 37128,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "35aaa0fd7c2a9b3a594119e50e8ec050"
+    ]
+  },
+  {
     "title": "Sword of the Berserk: Guts' Rage",
     "id": 17366,
     "consoleId": 40,
@@ -5221,6 +5992,21 @@
       "2ea9f3da7f9aa53b5958a54dd9bcb3f0",
       "3513ef170cc4aa525cefc1b3393edacc",
       "c862a4b53d0a5e7b594a8254994df0a7"
+    ]
+  },
+  {
+    "title": "Tako no Marine",
+    "id": 34522,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c51c7acb5d3b303f06b76e27bae98018"
     ]
   },
   {
@@ -5266,6 +6052,21 @@
     "forumTopicId": null,
     "hashes": [
       "6a905848303a4741c0e670ccf27a8413"
+    ]
+  },
+  {
+    "title": "Tentama: 1st Sunny Side",
+    "id": 34523,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ae2f0f3a60eb654d564d90f4cc917699"
     ]
   },
   {
@@ -5337,7 +6138,7 @@
     "numAchievements": 52,
     "numLeaderboards": 6,
     "points": 270,
-    "dateModified": "2024-12-29 02:58:30",
+    "dateModified": "2025-12-10 03:21:57",
     "forumTopicId": 24611,
     "hashes": [
       "65c70b029d6b8cc2e8697e51821f90bf"
@@ -5394,11 +6195,11 @@
     "consoleId": 40,
     "consoleName": "Dreamcast",
     "imageIcon": "/Images/109238.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 82,
+    "numLeaderboards": 44,
+    "points": 870,
+    "dateModified": "2025-12-17 20:43:10",
+    "forumTopicId": 32284,
     "hashes": [
       "3d6f6d39631db8633c14e69ed9f0a07e"
     ]
@@ -5408,7 +6209,7 @@
     "id": 24053,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/071370.png",
+    "imageIcon": "/Images/120945.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -5427,7 +6228,7 @@
     "numAchievements": 57,
     "numLeaderboards": 3,
     "points": 470,
-    "dateModified": "2023-08-14 00:51:05",
+    "dateModified": "2025-12-04 03:23:35",
     "forumTopicId": 22471,
     "hashes": [
       "650f02286c028f48c8929218f7d3f626",
@@ -5439,14 +6240,44 @@
     "id": 18591,
     "consoleId": 40,
     "consoleName": "Dreamcast",
-    "imageIcon": "/Images/111979.png",
+    "imageIcon": "/Images/121971.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 33575,
+    "hashes": [
+      "598beb2e118851a27b35614ce57c8885"
+    ]
+  },
+  {
+    "title": "The Next Tetris: On-Line Edition",
+    "id": 37120,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "598beb2e118851a27b35614ce57c8885"
+      "ddb7e1de63f41e441360407b6f55bba7"
+    ]
+  },
+  {
+    "title": "The Rhapsody of Zephyr",
+    "id": 37123,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "67bc19429d0e31ae302c416d4504bb00"
     ]
   },
   {
@@ -5473,7 +6304,7 @@
     "numAchievements": 71,
     "numLeaderboards": 15,
     "points": 751,
-    "dateModified": "2024-11-21 12:47:37",
+    "dateModified": "2025-09-30 10:32:44",
     "forumTopicId": 14571,
     "hashes": [
       "6f9352c89bb8e9c12cbead45743e3464"
@@ -5684,7 +6515,7 @@
     "numAchievements": 90,
     "numLeaderboards": 0,
     "points": 619,
-    "dateModified": "2023-10-15 08:48:44",
+    "dateModified": "2025-11-22 23:29:49",
     "forumTopicId": 17059,
     "hashes": [
       "efc1e1340d4b1baf4699af5bbf29e940"
@@ -5733,6 +6564,21 @@
     "forumTopicId": null,
     "hashes": [
       "1b012c8597cb20a599c0c9f958525b2f"
+    ]
+  },
+  {
+    "title": "Tsuushin Taisen Logic Battle: Daisessen",
+    "id": 37129,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fd799dd0803e6dbe0b807184cec1a8b5"
     ]
   },
   {
@@ -5954,7 +6800,7 @@
     "numAchievements": 23,
     "numLeaderboards": 25,
     "points": 385,
-    "dateModified": "2025-02-13 23:36:57",
+    "dateModified": "2025-09-23 22:06:05",
     "forumTopicId": 21608,
     "hashes": [
       "bc8036e1b3bf3f55a00f4ddba1fbba0f"
@@ -6096,6 +6942,21 @@
     ]
   },
   {
+    "title": "World Neverland Plus: The Olerud Kingdom Stories",
+    "id": 37130,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ccb22e689f41ab34105e0a188835b32a"
+    ]
+  },
+  {
     "title": "World Series Baseball 2K1",
     "id": 32007,
     "consoleId": 40,
@@ -6186,6 +7047,21 @@
     ]
   },
   {
+    "title": "Yoshia no Oka de Nekoronde...",
+    "id": 34524,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "991757951e02f6a798eccd21c7359cc7"
+    ]
+  },
+  {
     "title": "Yu Suzuki Game Works Vol. 1",
     "id": 26713,
     "consoleId": 40,
@@ -6213,6 +7089,36 @@
     "forumTopicId": null,
     "hashes": [
       "bdd8f631fa1bbd9e9a6c22a373ea06ab"
+    ]
+  },
+  {
+    "title": "Yukigatari",
+    "id": 37131,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b604779c5ac455cd560449500c8f2dd9"
+    ]
+  },
+  {
+    "title": "Yume no Tsubasa: Fate of Heart",
+    "id": 34525,
+    "consoleId": 40,
+    "consoleName": "Dreamcast",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a55fe1b75fef4a19cc19238f23d3b3a3"
     ]
   },
   {

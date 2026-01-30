@@ -90,32 +90,17 @@
     ]
   },
   {
-    "title": "~Z~ No Hash 16851",
-    "id": 16851,
+    "title": "~Z~ Wolfenstein 3D [Subset - Can I Play, Daddy?]]",
+    "id": 23904,
     "consoleId": 43,
     "consoleName": "3DO Interactive Multiplayer",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117909.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
-    "title": "~Z~ Wolfenstein 3D [Subset - Can I play, Daddy?]",
-    "id": 23904,
-    "consoleId": 43,
-    "consoleName": "3DO Interactive Multiplayer",
-    "imageIcon": "/Images/070727.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2023-04-02 00:19:06",
     "forumTopicId": 21045,
-    "hashes": [
-      "5bd283fdae61fb87328aaa7c27e0d3d3"
-    ]
+    "hashes": []
   },
   {
     "title": "Advanced Dungeons & Dragons: DeathKeep",
@@ -171,7 +156,7 @@
     "numAchievements": 52,
     "numLeaderboards": 0,
     "points": 392,
-    "dateModified": "2024-06-10 03:40:20",
+    "dateModified": "2025-11-13 02:36:10",
     "forumTopicId": 10915,
     "hashes": [
       "4d7f2e1b2e8b9d9d14f083fae44d9760"
@@ -333,7 +318,7 @@
     "id": 16687,
     "consoleId": 43,
     "consoleName": "3DO Interactive Multiplayer",
-    "imageIcon": "/Images/088882.png",
+    "imageIcon": "/Images/122268.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -706,7 +691,7 @@
     ]
   },
   {
-    "title": "D | D no Shokutaku",
+    "title": "D",
     "id": 16709,
     "consoleId": 43,
     "consoleName": "3DO Interactive Multiplayer",
@@ -868,7 +853,7 @@
     "numAchievements": 88,
     "numLeaderboards": 2,
     "points": 565,
-    "dateModified": "2024-05-04 21:58:28",
+    "dateModified": "2025-12-16 03:30:50",
     "forumTopicId": 20474,
     "hashes": [
       "c93cbef8e885c2ec83bc1732890a0d1f"
@@ -1098,7 +1083,7 @@
     "numAchievements": 26,
     "numLeaderboards": 0,
     "points": 68,
-    "dateModified": "2023-02-06 21:02:53",
+    "dateModified": "2026-01-11 11:22:39",
     "forumTopicId": 18421,
     "hashes": [
       "7a7a41a239fe4d026be6dfa761933fb5"
@@ -2445,7 +2430,7 @@
     ]
   },
   {
-    "title": "Nobunaga no Yabou - Haouden",
+    "title": "Nobunaga no Yabou: Haouden",
     "id": 21283,
     "consoleId": 43,
     "consoleName": "3DO Interactive Multiplayer",
@@ -2963,12 +2948,12 @@
     "id": 16410,
     "consoleId": 43,
     "consoleName": "3DO Interactive Multiplayer",
-    "imageIcon": "/Images/062562.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/120069.png",
+    "numAchievements": 19,
+    "numLeaderboards": 3,
+    "points": 64,
+    "dateModified": "2025-11-09 02:53:17",
+    "forumTopicId": 33074,
     "hashes": [
       "43def02afa11f26ffea31c45307020be"
     ]
@@ -2980,9 +2965,9 @@
     "consoleName": "3DO Interactive Multiplayer",
     "imageIcon": "/Images/062557.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 1,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2026-01-14 20:44:54",
     "forumTopicId": 31815,
     "hashes": [
       "999b527d58caefa2fd9a285b459ab30b"
@@ -3076,6 +3061,21 @@
     "forumTopicId": null,
     "hashes": [
       "d0fcd6e42a7b838f970fd84352a8a512"
+    ]
+  },
+  {
+    "title": "Return Fire - Maps o' Death",
+    "id": 16851,
+    "consoleId": 43,
+    "consoleName": "3DO Interactive Multiplayer",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b2e6bb4b4d7792c5ed3ee7faf17311e7"
     ]
   },
   {
@@ -3476,12 +3476,12 @@
     "id": 16859,
     "consoleId": 43,
     "consoleName": "3DO Interactive Multiplayer",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/121099.png",
+    "numAchievements": 45,
+    "numLeaderboards": 7,
+    "points": 372,
+    "dateModified": "2026-01-28 00:05:20",
+    "forumTopicId": 33347,
     "hashes": [
       "b79873ed2deb0136207869a855a76d4d"
     ]
@@ -4477,7 +4477,7 @@
     "id": 21340,
     "consoleId": 43,
     "consoleName": "3DO Interactive Multiplayer",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118272.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -4492,7 +4492,7 @@
     "id": 21341,
     "consoleId": 43,
     "consoleName": "3DO Interactive Multiplayer",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118274.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -4507,7 +4507,7 @@
     "id": 21342,
     "consoleId": 43,
     "consoleName": "3DO Interactive Multiplayer",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/118273.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,

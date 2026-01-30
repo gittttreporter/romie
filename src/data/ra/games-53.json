@@ -8,7 +8,7 @@
     "numAchievements": 17,
     "numLeaderboards": 1,
     "points": 50,
-    "dateModified": "2025-04-27 15:11:10",
+    "dateModified": "2025-09-03 21:22:23",
     "forumTopicId": 30647,
     "hashes": [
       "db3569afdb8d8f553da626970f1804e7"
@@ -184,7 +184,7 @@
     "id": 33674,
     "consoleId": 53,
     "consoleName": "WonderSwan",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122892.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -620,7 +620,7 @@
     "id": 14874,
     "consoleId": 53,
     "consoleName": "WonderSwan",
-    "imageIcon": "/Images/043598.png",
+    "imageIcon": "/Images/123693.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -700,7 +700,7 @@
     "numAchievements": 21,
     "numLeaderboards": 2,
     "points": 238,
-    "dateModified": "2024-12-13 14:51:17",
+    "dateModified": "2025-10-07 06:02:45",
     "forumTopicId": 9524,
     "hashes": [
       "098b747bf9d88f651735b45197e393e1",
@@ -749,7 +749,7 @@
     "dateModified": null,
     "forumTopicId": 28989,
     "hashes": [
-      "833bd00f18fac9b03392a1d2cec17a54"
+      "0b4973f8406e90f325198b6747b4e632"
     ]
   },
   {
@@ -807,7 +807,7 @@
     "numAchievements": 13,
     "numLeaderboards": 0,
     "points": 113,
-    "dateModified": "2025-03-18 12:08:34",
+    "dateModified": "2026-01-18 02:16:46",
     "forumTopicId": 26333,
     "hashes": [
       "47b23a84817217cc5b9bbd85fe634174"
@@ -971,10 +971,10 @@
     "consoleId": 53,
     "consoleName": "WonderSwan",
     "imageIcon": "/Images/089328.png",
-    "numAchievements": 0,
+    "numAchievements": 49,
     "numLeaderboards": 2,
-    "points": 0,
-    "dateModified": null,
+    "points": 414,
+    "dateModified": "2026-01-13 01:19:06",
     "forumTopicId": 22819,
     "hashes": [
       "e03e666452651e82eb5734a9d684802a",
@@ -1007,7 +1007,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33658,
     "hashes": [
       "a466797b353d610f43a0f030cec721c1"
     ]
@@ -1137,7 +1137,7 @@
     "id": 17959,
     "consoleId": 53,
     "consoleName": "WonderSwan",
-    "imageIcon": "/Images/048443.png",
+    "imageIcon": "/Images/119284.png",
     "numAchievements": 48,
     "numLeaderboards": 8,
     "points": 302,
@@ -1156,7 +1156,7 @@
     "numAchievements": 76,
     "numLeaderboards": 18,
     "points": 444,
-    "dateModified": "2024-04-17 21:54:04",
+    "dateModified": "2025-11-25 17:04:22",
     "forumTopicId": 24248,
     "hashes": [
       "1eb91e6b46ab5624c7b707ea7b7abe9d"
@@ -1167,18 +1167,18 @@
     "id": 620,
     "consoleId": 53,
     "consoleName": "WonderSwan",
-    "imageIcon": "/Images/041376.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/121878.png",
+    "numAchievements": 28,
+    "numLeaderboards": 6,
+    "points": 210,
+    "dateModified": "2026-01-02 09:49:00",
+    "forumTopicId": 33341,
     "hashes": [
       "816c81b156146be62a45edd7d7d49fc6"
     ]
   },
   {
-    "title": "GunPey Ex",
+    "title": "Gunpey Ex",
     "id": 7073,
     "consoleId": 53,
     "consoleName": "WonderSwan",
@@ -1193,7 +1193,7 @@
     ]
   },
   {
-    "title": "Hataraku Chocobo | Working Chocobo",
+    "title": "Hataraku Chocobo",
     "id": 17766,
     "consoleId": 53,
     "consoleName": "WonderSwan",
@@ -1363,7 +1363,7 @@
     "id": 14601,
     "consoleId": 53,
     "consoleName": "WonderSwan",
-    "imageIcon": "/Images/049923.png",
+    "imageIcon": "/Images/121208.png",
     "numAchievements": 59,
     "numLeaderboards": 3,
     "points": 580,
@@ -1613,6 +1613,38 @@
     "forumTopicId": null,
     "hashes": [
       "f98cbebf4a06794aa74636e7a6285ace"
+    ]
+  },
+  {
+    "title": "Makai Toushi SaGa",
+    "id": 14602,
+    "consoleId": 53,
+    "consoleName": "WonderSwan",
+    "imageIcon": "/Images/079411.png",
+    "numAchievements": 91,
+    "numLeaderboards": 0,
+    "points": 561,
+    "dateModified": "2025-09-04 23:46:43",
+    "forumTopicId": 11195,
+    "hashes": [
+      "957137e7d5249c02fecff063e0c86e87",
+      "f1d130f871a4440be635322c73662049"
+    ]
+  },
+  {
+    "title": "Makai Toushi SaGa [Subset - Solo Class]",
+    "id": 18495,
+    "consoleId": 53,
+    "consoleName": "WonderSwan",
+    "imageIcon": "/Images/072093.png",
+    "numAchievements": 36,
+    "numLeaderboards": 0,
+    "points": 360,
+    "dateModified": "2024-10-07 09:44:19",
+    "forumTopicId": 15155,
+    "hashes": [
+      "1edff9c7eb20454dcd2cd6c6e23fc7c6",
+      "ac0b4121ead3c4b1ec102a57d1bb697d"
     ]
   },
   {
@@ -1999,12 +2031,12 @@
     "id": 26314,
     "consoleId": 53,
     "consoleName": "WonderSwan",
-    "imageIcon": "/Images/094169.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/119687.png",
+    "numAchievements": 19,
+    "numLeaderboards": 1,
+    "points": 185,
+    "dateModified": "2025-10-28 19:37:21",
+    "forumTopicId": 32866,
     "hashes": [
       "5898c0dfee65ff9b47ce6ec1be2014d5"
     ]
@@ -2209,12 +2241,12 @@
     "id": 15371,
     "consoleId": 53,
     "consoleName": "WonderSwan",
-    "imageIcon": "/Images/029841.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/123895.png",
+    "numAchievements": 15,
+    "numLeaderboards": 91,
+    "points": 145,
+    "dateModified": "2026-01-29 15:44:37",
+    "forumTopicId": 34173,
     "hashes": [
       "d422d16a28390d395f4c0878c555e52c"
     ]
@@ -2442,38 +2474,6 @@
     "forumTopicId": 16478,
     "hashes": [
       "b7e66090d059f77636161fa4e21f3e89"
-    ]
-  },
-  {
-    "title": "The Final Fantasy Legend | Makai Toushi SaGa",
-    "id": 14602,
-    "consoleId": 53,
-    "consoleName": "WonderSwan",
-    "imageIcon": "/Images/079411.png",
-    "numAchievements": 91,
-    "numLeaderboards": 0,
-    "points": 561,
-    "dateModified": "2025-08-26 02:33:29",
-    "forumTopicId": 11195,
-    "hashes": [
-      "957137e7d5249c02fecff063e0c86e87",
-      "f1d130f871a4440be635322c73662049"
-    ]
-  },
-  {
-    "title": "The Final Fantasy Legend | Makai Toushi SaGa [Subset - Solo Class]",
-    "id": 18495,
-    "consoleId": 53,
-    "consoleName": "WonderSwan",
-    "imageIcon": "/Images/072093.png",
-    "numAchievements": 36,
-    "numLeaderboards": 0,
-    "points": 360,
-    "dateModified": "2024-10-07 09:44:19",
-    "forumTopicId": 15155,
-    "hashes": [
-      "1edff9c7eb20454dcd2cd6c6e23fc7c6",
-      "ac0b4121ead3c4b1ec102a57d1bb697d"
     ]
   },
   {

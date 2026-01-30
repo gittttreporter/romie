@@ -15,8 +15,8 @@
     ]
   },
   {
-    "title": "~Hack~ ~Demo~ Pantufa the Cat: Extended Edition",
-    "id": 31909,
+    "title": "~Hack~ ~Demo~ Mean Bean Tsuu",
+    "id": 37849,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/000001.png",
@@ -26,7 +26,112 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
+      "68355a48014fb8a24502a7f980d56a2a"
+    ]
+  },
+  {
+    "title": "~Hack~ ~Demo~ Pantufa the Cat: Extended Edition",
+    "id": 31909,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/118568.png",
+    "numAchievements": 50,
+    "numLeaderboards": 132,
+    "points": 380,
+    "dateModified": "2025-10-13 18:14:45",
+    "forumTopicId": 32285,
+    "hashes": [
       "0073325e4b4b86db19154f6a52e2a817"
+    ]
+  },
+  {
+    "title": "~Hack~ ~Demo~ Sonic 1 on Bird Hill Island",
+    "id": 37838,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d0c053bf36209e91bddffaf5946685d3"
+    ]
+  },
+  {
+    "title": "~Hack~ ~Demo~ Sonic 1: The Green Emeralds",
+    "id": 37836,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2ffd4faaf3253edc0dfa3a65c5507004"
+    ]
+  },
+  {
+    "title": "~Hack~ ~Demo~ Sonic 2 Addendum",
+    "id": 37841,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "240eae609b63f4596c8494d2d183182e"
+    ]
+  },
+  {
+    "title": "~Hack~ ~Demo~ Sonic 3 Master Edition 3",
+    "id": 37846,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "906893161cbc3d5929b98dbafe443c77"
+    ]
+  },
+  {
+    "title": "~Hack~ ~Demo~ Sonic 3 New Age",
+    "id": 37847,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "71c38c62d822776c258034a19c2ccec1"
+    ]
+  },
+  {
+    "title": "~Hack~ ~Demo~ Sonic 3: Extended World",
+    "id": 36986,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d145a07189d195407fe79f58bbf8e978"
     ]
   },
   {
@@ -42,6 +147,96 @@
     "forumTopicId": null,
     "hashes": [
       "c64ee6e6df9fe015326a769183de38c0"
+    ]
+  },
+  {
+    "title": "~Hack~ ~Demo~ Sonic Eggman's ConQuest",
+    "id": 37844,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "585cf9740ce55a56c06b0f3b0da8978b"
+    ]
+  },
+  {
+    "title": "~Hack~ ~Demo~ Sonic Encore",
+    "id": 37831,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b272e5d4deb6a2343cfcbcdda52bc376"
+    ]
+  },
+  {
+    "title": "~Hack~ ~Demo~ Sonic the Hedgehog: Save The Moon",
+    "id": 37840,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5294e21997cb23394cb63b1e99448d14"
+    ]
+  },
+  {
+    "title": "~Hack~ ~Demo~ Sonic the Hedgehog: South Island Expedition",
+    "id": 37052,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b4c06c1423366f73f5a42267268e1889"
+    ]
+  },
+  {
+    "title": "~Hack~ ~Demo~ Sonic Vania",
+    "id": 37845,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a122dd6d0cce137eeaa9ece04a164afa"
+    ]
+  },
+  {
+    "title": "~Hack~ ~Demo~ Sonic: Project Revenge",
+    "id": 37843,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c88fdf47bb07343f6abe445d09223218"
     ]
   },
   {
@@ -79,7 +274,7 @@
     "id": 4236,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/085631.png",
+    "imageIcon": "/Images/121643.png",
     "numAchievements": 20,
     "numLeaderboards": 0,
     "points": 217,
@@ -94,14 +289,29 @@
     "id": 9043,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/113952.png",
+    "imageIcon": "/Images/121674.png",
     "numAchievements": 25,
     "numLeaderboards": 18,
     "points": 270,
-    "dateModified": "2025-07-26 17:08:48",
+    "dateModified": "2025-11-08 21:26:24",
     "forumTopicId": 20743,
     "hashes": [
       "54378e017dc359da52ec442a317da29f"
+    ]
+  },
+  {
+    "title": "~Hack~ An Apeeling Sonic Hack",
+    "id": 35108,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4aea44f48c4bb3217bc51977f2a70950"
     ]
   },
   {
@@ -110,10 +320,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/092253.png",
-    "numAchievements": 0,
-    "numLeaderboards": 20,
-    "points": 0,
-    "dateModified": "2025-08-31 02:08:56",
+    "numAchievements": 28,
+    "numLeaderboards": 13,
+    "points": 430,
+    "dateModified": "2025-11-01 06:22:11",
     "forumTopicId": 18807,
     "hashes": [
       "0d868810f2eea51a1609499fceaa4bdc"
@@ -154,7 +364,7 @@
     "id": 16281,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/087052.png",
+    "imageIcon": "/Images/120986.png",
     "numAchievements": 35,
     "numLeaderboards": 38,
     "points": 390,
@@ -169,11 +379,11 @@
     "id": 17070,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/115509.png",
+    "imageIcon": "/Images/121710.png",
     "numAchievements": 18,
     "numLeaderboards": 11,
     "points": 248,
-    "dateModified": "2025-08-22 21:51:45",
+    "dateModified": "2025-11-17 09:45:55",
     "forumTopicId": 31643,
     "hashes": [
       "64bfd8145d581041c165204cc0a105bd"
@@ -184,7 +394,7 @@
     "id": 24318,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/114658.png",
+    "imageIcon": "/Images/122347.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -300,6 +510,21 @@
     ]
   },
   {
+    "title": "~Hack~ Desert Bus in Sonic 1",
+    "id": 37827,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "672f8a9130bc7b399611d7d06abd2e2a"
+    ]
+  },
+  {
     "title": "~Hack~ Doctor Robotnik's Creature Capture",
     "id": 6375,
     "consoleId": 1,
@@ -375,6 +600,52 @@
     ]
   },
   {
+    "title": "~Hack~ Giant Jungle",
+    "id": 37830,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "eac0fa443987962557a026f5455a5ff3"
+    ]
+  },
+  {
+    "title": "~Hack~ Giovanni's Level Pack 2",
+    "id": 37829,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "27a0e5ef8c7c06f76acac1184a411e4f",
+      "a76102fc45f2bdffc0daefc66b93ca98"
+    ]
+  },
+  {
+    "title": "~Hack~ Hatsune Miku in Sonic 1",
+    "id": 37828,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f03a0b0aa78631db598f57bc13e9802a"
+    ]
+  },
+  {
     "title": "~Hack~ Hellfire Saga",
     "id": 22510,
     "consoleId": 1,
@@ -390,11 +661,26 @@
     ]
   },
   {
+    "title": "~Hack~ HIJITUS",
+    "id": 37811,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5c2ef7d6b0fd60dc32e117faf401b0d5"
+    ]
+  },
+  {
     "title": "~Hack~ I Made You a Salad",
     "id": 31910,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117382.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -454,7 +740,7 @@
     "id": 31920,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120699.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -484,11 +770,11 @@
     "id": 20246,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/115843.png",
+    "imageIcon": "/Images/121645.png",
     "numAchievements": 24,
     "numLeaderboards": 28,
-    "points": 305,
-    "dateModified": "2025-08-18 01:54:22",
+    "points": 300,
+    "dateModified": "2025-12-04 16:31:00",
     "forumTopicId": 19441,
     "hashes": [
       "6af2ffd9d06b0aa2125e3438c28c7c83"
@@ -518,7 +804,7 @@
     "numAchievements": 19,
     "numLeaderboards": 0,
     "points": 65,
-    "dateModified": "2022-09-15 00:51:29",
+    "dateModified": "2025-10-29 15:57:23",
     "forumTopicId": 13447,
     "hashes": [
       "52365eb96edcd899720ae5ba822f1b7c"
@@ -529,11 +815,11 @@
     "id": 20585,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/115877.png",
+    "imageIcon": "/Images/121652.png",
     "numAchievements": 17,
     "numLeaderboards": 20,
     "points": 227,
-    "dateModified": "2025-07-26 03:52:20",
+    "dateModified": "2025-11-15 16:32:26",
     "forumTopicId": 18405,
     "hashes": [
       "0b605584ba0f4c4ed7b61bbfa634e1ec"
@@ -566,9 +852,7 @@
     "dateModified": "2021-07-09 15:50:47",
     "forumTopicId": 2654,
     "hashes": [
-      "1c45dadc7587225593c8462146dae978",
-      "c8d561b39ec6e48976f15e07d4284e74",
-      "e1c6af705103ae61998dcf7b01e52159"
+      "1c45dadc7587225593c8462146dae978"
     ]
   },
   {
@@ -666,7 +950,7 @@
     "id": 8005,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/109752.png",
+    "imageIcon": "/Images/122995.png",
     "numAchievements": 48,
     "numLeaderboards": 0,
     "points": 335,
@@ -687,7 +971,7 @@
     "numAchievements": 37,
     "numLeaderboards": 1,
     "points": 355,
-    "dateModified": "2022-09-01 02:12:24",
+    "dateModified": "2025-11-30 08:00:46",
     "forumTopicId": 16899,
     "hashes": [
       "2d89027b8bff8b8b752df1385756bba3",
@@ -750,10 +1034,25 @@
     "numAchievements": 14,
     "numLeaderboards": 1,
     "points": 60,
-    "dateModified": "2024-12-08 03:43:07",
+    "dateModified": "2025-11-15 05:05:28",
     "forumTopicId": 7674,
     "hashes": [
       "ae1dd63ec1c689de873d8e0918757b97"
+    ]
+  },
+  {
+    "title": "~Hack~ Pantufa the Cat",
+    "id": 35106,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e248772528f4bb2681a78028e7c1990a"
     ]
   },
   {
@@ -765,10 +1064,25 @@
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 243,
-    "dateModified": "2024-11-22 21:35:14",
+    "dateModified": "2025-12-11 23:33:15",
     "forumTopicId": 18413,
     "hashes": [
       "2567ec105a2201cd72126caacdd9b7ba"
+    ]
+  },
+  {
+    "title": "~Hack~ Post Traumatic Marble Zone Disorder",
+    "id": 37850,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "6c4bc1feb9026b1d90201c12f0d42f1b"
     ]
   },
   {
@@ -847,6 +1161,21 @@
     ]
   },
   {
+    "title": "~Hack~ Robotnik Returns 2",
+    "id": 37810,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b71a4afcbf829726af0f10006750bdad"
+    ]
+  },
+  {
     "title": "~Hack~ Robotnik's Revenge",
     "id": 6701,
     "consoleId": 1,
@@ -881,7 +1210,7 @@
     "id": 24322,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122344.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -896,7 +1225,7 @@
     "id": 24324,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122345.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -911,7 +1240,7 @@
     "id": 26856,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/121119.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -930,10 +1259,40 @@
     "numAchievements": 100,
     "numLeaderboards": 0,
     "points": 780,
-    "dateModified": "2023-11-29 05:46:54",
+    "dateModified": "2025-11-25 04:35:11",
     "forumTopicId": 24408,
     "hashes": [
       "a829a5bffef8ae4e24135eda98f7a78f"
+    ]
+  },
+  {
+    "title": "~Hack~ Shining Force Eternity",
+    "id": 37165,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5c2addce481c1f2b787f602f5cde252b"
+    ]
+  },
+  {
+    "title": "~Hack~ Shining Force: Darkwolf777's Mod",
+    "id": 37808,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f5cbf17c4cddc779ed7606d6819e4665"
     ]
   },
   {
@@ -949,6 +1308,21 @@
     "forumTopicId": 26457,
     "hashes": [
       "2c21d80009fa318b9f0cd8c6e045ac05"
+    ]
+  },
+  {
+    "title": "~Hack~ Shining Force: Unlikely Alliance",
+    "id": 37809,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8f1f8afee6bbddbc333131f18cdbfa0b"
     ]
   },
   {
@@ -986,7 +1360,7 @@
     "id": 16344,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/036682.png",
+    "imageIcon": "/Images/119157.png",
     "numAchievements": 27,
     "numLeaderboards": 0,
     "points": 253,
@@ -1091,11 +1465,11 @@
     "id": 8514,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/085628.png",
+    "imageIcon": "/Images/121675.png",
     "numAchievements": 19,
     "numLeaderboards": 7,
     "points": 187,
-    "dateModified": "2023-03-10 17:45:21",
+    "dateModified": "2025-11-21 17:13:03",
     "forumTopicId": 18435,
     "hashes": [
       "3e4fcdf6cc1e44336448379f82897699"
@@ -1222,6 +1596,21 @@
     ]
   },
   {
+    "title": "~Hack~ Sonic 1: Gotta Go Fast Edition",
+    "id": 35107,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "26e46a2d5b40a70ee970d654b6ced808"
+    ]
+  },
+  {
     "title": "~Hack~ Sonic 1: Painto Edition 2",
     "id": 13227,
     "consoleId": 1,
@@ -1245,7 +1634,7 @@
     "numAchievements": 18,
     "numLeaderboards": 0,
     "points": 197,
-    "dateModified": "2025-02-23 20:39:59",
+    "dateModified": "2025-11-25 15:43:17",
     "forumTopicId": 22780,
     "hashes": [
       "013dd39934f83e9ab160215584c93b85"
@@ -1309,6 +1698,21 @@
     "forumTopicId": null,
     "hashes": [
       "6a1905e0de53328c0a841ca586d5e53d"
+    ]
+  },
+  {
+    "title": "~Hack~ Sonic 1: The Super Challenges",
+    "id": 37837,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3b48897dedc7e33e8fd2e3e0f1446e65"
     ]
   },
   {
@@ -1492,6 +1896,21 @@
     ]
   },
   {
+    "title": "~Hack~ Sonic 2: Return to Westside Island",
+    "id": 37137,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f49020cc6b1c90a3946534150b30b13b"
+    ]
+  },
+  {
     "title": "~Hack~ Sonic 2: S3 Edition",
     "id": 6735,
     "consoleId": 1,
@@ -1507,11 +1926,26 @@
     ]
   },
   {
+    "title": "~Hack~ Sonic 2: Score Rush",
+    "id": 37842,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a687f29122d17250aa2d998cf04d2cae"
+    ]
+  },
+  {
     "title": "~Hack~ Sonic 3 and Amy Rose",
     "id": 15370,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/113968.png",
+    "imageIcon": "/Images/121729.png",
     "numAchievements": 30,
     "numLeaderboards": 25,
     "points": 309,
@@ -1541,7 +1975,7 @@
     "id": 24370,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122346.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1582,6 +2016,21 @@
     ]
   },
   {
+    "title": "~Hack~ Sonic 3: D.A. Garden Edition",
+    "id": 37138,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c0242850f0bd876d4106016ac7470e98"
+    ]
+  },
+  {
     "title": "~Hack~ Sonic 3D Blast: Director's Cut",
     "id": 11185,
     "consoleId": 1,
@@ -1590,7 +2039,7 @@
     "numAchievements": 50,
     "numLeaderboards": 22,
     "points": 440,
-    "dateModified": "2023-08-28 15:26:58",
+    "dateModified": "2025-11-25 16:07:22",
     "forumTopicId": 5759,
     "hashes": [
       "742dd5c98d143ff6716800dee6a25dc5"
@@ -1717,6 +2166,21 @@
     ]
   },
   {
+    "title": "~Hack~ Sonic FreeFall",
+    "id": 37832,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c748e57d751aa75f209a8499c8e60dae"
+    ]
+  },
+  {
     "title": "~Hack~ Sonic Gaiden",
     "id": 14140,
     "consoleId": 1,
@@ -1777,6 +2241,36 @@
     ]
   },
   {
+    "title": "~Hack~ Sonic is alone",
+    "id": 37167,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/121193.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "19a4910f7bcc9119480533be0876a2b5"
+    ]
+  },
+  {
+    "title": "~Hack~ Sonic Like Legos",
+    "id": 37833,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7b5a91d7c2dddbcdfab22dfad7b7e1eb"
+    ]
+  },
+  {
     "title": "~Hack~ Sonic Next Genesis",
     "id": 31893,
     "consoleId": 1,
@@ -1792,6 +2286,21 @@
     ]
   },
   {
+    "title": "~Hack~ Sonic Quick Winter Adventures",
+    "id": 37812,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "66190ead774478a869c87024902e2506"
+    ]
+  },
+  {
     "title": "~Hack~ Sonic Sad Hill: Hell of Green Hill Zones",
     "id": 16345,
     "consoleId": 1,
@@ -1804,6 +2313,51 @@
     "forumTopicId": 14237,
     "hashes": [
       "7d10cd29fa572a2a6a84a6f505842883"
+    ]
+  },
+  {
+    "title": "~Hack~ SONIC SMD",
+    "id": 37147,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3ffeb17124f5401e2103a30fc1f5f58c"
+    ]
+  },
+  {
+    "title": "~Hack~ Sonic Spazdunka",
+    "id": 37834,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "dff769f4ec10a939b2175ad3dac9814c"
+    ]
+  },
+  {
+    "title": "~Hack~ Sonic Sudoku",
+    "id": 37152,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "82708dbc6e3329898148dbed5eef17a4"
     ]
   },
   {
@@ -1875,7 +2429,7 @@
     "numAchievements": 31,
     "numLeaderboards": 12,
     "points": 232,
-    "dateModified": "2025-05-16 20:19:58",
+    "dateModified": "2025-09-13 00:27:47",
     "forumTopicId": 18702,
     "hashes": [
       "9c2fac444e7b7b852e41d8ea8dd90475"
@@ -1905,7 +2459,7 @@
     "numAchievements": 18,
     "numLeaderboards": 29,
     "points": 125,
-    "dateModified": "2025-07-27 17:15:58",
+    "dateModified": "2025-12-23 15:34:09",
     "forumTopicId": 11192,
     "hashes": [
       "91883e821feb16ae1a38f39934c42fe8"
@@ -1920,7 +2474,7 @@
     "numAchievements": 25,
     "numLeaderboards": 24,
     "points": 270,
-    "dateModified": "2025-04-03 01:42:24",
+    "dateModified": "2025-12-18 21:08:37",
     "forumTopicId": 18520,
     "hashes": [
       "52c048553511efa76f2dabb450646e4c"
@@ -2066,7 +2620,7 @@
     "id": 2235,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/059143.png",
+    "imageIcon": "/Images/123772.png",
     "numAchievements": 42,
     "numLeaderboards": 0,
     "points": 265,
@@ -2098,7 +2652,7 @@
     "id": 205,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/063930.png",
+    "imageIcon": "/Images/123774.png",
     "numAchievements": 18,
     "numLeaderboards": 0,
     "points": 211,
@@ -2118,7 +2672,7 @@
     "numAchievements": 91,
     "numLeaderboards": 38,
     "points": 815,
-    "dateModified": "2023-04-02 14:14:17",
+    "dateModified": "2025-09-13 00:07:58",
     "forumTopicId": 12683,
     "hashes": [
       "ef3760d0c4a8b800299087d9b6dc6b42"
@@ -2234,14 +2788,29 @@
     "id": 231,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/070236.png",
+    "imageIcon": "/Images/123107.png",
     "numAchievements": 29,
     "numLeaderboards": 10,
     "points": 200,
-    "dateModified": "2024-12-16 20:25:29",
+    "dateModified": "2025-09-15 23:13:24",
     "forumTopicId": 10746,
     "hashes": [
       "b1ce99ca0b13bc50b0a55529e84148b1"
+    ]
+  },
+  {
+    "title": "~Hack~ Sonic With A Pogo Stick",
+    "id": 37848,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a8f295864156e461ea035782a54fdf27"
     ]
   },
   {
@@ -2455,19 +3024,6 @@
     ]
   },
   {
-    "title": "~Hack~ Street Fighter II Remastered Edition",
-    "id": 16527,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/036271.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 11226,
-    "hashes": []
-  },
-  {
     "title": "~Hack~ Streets of Rage 2: Cadillacs and Dinosaurs Edition",
     "id": 33686,
     "consoleId": 1,
@@ -2510,22 +3066,6 @@
     "forumTopicId": null,
     "hashes": [
       "07eee4dcdb40c401d484cffdd0240b6c"
-    ]
-  },
-  {
-    "title": "~Hack~ Streets of Rage 2: Mortal Kombat CX",
-    "id": 13424,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/116541.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 9067,
-    "hashes": [
-      "5b05e428b26d2760bae2fc1a78037c2a",
-      "f2188b9f6f4078faadc55f4f6ee3a57b"
     ]
   },
   {
@@ -2638,11 +3178,11 @@
     "id": 26731,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/115844.png",
+    "imageIcon": "/Images/121644.png",
     "numAchievements": 24,
     "numLeaderboards": 28,
-    "points": 305,
-    "dateModified": "2025-08-18 01:53:32",
+    "points": 300,
+    "dateModified": "2025-10-09 02:32:16",
     "forumTopicId": 31707,
     "hashes": [
       "e83e387387bba16afd576001a0861aed"
@@ -2653,7 +3193,7 @@
     "id": 25807,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/082666.png",
+    "imageIcon": "/Images/120841.png",
     "numAchievements": 25,
     "numLeaderboards": 0,
     "points": 187,
@@ -2668,7 +3208,7 @@
     "id": 25811,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/082732.png",
+    "imageIcon": "/Images/120842.png",
     "numAchievements": 9,
     "numLeaderboards": 0,
     "points": 325,
@@ -2679,11 +3219,11 @@
     ]
   },
   {
-    "title": "~Hack~ Teenage Mutant Ninja Turtles: Shredder's Re-Revenge [Subset - Multi]",
+    "title": "~Hack~ Teenage Mutant Ninja Turtles: Shredder's Re-Revenge [Subset - Multiplayer",
     "id": 25808,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/082690.png",
+    "imageIcon": "/Images/120843.png",
     "numAchievements": 18,
     "numLeaderboards": 0,
     "points": 155,
@@ -2691,6 +3231,21 @@
     "forumTopicId": 23473,
     "hashes": [
       "abfe41cbe24c8ef31506e7daf0427b92"
+    ]
+  },
+  {
+    "title": "~Hack~ The Adventures of Sonic the Hedgehog",
+    "id": 37835,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bc8e52385f53f317c3c8da31f8f483f3"
     ]
   },
   {
@@ -2706,6 +3261,21 @@
     "forumTopicId": 3714,
     "hashes": [
       "fa8bbd064e9c7b81952be37e3d503588"
+    ]
+  },
+  {
+    "title": "~Hack~ The Worst Sonic the Hedgehog Romhack (featuring Mario) 2",
+    "id": 37839,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/123224.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 34049,
+    "hashes": [
+      "02e78cd433533dd79cd4ac5b52b4bc22"
     ]
   },
   {
@@ -2739,11 +3309,26 @@
     ]
   },
   {
+    "title": "~Hack~ Ultimate Mortal Kombat 3 Arkade Edition Revised",
+    "id": 37141,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ac83146792683e80bbeadbd1e8f65eb1"
+    ]
+  },
+  {
     "title": "~Hack~ Ultimate Mortal Kombat Trilogy",
     "id": 13421,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/075355.png",
+    "imageIcon": "/Images/123120.png",
     "numAchievements": 170,
     "numLeaderboards": 0,
     "points": 1130,
@@ -2751,6 +3336,21 @@
     "forumTopicId": 7706,
     "hashes": [
       "073bef4bea44531dd1a217e801ab04b7"
+    ]
+  },
+  {
+    "title": "~Hack~ Untitled Short Anniversary Sonic Hack",
+    "id": 37813,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8f6b5619ccaf3fa00ffafa8e96db5705"
     ]
   },
   {
@@ -2789,11 +3389,11 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/068689.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 13,
+    "numLeaderboards": 11,
+    "points": 54,
+    "dateModified": "2025-12-06 21:16:25",
+    "forumTopicId": 32221,
     "hashes": [
       "7e2639e6608c709d32f337ff38846686"
     ]
@@ -2880,12 +3480,12 @@
     "id": 31908,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/123009.png",
+    "numAchievements": 10,
+    "numLeaderboards": 1,
+    "points": 198,
+    "dateModified": "2026-01-11 23:41:24",
+    "forumTopicId": 33876,
     "hashes": [
       "e8f0a479d4391ea717cd2ee0132d9122"
     ]
@@ -2960,7 +3560,7 @@
     "numAchievements": 7,
     "numLeaderboards": 2,
     "points": 44,
-    "dateModified": "2021-01-19 03:37:20",
+    "dateModified": "2026-01-16 21:50:58",
     "forumTopicId": 12256,
     "hashes": [
       "30c01f5a82b51fd7e23315dd070d5818"
@@ -3087,6 +3687,36 @@
     ]
   },
   {
+    "title": "~Homebrew~ Chase and the Gurgloos",
+    "id": 37852,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5c6eb6efc137bc314c7978c4709c1fb2"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Chip's Challenge",
+    "id": 35096,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "05e4bd57cae226e5e6c1ed5271c26baf"
+    ]
+  },
+  {
     "title": "~Homebrew~ Coffee Crisis",
     "id": 9502,
     "consoleId": 1,
@@ -3165,6 +3795,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Double Symbol",
+    "id": 36935,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "51e2540a116251c69b3733fc5b2c44ee"
+    ]
+  },
+  {
     "title": "~Homebrew~ Drunk as I Like: Gensokyo Drinking Attitude",
     "id": 22689,
     "consoleId": 1,
@@ -3191,6 +3836,21 @@
     "dateModified": null,
     "forumTopicId": 31795,
     "hashes": []
+  },
+  {
+    "title": "~Homebrew~ Enryuu Seiken Xiao-Mei",
+    "id": 24615,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ffdf1932de5eca09da86a0c7cf1228f4"
+    ]
   },
   {
     "title": "~Homebrew~ Flappy Bird",
@@ -3227,11 +3887,11 @@
     "id": 30033,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/103339.png",
+    "imageIcon": "/Images/122282.png",
     "numAchievements": 33,
     "numLeaderboards": 2,
     "points": 406,
-    "dateModified": "2025-03-09 01:39:33",
+    "dateModified": "2025-12-31 02:32:50",
     "forumTopicId": 28441,
     "hashes": [
       "9c0a4c071a15fe7b273ae586b39ddfd4"
@@ -3341,21 +4001,6 @@
     "forumTopicId": null,
     "hashes": [
       "1ed9dbd423dc96113cfdfd8795b59593"
-    ]
-  },
-  {
-    "title": "~Homebrew~ Iron Man",
-    "id": 34301,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/115340.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "42292287930bb213da54723b929b276b"
     ]
   },
   {
@@ -3577,7 +4222,7 @@
     "numAchievements": 135,
     "numLeaderboards": 3,
     "points": 1470,
-    "dateModified": "2025-06-22 11:46:33",
+    "dateModified": "2025-09-02 22:23:06",
     "forumTopicId": 21732,
     "hashes": [
       "bff0eb90c2006edade14063d4a2d13cf"
@@ -3604,10 +4249,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/069745.png",
-    "numAchievements": 0,
-    "numLeaderboards": 3,
-    "points": 0,
-    "dateModified": "2025-08-24 21:11:29",
+    "numAchievements": 71,
+    "numLeaderboards": 13,
+    "points": 965,
+    "dateModified": "2025-11-21 05:29:08",
     "forumTopicId": 21724,
     "hashes": [
       "50a8a3e41b42df0a42d9eb6e471dfd03"
@@ -3626,6 +4271,21 @@
     "forumTopicId": null,
     "hashes": [
       "1f59d00769a8d9d5f4ccf7f24b6b16de"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Megapong",
+    "id": 37168,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "40ef0ffa032814e4a92d3c4a39b30e18"
     ]
   },
   {
@@ -3761,7 +4421,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "9df5ee5c1164a4f0c52ea36c339abe73"
+    ]
   },
   {
     "title": "~Homebrew~ Phantom Gear",
@@ -4130,6 +4792,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ The Cursed Legacy",
+    "id": 24617,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1f2a2cc51379b1b6f7efce1cb80c4708"
+    ]
+  },
+  {
     "title": "~Homebrew~ Thundercats",
     "id": 9031,
     "consoleId": 1,
@@ -4140,7 +4817,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "8bb1e6527f1fcbb8a77e2eba5fe67a42"
+    ]
   },
   {
     "title": "~Homebrew~ Tro-Now",
@@ -4170,6 +4849,36 @@
     "forumTopicId": 13195,
     "hashes": [
       "c1bb39180a8ef03683301dd2ac8403e5"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Vintage Van Halen",
+    "id": 36937,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a5773507e87c68aea77f8f92125280d3"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Waffle Painter",
+    "id": 37607,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/122130.png",
+    "numAchievements": 26,
+    "numLeaderboards": 2,
+    "points": 72,
+    "dateModified": "2026-01-24 15:34:13",
+    "forumTopicId": 33736,
+    "hashes": [
+      "71659a7e9bc406a65471a507c61e4da1"
     ]
   },
   {
@@ -4226,7 +4935,7 @@
     "numAchievements": 11,
     "numLeaderboards": 0,
     "points": 42,
-    "dateModified": "2023-07-29 13:48:17",
+    "dateModified": "2025-12-13 16:09:55",
     "forumTopicId": 13520,
     "hashes": [
       "21d317c06e10ad52f50955bf7b672e70",
@@ -4324,7 +5033,7 @@
     ]
   },
   {
-    "title": "~Prototype~ Barbie Vacation Adventure",
+    "title": "~Prototype~ Barbie: Vacation Adventure",
     "id": 9992,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
@@ -4426,6 +5135,21 @@
     "forumTopicId": null,
     "hashes": [
       "bf9d1470f6e70c0885592b7bef25b3f8"
+    ]
+  },
+  {
+    "title": "~Prototype~ Dark Empires",
+    "id": 36911,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4529776e3a18044de357a43e2b7ddd6c"
     ]
   },
   {
@@ -4793,7 +5517,7 @@
     "id": 20460,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/064649.png",
+    "imageIcon": "/Images/118823.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -5106,7 +5830,7 @@
     ]
   },
   {
-    "title": "~Unlicensed~ Angry Birds in Russia | Angry Birds В России",
+    "title": "~Unlicensed~ Angry Birds in Russia",
     "id": 15327,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
@@ -5170,11 +5894,11 @@
     "id": 24421,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/114840.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "imageIcon": "/Images/118056.png",
+    "numAchievements": 10,
+    "numLeaderboards": 10,
+    "points": 100,
+    "dateModified": "2025-12-25 21:22:40",
     "forumTopicId": 31497,
     "hashes": [
       "08cdbf927351146e48a84aa2f3871855"
@@ -5318,6 +6042,36 @@
     ]
   },
   {
+    "title": "~Unlicensed~ Chip 'n Dale: Rescue Rangers",
+    "id": 36753,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/121313.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4db8686aa5c055b0d1d44bd67c4396a7"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Chip 'n Dale: Rescue Rangers 2",
+    "id": 36754,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/121317.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7aed4042d5498eaecc0eed94a74e133c"
+    ]
+  },
+  {
     "title": "~Unlicensed~ Commandos",
     "id": 560,
     "consoleId": 1,
@@ -5337,7 +6091,7 @@
     "id": 31758,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/121281.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -5446,7 +6200,7 @@
     "numAchievements": 29,
     "numLeaderboards": 0,
     "points": 100,
-    "dateModified": "2025-04-11 05:07:10",
+    "dateModified": "2025-09-26 18:46:31",
     "forumTopicId": 16942,
     "hashes": [
       "a7ed2295964be206220b3853d05e08e2"
@@ -5472,7 +6226,7 @@
     "id": 8393,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/066547.png",
+    "imageIcon": "/Images/121539.png",
     "numAchievements": 8,
     "numLeaderboards": 1,
     "points": 76,
@@ -5600,7 +6354,8 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "b2fca7b63bfadb89d0db3265d16fb7d8"
+      "b2fca7b63bfadb89d0db3265d16fb7d8",
+      "42292287930bb213da54723b929b276b"
     ]
   },
   {
@@ -5919,6 +6674,21 @@
     ]
   },
   {
+    "title": "~Unlicensed~ Pirates of the Caribbean: On Stranger Tides",
+    "id": 36755,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "49898d849c9bafe842db8550cf3078eb"
+    ]
+  },
+  {
     "title": "~Unlicensed~ Plants vs. Zombies",
     "id": 8781,
     "consoleId": 1,
@@ -5964,7 +6734,7 @@
     ]
   },
   {
-    "title": "~Unlicensed~ Pokemon Crazy Drummer",
+    "title": "~Unlicensed~ Pokémon Crazy Drummer",
     "id": 24618,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
@@ -6104,10 +6874,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/116081.png",
-    "numAchievements": 0,
+    "numAchievements": 15,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2020-12-01 01:16:14",
+    "points": 100,
+    "dateModified": "2025-09-21 21:07:58",
     "forumTopicId": 31016,
     "hashes": [
       "601dbecadde306ab238443193c76c918",
@@ -6328,6 +7098,37 @@
     ]
   },
   {
+    "title": "~Unlicensed~ Teenage Mutant Ninja Turtles: The Legend Returns",
+    "id": 37193,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/121998.png",
+    "numAchievements": 8,
+    "numLeaderboards": 9,
+    "points": 88,
+    "dateModified": "2025-12-28 16:23:39",
+    "forumTopicId": 33404,
+    "hashes": [
+      "0d7d46d63a371cae49294e48bbc7127f"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Tekken Special",
+    "id": 36302,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bd9b381bebfdff7ca86b8d01880f806d",
+      "9bf2174a30c137e589ce8e93c7392cef"
+    ]
+  },
+  {
     "title": "~Unlicensed~ Tenchi o Kurau III: Sangoku Gaiden",
     "id": 13380,
     "consoleId": 1,
@@ -6340,6 +7141,21 @@
     "forumTopicId": null,
     "hashes": [
       "aa196bb3731b1fdbb065c42a30591543"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Test Drive II: The Duel",
+    "id": 37199,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "6995faa82bbb2ff6a985a1505d1092d8"
     ]
   },
   {
@@ -6527,7 +7343,7 @@
     "id": 7544,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/078317.png",
+    "imageIcon": "/Images/121448.png",
     "numAchievements": 25,
     "numLeaderboards": 0,
     "points": 130,
@@ -6580,6 +7396,21 @@
     "forumTopicId": 29673,
     "hashes": [
       "7d20d74e81524773409f4f89e944cfaa"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ World of Tanks",
+    "id": 36756,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "340744f4f5bf0a6b27b6d58c08848e28"
     ]
   },
   {
@@ -6935,6 +7766,58 @@
     ]
   },
   {
+    "title": "~Z~ No Hash 16527",
+    "id": 16527,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/121332.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 11226,
+    "hashes": []
+  },
+  {
+    "title": "~Z~ No Hash 24619",
+    "id": 24619,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
+    "title": "~Z~ No Hash 24621",
+    "id": 24621,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
+    "title": "~Z~ No Hash 24622",
+    "id": 24622,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
     "title": "~Z~ Sonic the Hedgehog 3: Paramount Promo Cart",
     "id": 34328,
     "consoleId": 1,
@@ -7046,13 +7929,12 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/099521.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 39,
+    "numLeaderboards": 4,
+    "points": 358,
+    "dateModified": "2025-12-04 18:32:57",
     "forumTopicId": 27250,
     "hashes": [
-      "692c8ae1698c12ae160b466a796653e2",
       "9f54481697efc9e6b96fcd054883ae70"
     ]
   },
@@ -7095,7 +7977,7 @@
     "numAchievements": 44,
     "numLeaderboards": 33,
     "points": 595,
-    "dateModified": "2024-12-07 13:30:42",
+    "dateModified": "2025-11-16 13:07:53",
     "forumTopicId": 1936,
     "hashes": [
       "8bd4a97783cda077c342173df0a9b51e",
@@ -7118,28 +8000,15 @@
     ]
   },
   {
-    "title": "Adventure in the Park",
-    "id": 24615,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
     "title": "Aero the Acro-Bat",
     "id": 4102,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/039587.png",
-    "numAchievements": 86,
+    "numAchievements": 85,
     "numLeaderboards": 2,
-    "points": 800,
-    "dateModified": "2024-10-19 09:59:10",
+    "points": 795,
+    "dateModified": "2025-10-24 21:46:08",
     "forumTopicId": 11781,
     "hashes": [
       "50f04f5c4c10158b757856f3d6845858"
@@ -7197,7 +8066,7 @@
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/038433.png",
     "numAchievements": 25,
-    "numLeaderboards": 0,
+    "numLeaderboards": 3,
     "points": 250,
     "dateModified": "2020-06-06 10:11:41",
     "forumTopicId": 145,
@@ -7207,7 +8076,7 @@
     ]
   },
   {
-    "title": "Air Buster | Aero Blasters",
+    "title": "Air Buster",
     "id": 44,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
@@ -7215,7 +8084,7 @@
     "numAchievements": 17,
     "numLeaderboards": 1,
     "points": 200,
-    "dateModified": "2023-08-14 02:36:09",
+    "dateModified": "2026-01-01 02:14:39",
     "forumTopicId": 9873,
     "hashes": [
       "972f4f683356e33b1a4a832f41a34b87"
@@ -7241,14 +8110,15 @@
     "id": 24356,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/119508.png",
+    "numAchievements": 6,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "points": 22,
+    "dateModified": "2025-10-21 08:27:05",
+    "forumTopicId": 32920,
     "hashes": [
-      "d562d0640d8729a95f5b1d32d53e84e7"
+      "d562d0640d8729a95f5b1d32d53e84e7",
+      "e413d9bbad2a949de8fe26a4b1d32592"
     ]
   },
   {
@@ -7271,7 +8141,7 @@
     "id": 2,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/061384.png",
+    "imageIcon": "/Images/123777.png",
     "numAchievements": 21,
     "numLeaderboards": 3,
     "points": 295,
@@ -7651,7 +8521,7 @@
     "numAchievements": 33,
     "numLeaderboards": 2,
     "points": 333,
-    "dateModified": "2024-01-26 18:46:36",
+    "dateModified": "2025-12-10 00:58:44",
     "forumTopicId": 2435,
     "hashes": [
       "6ddf32102f20c6f91b0d97bb5da5caad",
@@ -7667,7 +8537,7 @@
     "numAchievements": 27,
     "numLeaderboards": 0,
     "points": 330,
-    "dateModified": "2022-11-25 00:00:53",
+    "dateModified": "2025-11-24 06:05:00",
     "forumTopicId": 7500,
     "hashes": [
       "723db55d679ef169b8210764a5f76c4d"
@@ -7802,7 +8672,7 @@
     "numAchievements": 40,
     "numLeaderboards": 6,
     "points": 375,
-    "dateModified": "2025-05-04 00:29:14",
+    "dateModified": "2025-10-25 14:59:58",
     "forumTopicId": 30472,
     "hashes": [
       "339a8c9a96fcdedb2922b04bcc34f0d2"
@@ -7813,12 +8683,12 @@
     "id": 7039,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/078521.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118163.png",
+    "numAchievements": 12,
+    "numLeaderboards": 1,
+    "points": 100,
+    "dateModified": "2025-09-21 03:35:31",
+    "forumTopicId": 32361,
     "hashes": [
       "57705b055973733e8b9c25373a80f28c"
     ]
@@ -7968,7 +8838,7 @@
     "numAchievements": 17,
     "numLeaderboards": 5,
     "points": 245,
-    "dateModified": "2023-06-26 13:08:28",
+    "dateModified": "2025-10-09 19:58:51",
     "forumTopicId": 338,
     "hashes": [
       "5ae78355da64cf17755175e9cfe48405",
@@ -7982,10 +8852,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/107692.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 28,
+    "numLeaderboards": 2,
+    "points": 226,
+    "dateModified": "2026-01-06 03:19:06",
     "forumTopicId": 8335,
     "hashes": [
       "70ca38f7dc03560fa770a298ecef438a"
@@ -7996,7 +8866,7 @@
     "id": 3108,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/049004.png",
+    "imageIcon": "/Images/119819.png",
     "numAchievements": 35,
     "numLeaderboards": 6,
     "points": 337,
@@ -8240,7 +9110,7 @@
     ]
   },
   {
-    "title": "Bio-Hazard Battle | Crying: Aseimei Sensou",
+    "title": "Bio-Hazard Battle",
     "id": 4169,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
@@ -8336,7 +9206,7 @@
     "id": 2396,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/087051.png",
+    "imageIcon": "/Images/117389.png",
     "numAchievements": 23,
     "numLeaderboards": 0,
     "points": 260,
@@ -8454,19 +9324,6 @@
     ]
   },
   {
-    "title": "Break the Fireline",
-    "id": 24617,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
     "title": "Brett Hull Hockey 95",
     "id": 4133,
     "consoleId": 1,
@@ -8546,7 +9403,7 @@
     "id": 216,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/034934.png",
+    "imageIcon": "/Images/117700.png",
     "numAchievements": 60,
     "numLeaderboards": 30,
     "points": 370,
@@ -8561,7 +9418,7 @@
     "id": 51,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/034935.png",
+    "imageIcon": "/Images/117696.png",
     "numAchievements": 20,
     "numLeaderboards": 0,
     "points": 175,
@@ -8606,11 +9463,11 @@
     "id": 4180,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/114872.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "imageIcon": "/Images/121831.png",
+    "numAchievements": 30,
+    "numLeaderboards": 14,
+    "points": 255,
+    "dateModified": "2025-12-22 12:24:38",
     "forumTopicId": 14891,
     "hashes": [
       "3d6dc43a998301c6a9ed2fc1a7e8db40"
@@ -8707,6 +9564,21 @@
     ]
   },
   {
+    "title": "Caliber .50",
+    "id": 34301,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/119108.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "71a8c01301fe029f01f2f0b17f94d414"
+    ]
+  },
+  {
     "title": "California Games",
     "id": 47,
     "consoleId": 1,
@@ -8747,7 +9619,7 @@
     "numAchievements": 61,
     "numLeaderboards": 0,
     "points": 842,
-    "dateModified": "2024-06-20 15:17:00",
+    "dateModified": "2025-11-18 17:22:33",
     "forumTopicId": 15295,
     "hashes": [
       "80c93623c29ab70da823860a5f46e70c"
@@ -8792,7 +9664,7 @@
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/048628.png",
     "numAchievements": 20,
-    "numLeaderboards": 0,
+    "numLeaderboards": 10,
     "points": 205,
     "dateModified": "2023-07-04 13:59:01",
     "forumTopicId": 373,
@@ -8812,7 +9684,7 @@
     "numAchievements": 55,
     "numLeaderboards": 1,
     "points": 813,
-    "dateModified": "2025-04-09 13:50:54",
+    "dateModified": "2025-12-03 17:35:44",
     "forumTopicId": 391,
     "hashes": [
       "0f04fc1b5bf8c9a887abcf14ce96b0cd"
@@ -9066,7 +9938,7 @@
     "id": 2380,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119626.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -9217,7 +10089,7 @@
     "id": 170,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/055030.png",
+    "imageIcon": "/Images/121630.png",
     "numAchievements": 45,
     "numLeaderboards": 0,
     "points": 451,
@@ -9304,10 +10176,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/115914.png",
-    "numAchievements": 0,
+    "numAchievements": 67,
     "numLeaderboards": 2,
-    "points": 0,
-    "dateModified": "2025-08-07 17:06:42",
+    "points": 496,
+    "dateModified": "2025-11-19 04:56:39",
     "forumTopicId": 29654,
     "hashes": [
       "c35216ef28caf9615fdb8073cbe06225"
@@ -9344,19 +10216,6 @@
     ]
   },
   {
-    "title": "Cross The Road",
-    "id": 24619,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
     "title": "CrossFire",
     "id": 615,
     "consoleId": 1,
@@ -9387,7 +10246,7 @@
     ]
   },
   {
-    "title": "Crusader of Centy | Soleil",
+    "title": "Crusader of Centy",
     "id": 1438,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
@@ -9429,12 +10288,12 @@
     "id": 5356,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/119990.png",
+    "numAchievements": 30,
+    "numLeaderboards": 3,
+    "points": 212,
+    "dateModified": "2025-11-10 01:52:12",
+    "forumTopicId": 33044,
     "hashes": [
       "513c1a3f2ddd5b8bf705215f820ada72"
     ]
@@ -9459,12 +10318,12 @@
     "id": 8598,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/120070.png",
+    "numAchievements": 16,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "points": 140,
+    "dateModified": "2025-11-25 03:56:55",
+    "forumTopicId": 32902,
     "hashes": [
       "f1e6ec5e3bf9c04670d10fbc89fb549c"
     ]
@@ -9489,12 +10348,12 @@
     "id": 6153,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/101946.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118167.png",
+    "numAchievements": 28,
+    "numLeaderboards": 4,
+    "points": 280,
+    "dateModified": "2025-12-16 20:42:26",
+    "forumTopicId": 32268,
     "hashes": [
       "e19be4bcb50e4908c5b9af3bd69caa39"
     ]
@@ -9519,12 +10378,12 @@
     "id": 4221,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/071453.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/121691.png",
+    "numAchievements": 23,
+    "numLeaderboards": 39,
+    "points": 272,
+    "dateModified": "2025-12-22 05:11:55",
+    "forumTopicId": 32354,
     "hashes": [
       "ad08cffbc0c443086dff8ab4414f18c3"
     ]
@@ -9536,9 +10395,9 @@
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/006212.png",
     "numAchievements": 18,
-    "numLeaderboards": 0,
+    "numLeaderboards": 3,
     "points": 188,
-    "dateModified": "2020-10-29 23:22:12",
+    "dateModified": "2025-11-15 20:46:56",
     "forumTopicId": 2627,
     "hashes": [
       "0f1b62e1b8b651409cf3dbae9a6a4c81",
@@ -9568,10 +10427,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/109217.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 38,
+    "numLeaderboards": 2,
+    "points": 511,
+    "dateModified": "2025-10-19 04:00:42",
     "forumTopicId": 30097,
     "hashes": [
       "05dac074b9f194d74c44848eb15ad53f"
@@ -9797,23 +10656,23 @@
     "numAchievements": 39,
     "numLeaderboards": 1,
     "points": 575,
-    "dateModified": "2023-08-14 02:44:52",
+    "dateModified": "2025-11-15 02:03:56",
     "forumTopicId": 9941,
     "hashes": [
       "f93c0545385edce6ccef288ac767c670"
     ]
   },
   {
-    "title": "Devilish: The Next Possession | Bad Omen",
+    "title": "Devilish: The Next Possession",
     "id": 4229,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/048038.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 32,
+    "numLeaderboards": 19,
+    "points": 330,
+    "dateModified": "2025-11-09 20:30:22",
+    "forumTopicId": 32956,
     "hashes": [
       "6fa7cd092a175c9040b318d289ffff93"
     ]
@@ -9879,21 +10738,6 @@
     ]
   },
   {
-    "title": "Dinosaurs for Hire",
-    "id": 4231,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/079273.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 31605,
-    "hashes": [
-      "e4c6cbf1a2ea36404fb69667cd080b4f"
-    ]
-  },
-  {
     "title": "DJ Boy",
     "id": 338,
     "consoleId": 1,
@@ -9917,7 +10761,7 @@
     "numAchievements": 32,
     "numLeaderboards": 0,
     "points": 410,
-    "dateModified": "2024-12-10 04:08:40",
+    "dateModified": "2025-11-20 22:23:12",
     "forumTopicId": 3048,
     "hashes": [
       "989ae9c548dbf6ce7243fc27619b67cb"
@@ -10193,7 +11037,7 @@
     "numAchievements": 42,
     "numLeaderboards": 0,
     "points": 325,
-    "dateModified": "2024-07-15 11:32:00",
+    "dateModified": "2026-01-05 14:08:11",
     "forumTopicId": 20034,
     "hashes": [
       "32013befa4e52002121065b8d6f52d7e"
@@ -10251,7 +11095,7 @@
     "id": 221,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/060585.png",
+    "imageIcon": "/Images/117781.png",
     "numAchievements": 39,
     "numLeaderboards": 20,
     "points": 620,
@@ -10313,7 +11157,7 @@
     "id": 2182,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/001555.png",
+    "imageIcon": "/Images/118354.png",
     "numAchievements": 55,
     "numLeaderboards": 50,
     "points": 775,
@@ -10425,10 +11269,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/070094.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 32,
+    "numLeaderboards": 10,
+    "points": 426,
+    "dateModified": "2025-11-30 18:52:05",
     "forumTopicId": 8452,
     "hashes": [
       "06aa841b8773de52cd7ccc9d4f907468"
@@ -10518,7 +11362,7 @@
     "numAchievements": 42,
     "numLeaderboards": 0,
     "points": 650,
-    "dateModified": "2025-05-22 04:02:55",
+    "dateModified": "2025-11-26 14:22:13",
     "forumTopicId": 97,
     "hashes": [
       "264d8c7c7b1f476fe6ea98411e3cde35",
@@ -10530,11 +11374,11 @@
     "id": 188,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/110041.png",
+    "imageIcon": "/Images/121628.png",
     "numAchievements": 43,
     "numLeaderboards": 2,
-    "points": 259,
-    "dateModified": "2025-04-29 23:39:26",
+    "points": 279,
+    "dateModified": "2025-09-04 06:52:19",
     "forumTopicId": 602,
     "hashes": [
       "bde8b2396241aa27463ca875e604b8d3"
@@ -10688,6 +11532,21 @@
     "forumTopicId": null,
     "hashes": [
       "aea1ff0445fa53b661ee6a5712ac72fe"
+    ]
+  },
+  {
+    "title": "F1: World Championship Edition",
+    "id": 24628,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b274adf5abc70d75f918331bf682cdc0"
     ]
   },
   {
@@ -10859,6 +11718,51 @@
     ]
   },
   {
+    "title": "FIFA 95",
+    "id": 181,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/018892.png",
+    "numAchievements": 32,
+    "numLeaderboards": 14,
+    "points": 404,
+    "dateModified": "2026-01-05 23:33:20",
+    "forumTopicId": 7392,
+    "hashes": [
+      "26ac4f884df64349dcf46344db85812b"
+    ]
+  },
+  {
+    "title": "FIFA 96",
+    "id": 2107,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "545b07c1c599f49ea93a4b7b2c7c3782"
+    ]
+  },
+  {
+    "title": "FIFA 97",
+    "id": 4399,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/053747.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f4a8436b5218a201a08401bedbfcd065"
+    ]
+  },
+  {
     "title": "FIFA 98: Road to World Cup",
     "id": 9633,
     "consoleId": 1,
@@ -10878,59 +11782,14 @@
     "id": 298,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/079219.png",
+    "imageIcon": "/Images/122989.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 1,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-29 22:01:52",
+    "forumTopicId": 33809,
     "hashes": [
       "8a53e4db0da7ee312c1e89d449eb7b1e"
-    ]
-  },
-  {
-    "title": "FIFA Soccer 95",
-    "id": 181,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/018892.png",
-    "numAchievements": 32,
-    "numLeaderboards": 14,
-    "points": 404,
-    "dateModified": "2024-10-12 03:31:50",
-    "forumTopicId": 7392,
-    "hashes": [
-      "26ac4f884df64349dcf46344db85812b"
-    ]
-  },
-  {
-    "title": "FIFA Soccer 96",
-    "id": 2107,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "545b07c1c599f49ea93a4b7b2c7c3782"
-    ]
-  },
-  {
-    "title": "FIFA Soccer 97",
-    "id": 4399,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/053747.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "f4a8436b5218a201a08401bedbfcd065"
     ]
   },
   {
@@ -10984,11 +11843,11 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/076537.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 27,
+    "numLeaderboards": 1,
+    "points": 300,
+    "dateModified": "2025-11-25 10:25:04",
+    "forumTopicId": 33172,
     "hashes": [
       "93bf1aeebf5ab3c1a6ff204208d4518b"
     ]
@@ -11001,38 +11860,12 @@
     "imageIcon": "/Images/099275.png",
     "numAchievements": 28,
     "numLeaderboards": 3,
-    "points": 335,
+    "points": 333,
     "dateModified": "2024-07-09 20:20:09",
     "forumTopicId": 3341,
     "hashes": [
       "c00981929f3eca882d123809e81185df"
     ]
-  },
-  {
-    "title": "Fish Story",
-    "id": 24621,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
-    "title": "Fish Tank Live",
-    "id": 24622,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
   },
   {
     "title": "Flashback: The Quest for Identity",
@@ -11043,7 +11876,7 @@
     "numAchievements": 42,
     "numLeaderboards": 0,
     "points": 350,
-    "dateModified": "2022-12-27 02:54:08",
+    "dateModified": "2025-11-25 07:14:33",
     "forumTopicId": 558,
     "hashes": [
       "385e4e66174a76fd4a05639f24b54562",
@@ -11080,6 +11913,21 @@
     "hashes": [
       "c4b93e3420db39c312c2b4ba2b2a493f",
       "c526426ebe919d4cd8fbb86157c0293e"
+    ]
+  },
+  {
+    "title": "Formula One",
+    "id": 24625,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7247829ab401477e4141e5f5b3077f0c"
     ]
   },
   {
@@ -11237,6 +12085,21 @@
     ]
   },
   {
+    "title": "Garfield: Caught in the Act - The Lost Levels",
+    "id": 37602,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/122570.png",
+    "numAchievements": 12,
+    "numLeaderboards": 1,
+    "points": 105,
+    "dateModified": "2026-01-02 14:25:54",
+    "forumTopicId": 33700,
+    "hashes": [
+      "b0482af144d81c5707d4748e2fe51cfd"
+    ]
+  },
+  {
     "title": "Gargoyles",
     "id": 2364,
     "consoleId": 1,
@@ -11276,7 +12139,7 @@
     "numAchievements": 63,
     "numLeaderboards": 16,
     "points": 500,
-    "dateModified": "2025-03-19 18:31:02",
+    "dateModified": "2025-09-24 16:22:45",
     "forumTopicId": 26633,
     "hashes": [
       "952ad745fb759b48bfa73a04ec37bb71"
@@ -11351,7 +12214,7 @@
     "numAchievements": 58,
     "numLeaderboards": 0,
     "points": 850,
-    "dateModified": "2025-08-13 07:15:22",
+    "dateModified": "2025-11-14 00:10:10",
     "forumTopicId": 2088,
     "hashes": [
       "270637399377cfe1b926ec5f664471f0",
@@ -11363,7 +12226,7 @@
     "id": 212,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/072975.png",
+    "imageIcon": "/Images/119071.png",
     "numAchievements": 23,
     "numLeaderboards": 2,
     "points": 310,
@@ -11432,7 +12295,7 @@
     "id": 88,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/049191.png",
+    "imageIcon": "/Images/123486.png",
     "numAchievements": 31,
     "numLeaderboards": 4,
     "points": 477,
@@ -11464,14 +12327,15 @@
     "id": 9097,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/119791.png",
+    "numAchievements": 24,
+    "numLeaderboards": 9,
+    "points": 200,
+    "dateModified": "2025-11-23 19:32:20",
+    "forumTopicId": 32979,
     "hashes": [
-      "18ff626a183c188f789d71f17dd739d5"
+      "18ff626a183c188f789d71f17dd739d5",
+      "bfa46f13c36688373e504584a3a8d09e"
     ]
   },
   {
@@ -11601,7 +12465,7 @@
     "id": 2185,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/025777.png",
+    "imageIcon": "/Images/118986.png",
     "numAchievements": 13,
     "numLeaderboards": 3,
     "points": 77,
@@ -11609,6 +12473,21 @@
     "forumTopicId": 7089,
     "hashes": [
       "2c1cd69c1c3ff24d5f4cb617fc0d5309"
+    ]
+  },
+  {
+    "title": "HardBall '94",
+    "id": 9090,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5cc105549176d6d56e7e8899dc27647a"
     ]
   },
   {
@@ -11624,21 +12503,6 @@
     "forumTopicId": null,
     "hashes": [
       "e5b12f2b4e4ff18a838bfec88ec0a601"
-    ]
-  },
-  {
-    "title": "HardBall 94",
-    "id": 9090,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "5cc105549176d6d56e7e8899dc27647a"
     ]
   },
   {
@@ -11669,6 +12533,21 @@
     "forumTopicId": null,
     "hashes": [
       "fb303d5d08b2ea748fe7aced9c0100fd"
+    ]
+  },
+  {
+    "title": "Heavy Nova",
+    "id": 13424,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "74bb344107592feae3372c27e1dc1841"
     ]
   },
   {
@@ -11764,16 +12643,16 @@
     ]
   },
   {
-    "title": "Home Alone 2",
+    "title": "Home Alone 2: Lost in New York",
     "id": 4294,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/079098.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/117398.png",
+    "numAchievements": 34,
+    "numLeaderboards": 1,
+    "points": 208,
+    "dateModified": "2026-01-15 18:42:32",
+    "forumTopicId": 32134,
     "hashes": [
       "9ccafedaed5426819fefc3ae17a04fd2"
     ]
@@ -11798,7 +12677,7 @@
     "id": 4295,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/044663.png",
+    "imageIcon": "/Images/122050.png",
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 154,
@@ -11923,7 +12802,7 @@
     "numAchievements": 77,
     "numLeaderboards": 24,
     "points": 580,
-    "dateModified": "2025-02-14 21:57:22",
+    "dateModified": "2025-12-21 05:49:06",
     "forumTopicId": 12798,
     "hashes": [
       "494d00e7c0a3ee5448e6b82fa091bac8"
@@ -11998,7 +12877,7 @@
     "numAchievements": 15,
     "numLeaderboards": 0,
     "points": 160,
-    "dateModified": "2022-03-14 03:55:04",
+    "dateModified": "2025-11-06 05:46:17",
     "forumTopicId": 15642,
     "hashes": [
       "d7937eee5a0fa4fabb035a2862bcd78d"
@@ -12155,11 +13034,11 @@
     ]
   },
   {
-    "title": "Jeopardy!: Sports Edition",
+    "title": "Jeopardy! Sports Edition",
     "id": 5918,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120135.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -12322,6 +13201,23 @@
     ]
   },
   {
+    "title": "Jordan vs. Bird",
+    "id": 30399,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ccd6d37edf46f4cbcd13f5677fa8e7a0",
+      "0b37c95079a0c8e64230df35eb3888c2",
+      "bb9bcdfb8f8665b69b60200108261d37"
+    ]
+  },
+  {
     "title": "Judge Dredd",
     "id": 4315,
     "consoleId": 1,
@@ -12345,7 +13241,7 @@
     "numAchievements": 60,
     "numLeaderboards": 61,
     "points": 430,
-    "dateModified": "2025-07-17 07:16:31",
+    "dateModified": "2025-11-07 23:21:25",
     "forumTopicId": 14309,
     "hashes": [
       "6d8a871ce4b1e88aecd4d0d50a137e99"
@@ -12360,7 +13256,7 @@
     "numAchievements": 93,
     "numLeaderboards": 0,
     "points": 940,
-    "dateModified": "2024-11-01 19:44:47",
+    "dateModified": "2025-11-26 03:49:35",
     "forumTopicId": 396,
     "hashes": [
       "3164c16bab8088a7991857750edaecb6",
@@ -12410,6 +13306,21 @@
     "forumTopicId": null,
     "hashes": [
       "31ca6dabd0443625f0c7ce3c1a6229c6"
+    ]
+  },
+  {
+    "title": "Kawasaki Superbike Challenge",
+    "id": 36880,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "159dd6bef1cf7df913fd4ac98138d9e7"
     ]
   },
   {
@@ -12567,7 +13478,7 @@
     "id": 6312,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/112577.png",
+    "imageIcon": "/Images/121673.png",
     "numAchievements": 26,
     "numLeaderboards": 23,
     "points": 250,
@@ -12923,7 +13834,7 @@
     "numAchievements": 30,
     "numLeaderboards": 0,
     "points": 485,
-    "dateModified": "2020-04-06 14:58:29",
+    "dateModified": "2025-11-23 19:45:38",
     "forumTopicId": 3322,
     "hashes": [
       "8e147874de78d95634a807f917b270c5",
@@ -12965,7 +13876,7 @@
     "id": 6090,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120393.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -13011,11 +13922,11 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/068517.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 38,
+    "numLeaderboards": 4,
+    "points": 260,
+    "dateModified": "2025-11-07 21:38:11",
+    "forumTopicId": 32608,
     "hashes": [
       "41b8ba3569e3f4f98155dea64318d223",
       "c2b120a54f1309cd64090da815b13b0c"
@@ -13211,7 +14122,7 @@
     "numAchievements": 160,
     "numLeaderboards": 0,
     "points": 1020,
-    "dateModified": "2025-08-16 19:41:21",
+    "dateModified": "2025-10-23 04:26:41",
     "forumTopicId": 8058,
     "hashes": [
       "6fd2ba6b00c102debe3dcbe6257656c1"
@@ -13263,19 +14174,6 @@
     ]
   },
   {
-    "title": "Maze 2010",
-    "id": 24625,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
     "title": "Mazin Saga: Mutant Fighter",
     "id": 2413,
     "consoleId": 1,
@@ -13300,7 +14198,7 @@
     "numAchievements": 27,
     "numLeaderboards": 0,
     "points": 280,
-    "dateModified": "2025-01-23 11:39:54",
+    "dateModified": "2025-10-25 14:15:54",
     "forumTopicId": 2427,
     "hashes": [
       "2346c99595a4f341e39e6ec75fe19908"
@@ -13342,16 +14240,17 @@
     "id": 116,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/073567.png",
-    "numAchievements": 73,
+    "imageIcon": "/Images/120056.png",
+    "numAchievements": 214,
     "numLeaderboards": 0,
-    "points": 652,
-    "dateModified": "2025-03-04 23:50:22",
+    "points": 1865,
+    "dateModified": "2025-11-27 20:32:47",
     "forumTopicId": 1135,
     "hashes": [
       "71134a51f1a903c9e7e85e98133a8c68",
       "8e860e4f7c7ee5febad9134a56766112",
-      "bb891aec8a7dfe6164033f57af2025bd"
+      "bb891aec8a7dfe6164033f57af2025bd",
+      "62ffd9a4aa8a88b1c2711ddb053c9009"
     ]
   },
   {
@@ -13504,10 +14403,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/099526.png",
-    "numAchievements": 0,
+    "numAchievements": 17,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "points": 80,
+    "dateModified": "2025-09-16 20:15:26",
     "forumTopicId": 1243,
     "hashes": [
       "34b498ba6ea5caf365cbaf6dd8c7be65"
@@ -13529,11 +14428,11 @@
     ]
   },
   {
-    "title": "Micro Machines 2 - Turbo Tournament",
+    "title": "Micro Machines 2: Turbo Tournament",
     "id": 4144,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/121966.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -13626,10 +14525,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/043830.png",
-    "numAchievements": 54,
+    "numAchievements": 53,
     "numLeaderboards": 0,
-    "points": 230,
-    "dateModified": "2020-12-06 01:44:37",
+    "points": 226,
+    "dateModified": "2025-10-04 11:56:20",
     "forumTopicId": 1129,
     "hashes": [
       "cdcfb24231942f535a18d2097ab5b68e"
@@ -13689,7 +14588,7 @@
     "numAchievements": 50,
     "numLeaderboards": 2,
     "points": 118,
-    "dateModified": "2025-07-09 00:39:53",
+    "dateModified": "2025-11-15 23:38:55",
     "forumTopicId": 7987,
     "hashes": [
       "40794bbfc3f9a73df5255fe6d10b5107"
@@ -13701,10 +14600,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/020058.png",
-    "numAchievements": 85,
+    "numAchievements": 84,
     "numLeaderboards": 0,
-    "points": 1050,
-    "dateModified": "2024-07-15 18:13:06",
+    "points": 1049,
+    "dateModified": "2025-10-02 23:59:58",
     "forumTopicId": 1703,
     "hashes": [
       "2640c0b879dd52db3e328c14c36095f0"
@@ -13716,10 +14615,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/054555.png",
-    "numAchievements": 41,
+    "numAchievements": 39,
     "numLeaderboards": 5,
-    "points": 425,
-    "dateModified": "2021-09-30 15:10:29",
+    "points": 390,
+    "dateModified": "2025-11-17 22:44:48",
     "forumTopicId": 172,
     "hashes": [
       "15e015b03111c4c5bd18fd037c9873d8",
@@ -13810,10 +14709,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/111780.png",
-    "numAchievements": 0,
+    "numAchievements": 44,
     "numLeaderboards": 14,
-    "points": 0,
-    "dateModified": "2025-05-24 03:47:46",
+    "points": 470,
+    "dateModified": "2025-12-21 17:31:21",
     "forumTopicId": 3722,
     "hashes": [
       "cfe7f3023b21bcf697bcf5e1be461ee7"
@@ -13858,7 +14757,7 @@
     "numAchievements": 40,
     "numLeaderboards": 0,
     "points": 361,
-    "dateModified": "2022-11-24 05:30:48",
+    "dateModified": "2025-12-08 19:23:08",
     "forumTopicId": 2827,
     "hashes": [
       "6a685a81ae70e8724c376779e3a812e4"
@@ -13887,27 +14786,12 @@
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/100024.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 3,
     "points": 0,
-    "dateModified": "2025-04-02 02:33:40",
+    "dateModified": "2025-12-09 04:33:27",
     "forumTopicId": 27329,
     "hashes": [
       "733ba7d7e9f0c81cd1cabcdcbd087a9e"
-    ]
-  },
-  {
-    "title": "Mystical Fighter [Subset - Multi]",
-    "id": 30399,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "66c55a10ce4dff13027aca61569a69e2"
     ]
   },
   {
@@ -14137,6 +15021,21 @@
     ]
   },
   {
+    "title": "Newman/Haas IndyCar featuring Nigel Mansell",
+    "id": 24627,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "659f0fa8470088c56cd19ccb1946e31d"
+    ]
+  },
+  {
     "title": "NFL 95",
     "id": 679,
     "consoleId": 1,
@@ -14175,7 +15074,7 @@
     "numAchievements": 60,
     "numLeaderboards": 0,
     "points": 415,
-    "dateModified": "2025-01-03 18:29:01",
+    "dateModified": "2025-11-08 19:45:58",
     "forumTopicId": 16352,
     "hashes": [
       "8147342e86d065fc240f09c803eb81b9",
@@ -14316,6 +15215,21 @@
     "hashes": [
       "b6fb2ce20122b319631af6b697e64082",
       "cb3a005adab1cb99f24a7f8b8e420328"
+    ]
+  },
+  {
+    "title": "Nigel Mansell's World Championship Racing",
+    "id": 24626,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "53bae19b3db06e8d1a4de105fe88cbf5"
     ]
   },
   {
@@ -14867,10 +15781,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/076388.png",
-    "numAchievements": 70,
+    "numAchievements": 69,
     "numLeaderboards": 1,
-    "points": 675,
-    "dateModified": "2025-02-27 11:36:31",
+    "points": 620,
+    "dateModified": "2025-11-25 22:25:59",
     "forumTopicId": 2906,
     "hashes": [
       "0fa38b12cf0ab0163d865600ac731a9a",
@@ -14901,10 +15815,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/113464.png",
-    "numAchievements": 0,
+    "numAchievements": 56,
     "numLeaderboards": 8,
-    "points": 0,
-    "dateModified": "2025-06-23 20:06:21",
+    "points": 249,
+    "dateModified": "2025-10-15 03:12:21",
     "forumTopicId": 31178,
     "hashes": [
       "10195dfcde401acafd406f2640e384de",
@@ -14949,7 +15863,7 @@
     "numAchievements": 93,
     "numLeaderboards": 0,
     "points": 812,
-    "dateModified": "2025-02-18 04:29:26",
+    "dateModified": "2026-01-24 06:11:49",
     "forumTopicId": 342,
     "hashes": [
       "19731c22e7f7b26e47f5d709afdf5059",
@@ -14978,7 +15892,7 @@
     "numAchievements": 28,
     "numLeaderboards": 0,
     "points": 200,
-    "dateModified": "2024-12-08 07:08:51",
+    "dateModified": "2025-11-29 13:46:40",
     "forumTopicId": 2149,
     "hashes": [
       "f2c111cae725e5b31775d04dd4c7b546"
@@ -14991,7 +15905,7 @@
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/004945.png",
     "numAchievements": 50,
-    "numLeaderboards": 0,
+    "numLeaderboards": 3,
     "points": 500,
     "dateModified": "2022-11-22 10:07:22",
     "forumTopicId": 2483,
@@ -15075,19 +15989,6 @@
       "6a80d2d34cdfafd03703b0fe76d10399",
       "afb791f94ddec643f4d351530fdf36f0"
     ]
-  },
-  {
-    "title": "Plumbing Contest",
-    "id": 24626,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
   },
   {
     "title": "Pocahontas",
@@ -15401,7 +16302,7 @@
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/111699.png",
     "numAchievements": 37,
-    "numLeaderboards": 2,
+    "numLeaderboards": 6,
     "points": 326,
     "dateModified": "2025-06-25 21:39:54",
     "forumTopicId": 17436,
@@ -15781,7 +16682,7 @@
     "id": 3612,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122167.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -15827,13 +16728,12 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/053618.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 103,
+    "numLeaderboards": 1,
+    "points": 630,
+    "dateModified": "2025-09-30 02:12:47",
     "forumTopicId": 7170,
     "hashes": [
-      "30c18fdbe2183f64702ae9f1a45d63f9",
       "b78430b26a276939d64f73c9b9aea8e6"
     ]
   },
@@ -15891,7 +16791,7 @@
     "numAchievements": 29,
     "numLeaderboards": 0,
     "points": 425,
-    "dateModified": "2022-05-09 23:29:36",
+    "dateModified": "2025-12-04 21:36:15",
     "forumTopicId": 154,
     "hashes": [
       "376f344f8ef5a4f8365867c9e94efb3e",
@@ -15987,7 +16887,7 @@
     "numAchievements": 32,
     "numLeaderboards": 0,
     "points": 305,
-    "dateModified": "2021-02-24 03:33:12",
+    "dateModified": "2025-10-25 16:37:14",
     "forumTopicId": 3703,
     "hashes": [
       "06f90c41aa7cdae56635fdd11da6c0c7",
@@ -16101,7 +17001,7 @@
     "numAchievements": 26,
     "numLeaderboards": 0,
     "points": 400,
-    "dateModified": "2020-02-05 20:45:24",
+    "dateModified": "2025-09-13 20:04:33",
     "forumTopicId": 1771,
     "hashes": [
       "46f0c65ea34800bd53c14712ad57eeff",
@@ -16233,22 +17133,22 @@
     ]
   },
   {
-    "title": "Saturday Night Slammasters",
+    "title": "Saturday Night Slam Masters",
     "id": 4145,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/085839.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 2,
     "points": 0,
-    "dateModified": "2025-08-19 09:29:59",
+    "dateModified": "2026-01-28 23:52:03",
     "forumTopicId": 1649,
     "hashes": [
       "6531e481e57e9243f492718a88a2419b"
     ]
   },
   {
-    "title": "Scooby-Doo: Mystery",
+    "title": "Scooby-Doo Mystery",
     "id": 118,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
@@ -16423,7 +17323,7 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": "2025-07-21 14:52:49",
+    "dateModified": "2025-11-16 17:05:16",
     "forumTopicId": 10363,
     "hashes": [
       "596c1dda590f4b6611132206c9184970"
@@ -16449,14 +17349,15 @@
     "id": 4748,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/017657.png",
+    "imageIcon": "/Images/120063.png",
     "numAchievements": 65,
     "numLeaderboards": 0,
     "points": 650,
-    "dateModified": "2025-07-02 20:01:07",
+    "dateModified": "2026-01-26 22:13:57",
     "forumTopicId": 5306,
     "hashes": [
-      "53090bcd67a0b6262f71ef7c5838c02b"
+      "53090bcd67a0b6262f71ef7c5838c02b",
+      "8012223c849b09beb3b11b95b271f94a"
     ]
   },
   {
@@ -16498,10 +17399,25 @@
     "numAchievements": 52,
     "numLeaderboards": 0,
     "points": 245,
-    "dateModified": "2020-12-06 01:49:22",
+    "dateModified": "2025-11-15 17:11:35",
     "forumTopicId": 1811,
     "hashes": [
       "72b5848612f80d14bc51807f8c7e239e"
+    ]
+  },
+  {
+    "title": "Shikinjou",
+    "id": 36467,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9aafd1b8a5eafa81a9d573cb80fb7500"
     ]
   },
   {
@@ -16529,7 +17445,7 @@
     "numAchievements": 98,
     "numLeaderboards": 1,
     "points": 690,
-    "dateModified": "2024-08-01 16:55:18",
+    "dateModified": "2025-12-07 12:53:16",
     "forumTopicId": 247,
     "hashes": [
       "102230166873a8526250af7fae1cb508",
@@ -16564,7 +17480,7 @@
     "numAchievements": 49,
     "numLeaderboards": 0,
     "points": 590,
-    "dateModified": "2024-06-01 16:01:00",
+    "dateModified": "2025-11-20 20:35:25",
     "forumTopicId": 395,
     "hashes": [
       "5a8f7c6437d239690b4a15287d841c26",
@@ -16628,7 +17544,7 @@
     "numAchievements": 14,
     "numLeaderboards": 0,
     "points": 90,
-    "dateModified": "2025-05-16 15:34:00",
+    "dateModified": "2025-11-18 16:45:47",
     "forumTopicId": 5072,
     "hashes": [
       "06942fbf9e1c021bb6ce4787fefd5364"
@@ -16716,12 +17632,12 @@
     "id": 1358,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/122430.png",
+    "numAchievements": 29,
+    "numLeaderboards": 6,
+    "points": 253,
+    "dateModified": "2026-01-05 18:11:37",
+    "forumTopicId": 33825,
     "hashes": [
       "989f8effd6fbbd93dcabd0be8fd41f8a"
     ]
@@ -16772,7 +17688,7 @@
     ]
   },
   {
-    "title": "Snow Bros.",
+    "title": "Snow Bros.: Nick & Tom",
     "id": 583,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
@@ -16787,19 +17703,6 @@
     ]
   },
   {
-    "title": "Snowboarding",
-    "id": 24627,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
     "title": "Socket",
     "id": 4438,
     "consoleId": 1,
@@ -16808,7 +17711,7 @@
     "numAchievements": 105,
     "numLeaderboards": 29,
     "points": 565,
-    "dateModified": "2025-02-10 06:16:21",
+    "dateModified": "2025-09-06 05:42:11",
     "forumTopicId": 2428,
     "hashes": [
       "9df8251cbfe05a47a5ff8fd9cf328b32"
@@ -16835,10 +17738,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/116416.png",
-    "numAchievements": 43,
+    "numAchievements": 44,
     "numLeaderboards": 3,
-    "points": 340,
-    "dateModified": "2025-08-26 17:46:18",
+    "points": 350,
+    "dateModified": "2025-10-27 00:39:52",
     "forumTopicId": 8092,
     "hashes": [
       "b90ff517cba6492377e02d23fcda4b80"
@@ -16853,7 +17756,7 @@
     "numAchievements": 20,
     "numLeaderboards": 0,
     "points": 268,
-    "dateModified": "2024-12-08 16:09:32",
+    "dateModified": "2025-12-01 17:39:53",
     "forumTopicId": 225,
     "hashes": [
       "4ea493ea4e9f6c9ebfccbdb15110367e"
@@ -16885,14 +17788,14 @@
     "numAchievements": 29,
     "numLeaderboards": 0,
     "points": 296,
-    "dateModified": "2025-03-13 20:57:21",
+    "dateModified": "2025-10-07 23:09:00",
     "forumTopicId": 17082,
     "hashes": [
       "893aadeb9f9084e0eaccd80a05bc8707"
     ]
   },
   {
-    "title": "Sonic 3D Blast | Sonic 3D: Flickies' Island",
+    "title": "Sonic 3D Blast",
     "id": 326,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
@@ -16900,7 +17803,7 @@
     "numAchievements": 85,
     "numLeaderboards": 23,
     "points": 755,
-    "dateModified": "2022-09-20 07:27:16",
+    "dateModified": "2025-11-25 02:51:08",
     "forumTopicId": 455,
     "hashes": [
       "50acbea2461d179b2bf11460a1cc6409"
@@ -16911,11 +17814,11 @@
     "id": 12931,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/103157.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "imageIcon": "/Images/121646.png",
+    "numAchievements": 19,
+    "numLeaderboards": 6,
+    "points": 155,
+    "dateModified": "2026-01-19 01:51:09",
     "forumTopicId": 7494,
     "hashes": [
       "ff65f5666f84f0b2d9d6b535188bcd14"
@@ -16927,14 +17830,15 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/085573.png",
-    "numAchievements": 36,
+    "numAchievements": 35,
     "numLeaderboards": 29,
-    "points": 305,
-    "dateModified": "2025-08-23 17:59:52",
+    "points": 300,
+    "dateModified": "2026-01-06 00:58:14",
     "forumTopicId": 112,
     "hashes": [
       "1b1d9ac862c387367e904036114c4825",
-      "1bc674be034e43c96b86487ac69d9293"
+      "1bc674be034e43c96b86487ac69d9293",
+      "4382459fead8b3790199b68fd3b0fc76"
     ]
   },
   {
@@ -16942,11 +17846,11 @@
     "id": 29895,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/098340.png",
+    "imageIcon": "/Images/121648.png",
     "numAchievements": 24,
     "numLeaderboards": 28,
-    "points": 400,
-    "dateModified": "2024-07-11 16:27:53",
+    "points": 425,
+    "dateModified": "2025-09-14 09:28:17",
     "forumTopicId": 26852,
     "hashes": [
       "09dadb5071eb35050067a32462e39c5f"
@@ -16957,11 +17861,11 @@
     "id": 10,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/085632.png",
+    "imageIcon": "/Images/121647.png",
     "numAchievements": 32,
     "numLeaderboards": 14,
     "points": 420,
-    "dateModified": "2025-05-06 03:01:44",
+    "dateModified": "2025-11-16 15:01:20",
     "forumTopicId": 188,
     "hashes": [
       "8e2c29a1e65111fe2078359e685e7943",
@@ -16977,7 +17881,7 @@
     "numAchievements": 29,
     "numLeaderboards": 0,
     "points": 310,
-    "dateModified": "2025-07-30 14:39:26",
+    "dateModified": "2026-01-03 20:37:09",
     "forumTopicId": 160,
     "hashes": [
       "62be3de2299c8189252536430260edf5",
@@ -16994,7 +17898,7 @@
     "numAchievements": 68,
     "numLeaderboards": 8,
     "points": 500,
-    "dateModified": "2025-08-14 00:57:23",
+    "dateModified": "2025-11-22 21:31:00",
     "forumTopicId": 164,
     "hashes": [
       "3a12dc6b4f41681e0dc0ae3b2f894b4f",
@@ -17172,7 +18076,7 @@
     "id": 570,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/077912.png",
+    "imageIcon": "/Images/122164.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -17191,7 +18095,7 @@
     "numAchievements": 31,
     "numLeaderboards": 0,
     "points": 350,
-    "dateModified": "2023-07-27 02:33:30",
+    "dateModified": "2026-01-05 23:27:45",
     "forumTopicId": 11860,
     "hashes": [
       "084403af61869de5c98cb00f59072abb"
@@ -17455,11 +18359,11 @@
     "id": 3,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/024874.png",
+    "imageIcon": "/Images/120551.png",
     "numAchievements": 22,
     "numLeaderboards": 9,
     "points": 331,
-    "dateModified": "2025-04-21 00:36:55",
+    "dateModified": "2025-11-16 18:47:22",
     "forumTopicId": 116,
     "hashes": [
       "782c722ecc60d00456869563acba23e9",
@@ -17667,7 +18571,7 @@
     "numAchievements": 40,
     "numLeaderboards": 0,
     "points": 250,
-    "dateModified": "2022-03-09 19:09:20",
+    "dateModified": "2025-11-24 04:53:17",
     "forumTopicId": 6256,
     "hashes": [
       "6ba8d8f9d7bbdd3064bc093f22aa7c0a",
@@ -17771,7 +18675,7 @@
     "id": 52,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/107285.png",
+    "imageIcon": "/Images/119922.png",
     "numAchievements": 24,
     "numLeaderboards": 2,
     "points": 220,
@@ -17821,7 +18725,7 @@
     "id": 4143,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/049995.png",
+    "imageIcon": "/Images/118954.png",
     "numAchievements": 18,
     "numLeaderboards": 0,
     "points": 215,
@@ -17870,7 +18774,7 @@
     "numAchievements": 96,
     "numLeaderboards": 2,
     "points": 609,
-    "dateModified": "2025-03-09 12:45:16",
+    "dateModified": "2025-11-04 03:00:25",
     "forumTopicId": 4929,
     "hashes": [
       "a742836dc29ee51cf6d985191820ae4e"
@@ -17943,7 +18847,7 @@
     "id": 2400,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/058886.png",
+    "imageIcon": "/Images/123576.png",
     "numAchievements": 39,
     "numLeaderboards": 1,
     "points": 400,
@@ -17984,16 +18888,16 @@
     ]
   },
   {
-    "title": "Target Earth | Assault Suit Leynos",
+    "title": "Target Earth",
     "id": 811,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/079942.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 1,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-07 22:43:53",
+    "forumTopicId": 32365,
     "hashes": [
       "ae816c5017578267060fd4733586cba7"
     ]
@@ -18068,7 +18972,7 @@
     "numAchievements": 45,
     "numLeaderboards": 0,
     "points": 400,
-    "dateModified": "2021-12-16 08:25:49",
+    "dateModified": "2025-09-19 06:20:04",
     "forumTopicId": 12290,
     "hashes": [
       "863f39866dde86d1ee5cc5ce743ffc7c"
@@ -18079,7 +18983,7 @@
     "id": 5342,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120218.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -18170,7 +19074,7 @@
     "id": 282,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/060233.png",
+    "imageIcon": "/Images/123099.png",
     "numAchievements": 25,
     "numLeaderboards": 2,
     "points": 285,
@@ -18391,7 +19295,7 @@
     "numAchievements": 12,
     "numLeaderboards": 2,
     "points": 19,
-    "dateModified": "2023-01-09 00:05:51",
+    "dateModified": "2025-12-16 01:06:14",
     "forumTopicId": 14420,
     "hashes": [
       "d568aaed8e044287e5e1fcc0ffe02676"
@@ -18495,10 +19399,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/059307.png",
-    "numAchievements": 60,
+    "numAchievements": 59,
     "numLeaderboards": 0,
-    "points": 731,
-    "dateModified": "2025-01-18 18:08:50",
+    "points": 730,
+    "dateModified": "2025-11-23 22:50:53",
     "forumTopicId": 7648,
     "hashes": [
       "a82335504728f3e160f2ea9fe8e0e969"
@@ -18706,7 +19610,7 @@
     "id": 4410,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/024584.png",
+    "imageIcon": "/Images/122805.png",
     "numAchievements": 25,
     "numLeaderboards": 3,
     "points": 305,
@@ -18879,7 +19783,7 @@
     "numAchievements": 28,
     "numLeaderboards": 1,
     "points": 430,
-    "dateModified": "2022-12-03 18:07:15",
+    "dateModified": "2025-11-09 14:53:24",
     "forumTopicId": 381,
     "hashes": [
       "3ab3c23d9856dced1d4d05ab567dee27",
@@ -18923,7 +19827,7 @@
     "id": 4473,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117474.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -18988,7 +19892,7 @@
     "numAchievements": 98,
     "numLeaderboards": 0,
     "points": 600,
-    "dateModified": "2023-01-23 19:17:42",
+    "dateModified": "2025-11-15 03:13:08",
     "forumTopicId": 7837,
     "hashes": [
       "4831cb1b067887a086467ec51653af48",
@@ -19071,6 +19975,21 @@
     "forumTopicId": 16105,
     "hashes": [
       "61246a57e46da52d32d934edea7b628f"
+    ]
+  },
+  {
+    "title": "Tom Mason's Dinosaurs for Hire",
+    "id": 4231,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/079273.png",
+    "numAchievements": 17,
+    "numLeaderboards": 18,
+    "points": 171,
+    "dateModified": "2025-10-21 02:07:09",
+    "forumTopicId": 31605,
+    "hashes": [
+      "e4c6cbf1a2ea36404fb69667cd080b4f"
     ]
   },
   {
@@ -19277,7 +20196,7 @@
     "numAchievements": 27,
     "numLeaderboards": 3,
     "points": 424,
-    "dateModified": "2023-03-04 16:57:33",
+    "dateModified": "2025-11-17 11:54:43",
     "forumTopicId": 2573,
     "hashes": [
       "2857b7730fb7dbc5f7c1ec1a4ba1b0ee",
@@ -19390,7 +20309,7 @@
     ]
   },
   {
-    "title": "Tyrants: Fight Through Time | Mega Lo Mania",
+    "title": "Tyrants: Fight Through Time",
     "id": 49,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
@@ -19445,7 +20364,7 @@
     "numAchievements": 49,
     "numLeaderboards": 1,
     "points": 750,
-    "dateModified": "2025-01-19 03:38:49",
+    "dateModified": "2025-11-16 13:27:20",
     "forumTopicId": 7066,
     "hashes": [
       "2de20c45e4d643b7eb96cfba59626a04",
@@ -19689,7 +20608,7 @@
     "numAchievements": 13,
     "numLeaderboards": 0,
     "points": 145,
-    "dateModified": "2020-06-06 11:00:19",
+    "dateModified": "2025-10-24 19:10:16",
     "forumTopicId": 3146,
     "hashes": [
       "61b922208e0518a2e127939d374a43cb",
@@ -19702,10 +20621,10 @@
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
     "imageIcon": "/Images/114415.png",
-    "numAchievements": 6,
+    "numAchievements": 25,
     "numLeaderboards": 6,
-    "points": 50,
-    "dateModified": "2024-12-06 18:59:50",
+    "points": 330,
+    "dateModified": "2025-10-06 21:55:09",
     "forumTopicId": 5250,
     "hashes": [
       "3d4e16e2743d453f206b1c305b12cd27",
@@ -19747,7 +20666,7 @@
     "id": 20340,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120599.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -19755,6 +20674,21 @@
     "forumTopicId": null,
     "hashes": [
       "a7144ee7bc7ec52c63116734b1dcdc4f"
+    ]
+  },
+  {
+    "title": "VS. Puyo Puyo Sun",
+    "id": 36303,
+    "consoleId": 1,
+    "consoleName": "Genesis/Mega Drive",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3ab4f69abcf4ad89b3c347c86ee5c107"
     ]
   },
   {
@@ -19771,19 +20705,6 @@
     "hashes": [
       "def151887d5fd58b778df4ee077192c6"
     ]
-  },
-  {
-    "title": "Wall-Breaking",
-    "id": 24628,
-    "consoleId": 1,
-    "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
   },
   {
     "title": "Wani Wani World",
@@ -19839,7 +20760,7 @@
     "numAchievements": 35,
     "numLeaderboards": 3,
     "points": 411,
-    "dateModified": "2024-07-21 13:58:41",
+    "dateModified": "2026-01-03 03:35:15",
     "forumTopicId": 24810,
     "hashes": [
       "dadf4e342963216f602b85e6271789db"
@@ -20081,7 +21002,7 @@
     "numAchievements": 55,
     "numLeaderboards": 5,
     "points": 529,
-    "dateModified": "2024-11-05 23:54:17",
+    "dateModified": "2025-11-21 20:57:51",
     "forumTopicId": 3205,
     "hashes": [
       "01c9742b0a83a7c135f9ed6948dc7576",
@@ -20163,7 +21084,11 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "45833513720e70b5fcf23a4e5934fe5e"
+      "45833513720e70b5fcf23a4e5934fe5e",
+      "34d356930dcb13fe02a3ec42b3d8d70e",
+      "a1647bee0108acba9e2f99daab336c18",
+      "11e4635d58198b873fdafc65fb6d1229",
+      "9ef694ab80344a7cced0d33f9c84a1b5"
     ]
   },
   {
@@ -20235,7 +21160,7 @@
     "numAchievements": 36,
     "numLeaderboards": 0,
     "points": 315,
-    "dateModified": "2025-06-26 03:10:13",
+    "dateModified": "2025-11-15 16:24:57",
     "forumTopicId": 1744,
     "hashes": [
       "4d83db7784995f04195567d4c8006db1",
@@ -20244,11 +21169,11 @@
     ]
   },
   {
-    "title": "World of Illusion starring Mickey Mouse and Donald Duck [Subset - Multi]",
+    "title": "World of Illusion starring Mickey Mouse and Donald Duck [Subset - Multiplayer]",
     "id": 24329,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/073357.png",
+    "imageIcon": "/Images/121475.png",
     "numAchievements": 28,
     "numLeaderboards": 0,
     "points": 220,
@@ -20432,7 +21357,7 @@
     "numAchievements": 32,
     "numLeaderboards": 0,
     "points": 300,
-    "dateModified": "2021-07-12 23:42:26",
+    "dateModified": "2025-09-19 06:20:23",
     "forumTopicId": 415,
     "hashes": [
       "26c49c46b8e2574dde481132bbd34fd4",
@@ -20520,7 +21445,7 @@
     "id": 611,
     "consoleId": 1,
     "consoleName": "Genesis/Mega Drive",
-    "imageIcon": "/Images/019808.png",
+    "imageIcon": "/Images/120097.png",
     "numAchievements": 60,
     "numLeaderboards": 0,
     "points": 566,
@@ -20571,7 +21496,7 @@
     "numAchievements": 95,
     "numLeaderboards": 4,
     "points": 621,
-    "dateModified": "2025-06-06 16:04:51",
+    "dateModified": "2025-11-27 04:55:33",
     "forumTopicId": 6352,
     "hashes": [
       "54427136beee5a270232445bbfd0341f"
@@ -20586,7 +21511,7 @@
     "numAchievements": 34,
     "numLeaderboards": 3,
     "points": 390,
-    "dateModified": "2024-10-23 17:19:54",
+    "dateModified": "2025-11-20 04:17:26",
     "forumTopicId": 190,
     "hashes": [
       "5f4f2fb8c7b8c50efbc6eed57ce3dae3",
@@ -20649,7 +21574,7 @@
     "numAchievements": 75,
     "numLeaderboards": 28,
     "points": 526,
-    "dateModified": "2024-08-19 07:50:28",
+    "dateModified": "2026-01-01 23:37:05",
     "forumTopicId": 2218,
     "hashes": [
       "2d28ddb5be02a3b3612ba73ca064edb5"
@@ -20664,8 +21589,8 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-07 22:22:24",
+    "forumTopicId": 33559,
     "hashes": [
       "dcb24422572d9acf8dc158aa734ebb79"
     ]

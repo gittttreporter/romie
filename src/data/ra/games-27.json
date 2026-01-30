@@ -211,6 +211,21 @@
     ]
   },
   {
+    "title": "~Hack~ Jr. Pac-Man (speedup)",
+    "id": 37875,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "709deb0a84a8a792a19eb2cdd6fab63f"
+    ]
+  },
+  {
     "title": "~Hack~ Metal Slug 5 Extend",
     "id": 26148,
     "consoleId": 27,
@@ -324,7 +339,7 @@
     "numAchievements": 57,
     "numLeaderboards": 0,
     "points": 236,
-    "dateModified": "2025-07-11 03:39:30",
+    "dateModified": "2026-01-22 12:48:33",
     "forumTopicId": 10662,
     "hashes": [
       "aa3954bff41316f5ceb69377cebb8072"
@@ -351,11 +366,11 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/116240.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 63,
+    "numLeaderboards": 2,
+    "points": 540,
+    "dateModified": "2026-01-27 23:03:12",
+    "forumTopicId": 34111,
     "hashes": [
       "6540454047ad2cb750d163c4141a3c1c"
     ]
@@ -366,13 +381,28 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/116243.png",
+    "numAchievements": 50,
+    "numLeaderboards": 2,
+    "points": 325,
+    "dateModified": "2026-01-01 02:41:26",
+    "forumTopicId": 16322,
+    "hashes": [
+      "615ec139c8972549058a9bfb95ec98fc"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Street Fighter II Turbo New Legacy",
+    "id": 37876,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": 16322,
+    "forumTopicId": null,
     "hashes": [
-      "615ec139c8972549058a9bfb95ec98fc"
+      "c253e6c749e874f7e4e58fed4ca4d343"
     ]
   },
   {
@@ -485,11 +515,11 @@
     "id": 16569,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/110546.png",
-    "numAchievements": 55,
+    "imageIcon": "/Images/123000.png",
+    "numAchievements": 50,
     "numLeaderboards": 0,
-    "points": 515,
-    "dateModified": "2025-04-04 18:00:56",
+    "points": 484,
+    "dateModified": "2025-10-28 00:06:22",
     "forumTopicId": 11906,
     "hashes": [
       "f841bd9b866709f0606cfa1f5efa5111"
@@ -511,6 +541,36 @@
     ]
   },
   {
+    "title": "~Homebrew~ Double Dragon One",
+    "id": 37950,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c9c9bdc92546a7745f8cc7df0ec4b836"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Project Neon",
+    "id": 37491,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "239680fa6cfaa6df18140c9642f4df2d"
+    ]
+  },
+  {
     "title": "~Homebrew~ Time's Up",
     "id": 25802,
     "consoleId": 27,
@@ -519,7 +579,7 @@
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 130,
-    "dateModified": "2023-09-21 11:47:11",
+    "dateModified": "2025-10-05 16:23:33",
     "forumTopicId": 23442,
     "hashes": [
       "9e193f1b4a825cf02ff4fa11e2037fb3"
@@ -873,6 +933,21 @@
     ]
   },
   {
+    "title": "~Prototype~ Last KM",
+    "id": 36628,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ca7bf51209b2f3579720edbae2e75a77"
+    ]
+  },
+  {
     "title": "~Prototype~ Lemmings",
     "id": 12294,
     "consoleId": 27,
@@ -1144,6 +1219,21 @@
     ]
   },
   {
+    "title": "~Prototype~ X2222",
+    "id": 37489,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a5cc1e1ea307b887020a5a77fb37c716"
+    ]
+  },
+  {
     "title": "~Prototype~ Yukiwo",
     "id": 13602,
     "consoleId": 27,
@@ -1411,7 +1501,10 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "b360e080089243b9ebeb61c13520a7a6",
+      "b957a7b2440ff3244ea62e01e85930fc"
+    ]
   },
   {
     "title": "~Unlicensed~ Snow Brothers 3: Magical Adventure | Ball Boy",
@@ -1606,7 +1699,7 @@
     "numAchievements": 27,
     "numLeaderboards": 3,
     "points": 339,
-    "dateModified": "2025-08-02 17:57:56",
+    "dateModified": "2026-01-15 12:23:13",
     "forumTopicId": 18804,
     "hashes": [
       "519c84155964659375821f7ca576f095"
@@ -1621,7 +1714,7 @@
     "numAchievements": 20,
     "numLeaderboards": 2,
     "points": 207,
-    "dateModified": "2025-03-10 07:11:38",
+    "dateModified": "2025-12-02 09:47:01",
     "forumTopicId": 20297,
     "hashes": [
       "c3395dd46c34fa7fd8d729d8cf88b7a8"
@@ -1678,11 +1771,11 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/095360.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 23,
+    "numLeaderboards": 1,
+    "points": 245,
+    "dateModified": "2025-10-25 22:25:44",
+    "forumTopicId": 32801,
     "hashes": [
       "33a48137bd598345260024f173986b35"
     ]
@@ -1957,7 +2050,7 @@
     "id": 12764,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/096288.png",
+    "imageIcon": "/Images/119125.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1972,7 +2065,7 @@
     "id": 11774,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/021860.png",
+    "imageIcon": "/Images/117822.png",
     "numAchievements": 42,
     "numLeaderboards": 0,
     "points": 470,
@@ -1987,11 +2080,11 @@
     "id": 12766,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/088052.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "imageIcon": "/Images/120531.png",
+    "numAchievements": 46,
+    "numLeaderboards": 12,
+    "points": 583,
+    "dateModified": "2025-11-14 16:28:53",
     "forumTopicId": 6758,
     "hashes": [
       "c52cfe7543f7cca1ec21e873c1e9746b"
@@ -2121,6 +2214,21 @@
     ]
   },
   {
+    "title": "Air Attack",
+    "id": 37468,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "94e3862f15aa4c4f07b98a3d4935a1e8"
+    ]
+  },
+  {
     "title": "Air Buster: Trouble Specialty Raid Unit",
     "id": 12451,
     "consoleId": 27,
@@ -2214,7 +2322,7 @@
     ]
   },
   {
-    "title": "Ajax | Typhoon",
+    "title": "Ajax",
     "id": 12701,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -2234,11 +2342,11 @@
     "id": 28949,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/098916.png",
+    "imageIcon": "/Images/120905.png",
     "numAchievements": 26,
     "numLeaderboards": 1,
     "points": 328,
-    "dateModified": "2025-06-07 01:42:31",
+    "dateModified": "2025-09-14 02:34:13",
     "forumTopicId": 31077,
     "hashes": [
       "36140d3035760c6f82a0bbd0a31f6f4a"
@@ -2250,17 +2358,17 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/053948.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 46,
+    "numLeaderboards": 26,
+    "points": 305,
+    "dateModified": "2025-10-30 20:23:44",
     "forumTopicId": 27593,
     "hashes": [
       "f576377cfed7f4d76450de02fb69db5e"
     ]
   },
   {
-    "title": "Alcon | Slap Fight",
+    "title": "Alcon",
     "id": 14765,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -2386,15 +2494,15 @@
     ]
   },
   {
-    "title": "Alien Sector | Baraduke",
+    "title": "Alien Sector",
     "id": 12452,
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/095397.png",
     "numAchievements": 21,
     "numLeaderboards": 1,
-    "points": 233,
-    "dateModified": "2024-11-03 02:21:45",
+    "points": 240,
+    "dateModified": "2025-09-05 01:50:41",
     "forumTopicId": 26738,
     "hashes": [
       "14178286e1c963d8d523452e3a8c4285",
@@ -2406,7 +2514,7 @@
     "id": 11985,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/096270.png",
+    "imageIcon": "/Images/123055.png",
     "numAchievements": 22,
     "numLeaderboards": 1,
     "points": 180,
@@ -2466,7 +2574,7 @@
     "id": 14991,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119180.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -2492,6 +2600,23 @@
     "forumTopicId": null,
     "hashes": [
       "3a022dcc87fb3551a45382592b2f4c1f"
+    ]
+  },
+  {
+    "title": "Alpha Mission",
+    "id": 11973,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/104027.png",
+    "numAchievements": 43,
+    "numLeaderboards": 1,
+    "points": 378,
+    "dateModified": "2025-07-15 03:26:15",
+    "forumTopicId": 29499,
+    "hashes": [
+      "1061bb40ea99675d095192c6ea8f9f54",
+      "70e84b059c577f9523c0a25aa8046ad9",
+      "d77e52c972dd92c6fa6934ab5641d10c"
     ]
   },
   {
@@ -2808,6 +2933,21 @@
     ]
   },
   {
+    "title": "Arch Rivals",
+    "id": 36560,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ce43d1dc7e14463db025032bfdab178c"
+    ]
+  },
+  {
     "title": "Argus",
     "id": 15076,
     "consoleId": 27,
@@ -3010,7 +3150,7 @@
     "numAchievements": 29,
     "numLeaderboards": 10,
     "points": 268,
-    "dateModified": "2025-08-24 20:33:09",
+    "dateModified": "2025-11-13 21:46:15",
     "forumTopicId": 7804,
     "hashes": [
       "6311bda4830fadfb4cb19bb64e0aaabc"
@@ -3046,23 +3186,6 @@
     "forumTopicId": null,
     "hashes": [
       "d4d593b70f783dbc7acadd47f90822ca"
-    ]
-  },
-  {
-    "title": "ASO: Armored Scrum Object | Alpha Mission | Arian Mission",
-    "id": 11973,
-    "consoleId": 27,
-    "consoleName": "Arcade",
-    "imageIcon": "/Images/104027.png",
-    "numAchievements": 43,
-    "numLeaderboards": 1,
-    "points": 378,
-    "dateModified": "2025-07-15 03:26:15",
-    "forumTopicId": 29499,
-    "hashes": [
-      "1061bb40ea99675d095192c6ea8f9f54",
-      "70e84b059c577f9523c0a25aa8046ad9",
-      "d77e52c972dd92c6fa6934ab5641d10c"
     ]
   },
   {
@@ -3162,12 +3285,12 @@
     "id": 13461,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/020826.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/119752.png",
+    "numAchievements": 14,
+    "numLeaderboards": 1,
+    "points": 110,
+    "dateModified": "2025-11-01 19:39:39",
+    "forumTopicId": 32802,
     "hashes": [
       "595e8b771e3aaa9d0ba23a4498ba170c",
       "99028f5b6288daf4f5d378477e6ba8e7"
@@ -3178,11 +3301,11 @@
     "id": 27776,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/086932.png",
-    "numAchievements": 31,
+    "imageIcon": "/Images/119885.png",
+    "numAchievements": 28,
     "numLeaderboards": 0,
-    "points": 240,
-    "dateModified": "2024-01-25 04:54:27",
+    "points": 230,
+    "dateModified": "2025-11-01 16:10:28",
     "forumTopicId": 25172,
     "hashes": [
       "65632399f732ed971eccb79c1de44e9b"
@@ -3193,7 +3316,7 @@
     "id": 27777,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/086938.png",
+    "imageIcon": "/Images/119751.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -3231,6 +3354,23 @@
     "forumTopicId": null,
     "hashes": [
       "18e4ae48e9bc831d30c70eff9ec40a5a"
+    ]
+  },
+  {
+    "title": "Atomic Boy",
+    "id": 13870,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0c715db2371980a1c607cc2a690e4105",
+      "a4fa076af3adb628a95449c2ae3f3c60",
+      "f9c98d3324cdd4373e233336b3f3c5de"
     ]
   },
   {
@@ -3343,7 +3483,7 @@
     "id": 24395,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/089489.png",
+    "imageIcon": "/Images/117695.png",
     "numAchievements": 99,
     "numLeaderboards": 11,
     "points": 376,
@@ -3412,6 +3552,21 @@
     "forumTopicId": null,
     "hashes": [
       "a33bc0d8252df061c9c75eee95f89aff"
+    ]
+  },
+  {
+    "title": "Back Street Soccer",
+    "id": 36561,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c34983992b1f0720979545089d489f78"
     ]
   },
   {
@@ -3540,7 +3695,7 @@
     "id": 15088,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120090.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -3626,6 +3781,21 @@
     ]
   },
   {
+    "title": "Baryon: Future Assault",
+    "id": 37469,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "793a2037863c5ab8b351d0fa31a66890"
+    ]
+  },
+  {
     "title": "Baseball Stars 2",
     "id": 11765,
     "consoleId": 27,
@@ -3634,7 +3804,7 @@
     "numAchievements": 43,
     "numLeaderboards": 3,
     "points": 389,
-    "dateModified": "2025-02-24 22:37:43",
+    "dateModified": "2025-12-21 04:56:50",
     "forumTopicId": 20547,
     "hashes": [
       "f0235aca225c29b7b47409be3db976b7"
@@ -3671,20 +3841,17 @@
     ]
   },
   {
-    "title": "Batsugun | Batsugun: Special Ver",
+    "title": "Batsugun Special",
     "id": 12591,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/095177.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/121209.png",
+    "numAchievements": 39,
+    "numLeaderboards": 3,
+    "points": 445,
+    "dateModified": "2025-12-09 17:05:55",
+    "forumTopicId": 33159,
     "hashes": [
-      "1298947e27d8dd6d304867783d8bcec7",
-      "1a6ac489c1ce16abc5c1bce9d1962c3e",
-      "901d4a98ca800d086cadba02154778ac",
       "eb576ce06bd962aa3f7f72f745a491e4"
     ]
   },
@@ -3819,9 +3986,9 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/066365.png",
-    "numAchievements": 33,
-    "numLeaderboards": 0,
-    "points": 375,
+    "numAchievements": 30,
+    "numLeaderboards": 8,
+    "points": 275,
     "dateModified": "2025-04-06 01:00:41",
     "forumTopicId": 16599,
     "hashes": [
@@ -3945,11 +4112,11 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/111939.png",
-    "numAchievements": 0,
+    "numAchievements": 18,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "points": 176,
+    "dateModified": "2025-09-20 00:49:06",
+    "forumTopicId": 32345,
     "hashes": [
       "1c8cfd2373e58acb141762f7630f7d0e"
     ]
@@ -4060,6 +4227,21 @@
     ]
   },
   {
+    "title": "Best of Best",
+    "id": 37656,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3b0850e83e1ab1be2d177812324a1455"
+    ]
+  },
+  {
     "title": "Big Bucks: Trivia Quest",
     "id": 15748,
     "consoleId": 27,
@@ -4083,7 +4265,7 @@
     "numAchievements": 28,
     "numLeaderboards": 3,
     "points": 132,
-    "dateModified": "2025-06-01 17:20:48",
+    "dateModified": "2025-11-05 00:22:07",
     "forumTopicId": 26365,
     "hashes": [
       "49767706f85deeb1f0d2422cbab7f2c0"
@@ -4301,6 +4483,21 @@
     ]
   },
   {
+    "title": "Black Touch '96",
+    "id": 37492,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "cf8ff91b5a65c6a162fc023cd69d546c"
+    ]
+  },
+  {
     "title": "Black Widow",
     "id": 15079,
     "consoleId": 27,
@@ -4480,7 +4677,7 @@
     "numAchievements": 50,
     "numLeaderboards": 1,
     "points": 580,
-    "dateModified": "2024-04-11 14:33:53",
+    "dateModified": "2025-11-17 20:54:00",
     "forumTopicId": 6269,
     "hashes": [
       "edb0c9707493e999cf61ae4e6a335f91"
@@ -4744,7 +4941,7 @@
     "numAchievements": 97,
     "numLeaderboards": 1,
     "points": 518,
-    "dateModified": "2022-11-22 00:06:50",
+    "dateModified": "2025-12-30 08:30:26",
     "forumTopicId": 11222,
     "hashes": [
       "42db6408e1b36d120058548dc61840fc",
@@ -4833,11 +5030,11 @@
     "id": 12011,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/041419.png",
-    "numAchievements": 0,
-    "numLeaderboards": 1,
-    "points": 0,
-    "dateModified": null,
+    "imageIcon": "/Images/118065.png",
+    "numAchievements": 24,
+    "numLeaderboards": 9,
+    "points": 209,
+    "dateModified": "2025-09-17 17:43:26",
     "forumTopicId": 20912,
     "hashes": [
       "89200b01515ac5483690875f00901b08"
@@ -4874,16 +5071,16 @@
     ]
   },
   {
-    "title": "Bomber Man World | New Dyna Blaster: Global Quest",
+    "title": "Bomber Man World",
     "id": 11995,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/060151.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118189.png",
+    "numAchievements": 25,
+    "numLeaderboards": 1,
+    "points": 225,
+    "dateModified": "2025-10-11 22:59:14",
+    "forumTopicId": 32283,
     "hashes": [
       "d9ea0786148cb2d437c6ff4ebb92ab3c"
     ]
@@ -4926,8 +5123,8 @@
     "imageIcon": "/Images/100102.png",
     "numAchievements": 60,
     "numLeaderboards": 25,
-    "points": 510,
-    "dateModified": "2024-09-16 04:37:15",
+    "points": 525,
+    "dateModified": "2025-10-05 21:52:33",
     "forumTopicId": 26399,
     "hashes": [
       "0c36bd624045dd4055b005c08aa97a2c"
@@ -5044,6 +5241,21 @@
       "2f4f67a61cadbc537d734b12b396315b",
       "401ce28a5eeb5390ede47cd7d5aa2523",
       "180d2bd45ce53071c956e36df776c878"
+    ]
+  },
+  {
+    "title": "Bosconian",
+    "id": 36787,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "13036A5C965BB73653A5DE95B89AE4C2"
     ]
   },
   {
@@ -5173,11 +5385,11 @@
     "id": 13761,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/049199.png",
+    "imageIcon": "/Images/119920.png",
     "numAchievements": 33,
     "numLeaderboards": 0,
     "points": 320,
-    "dateModified": "2024-12-26 05:59:53",
+    "dateModified": "2025-11-21 05:28:16",
     "forumTopicId": 9650,
     "hashes": [
       "4af3f971f26f1e78fa672da2312bb861"
@@ -5207,7 +5419,7 @@
     "numAchievements": 91,
     "numLeaderboards": 3,
     "points": 570,
-    "dateModified": "2025-06-07 15:53:02",
+    "dateModified": "2025-12-18 02:07:18",
     "forumTopicId": 24757,
     "hashes": [
       "72a669a6a000928da3ab24c3a79e554c"
@@ -5320,7 +5532,7 @@
     "numAchievements": 55,
     "numLeaderboards": 2,
     "points": 356,
-    "dateModified": "2024-12-21 16:54:48",
+    "dateModified": "2025-10-03 08:54:41",
     "forumTopicId": 11821,
     "hashes": [
       "1a06e384836545dbb4d4c20553ac9498"
@@ -5604,7 +5816,7 @@
     ]
   },
   {
-    "title": "Caliber 50",
+    "title": "Caliber .50",
     "id": 11911,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -5763,7 +5975,7 @@
     "numAchievements": 95,
     "numLeaderboards": 1,
     "points": 695,
-    "dateModified": "2024-10-04 14:52:13",
+    "dateModified": "2025-12-26 18:41:23",
     "forumTopicId": 17844,
     "hashes": [
       "fc690a603c6f03da20727c753488b278"
@@ -6029,7 +6241,7 @@
     "numAchievements": 40,
     "numLeaderboards": 5,
     "points": 400,
-    "dateModified": "2025-07-20 07:05:46",
+    "dateModified": "2025-09-05 17:06:01",
     "forumTopicId": 13862,
     "hashes": [
       "3e30300051e145abaf2164a53f107bb7"
@@ -6532,6 +6744,21 @@
     ]
   },
   {
+    "title": "Clay Pigeon",
+    "id": 37666,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "dfc5ee283aece72abd10a9cbab48a30e"
+    ]
+  },
+  {
     "title": "Cleopatra Fortune",
     "id": 13581,
     "consoleId": 27,
@@ -6707,7 +6934,7 @@
     ]
   },
   {
-    "title": "Commando (Capcom) | Senjou no Ookami",
+    "title": "Commando",
     "id": 12579,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -6716,7 +6943,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32349,
     "hashes": [
       "6269c4f71a55b24bad0f0267d9be5508",
       "add0e69444259bf5afba3ce40b227769"
@@ -6838,10 +7065,10 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/095466.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 13,
+    "numLeaderboards": 4,
+    "points": 125,
+    "dateModified": "2025-12-08 17:55:02",
     "forumTopicId": 26631,
     "hashes": [
       "1a68eeede4748e5f00f26e2955b174b7",
@@ -7098,7 +7325,7 @@
     "id": 15758,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/068578.png",
+    "imageIcon": "/Images/122437.png",
     "numAchievements": 42,
     "numLeaderboards": 2,
     "points": 615,
@@ -7113,7 +7340,7 @@
     "id": 24388,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/074877.png",
+    "imageIcon": "/Images/122438.png",
     "numAchievements": 30,
     "numLeaderboards": 3,
     "points": 250,
@@ -7145,7 +7372,7 @@
     "id": 28665,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/104251.png",
+    "imageIcon": "/Images/121671.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -7196,11 +7423,26 @@
     "numAchievements": 29,
     "numLeaderboards": 1,
     "points": 410,
-    "dateModified": "2023-09-05 00:01:19",
+    "dateModified": "2025-12-06 12:48:07",
     "forumTopicId": 20249,
     "hashes": [
       "633dcb7cb694b0d6986b0a917ff40293",
       "96a67fd99a96308b0df2eff3ba7c3951"
+    ]
+  },
+  {
+    "title": "Crossbow",
+    "id": 36735,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "68ea5b5f3db8b6019bc6d7396f70094c"
     ]
   },
   {
@@ -7302,6 +7544,21 @@
     ]
   },
   {
+    "title": "Cute Fighter",
+    "id": 37657,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "22eafb18a12bddfdea8d4f919cd267dd"
+    ]
+  },
+  {
     "title": "Cutie Q",
     "id": 12460,
     "consoleId": 27,
@@ -7355,7 +7612,7 @@
     "numAchievements": 48,
     "numLeaderboards": 1,
     "points": 600,
-    "dateModified": "2021-04-23 08:43:27",
+    "dateModified": "2025-11-16 12:35:36",
     "forumTopicId": 9887,
     "hashes": [
       "db42d9fb2f27e14ea4d97a0bd5aa2c67"
@@ -7512,6 +7769,21 @@
     ]
   },
   {
+    "title": "Dangun Feveron",
+    "id": 12256,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/123228.png",
+    "numAchievements": 34,
+    "numLeaderboards": 13,
+    "points": 547,
+    "dateModified": "2026-01-25 23:51:46",
+    "forumTopicId": 26356,
+    "hashes": [
+      "3c253b5326dcad0dfc09a0bb60686108"
+    ]
+  },
+  {
     "title": "Daraku Tenshi: The Fallen Angels",
     "id": 15765,
     "consoleId": 27,
@@ -7547,11 +7819,11 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/095957.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 54,
+    "numLeaderboards": 8,
+    "points": 628,
+    "dateModified": "2025-12-08 00:46:26",
+    "forumTopicId": 33350,
     "hashes": [
       "0bcf46bb45ce206dd7fb32fb8fc400a5",
       "1a80fc344526b04325db74c021ce34f4",
@@ -7622,7 +7894,7 @@
     ]
   },
   {
-    "title": "Dark Seal | Gate of Doom",
+    "title": "Dark Seal",
     "id": 12077,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -7635,6 +7907,21 @@
     "hashes": [
       "6863bf5dcdf0b87432aa49da67551917",
       "f9328b039873c877f41042257086a9d1"
+    ]
+  },
+  {
+    "title": "Dark Seal II",
+    "id": 11890,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/097863.png",
+    "numAchievements": 15,
+    "numLeaderboards": 1,
+    "points": 195,
+    "dateModified": "2024-09-05 08:28:46",
+    "forumTopicId": 26733,
+    "hashes": [
+      "844337b3335affd9a63e101b9e949694"
     ]
   },
   {
@@ -7661,7 +7948,7 @@
     "numAchievements": 25,
     "numLeaderboards": 0,
     "points": 285,
-    "dateModified": "2024-12-05 22:49:00",
+    "dateModified": "2025-11-17 05:32:12",
     "forumTopicId": 6546,
     "hashes": [
       "6917407020977114942fec31ab56184d",
@@ -7770,7 +8057,7 @@
     "numAchievements": 61,
     "numLeaderboards": 6,
     "points": 999,
-    "dateModified": "2024-09-11 18:21:40",
+    "dateModified": "2026-01-07 20:55:51",
     "forumTopicId": 26188,
     "hashes": [
       "8fa0ec6fb2b52bd67f63c8fb4b5e70be"
@@ -8060,6 +8347,21 @@
     ]
   },
   {
+    "title": "Diet Family",
+    "id": 37470,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d5080fda9ba0f50fda3a960e8c386ba4"
+    ]
+  },
+  {
     "title": "Diet Go Go",
     "id": 11849,
     "consoleId": 27,
@@ -8330,7 +8632,7 @@
     "numAchievements": 53,
     "numLeaderboards": 19,
     "points": 935,
-    "dateModified": "2023-09-24 12:29:24",
+    "dateModified": "2025-11-26 18:49:07",
     "forumTopicId": 16559,
     "hashes": [
       "7b56d37dfddbea8b8b0ee192ed2d97c1"
@@ -8360,7 +8662,7 @@
     "numAchievements": 60,
     "numLeaderboards": 9,
     "points": 1450,
-    "dateModified": "2025-04-27 18:26:59",
+    "dateModified": "2025-09-16 22:49:19",
     "forumTopicId": 21470,
     "hashes": [
       "c1f4ac0d770177f38db970f826d20a0f"
@@ -8525,7 +8827,7 @@
     "id": 11943,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/035636.png",
+    "imageIcon": "/Images/122436.png",
     "numAchievements": 18,
     "numLeaderboards": 3,
     "points": 255,
@@ -8540,7 +8842,7 @@
     "id": 26257,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/104788.png",
+    "imageIcon": "/Images/121312.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -8662,7 +8964,7 @@
     "id": 12661,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/048754.png",
+    "imageIcon": "/Images/120099.png",
     "numAchievements": 38,
     "numLeaderboards": 1,
     "points": 292,
@@ -8819,7 +9121,7 @@
     "numAchievements": 40,
     "numLeaderboards": 1,
     "points": 273,
-    "dateModified": "2023-01-21 11:47:56",
+    "dateModified": "2025-11-22 00:46:58",
     "forumTopicId": 10113,
     "hashes": [
       "e8d35aa4568a00a9f3b8b03984b1ba38"
@@ -8886,21 +9188,6 @@
     ]
   },
   {
-    "title": "Dragon Breed [Subset - Bonus]",
-    "id": 29069,
-    "consoleId": 27,
-    "consoleName": "Arcade",
-    "imageIcon": "/Images/093365.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 25971,
-    "hashes": [
-      "6e51e57f7421f203c6228caac2fea359"
-    ]
-  },
-  {
     "title": "Dragon Buster",
     "id": 12102,
     "consoleId": 27,
@@ -8928,6 +9215,21 @@
     "forumTopicId": null,
     "hashes": [
       "15fa6ee66ac6fe0791ab9a7ed3a53ad7"
+    ]
+  },
+  {
+    "title": "Dragon Master",
+    "id": 37658,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d39e4c50f3f97331eb8d3aa77e1fcba5"
     ]
   },
   {
@@ -9166,7 +9468,7 @@
     "id": 11780,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/055592.png",
+    "imageIcon": "/Images/122043.png",
     "numAchievements": 51,
     "numLeaderboards": 0,
     "points": 562,
@@ -9181,7 +9483,7 @@
     "id": 12084,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/062626.png",
+    "imageIcon": "/Images/122042.png",
     "numAchievements": 30,
     "numLeaderboards": 0,
     "points": 370,
@@ -9283,7 +9585,7 @@
     ]
   },
   {
-    "title": "Dynamite Dux",
+    "title": "Dynamite Düx",
     "id": 12086,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -9374,7 +9676,7 @@
     ]
   },
   {
-    "title": "Eco Fighters | Ultimate Ecology",
+    "title": "Eco Fighters",
     "id": 11898,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -9503,7 +9805,7 @@
     "numAchievements": 30,
     "numLeaderboards": 1,
     "points": 260,
-    "dateModified": "2022-11-21 17:40:05",
+    "dateModified": "2025-11-16 01:58:57",
     "forumTopicId": 11617,
     "hashes": [
       "5e38e0ffa34dafe5053110568dc0cd3f"
@@ -9692,7 +9994,7 @@
     "numAchievements": 36,
     "numLeaderboards": 4,
     "points": 343,
-    "dateModified": "2023-09-26 09:29:22",
+    "dateModified": "2025-12-09 03:16:54",
     "forumTopicId": 11694,
     "hashes": [
       "0c8c4ab8dc2ba2c135e3b79b594398d7"
@@ -9707,7 +10009,7 @@
     "numAchievements": 27,
     "numLeaderboards": 4,
     "points": 320,
-    "dateModified": "2025-02-20 19:20:55",
+    "dateModified": "2025-09-11 22:24:04",
     "forumTopicId": 9749,
     "hashes": [
       "d60d1edfdd181b16ce6d2dee4f9e214f"
@@ -9802,6 +10104,22 @@
     "forumTopicId": null,
     "hashes": [
       "0e16c6095902ab9811441ec095eac525"
+    ]
+  },
+  {
+    "title": "Exerion",
+    "id": 36374,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2f4f758b71dc3f39ba3fe24e9d2cc2cc",
+      "57b44990d67c28ce7d8ecda5ae6f1088"
     ]
   },
   {
@@ -9928,6 +10246,21 @@
     "forumTopicId": null,
     "hashes": [
       "581faec64375e8ec1f415c1153a90269"
+    ]
+  },
+  {
+    "title": "Exvania",
+    "id": 37655,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bfd3c21de0c7bc47896b02658e6fa839"
     ]
   },
   {
@@ -10338,21 +10671,6 @@
     ]
   },
   {
-    "title": "Fever SOS | Dangun Feveron",
-    "id": 12256,
-    "consoleId": 27,
-    "consoleName": "Arcade",
-    "imageIcon": "/Images/096020.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 26356,
-    "hashes": [
-      "3dc75ec59177e867c650c170064d98dc"
-    ]
-  },
-  {
     "title": "Fight Fever",
     "id": 13774,
     "consoleId": 27,
@@ -10369,16 +10687,31 @@
     ]
   },
   {
-    "title": "Fighter's History",
-    "id": 13284,
+    "title": "Fighter & Attacker",
+    "id": 37472,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/097403.png",
+    "imageIcon": "/Images/000001.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
+    "hashes": [
+      "74e7cd89aa737bf57e6fe7b812874d10"
+    ]
+  },
+  {
+    "title": "Fighter's History",
+    "id": 13284,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/118670.png",
+    "numAchievements": 34,
+    "numLeaderboards": 3,
+    "points": 270,
+    "dateModified": "2025-10-08 02:07:41",
+    "forumTopicId": 32580,
     "hashes": [
       "bff892a489a8ecf5cd690462487bcfc2",
       "cecfe940a0ba0b7bd6cbb7433beaffc8"
@@ -10588,7 +10921,7 @@
     ]
   },
   {
-    "title": "Fist of the North Star | Hokuto no Ken",
+    "title": "Fist of the North Star",
     "id": 18353,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -11092,6 +11425,21 @@
     ]
   },
   {
+    "title": "Gaia: The Last Choice of Earth",
+    "id": 37473,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "579d2d313f9e705801d4aab073724eee"
+    ]
+  },
+  {
     "title": "Gaiapolis",
     "id": 11913,
     "consoleId": 27,
@@ -11171,14 +11519,15 @@
     "id": 12140,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/097409.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118906.png",
+    "numAchievements": 24,
+    "numLeaderboards": 2,
+    "points": 304,
+    "dateModified": "2025-10-22 19:55:32",
+    "forumTopicId": 32615,
     "hashes": [
-      "372ec6bf0d3ee67b7bb9578dff9ff044"
+      "372ec6bf0d3ee67b7bb9578dff9ff044",
+      "be3270f6305edfae92eb8c99856cb194"
     ]
   },
   {
@@ -11186,7 +11535,7 @@
     "id": 12139,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/073535.png",
+    "imageIcon": "/Images/119282.png",
     "numAchievements": 24,
     "numLeaderboards": 2,
     "points": 445,
@@ -11201,12 +11550,12 @@
     "id": 13778,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/104043.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/120591.png",
+    "numAchievements": 30,
+    "numLeaderboards": 6,
+    "points": 270,
+    "dateModified": "2026-01-29 01:59:10",
+    "forumTopicId": 33228,
     "hashes": [
       "abb7d5e98313243a659518c407f0c59a"
     ]
@@ -11291,12 +11640,12 @@
     "id": 17459,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119682.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32969,
     "hashes": [
       "92fcf7a4bda826ab9a380e667b80116d"
     ]
@@ -11701,7 +12050,7 @@
     "id": 12149,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/053132.png",
+    "imageIcon": "/Images/119126.png",
     "numAchievements": 42,
     "numLeaderboards": 2,
     "points": 650,
@@ -11717,7 +12066,7 @@
     "id": 11903,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/042915.png",
+    "imageIcon": "/Images/119127.png",
     "numAchievements": 55,
     "numLeaderboards": 3,
     "points": 555,
@@ -11754,7 +12103,7 @@
     "numAchievements": 38,
     "numLeaderboards": 4,
     "points": 726,
-    "dateModified": "2025-08-28 01:42:58",
+    "dateModified": "2025-09-16 00:31:20",
     "forumTopicId": 24649,
     "hashes": [
       "399fb23c18671a045f49aef80b8385c3"
@@ -12039,6 +12388,37 @@
     ]
   },
   {
+    "title": "Gorf",
+    "id": 36311,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a287a69c7ca856f3fec8949d05f39048"
+    ]
+  },
+  {
+    "title": "Got-cha Mini Game Festival",
+    "id": 36399,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "21840c1a3e3db69e01445c8782a99f9b",
+      "da9a6f9cb0d57e025b44d1d4955aa90a"
+    ]
+  },
+  {
     "title": "Gourmet Battle Quiz Ryohrioh CooKing",
     "id": 13557,
     "consoleId": 27,
@@ -12216,7 +12596,7 @@
     "id": 12471,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117576.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -12258,6 +12638,21 @@
     ]
   },
   {
+    "title": "Grudge Match",
+    "id": 37659,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "26322120c12c92f2a992c6df33bc5ffd"
+    ]
+  },
+  {
     "title": "Guardian | Get Star",
     "id": 14764,
     "consoleId": 27,
@@ -12271,6 +12666,21 @@
     "hashes": [
       "3ec6e511f44466f9f7700ae059dab4e1",
       "69fca090d35e00eb41e0e0973ccdad5a"
+    ]
+  },
+  {
+    "title": "Guardian Storm",
+    "id": 37474,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b2d2e92accf8a092c887c2882fbdd4e5"
     ]
   },
   {
@@ -12324,7 +12734,7 @@
     "id": 34410,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119960.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -12400,10 +12810,10 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/116048.png",
-    "numAchievements": 0,
-    "numLeaderboards": 2,
-    "points": 0,
-    "dateModified": "2025-08-21 14:14:51",
+    "numAchievements": 88,
+    "numLeaderboards": 96,
+    "points": 887,
+    "dateModified": "2025-11-07 15:02:07",
     "forumTopicId": 31696,
     "hashes": [
       "0ea411de0cbf2bc11a1b781860bd1d0a"
@@ -12633,6 +13043,21 @@
     ]
   },
   {
+    "title": "GunNail",
+    "id": 37483,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "46f841e607afbfcf1b9c38cc5a9ccc36"
+    ]
+  },
+  {
     "title": "Gururin",
     "id": 12167,
     "consoleId": 27,
@@ -12784,6 +13209,21 @@
     ]
   },
   {
+    "title": "Halley's Comet",
+    "id": 37475,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bc2e0091d951fdc9d8a0a652b71ea232"
+    ]
+  },
+  {
     "title": "Hammer Away",
     "id": 12174,
     "consoleId": 27,
@@ -12825,7 +13265,7 @@
     "numAchievements": 20,
     "numLeaderboards": 1,
     "points": 170,
-    "dateModified": "2022-12-11 13:11:59",
+    "dateModified": "2025-11-26 16:17:03",
     "forumTopicId": 15241,
     "hashes": [
       "eb68c6d51fd67021aaac4c8c10d83282"
@@ -12947,7 +13387,7 @@
     "numAchievements": 17,
     "numLeaderboards": 0,
     "points": 119,
-    "dateModified": "2022-04-16 17:39:37",
+    "dateModified": "2026-01-02 18:58:06",
     "forumTopicId": 6480,
     "hashes": [
       "3ddedc5f069dff75065f9ef75e5b8f54"
@@ -13137,6 +13577,21 @@
     "forumTopicId": null,
     "hashes": [
       "1aee600af67b3197be8f3826e35dcd63"
+    ]
+  },
+  {
+    "title": "Hebereke no Popoon",
+    "id": 36258,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "13b5cac2860fe1e09c5ec6d4cfde5e23"
     ]
   },
   {
@@ -13444,8 +13899,8 @@
     "imageIcon": "/Images/092970.png",
     "numAchievements": 17,
     "numLeaderboards": 1,
-    "points": 130,
-    "dateModified": "2024-11-09 21:11:19",
+    "points": 175,
+    "dateModified": "2025-10-01 01:26:45",
     "forumTopicId": 28685,
     "hashes": [
       "1b95d8777759afff9bad193026df7030"
@@ -13707,8 +14162,8 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-19 01:41:01",
+    "forumTopicId": 33480,
     "hashes": [
       "2c90c187a5ebc89cc2d90b05315b7f97"
     ]
@@ -13760,16 +14215,16 @@
     ]
   },
   {
-    "title": "Ikari Warriors | Ikari",
+    "title": "Ikari Warriors",
     "id": 12551,
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/095018.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 6,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2025-10-08 14:51:37",
+    "forumTopicId": 32202,
     "hashes": [
       "2c328bdf40e4f20cbf49fa9a33655eb7",
       "48d3ae5228ee3e06b37ba02308f4514d",
@@ -14316,6 +14771,21 @@
     ]
   },
   {
+    "title": "JoJo's Bizarre Adventure: Heritage for the Future [Subset - Crusader Crusher]",
+    "id": 37924,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/123423.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": "2026-01-22 07:21:14",
+    "forumTopicId": 34098,
+    "hashes": [
+      "db91b9a7f61f710df2cec27f72c1f70c"
+    ]
+  },
+  {
     "title": "JoJo's Venture",
     "id": 15712,
     "consoleId": 27,
@@ -14397,10 +14867,10 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/099587.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-05-18 06:40:53",
+    "numAchievements": 40,
+    "numLeaderboards": 4,
+    "points": 485,
+    "dateModified": "2025-09-15 19:36:57",
     "forumTopicId": 27231,
     "hashes": [
       "bfb15e976e21c08502545e7b7a42256c"
@@ -14767,16 +15237,16 @@
     ]
   },
   {
-    "title": "Karnov's Revenge | Fighter's History Dynamite",
+    "title": "Karnov's Revenge",
     "id": 13297,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/088132.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118671.png",
+    "numAchievements": 57,
+    "numLeaderboards": 7,
+    "points": 400,
+    "dateModified": "2025-10-12 20:14:30",
+    "forumTopicId": 32581,
     "hashes": [
       "b853bc7ea4064d08d570819b42594034"
     ]
@@ -15601,12 +16071,12 @@
     "id": 12199,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/075024.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/120981.png",
+    "numAchievements": 32,
+    "numLeaderboards": 2,
+    "points": 499,
+    "dateModified": "2025-11-24 05:03:34",
+    "forumTopicId": 33220,
     "hashes": [
       "7eef7295c50d70615433858746056bca"
     ]
@@ -15843,6 +16313,21 @@
     "hashes": [
       "3293eb34e5a80a33c83eea7431426b12",
       "f75aeb03819ae2d61ceab0d530dab031"
+    ]
+  },
+  {
+    "title": "Legend of Heroes",
+    "id": 37493,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "86b3323942d07651cb651c3341f98f58"
     ]
   },
   {
@@ -16283,7 +16768,7 @@
     ]
   },
   {
-    "title": "Logic Pro | Croquis",
+    "title": "Logic Pro",
     "id": 14459,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -16647,6 +17132,21 @@
     ]
   },
   {
+    "title": "Mag Max",
+    "id": 37476,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7d02a4226e160cadcfe1a2c24aa93fd7"
+    ]
+  },
+  {
     "title": "Magic Purple",
     "id": 27372,
     "consoleId": 27,
@@ -16681,12 +17181,12 @@
     "id": 11924,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/079903.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/123226.png",
+    "numAchievements": 23,
+    "numLeaderboards": 4,
+    "points": 190,
+    "dateModified": "2026-01-18 15:16:19",
+    "forumTopicId": 33979,
     "hashes": [
       "7606fa031c680b64074185401b82bb0a"
     ]
@@ -16765,6 +17265,21 @@
     "forumTopicId": null,
     "hashes": [
       "8ad4e8bd4690a950cd7f25c23546b9d2"
+    ]
+  },
+  {
+    "title": "Magical Error o Sagase!",
+    "id": 36312,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "de33a131bdfccb72f2f1af43d122270f"
     ]
   },
   {
@@ -17081,6 +17596,21 @@
     ]
   },
   {
+    "title": "Maniac Square",
+    "id": 36629,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "092bd69c110ed321c8f8f6f809019a1d"
+    ]
+  },
+  {
     "title": "Mappy",
     "id": 12299,
     "consoleId": 27,
@@ -17290,7 +17820,7 @@
     "numAchievements": 0,
     "numLeaderboards": 1,
     "points": 0,
-    "dateModified": "2025-05-09 03:33:48",
+    "dateModified": "2025-05-09 03:33:46",
     "forumTopicId": 22813,
     "hashes": [
       "7c3270c20625f3616c0824c02efc0a79",
@@ -17311,7 +17841,8 @@
     "hashes": [
       "7280b613c4597b4a4bbbae6f634bb886",
       "79374b32fb5e0f45c6fb40af7138bdbc",
-      "b81c3fcde2756cee6d7c0463c6c9ab8c"
+      "b81c3fcde2756cee6d7c0463c6c9ab8c",
+      "fb8d9c9f10142fb2a89c607ec8ebcd21"
     ]
   },
   {
@@ -17430,7 +17961,7 @@
     "id": 15241,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/123339.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -17656,7 +18187,7 @@
     "id": 19404,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120016.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -17671,7 +18202,7 @@
     "id": 17893,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/065056.png",
+    "imageIcon": "/Images/120006.png",
     "numAchievements": 60,
     "numLeaderboards": 0,
     "points": 453,
@@ -17748,10 +18279,10 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/089570.png",
-    "numAchievements": 0,
+    "numAchievements": 19,
     "numLeaderboards": 2,
-    "points": 0,
-    "dateModified": "2025-05-04 03:39:05",
+    "points": 335,
+    "dateModified": "2025-09-18 20:45:03",
     "forumTopicId": 25513,
     "hashes": [
       "424fef162065778e0b75e20769a34856"
@@ -18248,7 +18779,7 @@
     "id": 13864,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119640.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -18342,7 +18873,7 @@
     "id": 13564,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120416.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -18414,7 +18945,7 @@
     ]
   },
   {
-    "title": "Money Puzzle Exchanger | Money Idol Exchanger",
+    "title": "Money Puzzle Exchanger",
     "id": 12539,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -18422,7 +18953,7 @@
     "numAchievements": 14,
     "numLeaderboards": 4,
     "points": 105,
-    "dateModified": "2025-04-20 10:38:23",
+    "dateModified": "2026-01-11 15:02:56",
     "forumTopicId": 22357,
     "hashes": [
       "d2b5db2b9c36e4caa37ed7eea04ecdf9"
@@ -18677,7 +19208,7 @@
     "id": 14978,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/036813.png",
+    "imageIcon": "/Images/122179.png",
     "numAchievements": 43,
     "numLeaderboards": 1,
     "points": 465,
@@ -18746,7 +19277,7 @@
     "numAchievements": 22,
     "numLeaderboards": 1,
     "points": 315,
-    "dateModified": "2020-12-08 01:41:39",
+    "dateModified": "2025-12-16 14:11:10",
     "forumTopicId": 11391,
     "hashes": [
       "811b4a59b7163b53b663ce7a0209469a"
@@ -18759,10 +19290,10 @@
     "consoleName": "Arcade",
     "imageIcon": "/Images/073429.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 1,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-25 14:01:18",
+    "forumTopicId": 33618,
     "hashes": [
       "4937334230c9928783dda56ca4f5c00e"
     ]
@@ -18892,14 +19423,29 @@
     "id": 28948,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/104079.png",
+    "imageIcon": "/Images/119089.png",
+    "numAchievements": 28,
+    "numLeaderboards": 9,
+    "points": 510,
+    "dateModified": "2025-12-02 12:42:41",
+    "forumTopicId": 32681,
+    "hashes": [
+      "7f83afd81a406f82fb91ebbb87b4b850"
+    ]
+  },
+  {
+    "title": "Mug Smashers",
+    "id": 37494,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "7f83afd81a406f82fb91ebbb87b4b850"
+      "cbe451f65c69c4141a973d28be1d59ad"
     ]
   },
   {
@@ -18975,7 +19521,8 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "102857f3247dcc2d6791bac556024f68"
+      "102857f3247dcc2d6791bac556024f68",
+      "f62eb00ca185ca98733f0a9cd6567898"
     ]
   },
   {
@@ -19228,7 +19775,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "519b56e4df6cb85fa48cca2e3d9fc180"
+    ]
   },
   {
     "title": "Naughty Boy",
@@ -19403,10 +19952,10 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/088206.png",
-    "numAchievements": 0,
-    "numLeaderboards": 1,
-    "points": 0,
-    "dateModified": "2025-08-15 13:08:12",
+    "numAchievements": 28,
+    "numLeaderboards": 2,
+    "points": 210,
+    "dateModified": "2025-10-20 20:02:26",
     "forumTopicId": 28464,
     "hashes": [
       "dd53691a8b5423224e5f97ff08d1704b"
@@ -19638,7 +20187,7 @@
     "numAchievements": 32,
     "numLeaderboards": 2,
     "points": 565,
-    "dateModified": "2025-03-01 09:43:41",
+    "dateModified": "2025-09-01 11:33:05",
     "forumTopicId": 7459,
     "hashes": [
       "1901091290afe5c3996de681d75e7520",
@@ -19670,7 +20219,7 @@
     "numAchievements": 13,
     "numLeaderboards": 2,
     "points": 88,
-    "dateModified": "2023-08-12 03:16:56",
+    "dateModified": "2025-12-03 18:28:24",
     "forumTopicId": 22724,
     "hashes": [
       "3ce05d807d5ad6d2f11c1c7ac3505b27",
@@ -19684,10 +20233,10 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/059175.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 49,
+    "numLeaderboards": 2,
+    "points": 340,
+    "dateModified": "2026-01-25 23:19:49",
     "forumTopicId": 6522,
     "hashes": [
       "8f90a6e435ce46037177617740ca644b",
@@ -19733,7 +20282,7 @@
     "numAchievements": 32,
     "numLeaderboards": 2,
     "points": 484,
-    "dateModified": "2025-03-01 10:23:36",
+    "dateModified": "2025-09-14 02:48:45",
     "forumTopicId": 7563,
     "hashes": [
       "4362770dd254bdd3086d6ab4faf380a7",
@@ -19930,6 +20479,21 @@
     ]
   },
   {
+    "title": "Nostradamus",
+    "id": 37477,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1ed83909d7d0ea16115e967a722dcecc"
+    ]
+  },
+  {
     "title": "Nova 2001",
     "id": 11755,
     "consoleId": 27,
@@ -20066,6 +20630,21 @@
     "forumTopicId": null,
     "hashes": [
       "162e267e57bb327262bfeab10b3bfa28"
+    ]
+  },
+  {
+    "title": "One Shot One Kill",
+    "id": 36593,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3d9c0b6e0b8c31d44e2d378d9632f00a"
     ]
   },
   {
@@ -20250,6 +20829,23 @@
     ]
   },
   {
+    "title": "Orius",
+    "id": 12573,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/074738.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b05956715f2900dec8d40cf321aac210",
+      "773b5780c2f4fe4d5252d21c2dab791a",
+      "ddd55aaef4322097691abf1e32feaa9b"
+    ]
+  },
+  {
     "title": "Osman",
     "id": 11875,
     "consoleId": 27,
@@ -20270,12 +20866,12 @@
     "id": 11873,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/092824.png",
+    "imageIcon": "/Images/121812.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-30 00:12:21",
+    "forumTopicId": 33609,
     "hashes": [
       "54f21231fc6939dcce0ff6ef3bae7cfd",
       "5a6c39a6c66789232c9986d2f9ec3747",
@@ -20429,7 +21025,7 @@
     "id": 11920,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/059828.png",
+    "imageIcon": "/Images/118224.png",
     "numAchievements": 32,
     "numLeaderboards": 4,
     "points": 406,
@@ -20448,8 +21044,8 @@
     "imageIcon": "/Images/115454.png",
     "numAchievements": 28,
     "numLeaderboards": 2,
-    "points": 277,
-    "dateModified": "2025-08-19 22:49:52",
+    "points": 362,
+    "dateModified": "2025-10-05 16:44:23",
     "forumTopicId": 31326,
     "hashes": [
       "88f75c681d985805b3d2c500f21f6db2"
@@ -20464,7 +21060,7 @@
     "numAchievements": 21,
     "numLeaderboards": 3,
     "points": 225,
-    "dateModified": "2024-11-30 15:43:56",
+    "dateModified": "2025-11-23 04:09:49",
     "forumTopicId": 8354,
     "hashes": [
       "64d1f88b9b276aece4b0edcc25b7a434"
@@ -20554,7 +21150,7 @@
     "numAchievements": 10,
     "numLeaderboards": 0,
     "points": 69,
-    "dateModified": "2022-06-27 08:48:23",
+    "dateModified": "2025-09-17 19:30:32",
     "forumTopicId": 7888,
     "hashes": [
       "faa3f79ed268d2a973e073d5d40a2559"
@@ -20924,6 +21520,22 @@
     "forumTopicId": 17073,
     "hashes": [
       "b3d97746dbb45e92dc083db205e1fd14"
+    ]
+  },
+  {
+    "title": "Photo Finish",
+    "id": 13737,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 8277,
+    "hashes": [
+      "6ca614337eb3f4ae154002966f591166",
+      "77fbbfcd7f267babaeab28385a1f9d03"
     ]
   },
   {
@@ -21406,6 +22018,21 @@
     ]
   },
   {
+    "title": "Point Blank",
+    "id": 37667,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "84fc7a9fc314fed9c01d66f5b4bfa2e5"
+    ]
+  },
+  {
     "title": "Poker Ladies",
     "id": 15185,
     "consoleId": 27,
@@ -21658,27 +22285,28 @@
     ]
   },
   {
-    "title": "Power Instinct | Gouketsuji Ichizoku",
+    "title": "Power Instinct",
     "id": 12341,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/104062.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118312.png",
+    "numAchievements": 26,
+    "numLeaderboards": 3,
+    "points": 380,
+    "dateModified": "2025-11-23 04:09:43",
+    "forumTopicId": 32983,
     "hashes": [
       "9f5c99c44c69a3610465b0d6517e7975",
-      "a252015d094cfaf25aaed55990cf7817"
+      "a252015d094cfaf25aaed55990cf7817",
+      "ee3db990c74c130c458eff3d4bec125e"
     ]
   },
   {
-    "title": "Power Instinct 2 | Gouketsuji Ichizoku 2",
+    "title": "Power Instinct 2",
     "id": 12350,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/104071.png",
+    "imageIcon": "/Images/118340.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -21740,11 +22368,11 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/111922.png",
-    "numAchievements": 0,
+    "numAchievements": 29,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "points": 99,
+    "dateModified": "2025-12-02 22:45:30",
+    "forumTopicId": 33208,
     "hashes": [
       "c4e93e077549ca2ae6804f9bc97d856c"
     ]
@@ -21834,7 +22462,7 @@
     "numAchievements": 30,
     "numLeaderboards": 2,
     "points": 270,
-    "dateModified": "2023-02-28 19:00:24",
+    "dateModified": "2025-09-11 15:48:10",
     "forumTopicId": 10135,
     "hashes": [
       "1ff635b6dd49c1b03bb02c35c3823cf6",
@@ -21894,7 +22522,7 @@
     "id": 20425,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/097811.png",
+    "imageIcon": "/Images/121003.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -22028,7 +22656,7 @@
     "id": 15071,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/061460.png",
+    "imageIcon": "/Images/123051.png",
     "numAchievements": 40,
     "numLeaderboards": 2,
     "points": 400,
@@ -22052,6 +22680,21 @@
     "forumTopicId": null,
     "hashes": [
       "f156e7995d521f30e6c59a3d6c75e1e5"
+    ]
+  },
+  {
+    "title": "Psyvariar 2: The Will to Fabricate",
+    "id": 37496,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b515483e93f6fd0314131adf09b028d0"
     ]
   },
   {
@@ -22120,7 +22763,7 @@
     "id": 11949,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/060936.png",
+    "imageIcon": "/Images/121548.png",
     "numAchievements": 22,
     "numLeaderboards": 1,
     "points": 335,
@@ -22185,8 +22828,8 @@
     "imageIcon": "/Images/099192.png",
     "numAchievements": 16,
     "numLeaderboards": 16,
-    "points": 302,
-    "dateModified": "2024-08-31 08:43:43",
+    "points": 352,
+    "dateModified": "2025-09-22 06:01:46",
     "forumTopicId": 27102,
     "hashes": [
       "26cdb87b749f4fe2184fe44627b8097c"
@@ -22238,22 +22881,7 @@
     ]
   },
   {
-    "title": "Puzzle Bobble | Bubble Buster [Taito B System]",
-    "id": 12730,
-    "consoleId": 27,
-    "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "3b179c064eb209d340d9f1d3760ce7bd"
-    ]
-  },
-  {
-    "title": "Puzzle Bobble | Bust-A-Move [Neo-Geo MVS]",
+    "title": "Puzzle Bobble (Neo Geo)",
     "id": 12247,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -22268,7 +22896,22 @@
     ]
   },
   {
-    "title": "Puzzle Bobble 2 | Bust-A-Move Again EX [Neo-Geo MVS]",
+    "title": "Puzzle Bobble (Taito B System)",
+    "id": 12730,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3b179c064eb209d340d9f1d3760ce7bd"
+    ]
+  },
+  {
+    "title": "Puzzle Bobble 2 (Neo Geo)",
     "id": 12248,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -22283,7 +22926,7 @@
     ]
   },
   {
-    "title": "Puzzle Bobble 2X | Puzzle Bobble 2 | Bust-A-Move Again [Taito F3]",
+    "title": "Puzzle Bobble 2 (Taito F3 System)",
     "id": 13580,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -22310,7 +22953,7 @@
     "numAchievements": 56,
     "numLeaderboards": 0,
     "points": 420,
-    "dateModified": "2021-08-02 19:30:35",
+    "dateModified": "2025-11-26 16:07:30",
     "forumTopicId": 13577,
     "hashes": [
       "d4e733d8b3cff7a9f023ab86ebf66230",
@@ -22548,6 +23191,23 @@
       "a0437dd9127ce27b548be5b611537830",
       "aebf10325da43fcf85cc6f0612351e8f",
       "e11817ffb706a049310ef60ba37fde4b"
+    ]
+  },
+  {
+    "title": "Pyros",
+    "id": 12558,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/096320.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0d624fd28ba472ad7b880ba06754bf7a",
+      "1d63b8b1830873f8b0966686e7cf86e7",
+      "cc5146af83f4c690307ba8ba9ba9dc10"
     ]
   },
   {
@@ -23371,15 +24031,15 @@
     "id": 12228,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/095158.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "imageIcon": "/Images/121785.png",
+    "numAchievements": 42,
+    "numLeaderboards": 9,
+    "points": 285,
+    "dateModified": "2026-01-25 23:36:34",
     "forumTopicId": 12755,
     "hashes": [
       "6a8f93c8604f7ce5feb3598abfda4a03",
-      "d2be308571eac8b93dc65c3db94c2e67"
+      "8c081dd74a81d7551cb487605c7a0a6e"
     ]
   },
   {
@@ -23552,7 +24212,7 @@
     "id": 13628,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120092.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -24151,6 +24811,23 @@
     ]
   },
   {
+    "title": "Ring Fighter",
+    "id": 13860,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1bbcfa7e9afa7287e7569036626ebdca",
+      "43d016f69c9779b6b0290950fc6c52c6",
+      "4e54127c99fa4f4ee10c6f1884ab42b2"
+    ]
+  },
+  {
     "title": "Ring King | King of Boxer",
     "id": 15565,
     "consoleId": 27,
@@ -24171,12 +24848,12 @@
     "id": 12227,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120684.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 1,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2025-12-03 20:35:43",
+    "forumTopicId": 33270,
     "hashes": [
       "8c3aa38f1a711497ca884b310cd2c90c"
     ]
@@ -24250,10 +24927,10 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/113673.png",
-    "numAchievements": 0,
+    "numAchievements": 25,
     "numLeaderboards": 4,
-    "points": 0,
-    "dateModified": "2025-08-01 10:08:00",
+    "points": 348,
+    "dateModified": "2025-12-22 00:34:31",
     "forumTopicId": 30757,
     "hashes": [
       "a8a5d7ef0adbe978a3b1179ef6d0533b"
@@ -24410,6 +25087,22 @@
     "forumTopicId": null,
     "hashes": [
       "572b4dc2a7d8a9065eb9083506d6e20f"
+    ]
+  },
+  {
+    "title": "Rohga Armor Force",
+    "id": 11887,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/104103.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "078310afc79805b97b2583ff1fcd2dd5",
+      "d60647bd39e23fd7bb0d64cff3c81a50"
     ]
   },
   {
@@ -24575,7 +25268,7 @@
     "numAchievements": 34,
     "numLeaderboards": 4,
     "points": 485,
-    "dateModified": "2023-03-24 02:35:24",
+    "dateModified": "2025-12-08 17:40:26",
     "forumTopicId": 11471,
     "hashes": [
       "3062538fc1a23d3cf8b1390c18a828bf",
@@ -24821,7 +25514,7 @@
     "numAchievements": 58,
     "numLeaderboards": 0,
     "points": 420,
-    "dateModified": "2025-03-15 23:13:14",
+    "dateModified": "2025-10-21 16:25:17",
     "forumTopicId": 6596,
     "hashes": [
       "d32b94ad2780e0de66615bb2effae910",
@@ -24910,6 +25603,21 @@
     "forumTopicId": null,
     "hashes": [
       "1c1fd195a4c39fe5cf30784aac800c21"
+    ]
+  },
+  {
+    "title": "Sand Scorpion",
+    "id": 37478,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f68e0c686824aee149981230e1d877c2"
     ]
   },
   {
@@ -25185,6 +25893,21 @@
     ]
   },
   {
+    "title": "SD Fighters",
+    "id": 37660,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "969df3bcc13a6e89218ac3d513f660ed"
+    ]
+  },
+  {
     "title": "SD Gundam Neo Battling",
     "id": 15840,
     "consoleId": 27,
@@ -25204,7 +25927,7 @@
     "id": 15197,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120414.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -25489,6 +26212,22 @@
     ]
   },
   {
+    "title": "Sengoku Blade: Sengoku Ace Episode II",
+    "id": 13853,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/062938.png",
+    "numAchievements": 59,
+    "numLeaderboards": 6,
+    "points": 429,
+    "dateModified": "2022-10-22 15:48:43",
+    "forumTopicId": 18524,
+    "hashes": [
+      "22fdc9c5a205d18516d3782ae8c40a8a",
+      "d9991d73b73d6d5834b222330377b7cf"
+    ]
+  },
+  {
     "title": "Senjyo",
     "id": 15089,
     "consoleId": 27,
@@ -25642,6 +26381,21 @@
     ]
   },
   {
+    "title": "Shanghai Kid",
+    "id": 37661,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "dc816b2ecc531ae65108f4c044d11e5c"
+    ]
+  },
+  {
     "title": "Shao-Lin's Road",
     "id": 12609,
     "consoleId": 27,
@@ -25669,6 +26423,34 @@
     "forumTopicId": null,
     "hashes": [
       "b396d70d8956004a448e0dcf649868e9"
+    ]
+  },
+  {
+    "title": "shikigam",
+    "id": 37505,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
+    "title": "Shikigami no Shiro II",
+    "id": 37497,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "cf86990405ad0d461614d2459b42e3f5"
     ]
   },
   {
@@ -25777,6 +26559,21 @@
     "forumTopicId": null,
     "hashes": [
       "56ea6cd93e8c5ab99d3b63c200813b9d"
+    ]
+  },
+  {
+    "title": "Shooting Master",
+    "id": 37668,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fd70f5aab039ce03c0f3b7cc37eb15aa"
     ]
   },
   {
@@ -25981,6 +26778,21 @@
     ]
   },
   {
+    "title": "Sky Alert",
+    "id": 37479,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "531583fd83b24a66ef593b3da9ab6b3c"
+    ]
+  },
+  {
     "title": "Sky Army",
     "id": 12423,
     "consoleId": 27,
@@ -26100,6 +26912,21 @@
     "forumTopicId": null,
     "hashes": [
       "657def108c9c4454d6d5708b6ad454a0"
+    ]
+  },
+  {
+    "title": "Sky Smasher",
+    "id": 37480,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1f5ae250323454b1de0f05a2a8e440f1"
     ]
   },
   {
@@ -26234,7 +27061,7 @@
     "numAchievements": 11,
     "numLeaderboards": 1,
     "points": 110,
-    "dateModified": "2024-11-25 20:23:25",
+    "dateModified": "2025-09-02 18:38:44",
     "forumTopicId": 26372,
     "hashes": [
       "9d630db6fcf053cd0b15e4ca69068579"
@@ -26246,9 +27073,9 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/054647.png",
-    "numAchievements": 105,
+    "numAchievements": 103,
     "numLeaderboards": 0,
-    "points": 770,
+    "points": 760,
     "dateModified": "2025-01-17 01:07:48",
     "forumTopicId": 6276,
     "hashes": [
@@ -26267,7 +27094,7 @@
     "numAchievements": 0,
     "numLeaderboards": 8,
     "points": 0,
-    "dateModified": "2025-07-15 03:15:27",
+    "dateModified": "2025-10-31 04:51:02",
     "forumTopicId": 31188,
     "hashes": [
       "02eea2ea4cadda2a3ac90a5dd385136e"
@@ -26293,6 +27120,21 @@
       "65718b284fa6608b9d794f2435943dd6",
       "6ba512d34d9dc048bf957ebcbcac5071",
       "8145f0bfabe65541dace0c42c2bfa3e6"
+    ]
+  },
+  {
+    "title": "Snowboard Championship",
+    "id": 36981,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b92c7437919de4fd540ef8b2b89a808a"
     ]
   },
   {
@@ -26400,6 +27242,21 @@
     "forumTopicId": null,
     "hashes": [
       "51162173ef1adbd6698ad35ef31576bf"
+    ]
+  },
+  {
+    "title": "Solite Spirits",
+    "id": 37481,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ef043f0a831a28728758f4b2bd4eb7db"
     ]
   },
   {
@@ -26964,6 +27821,22 @@
     ]
   },
   {
+    "title": "Spectrum 2000",
+    "id": 37482,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "415f94ec811a0b3013b6bffc873e73a1",
+      "87d9c31a36dff475b2fddd9c2893d720"
+    ]
+  },
+  {
     "title": "Speed Ball",
     "id": 15254,
     "consoleId": 27,
@@ -27107,9 +27980,9 @@
     "consoleName": "Arcade",
     "imageIcon": "/Images/057186.png",
     "numAchievements": 10,
-    "numLeaderboards": 0,
+    "numLeaderboards": 1,
     "points": 65,
-    "dateModified": "2022-04-29 17:28:41",
+    "dateModified": "2025-12-17 12:48:23",
     "forumTopicId": 7870,
     "hashes": [
       "b811200981f92189f52007b5f415d6b3"
@@ -27191,6 +28064,21 @@
     ]
   },
   {
+    "title": "Squash (Gaelco)",
+    "id": 37471,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "bff23476a33b6bfe3b0353826940edd3"
+    ]
+  },
+  {
     "title": "Stack Columns",
     "id": 29609,
     "consoleId": 27,
@@ -27253,6 +28141,22 @@
     ]
   },
   {
+    "title": "Stagger 1",
+    "id": 37484,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0198c71280199a197ee33f86deb51b66",
+      "251281a953dfa98f9d93edc39bbd191c"
+    ]
+  },
+  {
     "title": "Stakes Winner",
     "id": 13812,
     "consoleId": 27,
@@ -27261,7 +28165,7 @@
     "numAchievements": 20,
     "numLeaderboards": 16,
     "points": 208,
-    "dateModified": "2023-11-23 01:33:39",
+    "dateModified": "2025-11-13 06:35:53",
     "forumTopicId": 11137,
     "hashes": [
       "cc7d39b1ffe850ce8aa1f7842a6ee1e6"
@@ -27436,6 +28340,21 @@
     ]
   },
   {
+    "title": "Stone Ball",
+    "id": 36307,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "14e5c1438841c4dc380dbe111ed8654a"
+    ]
+  },
+  {
     "title": "Storm Blade",
     "id": 13568,
     "consoleId": 27,
@@ -27553,7 +28472,7 @@
     "numAchievements": 44,
     "numLeaderboards": 2,
     "points": 410,
-    "dateModified": "2024-12-05 19:17:28",
+    "dateModified": "2025-11-10 14:07:34",
     "forumTopicId": 6332,
     "hashes": [
       "dad56c492769e5947c01216ab94dfcb3",
@@ -27971,11 +28890,11 @@
     "id": 11932,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/028135.png",
+    "imageIcon": "/Images/123568.png",
     "numAchievements": 20,
     "numLeaderboards": 1,
     "points": 188,
-    "dateModified": "2024-03-29 15:58:36",
+    "dateModified": "2025-09-23 11:56:14",
     "forumTopicId": 9204,
     "hashes": [
       "492ea859726d84d6fc94aaed5d07152c"
@@ -28051,7 +28970,7 @@
     "id": 12441,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119636.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -28144,10 +29063,10 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/112005.png",
-    "numAchievements": 29,
+    "numAchievements": 24,
     "numLeaderboards": 4,
-    "points": 255,
-    "dateModified": "2022-09-11 09:35:13",
+    "points": 275,
+    "dateModified": "2025-11-09 12:05:48",
     "forumTopicId": 17653,
     "hashes": [
       "d71e7a62aa3aa099bfebfc68c08208c0"
@@ -28378,7 +29297,7 @@
     "numAchievements": 16,
     "numLeaderboards": 2,
     "points": 190,
-    "dateModified": "2024-01-04 22:48:08",
+    "dateModified": "2025-11-26 15:06:09",
     "forumTopicId": 24953,
     "hashes": [
       "78c20093f836a476cd19d689681178ae",
@@ -28586,6 +29505,21 @@
     ]
   },
   {
+    "title": "Super Spacefortress Macross",
+    "id": 37485,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "72f90ef8fb541a1a3a975b01afbc6493"
+    ]
+  },
+  {
     "title": "Super Speed Race Jr.",
     "id": 15285,
     "consoleId": 27,
@@ -28620,7 +29554,7 @@
     "id": 12273,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/065203.png",
+    "imageIcon": "/Images/120853.png",
     "numAchievements": 55,
     "numLeaderboards": 70,
     "points": 460,
@@ -28639,7 +29573,7 @@
     "id": 12271,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/065204.png",
+    "imageIcon": "/Images/120548.png",
     "numAchievements": 45,
     "numLeaderboards": 34,
     "points": 422,
@@ -29219,6 +30153,21 @@
     ]
   },
   {
+    "title": "Tao Taido",
+    "id": 37662,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "69b13485f5205dec40fa04d875ddbad5"
+    ]
+  },
+  {
     "title": "Tapper",
     "id": 15003,
     "consoleId": 27,
@@ -29242,7 +30191,7 @@
     "numAchievements": 16,
     "numLeaderboards": 3,
     "points": 145,
-    "dateModified": "2025-05-14 19:08:25",
+    "dateModified": "2025-09-19 16:40:09",
     "forumTopicId": 27101,
     "hashes": [
       "96c0d70925ca11ccaffc5432b4080cf7"
@@ -29291,6 +30240,21 @@
     "forumTopicId": null,
     "hashes": [
       "d584688f63b5521dfcc0de64f3ae22a5"
+    ]
+  },
+  {
+    "title": "Tecmo Knight",
+    "id": 15305,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/104612.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "87cbdd65b96a085d1b7514cd9534db43"
     ]
   },
   {
@@ -29347,7 +30311,7 @@
     "numAchievements": 29,
     "numLeaderboards": 2,
     "points": 250,
-    "dateModified": "2025-06-28 00:40:36",
+    "dateModified": "2026-01-29 02:15:59",
     "forumTopicId": 9680,
     "hashes": [
       "344f706dd7fa89df2b38166b5f300c48",
@@ -29429,22 +30393,6 @@
     "forumTopicId": 11392,
     "hashes": [
       "6ad8536215968eb1f3494143392c77bf"
-    ]
-  },
-  {
-    "title": "Tengai | Sengoku Blade: Sengoku Ace Episode II",
-    "id": 13853,
-    "consoleId": 27,
-    "consoleName": "Arcade",
-    "imageIcon": "/Images/062938.png",
-    "numAchievements": 59,
-    "numLeaderboards": 6,
-    "points": 429,
-    "dateModified": "2022-10-22 15:48:43",
-    "forumTopicId": 18524,
-    "hashes": [
-      "22fdc9c5a205d18516d3782ae8c40a8a",
-      "d9991d73b73d6d5834b222330377b7cf"
     ]
   },
   {
@@ -29635,7 +30583,7 @@
     "numAchievements": 84,
     "numLeaderboards": 13,
     "points": 1863,
-    "dateModified": "2022-07-30 08:51:02",
+    "dateModified": "2025-11-18 08:25:32",
     "forumTopicId": 13008,
     "hashes": [
       "8db1903d29deae4b52b4cbdcaa48c3c7"
@@ -29856,6 +30804,21 @@
     ]
   },
   {
+    "title": "The Eye of Typhoon",
+    "id": 37665,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "678399e216e09bd02744f730ad1ac0a3"
+    ]
+  },
+  {
     "title": "The Fairyland Story",
     "id": 15103,
     "consoleId": 27,
@@ -29869,6 +30832,21 @@
     "hashes": [
       "198f18f50489334844006dba9c2650d6",
       "dd7298ed4d06bb2d8f2a10e227716c0c"
+    ]
+  },
+  {
+    "title": "The Final Round",
+    "id": 37663,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "583fcc95cb7913addd819eb0cbad58f3"
     ]
   },
   {
@@ -29929,6 +30907,21 @@
     "forumTopicId": 24521,
     "hashes": [
       "b73c99fc25257f76db1acc1f78dbec8b"
+    ]
+  },
+  {
+    "title": "The Karate Tournament",
+    "id": 37664,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5a8beeca87855c63d0ec25e6d83f821f"
     ]
   },
   {
@@ -29996,7 +30989,7 @@
     "id": 12029,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/031991.png",
+    "imageIcon": "/Images/120959.png",
     "numAchievements": 57,
     "numLeaderboards": 0,
     "points": 515,
@@ -30011,11 +31004,11 @@
     "id": 12030,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/035635.png",
+    "imageIcon": "/Images/120960.png",
     "numAchievements": 96,
     "numLeaderboards": 3,
     "points": 719,
-    "dateModified": "2023-02-16 20:28:47",
+    "dateModified": "2025-11-22 06:18:12",
     "forumTopicId": 6541,
     "hashes": [
       "23438b2c55800e5b4e8ab86f525b379c",
@@ -30048,18 +31041,14 @@
     "id": 11757,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/035600.png",
+    "imageIcon": "/Images/120961.png",
     "numAchievements": 97,
     "numLeaderboards": 3,
     "points": 761,
-    "dateModified": "2025-08-04 23:41:59",
+    "dateModified": "2025-12-15 23:02:20",
     "forumTopicId": 6590,
     "hashes": [
-      "13e4ced9b848a542cdee1ec31a150a1a",
-      "28bf131945d07b8709e07645ce6bada5",
-      "a33726f35cbcf7fc44b0fecc2e4c3d2f",
-      "c0959b94e46f1811952055be7f59cba6",
-      "f1afe8fcd96d1e72afc826d4a1b4cd62"
+      "c0959b94e46f1811952055be7f59cba6"
     ]
   },
   {
@@ -30067,11 +31056,11 @@
     "id": 12032,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/035601.png",
+    "imageIcon": "/Images/120962.png",
     "numAchievements": 74,
     "numLeaderboards": 1,
     "points": 560,
-    "dateModified": "2025-05-23 15:25:26",
+    "dateModified": "2025-11-21 19:25:05",
     "forumTopicId": 6591,
     "hashes": [
       "1653c67c602403333d94dd921737ce8e",
@@ -30103,7 +31092,7 @@
     "numAchievements": 99,
     "numLeaderboards": 1,
     "points": 650,
-    "dateModified": "2025-05-06 14:42:58",
+    "dateModified": "2025-11-21 20:27:34",
     "forumTopicId": 6549,
     "hashes": [
       "68c49e3c1c365e44323e50ea159a6e6f"
@@ -30118,7 +31107,7 @@
     "numAchievements": 134,
     "numLeaderboards": 1,
     "points": 867,
-    "dateModified": "2025-05-25 13:44:46",
+    "dateModified": "2025-09-04 05:29:36",
     "forumTopicId": 6550,
     "hashes": [
       "bcdeb242322af6d883799bd46d874d62"
@@ -30191,11 +31180,11 @@
     "id": 12040,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/112011.png",
+    "imageIcon": "/Images/122040.png",
     "numAchievements": 66,
     "numLeaderboards": 2,
     "points": 485,
-    "dateModified": "2025-03-17 15:31:39",
+    "dateModified": "2025-10-20 21:22:32",
     "forumTopicId": 6863,
     "hashes": [
       "99f1459f643a1abb0fd8b1c2e806aaa8",
@@ -30207,7 +31196,7 @@
     "id": 11753,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/112012.png",
+    "imageIcon": "/Images/122041.png",
     "numAchievements": 83,
     "numLeaderboards": 0,
     "points": 758,
@@ -30386,7 +31375,7 @@
     "numAchievements": 21,
     "numLeaderboards": 0,
     "points": 315,
-    "dateModified": "2024-07-24 13:21:34",
+    "dateModified": "2025-09-10 21:38:31",
     "forumTopicId": 17886,
     "hashes": [
       "8e4198143ef5c65f18eaa3455272b28f"
@@ -30401,7 +31390,7 @@
     "numAchievements": 21,
     "numLeaderboards": 2,
     "points": 250,
-    "dateModified": "2023-04-23 06:44:16",
+    "dateModified": "2026-01-24 04:56:58",
     "forumTopicId": 18918,
     "hashes": [
       "620b4d404ea4d6111c23c9831c2db236"
@@ -30521,11 +31510,11 @@
     "id": 12049,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/067439.png",
+    "imageIcon": "/Images/117651.png",
     "numAchievements": 34,
     "numLeaderboards": 1,
     "points": 213,
-    "dateModified": "2025-06-05 04:02:25",
+    "dateModified": "2025-11-27 22:17:17",
     "forumTopicId": 8706,
     "hashes": [
       "476bcc5adcac540638c9be39f017ffbb"
@@ -30581,7 +31570,7 @@
     "id": 12051,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/112117.png",
+    "imageIcon": "/Images/120210.png",
     "numAchievements": 85,
     "numLeaderboards": 4,
     "points": 911,
@@ -30823,6 +31812,21 @@
     ]
   },
   {
+    "title": "Thunder Strike",
+    "id": 37486,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a6f3b683060038f360fe0781888467be"
+    ]
+  },
+  {
     "title": "Thunder Zone",
     "id": 11921,
     "consoleId": 27,
@@ -30961,11 +31965,11 @@
     "id": 11902,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/095113.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "imageIcon": "/Images/117395.png",
+    "numAchievements": 21,
+    "numLeaderboards": 6,
+    "points": 189,
+    "dateModified": "2025-12-01 14:51:01",
     "forumTopicId": 26320,
     "hashes": [
       "712417f8d15c9cebd3f2fd22a99aba84"
@@ -31043,7 +32047,7 @@
     "numAchievements": 75,
     "numLeaderboards": 2,
     "points": 658,
-    "dateModified": "2025-01-25 13:20:08",
+    "dateModified": "2025-11-07 20:12:09",
     "forumTopicId": 28499,
     "hashes": [
       "ecc2cde2de28d48ca45b5e631f677114"
@@ -31268,6 +32272,21 @@
     "forumTopicId": null,
     "hashes": [
       "04161f4a2dcae0f92188c44c0f9c45da"
+    ]
+  },
+  {
+    "title": "Touch and Go",
+    "id": 37595,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2d4b92b35b3c705f4de128fbaa68d9d3"
     ]
   },
   {
@@ -31758,7 +32777,7 @@
     "numAchievements": 26,
     "numLeaderboards": 1,
     "points": 250,
-    "dateModified": "2024-10-31 23:41:28",
+    "dateModified": "2025-12-08 11:20:57",
     "forumTopicId": 17028,
     "hashes": [
       "0b2e44b3fc2833928d9e4595764281b4",
@@ -31768,7 +32787,7 @@
     ]
   },
   {
-    "title": "Turtles | Turpin | 600",
+    "title": "Turtles",
     "id": 12204,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -31797,6 +32816,21 @@
     "forumTopicId": null,
     "hashes": [
       "607da7e08a4ba3fe8dcb1c35b6657da2"
+    ]
+  },
+  {
+    "title": "Twin Action",
+    "id": 37487,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b1f779895bea84e03b653f51c58e9236"
     ]
   },
   {
@@ -32089,7 +33123,7 @@
     "id": 14654,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/105571.png",
+    "imageIcon": "/Images/122181.png",
     "numAchievements": 65,
     "numLeaderboards": 0,
     "points": 640,
@@ -32145,7 +33179,7 @@
     ]
   },
   {
-    "title": "Ultra X Weapons | Ultra Keibitai",
+    "title": "Ultra X Weapons",
     "id": 13572,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -32251,7 +33285,7 @@
     ]
   },
   {
-    "title": "Undercover Cops | Undercover Cops: Alpha Renewal Version",
+    "title": "Undercover Cops: Alpha Renewal Version",
     "id": 12416,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -32269,7 +33303,7 @@
     ]
   },
   {
-    "title": "UniWar S | Ginga Teikoku no Gyakushu",
+    "title": "Uniwars",
     "id": 15612,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -32358,7 +33392,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 32120,
     "hashes": [
       "a54e73cb56192425dd3cf6edc1e86129"
     ]
@@ -32376,6 +33410,21 @@
     "forumTopicId": null,
     "hashes": [
       "0a9d9ad46ec7575c4fc3bd8b4e823715"
+    ]
+  },
+  {
+    "title": "Vamf x1/2",
+    "id": 37495,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ca996c8e06014e5386680a696a483199"
     ]
   },
   {
@@ -32402,7 +33451,7 @@
     "numAchievements": 42,
     "numLeaderboards": 1,
     "points": 334,
-    "dateModified": "2025-06-03 21:47:28",
+    "dateModified": "2025-09-21 14:30:33",
     "forumTopicId": 6545,
     "hashes": [
       "653a65cf189f34c5b0f3822bfb5dd35a"
@@ -32417,7 +33466,7 @@
     "numAchievements": 39,
     "numLeaderboards": 0,
     "points": 385,
-    "dateModified": "2025-04-03 21:14:59",
+    "dateModified": "2025-11-17 04:40:01",
     "forumTopicId": 6530,
     "hashes": [
       "5a1d940539dec232625b09144b7c1cc3"
@@ -32484,7 +33533,7 @@
     ]
   },
   {
-    "title": "Vapor Trail: Hyper Offence Formation | Kuhga: Operation Code Vapor Trail",
+    "title": "Vapor Trail: Hyper Offence Formation",
     "id": 12548,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -32499,6 +33548,21 @@
       "92667a91b151826b555bdfc01008cc3f",
       "dadcff2b0050530beda77d864df10be6",
       "f1fb31670536b1b2c7b955474ad851a2"
+    ]
+  },
+  {
+    "title": "Varia Metal",
+    "id": 37488,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3e2869b9bde6f1104633e5aeabaa4b5d"
     ]
   },
   {
@@ -32579,7 +33643,7 @@
     ]
   },
   {
-    "title": "Victory Road | Dogou Souken",
+    "title": "Victory Road",
     "id": 12552,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -32751,7 +33815,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "11d1f8d9ed1c95f282c6f690f9bac4e4"
+    ]
   },
   {
     "title": "Virtua Fighter 4: Final Tuned",
@@ -32766,6 +33832,21 @@
     "forumTopicId": null,
     "hashes": [
       "2f6e012750f71dde934a1f8adfda8a6e"
+    ]
+  },
+  {
+    "title": "Virtua Golf",
+    "id": 29069,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/117190.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 25971,
+    "hashes": [
+      "a737a87d85d2b20a0b0bd7d604988036"
     ]
   },
   {
@@ -32799,7 +33880,7 @@
     ]
   },
   {
-    "title": "Voltage Fighter: Gowcaizer | Choujin Gakuen Gowcaizer",
+    "title": "Voltage Fighter Gowcaizer",
     "id": 13822,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -32827,23 +33908,6 @@
     "hashes": [
       "e2c03473df5b47002b8719d1c52455ca",
       "f9e06ff34c90eeae8c71d2886ea23012"
-    ]
-  },
-  {
-    "title": "VS Gong Fight | Ring Fighter",
-    "id": 13860,
-    "consoleId": 27,
-    "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "1bbcfa7e9afa7287e7569036626ebdca",
-      "43d016f69c9779b6b0290950fc6c52c6",
-      "4e54127c99fa4f4ee10c6f1884ab42b2"
     ]
   },
   {
@@ -33330,22 +34394,6 @@
     ]
   },
   {
-    "title": "Wai Wai Jockey Gate-In! | Photo Finish",
-    "id": 13737,
-    "consoleId": 27,
-    "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 8277,
-    "hashes": [
-      "6ca614337eb3f4ae154002966f591166",
-      "77fbbfcd7f267babaeab28385a1f9d03"
-    ]
-  },
-  {
     "title": "WaiWai Drive",
     "id": 29594,
     "consoleId": 27,
@@ -33353,8 +34401,8 @@
     "imageIcon": "/Images/100287.png",
     "numAchievements": 7,
     "numLeaderboards": 0,
-    "points": 22,
-    "dateModified": "2024-07-30 17:57:26",
+    "points": 27,
+    "dateModified": "2025-12-20 15:00:28",
     "forumTopicId": 27181,
     "hashes": [
       "450599133cf83960a96063027342d6b6"
@@ -33384,7 +34432,7 @@
     "numAchievements": 45,
     "numLeaderboards": 0,
     "points": 476,
-    "dateModified": "2025-07-10 04:06:34",
+    "dateModified": "2026-01-06 19:13:18",
     "forumTopicId": 6305,
     "hashes": [
       "b7e62952de4c640b526a79338d631bd6"
@@ -33497,20 +34545,18 @@
     ]
   },
   {
-    "title": "Wardner | Pyros | Wardner no Mori",
-    "id": 12558,
+    "title": "Warlords",
+    "id": 36614,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/096320.png",
+    "imageIcon": "/Images/000001.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "0d624fd28ba472ad7b880ba06754bf7a",
-      "1d63b8b1830873f8b0966686e7cf86e7",
-      "cc5146af83f4c690307ba8ba9ba9dc10"
+      "9ebc5f537167846c576e9423a1a0da9f"
     ]
   },
   {
@@ -33552,7 +34598,7 @@
     "numAchievements": 55,
     "numLeaderboards": 0,
     "points": 480,
-    "dateModified": "2025-02-26 15:14:50",
+    "dateModified": "2025-11-25 04:11:37",
     "forumTopicId": 6868,
     "hashes": [
       "da5c580bfa56914ef2e260f2c3483602"
@@ -33668,7 +34714,7 @@
     ]
   },
   {
-    "title": "Wiggie Waggie | Super Bar",
+    "title": "Wiggie Waggie",
     "id": 15898,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -33681,21 +34727,6 @@
     "hashes": [
       "2536affdfba27eb69ca78669f5bfd211",
       "b0f296f8d2dace9840a7c964ccf4ad45"
-    ]
-  },
-  {
-    "title": "Wild Fang | Tecmo Knight",
-    "id": 15305,
-    "consoleId": 27,
-    "consoleName": "Arcade",
-    "imageIcon": "/Images/104612.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "87cbdd65b96a085d1b7514cd9534db43"
     ]
   },
   {
@@ -33776,23 +34807,6 @@
     ]
   },
   {
-    "title": "Wily Tower | Atomic Boy",
-    "id": 13870,
-    "consoleId": 27,
-    "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "0c715db2371980a1c607cc2a690e4105",
-      "a4fa076af3adb628a95449c2ae3f3c60",
-      "f9c98d3324cdd4373e233336b3f3c5de"
-    ]
-  },
-  {
     "title": "Windjammers",
     "id": 11860,
     "consoleId": 27,
@@ -33855,6 +34869,22 @@
     ]
   },
   {
+    "title": "Wivern Wings",
+    "id": 37490,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "fa8945f30c448504a70ce0ecc7cd3bf6",
+      "3a1720cb9da57c79f9a665c1e9e662c6"
+    ]
+  },
+  {
     "title": "Wiz",
     "id": 13885,
     "consoleId": 27,
@@ -33869,37 +34899,6 @@
       "7d3e675fa4874262a946f246094ee119",
       "a8996a8e07702dd1f5f08b6927120735",
       "e3b77378c20be9f63f86c33efa6f8d47"
-    ]
-  },
-  {
-    "title": "Wizard Fire | Dark Seal II",
-    "id": 11890,
-    "consoleId": 27,
-    "consoleName": "Arcade",
-    "imageIcon": "/Images/097863.png",
-    "numAchievements": 15,
-    "numLeaderboards": 1,
-    "points": 195,
-    "dateModified": "2024-09-05 08:28:46",
-    "forumTopicId": 26733,
-    "hashes": [
-      "844337b3335affd9a63e101b9e949694"
-    ]
-  },
-  {
-    "title": "Wolf Fang: Kuhga 2001 | Rohga Armor Force",
-    "id": 11887,
-    "consoleId": 27,
-    "consoleName": "Arcade",
-    "imageIcon": "/Images/104103.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "078310afc79805b97b2583ff1fcd2dd5",
-      "d60647bd39e23fd7bb0d64cff3c81a50"
     ]
   },
   {
@@ -34136,10 +35135,10 @@
     "consoleId": 27,
     "consoleName": "Arcade",
     "imageIcon": "/Images/109483.png",
-    "numAchievements": 0,
+    "numAchievements": 27,
     "numLeaderboards": 17,
-    "points": 0,
-    "dateModified": "2025-08-16 19:47:31",
+    "points": 299,
+    "dateModified": "2025-10-19 11:14:38",
     "forumTopicId": 30177,
     "hashes": [
       "e07e71e9d01b6aeb7622741b93a5b1fd"
@@ -34150,12 +35149,12 @@
     "id": 27017,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119339.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 17,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2025-11-01 13:18:47",
+    "forumTopicId": 32869,
     "hashes": [
       "d8c6bdd39d4b8d3f87305bfb636297cc"
     ]
@@ -34227,10 +35226,10 @@
     "consoleName": "Arcade",
     "imageIcon": "/Images/083321.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 8,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-30 01:10:22",
+    "forumTopicId": 33692,
     "hashes": [
       "a0c67241c39b98ab377804383b3c28ec"
     ]
@@ -34240,7 +35239,7 @@
     "id": 11888,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/083324.png",
+    "imageIcon": "/Images/121178.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -34255,7 +35254,7 @@
     "id": 29679,
     "consoleId": 27,
     "consoleName": "Arcade",
-    "imageIcon": "/Images/097905.png",
+    "imageIcon": "/Images/121179.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -34351,7 +35350,7 @@
     ]
   },
   {
-    "title": "Xain'd Sleena | Solar-Warrior",
+    "title": "Xain'd Sleena",
     "id": 12571,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -34376,26 +35375,9 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 34210,
     "hashes": [
       "2df5fd76b70b23808a3ff4c9f680f57c"
-    ]
-  },
-  {
-    "title": "Xexex | Orius",
-    "id": 12573,
-    "consoleId": 27,
-    "consoleName": "Arcade",
-    "imageIcon": "/Images/074738.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "b05956715f2900dec8d40cf321aac210",
-      "773b5780c2f4fe4d5252d21c2dab791a",
-      "ddd55aaef4322097691abf1e32feaa9b"
     ]
   },
   {
@@ -34629,7 +35611,22 @@
     ]
   },
   {
-    "title": "Zero Team | Zero Team U.S.A. | Zero Team Selection",
+    "title": "Zero Team 2000",
+    "id": 15695,
+    "consoleId": 27,
+    "consoleName": "Arcade",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3ab4e028297ed2a82675e5988213d16f"
+    ]
+  },
+  {
+    "title": "Zero Team U.S.A.",
     "id": 15693,
     "consoleId": 27,
     "consoleName": "Arcade",
@@ -34646,21 +35643,6 @@
       "cda527e6b1e989c081b79f33e3a8874d",
       "d1c8a70beed9adf09503abeb5f753315",
       "d9da27aa14e8749c023dec77e9c9e39e"
-    ]
-  },
-  {
-    "title": "Zero Team 2000",
-    "id": 15695,
-    "consoleId": 27,
-    "consoleName": "Arcade",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "3ab4e028297ed2a82675e5988213d16f"
     ]
   },
   {
@@ -34818,7 +35800,7 @@
     ]
   },
   {
-    "title": "Zunzunkyou No Yabou | Ambitious of ZunZun",
+    "title": "Zunzunkyou no Yabou",
     "id": 29612,
     "consoleId": 27,
     "consoleName": "Arcade",

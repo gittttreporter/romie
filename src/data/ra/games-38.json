@@ -90,6 +90,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Lemmings: Homestar Runner Expansion",
+    "id": 37789,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b92516304774a3f481478f17791f33c9"
+    ]
+  },
+  {
     "title": "~Homebrew~ Manic Miner",
     "id": 26055,
     "consoleId": 38,
@@ -134,6 +149,25 @@
       "2f6665821ccd15b973a6760a65355afc",
       "84d3a3c371082fb74bcd54beba1deaa9",
       "1c86981edf50d31666adb9ed4932610c"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Peasant's Quest",
+    "id": 37788,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1d544ec9a6d8ec74c7b92118bd13d32f",
+      "2ee7669c533b361a7ba28b1f9db58799",
+      "5e4c6d601b249de5a8ffd4916c112219",
+      "ccef105b5a73778518bb38788b135fb5",
+      "61a6ed559dac2ffbbb719621851b4d8f"
     ]
   },
   {
@@ -242,6 +276,51 @@
     ]
   },
   {
+    "title": "~Prototype~ Mario Bros.",
+    "id": 14183,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/071861.png",
+    "numAchievements": 40,
+    "numLeaderboards": 2,
+    "points": 330,
+    "dateModified": "2023-05-01 15:08:40",
+    "forumTopicId": 21384,
+    "hashes": [
+      "30de3faafa79af65f7b901bf6365503a"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Battle of Hoth",
+    "id": 20871,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/106434.png",
+    "numAchievements": 7,
+    "numLeaderboards": 1,
+    "points": 65,
+    "dateModified": "2025-03-21 04:32:17",
+    "forumTopicId": 28872,
+    "hashes": [
+      "01fa5ae0a155665e31421491e03d7c2e"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Popeye",
+    "id": 36313,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8a82e88c5a72c2dca7d4e02f98e1b2e1"
+    ]
+  },
+  {
     "title": "$100,000 Pyramid",
     "id": 32319,
     "consoleId": 38,
@@ -298,7 +377,7 @@
     "numAchievements": 13,
     "numLeaderboards": 2,
     "points": 105,
-    "dateModified": "2025-03-16 13:29:17",
+    "dateModified": "2025-11-26 23:33:25",
     "forumTopicId": 28938,
     "hashes": [
       "957c6ac3752bcd138b7b6932db34b51d",
@@ -418,7 +497,7 @@
     "id": 14150,
     "consoleId": 38,
     "consoleName": "Apple II",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122426.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -677,6 +756,21 @@
     ]
   },
   {
+    "title": "Astro-Grover",
+    "id": 37599,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/121849.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3f317ae0d53a6e299ba742f58c31305d"
+    ]
+  },
+  {
     "title": "Autobahn",
     "id": 32740,
     "consoleId": 38,
@@ -816,21 +910,6 @@
     ]
   },
   {
-    "title": "Battle of Hoth",
-    "id": 20871,
-    "consoleId": 38,
-    "consoleName": "Apple II",
-    "imageIcon": "/Images/106434.png",
-    "numAchievements": 7,
-    "numLeaderboards": 1,
-    "points": 65,
-    "dateModified": "2025-03-21 04:32:17",
-    "forumTopicId": 28872,
-    "hashes": [
-      "01fa5ae0a155665e31421491e03d7c2e"
-    ]
-  },
-  {
     "title": "BattleTech: The Crescent Hawk's Inception",
     "id": 32368,
     "consoleId": 38,
@@ -877,7 +956,7 @@
     ]
   },
   {
-    "title": "Beach-Head | Beach Head",
+    "title": "Beach-Head",
     "id": 25203,
     "consoleId": 38,
     "consoleName": "Apple II",
@@ -1138,6 +1217,21 @@
     ]
   },
   {
+    "title": "Bridge Challenger",
+    "id": 37338,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "79195a076f9e2b6f452f185d1e78e1ca"
+    ]
+  },
+  {
     "title": "Bruce Lee",
     "id": 13931,
     "consoleId": 38,
@@ -1348,7 +1442,7 @@
     "numAchievements": 17,
     "numLeaderboards": 0,
     "points": 160,
-    "dateModified": "2023-08-13 18:57:24",
+    "dateModified": "2025-11-27 02:25:47",
     "forumTopicId": 22906,
     "hashes": [
       "d58a501d06db3f852884aafda9f55a41"
@@ -1437,6 +1531,21 @@
       "a67248a124a4e50326eb59dd545b7347",
       "22adcfcc72841769c5e1ef9c2777fbca",
       "f73fcd4564dcc91e81844dfaedd9cac9"
+    ]
+  },
+  {
+    "title": "Checker King",
+    "id": 37339,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "96e301bc543388c25d6405802406a142"
     ]
   },
   {
@@ -1672,6 +1781,22 @@
     ]
   },
   {
+    "title": "Curious George Visits the Library",
+    "id": 36385,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3e0b0b112ec8f957fe02804a367add39",
+      "07e9a794f39c3a9750bf828033ccc36f"
+    ]
+  },
+  {
     "title": "Curse of the Azure Bonds",
     "id": 32338,
     "consoleId": 38,
@@ -1736,6 +1861,21 @@
     "forumTopicId": 16546,
     "hashes": [
       "41fdddcf581d2c01657c95d59a585c30"
+    ]
+  },
+  {
+    "title": "Dangerous Dave Returns",
+    "id": 36732,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e86922a01ed9c585e422270482da3d46"
     ]
   },
   {
@@ -1913,7 +2053,7 @@
     "id": 34045,
     "consoleId": 38,
     "consoleName": "Apple II",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/123801.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -2100,7 +2240,7 @@
     "numAchievements": 36,
     "numLeaderboards": 0,
     "points": 109,
-    "dateModified": "2025-03-19 17:32:30",
+    "dateModified": "2025-11-19 12:55:33",
     "forumTopicId": 12778,
     "hashes": [
       "28f6c1441dfea996109c4ab873b62f21",
@@ -2161,6 +2301,51 @@
     ]
   },
   {
+    "title": "Empire I: World Builders",
+    "id": 37314,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d29a9e87579fd251cf363dbac0b1429e"
+    ]
+  },
+  {
+    "title": "Empire II: Interstellar Sharks",
+    "id": 37315,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "05734c3852ed3f384096eb7acb8ff1b6"
+    ]
+  },
+  {
+    "title": "Empire III: Armageddon",
+    "id": 37316,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "af8137015c0f0f97d97c5b9a5ac22c7b"
+    ]
+  },
+  {
     "title": "Enchanter",
     "id": 32093,
     "consoleId": 38,
@@ -2176,11 +2361,26 @@
     ]
   },
   {
+    "title": "Ernie's Magic Shapes",
+    "id": 37598,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/121848.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8bf8030027e9ef3a36af5fd63ee8dad3"
+    ]
+  },
+  {
     "title": "Ernie's Quiz",
     "id": 31717,
     "consoleId": 38,
     "consoleName": "Apple II",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/121914.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -2328,7 +2528,7 @@
     "numAchievements": 28,
     "numLeaderboards": 0,
     "points": 216,
-    "dateModified": "2025-03-18 06:58:08",
+    "dateModified": "2025-12-04 02:08:20",
     "forumTopicId": 28924,
     "hashes": [
       "7ed0c718a8798062b9774e2c6e230a10"
@@ -2425,6 +2625,52 @@
     "hashes": [
       "7e6783f2d7880b3792b311366eaf61f1",
       "209ec3cf2429fa740f30c401916cb059"
+    ]
+  },
+  {
+    "title": "Gammon Gambler",
+    "id": 37340,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "2513040b834987d94e6643eefed0d48b"
+    ]
+  },
+  {
+    "title": "Garfield Double Dares",
+    "id": 36390,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "21d3011d78de0a8a41dd2942c8c4b70b",
+      "c65b77819f17bf3948e944f618d30f37"
+    ]
+  },
+  {
+    "title": "Garfield Trivia Game",
+    "id": 36391,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "362e5373c36ffa400656face7a276f59"
     ]
   },
   {
@@ -2550,6 +2796,21 @@
     "forumTopicId": null,
     "hashes": [
       "064fb1fcc3b0dc1be3331928570d9020"
+    ]
+  },
+  {
+    "title": "Go",
+    "id": 37336,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "29f7c268e387040862bb87865a1ceecb"
     ]
   },
   {
@@ -2737,7 +2998,7 @@
     ]
   },
   {
-    "title": "Hardball",
+    "title": "HardBall",
     "id": 32323,
     "consoleId": 38,
     "consoleName": "Apple II",
@@ -3120,6 +3381,36 @@
     "hashes": [
       "e6ec957b68ff01d89cd63d643e998d77",
       "b42160903baf3a73af148326f1d48f12"
+    ]
+  },
+  {
+    "title": "Kid-Venture 1: Little Red Riding Hood",
+    "id": 36296,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8732b135b51fffc3dfaa242f1d5112c9"
+    ]
+  },
+  {
+    "title": "King Cribbage",
+    "id": 37334,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "25cf54f6cfa5b926096eb7bd4ca63985"
     ]
   },
   {
@@ -3524,6 +3815,22 @@
     ]
   },
   {
+    "title": "Lords of Conquest",
+    "id": 37341,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "63b8f47dcb07b177aee7b3474a3360a4",
+      "e582dfaae88da891a96ee89c9a7857b2"
+    ]
+  },
+  {
     "title": "Lost Tomb",
     "id": 32458,
     "consoleId": 38,
@@ -3620,21 +3927,6 @@
     ]
   },
   {
-    "title": "Mario Bros.",
-    "id": 14183,
-    "consoleId": 38,
-    "consoleName": "Apple II",
-    "imageIcon": "/Images/071861.png",
-    "numAchievements": 40,
-    "numLeaderboards": 2,
-    "points": 330,
-    "dateModified": "2023-05-01 15:08:40",
-    "forumTopicId": 21384,
-    "hashes": [
-      "30de3faafa79af65f7b901bf6365503a"
-    ]
-  },
-  {
     "title": "Master of the Lamps",
     "id": 32325,
     "consoleId": 38,
@@ -3714,6 +4006,21 @@
     ]
   },
   {
+    "title": "Matterhorn Screamer",
+    "id": 35294,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/123797.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a0108530f0f7b14080ea61b505228fd9"
+    ]
+  },
+  {
     "title": "Maze Craze Construction Set",
     "id": 28052,
     "consoleId": 38,
@@ -3741,6 +4048,39 @@
     "forumTopicId": 8482,
     "hashes": [
       "1208cc0b1d18d6b6b077164fca770c9b"
+    ]
+  },
+  {
+    "title": "Mickey's Magic Reader",
+    "id": 37930,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3d9db681a314cc606441d24d874056d2"
+    ]
+  },
+  {
+    "title": "Mickey's Space Adventure",
+    "id": 37931,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "719c12275658c2a3b8ef897e060a65b6",
+      "a67c84b7cf76d6ca5ee665c4373f260f",
+      "eca76031d2df7c835dfad24dd971692e",
+      "3e6cd0a0479e4b0f041bca4ed32a23f8"
     ]
   },
   {
@@ -3931,7 +4271,7 @@
     "id": 31716,
     "consoleId": 38,
     "consoleName": "Apple II",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/121913.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -4100,12 +4440,12 @@
     "id": 26718,
     "consoleId": 38,
     "consoleName": "Apple II",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118367.png",
+    "numAchievements": 22,
+    "numLeaderboards": 7,
+    "points": 216,
+    "dateModified": "2025-11-08 19:04:39",
+    "forumTopicId": 32392,
     "hashes": [
       "8e5f4483c7b8d819875d91f6e75e4095"
     ]
@@ -4413,7 +4753,7 @@
     "numAchievements": 17,
     "numLeaderboards": 0,
     "points": 160,
-    "dateModified": "2020-06-19 19:01:59",
+    "dateModified": "2025-09-17 21:13:59",
     "forumTopicId": 8448,
     "hashes": [
       "9771f313dda522e8c65407e94c173fb2",
@@ -4800,13 +5140,28 @@
     "numAchievements": 21,
     "numLeaderboards": 2,
     "points": 275,
-    "dateModified": "2025-08-13 01:20:16",
+    "dateModified": "2025-11-27 05:35:41",
     "forumTopicId": 8193,
     "hashes": [
       "4f319042ecb13e6a6090456d18b2aef3",
       "7314dbc241b9a21cc004eb428bb7e070",
       "d566f78651f70fad171111bf38e2cfca",
       "d7c976c61c01f620e7cb1d3a5d432601"
+    ]
+  },
+  {
+    "title": "Prisoner 2",
+    "id": 37311,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5bd52b26404c16ed5babd061efbdb484"
     ]
   },
   {
@@ -4879,7 +5234,7 @@
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 111,
-    "dateModified": "2025-06-14 15:57:21",
+    "dateModified": "2026-01-22 22:37:52",
     "forumTopicId": 24989,
     "hashes": [
       "142eb7771b9767548fe8c68baefbb0b0",
@@ -5105,6 +5460,21 @@
     ]
   },
   {
+    "title": "Reversal",
+    "id": 37335,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "eacee965fe7832e094c63866e9ddf6cc"
+    ]
+  },
+  {
     "title": "Ribbit",
     "id": 26105,
     "consoleId": 38,
@@ -5289,6 +5659,21 @@
     "forumTopicId": null,
     "hashes": [
       "8dae3494989f7b8f8d6d34ff15a6d8a3"
+    ]
+  },
+  {
+    "title": "Sesame Street: Letter-Go-Round",
+    "id": 37600,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/121850.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0f034a47979324f881a8bb410c1ae9ce"
     ]
   },
   {
@@ -5513,6 +5898,21 @@
     ]
   },
   {
+    "title": "Space",
+    "id": 37312,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ad52637dad78c9c02e140487f4616d11"
+    ]
+  },
+  {
     "title": "Space Eggs",
     "id": 32739,
     "consoleId": 38,
@@ -5525,6 +5925,21 @@
     "forumTopicId": null,
     "hashes": [
       "79345ba94190064b474b39d66d294d29"
+    ]
+  },
+  {
+    "title": "Space II",
+    "id": 37313,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0c1fff18ab9e69ce00049efe8e680bd3"
     ]
   },
   {
@@ -5803,7 +6218,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "bfedc3a9bc236e64071aaa8aca56dd4b"
+    ]
   },
   {
     "title": "Stickybear Bop",
@@ -6167,7 +6584,7 @@
     "numAchievements": 10,
     "numLeaderboards": 0,
     "points": 48,
-    "dateModified": "2023-03-04 10:15:26",
+    "dateModified": "2025-09-09 09:14:15",
     "forumTopicId": 20501,
     "hashes": [
       "5a053ac8277ebd949c0d88c385388eca",
@@ -6203,6 +6620,21 @@
     "hashes": [
       "34398252d89e597088153b48f80a5f97",
       "b4d3f1a3daa4a35f50a069b4b4ff80df"
+    ]
+  },
+  {
+    "title": "Tetrad",
+    "id": 37337,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "cd6794768dc4f4f2b8841f0fba4bb6b1"
     ]
   },
   {
@@ -6404,6 +6836,22 @@
     ]
   },
   {
+    "title": "The Chessmaster 2000",
+    "id": 37332,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c791c39e7a6a286a3afda03224053dd6",
+      "95fe3599b028faa14a75ce9d6236a1b7"
+    ]
+  },
+  {
     "title": "The Crimson Crown",
     "id": 32341,
     "consoleId": 38,
@@ -6522,6 +6970,22 @@
     ]
   },
   {
+    "title": "The Fidelity Chessmaster 2100",
+    "id": 37333,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b448cbd367667b742b47c44f107308bc",
+      "f5b5ae3c2540e5f0ffe092dde377a189"
+    ]
+  },
+  {
     "title": "The Goonies",
     "id": 18589,
     "consoleId": 38,
@@ -6534,6 +6998,21 @@
     "forumTopicId": 20996,
     "hashes": [
       "4b4c3fedaad9f31ece1013b29d0d8077"
+    ]
+  },
+  {
+    "title": "The Grammar Examiner",
+    "id": 36497,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9bda87828f317607759d533e6018d1e9"
     ]
   },
   {
@@ -6576,7 +7055,7 @@
     "numAchievements": 42,
     "numLeaderboards": 1,
     "points": 186,
-    "dateModified": "2025-05-12 07:44:21",
+    "dateModified": "2026-01-06 23:13:54",
     "forumTopicId": 10483,
     "hashes": [
       "ce0b5e83a40016079574409e405c5e7c"
@@ -6657,7 +7136,7 @@
     "numAchievements": 37,
     "numLeaderboards": 1,
     "points": 136,
-    "dateModified": "2024-12-02 07:18:29",
+    "dateModified": "2025-09-02 08:57:54",
     "forumTopicId": 20750,
     "hashes": [
       "d17bc88c8170b5f63ff55d5ae723a58f"
@@ -6726,6 +7205,21 @@
       "81232d24eba73da465fe99ab730d3fce",
       "d19bd2bd586f157fcd6d6f856dc4409b",
       "e2fdd3d241f9d94d988ffecd7042da14"
+    ]
+  },
+  {
+    "title": "The Prisoner",
+    "id": 37310,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "03479d84d731cc6a8a05c574262fdd8d"
     ]
   },
   {
@@ -7066,6 +7560,21 @@
     ]
   },
   {
+    "title": "Ultima (1981)",
+    "id": 36489,
+    "consoleId": 38,
+    "consoleName": "Apple II",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "73c9710ee1190e344000b67006db0c50"
+    ]
+  },
+  {
     "title": "Ultima I: The First Age of Darkness",
     "id": 13926,
     "consoleId": 38,
@@ -7078,7 +7587,8 @@
     "forumTopicId": 18665,
     "hashes": [
       "301a1f55e3ac6f5dd283fd199a380cc0",
-      "6531bea603d8e36665de43c8a306a355"
+      "6531bea603d8e36665de43c8a306a355",
+      "5dedadc45f7ece58f779be1b6923c697"
     ]
   },
   {
@@ -7326,7 +7836,7 @@
     "numAchievements": 13,
     "numLeaderboards": 0,
     "points": 161,
-    "dateModified": "2024-04-17 00:48:25",
+    "dateModified": "2025-11-17 23:17:55",
     "forumTopicId": 24175,
     "hashes": [
       "f8390801d740b6537268e72cabc6cc5d",

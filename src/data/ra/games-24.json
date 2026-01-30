@@ -98,7 +98,7 @@
     "numAchievements": 10,
     "numLeaderboards": 0,
     "points": 15,
-    "dateModified": "2024-10-29 20:28:04",
+    "dateModified": "2026-01-04 22:40:06",
     "forumTopicId": 28546,
     "hashes": [
       "0ce0bead3ee9911765d3d0eb097ee7e7"
@@ -285,6 +285,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Mini Running Ant",
+    "id": 37098,
+    "consoleId": 24,
+    "consoleName": "Pokemon Mini",
+    "imageIcon": "/Images/121286.png",
+    "numAchievements": 6,
+    "numLeaderboards": 2,
+    "points": 43,
+    "dateModified": "2025-12-06 12:37:02",
+    "forumTopicId": 33448,
+    "hashes": [
+      "ef8984f9e252298296f373598ca63e7e"
+    ]
+  },
+  {
     "title": "~Homebrew~ Pac-It",
     "id": 19568,
     "consoleId": 24,
@@ -323,7 +338,7 @@
     "numAchievements": 26,
     "numLeaderboards": 1,
     "points": 48,
-    "dateModified": "2022-05-22 22:22:25",
+    "dateModified": "2025-10-19 11:12:45",
     "forumTopicId": 16606,
     "hashes": [
       "d48392de0e6a80497c1955042ad38611"
@@ -430,7 +445,7 @@
     "numAchievements": 10,
     "numLeaderboards": 6,
     "points": 100,
-    "dateModified": "2020-01-26 21:18:10",
+    "dateModified": "2025-11-26 07:36:31",
     "forumTopicId": 10021,
     "hashes": [
       "8a7ef76eacdeec95cee4f5e5939ccd17",
@@ -442,7 +457,7 @@
     "id": 11781,
     "consoleId": 24,
     "consoleName": "Pokemon Mini",
-    "imageIcon": "/Images/028002.png",
+    "imageIcon": "/Images/122876.png",
     "numAchievements": 11,
     "numLeaderboards": 7,
     "points": 80,
@@ -508,7 +523,7 @@
     "id": 14716,
     "consoleId": 24,
     "consoleName": "Pokemon Mini",
-    "imageIcon": "/Images/028031.png",
+    "imageIcon": "/Images/121547.png",
     "numAchievements": 39,
     "numLeaderboards": 16,
     "points": 539,
@@ -559,14 +574,14 @@
     "numAchievements": 28,
     "numLeaderboards": 0,
     "points": 159,
-    "dateModified": "2024-10-21 07:37:40",
+    "dateModified": "2025-11-05 19:52:37",
     "forumTopicId": 10042,
     "hashes": [
       "28ddb09ed326df90b706aa61a851c732"
     ]
   },
   {
-    "title": "Togepi no Daibouken | Togepi's Great Adventure",
+    "title": "Togepi no Daibouken",
     "id": 14701,
     "consoleId": 24,
     "consoleName": "Pokemon Mini",

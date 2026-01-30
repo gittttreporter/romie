@@ -45,6 +45,36 @@
     ]
   },
   {
+    "title": "~Homebrew~ Cosmo Fighter 2",
+    "id": 37901,
+    "consoleId": 44,
+    "consoleName": "ColecoVision",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "cf3139be847e46d5957c4b00a1921db9"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Cosmo Fighter 3",
+    "id": 37902,
+    "consoleId": 44,
+    "consoleName": "ColecoVision",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d212fbb05b5ebba3b63d7c607cfd71d2"
+    ]
+  },
+  {
     "title": "~Homebrew~ Cracky",
     "id": 26928,
     "consoleId": 44,
@@ -256,6 +286,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Reversi",
+    "id": 37903,
+    "consoleId": 44,
+    "consoleName": "ColecoVision",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f6416b12174102dd600a9f27b190910c"
+    ]
+  },
+  {
     "title": "~Homebrew~ Secret of the Moai",
     "id": 18991,
     "consoleId": 44,
@@ -347,6 +392,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Terra Attack",
+    "id": 37904,
+    "consoleId": 44,
+    "consoleName": "ColecoVision",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "764baa392af1bbfd2637f5e2003f2236"
+    ]
+  },
+  {
     "title": "~Homebrew~ Track & Field",
     "id": 33724,
     "consoleId": 44,
@@ -359,6 +419,21 @@
     "forumTopicId": null,
     "hashes": [
       "fbf9d274f3b730a1a03bf4edd49e94b6"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Where's Derpy?",
+    "id": 34944,
+    "consoleId": 44,
+    "consoleName": "ColecoVision",
+    "imageIcon": "/Images/118782.png",
+    "numAchievements": 9,
+    "numLeaderboards": 5,
+    "points": 12,
+    "dateModified": "2025-10-06 05:09:32",
+    "forumTopicId": 32586,
+    "hashes": [
+      "291282d0946c56d3763044d73fbff74c"
     ]
   },
   {
@@ -381,7 +456,7 @@
     "id": 17282,
     "consoleId": 44,
     "consoleName": "ColecoVision",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/119572.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -430,7 +505,7 @@
     "numAchievements": 9,
     "numLeaderboards": 4,
     "points": 144,
-    "dateModified": "2025-06-20 23:55:23",
+    "dateModified": "2025-11-16 02:58:48",
     "forumTopicId": 31175,
     "hashes": [
       "803914bbde6822ebf113d5b1d1cf7011"
@@ -801,12 +876,12 @@
     "id": 14274,
     "consoleId": 44,
     "consoleName": "ColecoVision",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/119232.png",
+    "numAchievements": 14,
+    "numLeaderboards": 2,
+    "points": 150,
+    "dateModified": "2025-11-04 20:54:00",
+    "forumTopicId": 32779,
     "hashes": [
       "00123e08f138b7094601ea8d13d5336d"
     ]
@@ -1117,7 +1192,7 @@
     "id": 17291,
     "consoleId": 44,
     "consoleName": "ColecoVision",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122900.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -1272,7 +1347,7 @@
     "numAchievements": 22,
     "numLeaderboards": 2,
     "points": 153,
-    "dateModified": "2025-01-03 13:01:28",
+    "dateModified": "2025-11-15 08:58:32",
     "forumTopicId": 29223,
     "hashes": [
       "6cd6a23e951c0ec6da23d1335812bff2"
@@ -1468,7 +1543,7 @@
     "numAchievements": 25,
     "numLeaderboards": 2,
     "points": 220,
-    "dateModified": "2025-08-19 04:22:40",
+    "dateModified": "2025-09-01 22:50:41",
     "forumTopicId": 14477,
     "hashes": [
       "a7773e1265e0089bc8f148527256a20e"
@@ -1843,7 +1918,7 @@
     "numAchievements": 50,
     "numLeaderboards": 12,
     "points": 650,
-    "dateModified": "2019-11-28 05:26:28",
+    "dateModified": "2025-11-30 06:38:25",
     "forumTopicId": 8292,
     "hashes": [
       "91c7b5d4ea94092f6e18da4775656d4b"

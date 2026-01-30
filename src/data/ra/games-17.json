@@ -45,6 +45,37 @@
     ]
   },
   {
+    "title": "~Homebrew~ ~Demo~ Star Fighter",
+    "id": 27930,
+    "consoleId": 17,
+    "consoleName": "Atari Jaguar",
+    "imageIcon": "/Images/121818.png",
+    "numAchievements": 10,
+    "numLeaderboards": 2,
+    "points": 85,
+    "dateModified": "2025-12-22 13:41:38",
+    "forumTopicId": 33657,
+    "hashes": [
+      "a5767fc6c628759a5b6ba99874ff8bc4"
+    ]
+  },
+  {
+    "title": "~Homebrew~ 2048",
+    "id": 20349,
+    "consoleId": 17,
+    "consoleName": "Atari Jaguar",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0277a480b3c3cfa204d3fe1debc450db",
+      "08d14cfb678dadfdbea9e2dc02849f98"
+    ]
+  },
+  {
     "title": "~Homebrew~ Alice's Mom's Rescue!",
     "id": 24630,
     "consoleId": 17,
@@ -71,6 +102,36 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": []
+  },
+  {
+    "title": "~Homebrew~ AstroStorm",
+    "id": 37763,
+    "consoleId": 17,
+    "consoleName": "Atari Jaguar",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1bc4610b8605b38e1bf02d0391148918"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Badlands",
+    "id": 37764,
+    "consoleId": 17,
+    "consoleName": "Atari Jaguar",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4100a7bd877fd4ea3d3070aa17011ae0"
+    ]
   },
   {
     "title": "~Homebrew~ Beebris",
@@ -133,6 +194,36 @@
     ]
   },
   {
+    "title": "~Homebrew~ Escape 2042 - The Truth Defenders",
+    "id": 27249,
+    "consoleId": 17,
+    "consoleName": "Atari Jaguar",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1ed259f091359ea0f4529387eb8391fb"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Fallen Angels",
+    "id": 37765,
+    "consoleId": 17,
+    "consoleName": "Atari Jaguar",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "230b2b8972a60229bce78bfeb442b2bc"
+    ]
+  },
+  {
     "title": "~Homebrew~ Frog Feast",
     "id": 16892,
     "consoleId": 17,
@@ -160,21 +251,6 @@
     "forumTopicId": 18031,
     "hashes": [
       "59e267f9a8946b6c61c133a9bda9d88a"
-    ]
-  },
-  {
-    "title": "~Homebrew~ Star Fighter",
-    "id": 27930,
-    "consoleId": 17,
-    "consoleName": "Atari Jaguar",
-    "imageIcon": "/Images/091881.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "a5767fc6c628759a5b6ba99874ff8bc4"
     ]
   },
   {
@@ -296,34 +372,6 @@
     "hashes": []
   },
   {
-    "title": "~Z~ No Hash 20349",
-    "id": 20349,
-    "consoleId": 17,
-    "consoleName": "Atari Jaguar",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "1a31107343f0d802021736a15bd4d87a"
-    ]
-  },
-  {
-    "title": "~Z~ No Hash 27249",
-    "id": 27249,
-    "consoleId": 17,
-    "consoleName": "Atari Jaguar",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
     "title": "Aircars",
     "id": 16873,
     "consoleId": 17,
@@ -366,6 +414,21 @@
     "forumTopicId": null,
     "hashes": [
       "a73c0e4f3a0d3de6c40688ff66eb4b6e"
+    ]
+  },
+  {
+    "title": "Asteroids",
+    "id": 37597,
+    "consoleId": 17,
+    "consoleName": "Atari Jaguar",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 33656,
+    "hashes": [
+      "b6f644876b1ec7453f752918cb6d02de"
     ]
   },
   {
@@ -429,6 +492,21 @@
     ]
   },
   {
+    "title": "Beach Volley",
+    "id": 34514,
+    "consoleId": 17,
+    "consoleName": "Atari Jaguar",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4f3e5e2f579c34e56aeb411df93f45e0"
+    ]
+  },
+  {
     "title": "Breakout 2000",
     "id": 7904,
     "consoleId": 17,
@@ -463,7 +541,7 @@
     "id": 16880,
     "consoleId": 17,
     "consoleName": "Atari Jaguar",
-    "imageIcon": "/Images/040881.png",
+    "imageIcon": "/Images/117702.png",
     "numAchievements": 22,
     "numLeaderboards": 0,
     "points": 255,
@@ -483,7 +561,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33438,
     "hashes": [
       "4aa320637ffc598d7d9db44085a88df2"
     ]
@@ -599,11 +677,11 @@
     "consoleId": 17,
     "consoleName": "Atari Jaguar",
     "imageIcon": "/Images/071054.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "numAchievements": 36,
+    "numLeaderboards": 81,
+    "points": 285,
+    "dateModified": "2025-10-14 16:41:32",
+    "forumTopicId": 32201,
     "hashes": [
       "d934acb23e0d9ee46d2a050146b876b0"
     ]
@@ -666,6 +744,21 @@
     "forumTopicId": 28170,
     "hashes": [
       "86c5cb8ac559b4f3a1e9aa883b06f98c"
+    ]
+  },
+  {
+    "title": "Hook",
+    "id": 34515,
+    "consoleId": 17,
+    "consoleName": "Atari Jaguar",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a6819c5cb81eee709660ab72049a6d90"
     ]
   },
   {
@@ -748,7 +841,7 @@
     "id": 8150,
     "consoleId": 17,
     "consoleName": "Atari Jaguar",
-    "imageIcon": "/Images/044568.png",
+    "imageIcon": "/Images/121446.png",
     "numAchievements": 28,
     "numLeaderboards": 0,
     "points": 146,
@@ -812,7 +905,7 @@
     "numAchievements": 40,
     "numLeaderboards": 8,
     "points": 440,
-    "dateModified": "2023-06-26 19:18:15",
+    "dateModified": "2026-01-29 02:52:13",
     "forumTopicId": 17242,
     "hashes": [
       "94583ce1270f05f13b32a9ff0e8909db"
@@ -1112,7 +1205,7 @@
     "numAchievements": 18,
     "numLeaderboards": 0,
     "points": 215,
-    "dateModified": "2021-06-02 17:32:54",
+    "dateModified": "2025-11-19 19:33:07",
     "forumTopicId": 13096,
     "hashes": [
       "5f2115d0bdcae4f3aa8e832f23f4ebdd"
@@ -1198,7 +1291,7 @@
     "id": 16923,
     "consoleId": 17,
     "consoleName": "Atari Jaguar",
-    "imageIcon": "/Images/065361.png",
+    "imageIcon": "/Images/121447.png",
     "numAchievements": 54,
     "numLeaderboards": 7,
     "points": 435,

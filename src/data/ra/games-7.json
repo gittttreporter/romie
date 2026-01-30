@@ -31,36 +31,6 @@
     ]
   },
   {
-    "title": "~Hack~ Adventure of Mario Bros. 2, The",
-    "id": 3715,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/041331.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "7d8686b49a3118257637c7fdb03e60c4"
-    ]
-  },
-  {
-    "title": "~Hack~ Adventures of Jerry Mouse, The: The Rescue of Nibbles",
-    "id": 16203,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/112127.png",
-    "numAchievements": 17,
-    "numLeaderboards": 0,
-    "points": 75,
-    "dateModified": "2025-06-02 21:04:21",
-    "forumTopicId": 30891,
-    "hashes": [
-      "9d767a9b1da289b71f92842ee4b3d3bf"
-    ]
-  },
-  {
     "title": "~Hack~ Angry Birds",
     "id": 5799,
     "consoleId": 7,
@@ -131,7 +101,9 @@
     "points": 0,
     "dateModified": "2022-07-09 14:49:55",
     "forumTopicId": 17279,
-    "hashes": []
+    "hashes": [
+      "c82408f5fb0a32b8505bd38efc1ce44b"
+    ]
   },
   {
     "title": "~Hack~ Batman: The Junkyard Challenge",
@@ -179,67 +151,6 @@
     ]
   },
   {
-    "title": "~Hack~ Battle of Olympus, The: Item Randomizer",
-    "id": 27741,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/087463.png",
-    "numAchievements": 127,
-    "numLeaderboards": 31,
-    "points": 1265,
-    "dateModified": "2024-01-01 06:31:35",
-    "forumTopicId": 24683,
-    "hashes": [
-      "d615ed26e03f207e4e17385558433eef",
-      "8c3edf69ba966467b6f09b7445ccbd87",
-      "2fc25d5e57fdb752870eb12dba243541"
-    ]
-  },
-  {
-    "title": "~Hack~ Battle of Olympus, The: Item Randomizer [Subset - Bonus]",
-    "id": 28137,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/087622.png",
-    "numAchievements": 54,
-    "numLeaderboards": 45,
-    "points": 2550,
-    "dateModified": "2024-02-07 22:46:13",
-    "forumTopicId": 24912,
-    "hashes": [
-      "a6fe74bb1dffb79956f0d516734dd4b4",
-      "78157893755e1eb7068fb8524e99e305"
-    ]
-  },
-  {
-    "title": "~Hack~ Battletoads and Double Dragon on Ragnarok",
-    "id": 4979,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
-    "title": "~Hack~ Beatles, The: Adventures in Pepperland",
-    "id": 18176,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/050169.png",
-    "numAchievements": 17,
-    "numLeaderboards": 0,
-    "points": 199,
-    "dateModified": "2021-11-18 14:37:05",
-    "forumTopicId": 14352,
-    "hashes": [
-      "a66fff59d16b72ddfaa0f19b352f1ed9"
-    ]
-  },
-  {
     "title": "~Hack~ Binary City",
     "id": 20632,
     "consoleId": 7,
@@ -252,6 +163,21 @@
     "forumTopicId": null,
     "hashes": [
       "9775b7f0cb5c3d67a5a80a1aeca2ef34"
+    ]
+  },
+  {
+    "title": "~Hack~ Black Sheep Dream - Super Mario Bros.",
+    "id": 37801,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "399120db0a308ce95814dfb8f7d2efc9"
     ]
   },
   {
@@ -299,6 +225,21 @@
     "forumTopicId": 3321,
     "hashes": [
       "8e885bbc7f7e7ae4d78d64713553b0dc"
+    ]
+  },
+  {
+    "title": "~Hack~ Boxguy Adventure",
+    "id": 37009,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/121229.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "6ea9a98efd6ed2af301da022ba99b4b1"
     ]
   },
   {
@@ -423,19 +364,6 @@
     ]
   },
   {
-    "title": "~Hack~ Chinese BK Land",
-    "id": 17081,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/040080.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
     "title": "~Hack~ Chip 'n Dale - Lomax Attacks",
     "id": 19525,
     "consoleId": 7,
@@ -478,6 +406,21 @@
     "forumTopicId": 19426,
     "hashes": [
       "50811428a9c36bd7c52185f2a3ecafe3"
+    ]
+  },
+  {
+    "title": "~Hack~ Cleopatra Pizza Delivery",
+    "id": 37794,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f607bb705f6d12cca05e3087a20f8423"
     ]
   },
   {
@@ -541,8 +484,8 @@
     ]
   },
   {
-    "title": "~Hack~ Crow, The",
-    "id": 17855,
+    "title": "~Hack~ Crazy Daydream",
+    "id": 37795,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/000001.png",
@@ -552,7 +495,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "84b06f84ddf30b7c540aff1f9e6942bf"
+      "6dda13f457fb4dc43711ddf40a91d450"
     ]
   },
   {
@@ -609,10 +552,25 @@
     "numAchievements": 40,
     "numLeaderboards": 6,
     "points": 485,
-    "dateModified": "2025-02-10 05:47:21",
+    "dateModified": "2025-11-04 23:20:16",
     "forumTopicId": 10148,
     "hashes": [
       "973b2f4061d5930f770ce4ace513a6a0"
+    ]
+  },
+  {
+    "title": "~Hack~ Destiny of an Emperor 2.0",
+    "id": 36600,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 33281,
+    "hashes": [
+      "aed713c3fd02787aadae3d6a94864fe4"
     ]
   },
   {
@@ -631,6 +589,36 @@
     ]
   },
   {
+    "title": "~Hack~ Destiny of an Emperor: Rise of Lu Bu",
+    "id": 36602,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7489ad00abe8790a3fc66073d76e2a56"
+    ]
+  },
+  {
+    "title": "~Hack~ Destiny of an Emperor: Yuan Shao's Revenge",
+    "id": 36601,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8d0ef7cafd8867790fb1392b0e4de88a"
+    ]
+  },
+  {
     "title": "~Hack~ Donkey Kong Country NES Edition",
     "id": 33105,
     "consoleId": 7,
@@ -639,7 +627,7 @@
     "numAchievements": 40,
     "numLeaderboards": 7,
     "points": 280,
-    "dateModified": "2025-04-28 17:04:52",
+    "dateModified": "2025-09-10 22:28:48",
     "forumTopicId": 30200,
     "hashes": [
       "9a7cb662613b86960b176b60eddc336f"
@@ -759,7 +747,7 @@
     "numAchievements": 31,
     "numLeaderboards": 0,
     "points": 351,
-    "dateModified": "2021-02-24 06:23:15",
+    "dateModified": "2025-12-13 12:34:08",
     "forumTopicId": 7090,
     "hashes": [
       "11f0aabac019834b0fe8a73f06c8d703",
@@ -1030,12 +1018,12 @@
     "id": 13383,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/115599.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/121100.png",
+    "numAchievements": 9,
+    "numLeaderboards": 22,
+    "points": 90,
+    "dateModified": "2025-11-29 19:46:00",
+    "forumTopicId": 33379,
     "hashes": [
       "cea3b532073af3d2072092c3d7e49fc9"
     ]
@@ -1115,21 +1103,6 @@
     "forumTopicId": null,
     "hashes": [
       "ed759862e927a6fcdb9743bb649ead90"
-    ]
-  },
-  {
-    "title": "~Hack~ Guardian Legend Secret Edition, The",
-    "id": 5992,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/061174.png",
-    "numAchievements": 106,
-    "numLeaderboards": 4,
-    "points": 800,
-    "dateModified": "2023-10-12 23:34:43",
-    "forumTopicId": 19530,
-    "hashes": [
-      "cf1c914900ba499b8199f808dab9dbba"
     ]
   },
   {
@@ -1221,6 +1194,21 @@
     "forumTopicId": null,
     "hashes": [
       "336c7f57d135e5bf66c48946a62ee7ed"
+    ]
+  },
+  {
+    "title": "~Hack~ Jiqi Mao: Xiao Dingdang",
+    "id": 37078,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1611485278174a77374ec6c764874088"
     ]
   },
   {
@@ -1330,11 +1318,26 @@
     ]
   },
   {
+    "title": "~Hack~ Legend of the Blob Bros. 2",
+    "id": 37796,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "14543cbd95c3627bb2cc95ad251858fd"
+    ]
+  },
+  {
     "title": "~Hack~ Letty9 | (9)",
     "id": 17058,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/058594.png",
+    "imageIcon": "/Images/121125.png",
     "numAchievements": 8,
     "numLeaderboards": 2,
     "points": 17,
@@ -1342,21 +1345,6 @@
     "forumTopicId": 11745,
     "hashes": [
       "13a8ab5f6d85830542f49552ae37383e"
-    ]
-  },
-  {
-    "title": "~Hack~ Lost Boys, The: Frog Bros",
-    "id": 29581,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/095236.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "03fc3071cf566b9a71385ab37fc8d950"
     ]
   },
   {
@@ -1399,7 +1387,7 @@
     "numAchievements": 35,
     "numLeaderboards": 0,
     "points": 440,
-    "dateModified": "2024-10-15 21:57:06",
+    "dateModified": "2025-11-03 21:19:01",
     "forumTopicId": 27380,
     "hashes": [
       "d62c31a536c9cd4a8a16b27f790a7445"
@@ -1429,10 +1417,25 @@
     "numAchievements": 51,
     "numLeaderboards": 1,
     "points": 425,
-    "dateModified": "2025-02-27 04:17:15",
+    "dateModified": "2025-09-10 23:08:51",
     "forumTopicId": 28296,
     "hashes": [
       "d976145a9714188a42911c9f99df6574"
+    ]
+  },
+  {
+    "title": "~Hack~ Mario Bros. Untold",
+    "id": 37508,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 33492,
+    "hashes": [
+      "04cb9cb0df052531120d1be9154a9cf4"
     ]
   },
   {
@@ -1461,7 +1464,24 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "161970774237a9f16e6fc337fccf5e4d"
+    ]
+  },
+  {
+    "title": "~Hack~ Mega Man 1: Limbo Edition",
+    "id": 21928,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/065713.png",
+    "numAchievements": 49,
+    "numLeaderboards": 11,
+    "points": 437,
+    "dateModified": "2024-08-04 22:05:02",
+    "forumTopicId": 19484,
+    "hashes": [
+      "5c892145dc644430c9117a70e3fc799c"
+    ]
   },
   {
     "title": "~Hack~ Mega Man 2 Revamped",
@@ -1564,7 +1584,7 @@
     "numAchievements": 94,
     "numLeaderboards": 0,
     "points": 1000,
-    "dateModified": "2024-11-08 18:16:29",
+    "dateModified": "2025-09-05 16:51:50",
     "forumTopicId": 3557,
     "hashes": [
       "54608d7b322ccc522e199ba7df47d632",
@@ -1673,7 +1693,7 @@
     "numAchievements": 45,
     "numLeaderboards": 0,
     "points": 540,
-    "dateModified": "2025-02-09 04:46:03",
+    "dateModified": "2025-12-07 01:55:57",
     "forumTopicId": 21854,
     "hashes": [
       "d7303e42a196e60f17fecf6b24d343ac"
@@ -1692,21 +1712,6 @@
     "forumTopicId": 17154,
     "hashes": [
       "aa2d5e515b54f478a375d72bf4067a1b"
-    ]
-  },
-  {
-    "title": "~Hack~ Megaman 1: Limbo Edition",
-    "id": 21928,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/065713.png",
-    "numAchievements": 49,
-    "numLeaderboards": 11,
-    "points": 437,
-    "dateModified": "2024-08-04 22:05:02",
-    "forumTopicId": 19484,
-    "hashes": [
-      "5c892145dc644430c9117a70e3fc799c"
     ]
   },
   {
@@ -1811,7 +1816,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": 11077,
-    "hashes": []
+    "hashes": [
+      "0c93fb5c4561328b3b26d20c8c1d67a5"
+    ]
   },
   {
     "title": "~Hack~ Metroid: Dark Alliance",
@@ -1848,7 +1855,7 @@
     "id": 9597,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/042921.png",
+    "imageIcon": "/Images/119527.png",
     "numAchievements": 72,
     "numLeaderboards": 0,
     "points": 800,
@@ -1872,6 +1879,21 @@
     "forumTopicId": 31684,
     "hashes": [
       "9592642c649a6864b0a9c292583e5ea9"
+    ]
+  },
+  {
+    "title": "~Hack~ Miku Runner",
+    "id": 36992,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1785c477adb0a0114e8708101c54887b"
     ]
   },
   {
@@ -1925,13 +1947,28 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/079669.png",
-    "numAchievements": 86,
+    "numAchievements": 85,
     "numLeaderboards": 0,
-    "points": 484,
-    "dateModified": "2025-08-01 09:50:19",
+    "points": 486,
+    "dateModified": "2025-10-17 15:31:45",
     "forumTopicId": 22741,
     "hashes": [
       "f4fd2f9b5d02f09905fb125ee76fae37"
+    ]
+  },
+  {
+    "title": "~Hack~ Mr. Gimmick 2",
+    "id": 37349,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0e355087a571613bc85bcf1af7e86cfd"
     ]
   },
   {
@@ -1960,7 +1997,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "cf26f94bae7c91643b279958168a2762"
+    ]
   },
   {
     "title": "~Hack~ NES Mario Kart",
@@ -1983,13 +2022,13 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/116964.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-08-26 00:51:02",
+    "numAchievements": 29,
+    "numLeaderboards": 26,
+    "points": 749,
+    "dateModified": "2026-01-22 21:49:10",
     "forumTopicId": 32032,
     "hashes": [
-      "91036c20cc73f22bf00d5e603dbd4810"
+      "8aa770b10bdf0094d44a0236c89e51dd"
     ]
   },
   {
@@ -2064,6 +2103,52 @@
     ]
   },
   {
+    "title": "~Hack~ Phred's Cool Punch Out 2: Turbo!!",
+    "id": 37792,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 29,
+    "points": 0,
+    "dateModified": "2026-01-27 22:57:27",
+    "forumTopicId": 34056,
+    "hashes": [
+      "c6aef2fc4f7ca37013c8cacca94c701f"
+    ]
+  },
+  {
+    "title": "~Hack~ PolyGirl's Adventure",
+    "id": 37791,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a4afc0b0751cc3efaf672284eecfcc1f"
+    ]
+  },
+  {
+    "title": "~Hack~ PolyGirl's Adventure 2: The Wrath of Dr. Noac",
+    "id": 37793,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3e8371b10e75a0109687f0062b99b4f8",
+      "283899e8a722bb7330ce09134e19fd4f"
+    ]
+  },
+  {
     "title": "~Hack~ Present Panic: A Princess Adventure",
     "id": 20504,
     "consoleId": 7,
@@ -2121,21 +2206,6 @@
     "forumTopicId": null,
     "hashes": [
       "2a25d9c697bcada294e534e7b41f7f3e"
-    ]
-  },
-  {
-    "title": "~Hack~ Rainbow Realms, The",
-    "id": 17179,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 11917,
-    "hashes": [
-      "ba004eee51b208f9bad7be3539f53df1"
     ]
   },
   {
@@ -2225,7 +2295,7 @@
     "numAchievements": 166,
     "numLeaderboards": 21,
     "points": 1546,
-    "dateModified": "2025-07-16 21:43:09",
+    "dateModified": "2025-12-30 03:05:44",
     "forumTopicId": 3002,
     "hashes": [
       "1b7cf769293c4f8a5262b4f4b6aa09ed"
@@ -2285,7 +2355,7 @@
     "numAchievements": 60,
     "numLeaderboards": 4,
     "points": 895,
-    "dateModified": "2024-05-27 22:12:38",
+    "dateModified": "2025-11-21 02:26:55",
     "forumTopicId": 16031,
     "hashes": [
       "cbc4647b0b2268dbfc435d774c91abe4"
@@ -2464,21 +2534,6 @@
     ]
   },
   {
-    "title": "~Hack~ Rockman Deus Ex Machina: Hard",
-    "id": 8750,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "c5bcd5040195cc71625082087f38ae8d"
-    ]
-  },
-  {
     "title": "~Hack~ Rockman Gaiden",
     "id": 8723,
     "consoleId": 7,
@@ -2551,7 +2606,7 @@
     "numAchievements": 58,
     "numLeaderboards": 0,
     "points": 450,
-    "dateModified": "2020-06-29 05:37:43",
+    "dateModified": "2025-11-24 14:08:17",
     "forumTopicId": 7028,
     "hashes": [
       "0e1ce7f97b833a36be3ae750cc4585e3",
@@ -2571,6 +2626,21 @@
     "forumTopicId": null,
     "hashes": [
       "7d98f150704f542d03bdcbb5eddc9871"
+    ]
+  },
+  {
+    "title": "~Hack~ Rockman: Deus Ex Machina - Hard",
+    "id": 8750,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c5bcd5040195cc71625082087f38ae8d"
     ]
   },
   {
@@ -2662,6 +2732,21 @@
     ]
   },
   {
+    "title": "~Hack~ Somari: Talui Adventure",
+    "id": 37080,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "c7d0ac5e605f1b7e9007182be7fea2b2"
+    ]
+  },
+  {
     "title": "~Hack~ Sonic the Hedgehog Vol. 2",
     "id": 31880,
     "consoleId": 7,
@@ -2670,10 +2755,40 @@
     "numAchievements": 32,
     "numLeaderboards": 19,
     "points": 322,
-    "dateModified": "2025-08-30 23:07:50",
+    "dateModified": "2025-09-11 22:57:22",
     "forumTopicId": 30801,
     "hashes": [
       "0838c05c7f0987f6a29ae2bcf16bb9bb"
+    ]
+  },
+  {
+    "title": "~Hack~ Sonic the Hedgehog: A Complete Mess",
+    "id": 37081,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "06f4453f4272fe0e2013fd2b816569ea"
+    ]
+  },
+  {
+    "title": "~Hack~ SRG64's Relief Land 2",
+    "id": 37804,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f2ff4edc7046211fce3d4217e062276c"
     ]
   },
   {
@@ -2681,11 +2796,11 @@
     "id": 27345,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/085671.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "imageIcon": "/Images/121085.png",
+    "numAchievements": 44,
+    "numLeaderboards": 102,
+    "points": 575,
+    "dateModified": "2025-12-16 13:56:58",
     "forumTopicId": 24441,
     "hashes": [
       "4d3408cd1ef5b5322e2618ad6517fc28"
@@ -2722,6 +2837,21 @@
     ]
   },
   {
+    "title": "~Hack~ Super Carrots: A New Harvest",
+    "id": 37805,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e3afd032a418046955c4ff32ebe24be7"
+    ]
+  },
+  {
     "title": "~Hack~ Super Diego Bros. 1 & 2",
     "id": 17054,
     "consoleId": 7,
@@ -2735,21 +2865,6 @@
     "hashes": [
       "61bb83f677239f68aa4f5793e1ee0346",
       "685880f3e9f09118afdd57417ac47b8c"
-    ]
-  },
-  {
-    "title": "~Hack~ Super Mario All Stars",
-    "id": 2359,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/110469.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 5277,
-    "hashes": [
-      "cd63493881c52a09a1bdef3041604672"
     ]
   },
   {
@@ -2768,6 +2883,21 @@
     ]
   },
   {
+    "title": "~Hack~ Super Mario Bros. -2",
+    "id": 37692,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5c6e8e9c30842128c2181936c8e69ffc"
+    ]
+  },
+  {
     "title": "~Hack~ Super Mario Bros. 2 Squared: Return to Subcon",
     "id": 13455,
     "consoleId": 7,
@@ -2780,6 +2910,66 @@
     "forumTopicId": 26260,
     "hashes": [
       "592423a0b0b9b7efc682cc47d6a2d61d"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Mario Bros. 2: Master Quest",
+    "id": 37802,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f294db7f83d86205f87b403cda666878"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Mario Bros. 2: Painful World Spikes Kaizo",
+    "id": 37797,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5dd32bf39f393bf9c23bacb297d1a44f"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Mario Bros. 2: Ridley X Hack",
+    "id": 37803,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "11e56b565467ffc497df23a48f32fc61"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Mario Bros. 2: Wacky Quest",
+    "id": 37798,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "75d5730f28cb72ed4c9adc0dff0ffd65"
     ]
   },
   {
@@ -2841,11 +3031,27 @@
     ]
   },
   {
+    "title": "~Hack~ Super Mario Bros. 3+",
+    "id": 37145,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7a3b1c221e40d8d5b1d85acc1a4030dd",
+      "a150d8588519b58bd56478b44eab1a40"
+    ]
+  },
+  {
     "title": "~Hack~ Super Mario Bros. 3Mix",
     "id": 5299,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/033120.png",
+    "imageIcon": "/Images/122700.png",
     "numAchievements": 27,
     "numLeaderboards": 0,
     "points": 295,
@@ -2895,7 +3101,7 @@
     "numAchievements": 61,
     "numLeaderboards": 33,
     "points": 355,
-    "dateModified": "2025-06-12 06:08:55",
+    "dateModified": "2025-10-25 17:32:03",
     "forumTopicId": 5243,
     "hashes": [
       "9414619539a703b6bc34bec54a3ccd8e"
@@ -2917,6 +3123,21 @@
     ]
   },
   {
+    "title": "~Hack~ Super Mario Bros. Wart's Wonderland",
+    "id": 37799,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8929ff460b9cc859debf19cc442ed5f1"
+    ]
+  },
+  {
     "title": "~Hack~ Super Mario Bros.: Chaos Control",
     "id": 13450,
     "consoleId": 7,
@@ -2930,19 +3151,6 @@
     "hashes": [
       "42f5d6945de0879546205a7d5974bf95"
     ]
-  },
-  {
-    "title": "~Hack~ Super Mario Remix 2",
-    "id": 14358,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/049840.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2019-06-23 21:44:48",
-    "forumTopicId": null,
-    "hashes": []
   },
   {
     "title": "~Hack~ Super Mario Showdown DX",
@@ -2987,6 +3195,21 @@
     "forumTopicId": 20122,
     "hashes": [
       "ebf06e75cca0709f35f13f3cbf09b34f"
+    ]
+  },
+  {
+    "title": "~Hack~ Super Mario World: A Bootleg Christmas",
+    "id": 37790,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "6f05634d197f2ec3f24e735652e23b7b"
     ]
   },
   {
@@ -3080,6 +3303,24 @@
     ]
   },
   {
+    "title": "~Hack~ Tecmo Super Bowl 2025",
+    "id": 37940,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4d7fe2956b5526e41f266499e5cd9f29",
+      "8a1f99960d3d6f281b51804a1e6c0b48",
+      "542aaaae0e1e4b056d15e01fbbc6ca9d",
+      "e24ca2a627b7bac2b68f51735142ac1a"
+    ]
+  },
+  {
     "title": "~Hack~ Teenage Super Ninja Plumbers",
     "id": 20561,
     "consoleId": 7,
@@ -3092,6 +3333,114 @@
     "forumTopicId": 18375,
     "hashes": [
       "c773537cefc2957a9bd21544c7272eeb"
+    ]
+  },
+  {
+    "title": "~Hack~ The Adventure of Mario Bros. 2",
+    "id": 3715,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/041331.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7d8686b49a3118257637c7fdb03e60c4"
+    ]
+  },
+  {
+    "title": "~Hack~ The Adventures of Jerry Mouse: The Rescue of Nibbles",
+    "id": 16203,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/112127.png",
+    "numAchievements": 17,
+    "numLeaderboards": 0,
+    "points": 75,
+    "dateModified": "2025-06-02 21:04:21",
+    "forumTopicId": 30891,
+    "hashes": [
+      "9d767a9b1da289b71f92842ee4b3d3bf"
+    ]
+  },
+  {
+    "title": "~Hack~ The Battle of Olympus: Item Randomizer",
+    "id": 27741,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/087463.png",
+    "numAchievements": 127,
+    "numLeaderboards": 31,
+    "points": 1265,
+    "dateModified": "2024-01-01 06:31:35",
+    "forumTopicId": 24683,
+    "hashes": [
+      "d615ed26e03f207e4e17385558433eef",
+      "8c3edf69ba966467b6f09b7445ccbd87",
+      "2fc25d5e57fdb752870eb12dba243541"
+    ]
+  },
+  {
+    "title": "~Hack~ The Battle of Olympus: Item Randomizer [Subset - Bonus]",
+    "id": 28137,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/087622.png",
+    "numAchievements": 54,
+    "numLeaderboards": 45,
+    "points": 2550,
+    "dateModified": "2024-02-07 22:46:13",
+    "forumTopicId": 24912,
+    "hashes": [
+      "a6fe74bb1dffb79956f0d516734dd4b4",
+      "78157893755e1eb7068fb8524e99e305"
+    ]
+  },
+  {
+    "title": "~Hack~ The Beatles: Adventures in Pepperland",
+    "id": 18176,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/050169.png",
+    "numAchievements": 17,
+    "numLeaderboards": 0,
+    "points": 199,
+    "dateModified": "2021-11-18 14:37:05",
+    "forumTopicId": 14352,
+    "hashes": [
+      "a66fff59d16b72ddfaa0f19b352f1ed9"
+    ]
+  },
+  {
+    "title": "~Hack~ The Crow",
+    "id": 17855,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "84b06f84ddf30b7c540aff1f9e6942bf"
+    ]
+  },
+  {
+    "title": "~Hack~ The Guardian Legend Secret Edition",
+    "id": 5992,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/061174.png",
+    "numAchievements": 106,
+    "numLeaderboards": 4,
+    "points": 800,
+    "dateModified": "2023-10-12 23:34:43",
+    "forumTopicId": 19530,
+    "hashes": [
+      "cf1c914900ba499b8199f808dab9dbba"
     ]
   },
   {
@@ -3164,7 +3513,7 @@
     "numAchievements": 46,
     "numLeaderboards": 1,
     "points": 296,
-    "dateModified": "2025-03-15 23:58:06",
+    "dateModified": "2025-10-20 02:02:21",
     "forumTopicId": 19453,
     "hashes": [
       "33f8956bb17fab683034811db00d84d2"
@@ -3195,7 +3544,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": 23633,
+    "forumTopicId": null,
     "hashes": [
       "88c32b6b53cfcf125cbb0579509ddb8c"
     ]
@@ -3292,6 +3641,23 @@
     ]
   },
   {
+    "title": "~Hack~ The Legend of Zelda: Mirror of Worlds",
+    "id": 37166,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 34124,
+    "hashes": [
+      "17fed4df97b4bb8d5a2ae6bad6edbe1f",
+      "17529f68651a801e9098c8e5aa3f780e",
+      "c2c56e8f44a362fb95fbb14351c30f4b"
+    ]
+  },
+  {
     "title": "~Hack~ The Legend of Zelda: Perils of Darkness",
     "id": 17049,
     "consoleId": 7,
@@ -3333,7 +3699,7 @@
     "numAchievements": 43,
     "numLeaderboards": 8,
     "points": 450,
-    "dateModified": "2024-12-25 18:39:20",
+    "dateModified": "2025-09-29 22:33:56",
     "forumTopicId": 24811,
     "hashes": [
       "8b3f7ca04c82ed2b759152268f27ed80"
@@ -3448,6 +3814,52 @@
     ]
   },
   {
+    "title": "~Hack~ The Lost Boys: Frog Bros",
+    "id": 29581,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/095236.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "03fc3071cf566b9a71385ab37fc8d950"
+    ]
+  },
+  {
+    "title": "~Hack~ The Lost Mario Bros. 2",
+    "id": 37800,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e98294578242c673565f8435508c28b7",
+      "8ff855648f8826514534d752a9fa2cfe"
+    ]
+  },
+  {
+    "title": "~Hack~ The Rainbow Realms",
+    "id": 17179,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 11917,
+    "hashes": [
+      "ba004eee51b208f9bad7be3539f53df1"
+    ]
+  },
+  {
     "title": "~Hack~ Threetris",
     "id": 5683,
     "consoleId": 7,
@@ -3523,7 +3935,7 @@
     ]
   },
   {
-    "title": "~Hack~ Tonkachi Mario",
+    "title": "~Hack~ Tonkachi Mario (FDS)",
     "id": 2109,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
@@ -3531,8 +3943,8 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-30 00:59:06",
+    "forumTopicId": 34167,
     "hashes": [
       "d7236ca0605bc3b36ec9ba7dd3cdcd9d"
     ]
@@ -3609,7 +4021,7 @@
     "numAchievements": 26,
     "numLeaderboards": 2,
     "points": 170,
-    "dateModified": "2022-11-29 13:40:11",
+    "dateModified": "2025-12-18 03:24:58",
     "forumTopicId": 16436,
     "hashes": [
       "10cf1e1ae3ab6f83712d3dd45e80a16e"
@@ -3621,10 +4033,10 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/088582.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 7,
+    "numLeaderboards": 12,
+    "points": 50,
+    "dateModified": "2025-11-28 23:18:12",
     "forumTopicId": 11483,
     "hashes": [
       "930d8b89b032627eddbd38fed7e4a5d5"
@@ -3647,6 +4059,36 @@
     ]
   },
   {
+    "title": "~Hack~ Vs. Duck Hunt: NES Edition",
+    "id": 37007,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "67788bd772505cf00b164968994e81a7"
+    ]
+  },
+  {
+    "title": "~Hack~ Vs. Super Mario Bros.: Home Edition",
+    "id": 37008,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ed847619549d2311d12c3f5871ce4977"
+    ]
+  },
+  {
     "title": "~Hack~ Wario Blast: Pillage and Plunder on Rice Beach",
     "id": 11095,
     "consoleId": 7,
@@ -3659,6 +4101,21 @@
     "forumTopicId": null,
     "hashes": [
       "ca7dfb4c53b245c9c3df539be58d7225"
+    ]
+  },
+  {
+    "title": "~Hack~ Wicked Clown Bros. 2",
+    "id": 37806,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ea4c52854301f7fbc04ff6fc1e2eac83"
     ]
   },
   {
@@ -3700,7 +4157,7 @@
     "numAchievements": 18,
     "numLeaderboards": 10,
     "points": 390,
-    "dateModified": "2023-11-01 21:54:25",
+    "dateModified": "2025-09-16 02:37:55",
     "forumTopicId": 24250,
     "hashes": [
       "429bf13905e12d82ab0caf5d36d57111"
@@ -3867,7 +4324,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "878e44dff31400aa0d37085dcbcacff5"
+    ]
   },
   {
     "title": "~Hack~ Zelda: The Legend of Link",
@@ -3960,19 +4419,6 @@
     ]
   },
   {
-    "title": "~Homebrew~ ~Demo~ Byte-Off 2020 Submission [working title]",
-    "id": 10975,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 11369,
-    "hashes": []
-  },
-  {
     "title": "~Homebrew~ ~Demo~ CelesteNES",
     "id": 34499,
     "consoleId": 7,
@@ -4054,7 +4500,7 @@
     "id": 17423,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/102060.png",
+    "imageIcon": "/Images/121545.png",
     "numAchievements": 7,
     "numLeaderboards": 1,
     "points": 15,
@@ -4062,21 +4508,6 @@
     "forumTopicId": 28061,
     "hashes": [
       "7a82cd5eb14a26eb8f1afbc1edc197a6"
-    ]
-  },
-  {
-    "title": "~Homebrew~ ~Demo~ Secret of NecroNancy, The",
-    "id": 25033,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/076577.png",
-    "numAchievements": 7,
-    "numLeaderboards": 1,
-    "points": 20,
-    "dateModified": "2024-08-27 11:33:15",
-    "forumTopicId": 22443,
-    "hashes": [
-      "1ca504d1fe7e644bba9be98b8be62b47"
     ]
   },
   {
@@ -4110,18 +4541,18 @@
     ]
   },
   {
-    "title": "~Homebrew~ ~Prototype~ Cookie Clicker",
-    "id": 13393,
+    "title": "~Homebrew~ ~Demo~ The Secret of NecroNancy",
+    "id": 25033,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/109375.png",
-    "numAchievements": 10,
+    "imageIcon": "/Images/076577.png",
+    "numAchievements": 7,
     "numLeaderboards": 1,
-    "points": 8,
-    "dateModified": "2022-12-30 18:45:36",
-    "forumTopicId": 7575,
+    "points": 20,
+    "dateModified": "2024-08-27 11:33:15",
+    "forumTopicId": 22443,
     "hashes": [
-      "b1ba60845163ae84afc3bc5165558202"
+      "1ca504d1fe7e644bba9be98b8be62b47"
     ]
   },
   {
@@ -4190,10 +4621,10 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/066649.png",
-    "numAchievements": 13,
+    "numAchievements": 12,
     "numLeaderboards": 1,
-    "points": 290,
-    "dateModified": "2023-05-13 01:51:10",
+    "points": 265,
+    "dateModified": "2025-09-11 00:46:14",
     "forumTopicId": 3226,
     "hashes": [
       "be1063151f68c58d712138c568c73c8b"
@@ -4382,18 +4813,18 @@
     ]
   },
   {
-    "title": "~Homebrew~ All Hell Unleashed",
+    "title": "~Homebrew~ All Hell Unleashed Ver 6.66",
     "id": 33482,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/111395.png",
+    "imageIcon": "/Images/119241.png",
     "numAchievements": 0,
-    "numLeaderboards": 2,
+    "numLeaderboards": 7,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2025-12-01 06:19:28",
     "forumTopicId": 30646,
     "hashes": [
-      "0215832e99dd69d57dd612149c7259b9"
+      "2b2898b82047e3d86323d04fb9f38469"
     ]
   },
   {
@@ -4594,21 +5025,6 @@
     ]
   },
   {
-    "title": "~Homebrew~ Arm Wrestling Classic, The",
-    "id": 19882,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/058911.png",
-    "numAchievements": 28,
-    "numLeaderboards": 1,
-    "points": 80,
-    "dateModified": "2022-06-09 08:46:30",
-    "forumTopicId": 16891,
-    "hashes": [
-      "818cad96b53efd26b1bb5d593765440f"
-    ]
-  },
-  {
     "title": "~Homebrew~ Aspect Star N",
     "id": 10350,
     "consoleId": 7,
@@ -4679,7 +5095,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "44bf1db0a8042a7ba64f3752e3ddb20f"
+    ]
   },
   {
     "title": "~Homebrew~ Battle Kid 2: Mountain of Torment",
@@ -4709,6 +5127,23 @@
     "forumTopicId": 1745,
     "hashes": [
       "3e66f0771381a31e5b4e93ae8345d281"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Beat 'Em & Eat 'Em",
+    "id": 37768,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "60e6b50e35f1dafb5029cd835f3035f0",
+      "940af1f642fa307094d787cc4420c48e",
+      "827450c762f56d9d25c38d35c334c0c4"
     ]
   },
   {
@@ -4864,6 +5299,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Boulder Crash",
+    "id": 34542,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "30c3883b23720c3476e3a5ebb0728d8f"
+    ]
+  },
+  {
     "title": "~Homebrew~ Bowels of the Beast",
     "id": 25595,
     "consoleId": 7,
@@ -4928,11 +5378,11 @@
     "id": 25608,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "imageIcon": "/Images/118679.png",
+    "numAchievements": 6,
+    "numLeaderboards": 1,
+    "points": 27,
+    "dateModified": "2025-09-29 02:58:28",
     "forumTopicId": 23119,
     "hashes": [
       "05e8cce2efa8d05dfa739d03221dcf7e"
@@ -5061,33 +5511,18 @@
     ]
   },
   {
-    "title": "~Homebrew~ Cowlitz Gamers' 2nd Adventure, The",
-    "id": 27080,
+    "title": "~Homebrew~ Cookie Clicker",
+    "id": 13393,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/109375.png",
+    "numAchievements": 10,
+    "numLeaderboards": 1,
+    "points": 8,
+    "dateModified": "2022-12-30 18:45:36",
+    "forumTopicId": 7575,
     "hashes": [
-      "27d537d47a940d154c1572077ac357cb"
-    ]
-  },
-  {
-    "title": "~Homebrew~ Cowlitz Gamers' Lost Adventure, The",
-    "id": 27082,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "817aaebb8e3ae680891237c92b13e238"
+      "b1ba60845163ae84afc3bc5165558202"
     ]
   },
   {
@@ -5159,7 +5594,7 @@
     "numAchievements": 23,
     "numLeaderboards": 6,
     "points": 200,
-    "dateModified": "2025-04-21 13:36:16",
+    "dateModified": "2025-11-04 05:55:30",
     "forumTopicId": 30222,
     "hashes": [
       "910017623c33361ed51acabd4f0f0f3d"
@@ -5241,19 +5676,6 @@
     ]
   },
   {
-    "title": "~Homebrew~ Desert Bus 3D",
-    "id": 21478,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 18895,
-    "hashes": []
-  },
-  {
     "title": "~Homebrew~ Deth Complex",
     "id": 25667,
     "consoleId": 7,
@@ -5273,12 +5695,12 @@
     "id": 28976,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/123615.png",
+    "numAchievements": 6,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "points": 54,
+    "dateModified": "2026-01-26 22:10:53",
+    "forumTopicId": 34162,
     "hashes": [
       "1ef304ad53c761eee4046a0cb81b6eaf"
     ]
@@ -5408,6 +5830,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ F-FF",
+    "id": 37680,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "412eba85d3c53e8fa14a2d0b59ee1fb1"
+    ]
+  },
+  {
     "title": "~Homebrew~ Falling",
     "id": 5173,
     "consoleId": 7,
@@ -5528,6 +5965,21 @@
       "dd2a875173a5a5eee3c6f0e474e162e6",
       "ef7136e3762e84f740fdb0e156ea266d",
       "e33f68f13f164c21a9db21418c3d93f1"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Five Nights at Freddy's: NES",
+    "id": 34510,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/118589.png",
+    "numAchievements": 12,
+    "numLeaderboards": 0,
+    "points": 62,
+    "dateModified": "2026-01-21 03:01:43",
+    "forumTopicId": 32163,
+    "hashes": [
+      "ee00e299329427321118733e5e466af5"
     ]
   },
   {
@@ -5658,7 +6110,7 @@
     "id": 20038,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/078673.png",
+    "imageIcon": "/Images/120963.png",
     "numAchievements": 18,
     "numLeaderboards": 12,
     "points": 390,
@@ -6002,6 +6454,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Horror Hospital",
+    "id": 37679,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8078b6de936e0e10f1c343bf6ca96862"
+    ]
+  },
+  {
     "title": "~Homebrew~ Hyperbeatz",
     "id": 5839,
     "consoleId": 7,
@@ -6086,7 +6553,7 @@
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": 5515,
+    "forumTopicId": null,
     "hashes": [
       "24a43012857a87e59c88c79aa45f8132",
       "ba13a87936d1d05a087e2761c2c0166d",
@@ -6425,6 +6892,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Lunar Limit",
+    "id": 37682,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "dae4703bec7509ff975cc4cc19118daa"
+    ]
+  },
+  {
     "title": "~Homebrew~ Machine Cave",
     "id": 4586,
     "consoleId": 7,
@@ -6467,6 +6949,36 @@
     "forumTopicId": null,
     "hashes": [
       "c0b73ef33d28074745a7be7ea1095054"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Malasombra",
+    "id": 37778,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "029e629b1f425f183ef947afe5807f36"
+    ]
+  },
+  {
+    "title": "~Homebrew~ MANTLE",
+    "id": 34512,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/117654.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": "2026-01-22 17:36:15",
+    "forumTopicId": 32233,
+    "hashes": [
+      "1b237dad2776c11740323b3a58f71542"
     ]
   },
   {
@@ -6591,6 +7103,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Minccraft",
+    "id": 21478,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/121340.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "da73447a6cb4d011d49df66b43c080c1"
+    ]
+  },
+  {
     "title": "~Homebrew~ Mine Shaft",
     "id": 6178,
     "consoleId": 7,
@@ -6614,7 +7141,7 @@
     "numAchievements": 37,
     "numLeaderboards": 6,
     "points": 208,
-    "dateModified": "2024-11-05 05:09:26",
+    "dateModified": "2026-01-16 23:42:54",
     "forumTopicId": 26005,
     "hashes": [
       "98835ad6b33076bd49a762552342001a",
@@ -6660,7 +7187,7 @@
     "numAchievements": 14,
     "numLeaderboards": 12,
     "points": 135,
-    "dateModified": "2023-12-28 17:54:40",
+    "dateModified": "2026-01-06 02:54:03",
     "forumTopicId": 24886,
     "hashes": [
       "f9cc534600fc29c19199fa3d11b18b85"
@@ -6792,6 +7319,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ NESert Golfing",
+    "id": 37095,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a924e35c01ecf05a36f714eeadabf0a6"
+    ]
+  },
+  {
     "title": "~Homebrew~ NeSnake",
     "id": 4611,
     "consoleId": 7,
@@ -6819,21 +7361,6 @@
     "forumTopicId": null,
     "hashes": [
       "c177f230ba5f036e2366c9a18e964e66"
-    ]
-  },
-  {
-    "title": "~Homebrew~ Ninja of the 4 Seasons, The",
-    "id": 17751,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/051647.png",
-    "numAchievements": 7,
-    "numLeaderboards": 0,
-    "points": 75,
-    "dateModified": "2021-10-05 20:53:12",
-    "forumTopicId": 13197,
-    "hashes": [
-      "d7d55c7f8d71872500f68c2a8fb21b41"
     ]
   },
   {
@@ -6895,6 +7422,21 @@
     "hashes": [
       "b7379fee77fbf869dc7ec6e959d9aae1",
       "d2ad84a8c500a556320bf695352ae7eb"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Old Towers",
+    "id": 37019,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "63b475adc4623c0256a59670cff0d795"
     ]
   },
   {
@@ -7322,6 +7864,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ R-G-Bleeki!",
+    "id": 37018,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7130d07ebd2374937ba414af2a5ac2b0"
+    ]
+  },
+  {
     "title": "~Homebrew~ Race-Car Guzzler",
     "id": 27361,
     "consoleId": 7,
@@ -7397,6 +7954,21 @@
     ]
   },
   {
+    "title": "~Homebrew~ Return to Anctrayl",
+    "id": 37017,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3a3748338715c1144bdac72a1174bde1"
+    ]
+  },
+  {
     "title": "~Homebrew~ Robo Ninja Climb",
     "id": 5436,
     "consoleId": 7,
@@ -7424,6 +7996,36 @@
     "forumTopicId": null,
     "hashes": [
       "c5566027ed62e87b636c6e4d992dce17"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Rolling Hare",
+    "id": 37779,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "980dcfe256012d3ef93dcd44f1c980e1"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Rolling Hare 2",
+    "id": 37780,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d178bb6f4195710f2648e22df7ef9aaf"
     ]
   },
   {
@@ -7637,6 +8239,36 @@
     ]
   },
   {
+    "title": "~Homebrew~ Soko Banana",
+    "id": 36976,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d6d147c262bc8e679c5fdf4e86f9abe0"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Soko Banana: Tinsel Island",
+    "id": 36977,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "553f97e49c921791a4167caa41fcb07d"
+    ]
+  },
+  {
     "title": "~Homebrew~ Sonik Gem Dash",
     "id": 34138,
     "consoleId": 7,
@@ -7699,26 +8331,11 @@
     ]
   },
   {
-    "title": "~Homebrew~ Spirit of Satan, The",
-    "id": 26662,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "722d3ff7662e0fb2a6ff01b9e134e5a7"
-    ]
-  },
-  {
     "title": "~Homebrew~ SplatooD",
     "id": 4653,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/107664.png",
+    "imageIcon": "/Images/122699.png",
     "numAchievements": 16,
     "numLeaderboards": 0,
     "points": 48,
@@ -7741,6 +8358,21 @@
     "forumTopicId": null,
     "hashes": [
       "a02d60afbfa7905999729599e603fb60"
+    ]
+  },
+  {
+    "title": "~Homebrew~ Star Evil",
+    "id": 37681,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "1e0df2d2b13b05517e9b6d5ecea93b4e"
     ]
   },
   {
@@ -7932,7 +8564,7 @@
     "numAchievements": 11,
     "numLeaderboards": 0,
     "points": 210,
-    "dateModified": "2024-09-29 12:16:13",
+    "dateModified": "2025-12-17 04:48:13",
     "forumTopicId": 26836,
     "hashes": [
       "bbe584521e781e8a402087c1928c8c99"
@@ -7969,6 +8601,51 @@
     ]
   },
   {
+    "title": "~Homebrew~ The Arm Wrestling Classic",
+    "id": 19882,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/058911.png",
+    "numAchievements": 28,
+    "numLeaderboards": 1,
+    "points": 80,
+    "dateModified": "2022-06-09 08:46:30",
+    "forumTopicId": 16891,
+    "hashes": [
+      "818cad96b53efd26b1bb5d593765440f"
+    ]
+  },
+  {
+    "title": "~Homebrew~ The Cowlitz Gamers' 2nd Adventure",
+    "id": 27080,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "27d537d47a940d154c1572077ac357cb"
+    ]
+  },
+  {
+    "title": "~Homebrew~ The Cowlitz Gamers' Lost Adventure",
+    "id": 27082,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "817aaebb8e3ae680891237c92b13e238"
+    ]
+  },
+  {
     "title": "~Homebrew~ The Great Gatsby",
     "id": 32714,
     "consoleId": 7,
@@ -7999,6 +8676,66 @@
     ]
   },
   {
+    "title": "~Homebrew~ The Ninja of the 4 Seasons",
+    "id": 17751,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/051647.png",
+    "numAchievements": 7,
+    "numLeaderboards": 0,
+    "points": 75,
+    "dateModified": "2021-10-05 20:53:12",
+    "forumTopicId": 13197,
+    "hashes": [
+      "d7d55c7f8d71872500f68c2a8fb21b41"
+    ]
+  },
+  {
+    "title": "~Homebrew~ The Spirit of Satan",
+    "id": 26662,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "722d3ff7662e0fb2a6ff01b9e134e5a7"
+    ]
+  },
+  {
+    "title": "~Homebrew~ The Tower of Turmoil",
+    "id": 7611,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/041750.png",
+    "numAchievements": 20,
+    "numLeaderboards": 11,
+    "points": 175,
+    "dateModified": "2023-09-03 17:52:42",
+    "forumTopicId": 11942,
+    "hashes": [
+      "0c34e2f35d167befda4f5091f805fd0d"
+    ]
+  },
+  {
+    "title": "~Homebrew~ The Tragedy of Ryohyukan",
+    "id": 26664,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "6337141b623209e9425260f1ea890711"
+    ]
+  },
+  {
     "title": "~Homebrew~ The Trial of Kharzoid",
     "id": 34307,
     "consoleId": 7,
@@ -8011,6 +8748,21 @@
     "forumTopicId": null,
     "hashes": [
       "bbad94c4207dfd7e97c6a30d7f294908"
+    ]
+  },
+  {
+    "title": "~Homebrew~ The Wizard: Story Unknown",
+    "id": 14324,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ce040a20e1a9356b6e1bae8d8cec4a30"
     ]
   },
   {
@@ -8074,21 +8826,6 @@
     ]
   },
   {
-    "title": "~Homebrew~ Tower of Turmoil, The",
-    "id": 7611,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/041750.png",
-    "numAchievements": 20,
-    "numLeaderboards": 11,
-    "points": 175,
-    "dateModified": "2023-09-03 17:52:42",
-    "forumTopicId": 11942,
-    "hashes": [
-      "0c34e2f35d167befda4f5091f805fd0d"
-    ]
-  },
-  {
     "title": "~Homebrew~ Tracy's NEScapades",
     "id": 30735,
     "consoleId": 7,
@@ -8101,21 +8838,6 @@
     "forumTopicId": 28139,
     "hashes": [
       "f1b45878226cd9b5ec88a4a84b914758"
-    ]
-  },
-  {
-    "title": "~Homebrew~ Tragedy of Ryohyukan, The",
-    "id": 26664,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "6337141b623209e9425260f1ea890711"
     ]
   },
   {
@@ -8284,21 +9006,6 @@
     ]
   },
   {
-    "title": "~Homebrew~ Wizard, The: Story Unknown",
-    "id": 14324,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "ce040a20e1a9356b6e1bae8d8cec4a30"
-    ]
-  },
-  {
     "title": "~Homebrew~ Wo Xiang Niao Niao",
     "id": 10973,
     "consoleId": 7,
@@ -8364,10 +9071,10 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/114604.png",
-    "numAchievements": 0,
+    "numAchievements": 30,
     "numLeaderboards": 16,
-    "points": 0,
-    "dateModified": "2025-06-06 21:31:48",
+    "points": 195,
+    "dateModified": "2025-09-04 09:19:20",
     "forumTopicId": 30878,
     "hashes": [
       "e0de883f48bc1878ecbc8d0648f6c2cb"
@@ -8386,21 +9093,6 @@
     "forumTopicId": 3231,
     "hashes": [
       "bed0f7b12673dd762eed665c5c61927b"
-    ]
-  },
-  {
-    "title": "~Prototype~ Adventures of Dr. Franken, The",
-    "id": 5781,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/077611.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "8d0b1de993d1ea08b27068223b63fbba"
     ]
   },
   {
@@ -8528,7 +9220,7 @@
     "id": 4579,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/013652.png",
+    "imageIcon": "/Images/121237.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -8537,6 +9229,21 @@
     "hashes": [
       "1cd17f9613f6cd98bf10d3270b81de5b",
       "f01477299f5ed7a0876870b82236bdf8"
+    ]
+  },
+  {
+    "title": "~Prototype~ Cheetahmen II",
+    "id": 4583,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/089604.png",
+    "numAchievements": 21,
+    "numLeaderboards": 2,
+    "points": 161,
+    "dateModified": "2025-08-29 14:55:34",
+    "forumTopicId": 26634,
+    "hashes": [
+      "b67b175138358bacf63d06eefcb631af"
     ]
   },
   {
@@ -8555,6 +9262,21 @@
     ]
   },
   {
+    "title": "~Prototype~ Days of Thunder (Mindscape)",
+    "id": 36546,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "90f0516d372eca5678d3a7fbd81f6397"
+    ]
+  },
+  {
     "title": "~Prototype~ Drac's Night Out",
     "id": 4544,
     "consoleId": 7,
@@ -8563,7 +9285,7 @@
     "numAchievements": 23,
     "numLeaderboards": 6,
     "points": 330,
-    "dateModified": "2020-08-21 12:37:13",
+    "dateModified": "2025-10-11 16:04:23",
     "forumTopicId": 5362,
     "hashes": [
       "aea2e13819e1ca82bf4fa6da8c7dc60d"
@@ -8582,21 +9304,6 @@
     "forumTopicId": 2968,
     "hashes": [
       "63e6a9cfc0ecf13da9d8c02867a7ec47"
-    ]
-  },
-  {
-    "title": "~Prototype~ Fairyland Story, The",
-    "id": 20032,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "032d75bf07cdd6fc0b424b625aaa8050"
     ]
   },
   {
@@ -8638,7 +9345,7 @@
     "numAchievements": 15,
     "numLeaderboards": 4,
     "points": 120,
-    "dateModified": "2025-05-27 16:11:52",
+    "dateModified": "2025-11-07 21:01:28",
     "forumTopicId": 2071,
     "hashes": [
       "37dd9403d0d3ad7e5305af7d6e9a8159"
@@ -8735,19 +9442,6 @@
     ]
   },
   {
-    "title": "~Prototype~ Naughts and Crosses!",
-    "id": 4654,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
     "title": "~Prototype~ Pescatore",
     "id": 6883,
     "consoleId": 7,
@@ -8808,6 +9502,21 @@
     ]
   },
   {
+    "title": "~Prototype~ Secret Ties",
+    "id": 1931,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/077956.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 6432,
+    "hashes": [
+      "b1be5852fc442bf021c4e0c8b9313383"
+    ]
+  },
+  {
     "title": "~Prototype~ Sensible Soccer",
     "id": 34069,
     "consoleId": 7,
@@ -8831,10 +9540,27 @@
     "numAchievements": 50,
     "numLeaderboards": 8,
     "points": 400,
-    "dateModified": "2023-07-18 20:57:33",
+    "dateModified": "2025-11-25 17:52:57",
     "forumTopicId": 8018,
     "hashes": [
       "096a257ca8dcd7dd981f46fcb8d269bc"
+    ]
+  },
+  {
+    "title": "~Prototype~ Splatterworld: Rick vs. the King of Terror",
+    "id": 4654,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/121261.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "36063063de9db636aee583471df34718",
+      "039a0b25c7c36a775b91e2088280973b",
+      "b5d0ce15bea43d379610c0dae89e9eef"
     ]
   },
   {
@@ -8895,6 +9621,36 @@
     "forumTopicId": 24871,
     "hashes": [
       "b0c6105da3d5a7726fbe788e9913cafa"
+    ]
+  },
+  {
+    "title": "~Prototype~ The Adventures of Dr. Franken",
+    "id": 5781,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/077611.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8d0b1de993d1ea08b27068223b63fbba"
+    ]
+  },
+  {
+    "title": "~Prototype~ The Fairyland Story",
+    "id": 20032,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "032d75bf07cdd6fc0b424b625aaa8050"
     ]
   },
   {
@@ -8970,6 +9726,21 @@
     "forumTopicId": 5305,
     "hashes": [
       "51d17a6f9eeb0f8ced992de5df979e92"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ ~Prototype~ The Escape from Atlantis",
+    "id": 5375,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/077414.png",
+    "numAchievements": 7,
+    "numLeaderboards": 0,
+    "points": 80,
+    "dateModified": "2019-11-25 02:02:35",
+    "forumTopicId": 1467,
+    "hashes": [
+      "473039c69061a1b5fca5c277c4a0622e"
     ]
   },
   {
@@ -9115,10 +9886,10 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/071673.png",
-    "numAchievements": 110,
+    "numAchievements": 109,
     "numLeaderboards": 46,
-    "points": 1196,
-    "dateModified": "2021-07-20 17:16:37",
+    "points": 1186,
+    "dateModified": "2025-12-15 21:37:48",
     "forumTopicId": 1417,
     "hashes": [
       "233cddd94c3f3d5b9a9f4670a914e74d",
@@ -9261,6 +10032,22 @@
     "forumTopicId": null,
     "hashes": [
       "f37637bf09c6b5ac363fb78e0ffdb43d"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ AV Kyuukyoku Mahjong 2",
+    "id": 34544,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "43b6246a6fe933e3ee7736a1053d5ee2",
+      "a435cb272d776cddaf3e5ca8749eb719"
     ]
   },
   {
@@ -9596,6 +10383,21 @@
     ]
   },
   {
+    "title": "~Unlicensed~ Changeable Guardian Estique",
+    "id": 37696,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/122935.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "605ac6db67294f960672abbc578a1426"
+    ]
+  },
+  {
     "title": "~Unlicensed~ Chaoji Jiqiren Dazhan A | Super Robot Wars A",
     "id": 4883,
     "consoleId": 7,
@@ -9608,21 +10410,6 @@
     "forumTopicId": null,
     "hashes": [
       "fa475001fe330a36e21365d1031cf15d"
-    ]
-  },
-  {
-    "title": "~Unlicensed~ Cheetahmen II",
-    "id": 4583,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/089604.png",
-    "numAchievements": 21,
-    "numLeaderboards": 2,
-    "points": 161,
-    "dateModified": "2025-08-29 14:55:34",
-    "forumTopicId": 26634,
-    "hashes": [
-      "b67b175138358bacf63d06eefcb631af"
     ]
   },
   {
@@ -9785,7 +10572,7 @@
     "numAchievements": 7,
     "numLeaderboards": 0,
     "points": 22,
-    "dateModified": "2022-07-04 14:14:13",
+    "dateModified": "2025-11-19 04:58:36",
     "forumTopicId": 17240,
     "hashes": [
       "b782760018ba007d79d0fec6ef27558f",
@@ -9943,6 +10730,21 @@
     ]
   },
   {
+    "title": "~Unlicensed~ Desert Storm: Nightmare Snaps Soul",
+    "id": 36736,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "689bb13f4829907b329197e7c6c81764"
+    ]
+  },
+  {
     "title": "~Unlicensed~ Destructor, El",
     "id": 5671,
     "consoleId": 7,
@@ -9955,6 +10757,21 @@
     "forumTopicId": null,
     "hashes": [
       "14b849f4188b0d2e599bd4a08c4eba77"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Dianshi Mali: Big TV Mary Bar",
+    "id": 36507,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "ad5d53dc03aba202a2cc82d65e92fcab"
     ]
   },
   {
@@ -10039,7 +10856,7 @@
     "id": 15366,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122036.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -10062,6 +10879,21 @@
     "forumTopicId": null,
     "hashes": [
       "3ea4e5b4d24b3c03dfe927c7ef3062a5"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Dragon Knife",
+    "id": 36326,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5b82df30742ceb4a8832cc18a3437ac8"
     ]
   },
   {
@@ -10168,21 +11000,6 @@
     ]
   },
   {
-    "title": "~Unlicensed~ Escape from Atlantis, The",
-    "id": 5375,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/077414.png",
-    "numAchievements": 7,
-    "numLeaderboards": 0,
-    "points": 80,
-    "dateModified": "2019-11-25 02:02:35",
-    "forumTopicId": 1467,
-    "hashes": [
-      "473039c69061a1b5fca5c277c4a0622e"
-    ]
-  },
-  {
     "title": "~Unlicensed~ Exodus: Journey to the Promised Land",
     "id": 4614,
     "consoleId": 7,
@@ -10240,6 +11057,21 @@
     "forumTopicId": null,
     "hashes": [
       "2950049a0982d7ccf4b265bc23f8dd75"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Felix the Cat",
+    "id": 36603,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "0f3425643a19b7ee19e7991bffd3e168"
     ]
   },
   {
@@ -10352,6 +11184,21 @@
     ]
   },
   {
+    "title": "~Unlicensed~ Final Fight 3",
+    "id": 34546,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "35ae18901742afa4674f62560725e2a5"
+    ]
+  },
+  {
     "title": "~Unlicensed~ Fire Dragon",
     "id": 5837,
     "consoleId": 7,
@@ -10380,19 +11227,6 @@
     "hashes": [
       "e5824ea066127192c9ea43b63b7e3ea5"
     ]
-  },
-  {
-    "title": "~Unlicensed~ Flappy Bird",
-    "id": 6071,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 18667,
-    "hashes": []
   },
   {
     "title": "~Unlicensed~ Fun Blaster Pak",
@@ -10452,7 +11286,9 @@
     "forumTopicId": null,
     "hashes": [
       "2eebc980df26b883774c39c481dad360",
-      "791b41d02fec7500d7e101998061cd14"
+      "791b41d02fec7500d7e101998061cd14",
+      "617cef3215f27a7e3f60f0b7297716a5",
+      "eefbaab2a71de865cdfd21982a19e42d"
     ]
   },
   {
@@ -10471,6 +11307,22 @@
     ]
   },
   {
+    "title": "~Unlicensed~ Garou Densetsu Special",
+    "id": 34545,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8bb26d6edb9fc9486264fd9696e446f6",
+      "a3d6cfb9d768fc978c4f71c519cb84cb"
+    ]
+  },
+  {
     "title": "~Unlicensed~ Golden Axe III",
     "id": 33471,
     "consoleId": 7,
@@ -10483,21 +11335,6 @@
     "forumTopicId": null,
     "hashes": [
       "fa17730058c0488c92f5b64fd5becde5"
-    ]
-  },
-  {
-    "title": "~Unlicensed~ Great Wall, The",
-    "id": 7946,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "da05295f779b882a113b04e445b166f9"
     ]
   },
   {
@@ -10653,6 +11490,21 @@
     ]
   },
   {
+    "title": "~Unlicensed~ Huge Insect",
+    "id": 8506,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/038659.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": "2025-05-06 20:22:58",
+    "forumTopicId": 29775,
+    "hashes": [
+      "43f79df3bb48830a7073cf570b67daf1"
+    ]
+  },
+  {
     "title": "~Unlicensed~ Huo Ying Ren Zhe | Naruto RPG",
     "id": 15485,
     "consoleId": 7,
@@ -10663,7 +11515,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "dcfb94c8dc20428b9a196aa7ff16d77e"
+    ]
   },
   {
     "title": "~Unlicensed~ Huoyan Wen Zhang: Shengzhan de Xipu",
@@ -10711,21 +11565,6 @@
     ]
   },
   {
-    "title": "~Unlicensed~ Incantation",
-    "id": 5187,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "0d689e530660359228a7a686fa359617"
-    ]
-  },
-  {
     "title": "~Unlicensed~ Jackpot",
     "id": 9655,
     "consoleId": 7,
@@ -10741,6 +11580,21 @@
     ]
   },
   {
+    "title": "~Unlicensed~ Janggun-ui Adeul",
+    "id": 36737,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/121503.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "5a23f3ff580253cb085b2a83384fcdb1"
+    ]
+  },
+  {
     "title": "~Unlicensed~ Jinghua Yuan",
     "id": 1833,
     "consoleId": 7,
@@ -10753,6 +11607,23 @@
     "forumTopicId": null,
     "hashes": [
       "ca2d6c3fd25113fc4d29f66652ea16db"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Jingke Xin Zhuan",
+    "id": 34543,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8a60538025e37dbcdba3f10aec33ce6d",
+      "a444332ad64b1f151e1fbee7c7bd51f0",
+      "453680bec90f73f7a30eea89cf750038"
     ]
   },
   {
@@ -10858,47 +11729,6 @@
     "forumTopicId": null,
     "hashes": [
       "c0dfe24dedeb3c704a51d3688a2e161d"
-    ]
-  },
-  {
-    "title": "~Unlicensed~ King of Fighters 96, The",
-    "id": 9557,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/077559.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 4131,
-    "hashes": []
-  },
-  {
-    "title": "~Unlicensed~ King of Fighters R1, The",
-    "id": 17125,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": []
-  },
-  {
-    "title": "~Unlicensed~ King of Fighters R2, The",
-    "id": 17126,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "8321d355e9f3dabaeb084a40ae0c0398"
     ]
   },
   {
@@ -11164,7 +11994,7 @@
     ]
   },
   {
-    "title": "~Unlicensed~ Leidian Huang: Pikachu Chuanshuo",
+    "title": "~Unlicensed~ Lei Dian Huang: Bikaqiu Chuanshuo",
     "id": 5777,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
@@ -11180,6 +12010,21 @@
     ]
   },
   {
+    "title": "~Unlicensed~ Lines",
+    "id": 37204,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "92aa8e42e289165c567214bc58ae6497"
+    ]
+  },
+  {
     "title": "~Unlicensed~ Lingjie Hufa: Shock | Flashback",
     "id": 33470,
     "consoleId": 7,
@@ -11192,6 +12037,21 @@
     "forumTopicId": null,
     "hashes": [
       "8b163fdb7e3a59f199b0206dd7cc4aff"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Linus Spacehead's Cosmic Crusade",
+    "id": 6147,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/009864.png",
+    "numAchievements": 56,
+    "numLeaderboards": 0,
+    "points": 420,
+    "dateModified": "2019-07-05 21:22:39",
+    "forumTopicId": 4204,
+    "hashes": [
+      "2fadc729157eb5e282abc59d1ced75ce"
     ]
   },
   {
@@ -11283,6 +12143,21 @@
     "forumTopicId": null,
     "hashes": [
       "5dee536b542e97885182b641ac70bacb"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Magic Dragon",
+    "id": 5187,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "9c99fe110503c241a2fddca27b914584"
     ]
   },
   {
@@ -11505,12 +12380,10 @@
     "numAchievements": 26,
     "numLeaderboards": 0,
     "points": 315,
-    "dateModified": "2025-07-31 23:30:28",
+    "dateModified": "2025-11-17 23:56:03",
     "forumTopicId": 1449,
     "hashes": [
-      "1a9dd4d395d4cae369c586bfd4afff82",
-      "46a92436a4899fd3adc2f5097cdaa5dd",
-      "5a28fc9c176769d206476416a515d17b"
+      "46a92436a4899fd3adc2f5097cdaa5dd"
     ]
   },
   {
@@ -11871,21 +12744,6 @@
     ]
   },
   {
-    "title": "~Unlicensed~ Panda Prince, The",
-    "id": 15321,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/056429.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "36c041fbdd93d53ae024a41244fef080"
-    ]
-  },
-  {
     "title": "~Unlicensed~ Panda World",
     "id": 32570,
     "consoleId": 7,
@@ -11897,8 +12755,7 @@
     "dateModified": null,
     "forumTopicId": null,
     "hashes": [
-      "c79792bc270499912c85cdbbb8a73373",
-      "1185252e09d26a357fd6a4dabe948ab6"
+      "c79792bc270499912c85cdbbb8a73373"
     ]
   },
   {
@@ -11914,21 +12771,6 @@
     "forumTopicId": null,
     "hashes": [
       "52d1736310a312ca076eb078a3445bc2"
-    ]
-  },
-  {
-    "title": "~Unlicensed~ Papillon Gals",
-    "id": 5774,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/077552.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "eefbaab2a71de865cdfd21982a19e42d"
     ]
   },
   {
@@ -12002,7 +12844,24 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "5e6c6c6335f86b54049f0cd68c390b72"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Pocket Monster",
+    "id": 14358,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/049840.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": "2019-06-23 21:44:48",
+    "forumTopicId": null,
+    "hashes": [
+      "1185252e09d26a357fd6a4dabe948ab6"
+    ]
   },
   {
     "title": "~Unlicensed~ Pokémon 4-in-1",
@@ -12164,7 +13023,7 @@
     "numAchievements": 113,
     "numLeaderboards": 11,
     "points": 900,
-    "dateModified": "2025-08-21 16:33:18",
+    "dateModified": "2025-10-15 19:19:37",
     "forumTopicId": 5018,
     "hashes": [
       "c4afb62469145c5af016db8cdabf60aa",
@@ -12292,6 +13151,21 @@
     ]
   },
   {
+    "title": "~Unlicensed~ Sanguo Chunqiu: Sichuan Sheng",
+    "id": 34547,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d6b8cb58fc41f8762924200b072479ed"
+    ]
+  },
+  {
     "title": "~Unlicensed~ Secret Scout in the Temple of Demise",
     "id": 5893,
     "consoleId": 7,
@@ -12392,7 +13266,7 @@
     "numAchievements": 22,
     "numLeaderboards": 0,
     "points": 242,
-    "dateModified": "2025-07-26 09:21:11",
+    "dateModified": "2025-12-06 10:03:25",
     "forumTopicId": 29988,
     "hashes": [
       "27fd3ba457290496e95de79760cb4f5c",
@@ -12525,10 +13399,10 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/008288.png",
-    "numAchievements": 6,
+    "numAchievements": 4,
     "numLeaderboards": 0,
-    "points": 35,
-    "dateModified": "2021-09-20 21:38:10",
+    "points": 28,
+    "dateModified": "2025-09-27 20:55:00",
     "forumTopicId": 3272,
     "hashes": [
       "51d86a8d25beb53a3df7d0176765e018"
@@ -12673,6 +13547,21 @@
     ]
   },
   {
+    "title": "~Unlicensed~ Stunt Kids",
+    "id": 7135,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/013591.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4f48777cbf4712ee5a948007a7416da0"
+    ]
+  },
+  {
     "title": "~Unlicensed~ Sudo King",
     "id": 17178,
     "consoleId": 7,
@@ -12738,15 +13627,30 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/113244.png",
-    "numAchievements": 0,
+    "numAchievements": 14,
     "numLeaderboards": 2,
-    "points": 0,
-    "dateModified": "2025-07-30 15:32:02",
+    "points": 125,
+    "dateModified": "2025-09-09 15:13:58",
     "forumTopicId": 31092,
     "hashes": [
       "294338f8898fb6633df0995ec3bcca1b",
       "d8f0921bd60bbc7c18a4e1f707e5486e",
       "a9f62d479baf78165e34aaf475174de8"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Super Contra X",
+    "id": 36403,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a63baeed7802be2e0f5d1bd223072e4b"
     ]
   },
   {
@@ -12885,18 +13789,18 @@
     ]
   },
   {
-    "title": "~Unlicensed~ Super Shinobi, The",
-    "id": 5347,
+    "title": "~Unlicensed~ Super Robin Hood",
+    "id": 5426,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/054355.png",
-    "numAchievements": 12,
+    "imageIcon": "/Images/055513.png",
+    "numAchievements": 0,
     "numLeaderboards": 0,
-    "points": 120,
-    "dateModified": "2020-10-12 22:54:18",
-    "forumTopicId": 1436,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
     "hashes": [
-      "5c6bee47aaae1c76f3b4a5b3e34f10de"
+      "78b620c48a32e1b7184147a5d8bdd1d9"
     ]
   },
   {
@@ -12965,13 +13869,104 @@
     "id": 8634,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/026266.png",
+    "imageIcon": "/Images/121468.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e11e5c7a9d4d5a0689cfcc779063895a"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ Tetris (Tengen)",
+    "id": 2023,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/105570.png",
+    "numAchievements": 51,
+    "numLeaderboards": 12,
+    "points": 850,
+    "dateModified": "2025-12-14 23:17:51",
+    "forumTopicId": 3882,
+    "hashes": [
+      "117c38986584c88263414b7abb98667c",
+      "940de0f2258763abd113924e4cc02e5c"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ The Fantastic Adventures of Dizzy",
+    "id": 4616,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/024223.png",
+    "numAchievements": 72,
+    "numLeaderboards": 0,
+    "points": 667,
+    "dateModified": "2022-11-21 04:18:08",
+    "forumTopicId": 7102,
+    "hashes": [
+      "8c8e0f565257835befb2fd727049b413"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ The Great Wall",
+    "id": 7946,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "da05295f779b882a113b04e445b166f9"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ The King of Fighters 96",
+    "id": 9557,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/077559.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 4131,
+    "hashes": [
+      "5638b3a85fd749178ff31724c2302677"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ The King of Fighters R1",
+    "id": 17125,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
     "hashes": []
+  },
+  {
+    "title": "~Unlicensed~ The King of Fighters R2",
+    "id": 17126,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "8321d355e9f3dabaeb084a40ae0c0398"
+    ]
   },
   {
     "title": "~Unlicensed~ The Legend of Zelda: Link's Awakening | Feng Yin Dao",
@@ -13049,6 +14044,81 @@
     "forumTopicId": null,
     "hashes": [
       "2df2b6631e3f8d6a6552c288d6155ba8"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ The Panda Prince",
+    "id": 15321,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/056429.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "36c041fbdd93d53ae024a41244fef080"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ The Super Shinobi",
+    "id": 5347,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/054355.png",
+    "numAchievements": 12,
+    "numLeaderboards": 0,
+    "points": 120,
+    "dateModified": "2020-10-12 22:54:18",
+    "forumTopicId": 1436,
+    "hashes": [
+      "5c6bee47aaae1c76f3b4a5b3e34f10de"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ The Ultimate Stuntman",
+    "id": 2055,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/013561.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 7045,
+    "hashes": [
+      "8d5cc0992f154da981fad8cec4d2bab4"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ The Universe Soldiers",
+    "id": 8653,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/073593.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "db9bcb179e13fbef4c19f4c64d504e7b"
+    ]
+  },
+  {
+    "title": "~Unlicensed~ The World of Card Games",
+    "id": 6913,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "6cf0d15f243b8ac56d7982d2cfa85c51"
     ]
   },
   {
@@ -13203,36 +14273,6 @@
     ]
   },
   {
-    "title": "~Unlicensed~ Ultimate Stuntman, The",
-    "id": 2055,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/013561.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 7045,
-    "hashes": [
-      "8d5cc0992f154da981fad8cec4d2bab4"
-    ]
-  },
-  {
-    "title": "~Unlicensed~ Universe Soldiers, The",
-    "id": 8653,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/073593.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "db9bcb179e13fbef4c19f4c64d504e7b"
-    ]
-  },
-  {
     "title": "~Unlicensed~ Venice Beach Volleyball",
     "id": 10380,
     "consoleId": 7,
@@ -13278,6 +14318,21 @@
     ]
   },
   {
+    "title": "~Unlicensed~ War in the Gulf",
+    "id": 36355,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "b2990a023217d5a26e89b554c9617954"
+    ]
+  },
+  {
     "title": "~Unlicensed~ Wonderland Dizzy",
     "id": 10388,
     "consoleId": 7,
@@ -13306,21 +14361,6 @@
     "hashes": [
       "9572d6a5f36d7c62258417c331a7220e",
       "b7536ae7c0befeac3cd012af323d1892"
-    ]
-  },
-  {
-    "title": "~Unlicensed~ World of Card Games, The",
-    "id": 6913,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "6cf0d15f243b8ac56d7982d2cfa85c51"
     ]
   },
   {
@@ -13552,6 +14592,21 @@
     "forumTopicId": null,
     "hashes": [
       "86eb9d1ede06ebaf2a3cbe9a63860455"
+    ]
+  },
+  {
+    "title": "~Z~ ~Hack~ Super Mario All Stars",
+    "id": 2359,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/110469.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 5277,
+    "hashes": [
+      "cd63493881c52a09a1bdef3041604672"
     ]
   },
   {
@@ -15552,6 +16607,58 @@
     ]
   },
   {
+    "title": "~Z~ No Hash 17081",
+    "id": 17081,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/040080.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
+    "title": "~Z~ No Hash 37807",
+    "id": 37807,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
+    "title": "~Z~ No Hash 4979",
+    "id": 4979,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
+    "title": "~Z~ Sesame Street: ABC & 123",
+    "id": 1936,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/121908.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": []
+  },
+  {
     "title": "~Z~ Tecmo Bowl",
     "id": 1503,
     "consoleId": 7,
@@ -15718,7 +16825,7 @@
     "numAchievements": 33,
     "numLeaderboards": 0,
     "points": 570,
-    "dateModified": "2022-12-19 16:24:20",
+    "dateModified": "2025-11-18 00:05:07",
     "forumTopicId": 2360,
     "hashes": [
       "5f62fab71cf3f8e90ac3af2775c8d630",
@@ -15773,21 +16880,6 @@
     ]
   },
   {
-    "title": "Abarenbou Tengu",
-    "id": 8566,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/013665.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 3409,
-    "hashes": [
-      "b8869bf2bc256c521787b8851b5a2458"
-    ]
-  },
-  {
     "title": "Aces: Iron Eagle 3",
     "id": 23767,
     "consoleId": 7,
@@ -15839,10 +16931,10 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/111882.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-08-15 05:12:33",
+    "numAchievements": 35,
+    "numLeaderboards": 42,
+    "points": 270,
+    "dateModified": "2025-12-10 04:03:42",
     "forumTopicId": 30315,
     "hashes": [
       "5ee1587c34a475fd8bc372f04e4961e1"
@@ -15898,7 +16990,7 @@
     "id": 1526,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/048950.png",
+    "imageIcon": "/Images/119053.png",
     "numAchievements": 15,
     "numLeaderboards": 0,
     "points": 200,
@@ -15967,7 +17059,7 @@
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 340,
-    "dateModified": "2021-05-13 16:21:10",
+    "dateModified": "2025-12-02 11:56:50",
     "forumTopicId": 1786,
     "hashes": [
       "bd377b49dcc269c6270ec0ea6336baf5"
@@ -15982,7 +17074,7 @@
     "numAchievements": 34,
     "numLeaderboards": 0,
     "points": 465,
-    "dateModified": "2023-08-10 09:23:21",
+    "dateModified": "2025-11-17 20:48:46",
     "forumTopicId": 1784,
     "hashes": [
       "3841351eaa62547c757e5fce1cd0e67f",
@@ -16107,7 +17199,7 @@
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 255,
-    "dateModified": "2025-07-28 21:34:54",
+    "dateModified": "2025-11-20 04:01:05",
     "forumTopicId": 979,
     "hashes": [
       "897d8c76da605d233212d01025b3327e",
@@ -16154,7 +17246,7 @@
     "numAchievements": 13,
     "numLeaderboards": 0,
     "points": 62,
-    "dateModified": "2022-11-30 16:18:40",
+    "dateModified": "2025-11-23 05:25:35",
     "forumTopicId": 3284,
     "hashes": [
       "0b70dfcdccca9e0a9d51096d4347f06f",
@@ -16186,7 +17278,7 @@
     "numAchievements": 80,
     "numLeaderboards": 4,
     "points": 800,
-    "dateModified": "2025-07-20 15:27:17",
+    "dateModified": "2025-09-03 16:57:48",
     "forumTopicId": 10724,
     "hashes": [
       "2a7c4cd0e9aecefbd97b35358690b7ab",
@@ -16195,38 +17287,20 @@
     ]
   },
   {
-    "title": "Akumajou Special: Boku Dracula-kun | Kid Dracula",
-    "id": 2863,
+    "title": "Akumajou Dracula (FDS)",
+    "id": 36892,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/083727.png",
-    "numAchievements": 52,
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
     "numLeaderboards": 0,
-    "points": 474,
-    "dateModified": "2024-10-25 18:02:08",
-    "forumTopicId": 3830,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
     "hashes": [
-      "1349d4dca5bdf2de21e10c316d3f7b47",
-      "3e2a5957af0c11994069201fd9de324d",
-      "5631eae8bc0845bb3b6876ad95832b4f",
-      "96084e640ed9a02c644b39986c269662",
-      "9a0012b3bbfcaba3ef7730a4ca6c8b3d",
-      "c68fa81d7cc3cc8a66c1f6391a385037"
-    ]
-  },
-  {
-    "title": "Akumajou Special: Boku Dracula-kun | Kid Dracula [Subset - Bonus]",
-    "id": 1510,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/105479.png",
-    "numAchievements": 14,
-    "numLeaderboards": 0,
-    "points": 450,
-    "dateModified": "2021-12-02 21:17:21",
-    "forumTopicId": 5392,
-    "hashes": [
-      "1cbb2d6903fc0188426f08bb1c0be925"
+      "62ce2cf11cca70f6db84f5e6d7ada1c4",
+      "fe739e10ec1f70888a4cac28d8562fae",
+      "33def5907d3561f6649a5e0ccf9a1d09"
     ]
   },
   {
@@ -16275,7 +17349,7 @@
     ]
   },
   {
-    "title": "Alex DeMeo's Race America | Corvette ZR-1 Challenge",
+    "title": "Alex DeMeo's Race America",
     "id": 1897,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
@@ -16295,7 +17369,7 @@
     "id": 1537,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/082945.png",
+    "imageIcon": "/Images/121677.png",
     "numAchievements": 25,
     "numLeaderboards": 1,
     "points": 173,
@@ -16310,7 +17384,7 @@
     "id": 5785,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/011352.png",
+    "imageIcon": "/Images/120848.png",
     "numAchievements": 28,
     "numLeaderboards": 0,
     "points": 372,
@@ -16343,10 +17417,10 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/075723.png",
-    "numAchievements": 107,
+    "numAchievements": 106,
     "numLeaderboards": 52,
-    "points": 911,
-    "dateModified": "2025-06-26 23:41:54",
+    "points": 906,
+    "dateModified": "2025-09-20 05:33:39",
     "forumTopicId": 23211,
     "hashes": [
       "c8719692d0b9d9649492ffb1c2d26aa3"
@@ -16374,7 +17448,7 @@
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/022101.png",
     "numAchievements": 24,
-    "numLeaderboards": 0,
+    "numLeaderboards": 1,
     "points": 205,
     "dateModified": "2024-10-03 19:45:23",
     "forumTopicId": 1387,
@@ -16388,11 +17462,11 @@
     "id": 1540,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/050153.png",
+    "imageIcon": "/Images/121022.png",
     "numAchievements": 35,
     "numLeaderboards": 2,
-    "points": 410,
-    "dateModified": "2024-12-09 19:23:20",
+    "points": 412,
+    "dateModified": "2025-11-15 10:13:32",
     "forumTopicId": 2204,
     "hashes": [
       "abbceff7684b678dba0a109ac2314bd3",
@@ -16623,7 +17697,7 @@
     "numAchievements": 49,
     "numLeaderboards": 1,
     "points": 269,
-    "dateModified": "2025-06-04 22:24:10",
+    "dateModified": "2025-11-17 04:40:46",
     "forumTopicId": 3410,
     "hashes": [
       "797383138b0590ce00ed0f6fdea14053"
@@ -16645,7 +17719,7 @@
     ]
   },
   {
-    "title": "Armana no Kiseki | The Miracle of Almana (FDS)",
+    "title": "Armana no Kiseki (FDS)",
     "id": 1972,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
@@ -16708,7 +17782,7 @@
     ]
   },
   {
-    "title": "Aspic: Mahebiou no Noroi | Aspic: Curse of the Snakelord (FDS)",
+    "title": "Aspic: Mahebiou no Noroi (FDS)",
     "id": 22889,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
@@ -16716,7 +17790,7 @@
     "numAchievements": 21,
     "numLeaderboards": 0,
     "points": 209,
-    "dateModified": "2023-12-09 23:43:53",
+    "dateModified": "2025-11-28 04:20:57",
     "forumTopicId": 24438,
     "hashes": [
       "7d6153486d7103c639659a2256e88e5c",
@@ -16885,7 +17959,7 @@
     "numAchievements": 48,
     "numLeaderboards": 1,
     "points": 253,
-    "dateModified": "2025-06-04 22:29:25",
+    "dateModified": "2025-11-10 21:26:12",
     "forumTopicId": 15313,
     "hashes": [
       "1091938efd3030a1745b389b04fc3817"
@@ -16934,6 +18008,21 @@
     "forumTopicId": 9034,
     "hashes": [
       "8829d7ab1efa5af5e309d4fb2b8574e3"
+    ]
+  },
+  {
+    "title": "Backgammon (FDS)",
+    "id": 36400,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "e8c43dc8426a03d55615ac5c968864d0"
     ]
   },
   {
@@ -17094,7 +18183,7 @@
     "id": 1556,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/071267.png",
+    "imageIcon": "/Images/123704.png",
     "numAchievements": 25,
     "numLeaderboards": 16,
     "points": 268,
@@ -17141,7 +18230,7 @@
     "id": 5795,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/099033.png",
+    "imageIcon": "/Images/121624.png",
     "numAchievements": 81,
     "numLeaderboards": 0,
     "points": 800,
@@ -17374,7 +18463,7 @@
     "numAchievements": 26,
     "numLeaderboards": 0,
     "points": 330,
-    "dateModified": "2020-07-18 05:08:07",
+    "dateModified": "2025-12-10 18:18:13",
     "forumTopicId": 2406,
     "hashes": [
       "077aef22bae04dbf287ebbc03806da3c"
@@ -17389,7 +18478,7 @@
     "numAchievements": 21,
     "numLeaderboards": 0,
     "points": 310,
-    "dateModified": "2020-08-26 23:36:33",
+    "dateModified": "2025-10-11 02:10:04",
     "forumTopicId": 1522,
     "hashes": [
       "6f8b376c96e904c2959951cc813ac78b",
@@ -17744,7 +18833,7 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": "2025-06-10 02:07:16",
+    "dateModified": "2025-11-30 18:58:08",
     "forumTopicId": 31067,
     "hashes": [
       "170b97f5f1b86416efa71c0978a94b9d"
@@ -17883,7 +18972,7 @@
     "numAchievements": 26,
     "numLeaderboards": 0,
     "points": 360,
-    "dateModified": "2023-06-04 01:06:05",
+    "dateModified": "2026-01-25 03:23:03",
     "forumTopicId": 6964,
     "hashes": [
       "12b0dbc4f2b22a50d0bb53c4929217f0",
@@ -17976,7 +19065,7 @@
     "numAchievements": 33,
     "numLeaderboards": 0,
     "points": 320,
-    "dateModified": "2023-09-30 12:44:36",
+    "dateModified": "2026-01-03 03:32:06",
     "forumTopicId": 2167,
     "hashes": [
       "3a8982c987a93b2f7c7eb7de2c102192",
@@ -17992,7 +19081,7 @@
     "numAchievements": 17,
     "numLeaderboards": 0,
     "points": 137,
-    "dateModified": "2023-07-31 01:48:03",
+    "dateModified": "2026-01-16 03:21:20",
     "forumTopicId": 1971,
     "hashes": [
       "a5f808c245dc1a5e869bfd06e98d1b6f"
@@ -18115,7 +19204,7 @@
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 355,
-    "dateModified": "2021-08-04 17:53:28",
+    "dateModified": "2025-11-22 20:28:09",
     "forumTopicId": 968,
     "hashes": [
       "0642d8c0675c2797f3e728e298e881b6",
@@ -18163,7 +19252,7 @@
     "numAchievements": 20,
     "numLeaderboards": 2,
     "points": 270,
-    "dateModified": "2021-05-16 21:52:52",
+    "dateModified": "2025-12-15 13:05:01",
     "forumTopicId": 7262,
     "hashes": [
       "d2c42603a8ec74f51265c085ae26b9bb",
@@ -18239,7 +19328,7 @@
     "numAchievements": 30,
     "numLeaderboards": 6,
     "points": 520,
-    "dateModified": "2023-05-16 02:01:43",
+    "dateModified": "2025-12-23 21:09:10",
     "forumTopicId": 5000,
     "hashes": [
       "19a9d66a9d9c1c736316957c344eee95",
@@ -18340,18 +19429,19 @@
     ]
   },
   {
-    "title": "Captain Tsubasa | Tecmo Cup Soccer Game | Tecmo Cup Football Game",
+    "title": "Captain Tsubasa",
     "id": 2232,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/079362.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 24,
+    "numLeaderboards": 6,
+    "points": 220,
+    "dateModified": "2026-01-19 10:36:48",
     "forumTopicId": 29752,
     "hashes": [
-      "8005917fdb44ab15048aef36e9030719"
+      "8005917fdb44ab15048aef36e9030719",
+      "8a1785e26eb3f55a43af690cd4b8624d"
     ]
   },
   {
@@ -18439,7 +19529,7 @@
     "numAchievements": 17,
     "numLeaderboards": 8,
     "points": 140,
-    "dateModified": "2025-06-04 20:06:19",
+    "dateModified": "2025-11-29 17:14:43",
     "forumTopicId": 30955,
     "hashes": [
       "72f043347389e8bc8d90e529e5c7ab6e"
@@ -18454,7 +19544,7 @@
     "numAchievements": 18,
     "numLeaderboards": 1,
     "points": 184,
-    "dateModified": "2024-08-09 02:13:12",
+    "dateModified": "2025-09-12 02:03:59",
     "forumTopicId": 28568,
     "hashes": [
       "984b76345481ffa372c3edf69a116352"
@@ -18528,6 +19618,21 @@
     ]
   },
   {
+    "title": "Castlevania II: Simon's Quest [Subset - Full Game Damageless]",
+    "id": 34505,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/117347.png",
+    "numAchievements": 10,
+    "numLeaderboards": 0,
+    "points": 365,
+    "dateModified": "2025-09-05 10:15:08",
+    "forumTopicId": 32141,
+    "hashes": [
+      "6396078ec874ce73bced3d841b82ca78"
+    ]
+  },
+  {
     "title": "Castlevania III: Dracula's Curse",
     "id": 2221,
     "consoleId": 7,
@@ -18536,7 +19641,7 @@
     "numAchievements": 55,
     "numLeaderboards": 18,
     "points": 626,
-    "dateModified": "2024-12-17 14:19:35",
+    "dateModified": "2025-09-28 22:35:21",
     "forumTopicId": 1106,
     "hashes": [
       "0abe4626e7e141945bf85b07acd4f584",
@@ -18556,7 +19661,7 @@
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/011360.png",
     "numAchievements": 21,
-    "numLeaderboards": 0,
+    "numLeaderboards": 10,
     "points": 190,
     "dateModified": "2019-10-23 22:53:01",
     "forumTopicId": 6634,
@@ -18726,7 +19831,7 @@
     "numAchievements": 60,
     "numLeaderboards": 2,
     "points": 750,
-    "dateModified": "2024-04-19 21:51:50",
+    "dateModified": "2025-12-17 13:45:26",
     "forumTopicId": 1033,
     "hashes": [
       "11d1a7e954105317f19cfb113a6314d9",
@@ -18753,6 +19858,21 @@
       "7e69985bb43db4686ba59c08406c716c",
       "c96c89ef8cd2c2421fb586615bfa7fc5",
       "d145af52544bd98c31a2da8956402b51"
+    ]
+  },
+  {
+    "title": "Chitei Tairiku Ordola (FDS)",
+    "id": 36891,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "de77e98655bfe724ebdf478317aef936"
     ]
   },
   {
@@ -18805,7 +19925,7 @@
     "id": 4815,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/079333.png",
+    "imageIcon": "/Images/121886.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -18844,22 +19964,6 @@
     "forumTopicId": null,
     "hashes": [
       "d94ac9b762c4aa4dc05cc09c904655d8"
-    ]
-  },
-  {
-    "title": "Chronicle of the Radia War | Radia Senki: Reimei Hen",
-    "id": 7161,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/017766.png",
-    "numAchievements": 55,
-    "numLeaderboards": 0,
-    "points": 550,
-    "dateModified": "2024-04-12 22:22:49",
-    "forumTopicId": 14848,
-    "hashes": [
-      "d8cb72cc00c627b8262d3897bbeea7d6",
-      "f520d2c3cf075a7421efc134ac3dbaee"
     ]
   },
   {
@@ -19117,7 +20221,7 @@
     "numAchievements": 27,
     "numLeaderboards": 1,
     "points": 295,
-    "dateModified": "2022-11-22 17:18:09",
+    "dateModified": "2025-11-16 20:17:46",
     "forumTopicId": 1384,
     "hashes": [
       "618e8f72bd2fd80c67d5ec1e6fa238b2",
@@ -19133,7 +20237,7 @@
     "numAchievements": 39,
     "numLeaderboards": 6,
     "points": 430,
-    "dateModified": "2023-10-15 17:25:23",
+    "dateModified": "2025-11-17 23:07:31",
     "forumTopicId": 1229,
     "hashes": [
       "05043f92ba4dafdb912422c6751492c4",
@@ -19226,7 +20330,7 @@
     "numAchievements": 33,
     "numLeaderboards": 0,
     "points": 415,
-    "dateModified": "2024-03-29 09:02:21",
+    "dateModified": "2025-09-18 08:44:01",
     "forumTopicId": 14849,
     "hashes": [
       "28cd4cd685b0f1b58d0aec9a8da325d8"
@@ -19241,7 +20345,7 @@
     "numAchievements": 40,
     "numLeaderboards": 5,
     "points": 533,
-    "dateModified": "2025-02-18 22:31:20",
+    "dateModified": "2025-12-22 01:31:00",
     "forumTopicId": 283,
     "hashes": [
       "5a5c2f4f1cafb1f55a8dc0d5ad4550e5"
@@ -19263,7 +20367,7 @@
     ]
   },
   {
-    "title": "Contra [Subset - Multi]",
+    "title": "Contra [Subset - Multiplayer]",
     "id": 6836,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
@@ -19282,11 +20386,11 @@
     "id": 1632,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/049675.png",
+    "imageIcon": "/Images/121557.png",
     "numAchievements": 32,
     "numLeaderboards": 0,
     "points": 425,
-    "dateModified": "2023-06-26 10:37:07",
+    "dateModified": "2025-12-02 15:09:27",
     "forumTopicId": 1844,
     "hashes": [
       "2f2cb4ec9936d23f370f9991e84cce98"
@@ -19376,7 +20480,7 @@
     "numAchievements": 14,
     "numLeaderboards": 1,
     "points": 166,
-    "dateModified": "2022-08-31 22:38:31",
+    "dateModified": "2025-11-16 16:55:34",
     "forumTopicId": 4320,
     "hashes": [
       "a4b859ce2ad39774e2a33a620d1aa02d",
@@ -19465,11 +20569,11 @@
     "id": 1636,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/053505.png",
+    "imageIcon": "/Images/123056.png",
     "numAchievements": 43,
     "numLeaderboards": 0,
     "points": 309,
-    "dateModified": "2023-05-28 00:57:10",
+    "dateModified": "2025-11-25 21:01:39",
     "forumTopicId": 896,
     "hashes": [
       "dda34025966a23ae854d7947a3177f57"
@@ -19758,7 +20862,7 @@
     "numAchievements": 28,
     "numLeaderboards": 18,
     "points": 330,
-    "dateModified": "2025-03-12 02:32:53",
+    "dateModified": "2025-10-01 02:37:20",
     "forumTopicId": 29935,
     "hashes": [
       "dd43d6ac1ce78b0162cc5bd2fd17087b"
@@ -19974,7 +21078,7 @@
     "numAchievements": 137,
     "numLeaderboards": 0,
     "points": 985,
-    "dateModified": "2025-01-09 19:09:58",
+    "dateModified": "2026-01-20 22:14:24",
     "forumTopicId": 2496,
     "hashes": [
       "516136715d9e29e889f3c9d7c7d12a42"
@@ -20191,7 +21295,7 @@
     "id": 6422,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/015715.png",
+    "imageIcon": "/Images/123103.png",
     "numAchievements": 40,
     "numLeaderboards": 0,
     "points": 430,
@@ -20208,7 +21312,7 @@
     "id": 6421,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/048336.png",
+    "imageIcon": "/Images/123135.png",
     "numAchievements": 20,
     "numLeaderboards": 0,
     "points": 600,
@@ -20257,7 +21361,7 @@
     "numAchievements": 20,
     "numLeaderboards": 0,
     "points": 280,
-    "dateModified": "2025-08-16 18:47:01",
+    "dateModified": "2025-12-14 16:31:47",
     "forumTopicId": 5012,
     "hashes": [
       "49f48b259bdb3b032dc221780f71e377",
@@ -20369,7 +21473,7 @@
     "numAchievements": 21,
     "numLeaderboards": 0,
     "points": 525,
-    "dateModified": "2022-12-02 16:55:20",
+    "dateModified": "2025-12-29 15:37:38",
     "forumTopicId": 7868,
     "hashes": [
       "4c56843db70cddec8bc5e63ba8b8bed4",
@@ -20462,7 +21566,7 @@
     "numAchievements": 30,
     "numLeaderboards": 0,
     "points": 300,
-    "dateModified": "2022-11-25 22:27:25",
+    "dateModified": "2025-09-06 22:03:57",
     "forumTopicId": 1361,
     "hashes": [
       "785abb3ad131709037671d302c2c130d",
@@ -20497,7 +21601,7 @@
     "numAchievements": 38,
     "numLeaderboards": 0,
     "points": 240,
-    "dateModified": "2024-08-27 13:03:21",
+    "dateModified": "2025-10-17 15:48:30",
     "forumTopicId": 26725,
     "hashes": [
       "38472922f5520c1a62cef0b291a0b9a9",
@@ -20559,7 +21663,7 @@
     "numAchievements": 19,
     "numLeaderboards": 0,
     "points": 210,
-    "dateModified": "2020-06-29 05:03:56",
+    "dateModified": "2025-11-08 19:03:24",
     "forumTopicId": 2639,
     "hashes": [
       "8eef8d42366abc43c0bbbc90bd0453df"
@@ -20618,14 +21722,15 @@
     "id": 14425,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/026587.png",
+    "imageIcon": "/Images/121405.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2026-01-20 05:29:07",
     "forumTopicId": 9184,
     "hashes": [
-      "a0fffec6c04845233b92524f6ab396b8"
+      "a0fffec6c04845233b92524f6ab396b8",
+      "918d86faa01eaf98e7a5da8e4b85c33f"
     ]
   },
   {
@@ -20651,7 +21756,7 @@
     "id": 4866,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/048423.png",
+    "imageIcon": "/Images/121445.png",
     "numAchievements": 43,
     "numLeaderboards": 0,
     "points": 410,
@@ -20687,7 +21792,7 @@
     "numAchievements": 44,
     "numLeaderboards": 0,
     "points": 300,
-    "dateModified": "2025-04-15 13:56:05",
+    "dateModified": "2025-12-05 07:03:43",
     "forumTopicId": 2216,
     "hashes": [
       "50d43061ae602102445a200f674378e8",
@@ -20696,18 +21801,19 @@
     ]
   },
   {
-    "title": "Dragon Ball: Revival of the Dark Lord",
+    "title": "Dragon Ball: Daimao Fukkatsu",
     "id": 5539,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/042744.png",
-    "numAchievements": 40,
+    "numAchievements": 41,
     "numLeaderboards": 0,
-    "points": 405,
-    "dateModified": "2025-06-20 21:09:05",
+    "points": 400,
+    "dateModified": "2026-01-14 13:52:56",
     "forumTopicId": 2221,
     "hashes": [
-      "44815abfadc2acf1546e1ff5b1c5cf56"
+      "44815abfadc2acf1546e1ff5b1c5cf56",
+      "603e5da6c292c5885ebc70e11c4cf5f4"
     ]
   },
   {
@@ -20789,7 +21895,8 @@
       "77b5548ac3aa59fe11f8cfac750faede",
       "e0413c76f69f5aca4a1f5336b86851b6",
       "e8382f82570bc616b0bcc02c843c1b79",
-      "e9bdb8adbc6e6eeffd2eb14ef8969e40"
+      "e9bdb8adbc6e6eeffd2eb14ef8969e40",
+      "fe6de71e47d7ebb24bb7b87ac70e461a"
     ]
   },
   {
@@ -20817,7 +21924,7 @@
     "numAchievements": 50,
     "numLeaderboards": 0,
     "points": 400,
-    "dateModified": "2024-07-17 03:55:37",
+    "dateModified": "2025-12-11 18:28:25",
     "forumTopicId": 3278,
     "hashes": [
       "16a03048ce659d3d733026b6b72f2470",
@@ -20975,11 +22082,11 @@
     "id": 1669,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/047156.png",
+    "imageIcon": "/Images/121810.png",
     "numAchievements": 31,
     "numLeaderboards": 3,
     "points": 256,
-    "dateModified": "2023-02-26 18:10:24",
+    "dateModified": "2025-11-19 22:07:43",
     "forumTopicId": 1637,
     "hashes": [
       "fa382374eb4a93a719064ca6c5a4e78c"
@@ -21009,7 +22116,7 @@
     "numAchievements": 74,
     "numLeaderboards": 2,
     "points": 750,
-    "dateModified": "2024-10-14 15:20:34",
+    "dateModified": "2025-11-20 10:23:54",
     "forumTopicId": 1379,
     "hashes": [
       "5b33eefa3b6a9b2cf0af0b8f65de52fb",
@@ -21057,7 +22164,7 @@
     "numAchievements": 32,
     "numLeaderboards": 0,
     "points": 325,
-    "dateModified": "2020-02-11 03:45:48",
+    "dateModified": "2026-01-28 10:38:21",
     "forumTopicId": 7622,
     "hashes": [
       "668f9649fe89ff30993e8a78313fb130"
@@ -21100,10 +22207,10 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/079668.png",
-    "numAchievements": 48,
+    "numAchievements": 47,
     "numLeaderboards": 0,
-    "points": 430,
-    "dateModified": "2024-04-15 03:00:17",
+    "points": 405,
+    "dateModified": "2025-12-18 04:49:25",
     "forumTopicId": 823,
     "hashes": [
       "7566deb93e107df478e47125bfd78ee3",
@@ -21286,10 +22393,10 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/099154.png",
-    "numAchievements": 30,
+    "numAchievements": 29,
     "numLeaderboards": 0,
-    "points": 186,
-    "dateModified": "2024-10-27 04:04:29",
+    "points": 176,
+    "dateModified": "2026-01-29 01:59:17",
     "forumTopicId": 27087,
     "hashes": [
       "186a5441980125aba8ed852da123adc9",
@@ -21301,7 +22408,7 @@
     "id": 12879,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/073150.png",
+    "imageIcon": "/Images/123485.png",
     "numAchievements": 63,
     "numLeaderboards": 0,
     "points": 335,
@@ -21320,7 +22427,7 @@
     "numAchievements": 17,
     "numLeaderboards": 11,
     "points": 260,
-    "dateModified": "2022-09-08 10:45:35",
+    "dateModified": "2025-11-23 07:32:15",
     "forumTopicId": 1789,
     "hashes": [
       "16c66d6ee6827ff49e3a2efbf4b66c5a",
@@ -22182,11 +23289,11 @@
     "id": 1681,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/012124.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "imageIcon": "/Images/118860.png",
+    "numAchievements": 30,
+    "numLeaderboards": 1,
+    "points": 300,
+    "dateModified": "2026-01-03 12:30:53",
     "forumTopicId": 6222,
     "hashes": [
       "7a01e068ab53e51b8da46db592a1fcf4"
@@ -22201,7 +23308,7 @@
     "numAchievements": 75,
     "numLeaderboards": 0,
     "points": 423,
-    "dateModified": "2024-07-10 13:34:04",
+    "dateModified": "2025-12-12 17:03:43",
     "forumTopicId": 1489,
     "hashes": [
       "28eb470f84bcd54320fa890003d26402",
@@ -22235,10 +23342,10 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/115901.png",
-    "numAchievements": 0,
+    "numAchievements": 55,
     "numLeaderboards": 16,
-    "points": 0,
-    "dateModified": "2025-08-10 15:54:18",
+    "points": 550,
+    "dateModified": "2025-10-05 10:32:40",
     "forumTopicId": 31674,
     "hashes": [
       "1221be996b62de20d847054cbbbc271b",
@@ -22314,7 +23421,7 @@
     "numAchievements": 40,
     "numLeaderboards": 1,
     "points": 360,
-    "dateModified": "2025-07-06 10:11:00",
+    "dateModified": "2025-10-14 17:04:39",
     "forumTopicId": 25564,
     "hashes": [
       "04865335bd8e715c873d69e0aee8de01",
@@ -22340,6 +23447,21 @@
     "forumTopicId": 25523,
     "hashes": [
       "4fa6ed34ab28b7a8b535a5fa7727c8f7"
+    ]
+  },
+  {
+    "title": "Final Fantasy [Subset - Low Level Game]",
+    "id": 35592,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/119736.png",
+    "numAchievements": 17,
+    "numLeaderboards": 9,
+    "points": 275,
+    "dateModified": "2025-12-04 00:19:50",
+    "forumTopicId": 32970,
+    "hashes": [
+      "9279b3a2d2f6c17b8d2160d82e621e36"
     ]
   },
   {
@@ -22505,14 +23627,15 @@
     "id": 5862,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122571.png",
     "numAchievements": 0,
-    "numLeaderboards": 0,
+    "numLeaderboards": 1,
     "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "dateModified": "2026-01-25 05:03:25",
+    "forumTopicId": 33846,
     "hashes": [
-      "c257141c5116d52f1d4a91427d502625"
+      "c257141c5116d52f1d4a91427d502625",
+      "0ba4a87a4920648109dd2d556f38827f"
     ]
   },
   {
@@ -22614,7 +23737,7 @@
     "numAchievements": 41,
     "numLeaderboards": 6,
     "points": 486,
-    "dateModified": "2024-10-19 14:10:07",
+    "dateModified": "2025-09-10 15:32:15",
     "forumTopicId": 22094,
     "hashes": [
       "7fd4cc955522077a250584575b529018",
@@ -22691,7 +23814,7 @@
     "numAchievements": 22,
     "numLeaderboards": 78,
     "points": 290,
-    "dateModified": "2023-06-12 01:32:11",
+    "dateModified": "2025-11-18 02:56:17",
     "forumTopicId": 4383,
     "hashes": [
       "79348bbb6ab1952c1c823bfb6b6eca76"
@@ -22898,7 +24021,7 @@
     "id": 1699,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/079170.png",
+    "imageIcon": "/Images/122487.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -23117,7 +24240,7 @@
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": null,
+    "dateModified": "2026-01-11 20:33:37",
     "forumTopicId": 11076,
     "hashes": [
       "831ea189e6ed48607b5ef5102de3b5d8"
@@ -23132,7 +24255,7 @@
     "numAchievements": 20,
     "numLeaderboards": 0,
     "points": 170,
-    "dateModified": "2025-08-27 19:16:25",
+    "dateModified": "2026-01-23 12:56:02",
     "forumTopicId": 6510,
     "hashes": [
       "48f36fe01dd20b84c7db17ca33ba03b8"
@@ -23201,7 +24324,7 @@
     ]
   },
   {
-    "title": "Gegege no Kitarou 2: Youkai Gundan no Chousen",
+    "title": "GeGeGe no Kitarou 2: Youkai Gundan no Chousen",
     "id": 5166,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
@@ -23362,7 +24485,7 @@
     "numAchievements": 26,
     "numLeaderboards": 0,
     "points": 555,
-    "dateModified": "2024-12-23 07:26:00",
+    "dateModified": "2026-01-20 02:09:36",
     "forumTopicId": 1274,
     "hashes": [
       "29cacd2e0a82fc2b4c9d2bf0e0468916",
@@ -23546,7 +24669,7 @@
     "numAchievements": 17,
     "numLeaderboards": 2,
     "points": 198,
-    "dateModified": "2024-08-28 01:00:14",
+    "dateModified": "2025-11-23 04:55:20",
     "forumTopicId": 5013,
     "hashes": [
       "7915989354f8b96e10aa4a6d0e163c55",
@@ -23916,7 +25039,7 @@
     "numAchievements": 16,
     "numLeaderboards": 0,
     "points": 340,
-    "dateModified": "2022-12-04 21:04:45",
+    "dateModified": "2025-09-30 20:19:23",
     "forumTopicId": 1478,
     "hashes": [
       "0665ae5c8f9897ff2d801dc2f53405ec",
@@ -23952,7 +25075,7 @@
     "numAchievements": 46,
     "numLeaderboards": 0,
     "points": 190,
-    "dateModified": "2022-07-26 04:55:45",
+    "dateModified": "2026-01-27 20:46:42",
     "forumTopicId": 1431,
     "hashes": [
       "5195d1381e082d307fe62aa4d73c488b"
@@ -23964,9 +25087,9 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/034697.png",
-    "numAchievements": 50,
+    "numAchievements": 49,
     "numLeaderboards": 2,
-    "points": 620,
+    "points": 595,
     "dateModified": "2024-07-29 22:32:16",
     "forumTopicId": 1348,
     "hashes": [
@@ -24249,7 +25372,7 @@
     "numAchievements": 37,
     "numLeaderboards": 0,
     "points": 326,
-    "dateModified": "2024-06-05 07:03:38",
+    "dateModified": "2026-01-28 16:51:52",
     "forumTopicId": 26182,
     "hashes": [
       "a3db96268386cc0efa66cc6e974a8f90",
@@ -24287,6 +25410,21 @@
     "hashes": [
       "56e7b7345ae95bb836b09d7a3130e58d",
       "b8e059610d47341cdda5d9d7a0cd370d"
+    ]
+  },
+  {
+    "title": "Hirake! Ponkikki",
+    "id": 8566,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/119136.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 3409,
+    "hashes": [
+      "049573f2ce35405638c4a1c603f7d5a4"
     ]
   },
   {
@@ -24416,10 +25554,10 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/060372.png",
-    "numAchievements": 59,
+    "numAchievements": 58,
     "numLeaderboards": 0,
-    "points": 381,
-    "dateModified": "2022-09-17 04:05:25",
+    "points": 380,
+    "dateModified": "2025-12-18 02:09:34",
     "forumTopicId": 17492,
     "hashes": [
       "e402788cc7aa56a74c7534d594b8ce51",
@@ -24499,7 +25637,7 @@
     "numAchievements": 28,
     "numLeaderboards": 0,
     "points": 310,
-    "dateModified": "2023-03-10 02:04:23",
+    "dateModified": "2026-01-15 13:01:32",
     "forumTopicId": 3800,
     "hashes": [
       "1befdff1268497c1b78a9b10e9ea1b01",
@@ -24650,21 +25788,6 @@
     ]
   },
   {
-    "title": "Huge Insect",
-    "id": 8506,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/038659.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": "2025-05-06 20:22:58",
-    "forumTopicId": 29775,
-    "hashes": [
-      "43f79df3bb48830a7073cf570b67daf1"
-    ]
-  },
-  {
     "title": "Hyakkiyagyou",
     "id": 6282,
     "consoleId": 7,
@@ -24812,7 +25935,7 @@
     "numAchievements": 21,
     "numLeaderboards": 6,
     "points": 230,
-    "dateModified": "2019-11-21 23:33:07",
+    "dateModified": "2025-09-30 20:22:53",
     "forumTopicId": 3591,
     "hashes": [
       "51be3c0db685f71f4a69c573345310a2"
@@ -24854,10 +25977,10 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/115605.png",
-    "numAchievements": 21,
+    "numAchievements": 19,
     "numLeaderboards": 0,
-    "points": 80,
-    "dateModified": "2024-05-22 01:14:53",
+    "points": 74,
+    "dateModified": "2025-09-17 14:57:25",
     "forumTopicId": 26449,
     "hashes": [
       "c4fa4cc1d11e0f70e7db04a30e18ddbd",
@@ -25114,7 +26237,7 @@
     "numAchievements": 16,
     "numLeaderboards": 0,
     "points": 150,
-    "dateModified": "2025-04-30 08:31:29",
+    "dateModified": "2026-01-25 05:16:59",
     "forumTopicId": 3793,
     "hashes": [
       "569bc88e7212672d045889526503a8e2",
@@ -25162,7 +26285,7 @@
     "numAchievements": 67,
     "numLeaderboards": 0,
     "points": 592,
-    "dateModified": "2024-12-17 15:38:59",
+    "dateModified": "2025-12-08 21:45:51",
     "forumTopicId": 4958,
     "hashes": [
       "cd28188ca6b0a4d1e7c34fa47285bec9"
@@ -25242,6 +26365,21 @@
     "forumTopicId": 5061,
     "hashes": [
       "c92a4fba5a8d328146e99402ff176735"
+    ]
+  },
+  {
+    "title": "J. League Super Top Players",
+    "id": 5774,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/077552.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "4325148b8f71d26dadfe9c0dc218babc"
     ]
   },
   {
@@ -25717,7 +26855,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "86dc38b22c2363178e5a0cd3d992b619"
+    ]
   },
   {
     "title": "Kaettekita! Gunjin Shougi: Nanya Sore",
@@ -25802,11 +26942,11 @@
     "id": 6424,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/113772.png",
+    "imageIcon": "/Images/117528.png",
     "numAchievements": 0,
-    "numLeaderboards": 1,
+    "numLeaderboards": 3,
     "points": 0,
-    "dateModified": "2025-08-24 20:46:23",
+    "dateModified": "2025-10-14 07:08:30",
     "forumTopicId": 31225,
     "hashes": [
       "be8808b4a5670e344689ef9ccd678f94"
@@ -25827,6 +26967,21 @@
       "4e7a2a1b2ec9606a35d77da78890152f",
       "9d7b08af2ae54671b2c634db4cbc81af",
       "d26e9dab1a15a6cf6dc4a5316da6cb32"
+    ]
+  },
+  {
+    "title": "Kalin no Tsurugi",
+    "id": 8752,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/024697.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 8720,
+    "hashes": [
+      "32cdbc21510eef9535e9302e8b6c5c5c"
     ]
   },
   {
@@ -25875,7 +27030,7 @@
     ]
   },
   {
-    "title": "Kamen Rider Club: Gekitotsu Shocker Land",
+    "title": "Kamen Rider Club",
     "id": 5201,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
@@ -25885,7 +27040,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "c2b895cf3839b7d7f48cbc40c6dce9f8"
+    ]
   },
   {
     "title": "Kamen Rider SD: Guranshokkaa no Yabou",
@@ -25968,7 +27125,7 @@
     "id": 1773,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/099525.png",
+    "imageIcon": "/Images/122792.png",
     "numAchievements": 14,
     "numLeaderboards": 1,
     "points": 119,
@@ -26013,7 +27170,7 @@
     "id": 26367,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120108.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -26133,7 +27290,7 @@
     "id": 4051,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/112159.png",
+    "imageIcon": "/Images/122411.png",
     "numAchievements": 37,
     "numLeaderboards": 1,
     "points": 202,
@@ -26208,6 +27365,41 @@
     ]
   },
   {
+    "title": "Kid Dracula",
+    "id": 2863,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/083727.png",
+    "numAchievements": 52,
+    "numLeaderboards": 0,
+    "points": 474,
+    "dateModified": "2025-12-15 15:41:11",
+    "forumTopicId": 3830,
+    "hashes": [
+      "1349d4dca5bdf2de21e10c316d3f7b47",
+      "3e2a5957af0c11994069201fd9de324d",
+      "5631eae8bc0845bb3b6876ad95832b4f",
+      "96084e640ed9a02c644b39986c269662",
+      "9a0012b3bbfcaba3ef7730a4ca6c8b3d",
+      "c68fa81d7cc3cc8a66c1f6391a385037"
+    ]
+  },
+  {
+    "title": "Kid Dracula [Subset - Bonus]",
+    "id": 1510,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/105479.png",
+    "numAchievements": 14,
+    "numLeaderboards": 0,
+    "points": 450,
+    "dateModified": "2021-12-02 21:17:21",
+    "forumTopicId": 5392,
+    "hashes": [
+      "1cbb2d6903fc0188426f08bb1c0be925"
+    ]
+  },
+  {
     "title": "Kid Icarus",
     "id": 1478,
     "consoleId": 7,
@@ -26229,7 +27421,7 @@
     ]
   },
   {
-    "title": "Kid Klown in Night Mayor World | Mickey Mouse III: Yume Fuusen",
+    "title": "Kid Klown in Night Mayor World",
     "id": 1778,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
@@ -26296,6 +27488,21 @@
     ]
   },
   {
+    "title": "Kieta Princess (FDS)",
+    "id": 36419,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "07d6bf1266db5de287f3a8c0168321af"
+    ]
+  },
+  {
     "title": "KiKi KaiKai: Dotou-hen (FDS)",
     "id": 14088,
     "consoleId": 7,
@@ -26351,7 +27558,7 @@
     "numAchievements": 17,
     "numLeaderboards": 0,
     "points": 360,
-    "dateModified": "2023-03-10 02:25:05",
+    "dateModified": "2025-12-22 00:37:27",
     "forumTopicId": 5977,
     "hashes": [
       "2a9e90b76233cfd148fed0e8eb2ebcdc",
@@ -26429,7 +27636,7 @@
     "numAchievements": 60,
     "numLeaderboards": 39,
     "points": 492,
-    "dateModified": "2025-04-05 14:53:17",
+    "dateModified": "2025-11-07 14:31:05",
     "forumTopicId": 598,
     "hashes": [
       "09e21386297efe7e4bfd717b9c6a697d",
@@ -26727,7 +27934,7 @@
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/111254.png",
     "numAchievements": 66,
-    "numLeaderboards": 0,
+    "numLeaderboards": 13,
     "points": 703,
     "dateModified": "2025-08-14 00:58:09",
     "forumTopicId": 1359,
@@ -26928,10 +28135,10 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/071131.png",
-    "numAchievements": 73,
+    "numAchievements": 72,
     "numLeaderboards": 0,
-    "points": 359,
-    "dateModified": "2025-08-20 01:32:56",
+    "points": 354,
+    "dateModified": "2026-01-13 01:23:00",
     "forumTopicId": 13516,
     "hashes": [
       "5184d4316f858a52b091869f46fe1a95",
@@ -27153,7 +28360,7 @@
     ]
   },
   {
-    "title": "Life Force: Salamander",
+    "title": "Life Force",
     "id": 1800,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
@@ -27165,21 +28372,6 @@
     "forumTopicId": 6941,
     "hashes": [
       "99bfd6d0ff53d78e5126d274a0605d30"
-    ]
-  },
-  {
-    "title": "Linus Spacehead's Cosmic Crusade",
-    "id": 6147,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/009864.png",
-    "numAchievements": 56,
-    "numLeaderboards": 0,
-    "points": 420,
-    "dateModified": "2019-07-05 21:22:39",
-    "forumTopicId": 4204,
-    "hashes": [
-      "2fadc729157eb5e282abc59d1ced75ce"
     ]
   },
   {
@@ -27409,7 +28601,7 @@
     "numAchievements": 55,
     "numLeaderboards": 0,
     "points": 485,
-    "dateModified": "2024-04-18 14:09:58",
+    "dateModified": "2025-11-15 05:36:11",
     "forumTopicId": 1207,
     "hashes": [
       "0256e02693147fad9383190528ff0576",
@@ -27422,7 +28614,7 @@
     "id": 5536,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/078484.png",
+    "imageIcon": "/Images/120365.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -27455,7 +28647,7 @@
     "id": 4630,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/071167.png",
+    "imageIcon": "/Images/120854.png",
     "numAchievements": 39,
     "numLeaderboards": 0,
     "points": 211,
@@ -27551,7 +28743,7 @@
     "numAchievements": 52,
     "numLeaderboards": 0,
     "points": 674,
-    "dateModified": "2023-03-09 17:07:45",
+    "dateModified": "2025-12-14 04:57:16",
     "forumTopicId": 1542,
     "hashes": [
       "560d31ce9c7ef5f905e26351df48ee62"
@@ -27566,7 +28758,7 @@
     "numAchievements": 21,
     "numLeaderboards": 4,
     "points": 235,
-    "dateModified": "2024-12-14 19:05:16",
+    "dateModified": "2025-10-15 00:04:00",
     "forumTopicId": 4854,
     "hashes": [
       "8ef1b34b31f5ae79e3a62ceaebcf80b5",
@@ -27729,15 +28921,15 @@
     ]
   },
   {
-    "title": "Majou Densetsu II: Daimashikyou Galious | Maze of Galious",
+    "title": "Majou Densetsu II: Daimashikyou Galious",
     "id": 5944,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/117089.png",
-    "numAchievements": 60,
+    "numAchievements": 59,
     "numLeaderboards": 0,
-    "points": 435,
-    "dateModified": "2020-11-23 01:18:20",
+    "points": 430,
+    "dateModified": "2025-09-01 15:58:04",
     "forumTopicId": 2741,
     "hashes": [
       "0490289d181e004d5fa0193af893ef96",
@@ -27769,11 +28961,26 @@
     "numAchievements": 36,
     "numLeaderboards": 0,
     "points": 290,
-    "dateModified": "2021-10-13 03:44:16",
+    "dateModified": "2025-12-14 15:37:38",
     "forumTopicId": 2264,
     "hashes": [
       "2717773e0fe484f15ea0fe679606d03a",
       "3905799e081b80a61d4460b7b733c206"
+    ]
+  },
+  {
+    "title": "Maniac Mansion (Japan)",
+    "id": 36550,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "979a6297c0a6a83dfadd327157715b9a"
     ]
   },
   {
@@ -27817,7 +29024,7 @@
     "numAchievements": 35,
     "numLeaderboards": 1,
     "points": 220,
-    "dateModified": "2025-08-30 16:32:23",
+    "dateModified": "2025-09-03 03:55:29",
     "forumTopicId": 2867,
     "hashes": [
       "c6e0793a6053685e2af1934588268bae"
@@ -27837,6 +29044,21 @@
     "hashes": [
       "5d50d8f9cf3d6d311a2ac7f010d83be0",
       "81706abdae6d1d11b0c8986fc4383ec0"
+    ]
+  },
+  {
+    "title": "Märchen Veil (FDS)",
+    "id": 6071,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "d68f0e208820424009e05b0b9b255f8f"
     ]
   },
   {
@@ -27860,7 +29082,7 @@
     "id": 1825,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/082621.png",
+    "imageIcon": "/Images/120958.png",
     "numAchievements": 50,
     "numLeaderboards": 1,
     "points": 196,
@@ -27985,7 +29207,7 @@
     "numAchievements": 23,
     "numLeaderboards": 0,
     "points": 250,
-    "dateModified": "2022-04-24 01:40:01",
+    "dateModified": "2025-10-25 18:24:05",
     "forumTopicId": 12634,
     "hashes": [
       "63d7bd4604203f833c64e0df7b2af949"
@@ -28000,7 +29222,7 @@
     "numAchievements": 50,
     "numLeaderboards": 2,
     "points": 490,
-    "dateModified": "2024-05-01 15:12:43",
+    "dateModified": "2025-12-31 20:46:05",
     "forumTopicId": 363,
     "hashes": [
       "4de82cfceadbf1a5e693b669b1221107",
@@ -28042,11 +29264,11 @@
     ]
   },
   {
-    "title": "Mega Man 2 [Subset - Bonus]",
+    "title": "Mega Man 2 [Subset - Glitch Showcase]",
     "id": 6900,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/053768.png",
+    "imageIcon": "/Images/122149.png",
     "numAchievements": 21,
     "numLeaderboards": 0,
     "points": 235,
@@ -28065,7 +29287,7 @@
     "numAchievements": 83,
     "numLeaderboards": 1,
     "points": 850,
-    "dateModified": "2022-07-25 08:55:57",
+    "dateModified": "2025-12-22 00:52:45",
     "forumTopicId": 303,
     "hashes": [
       "4a53b6f58067d62c9a43404fe835dd5c"
@@ -28120,7 +29342,7 @@
     "numAchievements": 92,
     "numLeaderboards": 0,
     "points": 725,
-    "dateModified": "2025-02-01 14:55:32",
+    "dateModified": "2025-11-01 22:36:05",
     "forumTopicId": 448,
     "hashes": [
       "00f8cbeba7db567d1083053b30a93ada",
@@ -28327,11 +29549,11 @@
     "id": 1832,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/064808.png",
+    "imageIcon": "/Images/120558.png",
     "numAchievements": 31,
     "numLeaderboards": 0,
     "points": 700,
-    "dateModified": "2024-04-15 15:11:31",
+    "dateModified": "2025-11-22 14:17:32",
     "forumTopicId": 2592,
     "hashes": [
       "45182c822f8b2977ead7b81e76f2fea8",
@@ -28347,7 +29569,7 @@
     "numAchievements": 16,
     "numLeaderboards": 1,
     "points": 227,
-    "dateModified": "2024-09-18 21:41:31",
+    "dateModified": "2025-09-08 20:20:34",
     "forumTopicId": 23493,
     "hashes": [
       "107d74939c40ebeb2823f96277792b8e",
@@ -28424,7 +29646,7 @@
     "numAchievements": 30,
     "numLeaderboards": 5,
     "points": 250,
-    "dateModified": "2021-08-29 22:14:18",
+    "dateModified": "2025-10-11 22:18:03",
     "forumTopicId": 1453,
     "hashes": [
       "1fd59d969af9352f228aac968636850a"
@@ -28508,6 +29730,37 @@
     ]
   },
   {
+    "title": "Mike Tyson's Punch-Out!!",
+    "id": 1489,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/112224.png",
+    "numAchievements": 28,
+    "numLeaderboards": 14,
+    "points": 536,
+    "dateModified": "2022-11-01 03:56:20",
+    "forumTopicId": 639,
+    "hashes": [
+      "1ddde6a84e43ad524a3f81fbfe22f9fc",
+      "5bc7fac06e58fda15fd981fd03572c34"
+    ]
+  },
+  {
+    "title": "Mike Tyson's Punch-Out!! [Subset - Bonus]",
+    "id": 17378,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/070130.png",
+    "numAchievements": 33,
+    "numLeaderboards": 17,
+    "points": 1375,
+    "dateModified": "2025-08-20 06:30:05",
+    "forumTopicId": 12230,
+    "hashes": [
+      "ea57d53f19de1a72e8d2b628115c00cf"
+    ]
+  },
+  {
     "title": "Millipede",
     "id": 1839,
     "consoleId": 7,
@@ -28531,7 +29784,7 @@
     "numAchievements": 47,
     "numLeaderboards": 3,
     "points": 538,
-    "dateModified": "2023-11-18 01:14:27",
+    "dateModified": "2025-12-11 05:11:00",
     "forumTopicId": 4140,
     "hashes": [
       "7f8bd1e9672f46a4963021db30eef623",
@@ -28714,7 +29967,7 @@
     "numAchievements": 35,
     "numLeaderboards": 57,
     "points": 380,
-    "dateModified": "2023-09-17 18:51:22",
+    "dateModified": "2025-11-23 07:00:17",
     "forumTopicId": 3848,
     "hashes": [
       "5dc6f19bee7a713018fe9c747f05c317",
@@ -29256,6 +30509,22 @@
     ]
   },
   {
+    "title": "Namco Classic II",
+    "id": 36915,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "7fe97fc2f596222eba5879264f8e60ba",
+      "cbf7c562e02d6a2fbe056d97836bb6f4"
+    ]
+  },
+  {
     "title": "Namcot Mahjong III: Mahjong Tengoku",
     "id": 8130,
     "consoleId": 7,
@@ -29399,7 +30668,7 @@
     "numAchievements": 42,
     "numLeaderboards": 6,
     "points": 527,
-    "dateModified": "2025-01-13 23:34:02",
+    "dateModified": "2025-11-04 00:27:16",
     "forumTopicId": 6152,
     "hashes": [
       "7f8cfaabad4d624ab348807ec84da4d3"
@@ -29429,7 +30698,7 @@
     "numAchievements": 40,
     "numLeaderboards": 9,
     "points": 320,
-    "dateModified": "2022-11-24 12:24:18",
+    "dateModified": "2025-11-30 10:04:48",
     "forumTopicId": 2037,
     "hashes": [
       "2f45a3bdcb0f77348e7429b19b30815e",
@@ -29549,10 +30818,10 @@
     "id": 1859,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/014949.png",
-    "numAchievements": 36,
+    "imageIcon": "/Images/120891.png",
+    "numAchievements": 35,
     "numLeaderboards": 2,
-    "points": 550,
+    "points": 525,
     "dateModified": "2024-12-18 17:51:09",
     "forumTopicId": 669,
     "hashes": [
@@ -29608,11 +30877,11 @@
     "id": 1857,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/072186.png",
+    "imageIcon": "/Images/120887.png",
     "numAchievements": 59,
     "numLeaderboards": 18,
     "points": 535,
-    "dateModified": "2024-07-04 06:03:49",
+    "dateModified": "2025-09-13 17:23:22",
     "forumTopicId": 1362,
     "hashes": [
       "2ec92e60e033b4d8aa5caa6b1f7838b5",
@@ -29624,7 +30893,7 @@
     "id": 1858,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/033108.png",
+    "imageIcon": "/Images/120888.png",
     "numAchievements": 37,
     "numLeaderboards": 3,
     "points": 500,
@@ -29658,7 +30927,7 @@
     "numAchievements": 35,
     "numLeaderboards": 1,
     "points": 385,
-    "dateModified": "2024-03-29 16:32:01",
+    "dateModified": "2025-12-19 10:10:05",
     "forumTopicId": 4812,
     "hashes": [
       "2f09d15bc558fb08f14eb0c071886ce5",
@@ -29806,6 +31075,21 @@
     "forumTopicId": null,
     "hashes": [
       "2391e4e11a70eed46a64e95a725b2128"
+    ]
+  },
+  {
+    "title": "Nintendo Campus Challenge 1991",
+    "id": 37263,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "3d69de457f1280d5a3fd2d65afb99902"
     ]
   },
   {
@@ -30021,6 +31305,21 @@
     ]
   },
   {
+    "title": "Omoikkiri Tanteidan HaadoGumi: Matenrou no Chousenjou (FDS)",
+    "id": 36890,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "6609ce22490e93c1a953f4fd940779a0"
+    ]
+  },
+  {
     "title": "Onyanko Town",
     "id": 4760,
     "consoleId": 7,
@@ -30225,7 +31524,7 @@
     "numAchievements": 12,
     "numLeaderboards": 2,
     "points": 140,
-    "dateModified": "2024-08-15 16:06:26",
+    "dateModified": "2025-09-30 20:14:56",
     "forumTopicId": 293,
     "hashes": [
       "10a12b5840a13e8f3a61885c44bf3b8d",
@@ -30660,7 +31959,7 @@
     "numAchievements": 11,
     "numLeaderboards": 0,
     "points": 58,
-    "dateModified": "2024-07-16 09:06:57",
+    "dateModified": "2025-11-10 20:10:20",
     "forumTopicId": 16224,
     "hashes": [
       "908c10a68cfe39c4d9eeeb20bf1c8e66"
@@ -30691,7 +31990,7 @@
     "numAchievements": 21,
     "numLeaderboards": 2,
     "points": 375,
-    "dateModified": "2024-12-14 05:49:15",
+    "dateModified": "2025-10-29 14:05:05",
     "forumTopicId": 1795,
     "hashes": [
       "4380e5b9edab63b677a6dfa11a39ec71",
@@ -30751,7 +32050,7 @@
     "id": 4680,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/052580.png",
+    "imageIcon": "/Images/123878.png",
     "numAchievements": 9,
     "numLeaderboards": 0,
     "points": 50,
@@ -30828,7 +32127,7 @@
     "id": 4762,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/019641.png",
+    "imageIcon": "/Images/121733.png",
     "numAchievements": 19,
     "numLeaderboards": 0,
     "points": 185,
@@ -30974,7 +32273,7 @@
     "numAchievements": 96,
     "numLeaderboards": 18,
     "points": 1090,
-    "dateModified": "2024-04-12 12:51:35",
+    "dateModified": "2025-12-19 20:51:36",
     "forumTopicId": 4382,
     "hashes": [
       "1301601a5dd8685c7c0bc753741c0a60",
@@ -31047,37 +32346,6 @@
     ]
   },
   {
-    "title": "Punch-Out!! | Mike Tyson's Punch-Out!!",
-    "id": 1489,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/112224.png",
-    "numAchievements": 28,
-    "numLeaderboards": 14,
-    "points": 536,
-    "dateModified": "2022-11-01 03:56:20",
-    "forumTopicId": 639,
-    "hashes": [
-      "1ddde6a84e43ad524a3f81fbfe22f9fc",
-      "5bc7fac06e58fda15fd981fd03572c34"
-    ]
-  },
-  {
-    "title": "Punch-Out!! | Mike Tyson's Punch-Out!! [Subset - Bonus]",
-    "id": 17378,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/070130.png",
-    "numAchievements": 33,
-    "numLeaderboards": 17,
-    "points": 1375,
-    "dateModified": "2025-08-20 06:30:05",
-    "forumTopicId": 12230,
-    "hashes": [
-      "ea57d53f19de1a72e8d2b628115c00cf"
-    ]
-  },
-  {
     "title": "Puss 'n Boots: Pero's Great Adventure",
     "id": 1890,
     "consoleId": 7,
@@ -31116,7 +32384,7 @@
     "numAchievements": 61,
     "numLeaderboards": 0,
     "points": 450,
-    "dateModified": "2021-03-15 06:03:30",
+    "dateModified": "2025-11-16 15:42:41",
     "forumTopicId": 4935,
     "hashes": [
       "ad39378d171c633f2b20b8de89953299",
@@ -31132,7 +32400,7 @@
     "numAchievements": 19,
     "numLeaderboards": 3,
     "points": 205,
-    "dateModified": "2025-07-25 16:21:09",
+    "dateModified": "2025-10-13 05:02:52",
     "forumTopicId": 30838,
     "hashes": [
       "04de971fa984af0afa01bb503d53c90e"
@@ -31193,7 +32461,7 @@
     "numAchievements": 27,
     "numLeaderboards": 1,
     "points": 564,
-    "dateModified": "2022-08-17 16:21:38",
+    "dateModified": "2026-01-18 20:29:57",
     "forumTopicId": 5538,
     "hashes": [
       "a6e95134bd85284b40ccef28ce038cb6"
@@ -31208,7 +32476,7 @@
     "numAchievements": 19,
     "numLeaderboards": 2,
     "points": 280,
-    "dateModified": "2025-08-27 20:49:43",
+    "dateModified": "2025-09-24 11:49:42",
     "forumTopicId": 27244,
     "hashes": [
       "40089153660f092b5cbb6e204efce1b7"
@@ -31401,6 +32669,22 @@
     ]
   },
   {
+    "title": "Radia Senki: Reimei Hen",
+    "id": 7161,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/017766.png",
+    "numAchievements": 55,
+    "numLeaderboards": 0,
+    "points": 550,
+    "dateModified": "2024-04-12 22:22:49",
+    "forumTopicId": 14848,
+    "hashes": [
+      "d8cb72cc00c627b8262d3897bbeea7d6",
+      "f520d2c3cf075a7421efc134ac3dbaee"
+    ]
+  },
+  {
     "title": "Raid on Bungeling Bay",
     "id": 1901,
     "consoleId": 7,
@@ -31516,7 +32800,7 @@
     "numAchievements": 31,
     "numLeaderboards": 0,
     "points": 318,
-    "dateModified": "2025-02-26 07:40:26",
+    "dateModified": "2025-10-15 18:59:41",
     "forumTopicId": 29712,
     "hashes": [
       "ecbe58e2ce9b56192fbddcc694a050df",
@@ -31699,11 +32983,11 @@
     "id": 1913,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/071585.png",
+    "imageIcon": "/Images/123101.png",
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 300,
-    "dateModified": "2025-02-16 14:02:45",
+    "dateModified": "2025-12-20 02:11:17",
     "forumTopicId": 3380,
     "hashes": [
       "4a6f495b8138edfe6d91c5fab01981f2",
@@ -31736,7 +33020,7 @@
     "numAchievements": 30,
     "numLeaderboards": 1,
     "points": 370,
-    "dateModified": "2021-03-19 00:14:27",
+    "dateModified": "2025-11-16 21:23:02",
     "forumTopicId": 1122,
     "hashes": [
       "4d95586eac0286d269875ebcf864a1e0",
@@ -31830,7 +33114,7 @@
     "numAchievements": 28,
     "numLeaderboards": 0,
     "points": 375,
-    "dateModified": "2022-12-01 01:54:09",
+    "dateModified": "2025-12-17 14:37:40",
     "forumTopicId": 351,
     "hashes": [
       "89eed34ca4a758a5e6c1187907638957",
@@ -31850,8 +33134,7 @@
     "dateModified": "2025-08-12 05:05:55",
     "forumTopicId": 1435,
     "hashes": [
-      "0de9520f38cd7b1e59cc285ad57c3852",
-      "17f9fd7dc35ae7125da454e8813e0dfb"
+      "0de9520f38cd7b1e59cc285ad57c3852"
     ]
   },
   {
@@ -32127,11 +33410,11 @@
     "id": 8420,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/026435.png",
-    "numAchievements": 33,
+    "imageIcon": "/Images/120503.png",
+    "numAchievements": 27,
     "numLeaderboards": 0,
-    "points": 375,
-    "dateModified": "2020-08-11 05:08:31",
+    "points": 360,
+    "dateModified": "2025-11-10 17:50:21",
     "forumTopicId": 4180,
     "hashes": [
       "2c85dedefc8dd7b49b80774de9793506",
@@ -32275,6 +33558,21 @@
     ]
   },
   {
+    "title": "Sanrio Carnival 2",
+    "id": 36239,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "321e6ef450596c37f459d010a09f1d85"
+    ]
+  },
+  {
     "title": "Sanrio Cup: Pon Pon Volley",
     "id": 28231,
     "consoleId": 7,
@@ -32385,7 +33683,7 @@
     "id": 5835,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/120418.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -32423,6 +33721,21 @@
     "forumTopicId": null,
     "hashes": [
       "ce12f4652902eee796ff441886d489e0"
+    ]
+  },
+  {
+    "title": "SD Gundam: Gundam Wars",
+    "id": 36413,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a25762b36a09e0b1d9b32527ebe4f226"
     ]
   },
   {
@@ -32468,21 +33781,6 @@
     "forumTopicId": null,
     "hashes": [
       "76cc3754f5defefb2d69e368a209f22d"
-    ]
-  },
-  {
-    "title": "Secret Ties",
-    "id": 1931,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/077956.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 6432,
-    "hashes": [
-      "b1be5852fc442bf021c4e0c8b9313383"
     ]
   },
   {
@@ -32581,11 +33879,11 @@
     "id": 1934,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/012971.png",
-    "numAchievements": 0,
+    "imageIcon": "/Images/122037.png",
+    "numAchievements": 14,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "points": 18,
+    "dateModified": "2026-01-09 22:41:00",
     "forumTopicId": 6454,
     "hashes": [
       "3f071c7839c4b04200ad0a4ee73bf44c"
@@ -32597,28 +33895,13 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/012975.png",
-    "numAchievements": 0,
+    "numAchievements": 13,
     "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "points": 18,
+    "dateModified": "2026-01-01 01:06:28",
     "forumTopicId": 5765,
     "hashes": [
       "80e32bc85e8eb415ad309dc2cb4fb2c2"
-    ]
-  },
-  {
-    "title": "Sesame Street: ABC & 123",
-    "id": 1936,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/012981.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "5642d0a0cb95178f7ca20dcf22bc79ec"
     ]
   },
   {
@@ -32626,7 +33909,7 @@
     "id": 1937,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/012968.png",
+    "imageIcon": "/Images/122964.png",
     "numAchievements": 9,
     "numLeaderboards": 0,
     "points": 17,
@@ -32641,11 +33924,11 @@
     "id": 1938,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/012980.png",
+    "imageIcon": "/Images/120211.png",
     "numAchievements": 30,
     "numLeaderboards": 2,
     "points": 50,
-    "dateModified": "2023-10-08 19:52:02",
+    "dateModified": "2025-12-29 09:19:28",
     "forumTopicId": 6455,
     "hashes": [
       "7f0aa12ef5d1d71af69b06d22fbcbbf1"
@@ -32687,7 +33970,7 @@
     "id": 1499,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/064492.png",
+    "imageIcon": "/Images/118806.png",
     "numAchievements": 42,
     "numLeaderboards": 0,
     "points": 250,
@@ -32775,6 +34058,36 @@
     "forumTopicId": null,
     "hashes": [
       "0ab6201ae5de837f2733bdecd6ee0ec6"
+    ]
+  },
+  {
+    "title": "Shikinjou",
+    "id": 36466,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "170d954e740d63b36c7fa3a5f720e954"
+    ]
+  },
+  {
+    "title": "Shin 4-nin Uchi Mahjong: Yakuman Tengoku",
+    "id": 36401,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f39dd1891d5d291e012081d2b4558f46"
     ]
   },
   {
@@ -32998,7 +34311,7 @@
     "numAchievements": 30,
     "numLeaderboards": 3,
     "points": 430,
-    "dateModified": "2022-11-24 07:45:41",
+    "dateModified": "2025-12-06 15:58:16",
     "forumTopicId": 1406,
     "hashes": [
       "f3595d596860683d9680ff3fc071da02"
@@ -33115,7 +34428,7 @@
     "id": 1955,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/064410.png",
+    "imageIcon": "/Images/120706.png",
     "numAchievements": 17,
     "numLeaderboards": 0,
     "points": 290,
@@ -33134,7 +34447,7 @@
     "numAchievements": 60,
     "numLeaderboards": 27,
     "points": 535,
-    "dateModified": "2020-12-05 09:41:45",
+    "dateModified": "2025-11-16 01:09:03",
     "forumTopicId": 8127,
     "hashes": [
       "4d9a6662fd870a684b327046d0f13c60"
@@ -33198,7 +34511,7 @@
     "numAchievements": 79,
     "numLeaderboards": 1,
     "points": 600,
-    "dateModified": "2024-11-23 19:41:05",
+    "dateModified": "2025-12-22 01:16:33",
     "forumTopicId": 3941,
     "hashes": [
       "c381ae61ca0f76cbc68f9f6b71afe140",
@@ -33214,7 +34527,7 @@
     "numAchievements": 9,
     "numLeaderboards": 3,
     "points": 145,
-    "dateModified": "2024-07-01 06:23:24",
+    "dateModified": "2025-12-03 15:36:06",
     "forumTopicId": 13980,
     "hashes": [
       "037c53f87685b83b26ee4ccf17808e09",
@@ -33230,7 +34543,7 @@
     "numAchievements": 57,
     "numLeaderboards": 12,
     "points": 750,
-    "dateModified": "2022-12-14 02:46:33",
+    "dateModified": "2025-12-15 11:48:35",
     "forumTopicId": 2135,
     "hashes": [
       "3d675e5adfa038f68598b9f4d1a37a80",
@@ -33443,15 +34756,15 @@
     "id": 5097,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/037633.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "imageIcon": "/Images/121767.png",
+    "numAchievements": 50,
+    "numLeaderboards": 3,
+    "points": 437,
+    "dateModified": "2026-01-20 22:58:48",
     "forumTopicId": 31961,
     "hashes": [
-      "ee459e3ce100a862ff1949ce5b6d972b",
-      "f49fa32d46fde0234f81c5d7094f1ca6"
+      "f49fa32d46fde0234f81c5d7094f1ca6",
+      "9599e442b8eb56e05a3020e5580cb533"
     ]
   },
   {
@@ -33478,7 +34791,7 @@
     "numAchievements": 20,
     "numLeaderboards": 0,
     "points": 250,
-    "dateModified": "2025-05-26 06:23:30",
+    "dateModified": "2025-10-19 01:47:37",
     "forumTopicId": 548,
     "hashes": [
       "344983217736f662273a549919efddb8",
@@ -33541,7 +34854,7 @@
     "numAchievements": 23,
     "numLeaderboards": 1,
     "points": 325,
-    "dateModified": "2024-10-19 22:09:42",
+    "dateModified": "2025-12-02 16:15:58",
     "forumTopicId": 3016,
     "hashes": [
       "06b338db2f3cb88b2161506ef360ab28",
@@ -33709,7 +35022,7 @@
     "numAchievements": 36,
     "numLeaderboards": 0,
     "points": 292,
-    "dateModified": "2025-08-30 21:05:48",
+    "dateModified": "2025-09-08 13:01:09",
     "forumTopicId": 6240,
     "hashes": [
       "25496df74d7e25bb0daff1adcc40cadc"
@@ -33845,7 +35158,7 @@
     "numAchievements": 28,
     "numLeaderboards": 1,
     "points": 290,
-    "dateModified": "2025-01-03 10:58:11",
+    "dateModified": "2026-01-27 18:55:32",
     "forumTopicId": 3501,
     "hashes": [
       "810937940f2e94a2cd77795b30b5eb06"
@@ -33887,7 +35200,7 @@
     "id": 1988,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/019823.png",
+    "imageIcon": "/Images/122186.png",
     "numAchievements": 25,
     "numLeaderboards": 0,
     "points": 235,
@@ -33895,21 +35208,6 @@
     "forumTopicId": 3974,
     "hashes": [
       "12fce6abd0531a9f9a4c2bfbcca124fb"
-    ]
-  },
-  {
-    "title": "Stunt Kids",
-    "id": 7135,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/013591.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "4f48777cbf4712ee5a948007a7416da0"
     ]
   },
   {
@@ -34057,7 +35355,7 @@
     "numAchievements": 43,
     "numLeaderboards": 2,
     "points": 602,
-    "dateModified": "2023-02-01 01:11:16",
+    "dateModified": "2025-10-08 23:51:32",
     "forumTopicId": 1068,
     "hashes": [
       "09f9031593acd27681562ca016bfd286",
@@ -34164,7 +35462,7 @@
     "numAchievements": 77,
     "numLeaderboards": 38,
     "points": 775,
-    "dateModified": "2025-08-25 21:33:47",
+    "dateModified": "2025-11-21 01:50:02",
     "forumTopicId": 282,
     "hashes": [
       "0e2be2324567ecbc373d9ef562dac8b9",
@@ -34244,7 +35542,7 @@
     "numAchievements": 91,
     "numLeaderboards": 0,
     "points": 881,
-    "dateModified": "2024-09-07 02:20:46",
+    "dateModified": "2026-01-15 12:48:23",
     "forumTopicId": 1856,
     "hashes": [
       "7f38210a8a2befb8d347523b4ff6ae7c"
@@ -34255,11 +35553,11 @@
     "id": 1995,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/047650.png",
-    "numAchievements": 52,
+    "imageIcon": "/Images/120885.png",
+    "numAchievements": 89,
     "numLeaderboards": 91,
-    "points": 518,
-    "dateModified": "2025-08-18 16:46:57",
+    "points": 1003,
+    "dateModified": "2026-01-20 02:32:34",
     "forumTopicId": 369,
     "hashes": [
       "55b7111567c1709e849c574078699577",
@@ -34342,21 +35640,6 @@
     "forumTopicId": null,
     "hashes": [
       "d0f392901e4885b61ad9f64da58d5dd7"
-    ]
-  },
-  {
-    "title": "Super Robin Hood",
-    "id": 5426,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/055513.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
-    "hashes": [
-      "78b620c48a32e1b7184147a5d8bdd1d9"
     ]
   },
   {
@@ -34563,7 +35846,7 @@
     "id": 2002,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/004194.png",
+    "imageIcon": "/Images/123058.png",
     "numAchievements": 17,
     "numLeaderboards": 0,
     "points": 170,
@@ -34576,26 +35859,11 @@
     ]
   },
   {
-    "title": "Sword of Kalin | Kalin no Tsurugi (FDS)",
-    "id": 8752,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/024697.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": 8720,
-    "hashes": [
-      "32cdbc21510eef9535e9302e8b6c5c5c"
-    ]
-  },
-  {
     "title": "Swords and Serpents",
     "id": 2003,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/107455.png",
+    "imageIcon": "/Images/122039.png",
     "numAchievements": 46,
     "numLeaderboards": 0,
     "points": 167,
@@ -34738,8 +36006,8 @@
     "imageIcon": "/Images/051868.png",
     "numAchievements": 46,
     "numLeaderboards": 1,
-    "points": 435,
-    "dateModified": "2024-08-03 02:32:25",
+    "points": 460,
+    "dateModified": "2025-12-11 21:37:58",
     "forumTopicId": 14704,
     "hashes": [
       "2c22f510f0561f442ba0e282c6940832",
@@ -34934,12 +36202,12 @@
     "id": 2010,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/013115.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/121632.png",
+    "numAchievements": 18,
+    "numLeaderboards": 2,
+    "points": 131,
+    "dateModified": "2025-12-18 08:28:58",
+    "forumTopicId": 33465,
     "hashes": [
       "1713e526eeaefe4c8940c856b7e3e04e"
     ]
@@ -35010,11 +36278,11 @@
     "id": 21446,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/063287.png",
+    "imageIcon": "/Images/120904.png",
     "numAchievements": 67,
     "numLeaderboards": 4,
     "points": 480,
-    "dateModified": "2024-07-27 19:15:34",
+    "dateModified": "2026-01-28 21:47:25",
     "forumTopicId": 18725,
     "hashes": [
       "ed7a1a12f557ff5c6376defc7d4dc637"
@@ -35055,7 +36323,7 @@
     "id": 2014,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/058924.png",
+    "imageIcon": "/Images/117653.png",
     "numAchievements": 130,
     "numLeaderboards": 128,
     "points": 1099,
@@ -35104,7 +36372,7 @@
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 245,
-    "dateModified": "2024-08-10 03:54:47",
+    "dateModified": "2025-11-17 02:22:00",
     "forumTopicId": 1102,
     "hashes": [
       "2dddc2cae0a7fe890235aef72a9a86ae",
@@ -35137,7 +36405,7 @@
     "numAchievements": 30,
     "numLeaderboards": 0,
     "points": 415,
-    "dateModified": "2024-12-14 18:34:04",
+    "dateModified": "2025-11-22 00:25:08",
     "forumTopicId": 1222,
     "hashes": [
       "9fd8e7b96ba577536aa7af9a442f3da6",
@@ -35212,7 +36480,7 @@
     "id": 6784,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/122896.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -35231,7 +36499,7 @@
     "numAchievements": 15,
     "numLeaderboards": 0,
     "points": 170,
-    "dateModified": "2020-06-24 15:15:47",
+    "dateModified": "2025-12-05 17:43:44",
     "forumTopicId": 2911,
     "hashes": [
       "44445b7f581f1bc30045196ced9db7f4",
@@ -35270,6 +36538,22 @@
     ]
   },
   {
+    "title": "Tetris",
+    "id": 2022,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/064350.png",
+    "numAchievements": 37,
+    "numLeaderboards": 9,
+    "points": 480,
+    "dateModified": "2024-12-14 08:34:34",
+    "forumTopicId": 478,
+    "hashes": [
+      "339d790c0c4d7b3e2bf2931b435bec02",
+      "5b0e571558c8c796937b96af469561c6"
+    ]
+  },
+  {
     "title": "Tetris (BPS)",
     "id": 2021,
     "consoleId": 7,
@@ -35286,22 +36570,6 @@
     ]
   },
   {
-    "title": "Tetris (Nintendo)",
-    "id": 2022,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/064350.png",
-    "numAchievements": 37,
-    "numLeaderboards": 9,
-    "points": 480,
-    "dateModified": "2024-12-14 08:34:34",
-    "forumTopicId": 478,
-    "hashes": [
-      "339d790c0c4d7b3e2bf2931b435bec02",
-      "5b0e571558c8c796937b96af469561c6"
-    ]
-  },
-  {
     "title": "Tetris (Nintendo) [Subset - Master]",
     "id": 34489,
     "consoleId": 7,
@@ -35314,22 +36582,6 @@
     "forumTopicId": 31994,
     "hashes": [
       "4ef1a460a9356e63477e5538760e0a62"
-    ]
-  },
-  {
-    "title": "Tetris (Tengen)",
-    "id": 2023,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/105570.png",
-    "numAchievements": 51,
-    "numLeaderboards": 12,
-    "points": 850,
-    "dateModified": "2023-06-12 19:02:50",
-    "forumTopicId": 3882,
-    "hashes": [
-      "117c38986584c88263414b7abb98667c",
-      "940de0f2258763abd113924e4cc02e5c"
     ]
   },
   {
@@ -35428,7 +36680,7 @@
     "id": 1528,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/047626.png",
+    "imageIcon": "/Images/120005.png",
     "numAchievements": 50,
     "numLeaderboards": 2,
     "points": 785,
@@ -35596,7 +36848,7 @@
     "id": 1596,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/054193.png",
+    "imageIcon": "/Images/122702.png",
     "numAchievements": 80,
     "numLeaderboards": 33,
     "points": 500,
@@ -35627,29 +36879,15 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/071751.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
+    "numAchievements": 29,
+    "numLeaderboards": 1,
+    "points": 88,
+    "dateModified": "2026-01-23 06:20:30",
     "forumTopicId": 12110,
     "hashes": [
       "3f9505d68d90b2e1429690c659b25e15",
-      "812fd2e1a6b18c50325e995db546074e"
-    ]
-  },
-  {
-    "title": "The Fantastic Adventures of Dizzy",
-    "id": 4616,
-    "consoleId": 7,
-    "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/024223.png",
-    "numAchievements": 72,
-    "numLeaderboards": 0,
-    "points": 667,
-    "dateModified": "2022-11-21 04:18:08",
-    "forumTopicId": 7102,
-    "hashes": [
-      "8c8e0f565257835befb2fd727049b413"
+      "812fd2e1a6b18c50325e995db546074e",
+      "8811159378c17ffebe9b1fe3252ae886"
     ]
   },
   {
@@ -35678,7 +36916,7 @@
     "numAchievements": 45,
     "numLeaderboards": 0,
     "points": 495,
-    "dateModified": "2025-05-03 19:35:53",
+    "dateModified": "2025-11-20 19:39:21",
     "forumTopicId": 4677,
     "hashes": [
       "56ca85a5e49cafd91050afec60c10713"
@@ -35845,7 +37083,7 @@
     "numAchievements": 37,
     "numLeaderboards": 0,
     "points": 445,
-    "dateModified": "2020-07-22 03:29:07",
+    "dateModified": "2025-11-20 20:06:00",
     "forumTopicId": 3734,
     "hashes": [
       "36108cbd6c4bc09aa39f6eb9dc72150a",
@@ -35955,7 +37193,7 @@
     "numAchievements": 69,
     "numLeaderboards": 4,
     "points": 800,
-    "dateModified": "2025-02-23 12:07:16",
+    "dateModified": "2025-10-31 02:05:57",
     "forumTopicId": 335,
     "hashes": [
       "078fec49cb744846855594e3775dc8ed",
@@ -35986,18 +37224,34 @@
     ]
   },
   {
+    "title": "The Legend of Zelda [Subset - Low%]",
+    "id": 35912,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/119846.png",
+    "numAchievements": 18,
+    "numLeaderboards": 0,
+    "points": 308,
+    "dateModified": "2025-11-05 19:14:38",
+    "forumTopicId": 33051,
+    "hashes": [
+      "689eee6bb07bdca77ed7d1ebe90f26c3"
+    ]
+  },
+  {
     "title": "The Legend of Zelda 2: Link no Bouken (FDS)",
     "id": 6962,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/117408.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
     "dateModified": null,
-    "forumTopicId": null,
+    "forumTopicId": 33057,
     "hashes": [
-      "acccc53b0fbd387bdf40c8d7ed5cadc0"
+      "acccc53b0fbd387bdf40c8d7ed5cadc0",
+      "e16495e3c8f726dcafa8e2ec0cd46507"
     ]
   },
   {
@@ -36211,7 +37465,7 @@
     "numAchievements": 43,
     "numLeaderboards": 0,
     "points": 391,
-    "dateModified": "2024-06-25 18:07:13",
+    "dateModified": "2026-01-01 05:18:45",
     "forumTopicId": 7603,
     "hashes": [
       "c510177d6bde87f2aa00dfcc3de9f825"
@@ -36226,7 +37480,7 @@
     "numAchievements": 39,
     "numLeaderboards": 1,
     "points": 310,
-    "dateModified": "2025-08-29 03:27:34",
+    "dateModified": "2025-09-10 01:55:05",
     "forumTopicId": 4976,
     "hashes": [
       "394c0aa89801b02a1d0591412ed6d971"
@@ -36267,12 +37521,12 @@
     "id": 2025,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/011203.png",
+    "imageIcon": "/Images/122090.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
-    "dateModified": "2018-08-25 14:48:15",
-    "forumTopicId": null,
+    "dateModified": "2026-01-11 13:49:47",
+    "forumTopicId": 33542,
     "hashes": [
       "c88a679db40a606f93edb697c9422cc2"
     ]
@@ -36316,7 +37570,7 @@
     "numAchievements": 17,
     "numLeaderboards": 0,
     "points": 200,
-    "dateModified": "2025-06-08 20:33:54",
+    "dateModified": "2025-11-19 05:47:25",
     "forumTopicId": 12487,
     "hashes": [
       "1c890ba198df5082fa320a362f04af5e"
@@ -36504,7 +37758,7 @@
     "numAchievements": 54,
     "numLeaderboards": 31,
     "points": 531,
-    "dateModified": "2024-12-15 00:46:57",
+    "dateModified": "2025-11-21 00:43:53",
     "forumTopicId": 597,
     "hashes": [
       "8096446843cd4086be31e5dc097d6049",
@@ -36559,7 +37813,22 @@
     ]
   },
   {
-    "title": "TM Network - Live in Power Bowl",
+    "title": "Titanic Mystery: Ao no Senritsu (FDS)",
+    "id": 36889,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "089d20e91e17a0c9c1871cad1a7bb0f4"
+    ]
+  },
+  {
+    "title": "TM Network: Live in Power Bowl",
     "id": 6909,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
@@ -36623,7 +37892,7 @@
     "id": 16385,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/035247.png",
+    "imageIcon": "/Images/117157.png",
     "numAchievements": 29,
     "numLeaderboards": 3,
     "points": 590,
@@ -36686,7 +37955,7 @@
     "id": 2036,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/013178.png",
+    "imageIcon": "/Images/120321.png",
     "numAchievements": 19,
     "numLeaderboards": 0,
     "points": 80,
@@ -36702,10 +37971,10 @@
     "consoleId": 7,
     "consoleName": "NES/Famicom",
     "imageIcon": "/Images/072200.png",
-    "numAchievements": 18,
+    "numAchievements": 16,
     "numLeaderboards": 1,
-    "points": 336,
-    "dateModified": "2023-03-10 03:33:57",
+    "points": 330,
+    "dateModified": "2025-10-06 01:53:32",
     "forumTopicId": 4724,
     "hashes": [
       "019214d25e5b2b340e2270bdeab5b520",
@@ -36715,11 +37984,11 @@
     ]
   },
   {
-    "title": "Top Gun - The Second Mission",
+    "title": "Top Gun: The Second Mission",
     "id": 2038,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/077771.png",
+    "imageIcon": "/Images/121594.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -36764,7 +38033,7 @@
     "id": 2040,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/109990.png",
+    "imageIcon": "/Images/122791.png",
     "numAchievements": 25,
     "numLeaderboards": 2,
     "points": 225,
@@ -37124,7 +38393,7 @@
     "numAchievements": 70,
     "numLeaderboards": 0,
     "points": 574,
-    "dateModified": "2025-02-09 18:13:01",
+    "dateModified": "2025-10-10 11:33:15",
     "forumTopicId": 9693,
     "hashes": [
       "61bb41bb32659344ad7b67073d773dca",
@@ -37193,6 +38462,21 @@
     ]
   },
   {
+    "title": "Ultraman 2: Shutsugeki Katokutai (FDS)",
+    "id": 36888,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "f4eb6d2e54b67a85d8e0957103b7fbe7"
+    ]
+  },
+  {
     "title": "Ultraman Club 2: Kaettekita Ultraman Club",
     "id": 7234,
     "consoleId": 7,
@@ -37235,6 +38519,21 @@
     "forumTopicId": 28667,
     "hashes": [
       "84e7650f632437116022ac181ef28510"
+    ]
+  },
+  {
+    "title": "Ultraman Club: Supokon Fight!",
+    "id": 36414,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "26813ff55ea0a421b1e1bb0eed480bdf"
     ]
   },
   {
@@ -37292,7 +38591,7 @@
     "numAchievements": 47,
     "numLeaderboards": 0,
     "points": 185,
-    "dateModified": "2025-04-18 03:22:39",
+    "dateModified": "2025-11-17 10:13:27",
     "forumTopicId": 1240,
     "hashes": [
       "cb7f1463c90cdcdf5ef315c125f12fe2"
@@ -37533,7 +38832,7 @@
     "id": 2062,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/050157.png",
+    "imageIcon": "/Images/122806.png",
     "numAchievements": 24,
     "numLeaderboards": 0,
     "points": 170,
@@ -37623,6 +38922,21 @@
     ]
   },
   {
+    "title": "Wardner no Mori (FDS)",
+    "id": 10975,
+    "consoleId": 7,
+    "consoleName": "NES/Famicom",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "a8c72c53db21604dc94d1988c2179095"
+    ]
+  },
+  {
     "title": "Wario's Woods",
     "id": 2064,
     "consoleId": 7,
@@ -37642,7 +38956,7 @@
     "id": 4770,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/013859.png",
+    "imageIcon": "/Images/118222.png",
     "numAchievements": 20,
     "numLeaderboards": 1,
     "points": 405,
@@ -37706,7 +39020,7 @@
     "numAchievements": 27,
     "numLeaderboards": 0,
     "points": 450,
-    "dateModified": "2024-09-03 00:29:32",
+    "dateModified": "2025-09-28 19:04:22",
     "forumTopicId": 3401,
     "hashes": [
       "8fc182dc7847bf0b2c5dbf4da47146b1",
@@ -37737,7 +39051,7 @@
     "numAchievements": 26,
     "numLeaderboards": 1,
     "points": 87,
-    "dateModified": "2024-12-04 02:13:11",
+    "dateModified": "2025-12-16 22:42:56",
     "forumTopicId": 20540,
     "hashes": [
       "7a29ad976584c822833c6c673934ab30"
@@ -37881,7 +39195,7 @@
     ]
   },
   {
-    "title": "Wily and Light no Rockboard: That's Paradise",
+    "title": "Wily & Right no RockBoard: That's Paradise",
     "id": 5230,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
@@ -38199,7 +39513,7 @@
     "numAchievements": 28,
     "numLeaderboards": 0,
     "points": 340,
-    "dateModified": "2021-10-28 22:20:39",
+    "dateModified": "2025-09-19 15:23:36",
     "forumTopicId": 4982,
     "hashes": [
       "611220fab4f1ef19c1ef8e76dc82502a",
@@ -38275,7 +39589,7 @@
     "numAchievements": 50,
     "numLeaderboards": 7,
     "points": 650,
-    "dateModified": "2023-05-05 21:33:39",
+    "dateModified": "2025-08-31 07:58:59",
     "forumTopicId": 2866,
     "hashes": [
       "5729506cd87f3abf093c44dd6b5a6619",
@@ -38442,7 +39756,7 @@
     "id": 5950,
     "consoleId": 7,
     "consoleName": "NES/Famicom",
-    "imageIcon": "/Images/100661.png",
+    "imageIcon": "/Images/119918.png",
     "numAchievements": 41,
     "numLeaderboards": 13,
     "points": 250,
@@ -38553,7 +39867,7 @@
     "numAchievements": 37,
     "numLeaderboards": 2,
     "points": 575,
-    "dateModified": "2025-04-01 21:10:10",
+    "dateModified": "2025-09-25 20:13:16",
     "forumTopicId": 854,
     "hashes": [
       "049e3f53884ea5650d1dbf43751ea965"
@@ -38594,8 +39908,8 @@
     "imageIcon": "/Images/069649.png",
     "numAchievements": 51,
     "numLeaderboards": 4,
-    "points": 1250,
-    "dateModified": "2025-08-29 11:12:20",
+    "points": 1200,
+    "dateModified": "2025-10-07 02:09:28",
     "forumTopicId": 20726,
     "hashes": [
       "abc9f94f97c712b22bcdd2c04ac9ecb8"

@@ -34,12 +34,12 @@
     "id": 20045,
     "consoleId": 23,
     "consoleName": "Magnavox Odyssey 2",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/121431.png",
+    "numAchievements": 9,
+    "numLeaderboards": 2,
+    "points": 84,
+    "dateModified": "2025-12-11 04:53:17",
+    "forumTopicId": 33500,
     "hashes": [
       "262eb2a2a228c9d5877af6acc13b6cec"
     ]
@@ -308,12 +308,12 @@
     "id": 16959,
     "consoleId": 23,
     "consoleName": "Magnavox Odyssey 2",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/118353.png",
+    "numAchievements": 10,
+    "numLeaderboards": 8,
+    "points": 94,
+    "dateModified": "2025-09-24 21:19:54",
+    "forumTopicId": 32382,
     "hashes": [
       "7d23df55dfaca55bc4c87677855f4a45"
     ]
@@ -373,7 +373,7 @@
     "numAchievements": 16,
     "numLeaderboards": 3,
     "points": 186,
-    "dateModified": "2025-07-23 22:07:29",
+    "dateModified": "2026-01-26 03:00:10",
     "forumTopicId": 20561,
     "hashes": [
       "16652634e75560dc830a0c38d7fe1711"
@@ -539,12 +539,12 @@
     "id": 16963,
     "consoleId": 23,
     "consoleName": "Magnavox Odyssey 2",
-    "imageIcon": "/Images/000001.png",
-    "numAchievements": 0,
-    "numLeaderboards": 0,
-    "points": 0,
-    "dateModified": null,
-    "forumTopicId": null,
+    "imageIcon": "/Images/119313.png",
+    "numAchievements": 11,
+    "numLeaderboards": 4,
+    "points": 143,
+    "dateModified": "2025-10-20 12:24:06",
+    "forumTopicId": 32855,
     "hashes": [
       "ef55af1c7164948a245eeb71f804bed8"
     ]
@@ -850,7 +850,7 @@
     "numAchievements": 11,
     "numLeaderboards": 2,
     "points": 36,
-    "dateModified": "2025-04-09 21:35:31",
+    "dateModified": "2025-09-16 20:10:51",
     "forumTopicId": 30461,
     "hashes": [
       "98b2ed525aa9c060e8be6c6210d16e41"
@@ -1035,7 +1035,6 @@
     "dateModified": "2024-04-26 07:15:51",
     "forumTopicId": 26106,
     "hashes": [
-      "a7bfd5fa3233a3df36742a368736727d",
       "ed77beeb30711f8ee03a23a4577f403a"
     ]
   },

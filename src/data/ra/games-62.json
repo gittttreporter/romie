@@ -4,7 +4,7 @@
     "id": 5208,
     "consoleId": 62,
     "consoleName": "Nintendo 3DS",
-    "imageIcon": "/Images/000001.png",
+    "imageIcon": "/Images/123014.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -875,7 +875,7 @@
     "id": 5370,
     "consoleId": 62,
     "consoleName": "Nintendo 3DS",
-    "imageIcon": "/Images/091502.png",
+    "imageIcon": "/Images/117160.png",
     "numAchievements": 0,
     "numLeaderboards": 0,
     "points": 0,
@@ -923,6 +923,21 @@
     "hashes": []
   },
   {
+    "title": "Senran Kagura 2 - Deep Crimson",
+    "id": 34775,
+    "consoleId": 62,
+    "consoleName": "Nintendo 3DS",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": null,
+    "hashes": [
+      "af51adeddd7989dd0c7e3428f080fc5e"
+    ]
+  },
+  {
     "title": "Shantae and the Pirate's Curse",
     "id": 9853,
     "consoleId": 62,
@@ -946,7 +961,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "06990701f83a7af6cc3ebc4cda5843d0"
+    ]
   },
   {
     "title": "Shin Megami Tensei IV: Apocalypse",
@@ -1011,7 +1028,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "1e5e31bf83814990a120437ada05b304"
+    ]
   },
   {
     "title": "Steel Diver",
@@ -1167,7 +1186,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "ac8db2d608a6e5dd9ef915888fd7f44b"
+    ]
   },
   {
     "title": "The Legend of Zelda: Majora's Mask 3D",
@@ -1248,7 +1269,7 @@
     "hashes": []
   },
   {
-    "title": "Yumi's Odd Odyssey | Sayonara Umihara Kawase",
+    "title": "Yumi's Odd Odyssey",
     "id": 5320,
     "consoleId": 62,
     "consoleName": "Nintendo 3DS",
@@ -1271,7 +1292,9 @@
     "points": 0,
     "dateModified": null,
     "forumTopicId": null,
-    "hashes": []
+    "hashes": [
+      "f72e73f3758c7344afa4b58d0fb6cb37"
+    ]
   },
   {
     "title": "Zero Time Dilemma",
