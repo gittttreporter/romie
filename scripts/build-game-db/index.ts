@@ -12,8 +12,9 @@ import fs from 'fs';
 import path from 'path';
 import 'dotenv/config';
 import { type GameList } from '@retroachievements/api';
-import { fetchSystems, fetchGamesForSystem } from './gameFetch';
+import { fetchGamesForSystem } from './gameFetch';
 import { createGamesHashMap } from './gameHash';
+import { RA_SYSTEMS } from '../../src/utils/systems';
 
 const { log } = console;
 const DATA_DIR = 'src/data/ra';
@@ -25,15 +26,14 @@ if (!fs.existsSync(DATA_DIR)) {
 
 async function buildGameDatabase() {
   log('[BUILD] Starting game hash database build...');
-  const systems = await fetchSystems();
   const games: GameList = [];
-  log(`[BUILD] Found ${systems.length} system(s) to process}`);
+  log(`[BUILD] Processing ${RA_SYSTEMS.length} systems`);
 
-  // Sequentially fetch game data for all systems. This is intentionally not parallel
+  // Sequentially fetch game data for supported systems. This is intentionally not parallel
   // in order to reduce concurrent load on RA. I'm trying to avoid being blocked.
-  for (const [index, system] of systems.entries()) {
-    log(`[${index + 1}/${systems.length}] Processing: ${system.name} (ID: ${system.id})`);
-    const gamesForSystem = await fetchGamesForSystem(system.id);
+  for (const [index, system] of RA_SYSTEMS.entries()) {
+    log(`[${index + 1}/${RA_SYSTEMS.length}] Processing: ${system.code} (ID: ${system.consoleId})`);
+    const gamesForSystem = await fetchGamesForSystem(system.consoleId);
     games.push(...gamesForSystem);
   }
 

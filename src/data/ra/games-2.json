@@ -288,6 +288,21 @@
     ]
   },
   {
+    "title": "~Hack~ Auri's Amazing Arch Adventure",
+    "id": 37954,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 34228,
+    "hashes": [
+      "1c79946027716f0e20e132e4fe3d589f"
+    ]
+  },
+  {
     "title": "~Hack~ B3313",
     "id": 17500,
     "consoleId": 2,
@@ -872,6 +887,21 @@
     "forumTopicId": 33309,
     "hashes": [
       "d6dfc46c0cd78a658e04ebcb0fce54ff"
+    ]
+  },
+  {
+    "title": "~Hack~ Despair Mario's Gambit: Hint Arts",
+    "id": 37955,
+    "consoleId": 2,
+    "consoleName": "Nintendo 64",
+    "imageIcon": "/Images/000001.png",
+    "numAchievements": 0,
+    "numLeaderboards": 0,
+    "points": 0,
+    "dateModified": null,
+    "forumTopicId": 34229,
+    "hashes": [
+      "4d018f3c633f14c3df36f28d6a8784d3"
     ]
   },
   {

@@ -9,7 +9,7 @@ interface RASystemMapping {
   code: SystemCode; // Internal system code
 }
 
-const RA_SYSTEMS: RASystemMapping[] = [
+export const RA_SYSTEMS: RASystemMapping[] = [
   { consoleId: 1, code: 'genesis' }, // MEGA_DRIVE
   { consoleId: 2, code: 'n64' }, // NINTENDO_64
   { consoleId: 3, code: 'snes' }, // SUPER_NINTENDO
