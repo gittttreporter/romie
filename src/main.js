@@ -35,8 +35,6 @@ const createWindow = () => {
     y: windowState.bounds.y,
     minWidth: 900,
     minHeight: 480,
-    // Remove the window frame
-    frame: false,
     // Hide the title bar but keep traffic lights on MacOS
     titleBarStyle: process.platform === 'darwin' ? 'hidden' : 'default',
     // Hide the menu bar in windows and linux
