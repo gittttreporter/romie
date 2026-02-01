@@ -129,6 +129,16 @@ import { useToast } from 'primevue/usetoast';
 import { useRomStore } from '@/stores';
 import AppToolbar from '@/components/AppToolbar.vue';
 import { getSystemDisplayName } from '@/utils/systems';
+import {
+  byQuery,
+  bySystems,
+  byRegions,
+  byAchievements,
+  byAvailability,
+  combineFilters,
+  type AchievementFilter,
+  type AvailabilityFilter,
+} from '@/utils/romFilters';
 
 import type { Rom } from '@/types/rom';
 import type { SystemCode } from '@/types/system';
@@ -143,10 +153,10 @@ const toast = useToast();
 const romStore = useRomStore();
 const searchQuery = ref('');
 const showFilters = ref(false);
-const filterBySystem = ref([]);
-const filterByRegion = ref([]);
-const filterByRA = ref(null);
-const filterByAvailability = ref<string | null>(null);
+const filterBySystem = ref<string[]>([]);
+const filterByRegion = ref<string[]>([]);
+const filterByRA = ref<AchievementFilter>(null);
+const filterByAvailability = ref<AvailabilityFilter>(null);
 
 const unavailableRoms = computed(() => romStore.roms.filter((rom) => !rom.filePathExists));
 const unavailableCount = computed(() => unavailableRoms.value.length);
@@ -212,38 +222,19 @@ const sortedRoms = computed(() => {
 });
 
 const filteredRoms = computed(() => {
-  const query = searchQuery.value.toLowerCase().trim();
-  const selectedRegions = filterByRegion.value;
-  const selectedSystems = filterBySystem.value;
+  const predicate = combineFilters(
+    byQuery(searchQuery.value.trim()),
+    bySystems(filterBySystem.value),
+    byRegions(filterByRegion.value),
+    byAchievements(filterByRA.value),
+    byAvailability(filterByAvailability.value)
+  );
+
   let size = 0;
-
   const roms = sortedRoms.value.filter((rom) => {
-    const { displayName, system, region } = rom;
-
-    const hasSystemMatch =
-      !selectedSystems?.length || selectedSystems.some((value) => value === system);
-    const hasRegionMatch =
-      !selectedRegions?.length || selectedRegions.some((value) => value === region);
-    const hasQueryMatch = !query || displayName.toLowerCase().includes(query);
-    const hasRAMatch =
-      !filterByRA.value ||
-      (filterByRA.value === 'has-achievements' && (rom.numAchievements ?? 0) > 0) ||
-      (filterByRA.value === 'no-achievements' &&
-        rom.verified &&
-        (rom.numAchievements ?? 0) === 0) ||
-      (filterByRA.value === 'unverified' && !rom.verified);
-    const hasAvailabilityMatch =
-      !filterByAvailability.value ||
-      (filterByAvailability.value === 'unavailable' && !rom.filePathExists) ||
-      (filterByAvailability.value === 'available' && rom.filePathExists);
-    const shouldInclude =
-      hasSystemMatch && hasRegionMatch && hasQueryMatch && hasRAMatch && hasAvailabilityMatch;
-
-    if (shouldInclude) {
-      size += rom.size ?? 0;
-    }
-
-    return shouldInclude;
+    const matches = predicate(rom);
+    if (matches) size += rom.size ?? 0;
+    return matches;
   });
 
   return { roms, size };
