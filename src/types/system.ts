@@ -7,6 +7,7 @@ export const SYSTEM_CODES = [
   'gbc',
   'gba',
   'nds',
+  'ndsi',
   'ngp',
   'genesis',
   'sms',
