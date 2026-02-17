@@ -40,7 +40,7 @@ Each handheld operating system organizes ROMs differently. ROMie uses device pro
 
 - **macOS**: Download the `.zip` file
 - **Windows**: Download the `.exe` file
-- **Linux**: Download the `.deb` file (x64 and ARM64) - [Flatpak coming soon](https://github.com/jzimz/romie/issues/41)
+- **Linux**: Download the `.deb`, `.rpm`, `.appimage` file (x64 and ARM64) - [Flatpak coming soon](https://github.com/jzimz/romie/issues/41)
 
 ## Roadmap & Issues
 
