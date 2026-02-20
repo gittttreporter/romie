@@ -222,7 +222,7 @@ export const SYSTEM_REGISTRY: Partial<Record<SystemCode, SystemInfo>> = {
     displayName: 'Arcade',
     fullName: 'Arcade (MAME)',
     type: 'arcade',
-    extensions: ['.zip'],
+    extensions: ['.bin', '.zip'],
     aliases: [
       'arcade',
       'mame',
