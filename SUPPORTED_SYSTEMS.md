@@ -47,8 +47,6 @@ This saves storage space while maintaining compatibility with most emulators tha
 
 **PlayStation (PSX)** is temporarily unsupported due to multi-disc game complexity. [Track progress →](https://github.com/JZimz/romie/issues/4)
 
-**Nintendo DS** games work for syncing but cannot be verified for RetroAchievements progress. [Track progress →](https://github.com/JZimz/romie/issues/28)
-
 ## Missing a System?
 
 Don't see your favorite gaming system listed? [Open an issue](https://github.com/jzimz/romie/issues) and let me know what you'd like added.

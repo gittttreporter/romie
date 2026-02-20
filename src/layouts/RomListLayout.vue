@@ -292,6 +292,10 @@ function getUniqueRomValues<T extends keyof Rom>(field: T) {
     display: flex;
     align-items: center;
     gap: 8px;
+
+    :deep(.p-inputicon) {
+      z-index: calc(var(--z-index-ui-elements) + 1);
+    }
   }
 
   &__filters {

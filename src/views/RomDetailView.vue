@@ -296,6 +296,7 @@ function formatDatetime(ts: number): string {
 
   &__card {
     height: 100%;
+    overflow-y: auto;
   }
 
   &__subtitle {

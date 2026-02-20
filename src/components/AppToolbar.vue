@@ -161,5 +161,10 @@ function handleRemoveUnavailable() {
     -webkit-app-region: no-drag;
     position: relative;
   }
+
+  /* Icon needs to be above the input within IconField */
+  :deep(.p-inputicon) {
+    z-index: calc(var(--z-index-ui-elements) + 1);
+  }
 }
 </style>
