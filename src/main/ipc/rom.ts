@@ -2,6 +2,7 @@ import { ipcMain } from 'electron';
 import { scanRomDirectory } from '@main/roms/romService';
 import { listRoms, removeRomById, getRomStats, updateRom } from '@main/roms/romDatabase';
 import { checkRomAvailability } from '@main/roms/romValidation';
+import type { Rom } from '@/types/rom';
 
 export function registerRomIpc() {
   ipcMain.handle('rom:scan', scanRomDirectory);
